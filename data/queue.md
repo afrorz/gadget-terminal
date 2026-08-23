@@ -58,14 +58,9 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
-- [2026-08-24] https://www.makuake.com/project/calorc1/ 超ミニAndroid TV「CaloR C1」。約300g・4インチ、ブラウン管風の外観。深圳市新复古未来科技有限公司の製品を XAVIER TECHNOLOGY が正規代理店として国内展開。価格帯は35,980〜43,980円（2026-08-22時点で主要リターンは完売表示）、締切2026-09-29。目標20万円。**数字は記事化時に必ず取り直すこと**（Makuakeの金額はJS描画でHTMLに無い。ブラウザ相当の取得が要る）。
-
-  > レトロデザインなのに機能がたくさん。デザインもかわいいし、机の上に置いておきたい。
-
-  切り口: この案件は**Makuake経由で日本で買える**ので「買えるか」は論点にならない。代わりに**技適**を主軸にする。Wi-Fi/Bluetooth搭載機を日本国内で使うには技術基準適合証明が必要だが、**2026-08-22時点でプロジェクトページに技適の記載が見当たらない**。ただし**「技適が無い」と断定してはいけない** —— 記載が見当たらないだけで、取得済みだが未記載の可能性がある。「ページ上で確認できない」という事実だけを書き、読者には実行者への確認を促す形にする。あわせて、代理店経由の海外製品を応援購入するとはどういうことか（サポート窓口・保証・技適の責任の所在）を具体的に書く。
-
 ## 処理済み
 
+- 2026-08-24 https://www.makuake.com/project/calorc1/ → content/posts/2026-08-24-calor-c1-makuake.md
 - 2026-08-23 https://www.indiegogo.com/projects/hoverair/versa-this-pocket-camera-can-fly → content/posts/2026-08-23-hoverair-versa-indiegogo.md
 - 2026-08-23 https://www.kickstarter.com/projects/litejam/litejam-neo-a1-the-worlds-first-rgb-acoustic-guitar → content/posts/2026-08-23-litejam-neo-acoustic-a1.md
 
