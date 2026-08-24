@@ -143,6 +143,8 @@ jobs:
                Kickstarter の場合、HTML 内に埋め込まれた JSON（実体参照 `&quot;` で
                エスケープされている）に正確な値がある。使えるキー:
                  goal / pledged / backers_count / state / deadline / currency / country
+               - **`currency` を必ず読む。USD とは限らない。**（実測例: Nimbo X1 は
+                 香港のプロジェクトで HKD 建て）。確認せず「$」を付けると金額が数倍ずれる
                - deadline は UNIX 時刻（秒）。JST に直して「◯月◯日まで」と書く
                - state が "live" でなければ募集は終了している。その事実を記事に必ず書く
                - 達成率は pledged ÷ goal。**取得時点の値であることを明記する**

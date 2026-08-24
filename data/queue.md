@@ -58,6 +58,10 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
+- https://www.kickstarter.com/projects/nimbopearl/nimbo-x1-worlds-lightest-sic-color-display-ar-glasses Nimbo X1。49gのARグラス、SiC（炭化ケイ素）導波路＋Micro LEDでフルカラー表示、Open SDK・AI翻訳・GPS。2026-08-23時点で**HK$242,777**／目標HK$80,000（303%）・23人、締切2026-09-18。香港のプロジェクトで**HKD建て（USDではない）**。記事化時に数値を取り直すこと。
+
+  切り口:（1）**「世界最軽量」はメーカーの主張**なので、そのまま事実として書かない。「〜と称している」の形にし、比較対象（XREAL・Rokid・VITURE等の重量）を並べて読者が判断できるようにする。（2）**技適**。Bluetooth/Wi-Fi/GPSを積むので日本国内で使うには技術基準適合証明が要る。ページに記載があるか確認し、無ければ「確認できない」とだけ書く（断定しない）。（3）ARグラスは**視度調整・度付きレンズ**の可否が実用上の分かれ目なので、対応の有無を必ず書く。alternatives には国内で技適取得済みのXREAL等を。
+
 ## 処理済み
 
 - 2026-08-24 https://www.makuake.com/project/calorc1/ → content/posts/2026-08-24-calor-c1-makuake.md
