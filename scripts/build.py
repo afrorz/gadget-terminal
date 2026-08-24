@@ -257,7 +257,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        <a href="{u("feed.xml")}">RSS</a><a href="{u("about.html")}">運営・免責</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        <a href="{u("feed.xml")}">RSS</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -662,6 +662,108 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     )
 
 
+def render_privacy(site: dict) -> str:
+    """プライバシーポリシー。
+
+    参加しているアフィリエイトプログラムは config から組み立てる。
+    **手で書くと、提携が増減したときに嘘になる。** 提携していないプログラムを
+    「参加しています」と書くのは規約違反にもなるため、設定を唯一の情報源にする。
+    """
+    s = site["site"]
+    aff = s.get("affiliate", {}) or {}
+    programs = []
+    if aff.get("enabled"):
+        for key, label in (("moshimo_amazon", "Amazon.co.jp"),
+                           ("moshimo_rakuten", "楽天市場"),
+                           ("moshimo_yahoo", "Yahoo!ショッピング")):
+            if str(aff.get(key) or "").strip():
+                programs.append(f"{label}（もしもアフィリエイト経由）")
+
+    if programs:
+        aff_block = (
+            "<p>本サイトは以下のアフィリエイトプログラムに参加しており、"
+            "商品リンク経由での購入によって紹介料を得ることがあります。</p>"
+            "<ul>" + "".join(f"<li>{html.escape(x)}</li>" for x in programs) + "</ul>"
+            "<p>アフィリエイトリンクを含む記事には、記事上部にその旨を表示します。"
+            "リンクをクリックすると、成果を測定するために各プログラムの Cookie が"
+            "お使いのブラウザに保存されることがあります。この Cookie は購入の成否を"
+            "計測する目的にのみ使われ、当サイトが内容を参照することはありません。</p>"
+            "<p><strong>紹介料の有無は、掲載する製品の選定や評価に影響しません。</strong>"
+            "取り上げる製品は編集方針に従って選び、提携の有無で扱いを変えることはしません。</p>")
+        if str(aff.get("moshimo_amazon") or "").strip():
+            aff_block += (f"<p>{html.escape(s['title'])} は、Amazon.co.jp を宣伝しリンクすることによって"
+                          "サイトが紹介料を獲得できる手段を提供することを目的に設定された"
+                          "アフィリエイトプログラムに参加しています。</p>")
+    else:
+        aff_block = "<p>現在、参加しているアフィリエイトプログラムはありません。</p>"
+
+    analytics = []
+    if str(s.get("cf_analytics_token") or "").strip():
+        analytics.append(
+            "<li><strong>Cloudflare Web Analytics</strong> — ページの表示回数や参照元を"
+            "集計するために利用しています。<strong>Cookie を使用せず</strong>、"
+            "ブラウザの指紋採取（フィンガープリンティング）も行いません。"
+            "個人を特定できる情報は収集していません。</li>")
+    if str(s.get("analytics_id") or "").strip():
+        analytics.append(
+            "<li><strong>Google アナリティクス</strong> — Cookie を使用してアクセス状況を"
+            "集計します。ブラウザの設定で Cookie を無効にすると収集を拒否できます。</li>")
+    analytics_block = ("<ul>" + "".join(analytics) + "</ul>") if analytics else (
+        "<p>アクセス解析ツールは利用していません。</p>")
+
+    body = f"""
+<main class="wrap article-wrap">
+  <article class="article">
+    <p class="eyebrow">PRIVACY</p>
+    <h1 class="article-title">プライバシーポリシー</h1>
+    <div class="prose">
+      <p>{html.escape(s['author'])}（以下「当社」）は、{html.escape(s['title'])}
+      （{html.escape(s['base_url'])}、以下「当サイト」）における利用者の情報の取り扱いについて、
+      以下のとおり定めます。</p>
+
+      <h2>収集する情報</h2>
+      <p>当サイトは、閲覧にあたって氏名・住所・電話番号などの個人情報の入力を求めません。
+      会員登録の仕組みもありません。</p>
+      <p>お問い合わせをいただいた場合に限り、返信のためにメールアドレスと本文をお預かりします。
+      これらは回答の目的にのみ使用し、ご本人の同意なく第三者に提供することはありません。</p>
+
+      <h2>アクセス解析</h2>
+      {analytics_block}
+
+      <h2>Cookie とアフィリエイトプログラム</h2>
+      {aff_block}
+
+      <h2>外部サイトへのリンク</h2>
+      <p>当サイトは記事中で外部サイトへのリンクを掲載しています。リンク先での個人情報の
+      取り扱いについては、各サイトのプライバシーポリシーをご確認ください。当サイトは
+      リンク先の内容および個人情報の取り扱いについて責任を負いません。</p>
+
+      <h2>埋め込みコンテンツ</h2>
+      <p>記事には YouTube などの外部サービスの埋め込みを含むことがあります。埋め込みの
+      表示にあたり、各サービスが利用者の情報を取得する場合があります。YouTube の埋め込みには、
+      再生するまで視聴履歴に記録されない <code>youtube-nocookie.com</code> を使用しています。</p>
+
+      <h2>免責</h2>
+      <p>当サイトの記事は公開情報をもとに編集したものです。掲載内容の正確性には努めますが、
+      完全性を保証するものではありません。詳細は<a href="{u("about.html")}">運営について</a>を
+      ご確認ください。</p>
+
+      <h2>本ポリシーの変更</h2>
+      <p>法令の改正や取り扱いの変更に応じて、本ポリシーを予告なく改定することがあります。
+      改定後の内容は当ページに掲載した時点で効力を生じます。</p>
+
+      <h2>お問い合わせ窓口</h2>
+      <p>本ポリシーおよび情報の取り扱いに関するお問い合わせは、
+      <a href="mailto:{s.get('contact_email','')}">{html.escape(s.get('contact_email',''))}</a> までご連絡ください。</p>
+      <p>運営： {html.escape(s['author'])}</p>
+    </div>
+  </article>
+</main>"""
+    return (head(site, f"プライバシーポリシー — {s['title']}",
+                 "個人情報・Cookie・アフィリエイトプログラムの取り扱いについて", "privacy.html")
+            + header(site) + body + footer(site))
+
+
 def render_about(site: dict) -> str:
     s = site["site"]
     body = f"""
@@ -697,6 +799,8 @@ def render_about(site: dict) -> str:
         <li>製品情報・取材のご連絡： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a></li>
       </ul>
       <p>運営： {html.escape(s['author'])}</p>
+      <p>個人情報・Cookie・アフィリエイトの取り扱いは
+      <a href="{u("privacy.html")}">プライバシーポリシー</a>をご確認ください。</p>
     </div>
   </article>
 </main>"""
@@ -733,7 +837,7 @@ def render_feed(site: dict, posts: list[dict]) -> str:
 
 def render_sitemap(site: dict, posts: list[dict]) -> str:
     base = site["site"]["base_url"].rstrip("/")
-    urls = [f"{base}/", f"{base}/about.html"]
+    urls = [f"{base}/", f"{base}/about.html", f"{base}/privacy.html"]
     per_page = int(site["site"].get("posts_per_page") or 20)
     total_pages = max(1, -(-len(posts) // per_page))
     urls += [f"{base}/{page_path(n)}" for n in range(2, total_pages + 1)]
@@ -1117,6 +1221,7 @@ def main() -> int:
     if total_pages > 1:
         print(f"■ ページ送り {total_pages}ページ ({per_page}件/ページ)")
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")
+    (PUBLIC / "privacy.html").write_text(render_privacy(site), encoding="utf-8")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")
     for key, cat in site["categories"].items():
