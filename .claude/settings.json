@@ -11,10 +11,10 @@
       "Bash(git pull *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Read(//d/My Document/ClaudeApp/GadgetTerminal/**)",
-      "Write(//d/My Document/ClaudeApp/GadgetTerminal/content/posts/**)",
-      "Edit(//d/My Document/ClaudeApp/GadgetTerminal/content/posts/**)",
-      "Edit(//d/My Document/ClaudeApp/GadgetTerminal/config/**)",
+      "Read(//d/MyDocument/ClaudeApp/GadgetTerminal/**)",
+      "Write(//d/MyDocument/ClaudeApp/GadgetTerminal/content/posts/**)",
+      "Edit(//d/MyDocument/ClaudeApp/GadgetTerminal/content/posts/**)",
+      "Edit(//d/MyDocument/ClaudeApp/GadgetTerminal/config/**)",
       "WebFetch(domain:www.gsmarena.com)",
       "WebFetch(domain:www.androidauthority.com)",
       "WebFetch(domain:9to5google.com)",
@@ -43,8 +43,8 @@
     ],
     "deny": [
       "Bash(gh repo delete *)",
-      "Write(//d/My Document/ClaudeApp/GadgetTerminal/public/**)",
-      "Edit(//d/My Document/ClaudeApp/GadgetTerminal/public/**)"
+      "Write(//d/MyDocument/ClaudeApp/GadgetTerminal/public/**)",
+      "Edit(//d/MyDocument/ClaudeApp/GadgetTerminal/public/**)"
     ]
   }
 }
