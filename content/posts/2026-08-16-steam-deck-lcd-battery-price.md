@@ -6,10 +6,19 @@ category: pc
 date: 2026-08-16
 kicker: iFixit の Steam Deck LCD 用バッテリーが79.99ドル → 129.99ドル → 179.99ドルと二段階で上昇。OLED 版は79.99ドルのまま据え置きで、旧モデルだけが取り残されている。
 tags: [Steam Deck, iFixit, 修理, Valve]
+images:
+  - url: "https://cdn.shopify.com/s/files/1/0045/4092/4007/files/4sDLaKN42AnAAAE6.jpg?v=1753369440"
+    caption: 交換用バッテリーキット一式。専用ドライバーやヘラ、養生シートが付属する
+  - url: "https://www.ifixit.com/_next/image?url=https%3A%2F%2Fifixit-strapi-uploads.s3.us-east-1.amazonaws.com%2FOEM_Steam_Deck_be405f1a42.jpeg&w=3840&q=75"
+    caption: 分解したSteam Deck LCD版の内部。中央に見える黒いパックが交換対象のバッテリー
+credit: iFixit 公式製品ページ
 sources:
   - title: "Steam Deck LCD battery jumps to $180 on iFixit, marking a 125% increase"
     url: https://www.notebookcheck.net/Steam-Deck-LCD-battery-jumps-to-180-on-iFixit-marking-a-125-increase.1369753.0.html
     publisher: Notebookcheck
+  - title: "Steam Deck LCD Battery"
+    url: https://www.ifixit.com/products/steam-deck-battery
+    publisher: iFixit（公式）
 ---
 
 iFixit で販売されている **Steam Deck LCD モデル用の交換バッテリー** が **179.99ドル** になった。当初価格は 79.99ドルで、**125%の値上げ** にあたる。
