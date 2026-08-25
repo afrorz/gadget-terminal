@@ -90,6 +90,25 @@ def parse_post(path: Path) -> dict | None:
     # pick_note は運営者自身の言葉なので、あれば必ず本人の文章として扱う（要約も改変もしない）。
     meta["pick"] = bool(meta.get("pick"))
     meta["pick_note"] = str(meta.get("pick_note") or "").strip()
+    # 画像。images（複数枚）を正とし、旧 thumbnail は1枚目として取り込む。
+    # ガジェット記事は実物が見えないと意味がないので、取れた分だけ全部載せる。
+    imgs, seen_url = [], set()
+    for it in (meta.get("images") or []):
+        it = {"url": it} if isinstance(it, str) else (it or {})
+        url = str(it.get("url") or "").strip()
+        if not url or url in seen_url:
+            continue
+        seen_url.add(url)
+        imgs.append({"url": url,
+                     "caption": str(it.get("caption") or "").strip(),
+                     "credit": str(it.get("credit") or meta.get("credit")
+                                   or meta.get("thumbnail_credit") or "").strip()})
+    if not imgs and meta.get("thumbnail"):
+        imgs = [{"url": str(meta["thumbnail"]).strip(), "caption": "",
+                 "credit": str(meta.get("thumbnail_credit") or "").strip()}]
+    meta["images"] = imgs
+    meta["thumbnail"] = imgs[0]["url"] if imgs else ""
+    meta["thumbnail_credit"] = imgs[0]["credit"] if imgs else ""
     meta.setdefault("excerpt", re.sub(r"<[^>]+>", "", meta["body_html"])[:110].strip() + "…")
     return meta
 
@@ -293,6 +312,7 @@ def card(site: dict, p: dict, featured: bool = False) -> str:
 <article class="{cls}">
   <a class="card-thumb{' card-thumb-real' if is_ext else ''}" href="{u(p['path'])}" aria-hidden="true" tabindex="-1">
     <img src="{img}" alt="" loading="lazy" width="1200" height="675"
+         decoding="async" referrerpolicy="no-referrer"
          onerror="this.onerror=null;this.src='{u("cards/" + p['slug'] + ".png")}'">
   </a>
   <p class="card-meta">
@@ -359,6 +379,7 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
   <article class="pick">
     <a class="pick-thumb" href="{u(p['path'])}" aria-hidden="true" tabindex="-1">
       <img src="{img}" alt="" loading="lazy" width="1200" height="675"
+           decoding="async" referrerpolicy="no-referrer"
            onerror="this.onerror=null;this.src='{u("cards/" + p['slug'] + ".png")}'">
     </a>
     <div class="pick-body">
@@ -461,6 +482,39 @@ def card_image(p: dict) -> tuple[str, bool]:
     return (u("cards/" + p["slug"] + ".png"), False)
 
 
+def ext_img(src: str, alt: str, *, lazy: bool = True, fallback: str = "") -> str:
+    """権利者のサーバー上の画像をそのまま参照する img タグを作る。
+
+    referrerpolicy="no-referrer" は必須。多くのCDNが Referer を見て
+    ホットリンクを弾くため、これが無いと他サイトからの表示だけ壊れる。
+    読み込めなかったときは、生成アイキャッチに差し替えるか、figure ごと消す。
+    """
+    onerr = ("this.onerror=null;this.src=" + repr(fallback) if fallback
+             else "this.closest('figure').remove()")
+    lazy_attr = 'loading="lazy" ' if lazy else ""
+    return (f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" '
+            f'{lazy_attr}decoding="async" '
+            f'referrerpolicy="no-referrer" onerror="{onerr}">')
+
+
+def render_gallery(p: dict) -> str:
+    """1枚目以外の製品画像をまとめて出す。1枚しか無ければ何も出さない。"""
+    imgs = p.get("images") or []
+    if len(imgs) < 2:
+        return ""
+    figs = []
+    for im in imgs[1:]:
+        cap = im.get("caption") or ""
+        figs.append(f'<figure class="shot">{ext_img(im["url"], cap or p["title"])}'
+                    + (f'<figcaption>{html.escape(cap)}</figcaption>' if cap else "")
+                    + "</figure>")
+    credit = imgs[0].get("credit") or ""
+    return ('<section class="gallery"><h2>製品画像</h2>'
+            f'<div class="gallery-grid">{"".join(figs)}</div>'
+            + (f'<p class="gallery-credit">出典: {html.escape(credit)}</p>' if credit else "")
+            + "</section>")
+
+
 def render_embeds(p: dict) -> tuple[str, bool]:
     """front matter の embeds を、プラットフォーム公式の埋め込みHTMLに変換する。
 
@@ -508,6 +562,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     s = site["site"]
     cat = site["categories"].get(p.get("category"), {"label": "その他", "slug": "misc"})
     embeds_html, needs_x = render_embeds(p)
+    gallery_html = render_gallery(p)
     # 最初の1本は本文の前に出す。下端に置くと誰も見ないため。
     lead_embed, rest_embed = "", ""
     if embeds_html:
@@ -530,10 +585,9 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         credit = p.get("thumbnail_credit")
         cap = (f'<figcaption class="hero-credit">出典: {html.escape(str(credit))}</figcaption>'
                if credit else "")
-        onerr = 'this.onerror=null;this.src=' + repr(fallback)
         hero_block = (f'<figure class="article-hero article-hero-real">'
-                      f'<img src="{html.escape(th)}" alt="{html.escape(p["title"])}" '
-                      f'onerror="{onerr}">{cap}</figure>')
+                      + ext_img(th, p["title"], lazy=False, fallback=fallback)
+                      + f'{cap}</figure>')
     else:
         hero_block = (f'<figure class="article-hero">'
                       f'<img src="{fallback}" '
@@ -651,6 +705,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ</p>
     {hero_block}
     <div class="prose">{p['body_html']}</div>
+    {gallery_html}
     {embeds_html}
     {alts_html}
   {faq_html}
@@ -983,6 +1038,16 @@ img{max-width:100%}
 .pick-callout-note{margin:0;font-size:14.5px;line-height:1.85}
 .pick-callout-bare{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--ink-3);display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.gallery{margin:44px 0 0}
+.gallery h2{font-size:16px;margin:0 0 14px}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.gallery .shot{margin:0;background:var(--panel);border:1px solid var(--line);
+  border-radius:10px;overflow:hidden}
+.gallery .shot img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
+  background:var(--panel)}
+.gallery .shot figcaption{padding:8px 10px;font-size:11.5px;line-height:1.6;color:var(--ink-3)}
+.gallery-credit{margin:12px 0 0;font-size:11.5px;color:var(--ink-3)}
+@media (max-width:520px){.gallery-grid{grid-template-columns:1fr 1fr;gap:8px}}
 .pick-callout-bare span{font-family:inherit;font-size:12.5px;letter-spacing:0;text-transform:none}
 @media(max-width:520px){.pick{grid-template-columns:72px 1fr}.pick-thumb img{height:48px}}
 .lead{margin-bottom:8px}
@@ -1210,6 +1275,16 @@ def main() -> int:
                 cards += 1
         print(f"■ OGP画像 {made}枚 / アイキャッチ {cards}枚" if made
               else "■ 画像生成: フォントが無いためスキップ")
+
+    # 実物画像の充足率。ガジェット記事は実物が見えないと成立しないため必ず出す。
+    shots = sum(len(p.get("images") or []) for p in posts)
+    naked = [p["slug"] for p in posts
+             if not (p.get("images")
+                     or any((e.get("type") or "").lower() == "youtube"
+                            for e in (p.get("embeds") or [])))]
+    print(f"■ 実物画像 {shots}枚 / 画像も動画も無い記事 {len(naked)}本")
+    for slug in naked:
+        print(f"  ! 画像なし: {slug}")
     # ページ送り。site.yaml の posts_per_page 件ずつに切る（1ページ目は先頭記事を含む）。
     per_page = int(site["site"].get("posts_per_page") or 20)
     pages = [posts[i:i + per_page] for i in range(0, len(posts), per_page)] or [[]]

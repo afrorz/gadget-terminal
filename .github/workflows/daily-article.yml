@@ -172,28 +172,51 @@ jobs:
                d. 別製品の動画は貼らない。「同じシリーズの前世代」は別製品。
                   無ければ embeds を省略する
 
-            7-2. 【必須】動画が見つからない記事には、公式サイトの製品画像を引用する。
-               **動画も画像も無い記事は、自動生成のアイキャッチ（文字だけの図版）になる。**
-               読者にとって実物が1枚も見えない記事になるので、ここは飛ばさないこと。
-               クラファン案件は必ずプロジェクトページに製品写真があり、取得できる。
-               a. 引用元は「公式」に限る。メーカーの公式製品ページ・公式プレスルーム、
-                  または Kickstarter / Indiegogo / Makuake のプロジェクトページのみ。
-                  他のニュースサイトが載せている画像は使わない（転載になる）
-               b. 画像URLを WebFetch で叩いて実在を確認する。404 のURLは書かない
-               c. front matter に次の2つを書く。thumbnail_credit は必須:
-                    thumbnail: https://.../product.jpg
-                    thumbnail_credit: メーカー名 公式製品ページ
-               d. sources にも当該ページのURLを入れる
-               e. 透かしや他媒体のロゴが入った画像は使わない。人物が主題の画像も避ける
-               条件の詳細は docs/PLAYBOOK.md の「3.5 画像をどう用意するか」にある。
+            7-2. 【必須】製品画像を集める。**画像が1枚も無い記事は公開しない。**
+               ガジェットメディアで実物が見えない記事は成立しない。ここは省略不可。
+
+               a. 画像を探すページは「公式」に限る。
+                    - メーカーの公式製品ページ・公式プレスルーム
+                    - Kickstarter / Indiegogo / Makuake のプロジェクトページ
+                  ニュースサイトが載せている画像は使わない（転載になる）。
+
+               b. 収集にはこのリポジトリのツールを使う:
+                    python3 scripts/imagepick.py <公式ページURL> --match "<製品名>" --max 6
+                  --match は必ず付ける。付けないと**他製品のナビ画像を拾う**。
+                  （実測: Keychron の公式ページから Q5 / Q6 / K2 / V5 の画像が出た）
+
+               c. 【最重要】採用する画像は、1枚ずつ実際に開いて目で見る。
+                    curl -sL -o /tmp/c1.jpg "<画像URL>"
+                  そのうえで Read ツールで /tmp/c1.jpg を開いて中身を確認する。
+                  次のものは**必ず落とす**:
+                    - 販促バナー・クーポン・「VIP ACCESS」等の文字だけの画像
+                    - 別製品、別世代の写真
+                    - 他媒体のロゴや透かしが入った画像
+                    - 人物が主題の画像
+                  （実測: ファイル名に製品名が入っていても中身は販促バナーだった）
+
+               d. front matter に、確認できた枚数だけ全部書く。1枚だけにしない。
+                    images:
+                      - url: "https://.../front.jpg"
+                        caption: 本体前面。スイッチは交換可能
+                      - url: "https://.../spec.png"
+                        caption: 主な仕様
+                    credit: メーカー名 公式製品ページ
+                  caption は**自分が見た内容**を書く。見ていないものを書かない。
+                  credit は必須。1枚目が記事とカードのメイン画像になる。
+
+               e. そのページのURLを sources にも入れる。
+
+               f. 公式画像がどうしても見つからない場合は、その製品の記事を**書かない**。
+                  別のネタに差し替える。画像なしで出すより、本数が減るほうがよい。
 
                画像ファイルをダウンロードして public/ や content/ に置くことは絶対にしない。
-               URLを書いて権利者のサーバーを参照するだけにする。
+               確認用に /tmp へ落とすのはよい。front matter には権利者のURLを書く。
 
             8. 記事を書く。ファイル名は content/posts/<TODAY>-<slug>.md
                front matter: title / seo_title / x_hook / slug / keyword / category / date /
                              kicker / tags / alternatives / faq / embeds / sources /
-                             thumbnail / thumbnail_credit（7-2 で画像を引用した場合）
+                             images / credit（7-2 で集めた製品画像。**必須**）
                              （キュー・手動指定から書いた記事のみ pick / pick_note）
                - keyword はアイキャッチに入る短い語（製品名など全角10文字程度まで）
 
@@ -258,11 +281,11 @@ jobs:
                     必ずダブルクォートで囲むこと。ここが最も壊れやすい。
                b. pip install -r requirements.txt --break-system-packages -q && python3 scripts/build.py
                   → 「記事 N本」の N が、書いた本数だけ増えていることを確認
-               c. 実物が見える画像があるか確認する:
-                  python3 -c "import glob,yaml;bad=[f for f in glob.glob('content/posts/<TODAY>-*.md') if not (any((e.get('type') or '').lower()=='youtube' for e in (yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]).get('embeds') or [])) or yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]).get('thumbnail'))];print('画像なし:', bad or 'なし')"
-                  → 「画像なし: なし」になるまで 7 と 7-2 をやり直す。
-                    どうしても公式の画像が見つからない製品だけ、そのまま出してよい。
-                    その場合はコミットメッセージの本文にファイル名と理由を1行書く。
+               c. **全記事に製品画像があることを確認する。ここは絶対に飛ばさない。**
+                  python3 scripts/checkimages.py content/posts/<TODAY>-*.md
+                  → 画像が無い記事、URLが死んでいる画像があれば失敗する。
+                    失敗したら 7-2 に戻る。画像を用意できない記事は削除して本数を減らす。
+                    **画像なしのまま公開してはいけない。**
                a〜c のどれかが失敗したら記事を直して、通るまでコミットしない。
 
             10. 検証が通ったら git でコミットして main に push する。
