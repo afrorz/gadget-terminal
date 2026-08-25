@@ -1,0 +1,750 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T05:57:32.875087+09:00",
+  "stats": {
+    "fetched": 698,
+    "unique": 658,
+    "new": 450,
+    "clusters": 415,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "c0c09d1ffdf2d479",
+      "title": "Lilbits: GrapheneOS coming to Moto phones in 2027, Apple launches Mac Mini with M6 and Mac Studio with M5 Ultra, Lenovo launches a handheld for game streaming",
+      "url": "https://liliputing.com/lilbits-grapheneos-coming-to-moto-phones-in-2027-apple-launches-mac-mini-with-m6-and-mac-studio-with-m5-ultra-lenovo-launches-a-handheld-for-game-streaming/",
+      "canonical": "https://liliputing.com/lilbits-grapheneos-coming-to-moto-phones-in-2027-apple-launches-mac-mini-with-m6-and-mac-studio-with-m5-ultra-lenovo-launches-a-handheld-for-game-streaming",
+      "summary": "Earlier this year we learned that Motorola was working with the folks behind the security-hardened version of Android called GrapheneOS. Now it looks like the fruits of that labor are expected to ripen next year. While Motorola isn&#8217;t expected to ship any phones with the operating pre-installed, GrapheneOS plans to add official support for some [&#8230;] The post Lilbits: GrapheneOS coming to",
+      "published": "2026-08-25T20:54:20+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 36,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh",
+        "+20 6媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "GSMArena",
+        "Gadget Flow",
+        "TechPowerUp",
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/apple_announces_new_mac_mini_and_mac_studio_with_m6_and_m5_chips-news-74335.php",
+        "https://thegadgetflow.com/product/mac-mini-m6-m5-pro-desktop-computer/",
+        "https://thegadgetflow.com/product/mac-studio-m5-max-m5-ultra-pro-desktop/",
+        "https://www.gsmarena.com/apple_m6_and_m5_ultra_chips_announced-news-74332.php"
+      ]
+    },
+    {
+      "title": "Makuake｜どんな場所も自由自在！多角度回転＆折りたたみ両面マグネットマルチスタンド｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/supwell_02_magstand/",
+      "summary": "リターン品の配送が完了するまで、SUPWELL株式会社は【Honnobe両面マグネットスタント】の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。1台でシチュエーションを超える三脚、スタンド、手持ち、クリップへと、瞬時のモードチェンジが可能。思い立った瞬間に撮影スタート。。より自由な撮影スタイルを求める方へ向けて、軽量・折り畳み式のMa",
+      "image": "https://static.makuake.com/upload/project/53206/main_53206.png?version=1787034206&amp;width=690&amp;height=388",
+      "published": "2026-08-29T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "da25a509743083cb",
+      "canonical": "https://www.makuake.com/project/supwell_02_magstand",
+      "score": 25,
+      "reasons": [
+        "+6 makuake",
+        "+3 折りたたみ",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜わずか8mm・準固体電池を採用した薄型モバイルバッテリー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/kurumi01/",
+      "summary": "Anden 薄さ約8mm。持ち歩きを、もっと軽やかに。リターン品の配送が完了するまで、株式会社クルミは安核科技（哈爾浜）有限公司の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部の「リスク＆チャレンジ」をご確認ください。必要なところに、電気を。アンデン。はじめまして。株式会社クルミです。近年、モバイルバッテリーの大容量化が進む一方で、「本体が厚く、持ち運びにくい」「重量が気",
+      "image": "https://static.makuake.com/upload/project/53288/main_53288.png?version=1787580092&amp;width=690&amp;height=388",
+      "published": "2026-08-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "541a43774f36bc68",
+      "canonical": "https://www.makuake.com/project/kurumi01",
+      "score": 24,
+      "reasons": [
+        "+6 makuake",
+        "+4 モバイルバッテリー",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e4a9172eaabb8d88",
+      "title": "ASUS ROG Xbox Ally X20 Launches With $300 Price Premium for OLED and TMR Upgrade",
+      "url": "https://www.techpowerup.com/351918/asus-rog-xbox-ally-x20-launches-with-usd-300-price-premium-for-oled-and-tmr-upgrade",
+      "canonical": "https://www.techpowerup.com/351918/asus-rog-xbox-ally-x20-launches-with-usd-300-price-premium-for-oled-and-tmr-upgrade",
+      "summary": "When ASUS first revealed the ROG Xbox Ally X20 at Computex 2026 , it said that the gaming handheld would be available as a bundle with a set of Xreal R1 Edition 20 AR glasses or as a standalone handheld, but pricing and details on the standalone version were still somewhat nebulous, but ASUS has finally announced pricing and imminent pre-order availability for the X20 handheld on both its online s",
+      "published": "2026-08-25T13:43:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+4 pre-order",
+        "+4 handheld",
+        "-4 bundle",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Asus-ROG-Xbox-Ally-X20-goes-OLED-for-a-hefty-premium.1378052.0.html"
+      ]
+    },
+    {
+      "title": "Makuake｜【ポータブルモニター革命！】2画面・3画面、いつでもどこでも、コンセント不要！｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/s688-portable-dual-monitor/",
+      "summary": "リターン品の配送が完了するまで、株式会社LINKホールディングスは、 ポータブルモニターPROの日本における独占販売権を有する正規代理店です。詳細に関しては、以下の「リスク&チャレンジ」をご確認ください。（※日本での正規ルートにおける初めての販売となります。）最大3画面展開が可能な折りたたみ式ポータブル拡張ディスプレイ「ポータブルモニターPRO」が日本に上陸！3画面で作業効率爆上がり！シーンに合わ",
+      "image": "https://static.makuake.com/upload/project/53207/main_53207.png?version=1787645755&amp;width=690&amp;height=388",
+      "published": "2026-08-29T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "67b82f021b32b4bc",
+      "canonical": "https://www.makuake.com/project/s688-portable-dual-monitor",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 折りたたみ",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜若き感性と、受け継がれる技術。 筑波大学と老舗メーカーが共に創る、日本製腕時計。｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/tsukubawatch/",
+      "summary": "学生が生み出したアイデア。プロの時計メーカーが、その価値を磨き上げる。この腕時計は、筑波大学の学生が生み出したデザインから誕生しました。創業25年以上にわたり、腕時計の企画・製造・販売を手がけてきたMARUZEKIは、その想いを大切に受け継ぎながら、デザイン性、視認性、装着感、品質など、腕時計に求められる要素を一つひとつ磨き上げ、一つの商品として完成させました。デザインのテーマは、「多様性 &ti",
+      "image": "https://static.makuake.com/upload/project/53314/main_53314.jpg?version=1787567377&amp;width=690&amp;height=388",
+      "published": "2026-08-29T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "717c0f5952a234d6",
+      "canonical": "https://www.makuake.com/project/tsukubawatch",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 誕生",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜10万回ガード実験済のスキミング防止カード、プラチナカラーでMakuakeに登場｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/raidblock/",
+      "summary": "実行者紹介はじめまして。株式会社ゆうぷらす代表の生田です。私は20年以上、海外との輸出入事業を行っています。最近では、AIを駆使してのツールやサイトなども力を入れています。商品買い付けで最初は海外へ行っていましたが、段々と海外が楽しくなり趣味を兼ねての買い付けなどに変わっていきました。その中で、ある出来事が私の人生を大きく変えました。「もう二度と、あの不安を誰にも味わってほしくない。」　その想いか",
+      "image": "https://static.makuake.com/upload/project/53297/main_53297.png?version=1787541855&amp;width=690&amp;height=388",
+      "published": "2026-08-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "48e3d797504cc859",
+      "canonical": "https://www.makuake.com/project/raidblock",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 登場",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜「自分で背負いたい」を叶える、成長期のための軽量キッズリュック｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/skiff13/",
+      "summary": "子どもの体は、まだ荷物の重さに慣れていません。大人にとっては何でもない重さも、子供には大きな負荷であるとともに、成長期の子どもの骨格や筋力にとっては大きな負担になります。姿勢の乱れ、肩や背中への負荷、長時間の外出での疲労——。「うちの子は体が丈夫じゃないから」ではなく、そもそも子どもの体に合った設計のリュックが少ないことが、見過ごされがちな原因なのです。「子供用がほしい」と",
+      "image": "https://static.makuake.com/upload/project/53260/main_53260.png?version=1787221254&amp;width=690&amp;height=388",
+      "published": "2026-08-29T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "0abf1d0449f06d4d",
+      "canonical": "https://www.makuake.com/project/skiff13",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜３０か国を歩いた元旅サラダリポーターが開発！軽さ・機能性・快適さを追求した一足｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/limes-alis/",
+      "summary": "履いた瞬間に、驚く。この見た目で、片足約２４２ｇスマホ約一台分の、超軽量設計。※メンズ26.0cm・オールスエードモデルの場合履いた瞬間、その違いを実感。サンプル試着でいただいた、リアルなお声をご紹介します。この見た目で、驚くほど軽い。歩きやすさまで、妥協しない。長時間歩く日も、軽やかな履き心地。足裏を支える構造にもこだわりました。軽量性と耐久性を備えたVibram® Vi-Liteコンパ",
+      "image": "https://static.makuake.com/upload/project/53227/main_53227.jpg?version=1787570710&amp;width=690&amp;height=388",
+      "published": "2026-08-29T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "682fef6eff6865d5",
+      "canonical": "https://www.makuake.com/project/limes-alis",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "16a504e7e77cc89d",
+      "title": "Acemagic launches F2A Mini PC with Intel Core Ultra X7 358H, 180 TOPS AI and 8K display support",
+      "url": "https://www.gizmochina.com/2026/08/24/acemagic-f2a-mini-pc-intel-core-ultra-x7-358h-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/08/24/acemagic-f2a-mini-pc-intel-core-ultra-x7-358h-launched-specs-price",
+      "summary": "Acemagic has launched the F2A mini PC with Intel Panther Lake processors, offering local AI processing and modern connectivity. It is priced at $1,099 during the preorder period, down from the stated $1,699 regular price, with shipping set to begin on August 31. Acemagic F2A Specifications The F2A features an Intel Core Ultra X7 358H [&#8230;] The post Acemagic launches F2A Mini PC with Intel Core",
+      "published": "2026-08-24T21:21:04+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 preorder",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【アンコール】スマホの容量不足を解決する外付けストレージモジュール！iRe5 X｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/ire5-x-encore/",
+      "summary": "【本プロジェクトはアンコールプロジェクト（＊）です】（＊）アンコールプロジェクトとは、過去実施したプロジェクトが好評だった場合において、プロジェクト終了後から一般販売までに再び実施するプロジェクトを言います。\r\n\r\nリターン品の配送が完了するまで、株式会社PlayWingsはGWD Intelligence Technology Co., Ltd.の日本における独占販売権を有する正規代理店です。詳",
+      "image": "https://static.makuake.com/upload/project/53083/main_53083.jpg?version=1787186458&amp;width=690&amp;height=388",
+      "published": "2026-08-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "cbe0d0f5776b7680",
+      "canonical": "https://www.makuake.com/project/ire5-x-encore",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜2灯・COB・電熱着火を1台に！34gのアウトドアライト「KAIYO FX06」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/kaiyo-fx06/",
+      "summary": "夜のアウトドアで、こんな経験はありませんか？遠くを照らす懐中電灯、テーブル周りを照らすランタン、雰囲気を演出するカラーライト、そして焚き火や固形燃料を使うための着火具。「もう少し荷物を減らしたい」、「ライトと着火具をまとめて携帯したい」とそんなアウトドアでの使い勝手を考えて選んだのが、手のひらサイズの多機能アウトドアライト、KAIYO FX06です。照らす・彩る・着火する機能を1台へ2種類のライト",
+      "image": "https://static.makuake.com/upload/project/53144/main_53144.jpg?version=1786591367&amp;width=690&amp;height=388",
+      "published": "2026-08-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "05377142d9784cee",
+      "canonical": "https://www.makuake.com/project/kaiyo-fx06",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【イタリア発】アクティブな毎日に！[タオパッチ・スポーツ]次世代ウェアラブルギア｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/taopatch-sport/",
+      "summary": "リターン品の配送が完了するまで、合同会社 伊本エンタープライズはTao Technologies s.r.l.s.の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。※正規ルートで日本国内では初販売ナノ技術が寄り添う、アクティブな毎日へ！イタリア発「タオパッチ・スポーツ」とはイタリア生まれのナノテクノロジーを活用した「Taopatch&r",
+      "image": "https://static.makuake.com/upload/project/53241/main_53241.png?version=1787186865&amp;width=690&amp;height=388",
+      "published": "2026-08-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "ceba529d853a4c96",
+      "canonical": "https://www.makuake.com/project/taopatch-sport",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c3e5a4dd269efc2c",
+      "title": "vivo T5 5G's key specs, design, and launch date revealed",
+      "url": "https://www.gsmarena.com/vivo_t5_5g_key_specs_colors_launch_date-news-74321.php",
+      "canonical": "https://www.gsmarena.com/vivo_t5_5g_key_specs_colors_launch_date-news-74321.php",
+      "summary": "vivo launched the T5 4G in May, and last week it teased the T5 5G. Today, vivo's Indian branch announced that it will unveil the T5 5G on September 2 at 12 PM local time in India. Additionally, vivo revealed the T5 5G's key specs, including the Dimensity 7500 Turbo SoC, a 1.5K 144Hz 3D curved AMOLED display, and a 7,050 mAh battery. The image of the T5 5G shared by vivo on its Indian website shows",
+      "published": "2026-08-25T10:09:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8c5bfb786b124c1c",
+      "title": "Snapdragon 8 Elite Extreme Gen 6 benchmark reveals disappointing performance despite 5GHz speed",
+      "url": "https://www.gizmochina.com/2026/08/25/snapdragon-8-elite-extreme-gen-6-benchmark-reveals-disappointing-performance-despite-5ghz-speed/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/snapdragon-8-elite-extreme-gen-6-benchmark-reveals-disappointing-performance-despite-5ghz-speed",
+      "summary": "After AnTuTu, the Snapdragon 8 Elite Extreme Gen 6 has appeared on Geekbench for the first time in an unannounced iQOO device. The scores come from an iQOO 16 prototype carrying the model number V2606A. On Geekbench 6.7, the chip scored 3,434 in the single-core test and 9,334 in the multi-core test, but these numbers [&#8230;] The post Snapdragon 8 Elite Extreme Gen 6 benchmark reveals disappointi",
+      "published": "2026-08-25T06:38:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 benchmark",
+        "+3 announced",
+        "+3 prototype",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fcdeab6523c97e3e",
+      "title": "Xiaomi built a gas water heater that gets rid of the messy part of installation",
+      "url": "https://www.gizmochina.com/2026/08/25/xiaomi-mijia-smart-gas-water-heater-pro-16l-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/xiaomi-mijia-smart-gas-water-heater-pro-16l-launched-specs-price",
+      "summary": "Xiaomi’s Mijia product needs no event to launch in China. Par for the course, the company quietly announced a new water heater in the mainland, and this one skips the usual condensate hassle. Xiaomi launched the Mijia Smart Gas Water Heater Pro Dual Circulation Level 1 Energy Efficiency 16L on its Youpin crowdfunding platform today [&#8230;] The post Xiaomi built a gas water heater that gets rid o",
+      "published": "2026-08-25T09:38:53+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d18f2526dcb2ddd4",
+      "title": "Xiaomi launches new rice cooker with 3L/4L sizes, titanium composite inner pot, wrap-around 3D IH heating, 9 cooking modes",
+      "url": "https://www.gizmochina.com/2026/08/25/xiaomi-launches-new-rice-cooker-with-3l-4l-sizes-titanium-composite-inner-pot-1300w-power-wrap-around-3d-ih-heating/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/xiaomi-launches-new-rice-cooker-with-3l-4l-sizes-titanium-composite-inner-pot-1300w-power-wrap-around-3d-ih-heating",
+      "summary": "Xiaomi has launched a new multifunctional smart rice cooker for people who want something more versatile than a basic one-pot cooker. The Mijia Smart IH Rice Cooker 2 Multifunctional Edition is now listed on Xiaomi Youpin in both 3L and 4L sizes. Crowdfunding kicks off on September 6, with the 3L model priced at 649 [&#8230;] The post Xiaomi launches new rice cooker with 3L/4L sizes, titanium comp",
+      "published": "2026-08-25T10:33:00+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "face061b6bb9eea2",
+      "title": "Sony Xperia 10 VIII is official with the same chip as its predecessor",
+      "url": "https://www.gizmochina.com/2026/08/25/sony-xperia-10-viii-official-launch-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/sony-xperia-10-viii-official-launch-specs-price",
+      "summary": "Those leaked promo images and the Geekbench listing from earlier this week were right on the money. Sony has now officially unveiled the Xperia 10 VIII at a press conference, and the phone looks almost exactly like the leaks suggested. Sony is sticking with the same clean, notch-free, and punch-hole-free design it has used for [&#8230;] The post Sony Xperia 10 VIII is official with the same chip a",
+      "published": "2026-08-25T05:59:00+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/sony_xperia_10_viii_is_a_350_midranger_with_a_600_starting_price_-news-74308.php"
+      ]
+    },
+    {
+      "id": "bb1ec9b2c802c00a",
+      "title": "Huawei Mate XT 2 launch set for September 7",
+      "url": "https://www.gizmochina.com/2026/08/25/huawei-mate-xt-2-launch-set-for-september-7/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/huawei-mate-xt-2-launch-set-for-september-7",
+      "summary": "Huawei has officially set the date for its next major product event. The company confirmed today that the &#8216;HarmonyOS 7 &#124; Huawei Mate XT 2 and All-Scenario New Product Launch Event&#8217; will take place on September 7. As the name implies, the Huawei Mate XT 2 tri-fold phone will be the highlight of the event [&#8230;] The post Huawei Mate XT 2 launch set for September 7 appeared first ",
+      "published": "2026-08-25T07:44:48+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Huawei Central"
+      ],
+      "related_urls": [
+        "https://www.huaweicentral.com/huawei-mate-xt-2-design-camera/",
+        "https://www.huaweicentral.com/huawei-mate-xt-2-triple-foldable-launch-locked-for-september-7/"
+      ]
+    },
+    {
+      "id": "4bf4c7e1999d4676",
+      "title": "Huawei Mate XT 2 will be unveiled next month",
+      "url": "https://www.gsmarena.com/huawei_mate_xt_2_will_be_unveiled_next_month-news-74319.php",
+      "canonical": "https://www.gsmarena.com/huawei_mate_xt_2_will_be_unveiled_next_month-news-74319.php",
+      "summary": "Huawei has confirmed that its next tri-fold smartphone, the Mate XT2, will launch next month. According to a recent rumour, the upcoming device could feature a different folding mechanism compared to the original Mate XT. The Huawei Mate XT2 will be unveiled in China on September 7, the company confirmed in a Weibo post. Huawei will also showcase its recently announced HarmonyOS 7 at the event. Wh",
+      "published": "2026-08-25T13:06:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1a3f7bd7914ddb2d",
+      "title": "Redmi 17C 5G launches with a 6.9-inch 120Hz screen, a 6,000mAh battery and 50MP camera",
+      "url": "https://www.gizmochina.com/2026/08/25/redmi-17c-5g-launched-price-specifications/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/redmi-17c-5g-launched-price-specifications",
+      "summary": "Earlier this month, Redmi unveiled the Redmi 17 4G and Redmi 17 5G for the global market. Now, the Redmi 17C 5G has officially appeared in Singapore, adding another affordable option to the lineup. The new model focuses on a large display, long battery life, and 5G connectivity. Here is everything the latest Redmi phone [&#8230;] The post Redmi 17C 5G launches with a 6.9-inch 120Hz screen, a 6,000",
+      "published": "2026-08-25T16:33:09+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "11cc7756ff13030e",
+      "title": "(PR) Resonance: A Plague Tale Legacy's Launch Trailer Premieres at Gamescom 2026",
+      "url": "https://www.techpowerup.com/351951/resonance-a-plague-tale-legacys-launch-trailer-premieres-at-gamescom-2026",
+      "canonical": "https://www.techpowerup.com/351951/resonance-a-plague-tale-legacys-launch-trailer-premieres-at-gamescom-2026",
+      "summary": "Focus Entertainment and Asobo Studio are thrilled to unveil the official Launch Trailer for Resonance: A Plague Tale Legacy, premiered in grand fashion during Gamescom 2026 Opening Night Live, just days before the game's release on August 27 for PlayStation 5, Xbox Series X|S and PC. Set to a striking reinterpretation of Depeche Mode's Enjoy the Silence, this final glimpse into Resonance explores ",
+      "published": "2026-08-25T19:39:29+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "350c0d5c463cca20",
+      "title": "Sony Xperia 10 VIII review",
+      "url": "https://www.gsmarena.com/sony_xperia_10_viii-review-2992.php",
+      "canonical": "https://www.gsmarena.com/sony_xperia_10_viii-review-2992.php",
+      "summary": "",
+      "published": "2026-08-25T02:00:49+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "TechEBlog"
+      ],
+      "related_urls": [
+        "https://www.techeblog.com/sony-xperia-10-viii-reveal-specs-price-hands-on-release/"
+      ]
+    },
+    {
+      "id": "4c37e341e7982fad",
+      "title": "Peladn intros AMD-equipped mini PC with dual Gigabit Ethernet ports",
+      "url": "https://www.notebookcheck.net/Peladn-intros-AMD-equipped-mini-PC-with-dual-Gigabit-Ethernet-ports.1377780.0.html",
+      "canonical": "https://www.notebookcheck.net/Peladn-intros-AMD-equipped-mini-PC-with-dual-Gigabit-Ethernet-ports.1377780.0.html",
+      "summary": "The Peladn WO7 is a new mini PC that the company has introduced through its Weibo account. There's no launch date yet, but in the post, the brand has shared that it will be an AMD system with a capable Ryzen 5 processor. It's expected to have an affordable launch price.",
+      "published": "2026-08-25T17:48:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9d82cc2778d671f1",
+      "title": "Hisense A10 is an E Ink smartphone with a detachable LCD screen on the back",
+      "url": "https://liliputing.com/hisense-a10-is-an-e-ink-smartphone-with-a-detachable-lcd-screen-on-the-back/",
+      "canonical": "https://liliputing.com/hisense-a10-is-an-e-ink-smartphone-with-a-detachable-lcd-screen-on-the-back",
+      "summary": "Just days after Bigme launched a crowdfunding campaign for a dual-screen smartphone with an E Ink display on one side and an LCD display on the other, Hisense has introduced a phone with similar features. But there&#8217;s one key thing that sets the Hisense A10 apart from the Bigme HiBreak Dual: the LCD display for the [&#8230;] The post Hisense A10 is an E Ink smartphone with a detachable LCD sc",
+      "published": "2026-07-20T17:40:05+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+2 campaign",
+        "+3 launch",
+        "+4 e ink",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "70ffbefe7443ae58",
+      "title": "Firehat is an open-source FireWire DV capture HAT for SBCs with Raspberry Pi PCIe FFC connector (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/08/25/firehat-open-source-firewire-dv-capture-hat-pcie-sbc-raspberry-pi-5-radxa-rock-2f/",
+      "canonical": "https://www.cnx-software.com/2026/08/25/firehat-open-source-firewire-dv-capture-hat-pcie-sbc-raspberry-pi-5-radxa-rock-2f",
+      "summary": "Computer Equipment Group has launched the Firehat, an open-source FireWire HAT that adds a native IEEE 1394 / i.LINK / DV port to SBCs with a Raspberry Pi PCIe FFC connector like the Pi 5 or the Radxa ROCK 2F. Built around a VIA VT6315N controller, the Firehat provides a modern way to capture footage from MiniDV, Digital8, DVCAM, DVCPRO, and HDV camcorders. It lets users connect compatible cameras",
+      "published": "2026-08-25T07:26:32+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ccb15f004b1b020",
+      "title": "XPPen Artist 16 3rd Review – A Precision‑Targeted ‘Pro’ Tool For Entry-Level",
+      "url": "https://www.gizmochina.com/2026/08/25/xppen-artist-16-3rd-review-a-precision%e2%80%91targeted-pro-tool-for-entry-level/",
+      "canonical": "https://www.gizmochina.com/2026/08/25/xppen-artist-16-3rd-review-a-precision%e2%80%91targeted-pro-tool-for-entry-level",
+      "summary": "After refreshing its professional‑grade lineup, XPPen has finally turned its attention to the entry‑level segment with the Artist 16 3rd. After spending considerable time with it, I can say this is a precisely targeted and genuinely compelling product. It doesn’t chase top‑tier specs for the sake of marketing; instead, it takes the “goldilocks” 15.4‑inch screen size [&#8230;] The post XPPen Artist",
+      "published": "2026-08-25T07:57:31+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c61641a117e586ac",
+      "title": "vivo X500 Pro Max spotted on Geekbench ahead of launch",
+      "url": "https://www.gsmarena.com/vivo_x500_pro_max_spotted_on_geekbench_ahead_of_launch-news-74318.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_pro_max_spotted_on_geekbench_ahead_of_launch-news-74318.php",
+      "summary": "vivo has confirmed that its X500 series will launch in China next month. Ahead of the launch, a vivo smartphone, believed to be the X500 Pro Max, has been spotted on Geekbench. A vivo phone with the model number V2610 has been listed on the Geekbench website. The phone is equipped with a Mediatek MT6995 chipset with 8 cores and a base frequency of 3.10 GHz. The chipset features two cores clocked a",
+      "published": "2026-08-25T08:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/08/24/vivo-x500-pro-max-geekbench-listing-reveals-2-prime-cores-clocked-at-up-to-4-55-ghz/"
+      ]
+    },
+    {
+      "id": "95c66d6aa91d6eae",
+      "title": "Affordable Huawei Pura 90 could launch alongside 2026 tri-fold",
+      "url": "https://www.huaweicentral.com/affordable-huawei-pura-90-could-launch-alongside-2026-tri-fold/",
+      "canonical": "https://www.huaweicentral.com/affordable-huawei-pura-90-could-launch-alongside-2026-tri-fold",
+      "summary": "Huawei is seemingly gearing up for a more affordable Pura 90 flagship and may launch it alongside the Mate XT 2 triple-foldable on September 7. A new leak suggests that the company has more than just a tri-fold to unveil early next month. Weibo tipster @FixedFocus reported that the Chinese OEM will unveil more Pura [&#8230;] The post Affordable Huawei Pura 90 could launch alongside 2026 tri-fold a",
+      "published": "2026-08-25T10:56:58+00:00",
+      "source_id": "huaweicentral",
+      "source": "Huawei Central",
+      "category": "smartphone",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 foldable",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "21ef02936a74fda8",
+      "title": "Galaxy S26 series gets sixth One UI 9 beta release, but when is the stable update coming?",
+      "url": "https://www.androidauthority.com/samsung-galaxy-s26-one-ui-9-beta-6-3702640/",
+      "canonical": "https://www.androidauthority.com/samsung-galaxy-s26-one-ui-9-beta-6-3702640",
+      "summary": "The latest 851MB update targets several UI and routine issues for global users ahead of the stable launch.",
+      "published": "2026-08-25T10:58:07+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/galaxy-s26-series-gets-sixth-one-ui-9-0-beta-update/"
+      ]
+    }
+  ]
+}
