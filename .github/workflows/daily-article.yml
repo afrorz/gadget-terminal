@@ -172,7 +172,10 @@ jobs:
                d. 別製品の動画は貼らない。「同じシリーズの前世代」は別製品。
                   無ければ embeds を省略する
 
-            7-2. 動画が見つからない記事には、公式サイトの製品画像を引用する。
+            7-2. 【必須】動画が見つからない記事には、公式サイトの製品画像を引用する。
+               **動画も画像も無い記事は、自動生成のアイキャッチ（文字だけの図版）になる。**
+               読者にとって実物が1枚も見えない記事になるので、ここは飛ばさないこと。
+               クラファン案件は必ずプロジェクトページに製品写真があり、取得できる。
                a. 引用元は「公式」に限る。メーカーの公式製品ページ・公式プレスルーム、
                   または Kickstarter / Indiegogo / Makuake のプロジェクトページのみ。
                   他のニュースサイトが載せている画像は使わない（転載になる）
@@ -189,7 +192,8 @@ jobs:
 
             8. 記事を書く。ファイル名は content/posts/<TODAY>-<slug>.md
                front matter: title / seo_title / x_hook / slug / keyword / category / date /
-                             kicker / tags / alternatives / faq / embeds / sources
+                             kicker / tags / alternatives / faq / embeds / sources /
+                             thumbnail / thumbnail_credit（7-2 で画像を引用した場合）
                              （キュー・手動指定から書いた記事のみ pick / pick_note）
                - keyword はアイキャッチに入る短い語（製品名など全角10文字程度まで）
 
@@ -254,7 +258,12 @@ jobs:
                     必ずダブルクォートで囲むこと。ここが最も壊れやすい。
                b. pip install -r requirements.txt --break-system-packages -q && python3 scripts/build.py
                   → 「記事 N本」の N が、書いた本数だけ増えていることを確認
-               どちらかが失敗したら記事を直して、通るまでコミットしない。
+               c. 実物が見える画像があるか確認する:
+                  python3 -c "import glob,yaml;bad=[f for f in glob.glob('content/posts/<TODAY>-*.md') if not (any((e.get('type') or '').lower()=='youtube' for e in (yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]).get('embeds') or [])) or yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]).get('thumbnail'))];print('画像なし:', bad or 'なし')"
+                  → 「画像なし: なし」になるまで 7 と 7-2 をやり直す。
+                    どうしても公式の画像が見つからない製品だけ、そのまま出してよい。
+                    その場合はコミットメッセージの本文にファイル名と理由を1行書く。
+               a〜c のどれかが失敗したら記事を直して、通るまでコミットしない。
 
             10. 検証が通ったら git でコミットして main に push する。
                 コミットメッセージは「記事N本追加 <TODAY>」（N は実際に書いた本数）。
