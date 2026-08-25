@@ -21,6 +21,13 @@ alternatives:
     why: 同じKeychronのホール効果磁気スイッチ機で、国内正規代理店経由でAmazon.co.jpから即日購入できる。V6 Ultra Hybridの磁気スイッチ側の使用感を今すぐ試せる。
     url: https://www.amazon.co.jp/dp/B0DCGK6FNQ
     merchant: amazon
+images:
+  - url: "https://i.kickstarter.com/assets/054/860/273/63508e2207f9c366b6d5f95464a3eec7_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1787551940&width=1552&sig=u345rExwl%2Fx0UmCDHV8JuWHKyuAXr%2F8LDs4TC07UStE%3D"
+    caption: V6 Ultra Hybrid 8K の本体。フルサイズ配列で右上にノブを備える
+    credit: Keychron 公式 Kickstarter プロジェクトページ
+  - url: "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/V6_Ultra_hybrid_8k.png?v=1786334653&width=2048"
+    caption: 主な仕様。磁気スイッチとメカニカルスイッチを同じ基板で混在させられる
+    credit: Keychron 公式サイト
 sources:
   - title: "Keychron V6 Ultra Hybrid TMR Keyboard Launches on Kickstarter"
     url: https://www.techpowerup.com/351726/keychron-v6-ultra-hybrid-tmr-keyboard-launches-on-kickstarter

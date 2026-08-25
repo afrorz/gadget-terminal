@@ -213,6 +213,14 @@ jobs:
                画像ファイルをダウンロードして public/ や content/ に置くことは絶対にしない。
                確認用に /tmp へ落とすのはよい。front matter には権利者のURLを書く。
 
+            7-3. 【毎回2本まで】過去記事の画像を埋める。
+               サイト開設初期の記事には画像が無いものが残っている。次で一覧を出す:
+                 python3 scripts/checkimages.py | grep -E '^(NG|△)'
+               上から**2本まで**選び、7-2 と同じ手順（imagepick → 目視 → images）で
+               画像を足す。3本以上は手を出さない。今日の新記事のほうが優先である。
+               公式ページが見つからない古い記事は飛ばして、次の記事に移る。
+               画像を足したファイルは、今日の記事と同じコミットに含めてよい。
+
             8. 記事を書く。ファイル名は content/posts/<TODAY>-<slug>.md
                front matter: title / seo_title / x_hook / slug / keyword / category / date /
                              kicker / tags / alternatives / faq / embeds / sources /
