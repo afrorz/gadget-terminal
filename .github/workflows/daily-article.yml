@@ -40,8 +40,12 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
+          # --max-turns は余裕を持たせる。画像収集（imagepick → ダウンロード →
+          # 1枚ずつ目視 → checkimages）で1記事あたりのターン数が大きく増えた。
+          # 実測: 記事3本 + 画像で150ターン（120では足りず失敗扱いになった）。
+          # 記事は書けているのに上限超過で落ちるので、超えたらここを上げる。
           claude_args: |
-            --max-turns 120
+            --max-turns 250
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
           prompt: |
             あなたは合同会社スタープラチナが運営する海外ガジェットメディア「Gadget Terminal」
