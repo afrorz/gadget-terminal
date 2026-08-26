@@ -30,6 +30,13 @@ jobs:
       - uses: actions/checkout@v6
 
       - uses: anthropics/claude-code-action@v1
+        # prompt の中に ${{ }} を書かないこと。書くとプロンプト全体が式として
+        # 評価され、GitHub Actions の式の上限 21,000字にぶつかって
+        # 「Invalid workflow file / Exceeded max expression length」で落ちる。
+        # 値はここで env に渡し、プロンプト側は環境変数として読む。
+        env:
+          MANUAL_URL: ${{ github.event.inputs.url }}
+          EVENT_NAME: ${{ github.event_name }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
@@ -67,7 +74,8 @@ jobs:
             3-2. 【最優先】書くネタの優先順位を決める。上から順に埋め、3本に達したら
                それ以降は見なくてよい。
 
-               (1) **手動指定** — この実行に渡された url は「${{ github.event.inputs.url }}」である。
+               (1) **手動指定** — この実行に渡された url は環境変数 MANUAL_URL に入っている。
+                   まず `echo "$MANUAL_URL"` を実行して中身を確認すること。
                    空でなければ、**それだけを記事にして終わる。** 3本に水増ししない。
                    カンマ区切りなら全部書く。URL の指定があるのに別の製品を書いてはいけない。
                    この場合は下の (2)(3)(4) もダイジェストも見ない。
@@ -125,7 +133,8 @@ jobs:
                - **3本以上ある** → 「本日分は作成済みのため終了」と出して何もせず終了
                - **3本未満** → 既存の記事とは別の製品を選んで、3本になるまで書く
                手動実行 (event_name = workflow_dispatch) は本数に関わらず必ず書く。
-               この実行の event_name は「${{ github.event_name }}」である。
+               この実行の event_name は環境変数 EVENT_NAME に入っている。
+               `echo "$EVENT_NAME"` で確認すること。
 
             6. 元記事を必ず読む。見出しだけで書かない。
                スペック・価格・日付・調達額を正確に抜き出す。
