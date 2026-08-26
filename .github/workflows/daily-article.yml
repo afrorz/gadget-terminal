@@ -224,9 +224,29 @@ jobs:
             8. 記事を書く。ファイル名は content/posts/<TODAY>-<slug>.md
                front matter: title / seo_title / x_hook / slug / keyword / category / date /
                              kicker / tags / alternatives / faq / embeds / sources /
-                             images / credit（7-2 で集めた製品画像。**必須**）
+                             images / credit（7-2 で集めた製品画像。**必須**）/
+                             origin / deadline（到着案内板に出る。下記）
                              （キュー・手動指定から書いた記事のみ pick / pick_note）
                - keyword はアイキャッチに入る短い語（製品名など全角10文字程度まで）
+
+               【到着案内板】トップの案内板は「どこから来て、今どうなっているか」を出す。
+                 - origin: 製品を出した会社の本拠地。`空港コード 都市名` の形で書く
+                     origin: SZX 深圳
+                   クラファン案件は API の country が正解なので、それに従う。
+                   （Kickstarter は project JSON の `country`、Indiegogo は
+                     `window.__INITIAL_STATE__` 内の国コード）
+                   **分からなければ書かない。** 空欄なら案内板は「---」と出る。
+                   推測で埋めると出所を偽ることになる。ここは事実なので外さない。
+                   有名ブランドは config/site.yaml の origins から自動で引けるので、
+                   その表に載っている会社は書かなくてよい。載っていなければ書く。
+                 - deadline: クラウドファンディングの締切。`YYYY-MM-DD`
+                     deadline: 2026-09-11
+                   これを書くと案内板が自動で NOW BOARDING / FINAL CALL（残り7日以内）/
+                   GATE CLOSED に切り替わる。**クラファン案件では必ず書く。**
+                   Kickstarter は project JSON の `deadline`（UNIX秒）をJSTに直す。
+                 - status: 上記で表せない状態だけ手で書く。使える語は
+                   SCHEDULED / LANDED / LOCAL ONLY / FULLY BOOKED / DELAYED。
+                   status_note に「残り3日」「品切れ」など短い補足を書ける。
 
                【SEO】seo_title を必ず書く。検索結果に出るのはこちら。
                  - 全角32字以内。Google はこれ以上を切り捨てる

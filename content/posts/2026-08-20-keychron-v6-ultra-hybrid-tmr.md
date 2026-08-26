@@ -28,6 +28,7 @@ images:
   - url: "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/V6_Ultra_hybrid_8k.png?v=1786334653&width=2048"
     caption: 主な仕様。磁気スイッチとメカニカルスイッチを同じ基板で混在させられる
     credit: Keychron 公式サイト
+deadline: 2026-09-17
 sources:
   - title: "Keychron V6 Ultra Hybrid TMR Keyboard Launches on Kickstarter"
     url: https://www.techpowerup.com/351726/keychron-v6-ultra-hybrid-tmr-keyboard-launches-on-kickstarter

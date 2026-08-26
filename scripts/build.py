@@ -258,6 +258,7 @@ def header(site: dict) -> str:
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
     <nav class="nav">{cats}<a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
   </div>
 </header>"""
 
@@ -282,6 +283,7 @@ def footer(site: dict) -> str:
     </div>
   </div>
 </footer>
+{BOARD_JS}
 </body>
 </html>"""
 
@@ -326,16 +328,114 @@ def card(site: dict, p: dict, featured: bool = False) -> str:
 </article>"""
 
 
+
+# ── 到着案内板 ───────────────────────────────────────────────
+# 空港の案内板は「今どういう状態か」を出すから案内板として機能する。
+# 装飾で語彙を増やさず、記事のデータから確実に言えるものだけを出す。
+STATUS_STYLE = {
+    "NOW ARRIVING": "live",   # 本日掲載
+    "NOW BOARDING": "live",   # クラウドファンディング受付中
+    "FINAL CALL":   "urgent", # 締切まで7日以内
+    "GATE CLOSED":  "done",   # 募集終了
+    "FULLY BOOKED": "done",   # 品切れ
+    "DELAYED":      "warn",   # 発売・出荷の延期
+    "LOCAL ONLY":   "warn",   # 現地限定。日本展開は未定
+    "SCHEDULED":    "plain",  # 発売日が決まっている未発売品
+    "LANDED":       "plain",  # 日本で今すぐ買える
+    "ARRIVED":      "done",   # 掲載済み（既定値）
+}
+
+
+def post_status(p: dict, today: str) -> tuple[str, str]:
+    """記事の状態を (表示ラベル, 補足) で返す。
+
+    front matter の status が最優先。無ければ deadline から機械的に決める。
+    どちらも無い記事は掲載日で「本日 / 既出」を出す。推測はしない。
+    """
+    label = str(p.get("status") or "").strip().upper()
+    note = str(p.get("status_note") or "").strip()
+    if label:
+        return (label if label in STATUS_STYLE else "ARRIVED", note)
+
+    deadline = str(p.get("deadline") or "").strip()
+    if deadline:
+        try:
+            end = datetime.strptime(deadline[:10], "%Y-%m-%d").date()
+            days = (end - datetime.strptime(today, "%Y-%m-%d").date()).days
+        except ValueError:
+            days = None
+        if days is not None:
+            if days < 0:
+                return ("GATE CLOSED", "")
+            if days <= 7:
+                return ("FINAL CALL", f"残り{days}日" if days else "本日締切")
+            return ("NOW BOARDING", f"残り{days}日")
+
+    return ("NOW ARRIVING", "") if p["date"] == today else ("ARRIVED", "")
+
+
+def post_origin(site: dict, p: dict) -> tuple[str, str]:
+    """FROM 列。(空港コード, 都市名) を返す。分からなければ ('---', '')。
+
+    front matter の origin が最優先。無ければ config の origins から
+    タイトル・タグに出てくるブランド名で引く。当たらなければ空欄にする。
+    **推測して埋めない。** 出所は事実なので、外すと記事の信頼に響く。
+    """
+    raw = str(p.get("origin") or "").strip()
+    if not raw:
+        table = site.get("origins") or {}
+        haystack = (p.get("title", "") + " " + " ".join(str(t) for t in (p.get("tags") or [])))
+        hit = [(brand, val) for brand, val in table.items()
+               if re.search(r"(?<![A-Za-z])" + re.escape(brand) + r"(?![A-Za-z])",
+                            haystack, re.I)]
+        if hit:
+            # 長いブランド名を優先（Redmi と Xiaomi が両方当たる場合など）
+            raw = max(hit, key=lambda kv: len(kv[0]))[1]
+    if not raw:
+        return ("---", "")
+    parts = raw.split(None, 1)
+    return (parts[0].upper(), parts[1] if len(parts) > 1 else "")
+
+
+def flight_no(p: dict, order: dict) -> str:
+    """便名。掲載順の通し番号なので、記事ごとに一意で変わらない。"""
+    return f"GT {order.get(p['slug'], 0):04d}"
+
+
+def board_posts(site: dict, posts: list[dict], limit: int = 8) -> list[dict]:
+    """案内板に出す記事を選ぶ。
+
+    空港の到着案内板は「これから着く便」を上に出す。それに倣って、
+    **まだ出資できるクラウドファンディング案件を締切が近い順に上へ置く。**
+    掲載日順にすると、読者が今日行動できる案件が下に沈んで案内板の意味が無くなる。
+    残りは新着順で埋める。
+    """
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    live, rest = [], []
+    for p in posts:
+        label, _ = post_status(p, today)
+        if label in ("FINAL CALL", "NOW BOARDING"):
+            live.append(p)
+        else:
+            rest.append(p)
+    live.sort(key=lambda x: str(x.get("deadline") or "9999"))
+    return (live + rest)[:limit]
+
+
 def board_row(site: dict, p: dict, i: int) -> str:
     key = p.get("category", "misc")
     cat = site["categories"].get(key, {"code": "---", "label": "その他"})
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    label, note = post_status(p, today)
+    style = STATUS_STYLE.get(label, "done")
+    code, city = post_origin(site, p)
     return f"""<a class="board-row cat-{key}" href="{u(p['path'])}">
-  <span class="b-no">{i:02d}</span>
-  <span class="b-code">{cat.get('code','---')}</span>
-  <span class="b-date">{p['date'].replace('-', '.')}</span>
+  <span class="b-flt" data-flap>{p['flight']}</span>
+  <span class="b-from"><b data-flap>{html.escape(code)}</b>{f'<span>{html.escape(city)}</span>' if city else ''}</span>
+  <span class="b-code" data-flap>{cat.get('code','---')}</span>
   <span class="b-key">{html.escape(p.get('keyword') or '')}</span>
   <span class="b-title">{html.escape(p['title'])}</span>
-  <span class="b-min">{p['reading_min']}MIN</span>
+  <span class="st st-{style}" data-flap-status>{html.escape(label)}{f'<em>{html.escape(note)}</em>' if note else ''}</span>
   <span class="b-arrow" aria-hidden="true">→</span>
 </a>"""
 
@@ -395,18 +495,71 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
 </section>"""
 
 
-def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int = 1) -> str:
+BOARD_JS = """<script>
+(function(){"use strict";
+var reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* 時計。JSTで24時間表記。閲覧者の端末が海外時刻でも日本時間を出す。 */
+function tick(){
+  var t=new Date(Date.now()+new Date().getTimezoneOffset()*60000+32400000);
+  document.querySelectorAll('[data-clk="h"]').forEach(function(e){
+    e.textContent=String(t.getHours()).padStart(2,"0");});
+  document.querySelectorAll('[data-clk="m"]').forEach(function(e){
+    e.textContent=String(t.getMinutes()).padStart(2,"0");});
+}
+tick();setInterval(tick,10000);
+
+/* スプリットフラップ。本物の案内板は文字が回って目当ての字で止まる。
+   全行を派手に回すと悪趣味なので、等幅の記号列だけ・読み込み時に一度だけ。
+   日本語のタイトルは動かさない（実際の案内板もコード列しか回らない）。 */
+var G="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+function rnd(s,n){return s.replace(/[A-Z0-9]/g,function(){
+  return G[Math.floor(Math.random()*(n||G.length))];});}
+
+function flap(el){
+  var fin=el.getAttribute("data-f");
+  if(fin===null){fin=el.textContent;el.setAttribute("data-f",fin);}
+  if(reduced){el.textContent=fin;return;}
+  var n=0,t=setInterval(function(){
+    if(++n>=7){clearInterval(t);el.textContent=fin;return;}
+    el.textContent=rnd(fin);},42);
+}
+function flapStatus(el){
+  var node=el.firstChild;
+  if(!node||node.nodeType!==3)return;
+  var fin=el.getAttribute("data-f");
+  if(fin===null){fin=node.nodeValue;el.setAttribute("data-f",fin);}
+  if(reduced){node.nodeValue=fin;return;}
+  var n=0,t=setInterval(function(){
+    if(++n>=9){clearInterval(t);node.nodeValue=fin;return;}
+    node.nodeValue=rnd(fin,26);},40);
+}
+var rows=document.querySelectorAll(".board-row");
+rows.forEach(function(row,i){
+  setTimeout(function(){
+    row.querySelectorAll("[data-flap]").forEach(flap);
+    var st=row.querySelector("[data-flap-status]");
+    if(st)flapStatus(st);
+  },reduced?0:i*55);
+});
+})();
+</script>"""
+
+
+def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int = 1,
+                 all_posts: list[dict] | None = None) -> str:
     s = site["site"]
     if not posts:
         body = '<p class="empty">まだ記事がありません。</p>'
     elif page <= 1:
         # 1ページ目だけ、案内板と大きい先頭記事を出す。
         lead, rest = posts[0], posts[1:]
-        rows = "".join(board_row(site, p, i + 1) for i, p in enumerate(posts[:7]))
+        rows = "".join(board_row(site, p, i + 1)
+                       for i, p in enumerate(board_posts(site, all_posts or posts)))
         body = f"""
 <section class="board">
   <div class="board-head">
-    <span>NO</span><span>CAT</span><span>DATE</span><span>KEY</span><span>ENTRY</span><span>LEN</span><span></span>
+    <span>FLIGHT</span><span>FROM</span><span>CAT</span><span>KEY</span><span>ENTRY</span><span>STATUS</span><span></span>
   </div>
   {rows}
 </section>
@@ -563,6 +716,14 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     cat = site["categories"].get(p.get("category"), {"label": "その他", "slug": "misc"})
     embeds_html, needs_x = render_embeds(p)
     gallery_html = render_gallery(p)
+    # 出発地 → 成田。この媒体がやっているのは「海外の製品を日本に着陸させること」なので、
+    # 出所が分かる記事ではそれを1行で見せる。分からない記事では何も出さない。
+    o_code, o_city = post_origin(site, p)
+    route = ""
+    if o_code != "---":
+        route = (f'<span class="dot"></span><span class="meta-route">'
+                 f'{html.escape(o_code)}{f" {html.escape(o_city)}" if o_city else ""}'
+                 f'<i aria-hidden="true">✈</i>NRT 日本</span>')
     # 最初の1本は本文の前に出す。下端に置くと誰も見ないため。
     lead_embed, rest_embed = "", ""
     if embeds_html:
@@ -702,7 +863,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {f'<p class="article-lede">{jp(p["kicker"])}</p>' if p.get('kicker') else ''}
     {f'<aside class="pick-callout"><p class="pick-callout-head">編集部ピックアップ</p><p class="pick-callout-note">{html.escape(p["pick_note"])}</p></aside>' if p.get('pick') and p.get('pick_note') else (f'<p class="pick-callout pick-callout-bare">編集部ピックアップ<span>運営者が選んだガジェットです</span></p>' if p.get('pick') else '')}
     {disclosure}
-    <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ</p>
+    <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ{route}</p>
     {hero_block}
     <div class="prose">{p['body_html']}</div>
     {gallery_html}
@@ -944,6 +1105,15 @@ img{max-width:100%}
 .site-head{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--rule);
   background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px) saturate(1.4)}
 .head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:48px}
+/* 空港・駅・管制室に共通する記号は「常に動いている現在時刻」。
+   コロンだけ明滅させると、静止画に見えない。 */
+.head-clock{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--ink-2);
+  font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:7px;flex:none}
+.head-clock small{font-size:9.5px;letter-spacing:.16em;color:var(--ink-3)}
+.head-clock i{font-style:normal;animation:clk-blink 1s steps(1,end) infinite}
+.meta-route{font-family:var(--mono);letter-spacing:.06em;color:var(--ink-3)}
+.meta-route i{font-style:normal;margin:0 7px;color:var(--cat)}
+@keyframes clk-blink{50%{opacity:.25}}
 .brand{display:inline-flex;align-items:center;font-family:var(--mono);font-weight:600;
   font-size:14px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap}
 .caret{width:9px;height:16px;background:var(--accent);margin-left:7px;display:inline-block;
@@ -978,7 +1148,7 @@ img{max-width:100%}
 /* ── 出発案内板 ─────────────────────────────── */
 .board{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-bottom:40px}
 .board-head,.board-row{display:grid;
-  grid-template-columns:30px 44px 84px minmax(140px,0.9fr) minmax(0,2.1fr) 44px 20px;
+  grid-template-columns:64px 74px 44px minmax(112px,.86fr) minmax(0,1.72fr) 150px 20px;
   align-items:center;gap:14px;font-family:var(--mono);font-size:11.5px}
 .board-head{padding:7px 4px;color:var(--ink-3);font-size:9.5px;letter-spacing:.16em;
   border-bottom:1px solid var(--rule)}
@@ -992,6 +1162,24 @@ img{max-width:100%}
 .b-no{color:var(--ink-3)}
 .b-code{color:var(--cat);font-weight:600;letter-spacing:.08em}
 .b-date{color:var(--ink-3);font-variant-numeric:tabular-nums}
+.b-flt{color:var(--ink-2);letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.b-from{color:var(--ink);letter-spacing:.05em;overflow:hidden;white-space:nowrap}
+.b-from span{color:var(--ink-3);font-family:var(--sans);letter-spacing:0;
+  margin-left:6px;font-size:11px}
+/* 運航ステータス。カテゴリ色（--cat）とは別系統にして、意味だけを担わせる。
+   同じ色で分類と状態の両方を表すと、どちらの意味か読めなくなる。 */
+.st{display:inline-flex;align-items:center;gap:7px;letter-spacing:.1em;font-weight:500;
+  white-space:nowrap;overflow:hidden}
+.st::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.st em{font-style:normal;font-family:var(--sans);letter-spacing:0;color:var(--ink-3);
+  font-size:11px;margin-left:2px}
+.st-live{color:#5ad19a}
+.st-live::before{animation:st-pulse 1.6s ease-in-out infinite}
+@keyframes st-pulse{50%{opacity:.3}}
+.st-urgent{color:var(--accent)}
+.st-warn{color:#d9b45f}
+.st-done{color:var(--ink-3)}
+.st-plain{color:var(--ink-2)}
 .b-key{font-family:var(--sans);font-size:13px;color:var(--ink);font-weight:600;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .b-title{font-family:var(--sans);font-size:12.5px;color:#bcc6d1;overflow:hidden;
@@ -1185,14 +1373,21 @@ img{max-width:100%}
 .foot-copy{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin:0;letter-spacing:.06em}
 
 /* ── レスポンシブ ───────────────────────────── */
+/* 案内板は狭くなるほど列を落とす。最後まで残すのは KEY と STATUS。
+   「何の話か」と「今どうなっているか」が案内板の本体なので。 */
 @media (max-width:1100px){
-  .board-head,.board-row{grid-template-columns:30px 44px 84px minmax(0,1fr) 44px 20px}
+  .board-head,.board-row{grid-template-columns:64px 74px 44px minmax(0,1fr) 150px 20px}
   .b-title,.board-head span:nth-child(5){display:none}
 }
 @media (max-width:900px){
   .nav-label{display:none}
-  .board-head,.board-row{grid-template-columns:30px 44px minmax(0,1fr) 20px}
-  .b-date,.b-min,.board-head span:nth-child(3),.board-head span:nth-child(6){display:none}
+  .board-head,.board-row{grid-template-columns:74px 44px minmax(0,1fr) 132px 20px}
+  .b-flt,.board-head span:nth-child(1){display:none}
+}
+@media (max-width:620px){
+  .board-head,.board-row{grid-template-columns:46px 40px minmax(0,1fr) 104px 16px;gap:10px}
+  .b-from span,.st em{display:none}
+  .st{letter-spacing:.04em;font-size:10.5px;gap:5px}
 }
 @media (max-width:820px){
   .card-featured{grid-template-columns:1fr;gap:14px}
@@ -1237,6 +1432,9 @@ def main() -> int:
     posts = [p for p in (parse_post(f) for f in sorted(POSTS_DIR.glob("*.md"))) if p]
     # 日付 → priority（front matter で 1 以上を指定するとその日の先頭に来る）→ slug
     posts.sort(key=lambda p: (p["date"], p.get("priority", 0), p["slug"]), reverse=True)
+    # 便名は掲載が古い順の通し番号。既存記事の番号がずれないよう昇順で振る。
+    for n, q in enumerate(sorted(posts, key=lambda x: (x["date"], x["slug"])), start=1):
+        q["flight"] = f"GT {n:04d}"
     print(f"■ 記事 {len(posts)}本")
     long_titles = [p for p in posts if len(p.get("seo_title") or p["title"]) > 34]
     if long_titles:
@@ -1292,7 +1490,8 @@ def main() -> int:
     for n, chunk in enumerate(pages, start=1):
         out = PUBLIC / page_path(n)
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render_index(site, chunk, n, total_pages), encoding="utf-8")
+        out.write_text(render_index(site, chunk, n, total_pages, all_posts=posts),
+                       encoding="utf-8")
     if total_pages > 1:
         print(f"■ ページ送り {total_pages}ページ ({per_page}件/ページ)")
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")

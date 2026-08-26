@@ -18,6 +18,7 @@ faq:
     a: VIP早期価格が299ドル、通常予定価格（MSRP）は499ドルです（掲載時点の価格）。
   - q: いつ届きますか
     a: Kickstarterのプロジェクトのため出荷時期は確定していません。実行者のLiteJamは過去のプロジェクトで実際に出荷を完了した実績があります。
+deadline: 2026-09-11
 sources:
   - title: "Litejam Neo A1: The World's First RGB Acoustic Guitar"
     url: https://www.kickstarter.com/projects/litejam/litejam-neo-a1-the-worlds-first-rgb-acoustic-guitar

@@ -46,3 +46,31 @@ categories:
     code: ODD
     slug: weird
     description: Kickstarter・Makuake発の新製品、珍デバイス、小型端末。日本語情報がほぼ無い領域。
+
+# 到着案内板の FROM 列。ブランド名 → 出発地（空港コード + 都市名）。
+# 記事の front matter に origin があればそちらが優先される。
+# 判断は「その製品を出した会社の本拠地」。迷ったら書かない（--- になる）。
+origins:
+  Xiaomi: PEK 北京
+  Redmi: PEK 北京
+  LG: ICN ソウル
+  Samsung: ICN ソウル
+  Baseus: SZX 深圳
+  Minisforum: SZX 深圳
+  LilyGo: SZX 深圳
+  LILYGO: SZX 深圳
+  Keychron: SZX 深圳
+  ANBERNIC: SZX 深圳
+  GPD: SZX 深圳
+  RayNeo: SZX 深圳
+  Elecrow: SZX 深圳
+  Bigme: SZX 深圳
+  CMF: LHR ロンドン
+  Nothing: LHR ロンドン
+  Fairphone: AMS アムステルダム
+  Framework: SFO サンフランシスコ
+  Sennheiser: HAJ ハノーバー
+  Valve: SEA シアトル
+  Backblaze: SJC サンノゼ
+  Google: SFO サンフランシスコ
+  MeLE: SZX 深圳
