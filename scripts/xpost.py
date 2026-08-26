@@ -251,6 +251,14 @@ def main() -> int:
             print("! 280字を超えるので送らない")
             continue
         if args.dry_run:
+            # 手動投稿用に、添付する画像の場所も出す。
+            # 画像付きは文字だけより明らかに伸びるので、1枚目を勧める。
+            imgs = fm.get("images") or []
+            first = ""
+            if imgs:
+                head_img = imgs[0]
+                first = head_img if isinstance(head_img, str) else (head_img or {}).get("url", "")
+            print(f"[添付する画像] {first or 'なし'}")
             continue
         success, info = post_tweet(text, creds)
         if success:
