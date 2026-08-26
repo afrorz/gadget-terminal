@@ -720,7 +720,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     # 出所が分かる記事ではそれを1行で見せる。分からない記事では何も出さない。
     o_code, o_city = post_origin(site, p)
     route = ""
-    if o_code != "---":
+    # 日本発の製品に「✈ NRT 日本」を出すと意味を成さないので、その場合は出さない。
+    if o_code not in ("---", "JPN", "NRT", "HND", "KIX"):
         route = (f'<span class="dot"></span><span class="meta-route">'
                  f'{html.escape(o_code)}{f" {html.escape(o_city)}" if o_city else ""}'
                  f'<i aria-hidden="true">✈</i>NRT 日本</span>')
