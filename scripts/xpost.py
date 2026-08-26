@@ -81,16 +81,17 @@ def build_text(post: dict, url: str) -> str:
     tail = "\n" + url + (("\n" + " ".join(tags)) if tags else "")
     tail_len = 1 + URL_LEN + ((1 + len(" ".join(tags))) if tags else 0)
 
-    head = str(post.get("seo_title") or post.get("title") or "").strip()
-    kicker = str(post.get("kicker") or "").strip()
+    # 一言目は x_hook。検索に効く言葉(seo_title)と、指を止める言葉は別物なので、
+    # 記事作成時に x_hook を別に書かせている。無い記事だけ seo_title で代用する。
+    head = str(post.get("x_hook") or "").strip()
+    if not head:
+        head = str(post.get("seo_title") or post.get("title") or "").strip()
 
     budget = TWEET_LIMIT - tail_len
     if len(head) >= budget:
         return head[: budget - 1] + "…" + tail
-
-    # 余白があれば kicker を足す。入り切らなければ足さない(途中で切れた要約は読めない)
-    if kicker and len(head) + 1 + len(kicker) <= budget:
-        return head + "\n" + kicker + tail
+    # kicker は足さない。記事の導入文をそのまま流すと
+    # 280字ぎりぎりのプレスリリースになって誰も読まない(実測 276/280字)。
     return head + tail
 
 
