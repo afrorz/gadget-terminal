@@ -558,6 +558,15 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
                        for i, p in enumerate(board_posts(site, all_posts or posts)))
         body = f"""
 <section class="board">
+  <h2 class="board-title">
+    <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <g transform="rotate(22 12 11)"><path d="M21 11 L14.5 11.8 L10 17 L7.5 17 L9.8 11.9
+        L4.5 12 L3 14 L1.5 14 L2.6 11 L1.5 8 L3 8 L4.5 10 L9.8 10.1 L7.5 5 L10 5 L14.5 10.2 Z"/></g>
+      <rect x="2.5" y="20" width="19" height="1.5" rx=".75"/>
+    </svg>
+    <span class="board-title-en">ARRIVALS</span>
+    <span class="board-title-ja">到着案内 — 海外発ガジェットの入荷状況</span>
+  </h2>
   <div class="board-head">
     <span>FLIGHT</span><span>FROM</span><span>CAT</span><span>KEY</span><span>ENTRY</span><span>STATUS</span><span></span>
   </div>
@@ -1148,8 +1157,19 @@ img{max-width:100%}
 
 /* ── 出発案内板 ─────────────────────────────── */
 .board{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-bottom:40px}
+/* 見出しの飛行機は ISO 7001 の到着ピクトグラム（機首を下げた機体＋接地線）。
+   本物の案内板に飛行機の絵は無く、あるのはこの見出しの位置だけ。
+   サイト内の他の場所にアイコンを散らさないこと。空港ではなく旅行ブログに見える。 */
+.board-title{display:flex;align-items:center;gap:11px;margin:0;padding:16px 4px 13px;
+  font-family:var(--mono);font-weight:600;font-size:13px;letter-spacing:.2em;
+  border-bottom:1px solid var(--rule)}
+.pict-arr{width:19px;height:19px;flex:none;fill:var(--accent)}
+.board-title-en{color:var(--ink)}
+.board-title-ja{font-family:var(--sans);font-size:11.5px;font-weight:400;letter-spacing:0;
+  color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:620px){.board-title-ja{display:none}}
 .board-head,.board-row{display:grid;
-  grid-template-columns:64px 74px 44px minmax(112px,.86fr) minmax(0,1.72fr) 150px 20px;
+  grid-template-columns:64px 74px 44px 150px minmax(0,1fr) 150px 20px;
   align-items:center;gap:14px;font-family:var(--mono);font-size:11.5px}
 .board-head{padding:7px 4px;color:var(--ink-3);font-size:9.5px;letter-spacing:.16em;
   border-bottom:1px solid var(--rule)}
