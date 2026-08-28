@@ -58,7 +58,7 @@ def main(argv: list[str]) -> int:
         print("対象の記事がありません:", " ".join(pats))
         return 1
 
-    bad_none, bad_dead, weak, ok_shots = [], [], [], 0
+    bad_none, bad_dead, weak, bad_hook, ok_shots = [], [], [], [], 0
     for f in files:
         text = Path(f).read_text(encoding="utf-8")
         m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
@@ -66,6 +66,11 @@ def main(argv: list[str]) -> int:
             continue
         meta = yaml.safe_load(m.group(1)) or {}
         name = Path(f).name
+        # x_hook は X 投稿の一言目。無いと seo_title が代用されて平坦な文になる。
+        # 指示に書いてあっても書き忘れるので、ここで止める。
+        if not str(meta.get("x_hook") or "").strip():
+            bad_hook.append(name)
+            print(f"NG  {name}: x_hook がありません")
         urls = image_urls(meta)
         yt = [e for e in (meta.get("embeds") or [])
               if (e.get("type") or "").lower() == "youtube" and e.get("id")]
@@ -91,8 +96,8 @@ def main(argv: list[str]) -> int:
 
     print(f"\n記事 {len(files)}本 / 生きている画像 {ok_shots}枚 "
           f"/ 動画のみ {len(weak)}本 / 画像なし {len(bad_none)}本 "
-          f"/ 表示できない画像 {len(bad_dead)}枚")
-    if bad_none or bad_dead:
+          f"/ 表示できない画像 {len(bad_dead)}枚 / x_hook なし {len(bad_hook)}本")
+    if bad_none or bad_dead or bad_hook:
         print("\n公開できません。7-2 に戻って画像を用意するか、その記事を削除してください。")
         return 1
     print("すべての記事に表示できる製品画像があります。")

@@ -1,6 +1,7 @@
 ---
 title: "香港発のホログラムAIペット「oLand」、Kickstarterは達成後にキャンセルされウェイトリスト待ちに"
 seo_title: "oLand、ホログラムAIペットは今買えない"
+x_hook: "目標の8倍が集まったのに、運営が自分でキャンセルした。今は1万5000人がウェイトリストで待っている。"
 slug: oland-alltime-holographic-pet
 keyword: oLand
 category: weird

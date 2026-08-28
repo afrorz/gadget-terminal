@@ -1,6 +1,7 @@
 ---
 title: "新興ブランドXERONが360mm水冷クーラー「NEX L360 ARGB」を発表、74.99ドルから"
 seo_title: "XERON NEX L360、74.99ドルの360mm水冷"
+x_hook: "360mmの水冷が74.99ドル。ただし今年Computexでデビューしたばかりの新興ブランドだ。"
 slug: xeron-nex-l360-argb
 keyword: NEX L360 ARGB
 category: pc

@@ -1,6 +1,7 @@
 ---
 title: "Plaud One Explorer Editionが登場、内蔵eSIMでスマホ無しでも会話を記録するAIイヤホン"
 seo_title: "Plaud One、249.99ドルのAIイヤホン"
+x_hook: "録音するのはイヤホンではなく、ケースのほう。LTE内蔵で、スマホと繋がなくても文字起こしまで終わる。"
 slug: plaud-one-explorer-edition
 keyword: Plaud One
 category: smartphone
