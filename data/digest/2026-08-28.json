@@ -1,0 +1,728 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T13:27:08.242370+09:00",
+  "stats": {
+    "fetched": 733,
+    "unique": 693,
+    "new": 461,
+    "clusters": 431,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "5f8028454457308f",
+      "title": "ALLTIME Launches oLand, World’s First AI Holographic Companion",
+      "url": "https://www.gizmochina.com/2026/08/27/alltime-oland-ai-holographic-companion-launch/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/alltime-oland-ai-holographic-companion-launch",
+      "summary": "ALLTIME has officially unveiled oLand, a unique desktop companion that combines artificial intelligence, holographic technology, and a miniature living ecosystem into one interactive experience. Marketed as the world&#8217;s first AI holographic companion, oLand is designed to make workspaces feel calmer and more personal by blending nature with AI. The product is now available on Kickstarter, [&#",
+      "published": "2026-08-27T13:07:10+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+6 kickstarter",
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "49c1395948e720fb",
+      "title": "Bigme announces HiBreak Dual 3 with detachable color screen this time",
+      "url": "https://www.gizmochina.com/2026/08/27/bigme-announces-hibreak-dual-3-with-detachable-color-screen-this-time/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/bigme-announces-hibreak-dual-3-with-detachable-color-screen-this-time",
+      "summary": "It’s been just two months since Bigme launched the HiBreak Dual 2. Surprisingly, though, the successor is already here. Bigme today unveiled the HiBreak Dual 3, its next magnetic dual-screen e-ink phone, just months after the Dual 2 hit Kickstarter. The company hasn&#8217;t given a firm release date yet, only saying the phone will launch [&#8230;] The post Bigme announces HiBreak Dual 3 with detac",
+      "published": "2026-08-27T16:53:13+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+6 kickstarter",
+        "+4 unveil",
+        "+3 launch",
+        "+3 release date",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "030dfee3435d268b",
+      "title": "Samsung Galaxy S26 FE uses the Exynos 2500 chipset everywhere",
+      "url": "https://www.gsmarena.com/samsung_galaxy_s26_fe_uses_the_exynos_2500_chipset_everywhere-news-74374.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_s26_fe_uses_the_exynos_2500_chipset_everywhere-news-74374.php",
+      "summary": "Samsung just announced the Galaxy S26 FE, and its main upgrade compared to the Galaxy S25 FE is the newer chipset. The S26 FE comes with the Exynos 2500, which is better in every way than the Exynos 2400 that the S25 FE employed. [#InlinePriceWidget,14870,1#] The Exynos 2500 is also the only SoC that Samsung is using for the Galaxy S26 FE, there's no Exynos/Snapdragon split based on market here, o",
+      "published": "2026-08-27T23:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina",
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/08/27/samsung-galaxy-s26-fe-launched-specs-price/",
+        "https://www.sammobile.com/news/galaxy-s26-fe-exclusively-uses-exynos-2500-chip-globally/",
+        "https://www.sammobile.com/samsung/galaxy-s26-fe/hands-on/"
+      ]
+    },
+    {
+      "id": "bf0c178e5ba108e6",
+      "title": "谷歌推出《Pokémon Sleep》联名款 Fitbit Air 活动追踪器",
+      "url": "https://www.ithome.com/0/995/407.htm",
+      "canonical": "https://www.ithome.com/0/995/407.htm",
+      "summary": "IT之家 8 月 28 日消息，Google（谷歌）当地时间 27 日宣布推出《Pokémon Sleep》联名款 Fitbit Air 无屏活动追踪器。这款健身手环 采用宁静的“瞌睡蓝”配色 ，定制的丝印 标签上装饰以睡梦中的皮卡丘图案 。 IT之家了解到，《Pokémon Sleep》是一款“通过睡眠收集宝可梦”的移动端游戏。将 Fitbit Air 连接至该游戏应用后， 用户的睡眠活动即可解锁互动奖励 。",
+      "published": "2026-08-28T02:21:20+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+16 5媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "Android Authority",
+        "Android Police",
+        "Gadget Flow"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/fitbit-air-special-edition-pokmon-sleep/",
+        "https://thegadgetflow.com/product/google-fitbit-air-pokemon-sleep-fitness-tracker/",
+        "https://www.androidauthority.com/fitbit-air-special-edition-pokemon-sleep-3703967/",
+        "https://9to5google.com/2026/08/27/fitbit-air-pokemon-sleep/"
+      ]
+    },
+    {
+      "title": "Makuake｜AirPodsケースがスマホスタンドに変身！磁気吸着で縦横自在の一体型ケース登場｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/k01/",
+      "summary": "収納するだけだったケースを、もっと使えるアイテムへ毎日持ち歩くAirPodsケースに、スマホスタンドという新しい役割をプラス。スマホ背面に磁気吸着し、ケース本体を展開するだけで、縦向きでも横向きでも使えるスタンドに変わります。AirPodsを収納するケースとして使いながら、必要なときはスマホスタンドへ。円形マグネットリングをスマホ背面に吸着し、縦置き・横置きのどちらにも対応します。動画を見るとき、",
+      "image": "https://static.makuake.com/upload/project/53306/main_53306.jpg?version=1787555592&amp;width=690&amp;height=388",
+      "published": "2026-08-31T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "50eed8cdd9497c8a",
+      "canonical": "https://www.makuake.com/project/k01",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 登場",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【全身すっきり】海外10万本突破！人間工学に基づく超軽量ボディケアスティック｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/balanstick/",
+      "summary": "※リターン品の配送が完了するまで、Workerは「LEONFit BALANSTICK」の日本における独占販売権を有する正規代理店です。詳細はページ下部のリスク＆チャレンジをご確認ください。忙しい毎日の中で、自分のケアは後回しになりがち。しかし、手軽なセルフケアを少し取り入れるだけで、毎日の過ごしやすさが変わります。限られた時間で、効率的かつ心地よく自分をケアできるアイテムが必要です。　独自の3D",
+      "image": "https://static.makuake.com/upload/project/53311/main_53311.jpg?version=1787878741&amp;width=690&amp;height=388",
+      "published": "2026-08-31T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "d0a8036f0daf47a8",
+      "canonical": "https://www.makuake.com/project/balanstick",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜ワンタッチで展開・収納！ 太陽光で自動充電、オールシーズン使える次世代カーカバー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/carcover/",
+      "summary": "リターン品の配送が完了するまで、弊社はGuangzhou Chejibian Trading Co., Ltd.（メーカー）の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。煩わしい手動カバーはもう不要重たいカバーを広げ、風にあおられながら車を覆い、汚れたカバーを畳んで収納する手間ーーそんな面倒な時間を、この自動カーカバーが一掃します。",
+      "image": "https://static.makuake.com/upload/project/53354/main_53354.png?version=1787737503&amp;width=690&amp;height=388",
+      "published": "2026-08-31T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "a6e931d2d1a2703e",
+      "canonical": "https://www.makuake.com/project/carcover",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜デスクに、もうひとつの知性を。 AIパートナー「Loona Deskmate」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/loona_deskmate/",
+      "summary": "画面の中だけにいる存在ではありません。質問に答えるだけのツールでもありません。Loona Deskmate（ルーナ・デスクメイト）は、あなたの仕事を自ら理解し、必要なタイミングでサポート。まるで隣にいる同僚のような、一緒に考え、一緒に働くAIパートナーです。毎日の会話や使い方を通して、一人ひとりに合わせて最適化。習慣や好み、よく使うツールや働き方を学び、動きや表情もより自然に進化します。さらに、ス",
+      "image": "https://static.makuake.com/upload/project/53319/main_53319.png?version=1787706390&amp;width=690&amp;height=388",
+      "published": "2026-08-31T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "30ae525d34682b6f",
+      "canonical": "https://www.makuake.com/project/loona_deskmate",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜もう手が冷たいまま操作しない。PCもゲームもスマホも使える室内用デジタルグローブ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/the-writers-glove/",
+      "summary": "リターン品の配送が完了するまで、WithLLCはThe Writer's globe, LLC の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。The Writer’s Gloveは、薄手で手に沿うようにフィットし、指を動かしやすい設計です。5本すべての指先がタッチスクリーンに対応しています。スマートフォン、タブ",
+      "image": "https://static.makuake.com/upload/project/53200/main_53200.png?version=1787041471&amp;width=690&amp;height=388",
+      "published": "2026-09-01T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "78bda98263976e6c",
+      "canonical": "https://www.makuake.com/project/the-writers-glove",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "71fa35facc406419",
+      "title": "Xiaomi’s $11 Thermos Cup Keeps Drinks Hot for 6 Hours or Cold for 6 Hours",
+      "url": "https://www.gizmochina.com/2026/08/27/xiaomis-11-thermos-cup-keeps-drinks-hot-for-6-hours-or-cold-for-6-hours/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/xiaomis-11-thermos-cup-keeps-drinks-hot-for-6-hours-or-cold-for-6-hours",
+      "summary": "Xiaomi has added a new thermos cup to its Youpin crowdfunding platform. The Mijia Flip-Lid Insulated Mug 2 will enter crowdfunding on September 2, but it is already listed on Xiaomi Youpin ahead of the launch. It comes in four colors: white, navy blue, misty purple, and glacier blue. The crowdfunding price is set at [&#8230;] The post Xiaomi’s $11 Thermos Cup Keeps Drinks Hot for 6 Hours or Cold f",
+      "published": "2026-08-27T06:59:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d1dacec283328710",
+      "title": "Xiaomi officially announces its first 10,000mAh battery phone",
+      "url": "https://www.gizmochina.com/2026/08/27/redmi-note-17-pro-max-10000mah-battery-launch-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/redmi-note-17-pro-max-10000mah-battery-launch-specs-price",
+      "summary": "Xiaomi has officially unveiled the Redmi Note 17 Pro Max 5G in Japan. It’s the first Pro Max model in the Redmi Note lineup ever, and also the first Xiaomi smartphone to pack a massive 10,000mAh battery. Also ReadThe Best Phones with 8000mAh+ Batteries in 2026 The said 10,000mAh battery is built on silicon-carbon battery [&#8230;] The post Xiaomi officially announces its first 10,000mAh battery ph",
+      "published": "2026-08-27T06:18:38+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "319281a2def03c32",
+      "title": "Samsung unveils curved 49\" 360Hz OLED gaming monitor, also a 27\" 1,100Hz IPS LCD monitor",
+      "url": "https://www.gsmarena.com/samsung_unveils_curved_49_360hz_oled_gaming_monitor_also_a_27_1100hz_ips_lcd_monitor-news-74368.php",
+      "canonical": "https://www.gsmarena.com/samsung_unveils_curved_49_360hz_oled_gaming_monitor_also_a_27_1100hz_ips_lcd_monitor-news-74368.php",
+      "summary": "Gamescom 2026 started yesterday and Samsung unveiled four gaming monitors from the Odyssey line that boast some impressive specs – including one that can go up to 1,100Hz refresh rate. Yes, over a thousand hertz. Starting with the Samsung Odyssey OLED G9 (G95SJ), this is the world’s first 49” Dual QHD monitor with 360Hz refresh rate. It has a curved 5th gen QD-OLED panel, which is 1.3x more effici",
+      "published": "2026-08-27T15:01:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-launches-world-s-first-1-100Hz-gaming-monitor.1380350.0.html"
+      ]
+    },
+    {
+      "id": "7f845069572f895e",
+      "title": "Huawei Watch 6 makes its first appearance, just days before its launch",
+      "url": "https://www.notebookcheck.net/Huawei-Watch-6-makes-its-first-appearance-just-days-before-its-launch.1380975.0.html",
+      "canonical": "https://www.notebookcheck.net/Huawei-Watch-6-makes-its-first-appearance-just-days-before-its-launch.1380975.0.html",
+      "summary": "The Huawei Watch 6 will be officially unveiled in just a few days. Huawei is now offering a sneak peek at its next-generation smartwatch in a teaser video, showcasing it in three colors, with a digital crown and an X-Tap sensor.",
+      "published": "2026-08-27T16:10:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0131bd4c1b1a210c",
+      "title": "Samsung Galaxy Z Fold8 Ultra bend tests yield two very different results",
+      "url": "https://www.gsmarena.com/samsung_galaxy_z_fold8_ultra_bend_tests_yield_two_very_different_results-news-74371.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_z_fold8_ultra_bend_tests_yield_two_very_different_results-news-74371.php",
+      "summary": "Samsung launched the Galaxy Z Fold8 Ultra as the successor to the Galaxy Z Fold7 last month, alongside the new, wider Galaxy Z Fold8. That model didn't really impress in a teardown, and now it's time for the Galaxy Z Fold8 Ultra to get one of its own. [#InlinePriceWidget,14802,1#] It all starts with the displays. The cover screen has Gorilla Glass Ceramic 3 on top, which scratches at level 6 on th",
+      "published": "2026-08-27T21:41:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+5 teardown",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4031f28d17fb8e94",
+      "title": "(PR) Plaud Unveils Plaud One Explorer Edition, the Wearable AI Earbuds Built for the Agent Era",
+      "url": "https://www.techpowerup.com/352038/plaud-unveils-plaud-one-explorer-edition-the-wearable-ai-earbuds-built-for-the-agent-era",
+      "canonical": "https://www.techpowerup.com/352038/plaud-unveils-plaud-one-explorer-edition-the-wearable-ai-earbuds-built-for-the-agent-era",
+      "summary": "Plaud today unveiled the Plaud One Explorer Edition for professionals ready to put a new human-AI interface to work. Every era of computing has had a defining interface. We typed on keyboards. We tapped on screens. Yet today's AI remains separated from the place where human intent is formed: conversation. The agent era needs an interface that is natural to humans, rich in context, and always ready",
+      "published": "2026-08-27T15:44:09+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 earbuds",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6b1e305b1b8965e0",
+      "title": "Huawei Watch 6 design teased ahead of launch",
+      "url": "https://www.gsmarena.com/huawei_watch_6_design_teased_ahead_of_launch_-news-74366.php",
+      "canonical": "https://www.gsmarena.com/huawei_watch_6_design_teased_ahead_of_launch_-news-74366.php",
+      "summary": "Huawei is hosting a product launch event next week and we have our first glimpse at the Huawei Watch 6, which will be one of the products unveiled on stage. The brief teaser goes over the smartwatch’s design and key features. Meet the all-new #HUAWEIWatch6. Lightweight and effortlessly comfortable, it sits naturally on your wrist for all-day wear. #HuaweiLaunch pic.twitter.com/QZaGzf9l3C— Huawei M",
+      "published": "2026-08-27T16:12:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bf6d93a15032c702",
+      "title": "Top 5 Alternatives for Redmi Note 17 Pro Max in 2026",
+      "url": "https://www.gizmochina.com/2026/08/27/top-5-redmi-note-17-pro-max-alternatives/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/top-5-redmi-note-17-pro-max-alternatives",
+      "summary": "The Redmi Note 17 Pro Max stands out as Xiaomi&#8217;s endurance champion, packing a massive 10,000mAh silicon-carbon battery, a 6.83-inch 1.5K 120Hz display, a Snapdragon 6 Gen 5 chip, and 100W HyperCharge fast charging. It sets a strong benchmark for users who want multi-day battery life without carrying a rugged power-bank brick. The five alternative [&#8230;] The post Top 5 Alternatives for Re",
+      "published": "2026-08-27T17:08:00+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 benchmark",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/redmi_note_17_pro_max-review-2993.php"
+      ]
+    },
+    {
+      "id": "0becb2dc7ee385f5",
+      "title": "The Galaxy S26 FE is more expensive than the S25 FE: here are the prices",
+      "url": "https://www.gsmarena.com/the_galaxy_s26_fe_is_more_expensive_than_the_s25_fe_here_are_the_prices-news-74372.php",
+      "canonical": "https://www.gsmarena.com/the_galaxy_s26_fe_is_more_expensive_than_the_s25_fe_here_are_the_prices-news-74372.php",
+      "summary": "Samsung just unveiled the Galaxy S26 FE and disappointingly but not unexpectedly, it comes with a price hike. The new model is starting to pop up on Samsung.com and it will be available through carriers and retailers too – but you can’t have one just yet, the official start of sales is on September 4 (Friday next week). The base phone remains at 8GB of RAM and 128GB of storage – it’s the only S26 ",
+      "published": "2026-08-27T20:12:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "02ced1590249091a",
+      "title": "Garmin launches Fenix 9 and Fenix 9 Pro with up to 3,000 nits display, satellite messaging & 57-day battery",
+      "url": "https://www.gizmochina.com/2026/08/26/garmin-fenix-9-and-fenix-9-pro-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/08/26/garmin-fenix-9-and-fenix-9-pro-launched-specs-price",
+      "summary": "Garmin has announced the Fenix 9 and Fenix 9 Pro, updating its multisport smartwatch line. The new watches add built-in microphones and speakers, brighter AMOLED displays, and optional inReach satellite connectivity for off-grid messaging. Garmin Fenix 9 and Fenix 9 Pro Specifications Also ReadGarmin Enduro 3 vs Garmin Fenix 8: Which Has Better Battery Life? [&#8230;] The post Garmin launches Feni",
+      "published": "2026-08-26T23:59:12+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f185066a0c7e7413",
+      "title": "Mivi becomes the latest Indian brand to enter the smartphone market",
+      "url": "https://www.gsmarena.com/mivi_becomes_the_latest_indian_brand_to_enter_the_smartphone_market-news-74376.php",
+      "canonical": "https://www.gsmarena.com/mivi_becomes_the_latest_indian_brand_to_enter_the_smartphone_market-news-74376.php",
+      "summary": "Recently, Indian smartwatch brand Fire-Boltt entered the smartphone market with the launch of the Boltt Ace and Boltt Evo. Now, another Indian brand, audio products maker Mivi, has confirmed that it is also entering the smartphone market. In an official post on X, Mivi revealed that it will launch a 5G smartphone in India in September. The upcoming handset is confirmed to be powered by a Snapdrago",
+      "published": "2026-08-28T04:16:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9d82cc2778d671f1",
+      "title": "Hisense A10 is an E Ink smartphone with a detachable LCD screen on the back",
+      "url": "https://liliputing.com/hisense-a10-is-an-e-ink-smartphone-with-a-detachable-lcd-screen-on-the-back/",
+      "canonical": "https://liliputing.com/hisense-a10-is-an-e-ink-smartphone-with-a-detachable-lcd-screen-on-the-back",
+      "summary": "Just days after Bigme launched a crowdfunding campaign for a dual-screen smartphone with an E Ink display on one side and an LCD display on the other, Hisense has introduced a phone with similar features. But there&#8217;s one key thing that sets the Hisense A10 apart from the Bigme HiBreak Dual: the LCD display for the [&#8230;] The post Hisense A10 is an E Ink smartphone with a detachable LCD sc",
+      "published": "2026-07-20T17:40:05+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+2 campaign",
+        "+3 launch",
+        "+4 e ink",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "113919c41d540667",
+      "title": "Realme C100i 4G goes official in India with a 6,500mAh battery",
+      "url": "https://www.gsmarena.com/realme_c100i_4g_goes_official_in_india_with_a_6500mah_battery-news-74362.php",
+      "canonical": "https://www.gsmarena.com/realme_c100i_4g_goes_official_in_india_with_a_6500mah_battery-news-74362.php",
+      "summary": "Realme C100i 4G, which was unveiled in select markets back in May, has made its way to India with a redesigned rear panel and a smaller battery. The Realme C100i Indian variant is an affordable 4G phone that comes with a 6.8-inch LCD display that supports a 120Hz refresh rate and a peak brightness of 900 nits. It is powered by an octa-core Unisoc T7250 chipset, which is paired with 4GB of LPDDR4X ",
+      "published": "2026-08-27T07:43:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f7e875447294d8f7",
+      "title": "That Odd Yoniq Dual-Screen Handheld Now Has A Possible \"Launch Date\"",
+      "url": "https://retrododo.com/that-odd-yoniq-dual-screen-handheld-now-has-a-possible-launch-date/",
+      "canonical": "https://retrododo.com/that-odd-yoniq-dual-screen-handheld-now-has-a-possible-launch-date",
+      "summary": "Update: 27th August 11:03 BST - Yoniq has now sent us exclusive images of this device , confirming its existence and the fact that it s officially being shown off at Gamescom. Take a look at the images here . A few days ago, I was emailed by a company called",
+      "published": "2026-08-27T08:38:33+00:00",
+      "source_id": "retrododo",
+      "source": "Retro Dodo",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 handheld",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "87a19e99c4805a0c",
+      "title": "Samsung launches P9 and P7 USB4 portable SSDs with up to 4,000 MB/s speeds & 8TB capacity",
+      "url": "https://www.gizmochina.com/2026/08/27/samsung-p9-and-p7-usb4-portable-ssds-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/samsung-p9-and-p7-usb4-portable-ssds-launched-specs-price",
+      "summary": "Samsung introduced its new P Series portable solid-state drives, the P9 and P7, at Gamescom 2026. This new gen comes with USB4 connectivity, which allows the drives to reach significantly higher transfer speeds than the company&#8217;s previous storage models. Samsung Portable P9 and P7 Specifications Also ReadThe Best USB4 Portable SSDs of 2026 Both the [&#8230;] The post Samsung launches P9 and ",
+      "published": "2026-08-27T14:18:07+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gadget Flow"
+      ],
+      "related_urls": [
+        "https://thegadgetflow.com/product/samsung-p9-p7-portable-ssds/"
+      ]
+    },
+    {
+      "id": "f44ca064e02025b3",
+      "title": "(PR) Kioxia to Expand 3D Flash Memory Production Capacity with the New Fab3 at Kitakami Plant",
+      "url": "https://www.techpowerup.com/352039/kioxia-to-expand-3d-flash-memory-production-capacity-with-the-new-fab3-at-kitakami-plant",
+      "canonical": "https://www.techpowerup.com/352039/kioxia-to-expand-3d-flash-memory-production-capacity-with-the-new-fab3-at-kitakami-plant",
+      "summary": "Kioxia Corporation, a world leader in memory solutions, announced today that it has commenced site preparation and other related work for the construction of Fab3, a new state-of-the-art manufacturing facility at the Kitakami Plant in Iwate Prefecture, Japan, to expand production capacity for advanced three-dimensional flash memory BiCS FLASH. Fab3 will be constructed on land south of Fab2, target",
+      "published": "2026-08-27T15:47:29+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2d1bd0802295f144",
+      "title": "(PR) Kioxia and Sandisk to Invest Over $31 Billion in Japan, Extending Memory Leadership",
+      "url": "https://www.techpowerup.com/352045/kioxia-and-sandisk-to-invest-over-usd-31-billion-in-japan-extending-memory-leadership",
+      "canonical": "https://www.techpowerup.com/352045/kioxia-and-sandisk-to-invest-over-usd-31-billion-in-japan-extending-memory-leadership",
+      "summary": "Kioxia Corporation, a subsidiary of Kioxia Holdings Corporation (TOKYO: 285A) and Sandisk Corporation (NASDAQ: SNDK) today announced anticipated significant investments in Japan, totaling over $31 billion (approximately 5 trillion yen) contingent upon government support. The investments through 2032 will continue to strengthen the Kioxia and Sandisk partnership, one of the most successful joint ve",
+      "published": "2026-08-27T16:24:13+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "65fa65bac89609cd",
+      "title": "NVIDIA DLSS 5 DLL Leaked by NBA 2K27 Early Access Build, Here's Our Analysis",
+      "url": "https://www.techpowerup.com/352033/nvidia-dlss-5-dll-leaked-by-nba-2k27-early-access-build-heres-our-analysis",
+      "canonical": "https://www.techpowerup.com/352033/nvidia-dlss-5-dll-leaked-by-nba-2k27-early-access-build-heres-our-analysis",
+      "summary": "Earlier today, we reported that a DLSS 5 DLL has been leaked by an early access build of 2K's NBA2K27 early access. NVIDIA announced DLSS 5 earlier this year, and showed more details at SIGGRAPH this year, saying it would ship this fall. However, we were surprised that it is shipping already, and with a title like NBA 2K27, without any major announcement or review coverage, pushing us to dig what ",
+      "published": "2026-08-27T16:35:33+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "22ce2d7e24e15d0f",
+      "title": "(PR) Razer Unveils the Base Station V3 Chroma",
+      "url": "https://www.techpowerup.com/352046/razer-unveils-the-base-station-v3-chroma",
+      "canonical": "https://www.techpowerup.com/352046/razer-unveils-the-base-station-v3-chroma",
+      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Base Station V3 Chroma, a smart RGB gaming headset stand with USB ports that sets immersion into motion with a single lift. The next evolution of Razer's iconic headset stand pairs intelligent automation with dazzling Razer Chroma RGB lighting designed to elevate gamers' gear and illuminate their gaming space. The Base",
+      "published": "2026-08-27T16:42:19+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "113dda302ff25c42",
+      "title": "XERON Launches NEX L360 ARGB AIO Liquid CPU Coolers at Gamescom 2026",
+      "url": "https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026",
+      "canonical": "https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026",
+      "summary": "Xeron made its global debut at Computex 2026 earlier this year, and now it is showing the full lineup at Gamescom 2026, giving European audiences their first look at the complete portfolio spanning cases, coolers, power supplies, thermal compounds, and accessories. Here at Gamescom, our team on the ground was able to see one of the new products, the Xeron NEX L360 ARGB, a 360 mm AIO CPU liquid coo",
+      "published": "2026-08-27T18:57:43+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b3bc79fb6f5aa61c",
+      "title": "Xiaomi’s first NAS officially goes on sale",
+      "url": "https://www.gizmochina.com/2026/08/27/xiaomi-first-nas-goes-on-sale-in-china/",
+      "canonical": "https://www.gizmochina.com/2026/08/27/xiaomi-first-nas-goes-on-sale-in-china",
+      "summary": "Xiaomi has officially started selling its first network-attached storage (NAS) device, the Xiaomi Smart Storage, in China following its recent unveiling. Also ReadThe Best USB4 Portable SSDs of 2026 The device comes pre-populated with WD Red Plus drives. The base 4TB model (which uses two 2TB drives) costs 2,699 yuan ($401). There is also an [&#8230;] The post Xiaomi’s first NAS officially goes on",
+      "published": "2026-08-27T22:17:18+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
