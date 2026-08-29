@@ -5,15 +5,27 @@ keyword: ThinkNode M9
 category: weird
 date: 2026-08-16
 kicker: BlackBerry の子孫のような見た目だが電話ではない。LoRa と MeshCore で、携帯圏外どうしを直接つなぐメッシュ通信端末。
+x_hook: 基地局が無くても文字は届く。ただし日本の電波法上、そのままでは使えない。
 tags: [LoRa, MeshCore, Meshtastic, ESP32, 変わり種]
 embeds:
   - type: youtube
     id: l7ITJTsp9CY
     caption: ThinkNode M9 の実機レビュー。QWERTYキーと画面の大きさが分かる（andy kirby）
+images:
+  - url: "https://www.elecrow.com/media/wysiwyg/products/2026/LMM16509D/ThinkNode_M9_all-in-one_terminal_1.jpg"
+    caption: 本体正面。2.4インチカラーLCDとMeshCoreのメニュー画面を表示した状態
+  - url: "https://www.elecrow.com/media/wysiwyg/products/2026/LMM16509D/ThinkNode_M9_with_retro_keyboard_and_display.jpg"
+    caption: レトロ調のQWERTYキーボード全体
+  - url: "https://www.elecrow.com/media/wysiwyg/products/2026/LMM16509D/ThinkNode_M9_with_GPS_function_and_2300mah_battery.jpg"
+    caption: 内部構造。LoRa用・Wi-Fi/BT用の2本のアンテナと2,300mAhバッテリーが分かる分解図
+credit: Elecrow 公式製品ページ
 sources:
   - title: "Elecrow ThinkNode M9 is a phone-like mesh communicator with a 2.4 inch screen, QWERTY keyboard, and LoRa"
     url: https://liliputing.com/elecrow-thinknode-m9-is-a-phone-like-mesh-communicator-with-a-2-4-inch-sccreen-qwerty-keyboard-and-lora/
     publisher: Liliputing
+  - title: "ThinkNode M9 Meshcore Standalone Communicator"
+    url: https://www.elecrow.com/thinknode-m9-meshcore-communication-terminal-with-full-keyboard-2-4inch-lcd-esp32-s3-lr1110-gps-2300mah.html
+    publisher: Elecrow
 ---
 
 **Elecrow ThinkNode M9** は、iPhone と Android ではなく BlackBerry と Palm Treo の側に進化した世界線から来たような端末だ。実際にはスマートフォンではない。通話機能はなく、携帯電話網も使わない。**LoRa** による長距離無線と **MeshCore** を使って、端末どうしが直接メッセージをやり取りする通信機である。

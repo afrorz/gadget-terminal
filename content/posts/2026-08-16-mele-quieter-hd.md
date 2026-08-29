@@ -6,10 +6,20 @@ category: pc
 date: 2026-08-16
 kicker: 「ほぼポケットサイズ」で知られた MeLE Quieter シリーズの新型は、あえて厚くして 2.5 インチ SATA ベイを積んできた。ファンレスのまま NVMe と HDD を同居させる構成。
 tags: [ミニPC, MeLE, Intel N150, ファンレス]
+x_hook: ファンレスの筐体に、まさかの2.5インチHDDベイ。静音NASの代わりを狙ってきた。
+images:
+  - url: "https://cdn.shopify.com/s/files/1/0526/3917/0738/files/33-3HDMI_DP-_-02.jpg"
+    caption: 本体の天面・背面ポート配置図。USB-A×5、HDMI×2、DP、Gigabit Ethernet、12V/2A電源を確認できる
+  - url: "https://cdn.shopify.com/s/files/1/0526/3917/0738/files/33-_A_-2-09.jpg"
+    caption: M.2 NVMe SSDと2.5インチSATA HDD/SSDを両方内蔵できることを示す分解イメージ
+credit: MeLE 公式ストア(store.mele.cn)
 sources:
   - title: "MeLE Quieter HD fanless mini PC with Intel N150 has room for an SSD and HDD inside"
     url: https://liliputing.com/mele-quieter-hd-fanless-mini-pc-with-intel-n150-has-room-for-an-ssd-and-hdd-inside/
     publisher: Liliputing
+  - title: "MeLE Quieter HD Industrial Fanless PC"
+    url: https://store.mele.cn/products/mele-quieter-hd3q-fanless-mini-pc-n5105-ddr4-windows11-pro-wi-fi-6-bt-5-2-usb-3-2-3-vga-type-c-dp-vesa-mount
+    publisher: MeLE
 ---
 
 MeLE の Quieter シリーズは、ファンレスで手のひらに載るミニ PC として長く続いてきたラインだ。新型の **Quieter HD** はその方向性を一度降りている。本体は **150 × 105.4 × 39.6mm**（5.9 × 4.15 × 1.56インチ）で、Quieter として過去最も背が高い。厚みと引き換えに手に入れたのが、**2.5インチ SATA ベイ** である。
