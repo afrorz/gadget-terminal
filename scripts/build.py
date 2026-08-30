@@ -1443,7 +1443,7 @@ img{max-width:100%}
 .faq h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin:0 0 18px}
 .faq-item{margin:0 0 18px}
 .faq-item h3{font-size:15px;margin:0 0 6px;line-height:1.6}
-.faq-item p{margin:0;color:var(--ink-2);font-size:14px;line-height:1.85}
+.faq-item p{margin:0;color:var(--ink);font-size:14px;line-height:1.85}
 .related{max-width:var(--max);margin:56px auto 0}
 .related h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--ink-3);margin:0 0 22px;font-weight:600}
