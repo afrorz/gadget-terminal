@@ -907,7 +907,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
                            for x in faq],
         }
         rows = "".join(
-            f'<div class="faq-item"><h3>{html.escape(str(x["q"]))}</h3>'
+            f'<div class="faq-item"><h3><span class="faq-q">Q</span>'
+            f'{html.escape(str(x["q"]))}</h3>'
             f'<p>{html.escape(str(x["a"]))}</p></div>' for x in faq)
         faq_html = f'<section class="faq"><h2>よくある質問</h2>{rows}</section>'
 
@@ -1442,7 +1443,10 @@ img{max-width:100%}
 .faq{max-width:var(--measure);margin:44px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
 .faq h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin:0 0 18px}
 .faq-item{margin:0 0 18px}
-.faq-item h3{font-size:15px;margin:0 0 6px;line-height:1.6}
+.faq-item h3{font-size:15px;margin:0 0 6px;line-height:1.6;display:flex;align-items:baseline;gap:9px}
+.faq-q{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.05em;
+  color:var(--cat);border:1px solid var(--cat);border-radius:2px;padding:1px 6px;
+  flex:none;opacity:.9}
 .faq-item p{margin:0;color:var(--ink);font-size:14px;line-height:1.85}
 .related{max-width:var(--max);margin:56px auto 0}
 .related h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
