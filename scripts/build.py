@@ -262,7 +262,7 @@ def header(site: dict) -> str:
     <a class="brand" href="{u("/")}">
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
-    <nav class="nav">{cats}<a href="{u("makuake.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <nav class="nav">{cats}<a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
     <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
   </div>
 </header>"""
@@ -282,7 +282,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        <a href="{u("feed.xml")}">RSS</a><a href="{u("makuake.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        <a href="{u("feed.xml")}">RSS</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -387,6 +387,10 @@ def post_origin(site: dict, p: dict) -> tuple[str, str]:
     **推測して埋めない。** 出所は事実なので、外すと記事の信頼に響く。
     """
     raw = str(p.get("origin") or "").strip()
+    # sources に国内クラファンのURLがあれば、それが一番確実な出所の証拠。
+    # ブランド名の推測より先に見る。
+    if not raw and domestic_cf_source(p):
+        raw = "JPN 国内"
     if not raw:
         table = site.get("origins") or {}
         haystack = (p.get("title", "") + " " + " ".join(str(t) for t in (p.get("tags") or [])))
@@ -643,7 +647,7 @@ def render_domestic_cf(site: dict, posts: list[dict]) -> str:
     return (
         head(site, f"国内クラファン注目 — {s['title']}",
              "Makuake・CAMPFIRE等、国内クラウドファンディングのガジェットをまとめて確認。",
-             "makuake.html")
+             "jpn.html")
         + header(site)
         + f"""
 <main class="wrap">
@@ -1573,7 +1577,7 @@ def main() -> int:
     if total_pages > 1:
         print(f"■ ページ送り {total_pages}ページ ({per_page}件/ページ)")
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")
-    (PUBLIC / "makuake.html").write_text(render_domestic_cf(site, posts), encoding="utf-8")
+    (PUBLIC / "jpn.html").write_text(render_domestic_cf(site, posts), encoding="utf-8")
     (PUBLIC / "privacy.html").write_text(render_privacy(site), encoding="utf-8")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")
