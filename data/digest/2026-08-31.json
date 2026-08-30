@@ -1,0 +1,709 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:54:26.538872+09:00",
+  "stats": {
+    "fetched": 718,
+    "unique": 678,
+    "new": 242,
+    "clusters": 236,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "112b2c1244580a24",
+      "title": "Xperia 10 VIII, Galaxy S26 FE are official, Poco F9 Pro and Ultra coming, Week 35 in review",
+      "url": "https://www.gsmarena.com/xperia_10_viii_galaxy_s26_fe_are_official_poco_f9_pro_and_ultra_coming_week_35_in_review-news-74394.php",
+      "canonical": "https://www.gsmarena.com/xperia_10_viii_galaxy_s26_fe_are_official_poco_f9_pro_and_ultra_coming_week_35_in_review-news-74394.php",
+      "summary": "Sony unveiled the Xperia 10 VIII with a Snapdragon 6 Gen 4, a 6.1-inch OLED, a 5,000mAh battery, and a 50MP main camera. It starts at a rather steep $600. Why steep? Well, it's mostly unchanged from its predecessor. Speaking of unchanged, Samsung unveiled the Galaxy S26 FE. It has a new chipset, runs the newest One UI 9 with a host of new Galaxy AI features, but packs otherwise the same specs as i",
+      "published": "2026-08-30T17:19:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 official",
+        "+3 specs",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "555dc4fe861239ec",
+      "title": "Yoniq's new handheld shows what the PlayStation Portal might have looked like if it was made for the PS2",
+      "url": "https://www.notebookcheck.net/Yoniq-Portal-handheld-is-a-DualShock-2-controller-with-a-display.1382366.0.html",
+      "canonical": "https://www.notebookcheck.net/Yoniq-Portal-handheld-is-a-DualShock-2-controller-with-a-display.1382366.0.html",
+      "summary": "A hands-on video has given us a first look at the Yoniq Portal, which is a handheld that looks like a DualShock 2 controller with a display. The device was spotted at Yoniq's booth at Gamescom, but it doesn't have a release date yet.",
+      "published": "2026-08-30T07:14:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+5 hands-on",
+        "+4 first look",
+        "+3 release date",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0645bc6220d73547",
+      "title": "MNT Station mini PC goes live, features up to 32 GB RAM and open-source upgradeable hardware",
+      "url": "https://www.notebookcheck.net/MNT-Station-mini-PC-goes-live-features-up-to-32-GB-RAM-and-open-source-upgradeable-hardware.1382940.0.html",
+      "canonical": "https://www.notebookcheck.net/MNT-Station-mini-PC-goes-live-features-up-to-32-GB-RAM-and-open-source-upgradeable-hardware.1382940.0.html",
+      "summary": "After being announced a few months ago, the crowdfunding campaign for the MNT Station Mini PC has finally gone live. The mini PC is equipped with the MNT Reform Mainboard 3.0 but is also compatible with earlier versions of the mainboard.",
+      "published": "2026-08-30T03:17:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+6 crowdfunding",
+        "+2 campaign",
+        "+3 announced",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e12dec86323e28b2",
+      "title": "Huawei Watch D3: Price, specs and all three colors of this wearable blood pressure monitor leaked",
+      "url": "https://www.notebookcheck.net/Huawei-Watch-D3-Price-specs-and-all-three-colors-of-this-wearable-blood-pressure-monitor-leaked.1383222.0.html",
+      "canonical": "https://www.notebookcheck.net/Huawei-Watch-D3-Price-specs-and-all-three-colors-of-this-wearable-blood-pressure-monitor-leaked.1383222.0.html",
+      "summary": "With the Watch D series, Huawei offers a relatively reliable smartwatch for health monitoring, particularly with regard to blood pressure measurements. A few days ahead of its global launch in Germany the new Watch D3 has now leaked with official press renders, specs and a detailed price.",
+      "published": "2026-08-30T10:47:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 specs",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5231460205ba5baf",
+      "title": "iPhone Ultra: Apple reportedly developed magnetic Apple Pencil for foldable iPhone",
+      "url": "https://www.notebookcheck.net/iPhone-Ultra-Apple-reportedly-developed-magnetic-Apple-Pencil-for-foldable-iPhone.1383385.0.html",
+      "canonical": "https://www.notebookcheck.net/iPhone-Ultra-Apple-reportedly-developed-magnetic-Apple-Pencil-for-foldable-iPhone.1383385.0.html",
+      "summary": "The first Apple iPhone with a foldable display will finally be officially unveiled in September. Apple is said to have developed a more compact version of the Apple Pencil for the iPhone Ultra, which attaches magnetically to the smartphone and can be charged this way. However, it is unlikely that this stylus will be released alongside the iPhone Ultra.",
+      "published": "2026-08-30T17:12:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/08/30/iphone-ultra-apple-pencil-support-tested/"
+      ]
+    },
+    {
+      "id": "165e105596157cbc",
+      "title": "Best Oppo Phones of 2026",
+      "url": "https://www.gizmochina.com/2026/08/30/best-oppo-phones/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/best-oppo-phones",
+      "summary": "Oppo has had a busy 2026 so far, with new phones across almost every price range. The company also expanded its flagship Find X9 Ultra to the global market for the first time. It also launched the Find N6 foldable with what it calls “Zero-Free Crease”. Below that, Oppo announced the Reno 16 series to [&#8230;] The post Best Oppo Phones of 2026 appeared first on Gizmochina .",
+      "published": "2026-08-30T19:34:34+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d0fbc797cfe891bd",
+      "title": "Motorola confirms Razr 70 Swarovski Edition design ahead of early September debut",
+      "url": "https://www.gizmochina.com/2026/08/30/motorola-confirms-razr-70-swarovski-edition-design-ahead-of-early-september-debut/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/motorola-confirms-razr-70-swarovski-edition-design-ahead-of-early-september-debut",
+      "summary": "Motorola is teaming up with Swarovski again, and a sparkling flip phone is set to debut next month. The Lenovo-owned company has confirmed it’ll officially unveil a new Swarovski crystal co-branded model at IFA in Berlin in early September. The teaser video shows the back of a Razr-style device, so most people expect it’s based [&#8230;] The post Motorola confirms Razr 70 Swarovski Edition design ",
+      "published": "2026-08-30T03:39:36+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Motorola-confirms-the-Razr-70-Swarovski-Edition-for-IFA-2026.1382945.0.html"
+      ]
+    },
+    {
+      "id": "1c414db65c9f8183",
+      "title": "SteamOS 3.9.0 Preview Launches With KDE 6.7.3 and Linux Kernel 7.2",
+      "url": "https://www.techpowerup.com/352133/steamos-3-9-0-preview-launches-with-kde-6-7-3-and-linux-kernel-7-2",
+      "canonical": "https://www.techpowerup.com/352133/steamos-3-9-0-preview-launches-with-kde-6-7-3-and-linux-kernel-7-2",
+      "summary": "Following a recent small patch to the beta branch of SteamOS , which heralded fixes to many of the Linux distribution's desktop and gaming mode features, Valve has announced the SteamOS 3.9.0 Preview , which upgrades the Desktop Mode to KDE 6.7.3 , from 6.4.3, and updates to the Linux kernel version 7.2. Both the updates to KDE and the Linux kernel bring noteworthy improvements—from improved Krunn",
+      "published": "2026-08-30T05:14:39+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "17669f3178166e89",
+      "title": "Huawei Watch D3, FreeBuds Neo design teased ahead of September 2 global launch",
+      "url": "https://www.gizmochina.com/2026/08/30/huawei-watch-d3-freebuds-neo-design-teased-ahead-of-september-2-global-launch/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/huawei-watch-d3-freebuds-neo-design-teased-ahead-of-september-2-global-launch",
+      "summary": "Huawei is refining one of its most unique health-focused wearables, and the teaser suggests some real comfort upgrades ahead of a big European launch. Several HarmonyOS-powered models are getting updates in early September 2026. One of the devices set to be officially unveiled is the Huawei Watch D3, which will join the global Huawei Watch [&#8230;] The post Huawei Watch D3, FreeBuds Neo design te",
+      "published": "2026-08-30T10:18:51+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6c09b888741603b7",
+      "title": "Global Oppo Find X10 Pro Max launch window, specs and price target leaked. All camera flagships starting in China next month",
+      "url": "https://www.notebookcheck.net/Global-Oppo-Find-X10-Pro-Max-launch-window-specs-and-price-target-leaked-All-camera-flagships-starting-in-China-next-month.1383223.0.html",
+      "canonical": "https://www.notebookcheck.net/Global-Oppo-Find-X10-Pro-Max-launch-window-specs-and-price-target-leaked-All-camera-flagships-starting-in-China-next-month.1383223.0.html",
+      "summary": "Two leakers have come forward with details about the upcoming launch events for many Chinese camera flagships in the coming weeks. One is focusing exclusively on Oppo’s upcoming global Hasselblad camera phones, while the other provides an overview of all the upcoming releases expected in China.",
+      "published": "2026-08-30T11:15:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 ships",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a2a5704496cf0e53",
+      "title": "Motorola's Razr Fold is finally on its way to Verizon",
+      "url": "https://www.gsmarena.com/motorolas_razr_fold_is_finally_on_its_way_to_verizon-news-74402.php",
+      "canonical": "https://www.gsmarena.com/motorolas_razr_fold_is_finally_on_its_way_to_verizon-news-74402.php",
+      "summary": "Motorola launched the Razr Fold in the US in late May, when the company announced that it would be available for purchase at T-Mobile and Verizon. T-Mobile got it right there and then, but Verizon has still not released the phone. [#InlinePriceWidget,14402,1#] Now we know why. The FCC has only just certified a version of the Razr Fold that comes with mmWave 5G support, and Verizon has the most ext",
+      "published": "2026-08-29T23:09:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "93f6acfeb6fc240d",
+      "title": "Honor officially launches phone with 8,100mAh battery",
+      "url": "https://www.notebookcheck.net/Honor-officially-launches-phone-with-8-100mAh-battery.1382944.0.html",
+      "canonical": "https://www.notebookcheck.net/Honor-officially-launches-phone-with-8-100mAh-battery.1382944.0.html",
+      "summary": "The Honor 600S 5G has launched in Hong Kong as an affordable addition to the Honor 600 series. Priced at HKD 1,999 (~$255), it features 5G connectivity, a Snapdragon chipset, and a 120Hz display.",
+      "published": "2026-08-30T04:26:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b5c41d25c63fe882",
+      "title": "ACEMAGIC Kron Mini K5 (Core 3 304) review – Part 1: Specifications, unboxing, teardown, and first boot",
+      "url": "https://www.cnx-software.com/2026/08/29/acemagic-kron-mini-k5-core-3-304-review-part-1-specifications-unboxing-teardown-and-first-boot/",
+      "canonical": "https://www.cnx-software.com/2026/08/29/acemagic-kron-mini-k5-core-3-304-review-part-1-specifications-unboxing-teardown-and-first-boot",
+      "summary": "ACEMAGIC sent us a sample of the Kron Mini K5 Wildcat Lake mini PC for review. The computer is offered with either an Intel Core 3 304 or Core 5 320 CPU, and features triple display output, 2.5GbE and WiFi 6 networking, and several USB ports, but, interestingly, no Thunderbolt/USB4 ports. The company provided us with the entry-level variant pairing an Intel Core 3 304 penta-core processor with 12G",
+      "published": "2026-08-29T04:30:37+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+5 teardown",
+        "+4 review",
+        "+4 mini pc",
+        "+1 tier2"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "30b073c82a51d95c",
+      "title": "Ayaneo Konkr Pocket Advance Retro Handheld Review: Unbeatable Value at $89",
+      "url": "https://www.gizmochina.com/2026/08/30/ayaneo-konkr-pocket-advance-retro-handheld-full-review/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/ayaneo-konkr-pocket-advance-retro-handheld-full-review",
+      "summary": "For the past few years, my gaming habits have been pretty one-note. I’ve spent most of my time playing PUBG Mobile competitively. It’s a demanding game that requires constant attention, quick reflexes, and a lot of screen tapping. After a while, that level of intensity gets tiring. Recently, I found myself wanting to step back [&#8230;] The post Ayaneo Konkr Pocket Advance Retro Handheld Review: U",
+      "published": "2026-08-30T03:38:34+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1eabf141e4764630",
+      "title": "Google Pixel 11 Pro in for review",
+      "url": "https://www.gsmarena.com/google_pixel_11_pro_in_for_review-news-74392.php",
+      "canonical": "https://www.gsmarena.com/google_pixel_11_pro_in_for_review-news-74392.php",
+      "summary": "Just like in 2025, people who want a compact Pixel phone are faced with the same question: is the Pro worth the extra €200, or is the Pixel 11 good enough? And just like last year, we'll answer that question for you guys; just give us a few weeks. But, looking at the phones side-by-side, seemingly nothing's changed. The Pixel 11 Pro has a brighter OLED that's also LTPO, so it refreshes more effici",
+      "published": "2026-08-30T20:42:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/google-pixel-11-pro-fold-alternatives-3698460/"
+      ]
+    },
+    {
+      "id": "97081162cbce0085",
+      "title": "Oppo Enco Air 5 Review: One of Oppo’s Most Well-rounded Budget Earbuds",
+      "url": "https://www.gizmochina.com/2026/08/30/oppo-enco-air-5-review/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/oppo-enco-air-5-review",
+      "summary": "The Oppo Enco Air 5 takes a fairly straightforward approach to budget wireless earbuds: deliver strong noise cancellation, enjoyable sound, long battery life, and useful smart features without making the experience unnecessarily complicated. After spending time with them, it is clear that Oppo has focused more on getting the fundamentals right than chasing flashy extras. [&#8230;] The post Oppo En",
+      "published": "2026-08-30T09:16:17+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "74322f6726c8ddde",
+      "title": "BigMe’s B6 Pro E-Reader Goes Up for Pre-Order in China Next Month",
+      "url": "https://www.gizmochina.com/2026/08/30/bigmes-b6-pro-e-reader-goes-up-for-pre-order-in-china-next-month/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/bigmes-b6-pro-e-reader-goes-up-for-pre-order-in-china-next-month",
+      "summary": "BigMe has announced the pre-order schedule for its latest color e-reader, the BigMe B6 Pro. Pre-orders will open at 8:00 PM on September 1 and remain open until 10:00 AM on September 22. Buyers can then pay the remaining balance from 10:30 AM on the same day. The 8GB RAM and 256GB storage model costs [&#8230;] The post BigMe&#8217;s B6 Pro E-Reader Goes Up for Pre-Order in China Next Month appeare",
+      "published": "2026-08-30T13:20:58+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ffc4b8daa5ae206",
+      "title": "Xiaomi 18 Fold to pack a massive 6,000mAh battery, wired and wireless charging speeds also emerge",
+      "url": "https://www.gizmochina.com/2026/08/30/xiaomi-18-fold-battery-charging-details-leaked/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/xiaomi-18-fold-battery-charging-details-leaked",
+      "summary": "Rumors suggest that Xiaomi will unveil the Xiaomi 18 Fold by early September in China. Ahead of the launch, the brand has already confirmed that it will be equipped with the all-new 3nm Xring O3 chip and will be the first device to feature the next-generation LPDDR6 RAM. It appears that in the days leading [&#8230;] The post Xiaomi 18 Fold to pack a massive 6,000mAh battery, wired and wireless cha",
+      "published": "2026-08-30T19:14:02+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4511ef6d8d1386af",
+      "title": "GTA VI Extended Gameplay Preview Attracted Over 4 Million Live Viewers",
+      "url": "https://www.techpowerup.com/352158/gta-vi-extended-gameplay-preview-attracted-over-4-million-live-viewers",
+      "canonical": "https://www.techpowerup.com/352158/gta-vi-extended-gameplay-preview-attracted-over-4-million-live-viewers",
+      "summary": "It's been known since Rockstar released the first trailer for GTA VI that the upcoming action game would have a massive impact on the gaming industry, and analysts have predicted week-one sales of $4.5 billion when the game launches in November. Following Rockstar's GTA VI showcase at Gamescom, reports have emerged that, between Netflix, YouTube, and Twitch, nearly 4 million users tuned into the l",
+      "published": "2026-08-30T22:02:27+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4ab297872c958eea",
+      "title": "The Best 3D Printers for Creators and Small Businesses in 2026",
+      "url": "https://www.gizmochina.com/2026/08/30/best-3d-printers-for-creators-and-small-businesses/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/best-3d-printers-for-creators-and-small-businesses",
+      "summary": "The right 3D printer can help you produce prototypes, custom products, replacement parts, miniatures, props, and small production runs. The market now includes fast CoreXY printers, large-format machines, dual-nozzle systems, and high-resolution resin printers. Each printer in this list serves a different type of user. Some models focus on ease of use and low cost. [&#8230;] The post The Best 3D P",
+      "published": "2026-08-30T04:16:46+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 prototype",
+        "+3 3d printer",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e94d98f38049a87e",
+      "title": "iPhone Ultra’s display replacement estimated to cost over $1,000",
+      "url": "https://www.gizmochina.com/2026/08/30/iphone-ultras-display-replacement-estimated-to-cost-over-1000/",
+      "canonical": "https://www.gizmochina.com/2026/08/30/iphone-ultras-display-replacement-estimated-to-cost-over-1000",
+      "summary": "Apple’s rumored first foldable iPhone is raising eyebrows, not just for its expected sky-high price, but for how expensive it might be to repair. According to a report from Apple World Today, Apple is getting ready to introduce its debut foldable smartphone (widely called the iPhone Ultra) next month, with a starting price that could [&#8230;] The post iPhone Ultra&#8217;s display replacement esti",
+      "published": "2026-08-30T04:25:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 price",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0198fcbeeedfef6e",
+      "title": "Amazon tablets with up to 16GB of RAM could be coming soon",
+      "url": "https://liliputing.com/amazon-tablets-with-up-to-16gb-of-ram-could-be-coming-soon/",
+      "canonical": "https://liliputing.com/amazon-tablets-with-up-to-16gb-of-ram-could-be-coming-soon",
+      "summary": "Amazon launched its first Kindle Fire tablet in 2011, and over the years the company has dropped the Kindle name, dabbled in the high-end space, and largely settled on the idea that its devices would compete on price and convenience, rather than speed or a broad app ecosystem. But that could be set to change [&#8230;] The post Amazon tablets with up to 16GB of RAM could be coming soon appeared fir",
+      "published": "2026-08-30T20:04:04+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c6ba6c85410517b2",
+      "title": "Affordable AMD-equipped Hasee mini PC launches with eGPU support",
+      "url": "https://www.notebookcheck.net/Affordable-AMD-equipped-Hasee-mini-PC-launches-with-eGPU-support.1382952.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-AMD-equipped-Hasee-mini-PC-launches-with-eGPU-support.1382952.0.html",
+      "summary": "The Hasee Ares Mini R78D has been launched in China, and the barebone configuration costs around $297. This affordable mini PC packs the AMD Ryzen 7 8745HS, which is a capable APU with the Radeon 780M, and it has eGPU support.",
+      "published": "2026-08-30T07:36:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6d3bdad75f1d4ee8",
+      "title": "Bigme B6 Pro launches with 6-inch color E Ink display, 4G, 8GB RAM and 256GB storage",
+      "url": "https://www.notebookcheck.net/Bigme-B6-Pro-launches-with-6-inch-color-E-Ink-display-4G-8GB-RAM-and-256GB-storage.1382960.0.html",
+      "canonical": "https://www.notebookcheck.net/Bigme-B6-Pro-launches-with-6-inch-color-E-Ink-display-4G-8GB-RAM-and-256GB-storage.1382960.0.html",
+      "summary": "Bigme's B6 Pro is now available internationally as a compact color E Ink reader with up to 75 FPS, 4G connectivity and Android 14. It uses a MediaTek Dimensity 1080 processor with 8GB of RAM and 256GB of storage.",
+      "published": "2026-08-30T17:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 e ink",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "986abdbee76ab809",
+      "title": "Tamagotchi Ring Takes the 30-Year Digital Pet and Places it on Your Finger",
+      "url": "https://www.techeblog.com/bandai-tamagotchi-ring-features-price-review-release/",
+      "canonical": "https://www.techeblog.com/bandai-tamagotchi-ring-features-price-review-release",
+      "summary": "Bandai spent two years chopping down a Tamagotchi so that it could survive on one hand. The Tamagotchi Ring is the end result: a 28-millimeter egg with a color screen, two functional side buttons, and 30 characters taken from three decades of the same hungry little creatures that were formerly fastened to backpacks. Official pre-orders [...]",
+      "published": "2026-08-29T23:42:36+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 official",
+        "+4 pre-order",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8edfd2d3eb80baad",
+      "title": "New Cube e-bike launches with 120 Nm Bosch motor, 800 Wh battery, and full commuter kit",
+      "url": "https://www.notebookcheck.net/New-Cube-e-bike-launches-with-120-Nm-Bosch-motor-800-Wh-battery-and-full-commuter-kit.1382976.0.html",
+      "canonical": "https://www.notebookcheck.net/New-Cube-e-bike-launches-with-120-Nm-Bosch-motor-800-Wh-battery-and-full-commuter-kit.1382976.0.html",
+      "summary": "Designed as an all-rounder, Cube’s new e-bike balances daily commuting needs with off-road capability, backed by a powerful Bosch mid-drive motor.",
+      "published": "2026-08-30T08:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 backed",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e85a152682763475",
+      "title": "Apple's foldable iPhone repair could cost more than half its price, expert warns",
+      "url": "https://www.notebookcheck.net/Apple-s-foldable-iPhone-repair-could-cost-more-than-half-its-price-expert-warns.1382946.0.html",
+      "canonical": "https://www.notebookcheck.net/Apple-s-foldable-iPhone-repair-could-cost-more-than-half-its-price-expert-warns.1382946.0.html",
+      "summary": "Repair specialist Ricky Panesar of iCorrect has told Forbes he expects replacing the inner screen on Apple’s first foldable to cost around £850, roughly $1,155, against $579 for the same repair on a Galaxy Z Fold 8. He also expects AppleCare+ per-incident fees to rise from the current £29 to nearer £100.",
+      "published": "2026-08-30T08:36:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 price",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "025a38988edbefe5",
+      "title": "Tecno officially launches tablet with \"2K\" display and LTE connectivity",
+      "url": "https://www.notebookcheck.net/Tecno-officially-launches-tablet-with-2K-display-and-LTE-connectivity.1382974.0.html",
+      "canonical": "https://www.notebookcheck.net/Tecno-officially-launches-tablet-with-2K-display-and-LTE-connectivity.1382974.0.html",
+      "summary": "The Tecno Megapad SE 2 has gone on sale in the Philippines as an affordable Android tablet. It features a 9.7-inch 90Hz display, 4G LTE connectivity, and a 7,000mAh battery.",
+      "published": "2026-08-30T10:29:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "833bc26561f33c48",
+      "title": "Slim Mechrevo laptop launches with unusual AMD Zen 5 APU and Nvidia RTX 5060",
+      "url": "https://www.notebookcheck.net/Slim-Mechrevo-laptop-launches-with-unusual-AMD-Zen-5-APU-and-Nvidia-RTX-5060.1383213.0.html",
+      "canonical": "https://www.notebookcheck.net/Slim-Mechrevo-laptop-launches-with-unusual-AMD-Zen-5-APU-and-Nvidia-RTX-5060.1383213.0.html",
+      "summary": "The Mechrevo Phenom 15 Air 2026 is a newly released gaming laptop in China, featuring the Ryzen 7 449, a non-NPU AMD APU in the Gorgon Point lineup. It's paired with the Nvidia RTX 5060, and the starting launch price is around $1,709.",
+      "published": "2026-08-30T13:47:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0571d6913f866f3b",
+      "title": "古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测",
+      "url": "https://www.ithome.com/0/996/247.htm",
+      "canonical": "https://www.ithome.com/0/996/247.htm",
+      "summary": "IT之家 8 月 30 日消息，据彭博社记者马克 · 古尔曼（Mark Gurman）透露，苹果正在为 Apple Watch Series 12 和 Apple Watch Ultra 4 准备几项新功能，有望进一步提升产品对注重健康用户的吸引力。此外，苹果还在为传闻中的陶瓷版 Apple Watch 测试两种配色。 如果你对 Apple Watch 目前作为健身追踪器的表现并不满意，那么即将推出的两项健康功能可能会让你感兴趣。它们分别是全天候心率监测以及全新设计的健康应用，后者将让用户更轻松地从健康数据中获取有价值的信息。 古尔曼这样描述苹果正在开发的新应用： 苹果还在重新设计其健身和健康应用软件，计划以类似 Whoop 和 Oura 等越来越受欢迎的健康应用的方式，展示更多与健康状态相关的数据指标。 要让 Apple Watch 真正成为一个数据更加丰富的健康设备，首先就需要获取更多",
+      "published": "2026-08-30T14:38:31+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Apple-Watch-12-and-Ultra-4-said-to-get-sensor-upgrade-ahead-of-redesign-in-2027.1383382.0.html"
+      ]
+    }
+  ]
+}
