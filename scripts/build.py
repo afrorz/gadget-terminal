@@ -175,9 +175,15 @@ def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
         link, is_aff = affiliate_url(s, str(x["url"]), str(x.get("merchant") or ""))
         has_aff = has_aff or is_aff
         why = f'<p class="alt-why">{html.escape(str(x["why"]))}</p>' if x.get("why") else ""
+        # image は任意（楽天APIから拾えたときだけ入る。scripts/find_rakuten_alt.py 参照）。
+        # 無ければ今までどおり画像無しで出す。
+        img = (f'<a href="{html.escape(link)}" class="alt-thumb" rel="nofollow sponsored noopener" '
+               f'target="_blank"><img src="{html.escape(str(x["image"]))}" alt="" loading="lazy"></a>'
+               if x.get("image") else "")
         rows.append(
-            f'<li class="alt-item"><a href="{html.escape(link)}" rel="nofollow sponsored noopener" '
-            f'target="_blank">{html.escape(str(x["name"]))}</a>{why}</li>')
+            f'<li class="alt-item">{img}<div class="alt-text">'
+            f'<a href="{html.escape(link)}" rel="nofollow sponsored noopener" '
+            f'target="_blank">{html.escape(str(x["name"]))}</a>{why}</div></li>')
     label = ('<span class="alt-ad">広告</span>' if has_aff else "")
     return (f'<section class="alts"><h2>今すぐ買えるオススメガジェット{label}</h2>'
             f'<ul>{"".join(rows)}</ul></section>', has_aff)
@@ -1423,10 +1429,14 @@ img{max-width:100%}
   border-radius:3px;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.03em}
 .alts{max-width:var(--measure);margin:44px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
 .alts h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--ink-3);margin:0 0 16px;display:flex;align-items:center;gap:8px}
+  color:var(--ink-2);margin:0 0 16px;display:flex;align-items:center;gap:8px}
 .alt-ad{background:var(--rule-2);color:var(--ink-2);padding:2px 6px;border-radius:2px;letter-spacing:.1em}
 .alts ul{list-style:none;padding:0;margin:0}
-.alt-item{margin:0 0 16px}
+.alt-item{margin:0 0 16px;display:flex;gap:14px;align-items:flex-start}
+.alt-thumb{flex:none;display:block;width:64px;height:64px;border-radius:4px;overflow:hidden;
+  background:var(--surface);border:1px solid var(--rule)}
+.alt-thumb img{width:100%;height:100%;object-fit:contain;display:block}
+.alt-text{min-width:0}
 .alt-item>a{font-size:15px;line-height:1.6}
 .alt-why{margin:4px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
 .faq{max-width:var(--measure);margin:44px 0 0;padding-top:24px;border-top:1px solid var(--rule)}

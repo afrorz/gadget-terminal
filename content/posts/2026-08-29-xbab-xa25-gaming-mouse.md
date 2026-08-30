@@ -39,6 +39,7 @@ alternatives:
   why: 同じPixArt PAW3950系センサーを積む39g級の超軽量マウスで、Amazon.co.jpから今日届く。有線接続にも対応する。
   url: https://item.rakuten.co.jp/netclickstore-r/4950537464410/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/netclickstore-r/cabinet/r_1738702768/4950537464410.jpg?_ex=400x400
 sources:
 - title: XBAB Tech Details 25 g Full-Size Gaming Mouse Launching on September 22
   url: https://www.techpowerup.com/352068/xbab-tech-details-25-g-full-size-gaming-mouse-launching-on-september-22

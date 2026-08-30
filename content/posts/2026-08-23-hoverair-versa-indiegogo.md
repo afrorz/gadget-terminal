@@ -32,6 +32,7 @@ alternatives:
   why: 135gの自動追跡ドローンで、日本国内向けに正規販売されている。VERSAと同じ「片手で飛ばすカメラ」という用途を、機体登録の要否も含めて確認しやすい状態で今日から試せる。
   url: https://item.rakuten.co.jp/gbft-ltd/5m-safj-xqcu/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/gbft-ltd/cabinet/image51/5m-safj-xqcu_1.jpg?_ex=400x400
 sources:
 - title: 'HOVERAir VERSA: This Pocket Camera Can Fly'
   url: https://www.indiegogo.com/projects/hoverair/versa-this-pocket-camera-can-fly

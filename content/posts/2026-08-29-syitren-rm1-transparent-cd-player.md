@@ -42,6 +42,7 @@ alternatives:
   why: 透明フレームの意匠性はSYITREN独自のものだが、壁掛け・卓上どちらにも対応しBluetoothでスピーカーに飛ばせるCDプレーヤーはAmazon.co.jpで今日から購入でき、日本語の説明書も付く。
   url: https://item.rakuten.co.jp/aosasi-store/appvq200w/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/aosasi-store/cabinet/09286135/12754068/imgrc0110309944.jpg?_ex=400x400
 sources:
 - title: Transparent streaming CD player showcases spinning disc mechanics
   url: https://newatlas.com/consumer-tech/syitren-rm1-transparent-cd-player/

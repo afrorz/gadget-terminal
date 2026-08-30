@@ -26,6 +26,7 @@ alternatives:
   why: 同じKeychronのホール効果磁気スイッチ機で、国内正規代理店経由でAmazon.co.jpから即日購入できる。V6 Ultra Hybridの磁気スイッチ側の使用感を今すぐ試せる。
   url: https://item.rakuten.co.jp/kitcut-ps/533216/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/kitcut-ps/cabinet/item/145/p-314850.jpg?_ex=400x400
 images:
 - url: https://i.kickstarter.com/assets/054/860/273/63508e2207f9c366b6d5f95464a3eec7_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1787551940&width=1552&sig=u345rExwl%2Fx0UmCDHV8JuWHKyuAXr%2F8LDs4TC07UStE%3D
   caption: V6 Ultra Hybrid 8K の本体。フルサイズ配列で右上にノブを備える

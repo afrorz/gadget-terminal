@@ -40,6 +40,7 @@ alternatives:
   why: 同じくRaspberry Pi 5をベースにNAS/サーバー用途へ組めるキットで、Amazon.co.jpから今日届く。CPUモジュールを差し替えられる自由度はMNT Stationに劣るが、実用のホームサーバー構築ならすぐ試せる。
   url: https://item.rakuten.co.jp/slife/b0ddwlbpsy/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/slife/cabinet/rakus141_0043/b0ddwlbpsy00.jpg?_ex=400x400
 sources:
 - title: MNT Station fanless, modular open-hardware computer supports a choice of 10+ Arm CPU or FPGA modules
   url: https://www.cnx-software.com/2026/08/24/mnt-station-fanless-modular-open-hardware-computer-supports-a-choice-of-10-arm-cpu-or-fpga-modules/

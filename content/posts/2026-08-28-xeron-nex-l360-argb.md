@@ -28,6 +28,7 @@ alternatives:
   why: 同じ360mm ARGB水冷クーラーで、国内で正規に流通しており保証・サポートも受けやすい。新興ブランドの流通不安を避けて同クラスの性能を今日から選べる。
   url: https://item.rakuten.co.jp/freiheit-cars/ft-deep-2/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/freiheit-cars/cabinet/pc2/deep-2-0.jpg?_ex=400x400
 sources:
 - title: XERON Launches NEX L360 ARGB AIO Liquid CPU Coolers at Gamescom 2026
   url: https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026

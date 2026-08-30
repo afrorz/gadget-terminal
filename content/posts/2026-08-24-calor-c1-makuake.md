@@ -33,6 +33,7 @@ alternatives:
   why: 技適取得済みで国内正規販売されており、今日から使えるAndroid TVデバイス。ブラウン管風の外見は無いが、Android TVとしての基本機能をすぐに確認したい場合の代替になる。
   url: https://item.rakuten.co.jp/sea-story-kagoshima/sea-story-0810037290134/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/sea-story-kagoshima/cabinet/imgrc0087644915.jpg?_ex=400x400
 sources:
 - title: あの日のブラウン管を、手のひらで。超ミニAndroid TV「CaloR C1」
   url: https://www.makuake.com/project/calorc1/

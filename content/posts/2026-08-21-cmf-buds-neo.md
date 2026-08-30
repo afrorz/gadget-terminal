@@ -26,6 +26,7 @@ alternatives:
   why: PSE技術基準適合済みの国内正規品でBluetooth 6.1・ANC対応、最大50時間再生と近い使用感を今日から試せる。
   url: https://item.rakuten.co.jp/anker/d1202-ss/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/d/d1202_normal.jpg?_ex=400x400
 sources:
 - title: CMF Buds Neo goes official with ANC and up to 52 hour total battery life
   url: https://www.gsmarena.com/cmf_buds_neo_goes_official_with_anc_and_up_to_52_hour_total_battery_life-news-74263.php

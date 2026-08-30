@@ -27,6 +27,7 @@ alternatives:
   why: 国内正規品で技適対応済み。スマホアプリからの給餌スケジュール管理という中核機能を今日から使える。
   url: https://item.rakuten.co.jp/rayon/11963/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
   merchant: rakuten
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/rayon/cabinet/12000/11963.jpg?_ex=400x400
 sources:
 - title: Xiaomi crowdfunds Mijia Smart Fish Tank 2 Pro with auto feeding
   url: https://ximitime.com/xiaomi-crowdfunds-mijia-smart-fish-tank-2-pro-with-auto-feeding-99882/

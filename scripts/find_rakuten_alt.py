@@ -159,7 +159,20 @@ def targets(files: list[str]) -> list[tuple[Path, int, dict]]:
     return out
 
 
-def apply_change(path: Path, idx: int, new_url: str, new_name: str) -> None:
+def item_image(item: dict) -> str:
+    """検索結果から商品サムネイルのURLを取り出す。無ければ空文字。
+
+    楽天は画像を _ex=128x128 のような小さいサイズで返す。記事に貼るには
+    小さすぎるので、同じURLのサイズ指定だけを大きくして使う。
+    """
+    urls = item.get("mediumImageUrls") or item.get("smallImageUrls") or []
+    if not urls:
+        return ""
+    url = str(urls[0].get("imageUrl") or "")
+    return re.sub(r"_ex=\d+x\d+", "_ex=400x400", url)
+
+
+def apply_change(path: Path, idx: int, new_url: str, new_name: str, image: str = "") -> None:
     """front matter の alternatives[idx] だけを書き換える。本文には触らない。"""
     text = path.read_text(encoding="utf-8")
     m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
@@ -168,6 +181,8 @@ def apply_change(path: Path, idx: int, new_url: str, new_name: str) -> None:
     alt["url"] = new_url
     alt["merchant"] = "rakuten"
     alt["name"] = new_name
+    if image:
+        alt["image"] = image
     new_fm = yaml.dump(fm, allow_unicode=True, sort_keys=False, width=1000)
     path.write_text(f"---\n{new_fm}---\n{text[m.end():]}", encoding="utf-8")
 
@@ -225,7 +240,7 @@ def main(argv: list[str]) -> int:
     for path, idx, alt, best in results:
         if not best:
             continue
-        apply_change(path, idx, best["itemUrl"], best["itemName"])
+        apply_change(path, idx, best["itemUrl"], best["itemName"], item_image(best))
         changed += 1
     print(f"\n{changed}件の front matter を書き換えました。"
           f"python scripts/checklinks.py と python scripts/build.py で確認してください。")
