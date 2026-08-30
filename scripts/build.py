@@ -411,7 +411,7 @@ def flight_no(p: dict, order: dict) -> str:
     return f"GT {order.get(p['slug'], 0):04d}"
 
 
-def board_posts(site: dict, posts: list[dict], limit: int = 8) -> list[dict]:
+def board_posts(site: dict, posts: list[dict], limit: int = 6) -> list[dict]:
     """案内板に出す記事を選ぶ。
 
     空港の到着案内板は「これから着く便」を上に出す。それに倣って、
