@@ -158,7 +158,7 @@ def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
 
 
 def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
-    """「今すぐ買える代替品」セクション。
+    """「今すぐ買えるオススメガジェット」セクション。
 
     クラファン案件は出荷が先で技適も未取得のことが多い。読者が実際に取れる行動を
     示すのが本来の目的で、アフィリエイトはその副産物として置く。
@@ -179,7 +179,7 @@ def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
             f'<li class="alt-item"><a href="{html.escape(link)}" rel="nofollow sponsored noopener" '
             f'target="_blank">{html.escape(str(x["name"]))}</a>{why}</li>')
     label = ('<span class="alt-ad">広告</span>' if has_aff else "")
-    return (f'<section class="alts"><h2>今すぐ買える代替品{label}</h2>'
+    return (f'<section class="alts"><h2>今すぐ買えるオススメガジェット{label}</h2>'
             f'<ul>{"".join(rows)}</ul></section>', has_aff)
 
 
