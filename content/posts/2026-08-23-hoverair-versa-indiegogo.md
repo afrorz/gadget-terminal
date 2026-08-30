@@ -6,43 +6,48 @@ category: weird
 date: 2026-08-23
 pick: true
 kicker: 香港拠点のHOVERAirが、手持ちカメラにも自律飛行ドローンにもなる230gの「VERSA」をIndiegogoで発表した。日本国内で飛ばすには100g以上の機体に義務づけられた登録が要る。
-tags: [HOVERAir, ドローン, ジンバルカメラ, Indiegogo, クラウドファンディング]
+tags:
+- HOVERAir
+- ドローン
+- ジンバルカメラ
+- Indiegogo
+- クラウドファンディング
 seo_title: HOVERAir VERSAが230gで登場、449ドルから
 x_hook: 230gのカメラが、勝手に飛ぶ。ただし日本で飛ばすには国への機体登録が要る。
 embeds:
-  - type: youtube
-    id: eWNhu7JzLRM
-    caption: HOVERAir公式チャンネルによるVERSAの製品紹介動画
+- type: youtube
+  id: eWNhu7JzLRM
+  caption: HOVERAir公式チャンネルによるVERSAの製品紹介動画
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点でIndiegogo経由の海外発送での購入が前提です。国内正規代理店による取り扱いは確認できていません。
-  - q: 技適は取得していますか
-    a: 掲載時点で技適取得の情報は確認できていません。Wi-Fiでの映像伝送・操作機能を国内で使うには技適の有無を個別に確認する必要があります。
-  - q: 日本で飛ばせますか
-    a: 本体重量は230gで、日本の無人航空機登録制度の対象（100g以上）に当たります。機体登録とリモートID対応が前提になりますが、VERSAがこれに対応しているかは確認できていません。
-  - q: いくらですか
-    a: Indiegogoの早期支援価格でカメラ単体が449ドルから、Fly More Comboが629ドル、Creator Comboが799ドルです（2026年8月19日時点、海外メディア報道）。
+- q: 日本で買えますか
+  a: 掲載時点でIndiegogo経由の海外発送での購入が前提です。国内正規代理店による取り扱いは確認できていません。
+- q: 技適は取得していますか
+  a: 掲載時点で技適取得の情報は確認できていません。Wi-Fiでの映像伝送・操作機能を国内で使うには技適の有無を個別に確認する必要があります。
+- q: 日本で飛ばせますか
+  a: 本体重量は230gで、日本の無人航空機登録制度の対象（100g以上）に当たります。機体登録とリモートID対応が前提になりますが、VERSAがこれに対応しているかは確認できていません。
+- q: いくらですか
+  a: Indiegogoの早期支援価格でカメラ単体が449ドルから、Fly More Comboが629ドル、Creator Comboが799ドルです（2026年8月19日時点、海外メディア報道）。
 alternatives:
-  - name: DJI Neo（Amazon.co.jp）
-    why: 135gの自動追跡ドローンで、日本国内向けに正規販売されている。VERSAと同じ「片手で飛ばすカメラ」という用途を、機体登録の要否も含めて確認しやすい状態で今日から試せる。
-    url: https://www.amazon.co.jp/DJI-DN1A0626-Neo-DJI%E3%83%8D%E3%82%AA-%E3%83%9F%E3%83%8B%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/dp/B07FTPX71F
-    merchant: amazon
+- name: 【9/1限定最大2000円OFFクーポン発行＆エントリーでP3倍！更に全商品ポイント3倍！】 DJI Neo ドローン 機体単体 手のひらサイズ Vlog撮影向け
+  why: 135gの自動追跡ドローンで、日本国内向けに正規販売されている。VERSAと同じ「片手で飛ばすカメラ」という用途を、機体登録の要否も含めて確認しやすい状態で今日から試せる。
+  url: https://item.rakuten.co.jp/gbft-ltd/5m-safj-xqcu/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: "HOVERAir VERSA: This Pocket Camera Can Fly"
-    url: https://www.indiegogo.com/projects/hoverair/versa-this-pocket-camera-can-fly
-    publisher: Indiegogo
-  - title: "World's First Flying Pocket Camera Quickly Raised Over $230,000 on Indiegogo"
-    url: https://petapixel.com/2026/08/19/worlds-first-flying-pocket-camera-quickly-raised-over-230000-on-indiegogo/
-    publisher: PetaPixel
-  - title: "HoverAir Versa Raises Over $240,000 on Indiegogo in Just One Day"
-    url: https://www.imaging-resource.com/news/hoverair-versa-raises-over-240000-on-indiegogo-in-just-one-day/
-    publisher: Imaging Resource
-  - title: "HoverAir Versa gives the handheld gimbal camera wings"
-    url: https://newatlas.com/consumer-tech/hoverair-versa-full-specs-indiegogo
-    publisher: New Atlas
-  - title: "HOVERAir VERSA Clears FCC For US Sale While DJI Stays Blocked"
-    url: https://dronexl.co/2026/08/18/hoverair-versa-fcc-clearance-indiegogo-launch/
-    publisher: DroneXL
+- title: 'HOVERAir VERSA: This Pocket Camera Can Fly'
+  url: https://www.indiegogo.com/projects/hoverair/versa-this-pocket-camera-can-fly
+  publisher: Indiegogo
+- title: World's First Flying Pocket Camera Quickly Raised Over $230,000 on Indiegogo
+  url: https://petapixel.com/2026/08/19/worlds-first-flying-pocket-camera-quickly-raised-over-230000-on-indiegogo/
+  publisher: PetaPixel
+- title: HoverAir Versa Raises Over $240,000 on Indiegogo in Just One Day
+  url: https://www.imaging-resource.com/news/hoverair-versa-raises-over-240000-on-indiegogo-in-just-one-day/
+  publisher: Imaging Resource
+- title: HoverAir Versa gives the handheld gimbal camera wings
+  url: https://newatlas.com/consumer-tech/hoverair-versa-full-specs-indiegogo
+  publisher: New Atlas
+- title: HOVERAir VERSA Clears FCC For US Sale While DJI Stays Blocked
+  url: https://dronexl.co/2026/08/18/hoverair-versa-fcc-clearance-indiegogo-launch/
+  publisher: DroneXL
 ---
 
 香港拠点のHOVERAir（Zero Zero Robotics系列）が、手持ちのジンバルカメラとしても、翼を付ければ自律飛行ドローンとしても使える「VERSA」をIndiegogoで発表した。8月18日の開始から24時間足らずで23万ドルを超える支援を集めたと複数の海外メディアが報じている。早期支援価格はカメラ単体449ドルから、飛行キット付きのFly More Comboが629ドル、アクセサリー込みのCreator Comboが799ドル（2026年8月19日時点）。

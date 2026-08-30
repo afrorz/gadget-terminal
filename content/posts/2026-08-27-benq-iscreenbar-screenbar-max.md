@@ -1,46 +1,52 @@
 ---
-title: "BenQ、iMac専用モニターライト「iScreenBar」とデュアルモニター用「ScreenBar Max」を発表 189ドル・289ドルから"
-seo_title: "BenQ iScreenBar、iMac専用189ドルから"
+title: BenQ、iMac専用モニターライト「iScreenBar」とデュアルモニター用「ScreenBar Max」を発表 189ドル・289ドルから
+seo_title: BenQ iScreenBar、iMac専用189ドルから
 slug: benq-iscreenbar-screenbar-max
 keyword: iScreenBar
 category: pc
 date: 2026-08-27
 kicker: BenQがモニターライト「ScreenBar」シリーズに、iMac専用の「iScreenBar」（189ドル）とデュアルモニター向けの「ScreenBar Max」（289ドル）を追加した。米国ではBenQ.comとAmazon.comなどで販売開始済み。
-tags: [BenQ, ScreenBar, iScreenBar, ScreenBar Max, モニターライト, iMac]
+tags:
+- BenQ
+- ScreenBar
+- iScreenBar
+- ScreenBar Max
+- モニターライト
+- iMac
 x_hook: iMacの背面にマグネットで吸い付くだけの新型ライトが登場。ウェブカメラを塞がない設計は、既存のクリップ式では解決できなかった問題だ。
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点でiScreenBar・ScreenBar Maxとも日本での発売は公式に告知されていません。米国ではBenQ.com、Amazon.com、Adorama、B&Hで販売中です。既存のScreenBar／ScreenBar Pro／ScreenBar Halo 2はベンキュージャパンが国内正規販売しているため、今後日本に入ってくる可能性はありますが、掲載時点では未確定です。
-  - q: いくらですか
-    a: iScreenBarが189ドル、ScreenBar Maxが289ドル（別売りの据え置き用デスクベースが39ドル）。いずれも米国価格で、円換算はしていません。
-  - q: iMacのどのモデルに対応しますか
-    a: 2021年以降のiMacに対応します。マグネット式マウントで本体背面に固定する方式のため、対応年式外のモデルには使えません。
-  - q: 電源はどこから取りますか
-    a: iScreenBarはiMacのUSB-Cポートから給電します。単体のACアダプターは記事執筆時点の情報からは確認できませんでした。
+- q: 日本で買えますか
+  a: 掲載時点でiScreenBar・ScreenBar Maxとも日本での発売は公式に告知されていません。米国ではBenQ.com、Amazon.com、Adorama、B&Hで販売中です。既存のScreenBar／ScreenBar Pro／ScreenBar Halo 2はベンキュージャパンが国内正規販売しているため、今後日本に入ってくる可能性はありますが、掲載時点では未確定です。
+- q: いくらですか
+  a: iScreenBarが189ドル、ScreenBar Maxが289ドル（別売りの据え置き用デスクベースが39ドル）。いずれも米国価格で、円換算はしていません。
+- q: iMacのどのモデルに対応しますか
+  a: 2021年以降のiMacに対応します。マグネット式マウントで本体背面に固定する方式のため、対応年式外のモデルには使えません。
+- q: 電源はどこから取りますか
+  a: iScreenBarはiMacのUSB-Cポートから給電します。単体のACアダプターは記事執筆時点の情報からは確認できませんでした。
 sources:
-  - title: "BenQ Launches iScreenBar, the First Monitor Light Bar Built for iMac"
-    url: https://www.prnewswire.com/news-releases/benq-launches-iscreenbar-the-first-monitor-light-bar-built-for-imac-302857470.html
-    publisher: PR Newswire（BenQ）
-  - title: "BenQ launches new iScreenBar and ScreenBar Max light bars for iMacs and dual-monitor desks"
-    url: https://www.gizmochina.com/2026/08/26/benq-iscreenbar-and-screenbar-max-light-bars-imacs-and-dual-monitor-desks-launched/
-    publisher: Gizmochina
-  - title: "BenQ launches the $189 iScreenBar, a light bar built only for the iMac"
-    url: https://www.notebookcheck.net/BenQ-launches-the-189-iScreenBar-a-light-bar-built-only-for-the-iMac.1379105.0.html
-    publisher: Notebookcheck
+- title: BenQ Launches iScreenBar, the First Monitor Light Bar Built for iMac
+  url: https://www.prnewswire.com/news-releases/benq-launches-iscreenbar-the-first-monitor-light-bar-built-for-imac-302857470.html
+  publisher: PR Newswire（BenQ）
+- title: BenQ launches new iScreenBar and ScreenBar Max light bars for iMacs and dual-monitor desks
+  url: https://www.gizmochina.com/2026/08/26/benq-iscreenbar-and-screenbar-max-light-bars-imacs-and-dual-monitor-desks-launched/
+  publisher: Gizmochina
+- title: BenQ launches the $189 iScreenBar, a light bar built only for the iMac
+  url: https://www.notebookcheck.net/BenQ-launches-the-189-iScreenBar-a-light-bar-built-only-for-the-iMac.1379105.0.html
+  publisher: Notebookcheck
 alternatives:
-  - name: BenQ ScreenBar（スタンダードモデル）
-    why: 同じBenQ製モニターライトの現行モデルで、ベンキュージャパン正規販売としてAmazon.co.jpから今日買える。iScreenBar特有のiMac専用マグネット固定や、ScreenBar Maxのデュアルモニター対応幅は無いが、画面へのグレアを抑えるという基本機能は共通する。
-    url: https://www.amazon.co.jp/BenQ-ScreenBar-%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%90%E3%83%BC-Reading-%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E6%8E%9B%E3%81%91%E5%BC%8F%E3%83%A9%E3%82%A4%E3%83%88/dp/B0785D93KD
-    merchant: amazon
+- name: 【BenQ公式店】BenQ ScreenBar スクリーンバー モニターライト モニター掛け式ライト　デスクライト USBライト ディスプレイライト 自動調光 テレワーク 在宅勤務 便利グッズ デスク周り LED PCアクセサリー 高演色 ブルーライト軽減
+  why: 同じBenQ製モニターライトの現行モデルで、ベンキュージャパン正規販売としてAmazon.co.jpから今日買える。iScreenBar特有のiMac専用マグネット固定や、ScreenBar Maxのデュアルモニター対応幅は無いが、画面へのグレアを抑えるという基本機能は共通する。
+  url: https://item.rakuten.co.jp/benq-directshop/moniterlight_01/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 images:
-  - url: "https://image.benq.com/is/image/benqco/iscreenbar-01-0728?fmt=png-alpha"
-    caption: iScreenBar本体。アルミ削り出しの一体型バーで、片側にタッチパネルを備える
-  - url: "https://mmx.prnewswire.com/media/MS1973763/BenQ-iScreenBar.jpg"
-    caption: iMac背面にマグネットで固定した状態。BenQのプレスリリース掲載画像
-  - url: "https://image.benq.com/is/image/benqco/screenbar-max-01-0806-1?fmt=png-alpha"
-    caption: ScreenBar Max。デスククランプで固定する自立式で、高さ調整用の支柱を備える
-  - url: "https://image.benq.com/is/image/benqco/screenbar-max-left45?fmt=png-alpha"
-    caption: ScreenBar Maxを別角度から。バー部分に操作パネルとBenQロゴが見える
+- url: https://image.benq.com/is/image/benqco/iscreenbar-01-0728?fmt=png-alpha
+  caption: iScreenBar本体。アルミ削り出しの一体型バーで、片側にタッチパネルを備える
+- url: https://mmx.prnewswire.com/media/MS1973763/BenQ-iScreenBar.jpg
+  caption: iMac背面にマグネットで固定した状態。BenQのプレスリリース掲載画像
+- url: https://image.benq.com/is/image/benqco/screenbar-max-01-0806-1?fmt=png-alpha
+  caption: ScreenBar Max。デスククランプで固定する自立式で、高さ調整用の支柱を備える
+- url: https://image.benq.com/is/image/benqco/screenbar-max-left45?fmt=png-alpha
+  caption: ScreenBar Maxを別角度から。バー部分に操作パネルとBenQロゴが見える
 credit: BenQ 公式サイト・プレスリリース
 ---
 

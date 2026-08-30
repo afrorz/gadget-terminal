@@ -1,41 +1,46 @@
 ---
-title: "開発元不明のミニPC「Piston V」がKickstarterで正式発売、円形4インチタッチ画面とRyzen AI 9 365でMSRP799ドル"
-seo_title: "Piston Vが799ドルでKickstarter開始"
+title: 開発元不明のミニPC「Piston V」がKickstarterで正式発売、円形4インチタッチ画面とRyzen AI 9 365でMSRP799ドル
+seo_title: Piston Vが799ドルでKickstarter開始
 slug: piston-v-mini-pc-kickstarter
 keyword: Piston V
 category: pc
 date: 2026-08-30
 kicker: 正体不明のミニPC「Piston V」が、クラウドファンディングサイトKickstarterで正式に発売された。開発元の企業名は依然として公表されておらず、AMD Ryzen AI 9 365とRadeon 880M iGPUを積み、前面に円形の4インチタッチスクリーンを備える。価格は掲載時点で590ドルから支援可能、正式発売後のMSRPは799ドルとされる。
-tags: [Piston V, ミニPC, Kickstarter, AMD Ryzen AI 9, クラウドファンディング, Bazzite]
+tags:
+- Piston V
+- ミニPC
+- Kickstarter
+- AMD Ryzen AI 9
+- クラウドファンディング
+- Bazzite
 x_hook: 会社名も分からないミニPCが、Kickstarterで799ドルの支援を募っている。
 embeds:
-  - type: youtube
-    id: 9O0IoHSm0qw
-    caption: ETA Primeによる発売前の実機ハンズオン「The New Piston V Is An Unreleased "SteamOS" Mini PC...Who Made It?」
+- type: youtube
+  id: 9O0IoHSm0qw
+  caption: ETA Primeによる発売前の実機ハンズオン「The New Piston V Is An Unreleased "SteamOS" Mini PC...Who Made It?」
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点でKickstarterを通じた海外発送が前提で、国内正規代理店の取り扱いは確認できていません。開発元の企業自体が公表されていないため、国内サポートも見込めません。
-  - q: 技適は取得していますか
-    a: Wi-Fi 7とBluetooth 5.3を搭載しますが、掲載時点で技適取得の情報は確認できていません。
-  - q: いくらですか
-    a: Kickstarterの早期支援価格559ドルは掲載時点で完売済みで、現在は590ドルから支援可能です。クラウドファンディング終了後の正式なMSRPは799ドルと案内されています(いずれも掲載時点の価格)。
-  - q: 開発元はどこの会社ですか
-    a: 参照した記事の時点で、Piston Vを製造・販売する企業名は公表されていません。実機を検証したYouTuberのETA Primeも「誰が作ったか分からない」としています。
+- q: 日本で買えますか
+  a: 掲載時点でKickstarterを通じた海外発送が前提で、国内正規代理店の取り扱いは確認できていません。開発元の企業自体が公表されていないため、国内サポートも見込めません。
+- q: 技適は取得していますか
+  a: Wi-Fi 7とBluetooth 5.3を搭載しますが、掲載時点で技適取得の情報は確認できていません。
+- q: いくらですか
+  a: Kickstarterの早期支援価格559ドルは掲載時点で完売済みで、現在は590ドルから支援可能です。クラウドファンディング終了後の正式なMSRPは799ドルと案内されています(いずれも掲載時点の価格)。
+- q: 開発元はどこの会社ですか
+  a: 参照した記事の時点で、Piston Vを製造・販売する企業名は公表されていません。実機を検証したYouTuberのETA Primeも「誰が作ったか分からない」としています。
 alternatives:
-  - name: CHUWI AuBox Ai365(Amazon.co.jp)
-    why: 同じAMD Ryzen AI 9 365とRadeon 880Mを積むミニPCで、Amazon.co.jpから発送・購入できる。開発元不明のPiston Vと異なり、CHUWIという実在するメーカーの製品である点も違いになる。
-    url: https://www.amazon.co.jp/-/en/CHUWI-AI-Strongest-365-Accelerated/dp/B0FZSXC5Q8
-    merchant: amazon
+- name: CHUWI AuBox Ai365(Amazon.co.jp)
+  why: 同じAMD Ryzen AI 9 365とRadeon 880Mを積むミニPCで、Amazon.co.jpから発送・購入できる。開発元不明のPiston Vと異なり、CHUWIという実在するメーカーの製品である点も違いになる。
+  url: https://www.amazon.co.jp/-/en/CHUWI-AI-Strongest-365-Accelerated/dp/B0FZSXC5Q8
 sources:
-  - title: "Piston V Touchscreen Bazzite Mini PC Launches on Kickstarter With $799 MSRP"
-    url: https://www.techpowerup.com/352102/piston-v-touchscreen-bazzite-mini-pc-launches-on-kickstarter-with-usd-799-msrp
-    publisher: TechPowerUp
-  - title: "Ryzen AI 9-Powered \"Piston V\" Mystery Mini PC Dual-Boots Bazzite and Windows"
-    url: https://www.techpowerup.com/351535/ryzen-ai-9-powered-piston-v-mystery-mini-pc-dual-boots-bazzite-and-windows
-    publisher: TechPowerUp
-  - title: "Piston V - Dual-OS Gaming Beast in a Gadget Form Factor"
-    url: https://www.kickstarter.com/projects/pistonv/pistonv-dual-os-gaming-beast-in-a-gadget-form-factor
-    publisher: Kickstarter
+- title: Piston V Touchscreen Bazzite Mini PC Launches on Kickstarter With $799 MSRP
+  url: https://www.techpowerup.com/352102/piston-v-touchscreen-bazzite-mini-pc-launches-on-kickstarter-with-usd-799-msrp
+  publisher: TechPowerUp
+- title: Ryzen AI 9-Powered "Piston V" Mystery Mini PC Dual-Boots Bazzite and Windows
+  url: https://www.techpowerup.com/351535/ryzen-ai-9-powered-piston-v-mystery-mini-pc-dual-boots-bazzite-and-windows
+  publisher: TechPowerUp
+- title: Piston V - Dual-OS Gaming Beast in a Gadget Form Factor
+  url: https://www.kickstarter.com/projects/pistonv/pistonv-dual-os-gaming-beast-in-a-gadget-form-factor
+  publisher: Kickstarter
 ---
 
 正体不明のミニPC「Piston V」が、クラウドファンディングサイトKickstarterで正式に発売された。8月上旬にYouTuberのETA Primeが実機のハンズオン動画を公開して以来、誰が作ったのか分からない「ミステリーPC」として話題になっていた製品で、今回のKickstarterページ開設で仕様と価格がようやく確定した。それでも開発元の企業名は依然として明かされていない。

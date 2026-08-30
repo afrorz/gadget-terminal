@@ -6,29 +6,34 @@ keyword: スマート水槽
 category: weird
 date: 2026-08-25
 kicker: Xiaomiが展開する先行予約プラットフォーム「小米有品（Xiaomi Youpin）」で、自動給餌・自動ろ過機能を備えたスマート水槽「Mijia Smart Fish Tank 2 Pro」の予約が始まった。早期価格は599元（約85ドル、掲載時点）。中国国内限定の案件で、日本語対応や国内発売は確認できていない。
-tags: [Xiaomi, Mijia, スマート水槽, Xiaomi Youpin, クラウドファンディング]
+tags:
+- Xiaomi
+- Mijia
+- スマート水槽
+- Xiaomi Youpin
+- クラウドファンディング
 x_hook: 水槽が自分でエサをやり、水も勝手にろ過する。ただし今のところ中国国内限定の話。
 faq:
-  - q: 日本で買えますか
-    a: Xiaomi Youpinでの先行予約は中国国内限定です。掲載時点で日本向けの販売や代理店の告知は確認できていません。
-  - q: いくらですか
-    a: 早期価格は599元（約85ドル、掲載時点）です。正規販売価格や日本での価格は未発表です。
-  - q: 技適は取得していますか
-    a: 元記事に技適に関する記載はありません。Wi-Fi機能を搭載しているため、個人輸入して国内で使う場合は技適の取得状況を確認する必要があります。
-  - q: いつ届きますか
-    a: 受付期間は2026年8月31日10:00（中国時間）までで、配送時期は元記事では確認できませんでした。
+- q: 日本で買えますか
+  a: Xiaomi Youpinでの先行予約は中国国内限定です。掲載時点で日本向けの販売や代理店の告知は確認できていません。
+- q: いくらですか
+  a: 早期価格は599元（約85ドル、掲載時点）です。正規販売価格や日本での価格は未発表です。
+- q: 技適は取得していますか
+  a: 元記事に技適に関する記載はありません。Wi-Fi機能を搭載しているため、個人輸入して国内で使う場合は技適の取得状況を確認する必要があります。
+- q: いつ届きますか
+  a: 受付期間は2026年8月31日10:00（中国時間）までで、配送時期は元記事では確認できませんでした。
 alternatives:
-  - name: ニッソー Wi-Fiスマートフィーダー
-    why: 国内正規品で技適対応済み。スマホアプリからの給餌スケジュール管理という中核機能を今日から使える。
-    url: https://www.amazon.co.jp/NISSO-%E3%83%8B%E3%83%83%E3%82%BD%E3%83%BC-Wi-Fi%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC/dp/B07YMNY26F
-    merchant: amazon
+- name: 【全国送料無料】ニッソー Wi-Fi スマートフィーダー
+  why: 国内正規品で技適対応済み。スマホアプリからの給餌スケジュール管理という中核機能を今日から使える。
+  url: https://item.rakuten.co.jp/rayon/11963/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: Xiaomi crowdfunds Mijia Smart Fish Tank 2 Pro with auto feeding
-    url: https://ximitime.com/xiaomi-crowdfunds-mijia-smart-fish-tank-2-pro-with-auto-feeding-99882/
-    publisher: XimiTime
-  - title: Xiaomi Launches Mijia Smart Fish Tank 2 Pro with Auto Feeding at $85
-    url: https://ximitime.com/xiaomi-launches-mijia-smart-fish-tank-2-pro-with-auto-feeding-at-85-99723/
-    publisher: XimiTime
+- title: Xiaomi crowdfunds Mijia Smart Fish Tank 2 Pro with auto feeding
+  url: https://ximitime.com/xiaomi-crowdfunds-mijia-smart-fish-tank-2-pro-with-auto-feeding-99882/
+  publisher: XimiTime
+- title: Xiaomi Launches Mijia Smart Fish Tank 2 Pro with Auto Feeding at $85
+  url: https://ximitime.com/xiaomi-launches-mijia-smart-fish-tank-2-pro-with-auto-feeding-at-85-99723/
+  publisher: XimiTime
 ---
 
 Xiaomiは2026年8月24日、スマート水槽の新型「Mijia Smart Fish Tank 2 Pro」の先行予約を、自社のクラウドファンディング型販売プラットフォーム「小米有品（Xiaomi Youpin）」で開始した。受付期間は8月17日10:00から8月31日10:00（中国時間）まで、早期価格は599元（約85ドル、掲載時点）。

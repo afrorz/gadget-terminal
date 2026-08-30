@@ -1,34 +1,39 @@
 ---
-title: "Sennheiser「MOMENTUM True Wireless 5」はイヤホン・ケース双方のバッテリーをユーザー自身で交換可能、299.95ドルで9月3日発売"
+title: Sennheiser「MOMENTUM True Wireless 5」はイヤホン・ケース双方のバッテリーをユーザー自身で交換可能、299.95ドルで9月3日発売
 slug: sennheiser-momentum-true-wireless-5
 keyword: MOMENTUM TW5
 category: smartphone
 date: 2026-08-20
 kicker: SennheiserがフラッグシップイヤホンMOMENTUM True Wireless 5を発表した。最大の特徴はイヤホン本体とケースの両方でバッテリーをユーザー自身が交換できる設計で、小型ドライバー1本で分解できる。米国価格299.95ドル、9月3日発売。単体12時間・ケース込み最大40時間再生、Bluetooth 6.0とaptX Losslessに対応する。
-tags: [Sennheiser, ワイヤレスイヤホン, バッテリー交換, Bluetooth 6.0, aptX Lossless]
+tags:
+- Sennheiser
+- ワイヤレスイヤホン
+- バッテリー交換
+- Bluetooth 6.0
+- aptX Lossless
 seo_title: MOMENTUM TW5はバッテリー交換式、299ドルで9/3発売
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点で日本発売の告知は確認できていません。前モデルのMOMENTUM True Wireless 4は国内正規販売されているため、後継機も国内投入される可能性はありますが、時期・価格は続報待ちです。
-  - q: いくらですか
-    a: 米国価格は299.95ドルです（掲載時点、為替により円建て価格は変動します）。
-  - q: いつ発売されますか
-    a: 2026年9月3日に発売予定です（発表時点の情報）。
-  - q: バッテリーはどうやって交換しますか
-    a: イヤホン本体・充電ケースともに接着剤を使わない設計で、小型のドライバー1本で分解してバッテリーを交換できるとSennheiserは説明しています。交換用バッテリーの販売方法や価格は参照した記事に記載がなく確認できていません。
+- q: 日本で買えますか
+  a: 掲載時点で日本発売の告知は確認できていません。前モデルのMOMENTUM True Wireless 4は国内正規販売されているため、後継機も国内投入される可能性はありますが、時期・価格は続報待ちです。
+- q: いくらですか
+  a: 米国価格は299.95ドルです（掲載時点、為替により円建て価格は変動します）。
+- q: いつ発売されますか
+  a: 2026年9月3日に発売予定です（発表時点の情報）。
+- q: バッテリーはどうやって交換しますか
+  a: イヤホン本体・充電ケースともに接着剤を使わない設計で、小型のドライバー1本で分解してバッテリーを交換できるとSennheiserは説明しています。交換用バッテリーの販売方法や価格は参照した記事に記載がなく確認できていません。
 alternatives:
-  - name: Sennheiser MOMENTUM True Wireless 4
-    why: 同じMOMENTUMシリーズの前モデルで、国内正規品としてAmazon.co.jpで即日購入できる。バッテリー交換機能はないが、音質傾向やアプリの使用感は共通する。
-    url: https://www.amazon.co.jp/dp/B0CTHVX6DK
-    merchant: amazon
+- name: ゼンハイザー公式 Sennheiser MOMENTUM True Wireless 4 &USB アダプター BTD 600セットワイヤレスイヤホン イヤフォン True Wireless ダイナミックドライバー IP54 防塵 防滴 遮音性 30時間再生 Bluetooth 5.4対応
+  why: 同じMOMENTUMシリーズの前モデルで、国内正規品としてAmazon.co.jpで即日購入できる。バッテリー交換機能はないが、音質傾向やアプリの使用感は共通する。
+  url: https://item.rakuten.co.jp/sennheiser-hearing/mtw4_btd600/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: "Introducing Sennheiser MOMENTUM True Wireless 5: The Flagship MOMENTUM Experience in Your Pocket"
-    url: https://newsroom.sennheiser.com/introducing-sennheiser-momentum-true-wireless-5-the-flagship-momentum-experience-in-your-pocket-3bq5c0
-    publisher: Sennheiser Newsroom（公式）
-  - title: "Sennheiser's new Momentum True Wireless 5 earbuds let you swap the battery yourself"
-    url: https://www.gizmochina.com/2026/08/20/sennheisers-momentum-true-wireless-5-earbuds-launch-specs-price-battery-swap/
-    publisher: Gizmochina
-thumbnail: "https://cdn.uc.assets.prezly.com/b64a3e28-0ae3-4662-8f03-905e5dfbb4e3/-/crop/1920x1008/0,456/-/preview/-/preview/600x600/"
+- title: 'Introducing Sennheiser MOMENTUM True Wireless 5: The Flagship MOMENTUM Experience in Your Pocket'
+  url: https://newsroom.sennheiser.com/introducing-sennheiser-momentum-true-wireless-5-the-flagship-momentum-experience-in-your-pocket-3bq5c0
+  publisher: Sennheiser Newsroom（公式）
+- title: Sennheiser's new Momentum True Wireless 5 earbuds let you swap the battery yourself
+  url: https://www.gizmochina.com/2026/08/20/sennheisers-momentum-true-wireless-5-earbuds-launch-specs-price-battery-swap/
+  publisher: Gizmochina
+thumbnail: https://cdn.uc.assets.prezly.com/b64a3e28-0ae3-4662-8f03-905e5dfbb4e3/-/crop/1920x1008/0,456/-/preview/-/preview/600x600/
 thumbnail_credit: Sennheiser Newsroom（公式プレスルーム）
 ---
 

@@ -6,26 +6,30 @@ keyword: PicoGo AR11
 category: pc
 date: 2026-08-25
 kicker: Baseusが、USB-Cケーブルを本体に内蔵したモバイルバッテリー「PicoGo AR11」シリーズに20,000mAh版を追加し、中国のJD.comで販売を始めた。価格は289元（約43ドル）。同シリーズの10,000mAh版は日本でもBaseus公式ストアがAmazon.co.jpで正規販売しており、上位容量モデルの国内投入が続く可能性がある。
-tags: [Baseus, PicoGo, モバイルバッテリー, 周辺機器, 中国]
+tags:
+- Baseus
+- PicoGo
+- モバイルバッテリー
+- 周辺機器
+- 中国
 x_hook: ケーブルを忘れても困らない。バッテリー本体にケーブルが生えているから。
 faq:
-  - q: 日本で買えますか
-    a: 20,000mAh版のAR11は掲載時点で中国のJD.com限定です。ただし同シリーズの10,000mAh版はBaseus Japan公式ストアがAmazon.co.jpで正規販売しています。
-  - q: いくらですか
-    a: 中国JD.comでの価格は289元（約43ドル、掲載時点）です。日本での価格・発売は未発表です。
-  - q: PSE認証は取得していますか
-    a: 20,000mAh版についての記載は確認できていません。個人輸入して国内で使う場合は、PSEマークの有無を確認する必要があります。
-  - q: 何台まで同時に充電できますか
-    a: USB-Cの内蔵ケーブル、USB-Aポート、USB-Cポートを使って最大3台を同時に充電できます。
+- q: 日本で買えますか
+  a: 20,000mAh版のAR11は掲載時点で中国のJD.com限定です。ただし同シリーズの10,000mAh版はBaseus Japan公式ストアがAmazon.co.jpで正規販売しています。
+- q: いくらですか
+  a: 中国JD.comでの価格は289元（約43ドル、掲載時点）です。日本での価格・発売は未発表です。
+- q: PSE認証は取得していますか
+  a: 20,000mAh版についての記載は確認できていません。個人輸入して国内で使う場合は、PSEマークの有無を確認する必要があります。
+- q: 何台まで同時に充電できますか
+  a: USB-Cの内蔵ケーブル、USB-Aポート、USB-Cポートを使って最大3台を同時に充電できます。
 alternatives:
-  - name: Baseus PicoGo モバイルバッテリー 45W 10,000mAh
-    why: 同じPicoGoシリーズの下位容量モデルで、PSE認証済み・国内正規代理店から購入できる。ケーブル内蔵という中核の使い勝手を今日から試せる。
-    url: https://www.amazon.co.jp/Baseus-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-10000mAh-LED%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B3%E3%82%BA%E3%83%9F%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0DKH7VKG7
-    merchant: amazon
+- name: Baseus PicoGo モバイルバッテリー 45W 10,000mAh
+  why: 同じPicoGoシリーズの下位容量モデルで、PSE認証済み・国内正規代理店から購入できる。ケーブル内蔵という中核の使い勝手を今日から試せる。
+  url: https://www.amazon.co.jp/Baseus-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-10000mAh-LED%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B3%E3%82%BA%E3%83%9F%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0DKH7VKG7
 sources:
-  - title: "Baseus' award-winning power bank gets a 20,000mAh version"
-    url: https://www.notebookcheck.net/Baseus-award-winning-power-bank-gets-a-20-000mAh-version.1370100.0.html
-    publisher: Notebookcheck
+- title: Baseus' award-winning power bank gets a 20,000mAh version
+  url: https://www.notebookcheck.net/Baseus-award-winning-power-bank-gets-a-20-000mAh-version.1370100.0.html
+  publisher: Notebookcheck
 ---
 
 Baseusは、USB-Cケーブルを本体に内蔵したモバイルバッテリー「PicoGo AR11」シリーズに20,000mAh版を追加し、中国のJD.comで販売を始めた。価格は289元（約43ドル、掲載時点）。バッテリーとケーブルを別々に持ち歩かなくていいという発想の製品で、同シリーズはiF Design Award 2026を受賞している。

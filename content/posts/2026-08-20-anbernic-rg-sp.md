@@ -1,34 +1,38 @@
 ---
-title: "ANBERNIC「RG SP」はGBA SP型クラムシェル機の最新作、64.99ドルでPS1世代までエミュレート"
+title: ANBERNIC「RG SP」はGBA SP型クラムシェル機の最新作、64.99ドルでPS1世代までエミュレート
 slug: anbernic-rg-sp
 keyword: RG SP
 category: weird
 date: 2026-08-20
 kicker: 中国ANBERNICが、Game Boy Advance SPを思わせるクラムシェル型レトロゲーム機「RG SP」を発売した。価格は64.99ドル。3.4インチ720×480 IPS液晶とAllwinner H700チップを搭載し、PlayStation 1世代までのエミュレーションに対応する。従来モデルRG34XXSP・RG35XXSPからの改良版という位置付け。
-tags: [ANBERNIC, レトロゲーム機, エミュレーター, クラムシェル, 中華ガジェット]
+tags:
+- ANBERNIC
+- レトロゲーム機
+- エミュレーター
+- クラムシェル
+- 中華ガジェット
 seo_title: ANBERNIC RG SPは64.99ドル、PS1世代まで対応
 embeds:
-  - type: youtube
-    id: Ac2GW3BJSjE
-    caption: Retro Game CorpsによるANBERNIC RG SPのレビュー動画。実機の操作感やエミュレーション性能を確認できる
+- type: youtube
+  id: Ac2GW3BJSjE
+  caption: Retro Game CorpsによるANBERNIC RG SPのレビュー動画。実機の操作感やエミュレーション性能を確認できる
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点でANBERNIC公式サイトからの購入が確認できています。国内の家電量販店等での正規販売網は無く、Amazon.co.jp等では並行輸入・代理店経由の出品が中心です。過去モデル(RG35XXシリーズ等)は同様の形で国内でも入手可能でした。
-  - q: 技適は取得していますか
-    a: 掲載時点で技適取得の情報は確認できていません。Wi-Fi/Bluetooth機能を国内で使う場合は技適の有無を個別に確認する必要があります。
-  - q: いくらですか
-    a: 64.99ドルです(掲載時点の価格、為替により円換算額は変動します)。
-  - q: 日本語に対応していますか
-    a: 本体メニューの日本語対応については参照した記事に記載がなく確認できていません。ANBERNIC製品はこれまで日本語メニューに対応した機種が多いですが、本機での対応は個別に確認が必要です。
+- q: 日本で買えますか
+  a: 掲載時点でANBERNIC公式サイトからの購入が確認できています。国内の家電量販店等での正規販売網は無く、Amazon.co.jp等では並行輸入・代理店経由の出品が中心です。過去モデル(RG35XXシリーズ等)は同様の形で国内でも入手可能でした。
+- q: 技適は取得していますか
+  a: 掲載時点で技適取得の情報は確認できていません。Wi-Fi/Bluetooth機能を国内で使う場合は技適の有無を個別に確認する必要があります。
+- q: いくらですか
+  a: 64.99ドルです(掲載時点の価格、為替により円換算額は変動します)。
+- q: 日本語に対応していますか
+  a: 本体メニューの日本語対応については参照した記事に記載がなく確認できていません。ANBERNIC製品はこれまで日本語メニューに対応した機種が多いですが、本機での対応は個別に確認が必要です。
 alternatives:
-  - name: ANBERNIC RG35XX+（日本語対応・Amazon.co.jp国内出品）
-    why: 同じANBERNIC製の携帯ゲーム機で、日本語対応をうたう出品がAmazon.co.jpにあり今すぐ購入できる。クラムシェル型ではないが同社のレトロエミュレーション機の使用感を試せる。
-    url: https://www.amazon.co.jp/dp/B0BPP4M8D4
-    merchant: amazon
+- name: ANBERNIC RG35XX+（日本語対応・Amazon.co.jp国内出品）
+  why: 同じANBERNIC製の携帯ゲーム機で、日本語対応をうたう出品がAmazon.co.jpにあり今すぐ購入できる。クラムシェル型ではないが同社のレトロエミュレーション機の使用感を試せる。
+  url: https://www.amazon.co.jp/dp/B0BPP4M8D4
 sources:
-  - title: "ANBERNIC RG SP Review: Refined Clamshell Goodness"
-    url: https://retrododo.com/anbernic-rg-sp-review/
-    publisher: Retro Dodo
+- title: 'ANBERNIC RG SP Review: Refined Clamshell Goodness'
+  url: https://retrododo.com/anbernic-rg-sp-review/
+  publisher: Retro Dodo
 ---
 
 中国ANBERNICが、Game Boy Advance SPを思わせるクラムシェル（折りたたみ）型のレトロゲーム機「RG SP」を発売した。価格は64.99ドル。3.4インチ・720×480解像度のIPS液晶（OCAフルラミネーション）とAllwinner H700（クアッドコアARM Cortex-A53、1.5GHz）を搭載し、PlayStation 1世代までのタイトルをエミュレーションできる。従来のクラムシェル機RG34XXSP・RG35XXSPと同じ64.99ドル帯の価格ながら、設計を洗練させたモデルという位置付けだ。

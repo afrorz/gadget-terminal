@@ -1,44 +1,49 @@
 ---
-title: "Keychron「V6 Ultra Hybrid」がKickstarter開始、磁気とメカニカルの両スイッチを1枚の基板で切り替え"
+title: Keychron「V6 Ultra Hybrid」がKickstarter開始、磁気とメカニカルの両スイッチを1枚の基板で切り替え
 slug: keychron-v6-ultra-hybrid-tmr
 keyword: V6 Ultra Hybrid
 category: pc
 date: 2026-08-20
 kicker: KeychronがフルサイズキーボードV6 Ultra HybridをKickstarterで正式ローンチした。TMR（トンネル磁気抵抗）方式のハイブリッド基板により、同じソケットにメカニカルスイッチと磁気（ホール効果）スイッチのどちらを挿しても自動で認識・切り替わる。早割価格は149ドルから、目標額3万ドルに対し開始から1日で16万6000ドル超・支援者926人を集めている。
-tags: [Keychron, キーボード, Kickstarter, クラウドファンディング, 自作キーボード]
+tags:
+- Keychron
+- キーボード
+- Kickstarter
+- クラウドファンディング
+- 自作キーボード
 seo_title: Keychron V6 Hybridが早割149ドルで登場
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点ではKickstarterでの支援受付のみです。Keychronは過去モデルを国内正規代理店（Keychron Japan）経由でAmazon.co.jp等に展開してきた実績があるため、量産後に国内販売される可能性はありますが、本記事の時点で日本向け販売や技適取得の告知はありません。
-  - q: 価格はいくらですか
-    a: Kickstarterの早割価格は磁気スイッチ（Lime/Banana）モデルが149ドルから。目標額3万ドルに対し、開始1日で16万6000ドル以上を集めています（本記事掲載時点の値で、キャンペーン終了まで変動します）。
-  - q: メカニカルスイッチと磁気スイッチはどう違いますか
-    a: メカニカルスイッチは物理接点でON/OFFを検知する従来方式、磁気（ホール効果／TMR）スイッチは磁石の位置をセンサーで読み取る方式で、押し込み量に応じた入力（ラピッドトリガー等)が可能です。V6 Ultra Hybridは同じ基板でどちらの方式のスイッチも使えます。
-  - q: いつ届きますか
-    a: Kickstarterの配送予定時期は参照した記事の時点では明記されていません。クラウドファンディングのため、配送は「予定」であり遅延の可能性があります。
+- q: 日本で買えますか
+  a: 掲載時点ではKickstarterでの支援受付のみです。Keychronは過去モデルを国内正規代理店（Keychron Japan）経由でAmazon.co.jp等に展開してきた実績があるため、量産後に国内販売される可能性はありますが、本記事の時点で日本向け販売や技適取得の告知はありません。
+- q: 価格はいくらですか
+  a: Kickstarterの早割価格は磁気スイッチ（Lime/Banana）モデルが149ドルから。目標額3万ドルに対し、開始1日で16万6000ドル以上を集めています（本記事掲載時点の値で、キャンペーン終了まで変動します）。
+- q: メカニカルスイッチと磁気スイッチはどう違いますか
+  a: メカニカルスイッチは物理接点でON/OFFを検知する従来方式、磁気（ホール効果／TMR）スイッチは磁石の位置をセンサーで読み取る方式で、押し込み量に応じた入力（ラピッドトリガー等)が可能です。V6 Ultra Hybridは同じ基板でどちらの方式のスイッチも使えます。
+- q: いつ届きますか
+  a: Kickstarterの配送予定時期は参照した記事の時点では明記されていません。クラウドファンディングのため、配送は「予定」であり遅延の可能性があります。
 alternatives:
-  - name: Keychron Q1 HE（国内正規品・ホール効果磁気スイッチ）
-    why: 同じKeychronのホール効果磁気スイッチ機で、国内正規代理店経由でAmazon.co.jpから即日購入できる。V6 Ultra Hybridの磁気スイッチ側の使用感を今すぐ試せる。
-    url: https://www.amazon.co.jp/dp/B0DCGK6FNQ
-    merchant: amazon
+- name: Keychron Q1 HE マグネットスイッチ搭載 QMK カーボンブラック 75% Mac日本語配列 有線 / Bluetooth 5.1 / 2.4GHz ワイヤレス 両対応 テンキーレス ホットスワップ Gateron ダブルレール・マグネティックスイッチ Nebula RGBライト カスタムメカニカルキーボード キークロン
+  why: 同じKeychronのホール効果磁気スイッチ機で、国内正規代理店経由でAmazon.co.jpから即日購入できる。V6 Ultra Hybridの磁気スイッチ側の使用感を今すぐ試せる。
+  url: https://item.rakuten.co.jp/kitcut-ps/533216/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 images:
-  - url: "https://i.kickstarter.com/assets/054/860/273/63508e2207f9c366b6d5f95464a3eec7_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1787551940&width=1552&sig=u345rExwl%2Fx0UmCDHV8JuWHKyuAXr%2F8LDs4TC07UStE%3D"
-    caption: V6 Ultra Hybrid 8K の本体。フルサイズ配列で右上にノブを備える
-    credit: Keychron 公式 Kickstarter プロジェクトページ
-  - url: "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/V6_Ultra_hybrid_8k.png?v=1786334653&width=2048"
-    caption: 主な仕様。磁気スイッチとメカニカルスイッチを同じ基板で混在させられる
-    credit: Keychron 公式サイト
+- url: https://i.kickstarter.com/assets/054/860/273/63508e2207f9c366b6d5f95464a3eec7_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1787551940&width=1552&sig=u345rExwl%2Fx0UmCDHV8JuWHKyuAXr%2F8LDs4TC07UStE%3D
+  caption: V6 Ultra Hybrid 8K の本体。フルサイズ配列で右上にノブを備える
+  credit: Keychron 公式 Kickstarter プロジェクトページ
+- url: https://cdn.shopify.com/s/files/1/0059/0630/1017/files/V6_Ultra_hybrid_8k.png?v=1786334653&width=2048
+  caption: 主な仕様。磁気スイッチとメカニカルスイッチを同じ基板で混在させられる
+  credit: Keychron 公式サイト
 deadline: 2026-09-17
 sources:
-  - title: "Keychron V6 Ultra Hybrid TMR Keyboard Launches on Kickstarter"
-    url: https://www.techpowerup.com/351726/keychron-v6-ultra-hybrid-tmr-keyboard-launches-on-kickstarter
-    publisher: TechPowerUp
-  - title: "Keychron's new V6 Ultra Hybrid mechanical keyboard offers real choice"
-    url: https://www.forbes.com/sites/marksparrow/2026/08/18/keychrons-new-v6-ultra-hybrid-mechanical-keyboard-offers-real-choice/
-    publisher: Forbes
-  - title: "Keychron V6 Ultra Hybrid 8K: Magnetic & Mechanical Keyboard"
-    url: https://www.kickstarter.com/projects/keytron/keychron-v6-ultra-hybrid-8k-magnetic-and-mechanical-keyboard
-    publisher: Kickstarter
+- title: Keychron V6 Ultra Hybrid TMR Keyboard Launches on Kickstarter
+  url: https://www.techpowerup.com/351726/keychron-v6-ultra-hybrid-tmr-keyboard-launches-on-kickstarter
+  publisher: TechPowerUp
+- title: Keychron's new V6 Ultra Hybrid mechanical keyboard offers real choice
+  url: https://www.forbes.com/sites/marksparrow/2026/08/18/keychrons-new-v6-ultra-hybrid-mechanical-keyboard-offers-real-choice/
+  publisher: Forbes
+- title: 'Keychron V6 Ultra Hybrid 8K: Magnetic & Mechanical Keyboard'
+  url: https://www.kickstarter.com/projects/keytron/keychron-v6-ultra-hybrid-8k-magnetic-and-mechanical-keyboard
+  publisher: Kickstarter
 ---
 
 自作キーボードで知られるKeychronが、フルサイズ（100%レイアウト）キーボード「V6 Ultra Hybrid」をKickstarterで正式ローンチした。最大の特徴は、TMR（Tunnel Magnetoresistance＝トンネル磁気抵抗）方式のセンシング技術を使ったハイブリッド基板で、同じソケットに一般的な3ピン／5ピンのメカニカルスイッチを挿しても、ゲーミング向けの磁気（ホール効果）スイッチを挿しても、キーボード側が自動で判別してモードを切り替える。早割価格は磁気スイッチ（Ultra-Fast Lime／Banana）モデルで149ドルから。Kickstarterの目標額は3万ドルで、開始からわずか1日で16万6000ドル以上・支援者926人を集めている（本記事掲載時点の値）。

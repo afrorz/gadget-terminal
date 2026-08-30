@@ -1,45 +1,50 @@
 ---
-title: "新興ブランドXERONが360mm水冷クーラー「NEX L360 ARGB」を発表、74.99ドルから"
-seo_title: "XERON NEX L360、74.99ドルの360mm水冷"
-x_hook: "360mmの水冷が74.99ドル。ただし今年Computexでデビューしたばかりの新興ブランドだ。"
+title: 新興ブランドXERONが360mm水冷クーラー「NEX L360 ARGB」を発表、74.99ドルから
+seo_title: XERON NEX L360、74.99ドルの360mm水冷
+x_hook: 360mmの水冷が74.99ドル。ただし今年Computexでデビューしたばかりの新興ブランドだ。
 slug: xeron-nex-l360-argb
 keyword: NEX L360 ARGB
 category: pc
 date: 2026-08-28
 origin: PEK 北京
 kicker: 2026年のComputexで立ち上がったばかりのPC周辺機器ブランドXERONが、Gamescom 2026で360mmオールインワン水冷CPUクーラー「NEX L360 ARGB」を披露した。黒/白の2色展開で価格は74.99ドルから。
-tags: [XERON, 水冷クーラー, AIOクーラー, Gamescom, 自作PC]
+tags:
+- XERON
+- 水冷クーラー
+- AIOクーラー
+- Gamescom
+- 自作PC
 faq:
-  - q: いくらですか
-    a: 黒（NEX L360 ARGB BK）が74.99ドル、白（NEX L360 ARGB WH）が79.99ドルの推奨小売価格です（2026年8月27日時点、TechPowerUp報道）。
-  - q: 日本で買えますか
-    a: 掲載時点で日本国内での取り扱い発表は確認できていません。XERONはヨーロッパ市場向けの販売代理店を募集している段階です。
-  - q: 技適は必要ですか
-    a: 無線通信機能を持たない水冷クーラーのため、技適の対象にはなりません。ARGB制御はマザーボードの5Vヘッダー経由の有線接続です。
-  - q: どのCPUソケットに対応していますか
-    a: Intel LGA1851/1700/1200/115X、AMD AM5/AM4に対応します。AM5用にはコールドプレート位置を最適化するオフセットブラケットが付属します。
+- q: いくらですか
+  a: 黒（NEX L360 ARGB BK）が74.99ドル、白（NEX L360 ARGB WH）が79.99ドルの推奨小売価格です（2026年8月27日時点、TechPowerUp報道）。
+- q: 日本で買えますか
+  a: 掲載時点で日本国内での取り扱い発表は確認できていません。XERONはヨーロッパ市場向けの販売代理店を募集している段階です。
+- q: 技適は必要ですか
+  a: 無線通信機能を持たない水冷クーラーのため、技適の対象にはなりません。ARGB制御はマザーボードの5Vヘッダー経由の有線接続です。
+- q: どのCPUソケットに対応していますか
+  a: Intel LGA1851/1700/1200/115X、AMD AM5/AM4に対応します。AM5用にはコールドプレート位置を最適化するオフセットブラケットが付属します。
 alternatives:
-  - name: DeepCool LS720
-    why: 同じ360mm ARGB水冷クーラーで、国内で正規に流通しており保証・サポートも受けやすい。新興ブランドの流通不安を避けて同クラスの性能を今日から選べる。
-    url: https://www.amazon.co.jp/dp/B0BZBXW6PB
-    merchant: amazon
+- name: 【マラソンセール中 P10倍!】 DeepCool LS720 ブラック 水冷クーラー
+  why: 同じ360mm ARGB水冷クーラーで、国内で正規に流通しており保証・サポートも受けやすい。新興ブランドの流通不安を避けて同クラスの性能を今日から選べる。
+  url: https://item.rakuten.co.jp/freiheit-cars/ft-deep-2/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: "XERON Launches NEX L360 ARGB AIO Liquid CPU Coolers at Gamescom 2026"
-    url: https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026
-    publisher: TechPowerUp
-  - title: "XERON Showcases Complete PC Hardware Ecosystem at Gamescom 2026, Expands into the European Market"
-    url: https://www.funkykit.com/news/xeron-showcases-complete-pc-hardware-ecosystem-at-gamescom-2026-expands-into-the-european-market
-    publisher: FunkyKit
-  - title: "XERON NEX L360 AIO CPU Liquid Cooler product page"
-    url: https://www.xeron-tech.com/aio-cpu-cooler/284.html
-    publisher: XERON公式サイト
+- title: XERON Launches NEX L360 ARGB AIO Liquid CPU Coolers at Gamescom 2026
+  url: https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026
+  publisher: TechPowerUp
+- title: XERON Showcases Complete PC Hardware Ecosystem at Gamescom 2026, Expands into the European Market
+  url: https://www.funkykit.com/news/xeron-showcases-complete-pc-hardware-ecosystem-at-gamescom-2026-expands-into-the-european-market
+  publisher: FunkyKit
+- title: XERON NEX L360 AIO CPU Liquid Cooler product page
+  url: https://www.xeron-tech.com/aio-cpu-cooler/284.html
+  publisher: XERON公式サイト
 images:
-  - url: "https://www.xeron-tech.com/static/upload/image/20260818/1787024259665954.jpg"
-    caption: 360mmラジエーターとポンプヘッドのセット全景。ファン3基とチューブでつながる
-  - url: "https://www.xeron-tech.com/static/upload/image/20260818/1787024987245214.png"
-    caption: ポンプヘッド部のクローズアップ。ARGB照明とロゴプレートが確認できる
-  - url: "https://www.xeron-tech.com/static/upload/image/20260818/1787033771332657.png"
-    caption: "「マグネティック回転ロゴ」機能の説明図。ロゴプレートを90度回転させ、ケースの縦置き・横置きに合わせられる"
+- url: https://www.xeron-tech.com/static/upload/image/20260818/1787024259665954.jpg
+  caption: 360mmラジエーターとポンプヘッドのセット全景。ファン3基とチューブでつながる
+- url: https://www.xeron-tech.com/static/upload/image/20260818/1787024987245214.png
+  caption: ポンプヘッド部のクローズアップ。ARGB照明とロゴプレートが確認できる
+- url: https://www.xeron-tech.com/static/upload/image/20260818/1787033771332657.png
+  caption: 「マグネティック回転ロゴ」機能の説明図。ロゴプレートを90度回転させ、ケースの縦置き・横置きに合わせられる
 credit: XERON公式サイト
 ---
 

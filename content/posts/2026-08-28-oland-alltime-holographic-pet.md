@@ -1,7 +1,7 @@
 ---
-title: "香港発のホログラムAIペット「oLand」、Kickstarterは達成後にキャンセルされウェイトリスト待ちに"
-seo_title: "oLand、ホログラムAIペットは今買えない"
-x_hook: "目標の8倍が集まったのに、運営が自分でキャンセルした。今は1万5000人がウェイトリストで待っている。"
+title: 香港発のホログラムAIペット「oLand」、Kickstarterは達成後にキャンセルされウェイトリスト待ちに
+seo_title: oLand、ホログラムAIペットは今買えない
+x_hook: 目標の8倍が集まったのに、運営が自分でキャンセルした。今は1万5000人がウェイトリストで待っている。
 slug: oland-alltime-holographic-pet
 keyword: oLand
 category: weird
@@ -10,38 +10,43 @@ origin: HKG 香港
 status: DELAYED
 status_note: Kickstarterはキャンセル、ウェイトリスト受付中
 kicker: 香港拠点のAlltimeが手がける「oLand」は、下段の実物テラリウムと上段のホログラムAIペット「Moli」を組み合わせたデスク用コンパニオン。Kickstarterは目標を大きく超えて集めたものの運営側の判断でキャンセルされ、現在はウェイトリスト登録のみ受け付けている。
-tags: [oLand, Alltime, ホログラム, AIペット, Kickstarter]
+tags:
+- oLand
+- Alltime
+- ホログラム
+- AIペット
+- Kickstarter
 faq:
-  - q: 今すぐ買えますか
-    a: 買えません。Kicktraqの記録によるとKickstarterキャンペーンは運営側によりキャンセルされており、現在は公式サイトでウェイトリスト登録のみ受け付けています。
-  - q: いくらですか
-    a: 価格は確認できていません。公式サイト・Kickstarterのいずれにも価格情報は掲載されていません。
-  - q: Kickstarterは達成したのですか
-    a: クラウドファンディング追跡サイトKicktraqによると、目標5,000香港ドルに対し41,869香港ドル（支援者17人）を集め達成率は837%でしたが、運営側によりキャンセルされました。目標額自体が非常に小さく設定されていた点には留意が必要です。
-  - q: 日本で買えますか
-    a: 掲載時点で日本語対応や国内販売に関する発表は確認できていません。
+- q: 今すぐ買えますか
+  a: 買えません。Kicktraqの記録によるとKickstarterキャンペーンは運営側によりキャンセルされており、現在は公式サイトでウェイトリスト登録のみ受け付けています。
+- q: いくらですか
+  a: 価格は確認できていません。公式サイト・Kickstarterのいずれにも価格情報は掲載されていません。
+- q: Kickstarterは達成したのですか
+  a: クラウドファンディング追跡サイトKicktraqによると、目標5,000香港ドルに対し41,869香港ドル（支援者17人）を集め達成率は837%でしたが、運営側によりキャンセルされました。目標額自体が非常に小さく設定されていた点には留意が必要です。
+- q: 日本で買えますか
+  a: 掲載時点で日本語対応や国内販売に関する発表は確認できていません。
 alternatives:
-  - name: ユカイ工学 Qoobo（クーボ）
-    why: しっぽの動きで反応するセラピー用クッション型ロボットとして日本国内で正規販売されている。ホログラム表示は無いが、触れると反応する「デスクの相棒」という体験は今日から試せる。
-    url: https://www.amazon.co.jp/dp/B07YFCS357
-    merchant: amazon
+- name: クーボ しっぽ クッション 癒し ロボット セラピーロボット 電子ペット 猫 ねこ 動物 癒しグッズ 介護 介護ロボット しっぽクッション 枕 抱き枕 動く アニマル しっぽ 尻尾 充電式 かわいい 誕生日 プレゼント ギフト ユカイ工学【ポイント10倍 送料無料】［ Qoobo ］
+  why: しっぽの動きで反応するセラピー用クッション型ロボットとして日本国内で正規販売されている。ホログラム表示は無いが、触れると反応する「デスクの相棒」という体験は今日から試せる。
+  url: https://item.rakuten.co.jp/roomy/yki20nov18h01/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: "ALLTIME Launches oLand, World's First AI Holographic Companion"
-    url: https://www.gizmochina.com/2026/08/27/alltime-oland-ai-holographic-companion-launch/
-    publisher: Gizmochina
-  - title: "oLand - World's First Holographic Stress Relief AI Pet"
-    url: https://alltimelab.com/
-    publisher: Alltime公式サイト
-  - title: "oLand | The Holographic AI Pet for Stress Relief by Alltime"
-    url: http://www.kicktraq.com/projects/alltimelab/oland-the-holographic-ai-pet-for-stress-relief/
-    publisher: Kicktraq
+- title: ALLTIME Launches oLand, World's First AI Holographic Companion
+  url: https://www.gizmochina.com/2026/08/27/alltime-oland-ai-holographic-companion-launch/
+  publisher: Gizmochina
+- title: oLand - World's First Holographic Stress Relief AI Pet
+  url: https://alltimelab.com/
+  publisher: Alltime公式サイト
+- title: oLand | The Holographic AI Pet for Stress Relief by Alltime
+  url: http://www.kicktraq.com/projects/alltimelab/oland-the-holographic-ai-pet-for-stress-relief/
+  publisher: Kicktraq
 images:
-  - url: "https://framerusercontent.com/assets/T7Faoxzsx1QtmAIheZSTucil74M.png"
-    caption: 本体のコンセプトビジュアル。半球型のケース内でAIペット「Moli」がホログラム表示される
-  - url: "https://framerusercontent.com/images/razq4SXudlUvjkrlPbPK06NOAI.png?width=2880&height=2160"
-    caption: 別アングルのビジュアル。下部に「oLand」のロゴが見える
-  - url: "https://framerusercontent.com/images/SK8vdp2QJaXRpkxrbIUGikzLys.png?width=620&height=347"
-    caption: 手のひらサイズのぬいぐるみ状コントローラーを本体上部に乗せている場面
+- url: https://framerusercontent.com/assets/T7Faoxzsx1QtmAIheZSTucil74M.png
+  caption: 本体のコンセプトビジュアル。半球型のケース内でAIペット「Moli」がホログラム表示される
+- url: https://framerusercontent.com/images/razq4SXudlUvjkrlPbPK06NOAI.png?width=2880&height=2160
+  caption: 別アングルのビジュアル。下部に「oLand」のロゴが見える
+- url: https://framerusercontent.com/images/SK8vdp2QJaXRpkxrbIUGikzLys.png?width=620&height=347
+  caption: 手のひらサイズのぬいぐるみ状コントローラーを本体上部に乗せている場面
 credit: Alltime公式サイト
 ---
 

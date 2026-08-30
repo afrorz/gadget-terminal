@@ -7,37 +7,42 @@ date: 2026-08-24
 pick: true
 pick_note: レトロデザインなのに機能がたくさん。デザインもかわいいし、机の上に置いておきたい。
 kicker: ブラウン管テレビを模した約300gの超ミニAndroid TV「CaloR C1」がMakuakeで応援購入を開始した。日本国内の正規代理店経由で今すぐ買えるが、プロジェクトページには技適に関する記載が見当たらない。
-tags: [CaloR C1, Makuake, Android TV, クラウドファンディング, ミニPC]
+tags:
+- CaloR C1
+- Makuake
+- Android TV
+- クラウドファンディング
+- ミニPC
 seo_title: CaloR C1がMakuake開始、35,980円から
 x_hook: レトロなブラウン管風ミニAndroid TVが国内代理店経由で買える。ただしプロジェクトページに技適の記載が見つからない。
 embeds:
-  - type: youtube
-    id: rK6B8uDa1aY
-    caption: Makuakeプロジェクトページに掲載されている公式紹介動画（Xavierjapan）
+- type: youtube
+  id: rK6B8uDa1aY
+  caption: Makuakeプロジェクトページに掲載されている公式紹介動画（Xavierjapan）
 faq:
-  - q: 日本で買えますか
-    a: Makuake経由で日本国内から応援購入できます。日本における独占販売権を持つ正規代理店XAVIER TECHNOLOGY CO., LIMITEDが実行者アカウント「Xavier Store」として運営しています。締切は2026年9月29日です（掲載時点）。
-  - q: 技適は取得していますか
-    a: 掲載時点でプロジェクトページ上に技適取得を示す記載は確認できません。ただし記載が無いことは未取得を意味しません。Bluetoothやワイヤレス投影機能を使う前に、実行者に取得状況を直接確認することを勧めます。
-  - q: いくらですか
-    a: 早期割引で35,980円から（超超早割、掲載時点）。一般販売予定価格は59,980円とされています。ミニキーボードは別売り3,000円です。
-  - q: いつ届きますか
-    a: 2026年12月末までの発送を予定していますが、クラウドファンディングのため変更される可能性があります。
+- q: 日本で買えますか
+  a: Makuake経由で日本国内から応援購入できます。日本における独占販売権を持つ正規代理店XAVIER TECHNOLOGY CO., LIMITEDが実行者アカウント「Xavier Store」として運営しています。締切は2026年9月29日です（掲載時点）。
+- q: 技適は取得していますか
+  a: 掲載時点でプロジェクトページ上に技適取得を示す記載は確認できません。ただし記載が無いことは未取得を意味しません。Bluetoothやワイヤレス投影機能を使う前に、実行者に取得状況を直接確認することを勧めます。
+- q: いくらですか
+  a: 早期割引で35,980円から（超超早割、掲載時点）。一般販売予定価格は59,980円とされています。ミニキーボードは別売り3,000円です。
+- q: いつ届きますか
+  a: 2026年12月末までの発送を予定していますが、クラウドファンディングのため変更される可能性があります。
 alternatives:
-  - name: Chromecast with Google TV (HD)
-    why: 技適取得済みで国内正規販売されており、今日から使えるAndroid TVデバイス。ブラウン管風の外見は無いが、Android TVとしての基本機能をすぐに確認したい場合の代替になる。
-    url: https://www.amazon.co.jp/dp/B0BCG8274Y
-    merchant: amazon
+- name: Google Chromecast クロームキャスト GA01919-JP with Google TV (HD) Snow ストリーミングデバイス
+  why: 技適取得済みで国内正規販売されており、今日から使えるAndroid TVデバイス。ブラウン管風の外見は無いが、Android TVとしての基本機能をすぐに確認したい場合の代替になる。
+  url: https://item.rakuten.co.jp/sea-story-kagoshima/sea-story-0810037290134/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: あの日のブラウン管を、手のひらで。超ミニAndroid TV「CaloR C1」
-    url: https://www.makuake.com/project/calorc1/
-    publisher: Makuake
-  - title: "あの日のブラウン管を、手のひらで。超ミニAndroid TV「CaloR C1」。8月20日（木）11時にMakuakeにて登場。"
-    url: https://prtimes.jp/main/html/rd/p/000000019.000184990.html
-    publisher: PR TIMES（株式会社RT）
-  - title: 手のひらサイズのレトロなテレビ Android搭載で使い方広がる「CaloR C1」
-    url: https://www.bcnretail.com/news/detail/20260821_654106.html
-    publisher: BCN+R
+- title: あの日のブラウン管を、手のひらで。超ミニAndroid TV「CaloR C1」
+  url: https://www.makuake.com/project/calorc1/
+  publisher: Makuake
+- title: あの日のブラウン管を、手のひらで。超ミニAndroid TV「CaloR C1」。8月20日（木）11時にMakuakeにて登場。
+  url: https://prtimes.jp/main/html/rd/p/000000019.000184990.html
+  publisher: PR TIMES（株式会社RT）
+- title: 手のひらサイズのレトロなテレビ Android搭載で使い方広がる「CaloR C1」
+  url: https://www.bcnretail.com/news/detail/20260821_654106.html
+  publisher: BCN+R
 ---
 
 深圳の新复古未来科技が開発し、日本ではXAVIER TECHNOLOGY CO., LIMITEDが独占販売権を持つ正規代理店として展開する超ミニAndroid TV「CaloR C1」が、2026年8月20日11時にMakuakeで応援購入の受付を始めた。ブラウン管テレビを模した約10×10×11cm・約300gの筐体に4インチのフルカラー画面を収め、ボタン一つでモノクロ表示に切り替えられる。Android 11を搭載し、HDMI入力、USB 2.0ポート×2、Bluetooth、ワイヤレス投影に対応する。バッテリーは内蔵せず、USB-C（9V/2A）から給電する。早期割引価格は35,980円から。締切は2026年9月29日（掲載時点）。

@@ -1,35 +1,39 @@
 ---
-title: "GPD Win Max 3はStrix Halo搭載、Indiegogoで9月2日開始・1,750ドルから"
+title: GPD Win Max 3はStrix Halo搭載、Indiegogoで9月2日開始・1,750ドルから
 slug: gpd-win-max-3-indiegogo
 keyword: Win Max 3
 category: pc
 date: 2026-08-21
 kicker: 中国GPDがゲーミングハンドヘルド「GPD Win Max 3」の発売価格と、クラウドファンディングサイトIndiegogoでのキャンペーン開始日を発表した。AMD Strix Halo「Ryzen AI Max+」搭載で、価格は最小構成1,750ドルから最上位3,499ドルまで。キャンペーン開始は2026年9月2日の予定。
-tags: [GPD, ゲーミングハンドヘルド, Indiegogo, AMD Strix Halo, クラウドファンディング]
-seo_title: "GPD Win Max 3が1750ドルから、9月2日開始"
+tags:
+- GPD
+- ゲーミングハンドヘルド
+- Indiegogo
+- AMD Strix Halo
+- クラウドファンディング
+seo_title: GPD Win Max 3が1750ドルから、9月2日開始
 faq:
-  - q: 日本で買えますか
-    a: 掲載時点でIndiegogoを通じた海外発送での購入が前提になります。国内正規代理店による取り扱いは確認できていません。
-  - q: 技適は取得していますか
-    a: 掲載時点で技適取得の情報は確認できていません。Wi-Fi・Bluetooth機能を国内で使うには技適の有無を個別に確認する必要があります。
-  - q: いくらですか
-    a: エントリー構成（Ryzen AI Max+ 388・32GB RAM・1TB SSD）が1,750ドル、64GB RAM・2TB SSD構成が2,246ドル、最上位構成（Ryzen AI Max+ 395・128GB RAM・2TB SSD）が3,499ドルです（掲載時点の価格）。
-  - q: いつ発売されますか
-    a: Indiegogoでのキャンペーン開始は2026年9月2日の予定です。バッカーへの実際の出荷時期は参照した記事では明言されていません。
+- q: 日本で買えますか
+  a: 掲載時点でIndiegogoを通じた海外発送での購入が前提になります。国内正規代理店による取り扱いは確認できていません。
+- q: 技適は取得していますか
+  a: 掲載時点で技適取得の情報は確認できていません。Wi-Fi・Bluetooth機能を国内で使うには技適の有無を個別に確認する必要があります。
+- q: いくらですか
+  a: エントリー構成（Ryzen AI Max+ 388・32GB RAM・1TB SSD）が1,750ドル、64GB RAM・2TB SSD構成が2,246ドル、最上位構成（Ryzen AI Max+ 395・128GB RAM・2TB SSD）が3,499ドルです（掲載時点の価格）。
+- q: いつ発売されますか
+  a: Indiegogoでのキャンペーン開始は2026年9月2日の予定です。バッカーへの実際の出荷時期は参照した記事では明言されていません。
 alternatives:
-  - name: ASUS ROG Ally X（Amazon.co.jp）
-    why: 技適取得済みの国内正規品で在庫があれば今日から購入できる。Strix Haloほどの性能ではないが、7インチ・120Hzのゲーミングハンドヘルドとしてすぐ試せる。
-    url: https://www.amazon.co.jp/ASUS-%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0PC-%E3%83%AA%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%BC%E3%83%88120Hz-Windows11-RC72LA-Z1E24G1T/dp/B0D7M6KHS6
-    merchant: amazon
+- name: ASUS ROG Ally X（Amazon.co.jp）
+  why: 技適取得済みの国内正規品で在庫があれば今日から購入できる。Strix Haloほどの性能ではないが、7インチ・120Hzのゲーミングハンドヘルドとしてすぐ試せる。
+  url: https://www.amazon.co.jp/ASUS-%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0PC-%E3%83%AA%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%BC%E3%83%88120Hz-Windows11-RC72LA-Z1E24G1T/dp/B0D7M6KHS6
 thumbnail: https://gpdstore.net/wp-content/uploads/2026/06/GPD-WIN-MAX-3-Front-View-1200x675.jpg
 thumbnail_credit: GPD公式ストア（gpdstore.net）製品ページ
 sources:
-  - title: "GPD Win Max 3 Handheld's $1,750 \"Is the Best Price Which We Can Provide\""
-    url: https://www.techpowerup.com/351768/gpd-win-max-3-handhelds-usd-1-750-is-the-best-price-which-we-can-provide
-    publisher: TechPowerUp
-  - title: "GPD WIN MAX 3 Details Revealed: Ryzen AI Max+ Power, 165Hz AMOLED and Modular Battery Design"
-    url: https://gpdstore.net/blog/gpd-win-max-3-details/
-    publisher: GPD Store（公式）
+- title: GPD Win Max 3 Handheld's $1,750 "Is the Best Price Which We Can Provide"
+  url: https://www.techpowerup.com/351768/gpd-win-max-3-handhelds-usd-1-750-is-the-best-price-which-we-can-provide
+  publisher: TechPowerUp
+- title: 'GPD WIN MAX 3 Details Revealed: Ryzen AI Max+ Power, 165Hz AMOLED and Modular Battery Design'
+  url: https://gpdstore.net/blog/gpd-win-max-3-details/
+  publisher: GPD Store（公式）
 ---
 
 中国GPDが、6月に試作機を公開していたゲーミングハンドヘルド「GPD Win Max 3」の発売価格と、クラウドファンディングサイトIndiegogoでのキャンペーン開始日を正式発表した。開始日は2026年9月2日。価格は3構成あり、エントリーモデル（Ryzen AI Max+ 388・32GB RAM・1TB SSD）が1,750ドル、中間モデル（同APU・64GB RAM・2TB SSD）が2,246ドル、最上位モデル（Ryzen AI Max+ 395・128GB RAM・2TB SSD）が3,499ドルとなる。

@@ -1,46 +1,52 @@
 ---
-title: "MNT Research「MNT Station」はCPU/FPGAモジュールを差し替えられるオープンハードウェアPC、Crowd Supplyで9月25日まで支援受付"
-seo_title: "MNT Station、モジュール式オープンPCが299ドル"
+title: MNT Research「MNT Station」はCPU/FPGAモジュールを差し替えられるオープンハードウェアPC、Crowd Supplyで9月25日まで支援受付
+seo_title: MNT Station、モジュール式オープンPCが299ドル
 slug: mnt-station-crowdsupply
 keyword: MNT Station
 category: pc
 date: 2026-08-29
 kicker: ベルリンのMNT Researchが、オープンソースの「MNT Reformマザーボード」を土台にしたモジュール式デスクトップ/サーバー筐体「MNT Station」をCrowd Supplyで公開した。Rockchip RK3588やNXP i.MX 8M Plus、AMD/Xilinx Kintex-7 FPGAなど10種類以上のCPU/FPGAモジュールから選んで組み込める。筐体は299ドルから、2026年9月25日まで支援を受け付けている。
-tags: [MNT Research, MNT Station, オープンハードウェア, Crowd Supply, ミニPC, 自作PC]
+tags:
+- MNT Research
+- MNT Station
+- オープンハードウェア
+- Crowd Supply
+- ミニPC
+- 自作PC
 x_hook: CPUボードを丸ごと差し替えられるPC。名目上の目標額はわずか1ドル、実質フレキシブル方式の調達。
 origin: BER ベルリン
 deadline: 2026-09-25
 faq:
-  - q: 日本で買えますか
-    a: Crowd Supply経由の海外発送が前提で、日本向けの正規代理店は確認できていません。Crowd Supplyはフルフィルメントパートナーの Mouser Electronics を通じて世界へ配送するとしています。
-  - q: 技適は必要ですか
-    a: 本体基板にはWi-Fi/Bluetooth用のmini PCIeカード(実機写真ではWLE200NXと確認できる型番のモジュール)が組み込まれており、このモジュール自体が日本の技適を取得しているかどうかが焦点になります。MNT Station自体が技適取得済みという記載は確認できていません。
-  - q: いくらですか
-    a: ケースが299ドルから、MNT Reform Mainboard 3.0が429ドル、RCORE RK3588モジュールが899ドル(2026年8月29日時点)。組み合わせにより総額は変動します。
-  - q: いつ届きますか
-    a: Crowd Supplyでの支援受付は2026年9月25日まで。発送予定は2027年1月下旬で、確定した納期ではありません。
+- q: 日本で買えますか
+  a: Crowd Supply経由の海外発送が前提で、日本向けの正規代理店は確認できていません。Crowd Supplyはフルフィルメントパートナーの Mouser Electronics を通じて世界へ配送するとしています。
+- q: 技適は必要ですか
+  a: 本体基板にはWi-Fi/Bluetooth用のmini PCIeカード(実機写真ではWLE200NXと確認できる型番のモジュール)が組み込まれており、このモジュール自体が日本の技適を取得しているかどうかが焦点になります。MNT Station自体が技適取得済みという記載は確認できていません。
+- q: いくらですか
+  a: ケースが299ドルから、MNT Reform Mainboard 3.0が429ドル、RCORE RK3588モジュールが899ドル(2026年8月29日時点)。組み合わせにより総額は変動します。
+- q: いつ届きますか
+  a: Crowd Supplyでの支援受付は2026年9月25日まで。発送予定は2027年1月下旬で、確定した納期ではありません。
 images:
-  - url: "https://www.crowdsupply.com/img/837c/54b53322-0d50-4afa-80cf-3256a29f837c_gallery-lg.jpg"
-    caption: 3色のケースを重ねたところ。背面にEthernet・USB-C等のポートが並ぶ
-  - url: "https://www.crowdsupply.com/img/18df/19cf8eed-f8ac-4ee6-a0eb-9d722efe18df_gallery-lg.jpg"
-    caption: 黒ケースの背面。Wi-Fi用アンテナ2本とUSB-C給電ケーブルを接続した状態
-  - url: "https://www.crowdsupply.com/img/2c9a/ef5d1edd-42fa-45eb-a3f0-90d890cc2c9a_gallery-lg.jpg"
-    caption: 内部基板。MNT Reformマザーボードに CPU/FPGA モジュールを1枚差し込んで使う
-  - url: "https://www.crowdsupply.com/img/646d/2baa76d1-cf86-43c4-b037-a0b43d59646d_gallery-lg.jpg"
-    caption: 空のケースシェル。上下2分割でモジュールへのアクセスが容易な構造
+- url: https://www.crowdsupply.com/img/837c/54b53322-0d50-4afa-80cf-3256a29f837c_gallery-lg.jpg
+  caption: 3色のケースを重ねたところ。背面にEthernet・USB-C等のポートが並ぶ
+- url: https://www.crowdsupply.com/img/18df/19cf8eed-f8ac-4ee6-a0eb-9d722efe18df_gallery-lg.jpg
+  caption: 黒ケースの背面。Wi-Fi用アンテナ2本とUSB-C給電ケーブルを接続した状態
+- url: https://www.crowdsupply.com/img/2c9a/ef5d1edd-42fa-45eb-a3f0-90d890cc2c9a_gallery-lg.jpg
+  caption: 内部基板。MNT Reformマザーボードに CPU/FPGA モジュールを1枚差し込んで使う
+- url: https://www.crowdsupply.com/img/646d/2baa76d1-cf86-43c4-b037-a0b43d59646d_gallery-lg.jpg
+  caption: 空のケースシェル。上下2分割でモジュールへのアクセスが容易な構造
 credit: MNT Research Crowd Supplyプロジェクトページ
 alternatives:
-  - name: GeeekPi N07 ミニタワー NVMe NASキット(Raspberry Pi 5用)
-    why: 同じくRaspberry Pi 5をベースにNAS/サーバー用途へ組めるキットで、Amazon.co.jpから今日届く。CPUモジュールを差し替えられる自由度はMNT Stationに劣るが、実用のホームサーバー構築ならすぐ試せる。
-    url: https://www.amazon.co.jp/GeeekPi-%E3%83%9F%E3%83%8B%E3%82%BF%E3%83%AF%E3%83%BC-Raspberry-%E7%94%A8%E3%80%81N07-%E3%83%9A%E3%83%AA%E3%83%95%E3%82%A7%E3%83%A9%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%89%E5%BA%95%E9%83%A8%E4%BB%98%E3%81%8D%E3%80%81M-2/dp/B0DDWLBPSY
-    merchant: amazon
+- name: 【送料無料】GeeekPi N07 ミニタワー NVMe NAS キット Raspberry Pi 5 用、N07 M.2 NVMe SSD Pip PCIe ペリフェラルボード底部付き、M.2 Key-M NVMe SSD 2230/2242/2260/2280 をサポート
+  why: 同じくRaspberry Pi 5をベースにNAS/サーバー用途へ組めるキットで、Amazon.co.jpから今日届く。CPUモジュールを差し替えられる自由度はMNT Stationに劣るが、実用のホームサーバー構築ならすぐ試せる。
+  url: https://item.rakuten.co.jp/slife/b0ddwlbpsy/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
+  merchant: rakuten
 sources:
-  - title: "MNT Station fanless, modular open-hardware computer supports a choice of 10+ Arm CPU or FPGA modules"
-    url: https://www.cnx-software.com/2026/08/24/mnt-station-fanless-modular-open-hardware-computer-supports-a-choice-of-10-arm-cpu-or-fpga-modules/
-    publisher: CNX Software
-  - title: "MNT Station"
-    url: https://www.crowdsupply.com/mnt-research/mnt-station
-    publisher: Crowd Supply
+- title: MNT Station fanless, modular open-hardware computer supports a choice of 10+ Arm CPU or FPGA modules
+  url: https://www.cnx-software.com/2026/08/24/mnt-station-fanless-modular-open-hardware-computer-supports-a-choice-of-10-arm-cpu-or-fpga-modules/
+  publisher: CNX Software
+- title: MNT Station
+  url: https://www.crowdsupply.com/mnt-research/mnt-station
+  publisher: Crowd Supply
 ---
 
 MNT ResearchはオープンソースのハックしやすいノートPC「MNT Reform」を長年手がけてきたベルリンのチームである。MNT Stationはそのマザーボード規格をそのままデスクトップ・サーバー用途に転用する筐体で、既存のMNT Reformマザーボードを流用したい人にも、FPGAベースのマシンを一から組みたい人にも対応する。200ピンのモジュールコネクタにCPU/FPGAボードを1枚差し込むだけで、用途に応じて中身を丸ごと入れ替えられるのが最大の特徴だ。

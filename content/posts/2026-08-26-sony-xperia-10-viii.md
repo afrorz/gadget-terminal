@@ -1,50 +1,54 @@
 ---
-title: "Sony「Xperia 10 VIII」発表、中身は前作据え置きで画面輝度50%向上・日本は9月中旬発売へ"
-seo_title: "Xperia 10 VIIIが発表、日本は9月中旬発売"
+title: Sony「Xperia 10 VIII」発表、中身は前作据え置きで画面輝度50%向上・日本は9月中旬発売へ
+seo_title: Xperia 10 VIIIが発表、日本は9月中旬発売
 slug: sony-xperia-10-viii
 keyword: Xperia 10 VIII
 category: smartphone
 date: 2026-08-26
 kicker: ソニーがミッドレンジスマートフォン「Xperia 10 VIII」を発表した。チップセットはXperia 10 VIIと同じSnapdragon 6 Gen 3のまま据え置きで、画面の最大輝度を約50%高め、電源ボタン2度押しで決済・ポイントアプリを呼び出す「Point & Payメニュー」を新搭載した。欧州価格はVAT込み599ユーロから。発売は2026年9月中旬以降を予定し、sony.jpにも既に製品ページが用意されている。
-tags: [Sony, Xperia, スマートフォン, Snapdragon, ミッドレンジ]
+tags:
+- Sony
+- Xperia
+- スマートフォン
+- Snapdragon
+- ミッドレンジ
 x_hook: 中身はほぼ前作のまま、画面の明るさだけ50%上がった。価格は599ユーロ、日本発売は9月中旬から。
 embeds:
-  - type: youtube
-    id: Pw9aY7DbzZM
-    caption: GSMArena公式チャンネルによるXperia 10 VIIIのハンズオン動画
+- type: youtube
+  id: Pw9aY7DbzZM
+  caption: GSMArena公式チャンネルによるXperia 10 VIIIのハンズオン動画
 faq:
-  - q: 日本で買えますか
-    a: sony.jpに製品ページ（型番xperia10m8）が既に用意されており、国内発売はほぼ確実とみられる。ただし本記事の掲載時点で、日本向けの正式な価格・発売日は発表されていない。
-  - q: 技適は取得していますか
-    a: 国内販売が正式発表される前段階のため、本記事の掲載時点では確認できていない。過去のXperia 10シリーズは国内投入時に技適取得済みの状態で販売されてきた。
-  - q: いくらですか
-    a: 欧州価格はVAT込みで599ユーロ、VAT抜きで約928ユーロ。英国は549ポンド（いずれも2026年8月25日の発表時点）。日本価格は未発表。
-  - q: 前モデルのXperia 10 VIIと何が違いますか
-    a: チップセット（Snapdragon 6 Gen 3）、RAM（8GB）、電池容量（5,000mAh）は同じ。画面の最大輝度が約50%向上し、スピーカーは低域の音圧が30%以上強化された。電源ボタン2度押しで決済・ポイントアプリを呼び出す「Point & Payメニュー」が新たに加わった。
+- q: 日本で買えますか
+  a: sony.jpに製品ページ（型番xperia10m8）が既に用意されており、国内発売はほぼ確実とみられる。ただし本記事の掲載時点で、日本向けの正式な価格・発売日は発表されていない。
+- q: 技適は取得していますか
+  a: 国内販売が正式発表される前段階のため、本記事の掲載時点では確認できていない。過去のXperia 10シリーズは国内投入時に技適取得済みの状態で販売されてきた。
+- q: いくらですか
+  a: 欧州価格はVAT込みで599ユーロ、VAT抜きで約928ユーロ。英国は549ポンド（いずれも2026年8月25日の発表時点）。日本価格は未発表。
+- q: 前モデルのXperia 10 VIIと何が違いますか
+  a: チップセット（Snapdragon 6 Gen 3）、RAM（8GB）、電池容量（5,000mAh）は同じ。画面の最大輝度が約50%向上し、スピーカーは低域の音圧が30%以上強化された。電源ボタン2度押しで決済・ポイントアプリを呼び出す「Point & Payメニュー」が新たに加わった。
 alternatives:
-  - name: Sony Xperia 10 VII（国内正規SIMフリー版）
-    why: Xperia 10 VIIIとチップセット・RAM・電池容量がほぼ共通の前モデル。国内正規品として技適取得済み・おサイフケータイ対応の状態で今すぐ購入できる。
-    url: https://www.amazon.co.jp/%E3%83%81%E3%83%A3%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-SIM%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%9B-XQ-FE44-B1JPCX0-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91/dp/B0FRSX29JX
-    merchant: amazon
+- name: Sony Xperia 10 VII（国内正規SIMフリー版）
+  why: Xperia 10 VIIIとチップセット・RAM・電池容量がほぼ共通の前モデル。国内正規品として技適取得済み・おサイフケータイ対応の状態で今すぐ購入できる。
+  url: https://www.amazon.co.jp/%E3%83%81%E3%83%A3%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-SIM%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%9B-XQ-FE44-B1JPCX0-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91/dp/B0FRSX29JX
 images:
-  - url: "https://www.sony.jp/xperia/products/xperia10m8/assets/overview/white_s.webp"
-    caption: フローズンホワイトの本体。背面デュアルカメラと前面ディスプレイ
-  - url: "https://www.sony.jp/xperia/products/xperia10m8/assets/overview/5points/5points_03_modal_s.webp"
-    caption: 背面カメラのクローズアップ。メインは50MP（1/1.56型）、超広角は13MP
+- url: https://www.sony.jp/xperia/products/xperia10m8/assets/overview/white_s.webp
+  caption: フローズンホワイトの本体。背面デュアルカメラと前面ディスプレイ
+- url: https://www.sony.jp/xperia/products/xperia10m8/assets/overview/5points/5points_03_modal_s.webp
+  caption: 背面カメラのクローズアップ。メインは50MP（1/1.56型）、超広角は13MP
 credit: ソニー Xperia 公式サイト
 sources:
-  - title: "Sony Xperia 10 VIII is official with microSD slot, few upgrades"
-    url: https://www.gsmarena.com/sony_xperia_10_viii_is_a_350_midranger_with_a_600_starting_price_-news-74308.php
-    publisher: GSMArena
-  - title: "Sony Xperia 10 VIII is official with the same chip as its predecessor"
-    url: https://www.gizmochina.com/2026/08/25/sony-xperia-10-viii-official-launch-specs-price/
-    publisher: Gizmochina
-  - title: "ソニー「Xperia 10 VIII」発表 屋外輝度50%向上、決済アプリを電源ボタン2度押しで呼び出し"
-    url: https://smhn.info/202608-sony-xperia-10-viii-launch-september-2026
-    publisher: すまほん!!
-  - title: "Xperia 10 VIII"
-    url: https://www.sony.jp/xperia/products/xperia10m8/
-    publisher: ソニー（公式）
+- title: Sony Xperia 10 VIII is official with microSD slot, few upgrades
+  url: https://www.gsmarena.com/sony_xperia_10_viii_is_a_350_midranger_with_a_600_starting_price_-news-74308.php
+  publisher: GSMArena
+- title: Sony Xperia 10 VIII is official with the same chip as its predecessor
+  url: https://www.gizmochina.com/2026/08/25/sony-xperia-10-viii-official-launch-specs-price/
+  publisher: Gizmochina
+- title: ソニー「Xperia 10 VIII」発表 屋外輝度50%向上、決済アプリを電源ボタン2度押しで呼び出し
+  url: https://smhn.info/202608-sony-xperia-10-viii-launch-september-2026
+  publisher: すまほん!!
+- title: Xperia 10 VIII
+  url: https://www.sony.jp/xperia/products/xperia10m8/
+  publisher: ソニー（公式）
 ---
 
 ソニーが2026年8月25日、ミッドレンジスマートフォン「Xperia 10 VIII」を発表した。前モデルのXperia 10 VIIからチップセット・メモリ・電池容量を据え置き、画面の最大輝度とスピーカー出力を強化するマイナーチェンジに近い内容だ。欧州価格はVAT込みで599ユーロから、発売は2026年9月中旬以降を予定している。ソニー公式サイト（sony.jp）には既に日本向け製品ページ（型番xperia10m8）が用意されており、国内投入はほぼ確実とみられるが、本記事の掲載時点で日本向けの価格・発売日の正式発表はない。

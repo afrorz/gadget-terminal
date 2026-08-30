@@ -30,6 +30,10 @@ site:
     # 景品表示法（ステマ規制）で必須の表示。リンクがある記事に自動で出る。
     disclosure: この記事にはアフィリエイト広告を含みます
 
+  # 楽天市場で商品を検索するためのID（scripts/find_rakuten_alt.py が使う）。
+  # 楽天ウェブサービスで無料発行できる。パスワードではないので公開のままでよい。
+  rakuten_app_id: "426d0238-4559-4562-84cd-0ebadd9809ff"
+
 categories:
   smartphone:
     label: スマホ・ウェアラブル

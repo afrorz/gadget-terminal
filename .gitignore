@@ -9,3 +9,6 @@ public/
 # 配布用zipなどの一時ファイル
 *.zip
 .claude/settings.json.bak-*
+
+# 楽天APIのアクセスキーなど、公開してはいけない値。config/site.yaml とは別に置く
+config/secrets.local.yaml
