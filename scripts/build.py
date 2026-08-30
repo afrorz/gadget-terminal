@@ -262,7 +262,7 @@ def header(site: dict) -> str:
     <a class="brand" href="{u("/")}">
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
-    <nav class="nav">{cats}<a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <nav class="nav">{cats}<a href="{u("makuake.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
     <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
   </div>
 </header>"""
@@ -282,7 +282,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        <a href="{u("feed.xml")}">RSS</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        <a href="{u("feed.xml")}">RSS</a><a href="{u("makuake.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -602,6 +602,57 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     <p class="eyebrow">{'DEPARTURES / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
     <h1 class="hero-title">{jp(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
     <p class="hero-sub">{jp(s['description']) if page <= 1 else ''}</p>
+  </section>
+  {body}
+</main>"""
+        + footer(site)
+    )
+
+
+# 国内クラファンかどうかは sources の URL で判定する。front matter に手で
+# 書かせるフィールドを増やすと書き忘れが起きる（現に origin は既存記事5本
+# すべてで空だった）。sources は記事作成時に必ず埋まるので、そこから
+# 機械的に判定するほうが確実。
+DOMESTIC_CF_HOSTS = ("makuake.com", "camp-fire.jp", "greenfunding.jp")
+
+
+def domestic_cf_source(p: dict) -> dict | None:
+    """記事の sources に国内クラファンの URL があれば、その1件を返す。"""
+    for src in (p.get("sources") or []):
+        url = str(src.get("url") or "")
+        if any(h in url for h in DOMESTIC_CF_HOSTS):
+            return src
+    return None
+
+
+def render_domestic_cf(site: dict, posts: list[dict]) -> str:
+    """国内クラファンのコーナー。専用ページにする（トップには置かない）。
+
+    この媒体の顔は「海外の、まだ日本語になっていない話」。トップの中央に
+    国内クラファンを並べると、その顔と衝突する。かといって埋もれさせても
+    意味が無いので、独立ページを作って about.html と同格でナビから飛べる
+    ようにする。
+    """
+    s = site["site"]
+    items = [p for p in posts if domestic_cf_source(p)]
+    if items:
+        rows = "".join(card(site, p) for p in items)
+        body = f'<section class="grid">{rows}</section>'
+    else:
+        body = '<p class="empty">現在、国内クラウドファンディングの記事はまだありません。</p>'
+    return (
+        head(site, f"国内クラファン注目 — {s['title']}",
+             "Makuake・CAMPFIRE等、国内クラウドファンディングのガジェットをまとめて確認。",
+             "makuake.html")
+        + header(site)
+        + f"""
+<main class="wrap">
+  <section class="hero hero-sm">
+    <p class="eyebrow">JPN / DOMESTIC</p>
+    <h1 class="hero-title">国内クラファン注目</h1>
+    <p class="hero-sub">Makuake・CAMPFIRE など、国内クラウドファンディングで見つけたガジェットです。
+    海外発の記事と違い、すでに日本語で読める案件なので、当メディアでは
+    海外の類似品との比較や国内先行の背景など、独自の角度を添えて扱います。</p>
   </section>
   {body}
 </main>"""
@@ -1144,6 +1195,7 @@ img{max-width:100%}
 .nav-label{font-size:12px;color:var(--ink-2)}
 .nav-item:hover .nav-label{color:var(--ink)}
 .nav-about{--cat:var(--ink-3)}
+.nav-jp{--cat:#d9b45f}
 
 /* ── ヒーロー ───────────────────────────────── */
 .hero{padding:30px 0 20px}
@@ -1521,6 +1573,7 @@ def main() -> int:
     if total_pages > 1:
         print(f"■ ページ送り {total_pages}ページ ({per_page}件/ページ)")
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")
+    (PUBLIC / "makuake.html").write_text(render_domestic_cf(site, posts), encoding="utf-8")
     (PUBLIC / "privacy.html").write_text(render_privacy(site), encoding="utf-8")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")
