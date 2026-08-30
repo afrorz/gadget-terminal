@@ -1,5 +1,6 @@
 ---
 title: "Fairphone 6+が米国に初上陸、12GB RAMと着脱式バッテリーで649ドル"
+seo_title: Fairphone 6+は649ドル、日本での正式販売はなし
 slug: fairphone-6-plus-us-launch
 keyword: Fairphone 6+
 category: smartphone
@@ -10,6 +11,15 @@ embeds:
   - type: youtube
     id: bRI03bLeLIA
     caption: iFixitによるFairphone 6+の分解レビュー。ネジ止め中心の内部構造と交換可能パーツを確認できる（iFixit）
+faq:
+- q: 日本で買えますか
+  a: Fairphoneは現時点で日本での正式販売がありません。米国市場への公式参入が今回初めてであることからも分かる通り、販路はまだ欧米中心にとどまっています。
+- q: いくらですか
+  a: 米国が649ドル、欧州が649ユーロです。
+- q: 技適は取得していますか
+  a: 技適を取得しているという情報は元記事になく、現時点で確認できていません。個人輸入して国内で使う場合の対応バンドや技適上の扱いも、参照した記事だけでは判断できません。
+- q: 本当に自分で修理できるのですか
+  a: iFixitが分解して修理性スコアで満点の10/10を付けています。バッテリーだけでなく、画面・カメラ・USB-Cポート・スピーカーなど計12点のパーツをユーザー自身の手で交換できる設計です。7年間のソフトウェアアップデート（うちAndroidメジャーアップグレード6回）と5年保証も付きます。
 sources:
   - title: "Fairphone 6+ brings 12GB of RAM and a removable battery to the US"
     url: https://www.gizmochina.com/2026/08/18/fairphone-6-plus-launch-price-specs-12gb-ram-removable-battery/

@@ -1,5 +1,6 @@
 ---
 title: Minisforum Elite Mini M2 Air-304 — Wildcat Lake搭載0.47リットルのベアボーンが263ドルから
+seo_title: Minisforum M2 Air-304は263ドルから
 slug: minisforum-elite-m2-air-304
 keyword: M2 Air-304
 category: pc
@@ -10,6 +11,15 @@ embeds:
   - type: youtube
     id: 6MsSliuG9mk
     caption: Elite Mini M2 Air-304のスペックと特徴を紹介する動画（The Tech Legends Niks）
+faq:
+- q: いくらですか
+  a: ベアボーンズ版が263ドル（通常価格329ドル）、16GB RAMと500GB SSDを搭載した構成済みモデルが559ドルです。出荷はプリオーダー開始後、2026年9月初旬を予定しています。
+- q: 日本で買えますか
+  a: 記事には日本向けの販売地域や代理店についての言及がありません。Minisforumは直販サイトや大手ECで日本への発送実績があるブランドですが、今回のモデルが国内発送対象に入るかは掲載時点で未確認です。
+- q: 日本の100Vで使えますか
+  a: 対応電圧の記載が元記事になく、掲載時点では確認できていません。購入前にMinisforum側の仕様表で確認してください。
+- q: どんな用途に向いていますか
+  a: 0.47リットルの筐体にデュアル2.5GbEを積んだ点が特徴で、ルーターやNASと直結する簡易ゲートウェイ、あるいは自宅サーバのセカンドNICといった用途です。サイレントモードは約28.1dBとされ、常時稼働の設置環境でも扱いやすい数値です。
 sources:
   - title: Minisforum launches Elite M2 Air-304 Mini PC with Intel Core 3 304, dual 2.5GbE LAN & up to 64GB RAM
     url: https://www.gizmochina.com/2026/08/15/minisforum-elite-m2-air-304-mini-pc-launched-specs-price/

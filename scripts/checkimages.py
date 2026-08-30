@@ -59,6 +59,7 @@ def main(argv: list[str]) -> int:
         return 1
 
     bad_none, bad_dead, weak, bad_hook, ok_shots = [], [], [], [], 0
+    bad_seo = []
     for f in files:
         text = Path(f).read_text(encoding="utf-8")
         m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
@@ -71,6 +72,19 @@ def main(argv: list[str]) -> int:
         if not str(meta.get("x_hook") or "").strip():
             bad_hook.append(name)
             print(f"NG  {name}: x_hook がありません")
+        # seo_title と faq は検索から人が入ってくる唯一の入口。
+        # 2026-08 の最初の21本はこれが空のまま積み上がっていた。
+        # 指示に書くだけでは埋まらないと分かったので、ここで止める。
+        seo = str(meta.get("seo_title") or "").strip()
+        if not seo:
+            bad_seo.append(name)
+            print(f"NG  {name}: seo_title がありません")
+        elif len(seo) > 34:
+            bad_seo.append(name)
+            print(f"NG  {name}: seo_title が {len(seo)}字（上限34、狙いは32）")
+        if len(meta.get("faq") or []) < 2:
+            bad_seo.append(name)
+            print(f"NG  {name}: faq が2問未満です")
         urls = image_urls(meta)
         yt = [e for e in (meta.get("embeds") or [])
               if (e.get("type") or "").lower() == "youtube" and e.get("id")]
@@ -96,9 +110,12 @@ def main(argv: list[str]) -> int:
 
     print(f"\n記事 {len(files)}本 / 生きている画像 {ok_shots}枚 "
           f"/ 動画のみ {len(weak)}本 / 画像なし {len(bad_none)}本 "
-          f"/ 表示できない画像 {len(bad_dead)}枚 / x_hook なし {len(bad_hook)}本")
-    if bad_none or bad_dead or bad_hook:
+          f"/ 表示できない画像 {len(bad_dead)}枚 / x_hook なし {len(bad_hook)}本 "
+          f"/ SEO不備 {len(set(bad_seo))}本")
+    if bad_none or bad_dead or bad_hook or bad_seo:
         print("\n公開できません。7-2 に戻って画像を用意するか、その記事を削除してください。")
+        if bad_seo:
+            print("seo_title / faq は docs/PLAYBOOK.md「2.7 検索で見つけてもらうために」を見て埋めてください。")
         return 1
     print("すべての記事に表示できる製品画像があります。")
     return 0

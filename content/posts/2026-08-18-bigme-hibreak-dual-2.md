@@ -1,5 +1,6 @@
 ---
 title: "Bigme HiBreak Dual 2 が Kickstarter開始 — 6.13インチE Ink＋5インチLCDの両面スマホ、599ドルから"
+seo_title: Bigme HiBreak Dual 2は599ドル、技適は未確認
 slug: bigme-hibreak-dual-2
 keyword: HiBreak Dual 2
 category: smartphone
@@ -10,6 +11,15 @@ embeds:
   - type: youtube
     id: 9ku21poiSdM
     caption: Kickstarter開始を伝えるBigme公式チャンネルの紹介映像。両面ディスプレイの実機が確認できる（Bigme E Ink Tablet）
+faq:
+- q: いくらですか
+  a: Kickstarterの超早期支援価格は12GB+256GBの白黒モデルが599ドル、16GB+512GBのカラーモデルが729ドルです。通常想定価格はそれぞれ998ドル、1,230ドルとされ、発送予定は2026年10〜11月です。
+- q: 技適は取得していますか
+  a: 5G、Wi-Fi、Bluetoothを搭載するスマートフォンのため、国内で電波を発信するには技術基準適合証明の取得が前提になります。取得して日本向けに出るかどうかはKickstarterページからは確認できません。取得していない場合、個人輸入した端末を国内で通信に使うと電波法違反になります。
+- q: 支援すれば必ず届きますか
+  a: Kickstarterへの支援は購入ではありません。出荷遅延や仕様変更は珍しくなく、Bigmeのような実績あるメーカーでも例外ではありません。
+- q: 両面ディスプレイとはどういう構成ですか
+  a: 前面が6.13インチのE Ink（最大80fps、白黒時1648×824px・300ppi、カラー時824×412px・150ppi）、背面が5インチのLCD（1280×720px、約296ppi）です。E Ink面はアクティブスタイラスにも対応し、電子ペーパー端末としても使えます。
 sources:
   - title: "Bigme HiBreak Dual 2 smartphone with E Ink and LCD screens hits Kickstarter for $599 and up"
     url: https://liliputing.com/bigme-hibreak-dual-2-smartphone-with-e-ink-and-lcd-screens-hits-kickstarter-for-599-and-up/

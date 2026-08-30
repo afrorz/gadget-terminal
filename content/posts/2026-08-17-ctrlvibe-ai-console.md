@@ -1,5 +1,6 @@
 ---
 title: CtrlVibe AI Consoleは9キーのAI操作用キーパッド。Kickstarterで目標10,000ドルに対し33,018ドル、109ドルから
+seo_title: CtrlVibeのAIキーパッドは109ドル、技適は未確認
 slug: ctrlvibe-ai-console
 keyword: CtrlVibe
 category: pc
@@ -7,6 +8,15 @@ date: 2026-08-17
 kicker: AIコーディングツールの「実行」「停止」「モデル切り替え」を物理キーに割り当てる専用キーパッド。CtrlVibeがKickstarterで公開したAI Consoleは、品切れが続くOpenAIのCodex Microより安い代替を狙う。ただし出荷は2026年11月予定で、まだ製品ではない。
 tags: [Kickstarter, キーパッド, クラウドファンディング, AIコーディング, 自作キーボード]
 deadline: 2026-09-13
+faq:
+- q: いくらですか
+  a: スーパーアーリーバードが109ドル、カーボンマトリックス版が129ドル、通常のアーリーバードが139ドルです。出荷予定は2026年11月、キャンペーン終了は9月13日です。
+- q: 技適は取得していますか
+  a: Bluetoothと2.4GHzワイヤレスを搭載するため、無線を使う限り日本では技術基準適合証明が必要です。CtrlVibeが技適を取得する予定があるかどうかは、公表された情報の中に記載がなく確認できていません。
+- q: 有線接続だけで使えますか
+  a: USB Type-Cポートを備えているため、無線を切って有線でのみ使えるなら電波を出さない運用は理屈のうえでは成り立ちます。ただし無線機能を完全に無効化できる仕様かどうかは公開情報から判断できません。日本から支援するなら、この一点をプロジェクトオーナーに質問してから決めるべきです。
+- q: いま支援すべきですか
+  a: 制御ソフトウェアのCtrlVibe Configuratorは未公開でキャンペーン終了後に提供されるとされ、MCUも未公表です。同じことは市販のマクロパッドとキーボード用ファームウェアの組み合わせでもできます。急がないなら、ソフトウェアが公開されて実物のレビューが出るまで待つのが妥当だと考えます。
 sources:
   - title: CtrlVibe AI Console keypad - An OpenAI Codex Micro alternative for AI workflows (Crowdfunding)
     url: https://www.cnx-software.com/2026/08/05/ctrlvibe-ai-console-keypad-an-openai-codex-micro-alternative-for-ai-workflows/

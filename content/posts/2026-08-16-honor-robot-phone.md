@@ -1,5 +1,6 @@
 ---
 title: Honor Robot Phone 実機レビュー — 背面からジンバルが生えるスマホ、中国限定でCNY 9,999
+seo_title: Honor Robot Phoneは中国限定、日本発売は未定
 slug: honor-robot-phone
 keyword: Honor Robot Phone
 category: smartphone
@@ -11,6 +12,15 @@ embeds:
   - type: youtube
     id: PtSgyWzleoE
     caption: 実機のハンズオン映像。ジンバルが伸びて首を振る動きが確認できる（SuperSaf Speaks）
+faq:
+- q: 日本で買えますか
+  a: 販売は中国限定・数量限定で、日本で普通に買う手段はありません。掲載時点で日本での正規販売の予定、技適の取得状況、グローバル版の有無はいずれも確認できていません。
+- q: いくらですか
+  a: CNY 9,999（12GB/512GBモデル、約1,482ドル）です。個人輸入する場合はこれに関税と送料が乗り、メーカー保証も国内では受けられません。
+- q: カメラの実力はどうですか
+  a: GSMArenaのレビューは手ブレ補正を「スマホ史上最高」と評価し、歩行時どころか走行時の映像まで滑らかにするとしています。ジンバル部はDJI Osmo Pocket比で約65%小型です。
+- q: 買う価値はありますか
+  a: レビュアーの結論は「製品ではなくマーケティング用の技術ショーケースであり、続編を期待するものではない」というものでした。6.3インチで248gは重く、ジンバルを覆うガラスは簡単に動いてしまう、被写体追尾は人混みで見失うことがある、と指摘されています。
 sources:
   - title: "Honor Robot Phone hands-on review"
     url: https://www.gsmarena.com/honor_robot_phone_handson_review-news-74184.php

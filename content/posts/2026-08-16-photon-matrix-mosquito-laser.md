@@ -1,5 +1,6 @@
 ---
 title: 蚊をレーザーで撃ち落とす「Photon Matrix」が発売 — LiDAR＋mmWaveで6m、988ドルから
+seo_title: 蚊を撃つレーザーPhoton Matrixは988ドルから
 slug: photon-matrix-mosquito-laser
 keyword: 蚊を撃つレーザー
 category: weird
@@ -10,6 +11,15 @@ embeds:
   - type: youtube
     id: AL8u-QK7ZgI
     caption: 蚊を検知して撃つ動作の映像（Interesting Engineering Explains）
+faq:
+- q: いくらですか
+  a: 家庭用の赤外線レーザー版が988ドル、産業用の青色レーザー版が1,088ドルです。出荷は2026年8月中の予定で、メーカー直販サイトから購入できます。
+- q: 安全なのですか
+  a: メーカーは人・ペット・射線を横切る鳥に危害を加えないことを確認する認証を通過したと説明していますが、どの国のどの規格かは明示されていません。第三者による検証データも存在せず、実際の駆除率・誤検知の頻度・連続稼働時の挙動はいずれも未確認です。
+- q: 日本で使ううえでの注意点は何ですか
+  a: 日本ではレーザー製品にJIS C 6802（IEC 60825-1に対応）でクラス分けと表示が定められていますが、本機がどのクラスに該当するかは公表情報から確認できません。またミリ波レーダーを搭載するため、技適・電波法も論点になります。
+- q: どのくらいの範囲をカバーしますか
+  a: 半径6m・水平90度のスキャン面で、2mm〜20mm・移動速度が秒速1m以下の飛翔体を検知します。一般的な6〜8畳の居室ならカバーできますが、推奨設置高の情報は出ていません。
 sources:
   - title: "Futuristic mosquito-zapping laser now available to buy, video shows device in action"
     url: https://www.tomshardware.com/peripherals/futuristic-mosquito-zapping-laser-now-available-to-buy-video-shows-device-in-action-tiny-device-shoots-down-bugs-like-a-personal-air-defense-system-but-costs-usd1-000

@@ -1,11 +1,21 @@
 ---
 title: HDD 443,156台・166万ドライブ年の査読論文 — 故障率はHGSTがSeagateの41%、東芝が107%
+seo_title: HDD故障率の査読論文、HGSTはSeagateの41%
 slug: backblaze-hdd-study
 keyword: HDD故障率の実証
 category: pc
 date: 2026-08-16
 kicker: Backblazeが公開してきた稼働データを、エセックス大学の研究者が回帰分析にかけて査読論文にした。年齢・容量・温度を揃えたうえでのメーカー別故障率が初めて出た。
 tags: [HDD, Backblaze, 信頼性, NAS]
+faq:
+- q: どのメーカーのHDDが一番壊れにくいのですか
+  a: 論文ではHGSTが最も低く、Seagateを100としたとき約41%です。次いでWestern Digitalが約52%、Seagateが100%、Toshibaが約107%でした。ただしエンタープライズ向けドライブをデータセンターで24時間365日稼働させた結果です。
+- q: 家庭のNASや自作PCでも同じ順位になりますか
+  a: 保証はありません。温度・振動・電源品質・稼働時間のすべてが違います。また各社のNAS向けシリーズ（IronWolf、Red、N300など）は、本研究の対象と同じ製品ではありません。
+- q: 東芝製のHDDは避けたほうがいいですか
+  a: 約107%はSeagateとほぼ同等で、東芝だけが突出して悪いという読み方は誤りです。順位ではなく比率で見てください。
+- q: この研究は従来のBackblazeの集計と何が違うのですか
+  a: 回帰分析でドライブの年齢・容量・フォームファクタ・温度を統制し、実質的に同じ年齢のドライブ同士を比較している点です。メーカーごとの導入時期の偏りを取り除いています。
 sources:
   - title: "HDD failure rates by manufacturer revealed"
     url: https://www.blocksandfiles.com/disk/2026/08/07/hdd-failure-rates-by-manufacturer-revealed/5284845

@@ -1,11 +1,21 @@
 ---
 title: 米連邦地裁、Googleに「怖い警告」の削除を命令 — 他社アプリストアの導入を1週間以内に簡単にせよ
+seo_title: Googleに他社アプリストアの是正命令、日本への影響
 slug: google-third-party-store-ruling
 keyword: アプリストア判決
 category: smartphone
 date: 2026-08-16
 kicker: James Donato判事が、サードパーティ製アプリストアのインストール時にGoogleが挟んでいた警告と余分なステップを「反競争的な摩擦」と認定。8月14日付の命令で、1週間以内の是正を求めた。適用範囲は米国のみ。
 tags: [Google, Android, アプリストア, 規制]
+faq:
+- q: Googleは何を命じられたのですか
+  a: 他社アプリストアのインストール時に出る「怖い警告」の削除、Installボタンの前に挟まれるViewステップの廃止、検索時に中間バナーページを経由せず直接ストアのリストへ飛ばすこと、そして他社ストアの導入をPlay Storeから普通のアプリを入れるのと同じくらい簡単にすることです。
+- q: いつまでに実施されるのですか
+  a: 2026年8月14日付の命令で、1週間以内の実施が求められています。
+- q: 日本のAndroid端末も変わりますか
+  a: この命令の適用範囲は米国のみで、日本の端末の挙動がすぐ変わるわけではありません。ただし日本には2025年12月に全面施行されたスマホソフトウェア競争促進法があり、他社アプリストアの参入を妨げる行為の禁止を正面から扱っています。
+- q: 日本のユーザーが恩恵を感じるのはいつですか
+  a: 海外で強制された変更がグローバル版のAndroidに取り込まれたときと考えられます。Googleが米国だけ別実装を維持するコストを嫌えばそうなります。過去のEU規制でも同じ流れがありました。
 sources:
   - title: "Judge forces Google to remove friction from third-party app store installations"
     url: https://www.gsmarena.com/judge_forces_google_to_remove_friction_from_thirdparty_app_store_installations-news-74176.php

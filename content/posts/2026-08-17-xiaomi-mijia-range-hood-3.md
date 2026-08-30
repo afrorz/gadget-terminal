@@ -1,11 +1,21 @@
 ---
 title: Xiaomiの新型レンジフードは羽根を高速回転させて自分で油を落とす — 25立方メートル/分・1,499元で中国発売
+seo_title: Xiaomiの自動洗浄レンジフードは1,499元、中国のみ
 slug: xiaomi-mijia-range-hood-3
 keyword: レンジフード3
 category: weird
 date: 2026-08-17
 kicker: Mijia Smart Range Hood 3（欧州スタイル）が中国で発売。手を振って操作でき、洗剤も水も使わずファンの遠心力だけで油汚れを飛ばす。
 tags: [Xiaomi, Mijia, スマート家電, キッチン, 中国]
+faq:
+- q: 日本で買えますか
+  a: 中国国内向けの製品で、日本での販売予定は示されていません。設置規格・電源電圧・アプリのいずれも国内環境と噛み合わないため、輸入を検討する価値はほぼないというのが率直なところです。
+- q: いくらですか
+  a: 1,499元です。2026年8月14日発売で、Xiaomi Youpinでの予約販売から始まっています。
+- q: 日本の住宅に設置できますか
+  a: レンジフードは本体の幅・ダクト径・排気経路が住宅側の仕様と噛み合わないと付きません。日本の住宅のキッチン開口や排気経路は中国の欧州スタイル機を前提にしておらず、そのまま置き換えられる保証はありません。電源電圧も異なるため電気工事を伴う設置になり、賃貸ならそもそも交換の可否から管理側の確認が要ります。
+- q: どうやって自分で掃除するのですか
+  a: 乾式のセルフクリーニングです。水も洗剤も使わず、羽根を最大2,200rpmで高速回転させて遠心力で油分を振り飛ばします。給排水の配管が要らないぶん設置の自由度は高いですが、こびりついた古い油まで落ちるかは実測レビューを待つ必要があります。
 sources:
   - title: Xiaomi launches new European-style Smart Hood with self-cleaning impeller
     url: https://www.gizmochina.com/2026/08/14/xiaomi-launches-new-european-style-smart-hood-with-self-cleaning-impeller/

@@ -1,5 +1,6 @@
 ---
 title: "Xiaomiの磁気吸着Bluetoothスピーカーが中国でクラウドファンディング開始、132元・95gでスマホスタンドにもなる"
+seo_title: Xiaomiの磁気吸着スピーカーは132元、日本発送なし
 slug: xiaomi-magnetic-bluetooth-speaker
 keyword: 磁吸スピーカー
 category: weird
@@ -8,6 +9,15 @@ kicker: Xiaomiが小米有品（Xiaomi Youpin）で、磁石でスマートフ�
 tags: [Xiaomi, Bluetoothスピーカー, クラウドファンディング, 小米有品, 中華ガジェット]
 thumbnail: "https://img.youpin.mi-img.com/youpin_gms/095d254b_c200_465c_a42f_3e808b20867b.jpeg@base@tag=imgScale&F=webp&h=1080&w=1080"
 thumbnail_credit: 小米有品 公式製品ページ
+faq:
+- q: 日本で買えますか
+  a: 小米有品は中国国内向けサービスで、通常は国際発送に対応していません。日本から直接この案件に支援すること自体が基本的にできず、入手するには輸入代行業者を使うか、正式発売後に国内代理店が扱うのを待つ必要があります。
+- q: いくらですか
+  a: クラウドファンディング価格が132元、正式発売後の価格が199元です。
+- q: 技適は取得していますか
+  a: Bluetooth機器を国内で使うには技適の取得が前提になります。小米有品発の製品はまず中国国内仕様で設計・認証されることが多く、本製品が技適を取得しているかどうかは元記事からは確認できません。
+- q: iPhone以外でも使えますか
+  a: iPhone 12以降などMagSafe対応機種には直接吸着できます。Android機種の場合は同梱の磁気リングを背面に貼ることで同様に使えます。吸着すると自動的に電源が入り、外すと自動でスリープするため、Bluetoothの再接続操作が不要です。
 sources:
   - title: "Xiaomi launches tiny magnetic Bluetooth speaker that doubles as a phone stand"
     url: https://www.gizmochina.com/2026/08/19/xiaomi-launches-tiny-magnetic-bluetooth-speaker-that-doubles-as-a-phone-stand/

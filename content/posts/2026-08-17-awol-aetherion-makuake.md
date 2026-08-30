@@ -1,5 +1,6 @@
 ---
 title: AWOL Vision「Aetherion」がMakuakeに登場 — Kickstarterで18M USDを集め、海外ではすでに発売済みの4K RGBレーザー超短焦点
+seo_title: Aetherionが8月18日Makuake開始、技適は未確認
 slug: awol-aetherion-makuake
 keyword: Aetherion
 category: pc
@@ -11,6 +12,15 @@ embeds:
   - type: youtube
     id: xFOfg703xN8
     caption: Aetherion Maxの実機を投写状態で映しながら、映画とゲームの両面から評価するレビュー（Brian Tong）
+faq:
+- q: いつからいくらで支援できますか
+  a: Makuakeでの応援購入は8月18日11時開始、10月21日22時終了、目標金額100万円です。リターン価格は本稿執筆時点では未公開です。
+- q: 技適は取得していますか
+  a: Wi-Fi 7とBluetooth 5.4を搭載しますが、Makuakeページに技適の記載は見当たらず、取得済みかどうかは確認できていません。未取得の機器を国内で発信させれば電波法違反になります。据置型なのでPSEも対象になりますが、こちらもページ上に記載はありません。
+- q: 海外ではもう売っているのですか
+  a: はい。2026年3月末の時点でKickstarterに出ており、調達額は1,800万ドルを超え、すでに出荷と複数の実機レビューが済んでいます。日本のクラウドファンディング開始は、海外の量産・出荷が一巡した後に来ています。
+- q: 海外での価格はいくらですか
+  a: New Atlasのレビューによると、Aetherion Max単体が4,499ドル、Pro版とマットホワイトスクリーンの組み合わせが3,499ドルです。Kickstarterの早期支援価格はPro版2,099ドル、Max版2,299ドルでした。
 sources:
   - title: 高輝度と映像美の新境地。超短焦点4K RGBプロジェクター（Aetherion）
     url: https://www.makuake.com/project/awol-vision-aetherion/

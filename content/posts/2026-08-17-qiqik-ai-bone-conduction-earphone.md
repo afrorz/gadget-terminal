@@ -1,5 +1,6 @@
 ---
 title: 骨伝導×AIで通話・翻訳・要約をこなすイヤホン、QIQIKがMakuakeで8月19日開始
+seo_title: QIQIKの骨伝導AIイヤホンが8月19日Makuake開始
 slug: qiqik-ai-bone-conduction-earphone
 keyword: 骨伝導AIイヤホン
 category: weird
@@ -8,6 +9,15 @@ kicker: 顎の骨を伝わる振動で発話を拾う骨伝導イヤホンに、
 tags: [クラウドファンディング, Makuake, 骨伝導, イヤホン, AI, QIQIK]
 thumbnail: "https://static.makuake.com/upload/project/53159/main_53159.jpg?version=1786690638&width=690&height=388"
 thumbnail_credit: Makuake プロジェクトページ（QIQIK）
+faq:
+- q: いつから支援できますか
+  a: Makuakeで2026年8月19日10時から応援購入開始です。掲載時点ではCOMING SOON段階で、価格・目標金額・支援額・支援者数・配送予定時期はいずれも未公開です。
+- q: 技適は取得していますか
+  a: Bluetoothの規格・技適取得状況はページに記載がなく未確認です。正規代理店を名乗る以上、国内販売までに技適を取得する前提とみられますが、支援時点で明記がないなら問い合わせて確認すべき項目です。
+- q: どんな機能がありますか
+  a: 顎の骨を伝わる発話時の振動を拾う骨伝導方式の通話に加え、専用アプリと連携した翻訳・文字起こし・要約・マインドマップ生成です。耳を塞がないオープン型で片耳約5g、充電ケース併用で最大約24時間再生とされています。
+- q: 誰が作っているのですか
+  a: 実行者は2024年設立のQIQIK株式会社です。自社開発ではなく、中国・深圳のDikaijia Digital Technology（深圳蒂凱佳数碼科技）製品の日本における独占販売権を持つ正規代理店という立て付けで、過去のクラウドファンディング実績は確認できていません。
 sources:
   - title: 騒音の中でも声をクリアに。骨伝導×AIで、翻訳・録音・要約までこなすイヤホン
     url: https://www.makuake.com/project/aismartearphone/

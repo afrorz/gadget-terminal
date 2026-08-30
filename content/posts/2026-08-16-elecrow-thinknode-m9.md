@@ -1,5 +1,6 @@
 ---
 title: Elecrow ThinkNode M9 — 電波が届かない場所で文字を送る、75ドルのQWERTY端末
+seo_title: ThinkNode M9は75ドル、日本では技適が必要
 slug: elecrow-thinknode-m9
 keyword: ThinkNode M9
 category: weird
@@ -19,6 +20,15 @@ images:
   - url: "https://www.elecrow.com/media/wysiwyg/products/2026/LMM16509D/ThinkNode_M9_with_GPS_function_and_2300mah_battery.jpg"
     caption: 内部構造。LoRa用・Wi-Fi/BT用の2本のアンテナと2,300mAhバッテリーが分かる分解図
 credit: Elecrow 公式製品ページ
+faq:
+- q: 日本で使えますか
+  a: そのままでは使えません。日本で免許不要のLoRaは920MHz帯（ARIB STD-T108）で、技術基準適合証明（技適）を取得した無線機である必要があります。海外向けは868MHz（EU）や915MHz（US）向けで出荷されることが多く、技適のない機器で電波を出せば電波法違反となります。
+- q: 技適は取得していますか
+  a: 掲載時点で、日本向け920MHz帯モデルの有無、技適取得の有無、国内正規流通の有無のいずれも確認できていません。
+- q: いくらですか
+  a: 約75ドルで、Elecrowで販売中です。フルキーボードとGPSを積んだ完成品としては安い部類に入ります。
+- q: 1台だけ買えば使えますか
+  a: 使えません。端末どうしが直接つながる方式なので、最低2台、実用的にはグループで導入するタイプの製品です。
 sources:
   - title: "Elecrow ThinkNode M9 is a phone-like mesh communicator with a 2.4 inch screen, QWERTY keyboard, and LoRa"
     url: https://liliputing.com/elecrow-thinknode-m9-is-a-phone-like-mesh-communicator-with-a-2-4-inch-sccreen-qwerty-keyboard-and-lora/

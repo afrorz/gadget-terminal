@@ -62,10 +62,14 @@
 
 ```yaml
 title: Framework Laptop 12がIntel Core Series 3とThunderbolt 4に対応、DIY版549ドルから
-seo_title: Framework Laptop 12がCore Series 3に対応、549ドルから
+seo_title: Framework Laptop 12はDIY版549ドルから
 ```
 
-`build.py` は32字を超える `seo_title` をビルド時に警告する。
+`build.py` は**34字**を超える `seo_title` をビルド時に警告する。狙いは32字以内。
+
+> この例文は2026-08-30まで `Framework Laptop 12がCore Series 3に対応、549ドルから`（44字）
+> だった。**プレイブック自身が自分のルールを破っていて**、記事もそれを写していた。
+> 製品名が長いときは、詰め込まずに検索語をひとつだけ残して切ること。
 
 ### faq（2〜4問）
 

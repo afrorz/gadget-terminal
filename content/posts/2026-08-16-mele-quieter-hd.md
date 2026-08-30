@@ -1,5 +1,6 @@
 ---
 title: MeLE Quieter HD — ファンレスN150ミニPCに2.5インチベイが入った、450ドルから
+seo_title: MeLE Quieter HDは450ドル、2.5インチベイ搭載
 slug: mele-quieter-hd
 keyword: MeLE Quieter HD
 category: pc
@@ -13,6 +14,15 @@ images:
   - url: "https://cdn.shopify.com/s/files/1/0526/3917/0738/files/33-_A_-2-09.jpg"
     caption: M.2 NVMe SSDと2.5インチSATA HDD/SSDを両方内蔵できることを示す分解イメージ
 credit: MeLE 公式ストア(store.mele.cn)
+faq:
+- q: いくらですか
+  a: 8GB/128GBが450ドル、8GB/256GBが500ドル、16GB/512GBが650ドルです。MeLEの直販（store.mele.cn）で販売中とされています。
+- q: 日本で買えますか
+  a: 販売はMeLE直販が中心で、掲載時点で国内代理店経由の流通は確認できていません。日本への配送可否・送料・関税は要確認です。なお電源はUSB Type-Cの12V/2Aなので、電圧変換アダプタの心配はありません。
+- q: 技適は必要ですか
+  a: Wi-Fi 5とBluetooth 5.1を搭載するため、無線機能を使う場合は国内で技適の確認が必要です。有線LANだけで運用するなら論点になりません。
+- q: どんな用途に向いていますか
+  a: 常時稼働のファイルサーバやNAS代替、録画機・監視カメラのレコーダー、サイネージや店頭端末です。この機種の価値はCPUではなく、ファンレスのまま大容量HDDが1台に収まる点にあります。
 sources:
   - title: "MeLE Quieter HD fanless mini PC with Intel N150 has room for an SSD and HDD inside"
     url: https://liliputing.com/mele-quieter-hd-fanless-mini-pc-with-intel-n150-has-room-for-an-ssd-and-hdd-inside/

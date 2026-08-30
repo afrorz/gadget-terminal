@@ -1,5 +1,6 @@
 ---
 title: "水350mlで車を洗う「DIISEA C7」がKickstarter開始 — ホースも洗剤も使わない携帯型カーウォッシャー"
+seo_title: DIISEA C7は水350mlで洗車、早期349ドル
 slug: diisea-c7-car-washer
 keyword: DIISEA C7
 category: weird
@@ -10,6 +11,15 @@ embeds:
   - type: youtube
     id: gz-0fC0wIWk
     caption: 実機で洗車する様子を映したDIISEA公式チャンネルの紹介映像
+faq:
+- q: いくらですか
+  a: Kickstarterの早期支援価格が349ドル、正式な想定小売価格は599ドルとされています。発送予定は2026年11月です。
+- q: 技適やPSEは必要ですか
+  a: 本体は無線通信機能の記載がなくUSB-C充電のバッテリー駆動デバイスのため、技適の対象にはならないとみられます。ただし付属のUSB-C充電器を国内で使う場合はPSE（電気用品安全法）の対象になりえます。付属充電器がPSEマークを取得した国内向け仕様かどうかはKickstarterページから確認できていません。
+- q: 日本に発送されますか
+  a: 今回参照した記事からは確認できていません。北米・欧州向けを主眼にしたKickstarterプロジェクトでは日本が発送対象外になっているケースもあるため、支援前に確認が必要です。
+- q: 1回の充電でどのくらい使えますか
+  a: 2,600mAhの着脱式リチウムイオンバッテリーをUSB-Cで約1時間充電し、フル充電で最大1時間、6〜10回の洗車が可能とされています。1台あたりの洗車時間は約5分、ローラーの寿命は約150回で6〜8か月ごとの交換が推奨されています。
 sources:
   - title: "Portable car washer cleans anywhere, saves time"
     url: https://newatlas.com/automotive/diisea-c7-portable-car-washer/

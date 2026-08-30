@@ -1,11 +1,21 @@
 ---
 title: CDが勝手に割れる — ポリカーボネートを侵す2つの原因が浮上、発端は日本のコレクター
+seo_title: CDが勝手に割れる原因、洗浄液とウレタンケース
 slug: cd-cracking
 keyword: CDが割れる
 category: weird
 date: 2026-08-16
 kicker: 落としても踏んでもいないCDが、保管中にひび割れ、砕ける。洗浄液とウレタンフォーム製ケースという2つの経路が指摘されているが、いずれも管理された実験ではなく観察に基づく。
 tags: [光学ディスク, 保存, レトロゲーム]
+faq:
+- q: CDが割れる原因は何ですか
+  a: 2つ指摘されています。1つは希釈した洗浄液によるポリカーボネートの応力割れ、もう1つはウレタンフォーム製の収納ケースから出るアンモニア系化合物が密閉されたケース内に蓄積し、基板を脆くするというものです。いずれも管理された試験ではなく観察に基づく説明です。
+- q: DVDやBlu-rayでも起きますか
+  a: CDはポリカーボネートが1層しかないのに対し、DVDは2枚を貼り合わせた構造のため、同種のダメージに対して耐性が高いとされています。
+- q: いま何をすればいいですか
+  a: 密閉しないこと、洗浄液の使用をやめて乾いた柔らかい布で中心から外周へ拭くこと、そしてイメージ化してバックアップを取ることの3つです。
+- q: 原因は確定しているのですか
+  a: していません。観察に基づく説明であり、管理された試験は行われていません。ただしイメージ化してストレージに残す作業は、原因が何であっても無駄になりません。
 sources:
   - title: "CD collections face a strange epidemic — discs are mysteriously cracking and shattering"
     url: https://www.notebookcheck.net/CD-collections-face-a-strange-epidemic-discs-are-mysteriously-cracking-and-shattering.1369645.0.html

@@ -1,5 +1,6 @@
 ---
 title: Hisense A10は6.13インチE Inkスマホ — 背面に5インチのカラーLCDをマグネットで貼り付ける
+seo_title: Hisense A10は中国で約590ドル、日本発売は未定
 slug: hisense-a10-eink-phone
 keyword: Hisense A10
 category: smartphone
@@ -10,6 +11,15 @@ embeds:
   - type: youtube
     id: CSbVIOKqRfk
     caption: A10の着脱式カラー画面の仕組みと使いどころを解説する動画（NitinDecoded）
+faq:
+- q: 日本で買えますか
+  a: 現時点で中国向けの製品で、他国での展開は実施の有無も時期も明らかにされていません。日本の技術基準適合証明を取得したという情報もなく、個人輸入して国内でSIMを挿す使い方は選択肢に入らないと考えるべきです。
+- q: いくらですか
+  a: 中国での想定価格は約590ドルです。日本での価格や発売時期は示されていません。
+- q: おサイフケータイは使えますか
+  a: NFCは搭載されますが、日本のFeliCa系サービスに対応するかどうかは不明です。中国向け端末がFeliCaを積む例は多くないため、おサイフケータイ用途は期待しないほうがいいでしょう。
+- q: 着脱式のカラー画面はどうつながるのですか
+  a: 接続方式は非公表です。USBなのか無線なのかポゴピンなのか、Hisenseは説明していません。貼った瞬間から遅延なく使えるのか、接続操作を挟むのかも分かりません。
 sources:
   - title: Hisense A10 is an E Ink smartphone with a detachable LCD screen on the back
     url: https://liliputing.com/hisense-a10-is-an-e-ink-smartphone-with-a-detachable-lcd-screen-on-the-back/

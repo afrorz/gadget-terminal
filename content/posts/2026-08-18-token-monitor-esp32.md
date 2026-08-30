@@ -1,11 +1,21 @@
 ---
 title: "AIコーディング利用量を専用ディスプレイで表示する「Token Monitor」がKickstarter開始、99ユーロから"
+seo_title: Token Monitorは99ユーロ、日本は発送対象外
 slug: token-monitor-esp32
 keyword: Token Monitor
 category: pc
 date: 2026-08-18
 kicker: Claude Code・Codex CLI・Antigravity CLIのトークン消費量を、常設の4インチタッチディスプレイでリアルタイムに表示するESP32-S3デバイスがKickstarterで支援受付中。
 tags: [ESP32, Kickstarter, Claude Code, 自作ガジェット, オープンソース]
+faq:
+- q: いくらですか
+  a: Super Early Birdが99ユーロ（約115ドル）、Early Birdが120ユーロです。目標金額は25,000ユーロで、初回出荷は2026年11月予定とされています。
+- q: 日本から支援できますか
+  a: 発送先は現時点で米国・カナダ・EU・英国に対応し、日本は含まれていません。支援自体ができない、もしくは別送手配が必要になる可能性があり、プロジェクトページの更新を待つ必要があります。
+- q: 技適は取得していますか
+  a: Wi-Fi 4とBluetooth LE 5を積んだESP32-S3ベースの機器のため、国内で無線機能を使うには技適の取得が前提になります。本製品がどのモジュール・ファームウェア構成で技適を取得しているかは、CNX Softwareの記事からは確認できません。
+- q: どういう仕組みで使用量を取得するのですか
+  a: ユーザーのPCまたはネットワーク内の常時稼働マシン（Raspberry Piやヘッドレスの Linux VPSなど）でローカルのブローカーソフト tokenmonitor-mcp（Apache 2.0ライセンスのオープンソース）を動かし、そこから使用状況データを本体に送る方式です。認証情報はユーザーのマシン内にとどまる設計になっています。
 sources:
   - title: "Token Monitor - An ESP32-S3 desktop display that tracks AI coding assistant usage (Crowdfunding)"
     url: https://www.cnx-software.com/2026/08/07/token-monitor-an-esp32-s3-desktop-display-that-tracks-ai-coding-assistant-usage/

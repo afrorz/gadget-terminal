@@ -1,5 +1,6 @@
 ---
 title: 米国の低価格スマホが前年比64%減 — メモリ高騰が「安いスマホ」から先に消している
+seo_title: 低価格スマホが米国で64%減、メモリ高騰が原因
 slug: budget-phones-memory-crunch
 keyword: 安いスマホが消える
 category: smartphone
@@ -7,6 +8,15 @@ date: 2026-08-16
 priority: 10
 kicker: Counterpoint Research の2026年Q2データで、米国のバジェット帯スマホ販売が前年同期比64%減。市場全体の落ち込み5%と比べて、下の価格帯だけが異常な減り方をしている。
 tags: [市場動向, メモリ, Samsung, Motorola]
+faq:
+- q: なぜ安いスマホから先に減っているのですか
+  a: RAMの値上がり分は端末価格に対して定額に近い形で乗るためです。1,200ドルの端末なら吸収できる幅でも、250ドルの端末では利益が消えます。安いスマホを作る意味がなくなりつつあるという状況です。
+- q: 日本でも同じことが起きますか
+  a: メモリ価格は世界共通の調達コストなので、日本向けモデルにも同じ圧力がかかります。ただし日本にはキャリアの端末値引き規制と中古端末流通という緩衝材があり、棚から新品が消えるというより、同価格帯の新品が痩せる形になりやすいと見ています。
+- q: 2〜3万円台のスマホは待てば安くなりますか
+  a: 待つメリットは薄いと考えます。掲載時点で、待てば良くなる方向の材料が見当たりません。Counterpointは価格上昇が2026年Q3も続くと見ています。
+- q: この数字は日本の販売動向ですか
+  a: いいえ。すべてCounterpoint Researchによる米国市場のデータで、日本国内の販売動向を示すものではありません。
 sources:
   - title: "Budget smartphones slowly disappear in the US as memory crisis deepens"
     url: https://www.notebookcheck.net/Budget-smartphones-slowly-disappear-in-the-US-as-memory-crisis-deepens.1369648.0.html
