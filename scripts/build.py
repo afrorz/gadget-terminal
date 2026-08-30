@@ -581,13 +581,13 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   </div>
   {rows}
 </section>
-{picks_section(site, all_posts or posts)}
 <section class="lead">
   {card(site, lead, featured=True)}
 </section>
 <section class="grid">
   {''.join(card(site, p) for p in rest)}
 </section>
+{picks_section(site, all_posts or posts)}
 {pager(page, total_pages)}"""
     else:
         # 2ページ目以降はカードだけを並べる。
