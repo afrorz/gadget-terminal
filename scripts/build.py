@@ -581,7 +581,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   </div>
   {rows}
 </section>
-{picks_section(site, posts)}
+{picks_section(site, all_posts or posts)}
 <section class="lead">
   {card(site, lead, featured=True)}
 </section>
