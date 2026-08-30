@@ -148,6 +148,11 @@ def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
         return url, False
     tmpl = str(aff.get(f"moshimo_{merchant}") or "").strip()
     if not tmpl or "{url}" not in tmpl:
+        # ここを黙って素通ししていたせいで、merchant: amazon の記事が20本たまるまで
+        # 誰も収益ゼロに気づけなかった（2026-08-16〜28）。未提携のストアを指定して
+        # いるのは書き手の誤りなので、ビルドのたびに必ず見えるようにする。
+        print(f"! merchant={merchant} は moshimo_{merchant} が未設定。"
+              f"素のリンクになり報酬は発生しない: {url}")
         return url, False
     return tmpl.replace("{url}", quote(url, safe="")), True
 

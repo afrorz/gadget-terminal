@@ -283,21 +283,27 @@ jobs:
                  - 同じ用途を満たし、日本で今すぐ買える製品を1〜2件挙げる
                  - why に「なぜ代替になるか」を1行で書く。技適取得済み・国内保証など
                  - url は Amazon.co.jp か楽天市場の商品ページ。**実在を WebFetch で確認する**
-                 - **現在アフィリエイト提携できているのは楽天市場だけである。**
-                   2件書くときは、うち1件を楽天市場の商品ページにすること。
-                   ただし楽天側に転売価格や怪しい並行輸入しか無い場合は入れない。
-                   提携のために読者へ不利な店を勧めるのは本末転倒である。
-                 - merchant は amazon / rakuten / yahoo のいずれか。
-                   **URL のドメインと一致していること。** amazon なら amazon.co.jp、
-                   rakuten なら rakuten.co.jp。メーカー直販など対応ストア以外を
-                   紹介する場合は merchant を書かない（素のリンクとして出力される）
+                 - 【最重要】**提携できているのは楽天市場だけである。Amazon は審査に落ちた。**
+                   したがって **merchant に書いてよい値は rakuten だけ。**
+                   amazon / yahoo と書いても報酬は発生せず、ただの素のリンクになる。
+                   （この行が「2件書くときは、うち1件を楽天に」という条件つきだったため、
+                     常に1件しか書かない運用では一度も発火せず、20記事すべてが
+                     merchant: amazon になって12日間ゼロ円だった。条件を付けないこと。）
+                 - **代替品を書くなら、1件目は必ず楽天市場の商品ページにする。**
+                   URL は rakuten.co.jp のドメインであること（item.rakuten.co.jp/店舗/商品コード/）。
+                 - 2件目を書く場合、楽天以外（メーカー直販など）でもよい。
+                   **その場合 merchant は書かない。** 素のリンクとして出力される。
+                 - **楽天に妥当な商品が無ければ、merchant を書かずに素のリンクにする。**
+                   転売価格・怪しい並行輸入・中古しか無い場合がこれにあたる。
+                   報酬のために読者へ不利な店を勧めるのは本末転倒である。
+                   収益リンク0本の記事があってよい。捏造や粗悪な誘導よりずっとよい。
                  - 適切な代替品が無ければ書かない。無理に埋めない
                書式:
                  alternatives:
                    - name: 製品名
                      why: 技適取得済みで国内在庫あり。同じ用途を今日から使える。
-                     url: https://www.amazon.co.jp/dp/XXXXXXXXXX
-                     merchant: amazon
+                     url: https://item.rakuten.co.jp/shopname/itemcode/
+                     merchant: rakuten
 
                【SEO】faq を2〜4問付ける。FAQPage 構造化データとして出力され、
                検索結果に Q&A が展開されることがある。ガジェットは以下が定番クエリ:
@@ -323,6 +329,11 @@ jobs:
                b. pip install -r requirements.txt --break-system-packages -q && python3 scripts/build.py
                   → 「記事 N本」の N が、書いた本数だけ増えていることを確認
                c. **全記事に製品画像があることを確認する。ここは絶対に飛ばさない。**
+                  python3 scripts/checklinks.py content/posts/<TODAY>-*.md
+                  → merchant が未提携（amazon / yahoo）の記事があれば失敗する。
+                    失敗したら楽天の商品ページに差し替えるか、merchant を消す。
+                    **「収益リンク0本」の△だけなら合格。** 楽天に妥当な商品が
+                    無いのに無理に埋めるほうが有害なので、そこは止めない。
                   python3 scripts/checkimages.py content/posts/<TODAY>-*.md
                   → 画像が無い記事、URLが死んでいる画像があれば失敗する。
                     失敗したら 7-2 に戻る。画像を用意できない記事は削除して本数を減らす。

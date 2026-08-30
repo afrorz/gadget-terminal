@@ -363,7 +363,15 @@ crowdfunding:
       category: weird
       tier: 2
       enabled: false
-      note: "未検証。動作を確認できたら enabled を true にする。"
+      note: >-
+        2026-08-30 検証: サイトマップ自体は取得できる（動作する）。
+        ただし CAMPFIRE は建設業・地域振興・アート等も含む総合クラファンで、
+        ガジェット専用のカテゴリページ/サイトマップが見当たらない。
+        max_pages_per_run（新着順40件）の枠で試したところガジェット系は
+        0件で、建設会社の案件などが上位を占めた。scan_sitemaps や
+        max_pages を大きく増やせば拾える可能性はあるが、
+        Makuake（ガジェット比率が高い）に比べてリクエスト対効果が悪い。
+        有効化するなら max_pages_per_run を上げてから試すこと。
 
     - id: greenfunding
       name: GREEN FUNDING
@@ -375,7 +383,11 @@ crowdfunding:
       category: weird
       tier: 2
       enabled: false
-      note: "未検証。"
+      note: >-
+        2026-08-30 検証: sitemap.xml が 500 を返す（Server: AmazonS3,
+        Last-Modified: 2025-03-27 のまま止まっている）。URLの推測ミスではなく
+        先方のサイトマップが壊れている。robots.txt にも代替の場所の記載なし。
+        こちらで直す手段が無いので、先方が直すまで enabled: false のままにする。
 
 # ── 注目度スコアリング ────────────────────────────────
 # 記事タイトル/要約に含まれるキーワードで加点し、上位を下書き候補に回す
