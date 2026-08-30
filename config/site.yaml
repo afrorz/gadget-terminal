@@ -6,7 +6,10 @@ site:
   base_url: https://gadgetterminal.com
   lang: ja
   locale: ja_JP
-  author: Star Platinum LLC
+  # 法人名は日本語表記を正とする。PR TIMES など日本の審査では、
+  # 申請者の法人名とサイト上の運営者表記が一致しているかを見られる。
+  # 英語表記だけだと照合できない。
+  author: 合同会社スタープラチナ
   contact_email: info@gadgetterminal.com
   press_email: press@gadgetterminal.com
   copyright_from: 2026
