@@ -25,8 +25,15 @@ site:
   # 広告表示も出さない。提携が通ってからテンプレートを貼って true にする。
   affiliate:
     enabled: true
+    # Amazonアソシエイトは申請中（2026-08-31 もしも経由で再申請、2回目）。
+    # プライバシーポリシーへの開示文は moshimo_amazon が空でもここが true なら出す。
+    # 審査担当は「承認後にプライバシーポリシーを直す」を待ってくれない。
+    # 申請時点で規約どおりの開示ができていることそのものが審査対象になる。
+    amazon_applicant: true
     # もしもの管理画面で発行されるリンクをそのまま貼り、商品URLの部分を {url} に置き換える。
     # 例: https://af.moshimo.com/af/c/click?a_id=0000000&p_id=00&pc_id=00&pl_id=0000&url={url}
+    # 承認されたらここを埋める。埋まった瞬間、プライバシーポリシーの文言は
+    # 「参加を予定」から正式な規約文言「適格販売により収入を得ています」に自動で切り替わる。
     moshimo_amazon: ""
     moshimo_rakuten: "https://af.moshimo.com/af/c/click?a_id=5765003&p_id=54&pc_id=54&pl_id=616&url={url}"
     moshimo_yahoo: ""
