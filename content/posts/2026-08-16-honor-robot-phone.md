@@ -8,10 +8,17 @@ date: 2026-08-16
 priority: 20
 kicker: 本体からロボットアーム状のジンバルが伸び、単体で首を振って被写体を追う。GSMArenaの実機レビューは手ブレ補正を「スマホ史上最高」と評価しつつ、商品ではなく技術ショーケースだと結論づけている。
 tags: [Honor, ジンバル, カメラ, 中国]
+x_hook: 背面から生えたジンバルが、持ち主とは無関係に首を振って被写体を追いかける。価格は約1,482ドル、販売は中国限定。
 embeds:
   - type: youtube
     id: PtSgyWzleoE
     caption: 実機のハンズオン映像。ジンバルが伸びて首を振る動きが確認できる（SuperSaf Speaks）
+images:
+- url: "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-robot-phone/honor-robot-phone-silver-back.png"
+  caption: 背面。ロボットアーム状のジンバルカメラモジュールと「AIMAGE」ロゴが確認できる
+- url: "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-robot-phone/honor-robot-phone-silver-front.png"
+  caption: 正面。6.3インチのディスプレイとパンチホールカメラ
+credit: HONOR Global 公式ニュースルーム
 faq:
 - q: 日本で買えますか
   a: 販売は中国限定・数量限定で、日本で普通に買う手段はありません。掲載時点で日本での正規販売の予定、技適の取得状況、グローバル版の有無はいずれも確認できていません。
@@ -25,6 +32,9 @@ sources:
   - title: "Honor Robot Phone hands-on review"
     url: https://www.gsmarena.com/honor_robot_phone_handson_review-news-74184.php
     publisher: GSMArena
+  - title: "HONOR Launches Revolutionary Robot Phone, Ushering a New Era of Cinematic Mobile Filmmaking and Embodied AI"
+    url: https://www.honor.com/global/news/honor-robot-phone-launch/
+    publisher: HONOR Global
 ---
 
 Honor が2026年8月15日に発表した **Robot Phone** は、スマートフォンの背面から**ロボットアームのようなジンバルが伸びる**端末だ。ジンバルは本体とは独立して首を振り、180度の自動パンや被写体追尾をこなす。YoYo アシスタントと連動して「踊り、喋り、画面に表情を出す」動作もする。
