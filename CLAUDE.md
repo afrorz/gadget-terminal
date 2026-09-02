@@ -11,6 +11,10 @@
 **海外で報じられて、まだ日本語記事が無い話。** とくにクラウドファンディング発の新製品が主戦場。
 大手の新製品ニュース、国内プレスリリース転載、セール情報は扱わない。
 
+**ただし `content/features/` の特集ページはこの縛りの外にある。** 特集は「すぐ欲しい」と
+思って読むページなので、国内で普通に買える製品を載せてよい。代わりに**掲載する製品には
+入手性と技適の判定を必ず付ける**。詳細は `docs/PLAYBOOK.md` の 2.9。
+
 判断に迷ったら **`docs/PLAYBOOK.md` を読む。品質の定義はそこにある。**
 
 ## 絶対に破らないルール
@@ -83,6 +87,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | `scripts/collect.py` | RSS収集 → 重複排除 → クラスタリング → スコアリング |
 | `scripts/build.py` | Markdown → 静的HTML（RSS/sitemap/OGP/構造化データ込み） |
 | `content/posts/*.md` | 記事本体。front matter + Markdown |
+| `content/features/*.md` | **特集ページ。**ニュースと違い国内で買える製品も載せる。詳細は PLAYBOOK 2.9 |
 | `data/digest/` | 日次ダイジェスト（.md と .json） |
 | `data/queue.md` | **書きたいネタの置き場。**定期実行がダイジェストより先に消化する |
 | `public/` | ビルド成果物。**手で編集しない** |

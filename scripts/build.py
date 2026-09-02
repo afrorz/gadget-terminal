@@ -42,6 +42,7 @@ except Exception:  # Pillow 未導入などでもビルドは通す
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "content" / "posts"
+FEATURES_DIR = ROOT / "content" / "features"
 PUBLIC = ROOT / "public"
 SITE_CFG = ROOT / "config" / "site.yaml"
 JST = timezone(timedelta(hours=9))
@@ -268,7 +269,7 @@ def header(site: dict) -> str:
     <a class="brand" href="{u("/")}">
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
-    <nav class="nav">{cats}<a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <nav class="nav">{cats}<a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
     <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
   </div>
 </header>"""
@@ -288,7 +289,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        <a href="{u("feed.xml")}">RSS</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        <a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -313,6 +314,23 @@ def jp(text) -> str:
     if len(parts) <= 1:
         return html.escape(str(text))
     return "<wbr>".join(f'<span class="nb">{html.escape(x)}</span>' for x in parts)
+
+
+def jp_em(text) -> str:
+    """jp() に **強調** だけ効かせる版。
+
+    jp() は HTML をエスケープするので、front matter に <strong> は書けない。
+    かといって Markdown を通すと段落タグが混ざる。特集の短い解説文で欲しいのは
+    太字だけなので、** で割ってから塊ごとに jp() をかける。
+    先に jp() をかけると、強調の途中に句読点があったとき span をまたいで
+    しまい、タグの入れ子が壊れる。順番を変えないこと。
+    """
+    out = []
+    for i, seg in enumerate(str(text).split("**")):
+        if not seg:
+            continue
+        out.append(f"<strong>{jp(seg)}</strong>" if i % 2 else jp(seg))
+    return "".join(out)
 
 
 def card(site: dict, p: dict, featured: bool = False) -> str:
@@ -663,6 +681,169 @@ def render_domestic_cf(site: dict, posts: list[dict]) -> str:
     <p class="hero-sub">Makuake・CAMPFIRE など、国内クラウドファンディングで見つけたガジェットです。
     海外発の記事と違い、すでに日本語で読める案件なので、当メディアでは
     海外の類似品との比較や国内先行の背景など、独自の角度を添えて扱います。</p>
+  </section>
+  {body}
+</main>"""
+        + footer(site)
+    )
+
+
+# ---------------------------------------------------------------- 特集ページ
+# 特集は「まとめ記事」ではなく買い物の判断ページ。日々のニュース記事とは
+# 別の生き物として content/features/ に置く。
+#
+# ニュース記事の選定基準は「海外で報じられて、まだ日本語記事が無い話」だが、
+# **特集ページだけはこの制限を外している。**（2026-09-01 決定）
+# 特集は「すぐ欲しい」と思って読む人のためのページなので、そこに買えない
+# ものしか無いと役に立たない。国内で普通に買える製品を並べてよい。
+#
+# ただし外した制限の代わりに、必ず守る縛りを1つ入れている:
+# **載せる製品には入手性の判定（買えるか・技適はどうか）を必ず付ける。**
+# ここを外すと「白いガジェット10選」と同じになり、誰でも書けるページに
+# 落ちる。技適まで踏み込んで言い切るのが、この媒体が持っている差分。
+
+# 入手性の判定。ラベルと、カードに出す色の分類。
+AVAIL_STYLE = {
+    "verified": ("買える", "ok"),           # 国内正規流通＋技適が一次ソースで確認できた
+    "official": ("公式直販で買える", "ok"),  # メーカー公式が日本発送＋技適を明記
+    "caution": ("条件つき", "warn"),        # 買えるが注意点がある（対象モデル限定など）
+}
+
+
+def parse_feature(path: Path) -> dict | None:
+    text = path.read_text(encoding="utf-8")
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
+    if not m:
+        print(f"  ! front matter がありません: {path.name}")
+        return None
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft"):
+        print(f"  - draft をスキップ: {path.name}")
+        return None
+    MD.reset()
+    meta["body"] = MD.convert(m.group(2).strip())
+    meta.setdefault("slug", path.stem)
+    meta["path"] = f"features/{meta['slug']}.html"
+    meta.setdefault("products", [])
+    meta.setdefault("excluded", [])
+    meta.setdefault("related", [])
+    return meta
+
+
+def feature_product(item: dict) -> str:
+    """製品1件。入手性の判定を必ず出す。判定の無い製品は載せない方針なので、
+    未指定なら目立つ形で欠落を示して、ビルドを見た人が気づけるようにする。"""
+    key = str(item.get("availability") or "").strip()
+    label, tone = AVAIL_STYLE.get(key, ("判定なし", "bad"))
+    name = html.escape(str(item.get("name") or ""))
+    brand = html.escape(str(item.get("brand") or ""))
+    price = html.escape(str(item.get("price") or ""))
+    where = jp(str(item.get("where") or ""))
+    giteki = jp(str(item.get("giteki") or ""))
+    note = jp_em(str(item.get("note") or ""))
+    url = str(item.get("url") or "").strip()
+    src = str(item.get("source") or "").strip()
+    buy = (f'<a class="fp-buy" href="{html.escape(url)}" target="_blank" '
+           f'rel="noopener nofollow">購入ページを開く</a>') if url else ""
+    src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
+                f'rel="noopener">確認したソース</a>') if src else ""
+    return f"""
+<article class="fp fp-{tone}">
+  <div class="fp-head">
+    <div>
+      <p class="fp-brand">{brand}</p>
+      <h3 class="fp-name">{name}</h3>
+    </div>
+    <span class="fp-badge fp-badge-{tone}">{label}</span>
+  </div>
+  <dl class="fp-meta">
+    <dt>価格</dt><dd>{price or "&mdash;"}</dd>
+    <dt>買えるところ</dt><dd>{where or "&mdash;"}</dd>
+    <dt>技適</dt><dd>{giteki or "&mdash;"}</dd>
+  </dl>
+  {f'<p class="fp-note">{note}</p>' if note else ""}
+  <p class="fp-links">{buy}{src_link}</p>
+</article>"""
+
+
+def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
+    s = site["site"]
+    items = "".join(feature_product(x) for x in f["products"])
+    grid = f'<section class="fp-grid">{items}</section>' if items else ""
+
+    excluded = ""
+    if f["excluded"]:
+        rows = "".join(
+            f'<li><strong>{html.escape(str(x.get("name") or ""))}</strong>'
+            f' &mdash; {jp_em(str(x.get("why") or ""))}</li>'
+            for x in f["excluded"])
+        excluded = f"""
+<section class="fx">
+  <h2 class="fx-head">今回入れなかったもの</h2>
+  <p class="fx-lead">条件を満たさなかった製品と、その理由です。
+  買えないものを「買える」と書かないために残しています。</p>
+  <ul class="fx-list">{rows}</ul>
+</section>"""
+
+    by_slug = {p["slug"]: p for p in posts}
+    rel = [by_slug[x] for x in f["related"] if x in by_slug]
+    related = ""
+    if rel:
+        related = f"""
+<section class="fr">
+  <h2 class="fr-head">この特集に関連する記事</h2>
+  <section class="grid">{''.join(card(site, p) for p in rel)}</section>
+</section>"""
+
+    updated = html.escape(str(f.get("updated") or ""))
+    upd_html = f'<p class="fp-updated">最終確認 {updated}</p>' if updated else ""
+    return (
+        head(site, f"{f.get('seo_title') or f['title']} — {s['title']}",
+             str(f.get("description") or ""), f["path"])
+        + header(site)
+        + f"""
+<main class="wrap">
+  <section class="hero hero-sm">
+    <p class="eyebrow">{html.escape(str(f.get('eyebrow') or 'FEATURE'))}</p>
+    <h1 class="hero-title">{html.escape(f['title'])}</h1>
+    <p class="hero-sub">{jp_em(str(f.get('lede') or ''))}</p>
+    {upd_html}
+  </section>
+  <div class="prose feature-intro">{f['body']}</div>
+  {grid}
+  {excluded}
+  {related}
+</main>"""
+        + footer(site)
+    )
+
+
+def render_features_index(site: dict, features: list[dict]) -> str:
+    s = site["site"]
+    if features:
+        rows = "".join(
+            f'<a class="fi" href="{u(f["path"])}">'
+            f'<p class="fi-eyebrow">{html.escape(str(f.get("eyebrow") or "FEATURE"))}</p>'
+            f'<h2 class="fi-title">{html.escape(f["title"])}</h2>'
+            f'<p class="fi-lede">{jp(str(f.get("lede") or ""))}</p>'
+            f'<p class="fi-count">{len(f["products"])}製品</p></a>'
+            for f in features)
+        body = f'<section class="fi-grid">{rows}</section>'
+    else:
+        body = '<p class="empty">特集はまだありません。</p>'
+    return (
+        head(site, f"特集 — {s['title']}",
+             "テーマごとに、日本で実際に買えるガジェットを入手性と技適の判定つきでまとめています。",
+             "features.html")
+        + header(site)
+        + f"""
+<main class="wrap">
+  <section class="hero hero-sm">
+    <p class="eyebrow">FEATURE / 特集</p>
+    <h1 class="hero-title">特集</h1>
+    <p class="hero-sub">ひとつのテーマで複数のガジェットをまとめています。
+    日々のニュースと違い、<strong>日本で実際に買えるものだけ</strong>を並べ、
+    製品ごとに入手先と技適の状況を書いています。</p>
   </section>
   {body}
 </main>"""
@@ -1140,9 +1321,12 @@ def render_feed(site: dict, posts: list[dict]) -> str:
 </channel></rss>"""
 
 
-def render_sitemap(site: dict, posts: list[dict]) -> str:
+def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = None) -> str:
     base = site["site"]["base_url"].rstrip("/")
-    urls = [f"{base}/", f"{base}/about.html", f"{base}/privacy.html"]
+    # jpn.html は 2026-09 まで漏れていた。増えた固定ページはここに足すこと。
+    urls = [f"{base}/", f"{base}/about.html", f"{base}/privacy.html",
+            f"{base}/jpn.html", f"{base}/features.html"]
+    urls += [f"{base}/{f['path']}" for f in (features or [])]
     per_page = int(site["site"].get("posts_per_page") or 20)
     total_pages = max(1, -(-len(posts) // per_page))
     urls += [f"{base}/{page_path(n)}" for n in range(2, total_pages + 1)]
@@ -1512,6 +1696,57 @@ img{max-width:100%}
   .foot-tag{margin-left:0;text-align:left;width:100%}
   .foot-board{flex-wrap:wrap}
 }
+
+/* ── 特集ページ ───────────────────────────────────────────── */
+.nav-ft{--cat:#5fb0d9}
+.feature-intro{max-width:70ch;margin:0 auto 40px}
+.fp-updated{margin:14px 0 0;font-size:.78rem;color:var(--ink-3);
+  font-family:var(--mono,ui-monospace,monospace);letter-spacing:.06em}
+
+.fp-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));margin-bottom:52px}
+.fp{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--rule-2);
+  border-radius:3px;padding:18px 20px}
+.fp-ok{border-left-color:#3f9e6a}
+.fp-warn{border-left-color:#d9a03f}
+.fp-bad{border-left-color:#c8503c}
+.fp-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:14px}
+.fp-brand{margin:0 0 2px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.fp-name{margin:0;font-size:1.02rem;line-height:1.45}
+.fp-badge{flex:none;font-size:.7rem;letter-spacing:.06em;padding:4px 9px;border-radius:2px;white-space:nowrap}
+.fp-badge-ok{background:rgba(63,158,106,.14);color:#6cc492;border:1px solid rgba(63,158,106,.35)}
+.fp-badge-warn{background:rgba(217,160,63,.14);color:#e0b054;border:1px solid rgba(217,160,63,.35)}
+.fp-badge-bad{background:rgba(200,80,60,.14);color:#e0806c;border:1px solid rgba(200,80,60,.35)}
+.fp-meta{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0 0 12px;font-size:.86rem}
+.fp-meta dt{color:var(--ink-3);white-space:nowrap}
+.fp-meta dd{margin:0;color:var(--ink-2)}
+.fp-note{margin:0 0 12px;font-size:.86rem;line-height:1.75;color:var(--ink-2);
+  border-left:2px solid var(--rule-2);padding-left:12px}
+.fp-links{margin:0;display:flex;gap:16px;flex-wrap:wrap;font-size:.82rem}
+.fp-buy{color:var(--accent);font-weight:600}
+.fp-src{color:var(--ink-3)}
+
+.fx{background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:22px 24px;margin-bottom:52px}
+.fx-head{margin:0 0 8px;font-size:1rem}
+.fx-lead{margin:0 0 14px;font-size:.86rem;color:var(--ink-3);line-height:1.8}
+.fx-list{margin:0;padding-left:1.1em;font-size:.88rem;line-height:1.9;color:var(--ink-2)}
+.fx-list li{margin-bottom:8px}
+.fx-list strong{color:var(--ink)}
+
+.fr-head{font-size:1rem;margin:0 0 16px}
+
+.fi-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.fi{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  padding:22px 24px;text-decoration:none;transition:border-color .15s}
+.fi:hover{border-color:var(--accent)}
+.fi-eyebrow{margin:0 0 6px;font-size:.7rem;letter-spacing:.14em;color:var(--ink-3)}
+.fi-title{margin:0 0 8px;font-size:1.12rem;line-height:1.4;color:var(--ink)}
+.fi-lede{margin:0 0 12px;font-size:.86rem;line-height:1.8;color:var(--ink-2)}
+.fi-count{margin:0;font-size:.74rem;color:var(--accent);letter-spacing:.06em}
+
+@media(max-width:520px){
+  .fp-grid,.fi-grid{grid-template-columns:1fr}
+  .fp-head{flex-direction:column;gap:8px}
+}
 """
 
 
@@ -1538,6 +1773,11 @@ def main() -> int:
     print(f"■ base_path: {BASE_PATH or '(ルート直下)'}")
 
     posts = [p for p in (parse_post(f) for f in sorted(POSTS_DIR.glob("*.md"))) if p]
+    features = []
+    if FEATURES_DIR.exists():
+        features = [f for f in (parse_feature(x)
+                                for x in sorted(FEATURES_DIR.glob("*.md"))) if f]
+        features.sort(key=lambda f: str(f.get("updated") or ""), reverse=True)
     # 日付 → priority（front matter で 1 以上を指定するとその日の先頭に来る）→ slug
     posts.sort(key=lambda p: (p["date"], p.get("priority", 0), p["slug"]), reverse=True)
     # 便名は掲載が古い順の通し番号。既存記事の番号がずれないよう昇順で振る。
@@ -1604,6 +1844,22 @@ def main() -> int:
         print(f"■ ページ送り {total_pages}ページ ({per_page}件/ページ)")
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")
     (PUBLIC / "jpn.html").write_text(render_domestic_cf(site, posts), encoding="utf-8")
+    (PUBLIC / "features.html").write_text(render_features_index(site, features),
+                                          encoding="utf-8")
+    if features:
+        (PUBLIC / "features").mkdir(parents=True, exist_ok=True)
+        for f in features:
+            (PUBLIC / f["path"]).write_text(render_feature(site, f, posts),
+                                            encoding="utf-8")
+        # 入手性の判定が抜けている製品はビルド時に見えるようにする。
+        # 判定こそが特集ページの存在理由なので、黙って通してはいけない。
+        bad = [(f["slug"], x.get("name"))
+               for f in features for x in f["products"]
+               if str(x.get("availability") or "") not in AVAIL_STYLE]
+        print(f"■ 特集 {len(features)}本 / 掲載製品 "
+              f"{sum(len(f['products']) for f in features)}件")
+        for slug, name in bad:
+            print(f"  ! 入手性の判定なし: {slug} / {name}")
     (PUBLIC / "privacy.html").write_text(render_privacy(site), encoding="utf-8")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")
@@ -1611,7 +1867,7 @@ def main() -> int:
         (PUBLIC / "category" / f"{cat['slug']}.html").write_text(
             render_category(site, key, cat, posts), encoding="utf-8")
     (PUBLIC / "feed.xml").write_text(render_feed(site, posts), encoding="utf-8")
-    (PUBLIC / "sitemap.xml").write_text(render_sitemap(site, posts), encoding="utf-8")
+    (PUBLIC / "sitemap.xml").write_text(render_sitemap(site, posts, features), encoding="utf-8")
     (PUBLIC / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nSitemap: {site['site']['base_url'].rstrip('/')}/sitemap.xml\n",
         encoding="utf-8")
