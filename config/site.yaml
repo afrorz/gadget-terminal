@@ -12,6 +12,11 @@ site:
   author: 合同会社スタープラチナ
   contact_email: info@gadgetterminal.com
   press_email: press@gadgetterminal.com
+  # 公式Xアカウント。@ は付けない。
+  # **x-poster アプリ側の別アカウントと取り違えないこと**（過去に事故あり）。
+  # ここを埋めるとフッター・運営ページ・構造化データの sameAs・
+  # twitter:site メタの4か所に自動で反映される。
+  x_account: "GadgetTerminal2"
   copyright_from: 2026
   posts_per_page: 20
   # 収益化は後回し。有効化するときは true にしてタグを入れる

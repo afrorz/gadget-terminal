@@ -242,6 +242,9 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
     # 外部画像は実寸が分からず、誤った値を書くとカードの描画が崩れる。
     dims = ('<meta property="og:image:width" content="1200">' '<meta property="og:image:height" content="630">')
     img_dims = "" if is_ext_img else dims
+    # 記事が X で共有されたとき、カードに媒体アカウントの帰属を出す。
+    _xa = str(s.get("x_account") or "").strip().lstrip("@")
+    x_site_meta = f'<meta name="twitter:site" content="@{html.escape(_xa)}">' if _xa else ""
     _p = "" if url_path in ("index.html", "/") else url_path.lstrip("/")
     full_url = f"{s['base_url'].rstrip('/')}/{_p}"
     return f"""<!DOCTYPE html>
@@ -260,7 +263,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <meta property="og:url" content="{html.escape(full_url)}">
 <meta property="og:locale" content="{s.get('locale', 'ja_JP')}">
 <meta property="og:image" content="{html.escape(img_url)}">{img_dims}
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image">{x_site_meta}
 <meta name="twitter:image" content="{html.escape(img_url)}">
 <link rel="icon" type="image/svg+xml" href="{u('assets/favicon.svg')}">
 <link rel="alternate" type="application/rss+xml" title="{html.escape(s['title'])}" href="{u('feed.xml')}">
@@ -296,6 +299,9 @@ def header(site: dict) -> str:
 
 
 def footer(site: dict) -> str:
+    _xa = str(site["site"].get("x_account") or "").strip().lstrip("@")
+    x_link = (f'<a href="https://x.com/{html.escape(_xa)}" target="_blank" '
+              f'rel="noopener">X</a>') if _xa else ""
     s = site["site"]
     year = datetime.now(JST).year
     span = f"{s['copyright_from']}" if year == s["copyright_from"] else f"{s['copyright_from']}–{year}"
@@ -309,7 +315,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        <a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -1102,7 +1108,11 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         "articleSection": cat["label"],
         "author": {"@type": "Organization", "name": s["author"], "url": base + "/about.html"},
         "publisher": {"@type": "Organization", "name": s["title"],
-                      "logo": {"@type": "ImageObject", "url": f"{base}/ogp/default.png"}},
+                      "logo": {"@type": "ImageObject", "url": f"{base}/ogp/default.png"},
+                      # sameAs は「この組織の公式アカウントはこれ」という宣言。
+                      # 検索エンジンが媒体とアカウントを同一の存在として扱えるようになる。
+                      **({"sameAs": [f"https://x.com/{str(s['x_account']).lstrip('@')}"]}
+                         if str(s.get("x_account") or "").strip() else {})},
     }
     if p.get("tags"):
         article_ld["keywords"] = ", ".join(str(t) for t in p["tags"])
@@ -1318,6 +1328,10 @@ def render_privacy(site: dict) -> str:
 
 
 def render_about(site: dict) -> str:
+    # 公式アカウント。読者が媒体の実在を確かめる場所なので運営ページにも出す。
+    _xa = str(site["site"].get("x_account") or "").strip().lstrip("@")
+    x_row = (f'<li>公式X： <a href="https://x.com/{html.escape(_xa)}" '
+             f'target="_blank" rel="noopener">@{html.escape(_xa)}</a></li>') if _xa else ""
     s = site["site"]
     body = f"""
 <main class="wrap article-wrap">
@@ -1350,6 +1364,7 @@ def render_about(site: dict) -> str:
       <ul>
         <li>一般のお問い合わせ： <a href="mailto:{s.get('contact_email','')}">{html.escape(s.get('contact_email',''))}</a></li>
         <li>製品情報・取材のご連絡： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a></li>
+{x_row}
       </ul>
       <p>運営： {html.escape(s['author'])}</p>
       <p>個人情報・Cookie・アフィリエイトの取り扱いは
