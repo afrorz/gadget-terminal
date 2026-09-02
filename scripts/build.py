@@ -1225,6 +1225,30 @@ def render_privacy(site: dict) -> str:
     else:
         aff_block = "<p>現在、参加しているアフィリエイトプログラムはありません。</p>"
 
+    # 広告配信の開示。AdSense のプログラムポリシーが掲載者に義務づけている。
+    # **adsense_client が空なら丸ごと出さない。** 配信していないのに
+    # 「広告を配信しています」と書くのは、Amazon の件と同じ種類の嘘になる。
+    ad_block = ""
+    if str(s.get("adsense_client") or "").strip():
+        ad_block = """
+      <h2>広告配信について</h2>
+      <p>当サイトは、第三者配信の広告サービス <strong>Google AdSense</strong> を利用しています。</p>
+      <p>Google を含む第三者配信事業者は、Cookie を使用して、利用者が当サイトや他のサイトに
+      過去にアクセスした際の情報にもとづいて広告を配信することがあります。この Cookie により、
+      当サイトや他のサイトへのアクセス情報が広告の表示に使われますが、
+      <strong>氏名・住所・メールアドレス・電話番号は含まれません。</strong></p>
+      <p>パーソナライズド広告は、
+      <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">
+      広告設定</a>から無効にできます。第三者配信事業者の Cookie 利用を一括で無効にしたい場合は
+      <a href="https://optout.aboutads.info/" target="_blank" rel="noopener">aboutads.info</a>
+      をご利用ください。ブラウザの設定から Cookie を無効にすることもできます。</p>
+      <p>Google が広告で情報をどのように使用するかについては、
+      <a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener">
+      Google の広告に関するポリシー</a>をご確認ください。</p>
+      <p>欧州経済領域（EEA）・英国・スイスからアクセスされた場合は、Cookie の使用について
+      同意を確認するメッセージを表示します。同意しない選択もでき、その場合は
+      利用者の興味関心にもとづかない広告が表示されます。</p>"""
+
     analytics = []
     if str(s.get("cf_analytics_token") or "").strip():
         analytics.append(
@@ -1260,6 +1284,7 @@ def render_privacy(site: dict) -> str:
 
       <h2>Cookie とアフィリエイトプログラム</h2>
       {aff_block}
+{ad_block}
 
       <h2>外部サイトへのリンク</h2>
       <p>当サイトは記事中で外部サイトへのリンクを掲載しています。リンク先での個人情報の
