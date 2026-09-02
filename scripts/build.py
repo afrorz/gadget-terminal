@@ -743,12 +743,23 @@ def feature_product(item: dict) -> str:
     note = jp_em(str(item.get("note") or ""))
     url = str(item.get("url") or "").strip()
     src = str(item.get("source") or "").strip()
+    # ガジェットは写真が無いと読まれない。特集の製品は画像を必須扱いにする。
+    # PLAYBOOK 3.5 のとおり、公式ページの画像をホットリンクし、credit を必ず出す。
+    img = str(item.get("image") or "").strip()
+    credit = str(item.get("credit") or "").strip()
+    shot = ""
+    if img:
+        cap = (f'<figcaption class="fp-credit">出典: {html.escape(credit)}</figcaption>'
+               if credit else "")
+        shot = (f'<figure class="fp-shot">{ext_img(img, name)}{cap}</figure>')
+
     buy = (f'<a class="fp-buy" href="{html.escape(url)}" target="_blank" '
            f'rel="noopener nofollow">購入ページを開く</a>') if url else ""
     src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
                 f'rel="noopener">確認したソース</a>') if src else ""
     return f"""
 <article class="fp fp-{tone}">
+  {shot}
   <div class="fp-head">
     <div>
       <p class="fp-brand">{brand}</p>
@@ -795,11 +806,15 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
   <section class="grid">{''.join(card(site, p) for p in rel)}</section>
 </section>"""
 
+    # SNS に貼られたときのカード画像。1製品目の写真を使う。
+    # 特集はテーマページなので、自動生成のアイキャッチより実物のほうが強い。
+    ogp_img = next((str(x.get("image")).strip() for x in f["products"]
+                    if str(x.get("image") or "").strip()), "ogp/default.png")
     updated = html.escape(str(f.get("updated") or ""))
     upd_html = f'<p class="fp-updated">最終確認 {updated}</p>' if updated else ""
     return (
         head(site, f"{f.get('seo_title') or f['title']} — {s['title']}",
-             str(f.get("description") or ""), f["path"])
+             str(f.get("description") or ""), f["path"], image=ogp_img)
         + header(site)
         + f"""
 <main class="wrap">
@@ -1709,6 +1724,11 @@ img{max-width:100%}
 .fp-ok{border-left-color:#3f9e6a}
 .fp-warn{border-left-color:#d9a03f}
 .fp-bad{border-left-color:#c8503c}
+
+.fp-shot{margin:-18px -20px 16px;position:relative}
+.fp-shot img{width:100%;height:200px;object-fit:cover;display:block;background:var(--raised)}
+.fp-credit{position:absolute;right:0;bottom:0;font-size:.62rem;color:var(--ink-2);
+  background:rgba(11,13,16,.82);padding:3px 8px;letter-spacing:.02em}
 .fp-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:14px}
 .fp-brand{margin:0 0 2px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
 .fp-name{margin:0;font-size:1.02rem;line-height:1.45}
@@ -1853,13 +1873,17 @@ def main() -> int:
                                             encoding="utf-8")
         # 入手性の判定が抜けている製品はビルド時に見えるようにする。
         # 判定こそが特集ページの存在理由なので、黙って通してはいけない。
-        bad = [(f["slug"], x.get("name"))
+        bad = [(f["slug"], x.get("name"), "入手性の判定なし")
                for f in features for x in f["products"]
                if str(x.get("availability") or "") not in AVAIL_STYLE]
+        # ガジェットは写真が命。写真の無い製品カードは公開しない。
+        bad += [(f["slug"], x.get("name"), "写真なし")
+                for f in features for x in f["products"]
+                if not str(x.get("image") or "").strip()]
         print(f"■ 特集 {len(features)}本 / 掲載製品 "
               f"{sum(len(f['products']) for f in features)}件")
-        for slug, name in bad:
-            print(f"  ! 入手性の判定なし: {slug} / {name}")
+        for slug, name, why in bad:
+            print(f"  ! {why}: {slug} / {name}")
     (PUBLIC / "privacy.html").write_text(render_privacy(site), encoding="utf-8")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")

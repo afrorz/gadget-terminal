@@ -36,8 +36,29 @@ JUNK = re.compile(r"(logo|icon|favicon|sprite|avatar|placeholder|badge|banner|"
 SIZE_SUFFIX = re.compile(r"[-_](\d{2,4})x(\d{2,4})(?=\.\w+$|$)")
 
 
+def enc_url(url: str) -> str:
+    """URL の非ASCII部分をパーセントエンコードする。
+
+    日本語のファイル名をそのまま urlopen に渡すと UnicodeEncodeError で落ちる。
+    実際 8bitdo-jp.com は画像ファイル名が日本語で、これが無いと1枚も取れない。
+    ホスト名は IDNA、パスとクエリは UTF-8 の %エンコードにする。
+    """
+    sp = urllib.parse.urlsplit(url)
+    try:
+        host = sp.hostname.encode("idna").decode("ascii") if sp.hostname else ""
+    except UnicodeError:
+        host = sp.hostname or ""
+    if sp.port:
+        host = f"{host}:{sp.port}"
+    return urllib.parse.urlunsplit((
+        sp.scheme, host,
+        urllib.parse.quote(sp.path, safe="/%~"),
+        urllib.parse.quote(sp.query, safe="=&?/%~+,:"),
+        sp.fragment))
+
+
 def fetch(url: str, timeout: int = 30) -> bytes:
-    req = urllib.request.Request(url, headers={
+    req = urllib.request.Request(enc_url(url), headers={
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "ja,en;q=0.8",
@@ -151,7 +172,7 @@ def looks_like_product(url: str, match: str = "") -> bool:
 def verify(url: str) -> tuple[bool, str]:
     """実際に取得して、画像として返るか確かめる。"""
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        req = urllib.request.Request(enc_url(url), headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=25) as r:
             ctype = (r.headers.get("Content-Type") or "").split(";")[0].strip()
             body = r.read(400_000)
