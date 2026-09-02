@@ -212,6 +212,25 @@ def analytics(s: dict) -> str:
     return "".join(tags)
 
 
+def adsense(s: dict) -> str:
+    """AdSense のコードスニペット。
+
+    `adsense_client`（ca-pub- で始まる発行ID）を site.yaml に入れると出る。
+    **空のあいだは何も出さない。** 審査を受けるまでIDは発行されないので、
+    それまでサイトには一切広告関連のコードが入らない状態にしておく。
+
+    審査時のサイト確認でも、この同じスニペットを全ページの <head> に
+    置くよう求められる。だから広告を出す前の確認段階でも、ここにIDを
+    入れるだけで足りる。
+    """
+    cid = str(s.get("adsense_client") or "").strip()
+    if not cid:
+        return ""
+    return ('<script async crossorigin="anonymous" '
+            f'src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={html.escape(cid)}">'
+            "</script>")
+
+
 def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
          image: str = "ogp/default.png") -> str:
     s = site["site"]
@@ -249,6 +268,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{u('assets/style.css')}">
+{adsense(s)}
 {analytics(s)}
 {extra}
 </head>
@@ -1910,6 +1930,16 @@ def main() -> int:
             render_category(site, key, cat, posts), encoding="utf-8")
     (PUBLIC / "feed.xml").write_text(render_feed(site, posts), encoding="utf-8")
     (PUBLIC / "sitemap.xml").write_text(render_sitemap(site, posts, features), encoding="utf-8")
+    # ads.txt。AdSense が「この発行者にこのサイトの広告枠を売る権限がある」
+    # ことを確認するためのファイル。無いと収益が出ない場合がある。
+    # 発行IDを入れるまでは作らない（空のファイルを置くと逆に警告される）。
+    _cid = str(site["site"].get("adsense_client") or "").strip()
+    if _cid:
+        pub = _cid.replace("ca-pub-", "pub-")
+        (PUBLIC / "ads.txt").write_text(
+            f"google.com, {pub}, DIRECT, f08c47fec0942fa0" + chr(10), encoding="utf-8")
+        print(f"■ ads.txt: {pub}")
+
     (PUBLIC / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nSitemap: {site['site']['base_url'].rstrip('/')}/sitemap.xml\n",
         encoding="utf-8")

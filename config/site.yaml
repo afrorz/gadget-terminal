@@ -20,6 +20,11 @@ site:
   cf_analytics_token: "a114276e3ee147cc9bcdc2edf684b9fc"
   # GA4 を併用する場合のみ。G- で始まる測定ID
   analytics_id: ""
+  # Google AdSense。審査に通ると発行される ca-pub- で始まるID。
+  # ここが空のあいだは広告スクリプトも ads.txt も一切出力しない。
+  # 審査時の「サイト確認」でも同じスニペットを求められるので、
+  # IDを受け取ったらまずここに入れて公開すればよい。
+  adsense_client: ""
   # アフィリエイト（もしもアフィリエイト経由）。
   # enabled: false のあいだは代替品セクションは出るがリンクは素のURLのままで、
   # 広告表示も出さない。提携が通ってからテンプレートを貼って true にする。
