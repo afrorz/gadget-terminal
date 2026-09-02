@@ -868,7 +868,7 @@ def render_features_index(site: dict, features: list[dict]) -> str:
             f'<p class="fi-eyebrow">{html.escape(str(f.get("eyebrow") or "FEATURE"))}</p>'
             f'<h2 class="fi-title">{html.escape(f["title"])}</h2>'
             f'<p class="fi-lede">{jp(str(f.get("lede") or ""))}</p>'
-            f'<p class="fi-count">{len(f["products"])}製品</p></a>'
+            f'<p class="fi-count">{str(len(f["products"]))+"製品" if f["products"] else "解説"}</p></a>'
             for f in features)
         body = f'<section class="fi-grid">{rows}</section>'
     else:
