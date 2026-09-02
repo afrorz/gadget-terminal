@@ -730,9 +730,13 @@ def parse_feature(path: Path) -> dict | None:
     return meta
 
 
-def feature_product(item: dict) -> str:
-    """製品1件。入手性の判定を必ず出す。判定の無い製品は載せない方針なので、
-    未指定なら目立つ形で欠落を示して、ビルドを見た人が気づけるようにする。"""
+def feature_product(item: dict, n: int = 0) -> str:
+    """製品1件を、記事の一節として縦に組む。
+
+    横並びのカードにすると比較表になってしまい、上から読ませる記事にならない。
+    見出し → 大きな写真 → 本文 → 事実の箱 → リンク、の順に置く。
+    本文は空行で段落に割る。ここが記事の実体なので、いちばん広く取る。
+    """
     key = str(item.get("availability") or "").strip()
     label, tone = AVAIL_STYLE.get(key, ("判定なし", "bad"))
     name = html.escape(str(item.get("name") or ""))
@@ -740,9 +744,13 @@ def feature_product(item: dict) -> str:
     price = html.escape(str(item.get("price") or ""))
     where = jp(str(item.get("where") or ""))
     giteki = jp(str(item.get("giteki") or ""))
-    note = jp_em(str(item.get("note") or ""))
     url = str(item.get("url") or "").strip()
     src = str(item.get("source") or "").strip()
+
+    body = "".join(f"<p>{jp_em(para.strip())}</p>"
+                   for para in str(item.get("note") or "").split("\n\n")
+                   if para.strip())
+
     # ガジェットは写真が無いと読まれない。特集の製品は画像を必須扱いにする。
     # PLAYBOOK 3.5 のとおり、公式ページの画像をホットリンクし、credit を必ず出す。
     img = str(item.get("image") or "").strip()
@@ -751,36 +759,35 @@ def feature_product(item: dict) -> str:
     if img:
         cap = (f'<figcaption class="fp-credit">出典: {html.escape(credit)}</figcaption>'
                if credit else "")
-        shot = (f'<figure class="fp-shot">{ext_img(img, name)}{cap}</figure>')
+        shot = f'<figure class="fp-shot">{ext_img(img, name)}{cap}</figure>'
 
     buy = (f'<a class="fp-buy" href="{html.escape(url)}" target="_blank" '
            f'rel="noopener nofollow">購入ページを開く</a>') if url else ""
     src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
                 f'rel="noopener">確認したソース</a>') if src else ""
+
     return f"""
-<article class="fp fp-{tone}">
-  {shot}
-  <div class="fp-head">
-    <div>
-      <p class="fp-brand">{brand}</p>
-      <h3 class="fp-name">{name}</h3>
-    </div>
+<section class="fp fp-{tone}">
+  <header class="fp-head">
+    <p class="fp-kicker"><span class="fp-no">{n:02d}</span><span class="fp-brand">{brand}</span></p>
+    <h2 class="fp-name">{name}</h2>
     <span class="fp-badge fp-badge-{tone}">{label}</span>
-  </div>
+  </header>
+  {shot}
+  <div class="fp-body">{body}</div>
   <dl class="fp-meta">
     <dt>価格</dt><dd>{price or "&mdash;"}</dd>
     <dt>買えるところ</dt><dd>{where or "&mdash;"}</dd>
     <dt>技適</dt><dd>{giteki or "&mdash;"}</dd>
   </dl>
-  {f'<p class="fp-note">{note}</p>' if note else ""}
   <p class="fp-links">{buy}{src_link}</p>
-</article>"""
+</section>"""
 
 
 def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     s = site["site"]
-    items = "".join(feature_product(x) for x in f["products"])
-    grid = f'<section class="fp-grid">{items}</section>' if items else ""
+    items = "".join(feature_product(x, i) for i, x in enumerate(f["products"], 1))
+    grid = f'<div class="fp-list">{items}</div>' if items else ""
 
     excluded = ""
     if f["excluded"]:
@@ -1718,32 +1725,44 @@ img{max-width:100%}
 .fp-updated{margin:14px 0 0;font-size:.78rem;color:var(--ink-3);
   font-family:var(--mono,ui-monospace,monospace);letter-spacing:.06em}
 
-.fp-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));margin-bottom:52px}
-.fp{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--rule-2);
-  border-radius:3px;padding:18px 20px}
-.fp-ok{border-left-color:#3f9e6a}
-.fp-warn{border-left-color:#d9a03f}
-.fp-bad{border-left-color:#c8503c}
-
-.fp-shot{margin:-18px -20px 16px;position:relative}
-.fp-shot img{width:100%;height:200px;object-fit:cover;display:block;background:var(--raised)}
-.fp-credit{position:absolute;right:0;bottom:0;font-size:.62rem;color:var(--ink-2);
-  background:rgba(11,13,16,.82);padding:3px 8px;letter-spacing:.02em}
-.fp-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:14px}
-.fp-brand{margin:0 0 2px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-.fp-name{margin:0;font-size:1.02rem;line-height:1.45}
-.fp-badge{flex:none;font-size:.7rem;letter-spacing:.06em;padding:4px 9px;border-radius:2px;white-space:nowrap}
+/* 特集の製品セクション。横並びのカードではなく、上から読む記事として組む */
+.fp-list{max-width:760px;margin:0 auto 56px}
+.fp{padding:0 0 44px;margin-bottom:44px;border-bottom:1px solid var(--rule)}
+.fp:last-child{border-bottom:0;margin-bottom:0}
+.fp-head{position:relative;margin-bottom:20px}
+.fp-kicker{margin:0 0 6px;display:flex;align-items:center;gap:10px;
+  font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.fp-no{color:var(--accent);font-weight:700;font-family:var(--mono,ui-monospace,monospace)}
+.fp-brand{color:var(--ink-3)}
+.fp-name{margin:0 0 10px;font-size:1.5rem;line-height:1.35;letter-spacing:.01em}
+.fp-badge{display:inline-block;font-size:.72rem;letter-spacing:.06em;padding:4px 10px;border-radius:2px}
 .fp-badge-ok{background:rgba(63,158,106,.14);color:#6cc492;border:1px solid rgba(63,158,106,.35)}
 .fp-badge-warn{background:rgba(217,160,63,.14);color:#e0b054;border:1px solid rgba(217,160,63,.35)}
 .fp-badge-bad{background:rgba(200,80,60,.14);color:#e0806c;border:1px solid rgba(200,80,60,.35)}
-.fp-meta{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0 0 12px;font-size:.86rem}
+.fp-shot{margin:0 0 22px;position:relative;border-radius:3px;overflow:hidden;background:var(--raised)}
+.fp-shot img{width:100%;height:auto;display:block}
+.fp-credit{position:absolute;right:0;bottom:0;font-size:.64rem;color:var(--ink-2);
+  background:rgba(11,13,16,.82);padding:4px 9px;letter-spacing:.02em}
+.fp-body{margin-bottom:24px}
+.fp-body p{margin:0 0 1.1em;line-height:2;font-size:1rem;color:var(--ink-2)}
+.fp-body p:last-child{margin-bottom:0}
+.fp-body strong{color:var(--ink);font-weight:600}
+.fp-meta{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;margin:0 0 20px;
+  font-size:.88rem;background:var(--surface);border:1px solid var(--rule);
+  border-left:3px solid var(--rule-2);border-radius:3px;padding:18px 20px}
+.fp-ok .fp-meta{border-left-color:#3f9e6a}
+.fp-warn .fp-meta{border-left-color:#d9a03f}
+.fp-bad .fp-meta{border-left-color:#c8503c}
 .fp-meta dt{color:var(--ink-3);white-space:nowrap}
-.fp-meta dd{margin:0;color:var(--ink-2)}
-.fp-note{margin:0 0 12px;font-size:.86rem;line-height:1.75;color:var(--ink-2);
-  border-left:2px solid var(--rule-2);padding-left:12px}
-.fp-links{margin:0;display:flex;gap:16px;flex-wrap:wrap;font-size:.82rem}
+.fp-meta dd{margin:0;color:var(--ink-2);line-height:1.85}
+.fp-links{margin:0;display:flex;gap:18px;flex-wrap:wrap;font-size:.86rem}
 .fp-buy{color:var(--accent);font-weight:600}
 .fp-src{color:var(--ink-3)}
+@media(max-width:560px){
+  .fp-name{font-size:1.28rem}
+  .fp-meta{grid-template-columns:1fr;gap:4px 0}
+  .fp-meta dt{margin-top:8px}
+}
 
 .fx{background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:22px 24px;margin-bottom:52px}
 .fx-head{margin:0 0 8px;font-size:1rem}
@@ -1764,8 +1783,7 @@ img{max-width:100%}
 .fi-count{margin:0;font-size:.74rem;color:var(--accent);letter-spacing:.06em}
 
 @media(max-width:520px){
-  .fp-grid,.fi-grid{grid-template-columns:1fr}
-  .fp-head{flex-direction:column;gap:8px}
+  .fi-grid{grid-template-columns:1fr}
 }
 """
 
