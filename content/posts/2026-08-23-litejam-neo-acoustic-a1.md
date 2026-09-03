@@ -1,6 +1,10 @@
 ---
 title: LiteJam Neo Acoustic A1はカーボン一体成型のLED指板アコギ、Kickstarterで目標の10倍超を集める
 slug: litejam-neo-acoustic-a1
+images:
+  - url: "https://i.kickstarter.com/assets/054/664/959/c31b6151f6adb77fbab99e8e1a9496a7_original.jpg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1785942587&width=1552&sig=LEp0uW6tCIaAmI3TssZqoejMK1z0SJTeSGLKPg2nFvA%3D"
+    caption: "フレットボードのLEDが運指をガイドする、Neo Acoustic A1のキャンペーンページ掲載画像"
+credit: "LiteJam Kickstarterページ"
 keyword: Neo Acoustic A1
 category: weird
 date: 2026-08-23

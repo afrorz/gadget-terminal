@@ -1,6 +1,10 @@
 ---
 title: "RayNeoがARグラス「iO」と「GTシリーズ」を発表、iOは479ドルで9月4日発売"
 slug: rayneo-io-gt-series
+images:
+  - url: "https://www.rayneo.com/cdn/shop/files/Frame_2147209603.png?v=1783043767&width=1100"
+    caption: "RayNeo iOの本体と付属コントローラー"
+credit: "RayNeo 公式サイト"
 keyword: RayNeo iO
 category: weird
 date: 2026-08-21

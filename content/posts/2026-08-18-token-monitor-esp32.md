@@ -2,6 +2,10 @@
 title: "AIコーディング利用量を専用ディスプレイで表示する「Token Monitor」がKickstarter開始、99ユーロから"
 seo_title: Token Monitorは99ユーロ、日本は発送対象外
 slug: token-monitor-esp32
+images:
+  - url: "https://i.kickstarter.com/assets/054/591/958/7c439e258b656d27ff18b1a0cbcf2231_original.jpg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1785325179&width=1552&sig=G6n1oZhT2ITmtpWdH8OkQ0AUTC5KC59DHoTztw7Oe%2FI%3D"
+    caption: "デスクに置かれたToken Monitor本体。4インチ画面にClaude Codeの利用状況を表示している"
+credit: "Fractal Manifold Kickstarterページ"
 keyword: Token Monitor
 category: pc
 date: 2026-08-18
