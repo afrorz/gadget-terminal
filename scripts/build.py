@@ -1431,9 +1431,9 @@ CSS = """
    Gadget Terminal — 出発案内板を設計言語にしたダークテーマ
    ============================================================ */
 :root{
-  --bg:#0b0d10; --surface:#12161b; --raised:#171c22;
+  --bg:#0a0d16; --surface:#10141f; --raised:#151a27;
   --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
-  --rule:#1e242c; --rule-2:#2a323c;
+  --rule:#1c212e; --rule-2:#272e40;
   --accent:#ff6b3d;
   --cat:var(--accent);
   --max:1280px; --measure:36rem;
