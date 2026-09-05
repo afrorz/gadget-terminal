@@ -504,7 +504,8 @@ def board_row(site: dict, p: dict, i: int) -> str:
     label, note = post_status(p, today)
     style = STATUS_STYLE.get(label, "done")
     code, city = post_origin(site, p)
-    return f"""<a class="board-row cat-{key}" href="{u(p['path'])}">
+    alt = " board-row-alt" if i % 2 == 0 else ""
+    return f"""<a class="board-row cat-{key}{alt}" href="{u(p['path'])}">
   <span class="b-flt" data-flap>{p['flight']}</span>
   <span class="b-from"><b data-flap>{html.escape(code)}</b>{f'<span>{html.escape(city)}</span>' if city else ''}</span>
   <span class="b-code" data-flap>{cat.get('code','---')}</span>
@@ -1595,7 +1596,7 @@ img{max-width:100%}
   --bg:#14172e; --surface:#1a1e38; --raised:#212643;
   --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
   --rule:#262c4c; --rule-2:#333a5e;
-  position:relative;color:var(--ink);margin-bottom:40px}
+  position:relative;color:var(--ink);margin-bottom:40px;padding-bottom:16px}
 /* 背景だけをビューポート全幅までブリードさせ、中身（見出し・行）は
    .wrap と同じ位置に留める定番の breakout テクニック。
    50vw はビューポート基準の絶対値なので、祖先の max-width や
@@ -1617,11 +1618,14 @@ img{max-width:100%}
 .board-head,.board-row{display:grid;
   grid-template-columns:64px 74px 44px 150px minmax(0,1fr) 182px 20px;
   align-items:center;gap:14px;font-family:var(--mono);font-size:11.5px}
-.board-head{padding:7px 0;color:var(--ink-3);font-size:9.5px;letter-spacing:.16em;
-  border-bottom:1px solid var(--rule)}
+.board-head{padding:7px 0;color:var(--ink-2);font-size:9.5px;letter-spacing:.16em;
+  background:var(--raised);border-bottom:1px solid var(--rule)}
 .board-row{padding:8px 0;border-bottom:1px solid var(--rule);position:relative;
   transition:background .16s,padding-left .16s}
 .board-row:last-child{border-bottom:0}
+/* 実物の空港案内板でよくある、1行おきの背景の縞。奇数行は素の --bg のまま、
+   偶数行だけ --surface で少し明るくする。 */
+.board-row-alt{background:var(--surface)}
 .board-row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;
   background:var(--cat);transform:scaleY(0);transition:transform .2s}
 .board-row:hover{background:var(--raised);padding-left:10px}
