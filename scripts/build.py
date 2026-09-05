@@ -1713,7 +1713,7 @@ img{max-width:100%}
 @media(max-width:520px){.pick{grid-template-columns:72px 1fr}.pick-thumb img{height:48px}}
 .lead{margin-bottom:8px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));
-  gap:1px;background:var(--rule);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+  gap:1px;background:var(--rule);border-bottom:1px solid var(--rule)}
 .card{background:var(--bg);padding:18px 18px 22px}
 .card-featured{background:transparent;padding:0 0 22px;border-bottom:1px solid var(--rule);margin-bottom:26px;
   display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:24px;align-items:start;
