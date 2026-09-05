@@ -1570,7 +1570,7 @@ img{max-width:100%}
 .pict-arr{width:19px;height:19px;flex:none;fill:var(--accent)}
 .board-title-en{color:var(--ink)}
 .board-title-ja{font-family:var(--sans);font-size:11.5px;font-weight:400;letter-spacing:0;
-  color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media (max-width:620px){.board-title-ja{display:none}}
 .board-head,.board-row{display:grid;
   grid-template-columns:64px 74px 44px 150px minmax(0,1fr) 182px 20px;
@@ -1593,11 +1593,13 @@ img{max-width:100%}
   margin-left:6px;font-size:11px}
 /* 運航ステータス。カテゴリ色（--cat）とは別系統にして、意味だけを担わせる。
    同じ色で分類と状態の両方を表すと、どちらの意味か読めなくなる。 */
-.st{display:inline-flex;align-items:center;gap:7px;letter-spacing:.1em;font-weight:500;
+.st{display:flex;align-items:center;gap:7px;letter-spacing:.1em;font-weight:500;
   white-space:nowrap;overflow:hidden}
 .st::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
-.st em{font-style:normal;font-family:var(--sans);letter-spacing:0;color:var(--ink-3);
-  font-size:11px;margin-left:2px}
+/* 残りN日はラベルの長さに関係なく右端に揃える。ラベル直後に流すと
+   FINAL CALL / NOW BOARDING の字数差でガタつくため margin-left:auto で固定位置に押し出す */
+.st em{font-style:normal;font-family:var(--sans);letter-spacing:0;color:var(--ink-2);
+  font-size:11px;margin-left:auto;padding-left:8px;flex:none}
 .st-live{color:#5ad19a}
 .st-live::before{animation:st-pulse 1.6s ease-in-out infinite}
 @keyframes st-pulse{50%{opacity:.3}}
