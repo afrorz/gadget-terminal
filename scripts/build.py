@@ -617,6 +617,18 @@ rows.forEach(function(row,i){
     if(st)flapStatus(st);
   },reduced?0:i*55);
 });
+
+/* 実物の案内板は、しばらく静止したあとも思い出したようにどこかの行が
+   パタパタと回る。6秒に1回、ランダムに1行だけ再生して、生きた掲示板に見せる。
+   全行同時に回すと五月蝿いので1行ずつ。 */
+if(!reduced&&rows.length){
+  setInterval(function(){
+    var row=rows[Math.floor(Math.random()*rows.length)];
+    row.querySelectorAll("[data-flap]").forEach(flap);
+    var st=row.querySelector("[data-flap-status]");
+    if(st)flapStatus(st);
+  },6000);
+}
 })();
 </script>"""
 
@@ -1561,7 +1573,7 @@ img{max-width:100%}
   color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media (max-width:620px){.board-title-ja{display:none}}
 .board-head,.board-row{display:grid;
-  grid-template-columns:64px 74px 44px 150px minmax(0,1fr) 150px 20px;
+  grid-template-columns:64px 74px 44px 150px minmax(0,1fr) 182px 20px;
   align-items:center;gap:14px;font-family:var(--mono);font-size:11.5px}
 .board-head{padding:7px 0;color:var(--ink-3);font-size:9.5px;letter-spacing:.16em;
   border-bottom:1px solid var(--rule)}
@@ -1796,12 +1808,12 @@ img{max-width:100%}
 /* 案内板は狭くなるほど列を落とす。最後まで残すのは KEY と STATUS。
    「何の話か」と「今どうなっているか」が案内板の本体なので。 */
 @media (max-width:1100px){
-  .board-head,.board-row{grid-template-columns:64px 74px 44px minmax(0,1fr) 150px 20px}
+  .board-head,.board-row{grid-template-columns:64px 74px 44px minmax(0,1fr) 182px 20px}
   .b-title,.board-head span:nth-child(5){display:none}
 }
 @media (max-width:900px){
   .nav-label{display:none}
-  .board-head,.board-row{grid-template-columns:74px 44px minmax(0,1fr) 132px 20px}
+  .board-head,.board-row{grid-template-columns:74px 44px minmax(0,1fr) 182px 20px}
   .b-flt,.board-head span:nth-child(1){display:none}
 }
 @media (max-width:620px){
