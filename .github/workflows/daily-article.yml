@@ -29,6 +29,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: 記事執筆前の HEAD を記録(新着記事の差分検出に使う)
+        id: base
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
       - uses: anthropics/claude-code-action@v1
         # prompt の中に ${{ }} を書かないこと。書くとプロンプト全体が式として
         # 評価され、GitHub Actions の式の上限 21,000字にぶつかって
@@ -270,13 +274,16 @@ jobs:
                      seo_title 「Framework Laptop 12がCore Series 3に対応、549ドルから」
 
                【X用】x_hook を必ず書く。X に投稿するときの一言目になる。
-                 - 全角60字以内。**seo_title を使い回さない。**
-                   検索に効く言葉と、指を止める言葉は別物である
+                 - 全角120字程度まで(2026-09-05にこれまでの60字から拡張。
+                   一文で終わらせず、興味を持って記事まで読みに行きたくなる長さを取る)。
+                   **seo_title を使い回さない。** 検索に効く言葉と、指を止める言葉は別物である
                  - 製品名から書き始めない。読者が「え？」と思う事実から入る
-                 - 数字・重量・価格・法規制など、具体的な一点に絞る。形容詞で盛らない
+                 - 数字・重量・価格・法規制など、具体的な事実を2点ほど重ねて、続きが
+                   気になる引きを作る。1点だけで終わらせない。形容詞や誇張で盛らない
                  - 「話題」「すごい」「衝撃」「ヤバい」は使わない
                  例: seo_title 「HOVERAir VERSAが230gで登場、手持ちと自律飛行の2-in-1」
-                     x_hook    「230gのカメラが、勝手に飛ぶ。ただし日本で飛ばすには国への登録が要る」
+                     x_hook    「230gのカメラが、手に持っても自律飛行に切り替えても飛ぶ。
+                     価格は399ドルから、ただし日本で飛ばすには国への機体登録が要る」
 
                【読者価値】alternatives を書く。クラファン案件と国内未発売品は必須。
                「面白いが今は買えない」で終わらせず、読者が今日取れる行動を示す。
@@ -363,3 +370,15 @@ jobs:
             - 事実の捏造は絶対にしない。動画IDも必ず存在確認してから使う。
             - 情報が取れないソースがあっても止まらず、取れたもので進める。
             - 3本揃わない場合は、書けた本数だけコミットして、理由をログに書く。
+
+      - name: X 自動投稿アプリへ新着記事を通知
+        # このステップが失敗しても記事の公開自体は既に成功しているので、
+        # ジョブ全体を失敗扱いにはしない(X連携だけの問題として切り離す)。
+        continue-on-error: true
+        env:
+          GADGET_INGEST_TOKEN: ${{ secrets.GADGET_INGEST_TOKEN }}
+        run: |
+          pip install -r requirements.txt --break-system-packages -q
+          python scripts/notify_x.py "${{ steps.base.outputs.sha }}" \
+            "https://tamakostock.web.app/api/ingest-gadget" \
+            "$GADGET_INGEST_TOKEN"

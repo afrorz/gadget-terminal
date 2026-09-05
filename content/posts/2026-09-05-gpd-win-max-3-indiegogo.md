@@ -13,7 +13,7 @@ tags:
 - AMD Ryzen AI Max+
 - Indiegogo
 - クラウドファンディング
-x_hook: RAMを128GB積めるハンドヘルドPCが、3,499ドルで登場した。
+x_hook: RAMを128GB積めるハンドヘルドPCが登場。中身はノートPC向け最上位APU「Ryzen AI Max+」、価格は最小構成1,750ドルから最上位3,499ドルまで。
 embeds:
 - type: youtube
   id: rLChn8LnuCA

@@ -13,7 +13,7 @@ tags:
 - ファンレス
 - IFA 2026
 - ノートPC
-x_hook: ファンを積まないノートPCコンセプトが、830g未満で登場した。
+x_hook: ファンを一切使わずに冷やすノートPCコンセプトが、厚さ10mm未満・重さ830g未満で登場。Frore Systemsと共同開発した固体冷却で、価格・発売時期は未定。
 images:
 - url: "https://media.lenovonews.fiestic.com/2028/08/AeroBlade-Specialty-04.png"
   caption: 分解イメージ。ヒンジ付近に基板に貼り付けられた冷却モジュールが確認できる

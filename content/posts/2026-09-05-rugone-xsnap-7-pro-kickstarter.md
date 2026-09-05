@@ -16,7 +16,7 @@ tags:
 - アクションカメラ
 - Kickstarter
 - Ulefone
-x_hook: 外すとそのままアクションカメラになるスマホ。Kickstarterは9月7日開始、日本発送は未定。
+x_hook: 外すとそのままアクションカメラになるタフネススマホ。IFA 2026でイノベーションアワードを受賞し、早期価格は799ユーロ。Kickstarterは9月7日開始、日本発送は未定。
 embeds:
 - type: youtube
   id: sStTlNE9aFg
