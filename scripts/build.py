@@ -535,6 +535,24 @@ def pager(current: int, total: int) -> str:
     return f'<nav class="pager" aria-label="ページ送り">{prev}<span class="pager-nums">{nums}</span>{nxt}</nav>'
 
 
+def next_page_tile(current: int, total: int) -> str:
+    """カード一覧グリッドの最後に足す、次ページへの導線タイル。
+
+    grid-template-columns は auto-fill なので、記事数が列数の倍数でないと
+    最終行に空きマスができる（ビューポート幅で列数が変わるため何列できるかは
+    ここでは分からない）。1枚追加するだけで全部の空きが必ず埋まるわけではないが、
+    最低1マスは「次のページへ」として活かせる。最終ページでは何も出さない。
+    """
+    if current >= total:
+        return ""
+    nxt = current + 1
+    return (f'<a class="card card-next" href="{u(page_path(nxt))}">'
+            f'<span class="cn-tag">NEXT GATE</span>'
+            f'<span class="cn-num">{nxt:02d}<i>/{total:02d}</i></span>'
+            f'<span class="cn-label">次のページへ</span>'
+            f'<span class="cn-arrow" aria-hidden="true">→</span></a>')
+
+
 def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
     """編集部ピックアップ。運営者が自分で選んだ記事だけを並べる。
 
@@ -568,6 +586,15 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
   <div class="picks-list">{''.join(rows)}
   </div>
 </section>"""
+
+
+def hero_route_img() -> str:
+    """トップの見出し横に残る余白を埋める、着陸してくる飛行機のシルエット。
+
+    ユーザー提供の画像（assets/hero-plane.png、透過済み）を使う。
+    ベクターで手描きしても実写的なシルエットには再現できないため、画像をそのまま使う。
+    """
+    return f'<img class="hero-route" src="{u("assets/hero-plane.png")}" alt="" aria-hidden="true">'
 
 
 BOARD_JS = """<script>
@@ -663,7 +690,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   {card(site, lead, featured=True)}
 </section>
 <section class="grid">
-  {''.join(card(site, p) for p in rest)}
+  {''.join(card(site, p) for p in rest)}{next_page_tile(page, total_pages)}
 </section>
 {picks_section(site, all_posts or posts)}
 {pager(page, total_pages)}"""
@@ -671,7 +698,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
         # 2ページ目以降はカードだけを並べる。
         body = f"""
 <section class="grid">
-  {''.join(card(site, p) for p in posts)}
+  {''.join(card(site, p) for p in posts)}{next_page_tile(page, total_pages)}
 </section>
 {pager(page, total_pages)}"""
     title = f"{s['title']} — {s['tagline']}" if page <= 1 else f"{s['title']} — {page}ページ目"
@@ -684,6 +711,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     <p class="eyebrow">{'DEPARTURES / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
     <h1 class="hero-title">{jp(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
     <p class="hero-sub">{jp(s['description']) if page <= 1 else ''}</p>
+    {hero_route_img() if page <= 1 else ''}
   </section>
   {body}
 </main>"""
@@ -1491,8 +1519,14 @@ img{max-width:100%}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
 
 /* ── ヘッダー ───────────────────────────────── */
-.site-head{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--rule);
-  background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px) saturate(1.4)}
+/* 案内板・NEXT GATEタイルと同じ紺色に固定。ページのライト/ダーク切り替えに
+   関わらず、サイトの「常設の骨格」として常にこの色で統一する。 */
+.site-head{
+  --bg:#14172e; --raised:#212643;
+  --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
+  --rule:#262c4c; --rule-2:#333a5e;
+  position:sticky;top:0;z-index:20;border-bottom:1px solid var(--rule);color:var(--ink);
+  background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px) saturate(1.4)}
 .head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:48px}
 /* 空港・駅・管制室に共通する記号は「常に動いている現在時刻」。
    コロンだけ明滅させると、静止画に見えない。 */
@@ -1533,8 +1567,13 @@ img{max-width:100%}
 [data-theme="dark"] .tt-ic-sun{display:inline}
 
 /* ── ヒーロー ───────────────────────────────── */
-.hero{padding:30px 0 20px}
+.hero{position:relative;padding:30px 0 20px}
 .hero-sm{padding:32px 0 22px;border-bottom:1px solid var(--rule);margin-bottom:0}
+/* 見出し横に残る余白を埋める、着陸してくる飛行機の写真的シルエット。
+   案内板と役割が被らないよう、狭い画面では出さない。 */
+.hero-route{position:absolute;top:6px;right:8px;width:300px;height:auto;
+  opacity:.85;pointer-events:none}
+@media(max-width:1100px){.hero-route{display:none}}
 .eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--cat);margin:0 0 10px;font-weight:600}
 .hero-title{font-family:var(--disp);font-size:clamp(22px,2.9vw,34px);line-height:1.4;
@@ -1553,14 +1592,17 @@ img{max-width:100%}
    中の要素は var(--bg)/var(--ink) 等しか参照していないので、
    ここで変数を上書きするだけで内部の設計は変えずに済む。 */
 .board{
-  --bg:#0a0d16; --surface:#10141f; --raised:#151a27;
+  --bg:#14172e; --surface:#1a1e38; --raised:#212643;
   --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
-  --rule:#1c212e; --rule-2:#272e40;
-  background:var(--bg);color:var(--ink);
-  border:1px solid var(--rule);border-radius:8px;
-  padding:0 20px;margin-bottom:40px;
-  box-shadow:0 28px 54px -30px rgba(10,13,22,.4);
-  overflow:hidden}
+  --rule:#262c4c; --rule-2:#333a5e;
+  position:relative;color:var(--ink);margin-bottom:40px}
+/* 背景だけをビューポート全幅までブリードさせ、中身（見出し・行）は
+   .wrap と同じ位置に留める定番の breakout テクニック。
+   50vw はビューポート基準の絶対値なので、祖先の max-width や
+   padding に関係なく画面の左右端まで届く。 */
+.board::before{content:"";position:absolute;top:0;bottom:0;
+  left:50%;width:100vw;transform:translateX(-50%);
+  background:var(--bg);z-index:-1}
 /* 見出しの飛行機は ISO 7001 の到着ピクトグラム（機首を下げた機体＋接地線）。
    本物の案内板に飛行機の絵は無く、あるのはこの見出しの位置だけ。
    サイト内の他の場所にアイコンを散らさないこと。空港ではなく旅行ブログに見える。 */
@@ -1699,6 +1741,25 @@ img{max-width:100%}
 .card-excerpt{margin:0;color:var(--ink-2);font-size:12.5px;line-height:1.78;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .card-featured .card-excerpt{font-size:13px;max-width:40em;line-height:1.8;-webkit-line-clamp:3}
+
+/* グリッドは auto-fill なので、記事数が列数の倍数でないと最終行に空きマスが
+   できる。そこを次ページへの導線タイルで埋める（1枚だけなので全部の
+   空きが必ず消えるわけではないが、何も無いより良い）。 */
+.card-next{background:#14172e;color:#e9edf1;display:flex;flex-direction:column;
+  align-items:flex-start;padding:22px 22px 24px;position:relative;overflow:hidden;
+  transition:background .18s}
+.card-next:hover{background:#1c2040}
+/* 実物の空港表示にある「NEXT GATE」の掲示を模したブロック。案内板と同じ
+   紺色にして、オレンジは数字とアイコンだけの控えめなアクセントに絞る。 */
+.cn-tag{font-family:var(--mono);font-size:10px;letter-spacing:.24em;font-weight:600;
+  color:#8990a0;margin-bottom:auto}
+.cn-num{font-family:var(--disp);font-weight:700;font-size:56px;line-height:1;
+  letter-spacing:-.02em;margin:18px 0 6px;color:var(--accent)}
+.cn-num i{font-style:normal;font-size:20px;font-weight:600;color:#8990a0;margin-left:3px}
+.cn-label{font-family:var(--disp);font-weight:700;font-size:16px;line-height:1.3;color:#e9edf1}
+.cn-arrow{position:absolute;right:20px;bottom:18px;font-family:var(--disp);
+  font-weight:700;font-size:26px;line-height:1;color:var(--accent);transition:transform .18s}
+.card-next:hover .cn-arrow{transform:translateX(6px)}
 
 /* ── 記事 ───────────────────────────────────── */
 .article-wrap{padding-top:38px}
@@ -1957,6 +2018,11 @@ def main() -> int:
 
     (PUBLIC / "assets" / "style.css").write_text(CSS, encoding="utf-8")
     (PUBLIC / "assets" / "favicon.svg").write_text(FAVICON, encoding="utf-8")
+    # トップページの装飾用画像。手描きのSVGでは実写的なシルエットは再現できないため、
+    # 用意した透過PNGをそのままコピーする（リポジトリの assets/ に置いてある）。
+    hero_plane_src = ROOT / "assets" / "hero-plane.png"
+    if hero_plane_src.exists():
+        shutil.copy2(hero_plane_src, PUBLIC / "assets" / "hero-plane.png")
 
     # OGP画像（フォントが無い環境では静かにスキップ）
     if ogp is not None:
