@@ -1,0 +1,703 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:11:16.303602+09:00",
+  "stats": {
+    "fetched": 718,
+    "unique": 677,
+    "new": 246,
+    "clusters": 236,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "e1b34d06880f7d63",
+      "title": "Arduview: World’s first fully transparent video game console weighs just 50 g",
+      "url": "https://www.notebookcheck.net/Arduview-World-s-first-fully-transparent-video-game-console-weighs-just-50-g.1389612.0.html",
+      "canonical": "https://www.notebookcheck.net/Arduview-World-s-first-fully-transparent-video-game-console-weighs-just-50-g.1389612.0.html",
+      "summary": "Arduview is a 50-gram handheld featuring a transparent casing, circuit board, and OLED display, with 400 preloaded 8-bit games and USB-C connectivity. The device is expected to launch via Kickstarter ahead of a planned 2027 release.",
+      "published": "2026-09-05T18:54:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+6 kickstarter",
+        "+3 launch",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/video-games/handheld-gaming/worlds-first-fully-transparent-video-game-console-is-on-its-way-to-kickstarter-arduview-handhelds-shell-pcb-and-display-are-all-transparent"
+      ]
+    },
+    {
+      "id": "d56e48cba88e09e2",
+      "title": "Xiaomi Pad 9 Pro Max display teased: 13.3″ 3.4K touchscreen can be used as a secondary monitor via USB-C",
+      "url": "https://www.gizmochina.com/2026/09/05/xiaomi-pad-9-pro-max-display-teased-13-3-3-4k-touchscreen-can-be-used-as-a-secondary-monitor-via-usb-c/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/xiaomi-pad-9-pro-max-display-teased-13-3-3-4k-touchscreen-can-be-used-as-a-secondary-monitor-via-usb-c",
+      "summary": "Xiaomi is positioning its next flagship tablet as a flexible second screen you can plug into a bunch of different setups. The device is the Xiaomi Pad 9 Pro Max, and it’s set to launch at Xiaomi’s Autumn Flagship event on September 7 at 7 PM China time. From the official previews dropped today, it’s [&#8230;] The post Xiaomi Pad 9 Pro Max display teased: 13.3&#8243; 3.4K touchscreen can be used as",
+      "published": "2026-09-05T13:54:33+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Xiaomi-Pad-9-Pro-Max-gets-13-3-inch-3-4K-display-and-PC-features.1389285.0.html"
+      ]
+    },
+    {
+      "id": "45e20adbc691cd70",
+      "title": "AMD Reportedly Prepares New Ryzen 5 7500 Six-Core CPU for AM5 Socket",
+      "url": "https://www.techpowerup.com/352372/amd-reportedly-prepares-new-ryzen-5-7500-six-core-cpu-for-am5-socket",
+      "canonical": "https://www.techpowerup.com/352372/amd-reportedly-prepares-new-ryzen-5-7500-six-core-cpu-for-am5-socket",
+      "summary": "Leaker Roland Quandt has posted on Bluesky that AMD is preparing to launch another AM5 socket Ryzen 5 processor, a standard 7500. This Zen 4 (Raphael) CPU will sit between the existing Ryzen 5 7500F and 7500X3D. The leaked specifications show a six-core, 12-thread CPU running at a 3.7 GHz base clock, with up to 5.0 GHz boost, 38 MB of total cache (likely 32 MB L3 + 6 MB L2) and a 65 W TDP. These s",
+      "published": "2026-09-04T22:56:03+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin",
+        "https://wccftech.com/amd-is-expected-to-release-ryzen-5-7500/"
+      ]
+    },
+    {
+      "id": "926b6425a85c6867",
+      "title": "Xiaomi’s new Mijia Rich Mineral Water Purifier 2 adds Bama Spring minerals to your tap",
+      "url": "https://www.gizmochina.com/2026/09/05/xiaomis-new-mijia-rich-mineral-water-purifier-2-adds-bama-spring-minerals-to-your-tap/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/xiaomis-new-mijia-rich-mineral-water-purifier-2-adds-bama-spring-minerals-to-your-tap",
+      "summary": "Xiaomi has opened pre-orders for the Mijia Rich Mineral Water Purifier 2, a follow-up to the Mijia Mineral-Rich Water Purifier 1200G that it launched last year. You&#8217;ll pay 2199 yuan (~ $327) at the list price, and sales are set to open on September 15 at 20:00. The headline feature here is what Xiaomi calls [&#8230;] The post Xiaomi&#8217;s new Mijia Rich Mineral Water Purifier 2 adds Bama S",
+      "published": "2026-09-05T03:53:33+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2b2de9007a315e1a",
+      "title": "Citizen unveils new compact radio-controlled watch with titanium case, preorders now open",
+      "url": "https://www.notebookcheck.net/Citizen-unveils-new-compact-radio-controlled-watch-with-titanium-case-preorders-now-open.1389264.0.html",
+      "canonical": "https://www.notebookcheck.net/Citizen-unveils-new-compact-radio-controlled-watch-with-titanium-case-preorders-now-open.1389264.0.html",
+      "summary": "Citizen's ES9503-01E joins the xC hikari collection Square 2way line in Japan on 10 September at ¥110,000, or $704. The 25 mm Super Titanium case weighs just 21 g on leather, and caliber H060 adds radio reception, world time and a perpetual calendar.",
+      "published": "2026-09-05T05:06:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+4 preorder",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9f01c7bfcc9fb22d",
+      "title": "Lenovo goes MacBook Neo: Hands-on review with Lenovo's best-looking $699 laptop",
+      "url": "https://www.notebookcheck.net/Lenovo-goes-MacBook-Neo-Hands-on-review-with-Lenovo-s-best-looking-699-laptop.1389576.0.html",
+      "canonical": "https://www.notebookcheck.net/Lenovo-goes-MacBook-Neo-Hands-on-review-with-Lenovo-s-best-looking-699-laptop.1389576.0.html",
+      "summary": "Consumer laptops do not have to look boring - with the Lenovo IdeaPad vibe, Lenovo goes for a design with a few colorful twists, at an attractive price-point with many useful features. We had a chance to check it out at IFA 2026.",
+      "published": "2026-09-05T11:48:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "14bb7888455f844e",
+      "title": "Here's Motorola's wide foldable that's arriving 'in the coming months'",
+      "url": "https://www.gsmarena.com/motorola_wide_foldable_design_sketches-news-74488.php",
+      "canonical": "https://www.gsmarena.com/motorola_wide_foldable_design_sketches-news-74488.php",
+      "summary": "Samsung unveiled its first wide foldable smartphone in July, called the Galaxy Z Fold8. In August, Huawei introduced the Pura X View. On September 7, Xiaomi will unveil its wide foldable, called Xiaomi 18 Fold. A report by Android Headlines claims Motorola will also launch a wide foldable this year. The publication didn't reveal the name of Motorola's wide foldable, but it shared a few images show",
+      "published": "2026-09-05T11:50:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "728d7d08d4eb9df3",
+      "title": "Oppo A7 Pro official listing confirms key specifications and configurations",
+      "url": "https://www.gizmochina.com/2026/09/05/oppo-a7-pro-official-listing-key-specs-configurations/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/oppo-a7-pro-official-listing-key-specs-configurations",
+      "summary": "The Oppo A7 Pro is getting closer to its debut in China, with the company already putting the phone up for pre-order. Official images have also revealed its design and color options ahead of the launch. Now, the phone’s official listing has provided more details about its specifications, memory configurations, and key features. Oppo A7 [&#8230;] The post Oppo A7 Pro official listing confirms key s",
+      "published": "2026-09-05T12:42:16+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9e03b83908b6dd0a",
+      "title": "Motorola’s new Snap wireless charger hits 30W speeds and supports Qi2.2",
+      "url": "https://www.gizmochina.com/2026/09/05/motorola-moto-snap-wireless-charger-launched-price-features/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/motorola-moto-snap-wireless-charger-launched-price-features",
+      "summary": "At the IFA 2026 tech event, Motorola launched the Edge 70 Plus and Watch Ultra smartwatch, while also unveiling a new charging accessory called the Moto Snap Wireless Charger. The new accessory is designed to offer fast and convenient wireless charging for compatible devices. It also brings magnetic alignment, charging protection, and support for higher [&#8230;] The post Motorola’s new Snap wirel",
+      "published": "2026-09-05T13:22:39+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3b4c5e7df3ffae1c",
+      "title": "Affordable Xiaomi phone beats $1,500 smartphone in review for a third of the price",
+      "url": "https://www.notebookcheck.net/Affordable-Xiaomi-phone-beats-1-500-smartphone-in-review-for-a-third-of-the-price.1382950.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-Xiaomi-phone-beats-1-500-smartphone-in-review-for-a-third-of-the-price.1382950.0.html",
+      "summary": "At $1,500, the new Oppo Reno16 Pro, equipped with the Dimensity 8550, suffers a performance setback in the review. In benchmark tests, it falls short of the Poco Phone, which costs just $380 less. Thanks to its sleek design, top-notch battery life, and long-term software updates, the Oppo phone is still an interesting alternative to the iPhone 17 or Galaxy S26, priced below the MSRP.",
+      "published": "2026-09-05T09:06:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 review",
+        "+4 benchmark",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f4d7a60974ca64e8",
+      "title": "Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms",
+      "url": "https://www.tomshardware.com/tech-industry/drones/japan-to-mass-procure-3d-printed-rocket-powered-drone-interceptor-terra-b1-capable-of-countering-one-way-attack-platforms",
+      "canonical": "https://www.tomshardware.com/tech-industry/drones/japan-to-mass-procure-3d-printed-rocket-powered-drone-interceptor-terra-b1-capable-of-countering-one-way-attack-platforms",
+      "summary": "Japan’s military has decided to mass-procure Terra B1 interceptor drones. These drones are made using 3D printers and are based on the tried and tested A1 model from Terra Drone, which began to be deployed by Ukraine earlier this year.",
+      "published": "2026-09-05T10:00:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 drone",
+        "+3 3d printer",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8f3132dfae6cb7fa",
+      "title": "Insider Claims Insomniac Is Still Working on the Leaked Standalone Marvel’s Venom Game, but No-One Knows When It’ll Be Unveiled",
+      "url": "https://wccftech.com/marvels-venom-insomniac-still-in-development/",
+      "canonical": "https://wccftech.com/marvels-venom-insomniac-still-in-development",
+      "summary": "Insomniac Games is about to launch Marvel's Wolverine, but the studio's massive leak from December 2023 also revealed that they have been working on a standalone Venom game for quite some time. Still, with no official announcement of the project, fans are wondering whether it's still happening. According to insider Nate the Hate, that's absolutely the case: Venom is very much still in development,",
+      "published": "2026-09-05T08:30:00+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "35b0c813fd7f4075",
+      "title": "NVIDIA Offers GeForce RTX 50-Series Founders Edition GPUs at MSRP at PAX West",
+      "url": "https://www.techpowerup.com/352387/nvidia-offers-geforce-rtx-50-series-founders-edition-gpus-at-msrp-at-pax-west",
+      "canonical": "https://www.techpowerup.com/352387/nvidia-offers-geforce-rtx-50-series-founders-edition-gpus-at-msrp-at-pax-west",
+      "summary": "Getting any modern GPU at reasonable prices or MSRP is almost impossible these days, but NVIDIA is making an exception at this year's PAX West. At the convention in Seattle, Washington, NVIDIA is offering its GeForce RTX 50-Series Founders Edition graphics cards at MSRP pricing. This means that the GeForce RTX 5070, RTX 5080, and RTX 5090 Founders Edition GPUs can be purchased at their original pr",
+      "published": "2026-09-05T16:45:41+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/pc-components/gpus/nvidia-returns-to-selling-founders-edition-rtx-50-series-gpus-at-msrp-in-person-at-pax-west-verified-priority-access-has-rtx-5090-rtx-5080-and-rtx-5070-at-list-price"
+      ]
+    },
+    {
+      "id": "2bbe36d31d513c19",
+      "title": "Casio launches three new Master of G watches in the US with a striking Horizon Gold finish",
+      "url": "https://www.gizmochina.com/2026/09/05/casio-horizon-gold-master-of-g-watches-launched-in-the-us/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/casio-horizon-gold-master-of-g-watches-launched-in-the-us",
+      "summary": "Casio has expanded its US watch lineup with three new models from its Master of G series. The watches, which were initially released in Japan last month, are part of a new Horizon Gold collection. The lineup includes the Gravitymaster GRB300H-5A, the Mudmaster GGB100XMH-5A, and the Mudman GW9500MH-5. All three are currently available for purchase [&#8230;] The post Casio launches three new Master ",
+      "published": "2026-09-05T17:32:53+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2ce4d6e54e51b69e",
+      "title": "Timex launches striking Fender automatic watch inspired by the iconic Telecaster guitar",
+      "url": "https://www.gizmochina.com/2026/09/05/fender-x-timex-automatic-watch-telecaster-inspired-dial-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/fender-x-timex-automatic-watch-telecaster-inspired-dial-launched-specs-price",
+      "summary": "Timex has released a new automatic watch (model TW6A14600) in collaboration with guitar manufacturer Fender, priced at $499. The release is timed to coincide with Fender&#8217;s 80th anniversary as a company, as well as the 75th anniversary of the Telecaster guitar. The Fender x Timex Automatic is available now on the Timex US website. It [&#8230;] The post Timex launches striking Fender automatic",
+      "published": "2026-09-05T11:19:17+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3ea87dae0e8044dd",
+      "title": "Chieftec Showcases New Atlas Case and Rackmount Chassis at IFA 2026",
+      "url": "https://www.techpowerup.com/352380/chieftec-showcases-new-atlas-case-and-rackmount-chassis-at-ifa-2026",
+      "canonical": "https://www.techpowerup.com/352380/chieftec-showcases-new-atlas-case-and-rackmount-chassis-at-ifa-2026",
+      "summary": "The TechPowerUp team visited the Chieftec booth at IFA 2026, with some interesting offerings on display. Chieftec brought its case lineup to the show, mixing an unannounced E-ATX tower with two chassis it already launched earlier this year. The new one is the Atlas, an E-ATX case supporting up to 420 mm radiators in the front or top. It has room for three 120 mm fans behind the power supply shroud",
+      "published": "2026-09-05T12:41:43+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6eca012120e7e95a",
+      "title": "Motorola Edge 70 Neo’s India launch officially confirmed",
+      "url": "https://www.gizmochina.com/2026/09/05/motorola-edge-70-neo-india-launch-officially-confirmed/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/motorola-edge-70-neo-india-launch-officially-confirmed",
+      "summary": "A report that emerged in August revealed that Motorola had begun Android 17 beta testing for an upcoming phone called the Edge 70 Neo. Later, another report revealed a leaked render showcasing its design and color variants. In the latest development, the brand has officially confirmed the existence of the device. Motorola Edge 70 Neo [&#8230;] The post Motorola Edge 70 Neo’s India launch officiall",
+      "published": "2026-09-05T13:09:46+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0a786584d9ce1e3b",
+      "title": "Samsung Galaxy A18 4G leaks in full: renders, specs and price",
+      "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g_leaks_in_full_renders_specs_and_price-news-74490.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_a18_4g_leaks_in_full_renders_specs_and_price-news-74490.php",
+      "summary": "Wait, Galaxy A18 4G? Isn't that still way off in the future and meant to come out in 2027? Well, no. We get the confusion. Unless you live in the US, the Galaxy A17 5G and Galaxy A17 4G actually came out last year in 2026. The Galaxy A27, A37 and even the A07 are, indeed, 2026 models, but Samsung has decided to stick to its one-year refresh cycle rather than worry about naming and year consistency",
+      "published": "2026-09-05T15:07:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 price",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "406e8372ae21b0c1",
+      "title": "Pixel Watch 5 teardown results in another rare rating from iFixit",
+      "url": "https://www.notebookcheck.net/Pixel-Watch-5-teardown-results-in-another-rare-rating-from-iFixit.1389615.0.html",
+      "canonical": "https://www.notebookcheck.net/Pixel-Watch-5-teardown-results-in-another-rare-rating-from-iFixit.1389615.0.html",
+      "summary": "iFixit’s teardown reveals that the Google Pixel Watch 5 maintains its predecessor’s repair-friendly design. The smartwatch adds modest hardware upgrades and clearer disassembly cues, though display removal remains relatively complex.",
+      "published": "2026-09-05T21:59:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+5 teardown",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4c63f42677dd877b",
+      "title": "Timex launches new Marlin automatic watch with classic Tonneau case and white dial",
+      "url": "https://www.notebookcheck.net/Timex-launches-new-Marlin-automatic-watch-with-classic-Tonneau-case-and-white-dial.1389271.0.html",
+      "canonical": "https://www.notebookcheck.net/Timex-launches-new-Marlin-automatic-watch-with-classic-Tonneau-case-and-white-dial.1389271.0.html",
+      "summary": "Timex has unveiled the new Marlin Tonneau TW2Y84300IK, a 36 mm automatic watch featuring a vintage Tonneau case and white dial. The stainless steel case of the watch is paired with a black leather strap with quick-release spring bars. Plus, it comes with 50 m (5 bar) of water resistance.",
+      "published": "2026-09-05T08:59:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7b72173947e12642",
+      "title": "New AA and AAA lithium-ion batteries with USB-C unveiled",
+      "url": "https://www.notebookcheck.net/New-AA-and-AAA-lithium-ion-batteries-with-USB-C-unveiled.1390050.0.html",
+      "canonical": "https://www.notebookcheck.net/New-AA-and-AAA-lithium-ion-batteries-with-USB-C-unveiled.1390050.0.html",
+      "summary": "Verbatim plans to launch lithium-ion AA and AAA rechargeable batteries, along with a 9V battery. All models can be charged via USB-C, eliminating the need for a dedicated battery charger. Thanks to voltage conversion, the rechargeable batteries can replace standard disposable batteries.",
+      "published": "2026-09-05T17:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "810d7a179b326d47",
+      "title": "Here’s how iPhone Ultra’s form factor could compare to other Apple products",
+      "url": "https://9to5mac.com/2026/09/05/iphone-ultra-form-factor-comparison/",
+      "canonical": "https://9to5mac.com/2026/09/05/iphone-ultra-form-factor-comparison",
+      "summary": "This month, Apple will be unveiling its first foldable iPhone – rumored to be called iPhone Ultra. It’s going to feature a 5.5-inch outer display and 7.6-inch inner display. In July, Samsung introduced the new Galaxy Z Fold 8 – and it comes with those same screen sizes. Whether or not you believe Samsung only made this phone to preempt the iPhone Ultra is a different story – but one way or another",
+      "published": "2026-09-05T19:15:18+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a7cafada03073484",
+      "title": "Pixel Watch 5 Leaves the Latch Unlocked for Simple Repairs",
+      "url": "https://www.techeblog.com/google-pixel-watch-5-repair-fix-teardown/",
+      "canonical": "https://www.techeblog.com/google-pixel-watch-5-repair-fix-teardown",
+      "summary": "Most smartwatches get glued shut, live a short life, and then sit in a drawer. Google’s Pixel Watch 5 still refuses that fate. iFixit’s teardown team opened the 45 mm model and handed it a provisional 9 out of 10 on the smartwatch repairability scale, the same mark last year’s Pixel Watch 4 earned, with [...]",
+      "published": "2026-09-05T20:49:44+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+5 teardown",
+        "+3 smartwatch",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6a4cece98153cd92",
+      "title": "DLSS 5 officially launches inside NBA 2K27, limited to RTX 50-series GPUs for now — Nvidia promises to bring neutral rendering tech to RTX 40-series soon",
+      "url": "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
+      "canonical": "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
+      "summary": "Nvidia's controversial neural-rendering tech, DLSS 5, is now officially available in NBA 2K27, marking the start of a new era for the company. DLSS 5 will also come to RTX 40-series soon after current work on optimizing it for the RTX 50-series has reached a satisfactory state.",
+      "published": "2026-09-04T23:09:31+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1afb1cac0ab1060b",
+      "title": "Samsung Galaxy S27 Pro, S27 Ultra certification reveals 60W charging speed",
+      "url": "https://www.gizmochina.com/2026/09/05/samsung-galaxy-s27-pro-s27-ultra-3c-certified/",
+      "canonical": "https://www.gizmochina.com/2026/09/05/samsung-galaxy-s27-pro-s27-ultra-3c-certified",
+      "summary": "For years, Samsung’s flagship phones have been limited to 45W fast charging, with the company sticking to the same charging speed across several generations. That finally changed with the Galaxy S26 Ultra, which introduced support for faster 60W charging. Now, a new certification suggests that Samsung could retain the 60W charging support on the upcoming [&#8230;] The post Samsung Galaxy S27 Pro, ",
+      "published": "2026-09-05T05:24:48+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-Galaxy-S27-Ultra-S27-Pro-certification-reveals-60W-charging-speeds.1389274.0.html"
+      ]
+    },
+    {
+      "id": "4434ea187cba883e",
+      "title": "First Wi-Fi 8 gaming router ROG Rapture GT-BN98 launches at a hefty price in North America",
+      "url": "https://www.notebookcheck.net/First-Wi-Fi-8-gaming-router-ROG-Rapture-GT-BN98-launches-at-a-hefty-price-in-North-America.1389415.0.html",
+      "canonical": "https://www.notebookcheck.net/First-Wi-Fi-8-gaming-router-ROG-Rapture-GT-BN98-launches-at-a-hefty-price-in-North-America.1389415.0.html",
+      "summary": "After teasing its ROG Rapture GT-BN98 router back at the Computex expo, Asus has now released it in North America at a price nearing a grand. This makes it the world's first commercially available Wi-Fi 8 router ahead of the standard's IEEE approval.",
+      "published": "2026-09-05T09:37:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "35def95aebfd734f",
+      "title": "SmallRig launches power banks that bolt straight onto your camera rig",
+      "url": "https://www.notebookcheck.net/SmallRig-launches-power-banks-that-bolt-straight-onto-your-camera-rig.1389275.0.html",
+      "canonical": "https://www.notebookcheck.net/SmallRig-launches-power-banks-that-bolt-straight-onto-your-camera-rig.1389275.0.html",
+      "summary": "SmallRig has launched the Nano Power Bank Series, designed specifically for videographers and content creators needing modular mounting for camera rigs. The lineup includes the $59 Nano 36 (10,000mAh, 45W output) and the $80 Nano 72 (20,000mAh, 100W output), both featuring an integrated retractable USB-C cable.",
+      "published": "2026-09-05T09:38:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 power bank",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d4e9665cd77207a6",
+      "title": "Nvidia confirms DLSS 5 is coming to RTX 40-series GPUs, but Ada Lovelace owners have no release date yet",
+      "url": "https://www.notebookcheck.net/Nvidia-confirms-DLSS-5-is-coming-to-RTX-40-series-GPUs-but-Ada-Lovelace-owners-have-no-release-date-yet.1388828.0.html",
+      "canonical": "https://www.notebookcheck.net/Nvidia-confirms-DLSS-5-is-coming-to-RTX-40-series-GPUs-but-Ada-Lovelace-owners-have-no-release-date-yet.1388828.0.html",
+      "summary": "Nvidia has confirmed that DLSS 5 will eventually support RTX 40-series GPUs, though it hasn't announced a release date, as optimization remains focused on the RTX 50 series. The compute-intensive neural rendering technology enhances lighting, shadows, and facial detail, delivering improved visual fidelity at a significant performance cost.",
+      "published": "2026-09-05T11:07:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 announced",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8e7858108ef87b4e",
+      "title": "The RugOne Xsnap 7 Pro is the weirdest smartphone I’ve seen in a while—and I love it",
+      "url": "https://thegadgetflow.com/blog/rugone-xsnap-7-pro/",
+      "canonical": "https://thegadgetflow.com/blog/rugone-xsnap-7-pro",
+      "summary": "If you&#8217;ve seen one smartphone, you&#8217;ve seen them all—boring slabs whose design, apart from the occasional flip phone or foldable, hasn&#8217;t seen a meaningful upgrade since touchscreens were invented. That changes today, with the RugOne Xsnap 7 Pro, unveiled at.. The post The RugOne Xsnap 7 Pro is the weirdest smartphone I&#8217;ve seen in a while—and I love it appeared first on Gadge",
+      "published": "2026-09-05T11:09:37+00:00",
+      "source_id": "gadgetflow",
+      "source": "Gadget Flow",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 unveil",
+        "+3 foldable",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "94fd2593a4f2b253",
+      "title": "Minisforum Introduces MS-S1 MAX-P495 Mini PC, Powered By Ryzen AI Max+ PRO 495 SoC Coupled With 192 GB Memory",
+      "url": "https://wccftech.com/minisforum-introduces-ms-s1-max-p495-mini-pc/",
+      "canonical": "https://wccftech.com/minisforum-introduces-ms-s1-max-p495-mini-pc",
+      "summary": "The new mini PC can offer up to 131 TOPS of AI power, allowing it to run 300B LLMs locally. Minisforum Showcases MS-S1 MAX-P495 Mini PC With 16-Core/32-Thread Gorgon Halo Processor, 192 GB RAM, and a Dedicated PCIe x16 Slot for Expansion Cards Multiple vendors are now releasing their new Gorgon Halo-based mini PCs, including Minisforum, which has announced its flagship mini PC called MS-S1 MAX-P49",
+      "published": "2026-09-05T12:08:41+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 announced",
+        "+4 mini pc",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
