@@ -39,21 +39,53 @@ products:
     url: https://jp.nothing.tech/products/ear-a
     source: https://support.nothing.tech/hc/ja
     availability: verified
-  - name: Nexode Mini 45W White
-    brand: UGREEN
-    image: "https://ugreen.jp/cdn/shop/files/15331-3.png?v=1726229737"
-    credit: UGREEN公式サイト(ugreen.jp)
-    price: 3,980円(掲載時点)
-    where: UGREEN公式サイト(ugreen.jp)、楽天市場のUGREEN公式店から購入できる
-    giteki: 無線を積まない有線専用の充電器のため、そもそも技適の対象外。確認すべきは電気用品安全法(PSE)の側で、UGREEN公式が国内で直接販売している時点で要件を満たしているとみなせる
+  - name: ScreenBar Pro Silver
+    brand: BenQ
+    image: "https://image.benq.com/is/image/benqco/cr21-2colors"
+    credit: BenQ Japan公式サイト
+    price: 19,900円(掲載時点)
+    where: BenQ公式店(ベンキューダイレクト楽天市場店)、BenQ Japan公式サイトから購入できる
+    giteki: 対象外とみなせる。無線機能を持たず、Type-CでPCやモニターから給電するため、無線・AC電源いずれの認証も関係しない
     note: |
-      角を丸めた白い立方体に、USB-Cポートが2つ並ぶだけ。UGREENのNexode Mini 45Wは無線を一切積まない有線専用の充電器で、技適の対象そのものになりません。確認が必要なのは電波法ではなく、電気用品安全法(PSE)の側になります。
+      モニターの上端に引っかけて使う、クランプ式のデスクライトです。BenQのScreenBar Proはシルバーとブラックの2色展開で、画面には光を当てずデスク面だけを照らす非対称配光(ASYM-LIGHT)を採用しています。
 
-      サイズは約49×39.5×39.5mm、重さ約100gと手のひらに収まる大きさながら、GaN(窒化ガリウム)採用で45W出力に対応します。PD・QC・PPS・FCP・AFCなど主要な急速充電規格をひと通りカバーしており、ノートPCよりスマートフォン中心の持ち運び用途に向きます。
+      中央照度1000ルクス以上、85×50cmの範囲で500ルクスを確保しつつ、電源はUSB Type-C給電。無線機能もACアダプターも持たないため、技適・PSEいずれの対象にもなりません。湾曲モニターにも対応します。
 
-      価格は3,980円(掲載時点)。UGREEN公式サイトから直接購入できるほか、楽天市場のUGREEN公式店でも扱いがあります。
-    url: https://ugreen.jp/products/nexode-mini-45w-gan-fast-charger-white
-    source: https://ugreen.jp/products/nexode-mini-45w-gan-fast-charger-white
+      日本ではBenQ公式のベンキューダイレクト楽天市場店から直接購入でき、価格は19,900円(掲載時点)。
+    url: https://item.rakuten.co.jp/benq-directshop/lighting-screenbar-pro/
+    source: https://www.benq.com/ja-jp/lighting/monitor-light/screenbar-pro/spec.html
+    availability: verified
+  - name: Y60 Snow White
+    brand: HYTE
+    image: "https://makeshop-multi-images.akamaized.net/linksoutlet/itemimages/000000012488_dTbBLKu.jpg"
+    credit: リンクスダイレクト(株式会社リンクスインターナショナル)
+    price: 33,470円(税込、掲載時点)
+    where: 日本正規代理店の株式会社リンクスインターナショナル(リンクスダイレクト)から購入できる
+    giteki: 対象外とみなせる。PCケース本体は電源(電源ユニットは別売)も無線機能も持たないため、技適・PSEいずれの対象にもならない
+    note: |
+      ピラーレス構造のパノラマ強化ガラスで、中身のパーツをそのまま見せるミドルタワーケースです。HYTEのY60は角を落とした八角形のシルエットで、一般的な四角いPCケースの中に置くと明らかに異質な形をしています。
+
+      ガラス面には継ぎ目となる柱が無く、正面から側面まで一枚のガラスのように見える構造です。電源ユニットは別売、無線機能も持たないため、技適・PSEいずれの対象にもなりません。確認すべきは代理店経由の正規流通かどうかだけです。
+
+      日本正規代理店の株式会社リンクスインターナショナルが自社ECサイト「リンクスダイレクト」で直接販売しており、価格は33,470円(税込、掲載時点)。
+    url: https://www.links-direct.jp/view/item/000000012488
+    source: https://www.links.co.jp/item/hyte-y60-snow-white/
+    availability: verified
+  - name: iLoud Micro Monitor White
+    brand: IK Multimedia
+    image: "https://www.ikmultimedia.com/products/iloudmm/images/1.0/iloudmm_white_U6A1505_v3_rz_1500.jpg"
+    credit: IK Multimedia公式サイト
+    price: 60,500円(税込、価格.com調べ、掲載時点)
+    where: 日本正規代理店のHookup, Inc.、サウンドハウスなど国内の楽器店から購入できる
+    giteki: 取得済みとみなせる。Bluetooth(A2DP)を積む機器で、日本正規代理店経由での国内販売は技適を通っていることが前提になる
+    note: |
+      デスクに置く2本一組のパワードモニタースピーカーで、IK Multimediaのラインアップの中では最小サイズにあたります。iLoud Micro Monitorのホワイトは、黒一色のプロオーディオ機材が並ぶ中で目立つ色展開です。
+
+      RCA・3.5mmミニジャックの有線入力に加えてBluetooth(A2DP)接続にも対応し、本体裏のボタンでペアリングモードに入れます。制作時は有線、普段使いは無線と使い分けられる構成です。
+
+      日本正規代理店のHookup, Inc.が取り扱い、サウンドハウスなど国内の楽器店でも購入できます。価格は60,500円(税込、価格.com調べ、掲載時点)。
+    url: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
+    source: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
     availability: verified
   - name: K3 Max White
     brand: Keychron
@@ -70,22 +102,6 @@ products:
       日本正規代理店のKOPEK JAPAN(SUPER KOPEK)が「国内正規代理店のKeychron製品は技適を取得した製品となる」と公式に明記しており、価格は19,360円(掲載時点)。
     url: https://superkopek.jp/products/keychron-k3max-white
     source: https://superkopek.jp/products/keychron-k3max-white
-    availability: verified
-  - name: Palm C1 30W White
-    brand: Baseus
-    image: "https://baseus.co.jp/cdn/shop/files/7_ced279a4-6839-4767-8ff3-c1512f02ceff.jpg?v=1757638766&width=1600"
-    credit: Baseus公式サイト(baseus.co.jp)
-    price: 2,499円(Amazon.co.jp調べ、掲載時点)
-    where: Baseus公式サイト(baseus.co.jp)、Amazon.co.jpから購入できる
-    giteki: 無線を積まない有線専用の充電器のため技適の対象外。電気用品安全法(PSE)については、同型番のAmazon.co.jp掲載ページに「PSE認証済」と明記されている
-    note: |
-      角を丸めた白い立方体に、Type-Cポートがひとつ。BaseusのPalm C1は本体の高さを充電コネクタとほぼ揃えており、同じ30W帯の充電器と比べても手のひらに収まりやすい形にまとまっています。
-
-      USB-C×1ポートで最大30W出力に対応し、PD3.0・PPSなど主要な急速充電規格をカバーします。無線機能を積まない有線専用の充電器のため、技適の対象にはなりません。同型番のAmazon.co.jp掲載ページには「PSE認証済」と明記されています。
-
-      日本ではBaseus公式サイト(baseus.co.jp)から直接購入できるほか、Amazon.co.jpでも取り扱いがあります。価格は2,499円(Amazon.co.jp調べ、掲載時点)。
-    url: https://baseus.co.jp/products/palm-c1-30w
-    source: https://www.amazon.co.jp/-/en/Charger-Multiprotocol-Compatible-Lightweight-Android/dp/B0DR2M72D7
     availability: verified
   - name: Soundcore Select 4 Go White
     brand: Anker
