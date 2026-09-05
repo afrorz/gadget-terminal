@@ -1664,7 +1664,7 @@ img{max-width:100%}
 
 /* ── ページ送り ─────────────────────────────── */
 .pager{display:flex;align-items:center;justify-content:space-between;gap:16px;
-  margin:36px 0 8px;padding-top:20px;border-top:1px solid var(--rule);
+  margin:36px 0 8px;padding-top:20px;
   font-family:var(--mono);font-size:12px;letter-spacing:.04em}
 .pager-link{color:var(--ink-2);text-decoration:none;padding:6px 10px;border:1px solid var(--rule-2);border-radius:3px}
 .pager-link:hover{color:var(--ink);border-color:var(--accent)}
