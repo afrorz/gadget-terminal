@@ -71,6 +71,38 @@ products:
     url: https://superkopek.jp/products/keychron-k3max-white
     source: https://superkopek.jp/products/keychron-k3max-white
     availability: verified
+  - name: Palm C1 30W White
+    brand: Baseus
+    image: "https://baseus.co.jp/cdn/shop/files/7_ced279a4-6839-4767-8ff3-c1512f02ceff.jpg?v=1757638766&width=1600"
+    credit: Baseus公式サイト(baseus.co.jp)
+    price: 2,499円(Amazon.co.jp調べ、掲載時点)
+    where: Baseus公式サイト(baseus.co.jp)、Amazon.co.jpから購入できる
+    giteki: 無線を積まない有線専用の充電器のため技適の対象外。電気用品安全法(PSE)については、同型番のAmazon.co.jp掲載ページに「PSE認証済」と明記されている
+    note: |
+      角を丸めた白い立方体に、Type-Cポートがひとつ。BaseusのPalm C1は本体の高さを充電コネクタとほぼ揃えており、同じ30W帯の充電器と比べても手のひらに収まりやすい形にまとまっています。
+
+      USB-C×1ポートで最大30W出力に対応し、PD3.0・PPSなど主要な急速充電規格をカバーします。無線機能を積まない有線専用の充電器のため、技適の対象にはなりません。同型番のAmazon.co.jp掲載ページには「PSE認証済」と明記されています。
+
+      日本ではBaseus公式サイト(baseus.co.jp)から直接購入できるほか、Amazon.co.jpでも取り扱いがあります。価格は2,499円(Amazon.co.jp調べ、掲載時点)。
+    url: https://baseus.co.jp/products/palm-c1-30w
+    source: https://www.amazon.co.jp/-/en/Charger-Multiprotocol-Compatible-Lightweight-Android/dp/B0DR2M72D7
+    availability: verified
+  - name: Soundcore Select 4 Go White
+    brand: Anker
+    image: "https://www.ankerjapan.com/cdn/shop/files/A31X1-WHITE.jpg?crop=center&height=1200&v=1763477952&width=1200"
+    credit: Anker Japan公式オンラインストア
+    price: 3,990円(税込、掲載時点)
+    where: Anker Japan公式オンラインストア(ankerjapan.com)、Amazon.co.jp(AnkerDirect発送)から購入できる
+    giteki: 取得済みとみなせる。Bluetooth機器をAnker公式の日本向けストアが直接販売している時点で、技適を通っていることが前提になる
+    note: |
+      手のひらに収まる楕円形のボディに、ファブリック素材の白い外装。AnkerのSoundcore Select 4 Goは、IP67の防塵・防水規格に対応しており、屋外に持ち出す前提で作られています。
+
+      出力5W、最大20時間再生とスペックは控えめですが、パッシブラジエーターで低音を補い、2台でワイヤレスステレオを組むこともできます。カラビナ状のループが付き、バッグやベルトに引っかけて持ち歩けます。
+
+      日本ではAnker Japan公式オンラインストア(ankerjapan.com)から直接購入でき、Amazon.co.jpでもAnker公式(AnkerDirect)が発送元として扱っています。価格は3,990円(税込、掲載時点)。
+    url: https://www.ankerjapan.com/products/a31x1
+    source: https://www.ankerjapan.com/products/a31x1
+    availability: verified
 excluded:
   - name: Apple製品(AirPods Max Starlight、iPad 白 等)
     why: 技適・PSEをクリアしていることが自明で、この特集で確認する価値がありません。「確認しないと分からない海外ブランドの白モノ」を並べる主旨とずれるため、意図的に外しました。
