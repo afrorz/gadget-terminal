@@ -1596,7 +1596,7 @@ img{max-width:100%}
   --bg:#14172e; --surface:#1a1e38; --raised:#212643;
   --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
   --rule:#262c4c; --rule-2:#333a5e;
-  position:relative;color:var(--ink);margin-bottom:40px;padding-bottom:16px}
+  position:relative;color:var(--ink);margin-bottom:40px;padding:0 16px 16px}
 /* 背景だけをビューポート全幅までブリードさせ、中身（見出し・行）は
    .wrap と同じ位置に留める定番の breakout テクニック。
    50vw はビューポート基準の絶対値なので、祖先の max-width や
