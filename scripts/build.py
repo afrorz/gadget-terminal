@@ -252,7 +252,8 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b0d10">
+<meta name="theme-color" content="#f6f7f9">
+<script>(function(){{try{{if(localStorage.getItem("gt-theme")==="dark"){{document.documentElement.setAttribute("data-theme","dark");document.querySelector('meta[name=theme-color]').content="#0a0d16";}}}}catch(e){{}}}})();</script>
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{html.escape(full_url)}">
@@ -293,9 +294,24 @@ def header(site: dict) -> str:
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
     <nav class="nav">{cats}<a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
+      <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
+    </button>
     <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
   </div>
-</header>"""
+</header>
+<script>(function(){{
+var b=document.currentScript.previousElementSibling.querySelector("[data-theme-toggle]");
+b.addEventListener("click",function(){{
+  var dark=document.documentElement.getAttribute("data-theme")==="dark";
+  var next=dark?"light":"dark";
+  if(next==="dark")document.documentElement.setAttribute("data-theme","dark");
+  else document.documentElement.removeAttribute("data-theme");
+  try{{localStorage.setItem("gt-theme",next);}}catch(e){{}}
+  var m=document.querySelector('meta[name=theme-color]');
+  if(m)m.content=next==="dark"?"#0a0d16":"#f6f7f9";
+}});
+}})();</script>"""
 
 
 def footer(site: dict) -> str:
@@ -1430,10 +1446,13 @@ CSS = """
 /* ============================================================
    Gadget Terminal — 出発案内板を設計言語にしたダークテーマ
    ============================================================ */
+/* 既定はライト（薄いグレー）。data-theme="dark" のときだけダーク側の値に差し替える。
+   .board（発着案内板）だけは常にダークパネル固定で、テーマの影響を受けない
+   （下の .board 定義を参照）。 */
 :root{
-  --bg:#0a0d16; --surface:#10141f; --raised:#151a27;
-  --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
-  --rule:#1c212e; --rule-2:#272e40;
+  --bg:#f6f7f9; --surface:#eff1f3; --raised:#e7eaed;
+  --ink:#1a1e24; --ink-2:#5c6570; --ink-3:#8d95a0;
+  --rule:#e7e9ec; --rule-2:#dadde1;
   --accent:#ff6b3d;
   --cat:var(--accent);
   --max:1280px; --measure:36rem;
@@ -1441,15 +1460,18 @@ CSS = """
   --disp:"Space Grotesk","Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
   --sans:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
 }
+[data-theme="dark"]{
+  --bg:#0a0d16; --surface:#10141f; --raised:#151a27;
+  --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
+  --rule:#1c212e; --rule-2:#272e40;
+}
 .cat-smartphone{--cat:#ff6b3d}
 .cat-pc{--cat:#4fb3c4}
 .cat-weird{--cat:#d9b45f}
 
-/* 生成する画像がダーク固定のため、UIもダークに統一する。
-   ライトモードにすると画像だけ黒い板になって不整合が出る。 */
-
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;color-scheme:dark}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;color-scheme:light}
+html[data-theme="dark"]{color-scheme:dark}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
   font-size:15px;line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 a{color:inherit;text-decoration:none}
@@ -1486,6 +1508,18 @@ img{max-width:100%}
 .nav-about{--cat:var(--ink-3)}
 .nav-jp{--cat:#d9b45f}
 
+/* ダーク／ライト切り替え。案内板と違い、ページ全体はこのボタンで反転する。
+   アイコンは「押すとどうなるか」ではなく「切り替え先」を示す
+   （ライト表示中は月＝押すとダークになる、を出す）。 */
+.theme-toggle{flex:none;display:inline-flex;align-items:center;justify-content:center;
+  width:28px;height:28px;border:1px solid var(--rule-2);border-radius:2px;
+  background:transparent;color:var(--ink-2);cursor:pointer;font-size:13px;line-height:1;
+  transition:border-color .18s,color .18s}
+.theme-toggle:hover{color:var(--ink);border-color:var(--accent)}
+.tt-ic-sun{display:none}
+[data-theme="dark"] .tt-ic-moon{display:none}
+[data-theme="dark"] .tt-ic-sun{display:inline}
+
 /* ── ヒーロー ───────────────────────────────── */
 .hero{padding:30px 0 20px}
 .hero-sm{padding:32px 0 22px;border-bottom:1px solid var(--rule);margin-bottom:0}
@@ -1502,11 +1536,23 @@ img{max-width:100%}
 .faq dt,.faq dd{word-break:auto-phrase}
 
 /* ── 出発案内板 ─────────────────────────────── */
-.board{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-bottom:40px}
+/* 案内板は明るいターミナルビルの中で光る実物の掲示板と同じで、
+   ページ全体のテーマ（ライト/ダーク）に関わらず常にダークパネル固定。
+   中の要素は var(--bg)/var(--ink) 等しか参照していないので、
+   ここで変数を上書きするだけで内部の設計は変えずに済む。 */
+.board{
+  --bg:#0a0d16; --surface:#10141f; --raised:#151a27;
+  --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
+  --rule:#1c212e; --rule-2:#272e40;
+  background:var(--bg);color:var(--ink);
+  border:1px solid var(--rule);border-radius:8px;
+  padding:0 20px;margin-bottom:40px;
+  box-shadow:0 28px 54px -30px rgba(10,13,22,.4);
+  overflow:hidden}
 /* 見出しの飛行機は ISO 7001 の到着ピクトグラム（機首を下げた機体＋接地線）。
    本物の案内板に飛行機の絵は無く、あるのはこの見出しの位置だけ。
    サイト内の他の場所にアイコンを散らさないこと。空港ではなく旅行ブログに見える。 */
-.board-title{display:flex;align-items:center;gap:11px;margin:0;padding:16px 4px 13px;
+.board-title{display:flex;align-items:center;gap:11px;margin:0;padding:16px 0 13px;
   font-family:var(--mono);font-weight:600;font-size:13px;letter-spacing:.2em;
   border-bottom:1px solid var(--rule)}
 .pict-arr{width:19px;height:19px;flex:none;fill:var(--accent)}
@@ -1517,9 +1563,9 @@ img{max-width:100%}
 .board-head,.board-row{display:grid;
   grid-template-columns:64px 74px 44px 150px minmax(0,1fr) 150px 20px;
   align-items:center;gap:14px;font-family:var(--mono);font-size:11.5px}
-.board-head{padding:7px 4px;color:var(--ink-3);font-size:9.5px;letter-spacing:.16em;
+.board-head{padding:7px 0;color:var(--ink-3);font-size:9.5px;letter-spacing:.16em;
   border-bottom:1px solid var(--rule)}
-.board-row{padding:8px 4px;border-bottom:1px solid var(--rule);position:relative;
+.board-row{padding:8px 0;border-bottom:1px solid var(--rule);position:relative;
   transition:background .16s,padding-left .16s}
 .board-row:last-child{border-bottom:0}
 .board-row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;
