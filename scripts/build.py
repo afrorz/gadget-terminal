@@ -1561,7 +1561,8 @@ def render_about(site: dict) -> str:
       <p>記事内容の訂正・削除のご依頼、その他のお問い合わせは下記までご連絡ください。</p>
       <ul>
         <li>一般のお問い合わせ： <a href="mailto:{s.get('contact_email','')}">{html.escape(s.get('contact_email',''))}</a></li>
-        <li>製品情報・取材のご連絡： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a></li>
+        <li>製品情報・取材のご連絡： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a>
+        （掲載基準は<a href="{u("media.html")}">メディア関係者の方へ</a>をご確認ください）</li>
 {x_row}
       </ul>
       <p>運営： {html.escape(s['author'])}</p>
@@ -1571,6 +1572,73 @@ def render_about(site: dict) -> str:
   </article>
 </main>"""
     return head(site, f"運営について — {s['title']}", "編集方針・免責・お問い合わせ", "about.html") + header(site) + body + footer(site)
+
+
+def render_media(site: dict, posts: list[dict]) -> str:
+    """メディアキット。PR TIMES 登録（2026-09-02 承認）を営業導線に変えるページ。
+
+    **できないことを盛らない。** 署名記事は無い、実機レビューもまだ無い。
+    PR TIMES の審査でもここを正直に伝えて通っている（docs/PRTIMES申請.md）。
+    誇張すると企業側の期待とのズレが後で問題になる。
+    """
+    s = site["site"]
+    n = len(posts)
+    dates = sorted(p["date"] for p in posts)
+    since = dates[0] if dates else ""
+    _xa = str(s.get("x_account") or "").strip().lstrip("@")
+    x_row = (f'<li>公式X： <a href="https://x.com/{html.escape(_xa)}" '
+             f'target="_blank" rel="noopener">@{html.escape(_xa)}</a></li>') if _xa else ""
+    body = f"""
+<main class="wrap article-wrap">
+  <article class="article">
+    <p class="eyebrow">MEDIA KIT</p>
+    <h1 class="article-title">メディア関係者の方へ</h1>
+    <div class="prose">
+      <p>{html.escape(s['title'])}は、海外で報じられてまだ日本語記事が無いガジェットを
+      毎日紹介するメディアです。とくにクラウドファンディング発の新製品を優先して扱います。</p>
+
+      <h2>この媒体について</h2>
+      <ul>
+        <li>運営: {html.escape(s['author'])}</li>
+        <li>公開記事数: {n}本（{since.replace('-', '.')} 〜、ほぼ毎日更新）</li>
+        <li>PR TIMES メディアユーザー登録済み</li>
+{x_row}
+      </ul>
+
+      <h2>掲載基準</h2>
+      <p>大手の新製品発表やプレスリリースの転載は扱いません。判断基準は次の3つです。</p>
+      <ul>
+        <li>海外で報じられて、まだ日本語記事が無いこと</li>
+        <li>価格・仕様・調達額など、数字が確認できること</li>
+        <li>「日本から買えるか・使えるか」が論点になること（技適・PSE・国内流通を必ず確認して書きます）</li>
+      </ul>
+      <p>クラウドファンディング案件は「まだ製品ではない」ことを必ず明記します。
+      出資は購入ではなく、納期遅延や仕様変更のリスクがある前提で書きます。</p>
+
+      <h2>現状、できないこと</h2>
+      <p>正直にお伝えします。<strong>署名記事・実機レビューはまだ行っていません。</strong>
+      海外一次情報をもとに編集部が構成する記事のみです。実機提供いただいた場合も、
+      レビュー記事の形での掲載をお約束するものではありません。</p>
+
+      <h2>広告・PRの表記について</h2>
+      <p>報酬を受けて掲載する場合は、本文中に<strong>【PR】</strong>と明記します。
+      無表記の記事はすべて編集部の独立した判断によるものです。報酬の有無にかかわらず、
+      製品の技適・PSE適合状況や入手性についての記載は変えません。</p>
+
+      <h2>ご連絡方法</h2>
+      <p>製品情報・プレスリリース・取材のご連絡は下記までお願いします。
+      掲載可否は上記の基準に沿って編集部が判断します。</p>
+      <ul>
+        <li>製品情報・取材： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a></li>
+        <li>その他のお問い合わせ： <a href="mailto:{s.get('contact_email','')}">{html.escape(s.get('contact_email',''))}</a></li>
+      </ul>
+      <p><a href="{u("about.html")}">運営・編集方針についてはこちら</a></p>
+    </div>
+  </article>
+</main>"""
+    return (head(site, f"メディア関係者の方へ — {s['title']}",
+                 "掲載基準・PR表記ルール・ご連絡先", "media.html")
+            + header(site) + body + footer(site))
 
 
 def _json_str(v: str) -> str:
@@ -1604,7 +1672,7 @@ def render_feed(site: dict, posts: list[dict]) -> str:
 def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = None) -> str:
     base = site["site"]["base_url"].rstrip("/")
     # jpn.html は 2026-09 まで漏れていた。増えた固定ページはここに足すこと。
-    urls = [f"{base}/", f"{base}/about.html", f"{base}/privacy.html",
+    urls = [f"{base}/", f"{base}/about.html", f"{base}/media.html", f"{base}/privacy.html",
             f"{base}/jpn.html", f"{base}/features.html"]
     urls += [f"{base}/{f['path']}" for f in (features or [])]
     per_page = int(site["site"].get("posts_per_page") or 20)
@@ -2243,6 +2311,7 @@ def main() -> int:
     if total_pages > 1:
         print(f"■ ページ送り {total_pages}ページ ({per_page}件/ページ)")
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")
+    (PUBLIC / "media.html").write_text(render_media(site, posts), encoding="utf-8")
     (PUBLIC / "jpn.html").write_text(render_domestic_cf(site, posts), encoding="utf-8")
     (PUBLIC / "features.html").write_text(render_features_index(site, features),
                                           encoding="utf-8")
