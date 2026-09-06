@@ -266,24 +266,24 @@ v2 のメディアAPIは `Authorization: Bearer` を要求し、1.0a では通�
 - 引用する場合は、出典明示・引用部分の明確な区別・主従関係（自分の記述が主）の3点を守る
 - 訂正依頼への窓口を `about.html` に用意しておく（現在「準備中」。連絡先を入れること）
 
-## Google Search Console（2026-09-06 時点で未登録）
+## Google Search Console（登録・確認済み）
 
-**いま最も欠けている計測。** Cloudflare Web Analytics は「何人来たか」しか
-分からず、**どの検索語で表示されて何位だったか**が見えない。伸びたテーマの
-まとめ記事を作るという育て方（下の「育て方のロードマップ」）は、この数字が
-無いと判断できない。
+**2026-09-06 に確認: 既に登録・確認済みだった。** 8/13〜のデータが残っており、
+以前（本人が忘れていた時期）に設定済みだったとみられる。RUNBOOK に
+「未登録」と書いていたのは誤りだったので消した。`site.yaml` の
+`search_console_verification`（HTMLタグ方式の受け口）は実装してあるが、
+このプロパティは別の方式（ドメインプロパティ？）で確認済みの可能性があり、
+現状は未使用でも実害はない。
 
-1. https://search.google.com/search-console/ に afrorz@gmail.com で入る
-2. プロパティを追加 → **URLプレフィックス**（`https://gadgetterminal.com`）を選ぶ
-   - ドメインプロパティを選ぶと DNS を触ることになるので、こちらのほうが早い
-3. 確認方法で **「HTMLタグ」** を選ぶ。出てくる
-   `<meta name="google-site-verification" content="XXXX">` の **content の中身だけ**を
-   `config/site.yaml` の `search_console_verification` に入れる
-4. `python scripts/build.py; git add -A; git commit -m "chore: Search Console の確認タグ"; git push`
-   → 数分でデプロイされたら、Search Console の「確認」を押す
-5. 確認後、サイトマップに `sitemap.xml` を送信する
+プロパティ: `gadgettermina.com`（Search Console 上の表示名）。
+サイトマップ `https://gadgetterminal.com/sitemap.xml` の送信状況は
+左メニュー「サイトマップ」で都度確認する。
 
-**確認が済んでもタグは消さない。** 消すと所有権が外れる。
+**運用:** Cloudflare Web Analytics は「何人来たか」しか分からないので、
+「どの検索語で表示されて何位か」はここでしか見えない。育て方ロードマップの
+2〜3か月フェーズ（伸びたテーマのまとめ記事を作る）はこの数字を使う。
+検索パフォーマンスを2〜3週間おきに見て、表示回数が伸びているクエリ・
+記事を拾う。
 
 ## Google ニュース パブリッシャーセンター（未登録）
 
