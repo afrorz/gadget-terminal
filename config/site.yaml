@@ -54,6 +54,18 @@ site:
     moshimo_amazon: ""
     moshimo_rakuten: "https://af.moshimo.com/af/c/click?a_id=5765003&p_id=54&pc_id=54&pl_id=616&url={url}"
     moshimo_yahoo: ""
+    # 海外メーカー直販（front matter の buy）。もしもを経由せず各社の
+    # プログラムに直接申し込むため、ここに merchant ごとのテンプレートを置く。
+    # {url} が商品URLの位置。空のあいだは素のリンクとして出る（記事の
+    # 価値はリンクの種類と無関係なので、未提携でも導線自体は出す）。
+    #
+    # **この媒体が扱う製品の多くは国内に流通していない。** そのため
+    # 国内ECの代替品(alternatives)だけでは「その製品自体をどう買うか」に
+    # 答えられない記事が大半になる。そこを埋めるための枠。
+    direct:
+      # 申請: https://store.minisforum.com/pages/affiliate-program （2〜8%・cookie 30日）
+      minisforum: ""
+      aliexpress: ""
     # 景品表示法（ステマ規制）で必須の表示。リンクがある記事に自動で出る。
     disclosure: この記事にはアフィリエイト広告を含みます
 

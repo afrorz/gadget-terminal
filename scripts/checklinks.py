@@ -37,6 +37,16 @@ MERCHANT_HOSTS = {
     "yahoo": ("yahoo.co.jp", "paypaymall.yahoo.co.jp"),
 }
 
+# 海外メーカー直販（front matter の buy）。これも build.py と同じ表を持つ。
+DIRECT_MERCHANTS = {
+    "minisforum": ("store.minisforum.com", "minisforum.com"),
+    "aliexpress": ("aliexpress.com", "ja.aliexpress.com"),
+}
+
+# buy に書ける技適判定。ここに無い値（未確認・未記入）は購入リンクを出さない。
+# 「未取得」は警告付きで出す（所持と有線利用は合法なため）。
+GITEKI_BUY = ("取得済み", "対象外", "未取得")
+
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 
@@ -97,7 +107,7 @@ def main(argv: list[str]) -> int:
         print("対象の記事がありません:", " ".join(args))
         return 1
 
-    dead_merchant, mismatch, no_money, gone = [], [], [], []
+    dead_merchant, mismatch, no_money, gone, bad_buy = [], [], [], [], []
     money_links = plain_links = 0
 
     for f in files:
@@ -107,6 +117,35 @@ def main(argv: list[str]) -> int:
             continue
         meta = yaml.safe_load(m.group(1)) or {}
         name = Path(f).name
+
+        # 海外直販の buy。技適の判定が無いものは build.py がリンクごと落とすので、
+        # 書いた本人に見えるようここで NG として出す（黙って消えるのがいちばん悪い）。
+        for x in (meta.get("buy") or []):
+            if not x.get("url"):
+                continue
+            label = f"{name}: {x.get('name') or x['url']}"
+            giteki = str(x.get("giteki") or "").strip()
+            if giteki not in GITEKI_BUY:
+                bad_buy.append(label)
+                print(f"NG  {label}\n      buy の giteki が {giteki or '未記入'}。"
+                      f"購入リンクは出力されません → {' / '.join(GITEKI_BUY)} のどちらかを書く。"
+                      f"\n      確認が取れないなら buy ごと消す（無線機を確認せず買わせない）")
+                continue
+            merchant = str(x.get("merchant") or "").strip()
+            if merchant and merchant not in DIRECT_MERCHANTS:
+                bad_buy.append(label)
+                print(f"NG  {label}\n      buy の merchant={merchant} は未対応。"
+                      f"使える値: {' / '.join(sorted(DIRECT_MERCHANTS))}")
+                continue
+            if merchant:
+                host = urlparse(str(x["url"])).netloc.lower()
+                hosts = DIRECT_MERCHANTS[merchant]
+                if not any(host == h or host.endswith("." + h) for h in hosts):
+                    bad_buy.append(label)
+                    print(f"NG  {label}\n      buy の merchant={merchant} だが URL は {host}")
+                    continue
+            print(f"OK  {label}  (直販 {merchant or '素のリンク'} / 技適{giteki})")
+
         alts = [x for x in (meta.get("alternatives") or []) if x.get("name") and x.get("url")]
         if not alts:
             continue

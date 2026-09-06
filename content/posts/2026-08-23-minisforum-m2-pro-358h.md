@@ -22,6 +22,14 @@ faq:
   a: セール価格1,439ドル（通常価格1,799ドルから360ドル引き）、欧州向けは1,519ユーロです（掲載時点の価格）。
 - q: いつ発売されますか
   a: 注文受付は開始済みです。米国向けは9月下旬、欧州向けは9月初旬に香港から発送予定とされています。
+buy:
+- name: Minisforum M2 Pro-358H
+  merchant: minisforum
+  url: https://store.minisforum.com/products/minisforum-m2-pro-mini-pc
+  price: 1,439ドル（掲載時点のセール価格）
+  ships_jp: true
+  giteki: 未取得
+  note: 米国向けは9月下旬、欧州向けは9月初旬に香港から発送予定。国際送料・関税・為替が別に乗り、国内保証とサポート窓口は付かない。
 alternatives:
 - name: GEEKOM IT13 Max（Amazon.co.jp）
   why: Panther Lake世代ではなくCore Ultra 9 185H搭載だが、国内法人（ギコム株式会社）による正規販売で技適の心配がなく、大容量ストレージ拡張と複数画面出力を今日から使える。

@@ -122,6 +122,31 @@ MERCHANT_HOSTS = {
     "yahoo": ("yahoo.co.jp", "paypaymall.yahoo.co.jp"),
 }
 
+# 海外メーカー直販（front matter の buy）。国内ECの MERCHANT_HOSTS とは
+# 別に持つ。こちらは「この製品そのものを本国から買う」導線で、
+# alternatives（今すぐ国内で買える別の製品）とは役割が違う。
+DIRECT_MERCHANTS = {
+    "minisforum": (("store.minisforum.com", "minisforum.com"), "Minisforum 公式ストア"),
+    "aliexpress": (("aliexpress.com", "ja.aliexpress.com"), "AliExpress"),
+}
+
+# buy に必須の技適判定。**自由記述にしない。**
+# 無線を積んだ製品を技適の確認なしに買わせるのは、この媒体が
+# 掲げている判断そのものを裏切る。機械が読める値にして、
+# 判定を書かなければ購入リンクが出ないところまでコードで強制する。
+#
+# 「未取得」を買わせない選択も検討したが、採らなかった。技適が無くても
+# 所持と有線での使用は合法で、ミニPCのように有線だけで完結する製品は
+# 実際に成立するため。読者が判断できる材料を出したうえで選ばせる。
+# **判定が付けられない（未確認）なら buy ごと書かない。** それが唯一の禁止。
+GITEKI_BUY = {
+    "取得済み": ("技適取得済み", "ok", ""),
+    "対象外": ("技適の対象外", "na", ""),
+    "未取得": ("技適未取得", "warn",
+             "国内で Wi-Fi や Bluetooth をオンにすると電波法違反になります。"
+             "有線接続だけで使う前提なら購入できます。"),
+}
+
 
 def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
     """商品URLをアフィリエイトリンクに変換する。
@@ -188,6 +213,87 @@ def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
     label = ('<span class="alt-ad">広告</span>' if has_aff else "")
     return (f'<section class="alts"><h2>今すぐ買えるオススメガジェット{label}</h2>'
             f'<ul>{"".join(rows)}</ul></section>', has_aff)
+
+
+def direct_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
+    """海外直販のURLをアフィリエイトリンクに変換する。
+
+    仕組みは affiliate_url と同じで、参照する設定だけが違う
+    （もしも経由ではなく各社のプログラムに直接申し込むため、
+    site.yaml の affiliate.direct に merchant ごとのテンプレートを置く）。
+    戻り値: (URL, アフィリエイトリンクか)
+    """
+    aff = s.get("affiliate") or {}
+    if not aff.get("enabled"):
+        return url, False
+    entry = DIRECT_MERCHANTS.get(merchant)
+    if not entry:
+        return url, False
+    hosts, _ = entry
+    host = urlparse(url).netloc.lower()
+    if not any(host == h or host.endswith("." + h) for h in hosts):
+        print(f"! merchant={merchant} だが URL のドメインは {host}。"
+              f"アフィリエイト変換せず素のリンクにする")
+        return url, False
+    tmpl = str((aff.get("direct") or {}).get(merchant) or "").strip()
+    if not tmpl or "{url}" not in tmpl:
+        print(f"! merchant={merchant} は affiliate.direct.{merchant} が未設定。"
+              f"素のリンクになり報酬は発生しない: {url}")
+        return url, False
+    return tmpl.replace("{url}", quote(url, safe="")), True
+
+
+def buy_section(s: dict, p: dict) -> tuple[str, bool]:
+    """「本国から直接買う」セクション。
+
+    **この媒体の記事の多くは国内に流通していない製品を扱う。** そのため
+    alternatives（今すぐ国内で買える別の製品）だけでは、肝心の
+    「その製品自体をどう買うか」に答えられない記事が大半になる。
+
+    ただし買わせる以上、技適の判定を省略できない。giteki が
+    GITEKI_BUY に無い値（未確認を含む）の項目は**リンクごと出さない。**
+    確認できていない無線機を買わせて、届いてから使えないと分かるのが
+    読者にとって最悪の結果であり、それを避けることがこの媒体の存在理由。
+    戻り値: (HTML, アフィリエイトリンクを含むか)
+    """
+    items = [x for x in (p.get("buy") or []) if x.get("url")]
+    if not items:
+        return "", False
+    has_aff = False
+    rows = []
+    for x in items:
+        giteki = str(x.get("giteki") or "").strip()
+        if giteki not in GITEKI_BUY:
+            print(f"! buy: {x.get('name') or x['url']} は giteki が "
+                  f"{giteki or '未記入'}。購入リンクを出さずに飛ばす"
+                  f"（使える値: {' / '.join(GITEKI_BUY)}）")
+            continue
+
+        merchant = str(x.get("merchant") or "").strip()
+        link, is_aff = direct_url(s, str(x["url"]), merchant)
+        has_aff = has_aff or is_aff
+        # 店名は merchant から引く。書き手に書かせると表記が揺れる。
+        store = DIRECT_MERCHANTS.get(merchant, (None, ""))[1] or str(x.get("store") or "販売ページ")
+        gi_label, gi_kind, gi_warn = GITEKI_BUY[giteki]
+        price = (f'<span class="buy-price">{html.escape(str(x["price"]))}</span>'
+                 if x.get("price") else "")
+        note = f'<p class="buy-note">{html.escape(str(x["note"]))}</p>' if x.get("note") else ""
+        ship = ('<span class="buy-ship">日本へ発送</span>' if x.get("ships_jp") else "")
+        # 技適未取得の警告は書き手に任せない。買う導線の中に必ず出す。
+        warn = f'<p class="buy-warn">{html.escape(gi_warn)}</p>' if gi_warn else ""
+        rows.append(
+            f'<li class="buy-item">'
+            f'<a href="{html.escape(link)}" rel="nofollow sponsored noopener" target="_blank">'
+            f'{html.escape(store)}</a>'
+            f'<p class="buy-meta">{price}{ship}'
+            f'<span class="buy-giteki gi-{gi_kind}">{gi_label}</span></p>{warn}{note}</li>')
+    if not rows:
+        return "", False
+    label = ('<span class="alt-ad">広告</span>' if has_aff else "")
+    return (f'<section class="alts buys"><h2>本国から直接買う{label}</h2>'
+            f'<ul>{"".join(rows)}</ul>'
+            f'<p class="buy-caution">海外からの個人輸入になります。関税・送料・'
+            f'保証の扱いは販売ページで確認してください。</p></section>', has_aff)
 
 
 def analytics(s: dict) -> str:
@@ -1228,7 +1334,9 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
             f'<p>{html.escape(str(x["a"]))}</p></div>' for x in faq)
         faq_html = f'<section class="faq"><h2>よくある質問</h2>{rows}</section>'
 
-    alts_html, has_aff = alternatives_section(s, p)
+    buy_html, buy_aff = buy_section(s, p)
+    alts_html, alts_aff = alternatives_section(s, p)
+    has_aff = buy_aff or alts_aff
     # ステマ規制。アフィリエイトリンクがある記事は、本文の先頭で広告を含む旨を示す。
     # 「サイトのどこかに書いてある」では足りないため、記事ごとに出す。
     disclosure = ""
@@ -1261,6 +1369,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     <div class="prose">{p['body_html']}</div>
     {gallery_html}
     {embeds_html}
+    {buy_html}
     {alts_html}
   {faq_html}
   {sources}
@@ -1523,6 +1632,9 @@ CSS = """
   --rule:#e7e9ec; --rule-2:#dadde1;
   --accent:#ff6b3d;
   --cat:var(--accent);
+  /* 注意喚起。カテゴリ色(--cat)とは独立させる。技適の警告は記事の
+     カテゴリで色が変わってよいものではない。 */
+  --warn:#b4472b;
   --max:1280px; --measure:36rem;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   --disp:"Space Grotesk","Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
@@ -1532,6 +1644,7 @@ CSS = """
   --bg:#0a0d16; --surface:#10141f; --raised:#151a27;
   --ink:#e9edf1; --ink-2:#96a0ac; --ink-3:#5f6975;
   --rule:#1c212e; --rule-2:#272e40;
+  --warn:#e08b6a;
 }
 .cat-smartphone{--cat:#ff6b3d}
 .cat-pc{--cat:#4fb3c4}
@@ -1880,6 +1993,23 @@ img{max-width:100%}
 .alt-text{min-width:0}
 .alt-item>a{font-size:15px;line-height:1.6}
 .alt-why{margin:4px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
+/* 本国から直接買う導線。国内の代替品(.alts)と同じ骨格に乗せつつ、
+   技適の判定を一行目の高さに置いて読み飛ばせないようにする。 */
+.buy-item{margin:0 0 18px}
+.buy-item>a{font-size:15px;line-height:1.6}
+.buy-meta{margin:5px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.03em}
+.buy-price{color:var(--ink)}
+.buy-ship{color:var(--ink-3)}
+.buy-giteki{border:1px solid var(--rule-2);border-radius:2px;padding:1px 6px;color:var(--ink-2)}
+.buy-giteki.gi-ok{border-color:var(--cat);color:var(--cat)}
+.buy-giteki.gi-warn{border-color:var(--warn);color:var(--warn)}
+/* 技適未取得の警告。読み飛ばされると意味が無いので、左の罫線で
+   本文とは別の種類の情報だと分かるようにする。 */
+.buy-warn{margin:7px 0 0;padding-left:10px;border-left:2px solid var(--warn);
+  color:var(--ink-2);font-size:13px;line-height:1.75}
+.buy-note{margin:5px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
+.buy-caution{margin:14px 0 0;color:var(--ink-3);font-size:12.5px;line-height:1.85}
 .faq{max-width:var(--measure);margin:44px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
 .faq h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin:0 0 18px}
 .faq-item{margin:0 0 18px}

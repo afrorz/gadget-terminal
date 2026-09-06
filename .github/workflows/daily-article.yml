@@ -240,7 +240,7 @@ jobs:
 
             8. 記事を書く。ファイル名は content/posts/<TODAY>-<slug>.md
                front matter: title / seo_title / x_hook / slug / keyword / category / date /
-                             kicker / tags / alternatives / faq / embeds / sources /
+                             kicker / tags / buy / alternatives / faq / embeds / sources /
                              images / credit（7-2 で集めた製品画像。**必須**）/
                              origin / deadline（到着案内板に出る。下記）
                              （キュー・手動指定から書いた記事のみ pick / pick_note）
@@ -311,6 +311,31 @@ jobs:
                      why: 技適取得済みで国内在庫あり。同じ用途を今日から使える。
                      url: https://item.rakuten.co.jp/shopname/itemcode/
                      merchant: rakuten
+
+               【読者価値】buy を書く。alternatives が「今すぐ国内で買える**別の**製品」
+               なのに対し、buy は「**その製品そのもの**を本国から直接買う」導線である。
+               この媒体が扱う製品の多くは国内に流通しないため、代替品だけでは
+               「その製品をどう買うか」に答えられない。メーカー公式ストアや
+               クラファンのページが日本へ発送するなら、必ず書く。
+
+                 - **giteki は必須。書ける値は「取得済み」「対象外」「未取得」の3つだけ。**
+                   取得済み = 技適を取っている / 対象外 = そもそも電波を出さない /
+                   未取得 = 技適が無い（有線でのみ使える。警告文はコードが自動で入れる）
+                 - **確認が取れないなら buy ごと書かない。**「未確認」という値は無い。
+                   判定の無い項目はビルドがリンクごと落とし、checklinks.py が NG にする
+                 - merchant に書けるのは minisforum / aliexpress だけ。それ以外の
+                   メーカー直販は merchant を書かず素のリンクにする（報酬は出ないが、
+                   「どこで買えるか」は収益と無関係に読者が必要とする情報である）
+                 - ships_jp は日本へ発送する場合だけ true
+               書式:
+                 buy:
+                   - name: 製品名
+                     merchant: minisforum
+                     url: https://store.minisforum.com/products/xxx
+                     price: 1,439ドル（掲載時点）
+                     ships_jp: true
+                     giteki: 未取得
+                     note: 送料・関税・保証の注意
 
                【SEO】faq を2〜4問付ける。FAQPage 構造化データとして出力され、
                検索結果に Q&A が展開されることがある。ガジェットは以下が定番クエリ:
