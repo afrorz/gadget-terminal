@@ -231,6 +231,31 @@ def adsense(s: dict) -> str:
             "</script>")
 
 
+def ad_unit(s: dict, slot_key: str) -> str:
+    """手動の広告ユニット。
+
+    **自動広告は使わない。** Google に任せると記事の途中・表の直前・
+    特集の写真と本文の間に割り込む。この媒体は「技適まで踏み込んで
+    言い切る信頼」で読ませているので、読んでいる最中に邪魔をして失うものが
+    広告収益より大きいと判断している。位置はここで決め打ちする。
+
+    `adsense_client` と該当スロットIDの**両方**が埋まったときだけ出す。
+    スロットIDの無い <ins> を置いても広告は表示されず、管理画面に
+    空のユニットが残るだけになる。
+    """
+    cid = str(s.get("adsense_client") or "").strip()
+    slot = str((s.get("adsense_slots") or {}).get(slot_key) or "").strip()
+    if not (cid and slot):
+        return ""
+    return (
+        '<aside class="ad-slot"><p class="ad-slot-label">広告</p>'
+        '<ins class="adsbygoogle" style="display:block" '
+        f'data-ad-client="{html.escape(cid)}" data-ad-slot="{html.escape(slot)}" '
+        'data-ad-format="auto" data-full-width-responsive="true"></ins>'
+        "<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>"
+    )
+
+
 def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
          image: str = "ogp/default.png") -> str:
     s = site["site"]
@@ -917,6 +942,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
   <div class="prose feature-intro">{f['body']}</div>
   {grid}
   {excluded}
+  {ad_unit(s, "article_end")}
   {related}
 </main>"""
         + footer(site)
@@ -1239,6 +1265,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
   {faq_html}
   {sources}
   </article>
+  {ad_unit(s, "article_end")}
   {rel_html}
 </main>"""
         + footer(site)
@@ -1831,6 +1858,16 @@ img{max-width:100%}
 
 .ad-notice{max-width:var(--measure);margin:0 0 18px;padding:7px 11px;border:1px solid var(--rule-2);
   border-radius:3px;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.03em}
+
+/* 記事末の広告。本文の外に置き、罫線とラベルで「ここから先は広告」と
+   分かるようにする。中身の高さは Google が決めるので min-height は持たせない。 */
+.ad-slot{margin:44px 0 0;padding-top:14px;border-top:1px solid var(--rule)}
+.ad-slot-label{margin:0 0 10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink-3)}
+/* 広告在庫が無かったとき、AdSense は ins に data-ad-status="unfilled" を付ける。
+   枠ごと畳まないと「広告」というラベルと罫線だけが残って、読者には
+   何かが壊れているように見える。 */
+.ad-slot:has(ins[data-ad-status="unfilled"]){display:none}
 .alts{max-width:var(--measure);margin:44px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
 .alts h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--ink-2);margin:0 0 16px;display:flex;align-items:center;gap:8px}
