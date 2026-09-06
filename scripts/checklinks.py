@@ -86,9 +86,44 @@ def alive(url: str) -> tuple[bool | None, str]:
     return True, f"HTTP {code}"
 
 
+def missing_buy(files: list[str]) -> int:
+    """buy も収益になる alternatives も無い記事を、古い順に挙げる。
+
+    この媒体は国内未流通の製品を扱うので、alternatives(国内の代替品)だけでは
+    収益リンクが1本も無い記事が大量に残る。そこを buy で埋めるための一覧。
+    毎朝の自動実行が上から数本ずつ消化する。
+    """
+    rows = []
+    for f in sorted(files):
+        text = Path(f).read_text(encoding="utf-8")
+        m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+        if not m:
+            continue
+        meta = yaml.safe_load(m.group(1)) or {}
+        if [x for x in (meta.get("buy") or []) if x.get("url")]:
+            continue
+        # 楽天の代替品がある記事は、すでに収益導線がある。優先度を下げる。
+        has_rakuten = any(str(x.get("merchant") or "") == "rakuten"
+                          for x in (meta.get("alternatives") or []))
+        rows.append((Path(f).name, meta.get("title") or "", has_rakuten))
+
+    print(f"buy が無い記事 {len(rows)}本"
+          f"（うち収益リンクが1本も無い {sum(1 for r in rows if not r[2])}本）\n")
+    for name, title, has_rakuten in rows:
+        mark = "--" if has_rakuten else "NG"
+        print(f"{mark}  {name}\n      {str(title)[:70]}")
+    print("\nNG = 収益リンクが1本も無い記事。ここから埋めると効果が大きい。")
+    return 0
+
+
 def main(argv: list[str]) -> int:
     args = [a for a in argv[1:] if not a.startswith("--")]
     check_alive = "--check-alive" in argv
+
+    if "--missing-buy" in argv:
+        files = sorted({f for pat in (args or ["content/posts/*.md"]) for f in glob.glob(pat)})
+        return missing_buy(files)
+
     site = yaml.safe_load(Path("config/site.yaml").read_text(encoding="utf-8")) or {}
     # affiliate は site.yaml の site: 配下にある。build.py も site["site"] で読む。
     aff = (site.get("site") or {}).get("affiliate") or {}
