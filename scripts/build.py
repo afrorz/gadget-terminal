@@ -1820,7 +1820,7 @@ img{max-width:100%}
 /* 対応ブラウザ（Chromium系）では、塊の内部も文節単位で折り返す */
 .hero-title,.hero-sub,.article-title,.article-lede,.card-title,.card-excerpt,
 .pick-title,.pick-note,.pick-callout-note,.board-title,.prose p,.prose li,
-.faq dt,.faq dd{word-break:auto-phrase}
+.prose td,.prose th,.faq dt,.faq dd{word-break:auto-phrase}
 
 /* ── 出発案内板 ─────────────────────────────── */
 /* 案内板は明るいターミナルビルの中で光る実物の掲示板と同じで、
