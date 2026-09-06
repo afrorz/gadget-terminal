@@ -511,6 +511,28 @@ def jp_em(text) -> str:
     return "".join(out)
 
 
+def bold_em(text) -> str:
+    """** で囲んだ部分だけ <strong> にする。jp_em() と違い、句読点でしか
+    改行させない span/wbr の細工はしない。
+
+    jp()/jp_em() は見出し（1〜2行の短いテキスト）で、句読点以外の
+    位置で改行されて不格好になるのを防ぐための技法。だが kicker・
+    サイト概要・カテゴリ説明・特集リードのような**複数文にわたる
+    説明文**にまで同じ技法を使うと逆効果になる。句読点の位置でしか
+    改行できないせいで、短い文節が行頭に取り残されて階段状に見える
+    （2026-09-06、記事の kicker で発覚。一覧のカード表示は素のテキストで
+    正常に折り返っており、記事ページの .article-lede だけ jp() 経由で
+    壊れていた）。word-break:auto-phrase 対応ブラウザなら文節単位の
+    折り返しはこちらでも効くので、太字以外の細工を外して素のテキストに戻す。
+    """
+    out = []
+    for i, seg in enumerate(str(text).split("**")):
+        if not seg:
+            continue
+        out.append(f"<strong>{html.escape(seg)}</strong>" if i % 2 else html.escape(seg))
+    return "".join(out)
+
+
 def card(site: dict, p: dict, featured: bool = False) -> str:
     key = p.get("category", "misc")
     cat = site["categories"].get(key, {"label": "その他", "slug": "misc", "code": "---"})
@@ -847,7 +869,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   <section class="hero{'' if page <= 1 else ' hero-sm'}">
     <p class="eyebrow">{'DEPARTURES / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
     <h1 class="hero-title">{jp(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
-    <p class="hero-sub">{jp(s['description']) if page <= 1 else ''}</p>
+    <p class="hero-sub">{html.escape(s['description']) if page <= 1 else ''}</p>
     {hero_route_img() if page <= 1 else ''}
   </section>
   {body}
@@ -961,12 +983,12 @@ def feature_product(item: dict, n: int = 0) -> str:
     name = html.escape(str(item.get("name") or ""))
     brand = html.escape(str(item.get("brand") or ""))
     price = html.escape(str(item.get("price") or ""))
-    where = jp(str(item.get("where") or ""))
-    giteki = jp(str(item.get("giteki") or ""))
+    where = html.escape(str(item.get("where") or ""))
+    giteki = html.escape(str(item.get("giteki") or ""))
     url = str(item.get("url") or "").strip()
     src = str(item.get("source") or "").strip()
 
-    body = "".join(f"<p>{jp_em(para.strip())}</p>"
+    body = "".join(f"<p>{bold_em(para.strip())}</p>"
                    for para in str(item.get("note") or "").split("\n\n")
                    if para.strip())
 
@@ -1012,7 +1034,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     if f["excluded"]:
         rows = "".join(
             f'<li><strong>{html.escape(str(x.get("name") or ""))}</strong>'
-            f' &mdash; {jp_em(str(x.get("why") or ""))}</li>'
+            f' &mdash; {bold_em(str(x.get("why") or ""))}</li>'
             for x in f["excluded"])
         excluded = f"""
 <section class="fx">
@@ -1047,7 +1069,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
   <section class="hero hero-sm">
     <p class="eyebrow">{html.escape(str(f.get('eyebrow') or 'FEATURE'))}</p>
     <h1 class="hero-title">{html.escape(f['title'])}</h1>
-    <p class="hero-sub">{jp_em(str(f.get('lede') or ''))}</p>
+    <p class="hero-sub">{bold_em(str(f.get('lede') or ''))}</p>
     {upd_html}
   </section>
   <div class="prose feature-intro">{f['body']}</div>
@@ -1067,7 +1089,7 @@ def render_features_index(site: dict, features: list[dict]) -> str:
             f'<a class="fi" href="{u(f["path"])}">'
             f'<p class="fi-eyebrow">{html.escape(str(f.get("eyebrow") or "FEATURE"))}</p>'
             f'<h2 class="fi-title">{html.escape(f["title"])}</h2>'
-            f'<p class="fi-lede">{jp(str(f.get("lede") or ""))}</p>'
+            f'<p class="fi-lede">{html.escape(str(f.get("lede") or ""))}</p>'
             f'<p class="fi-count">{str(len(f["products"]))+"製品" if f["products"] else "解説"}</p></a>'
             for f in features)
         body = f'<section class="fi-grid">{rows}</section>'
@@ -1105,7 +1127,7 @@ def render_category(site: dict, key: str, cat: dict, posts: list[dict]) -> str:
   <section class="hero hero-sm cat-{key}">
     <p class="eyebrow">{cat.get('code','---')} / CATEGORY</p>
     <h1 class="hero-title">{html.escape(cat['label'])}</h1>
-    <p class="hero-sub">{jp(cat['description'])}</p>
+    <p class="hero-sub">{html.escape(cat['description'])}</p>
   </section>
   <section class="grid">{body}</section>
 </main>"""
@@ -1366,7 +1388,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
   <article class="article cat-{p.get("category", "misc")}">
     <p class="eyebrow"><a href="{u("category/" + cat['slug'] + ".html")}"><span class="eyebrow-code">{cat.get('code','---')}</span>{html.escape(cat['label'])}</a></p>
     <h1 class="article-title">{jp(p['title'])}</h1>
-    {f'<p class="article-lede">{jp(p["kicker"])}</p>' if p.get('kicker') else ''}
+    {f'<p class="article-lede">{html.escape(str(p["kicker"]))}</p>' if p.get('kicker') else ''}
     {f'<aside class="pick-callout"><p class="pick-callout-head">編集部ピックアップ</p><p class="pick-callout-note">{html.escape(p["pick_note"])}</p></aside>' if p.get('pick') and p.get('pick_note') else (f'<p class="pick-callout pick-callout-bare">編集部ピックアップ<span>運営者が選んだガジェットです</span></p>' if p.get('pick') else '')}
     {disclosure}
     <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ{route}</p>
