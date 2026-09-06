@@ -1,5 +1,5 @@
 ---
-title: 白いガジェット、日本で正規に買えるもの
+title: 白デスクは、本当に白で揃えられるか
 seo_title: 白いガジェット、日本正規流通のもの
 slug: white-gadgets
 eyebrow: FEATURE / WHITE
