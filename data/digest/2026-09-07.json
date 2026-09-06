@@ -1,0 +1,678 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T07:15:00.323677+09:00",
+  "stats": {
+    "fetched": 719,
+    "unique": 679,
+    "new": 236,
+    "clusters": 232,
+    "selected": 30
+  },
+  "items": [
+    {
+      "title": "Makuake｜鉄を毎日。驚きの軽さで、家でもアウトドアでも使いやすさを追求したコンパクト鉄びん｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/tetsubin800/",
+      "summary": "鉄びんといえば「重くて扱いづらい」「お湯が沸くまでに時間がかかる」そんなイメージがありませんか？創業65年を迎えた「三条特殊鋳工所」は独自の優れた鋳物技術を結集し、日常使いに適した「超軽量鉄びん」の開発に成功。それがこの「SSC 鉄びん」なのです。手にした瞬間に驚く、その軽さ。重さたった800gあまりという驚異的な軽さを実現し、手に取るのが億劫にならない、毎日使いたくなる鉄びんです。この軽さを実現",
+      "image": "https://static.makuake.com/upload/project/53370/main_53370.png?version=1787807215&amp;width=690&amp;height=388",
+      "published": "2026-09-09T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "4d74d3ec2aa6f97d",
+      "canonical": "https://www.makuake.com/project/tetsubin800",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "da12ddf2d21dd914",
+      "title": "ACEMAGIC Kron Mini K5 Review – Part 2: A $400 Intel Core 3 304 Wildcat Lake mini PC tested with Windows 11 Pro",
+      "url": "https://www.cnx-software.com/2026/09/06/acemagic-kron-mini-k5-review-part-2-a-400-intel-core-3-304-wildcat-lake-mini-pc-tested-with-windows-11-pro/",
+      "canonical": "https://www.cnx-software.com/2026/09/06/acemagic-kron-mini-k5-review-part-2-a-400-intel-core-3-304-wildcat-lake-mini-pc-tested-with-windows-11-pro",
+      "summary": "After checking out the hardware of the ACEMAGIC Kron Mini K5 with an unboxing and a teardown in the first part of the review, we&#8217;ve now had time to test the Intel Core 3 304 Wildcat Lake mini PC in more depth with Windows 11 Pro. So in this article, we&#8217;ll report our experience with the penta-core mini PC, testing features, running system and AI benchmarks, playing 4K and 8K YouTube vid",
+      "published": "2026-09-06T07:34:36+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+5 teardown",
+        "+4 review",
+        "+4 benchmark",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5b32b1d9f76fae5d",
+      "title": "iPhone 18 colors, Galaxy S27 Ultra camera detailed, Poco F9 series unveiled, Week 36 in review",
+      "url": "https://www.gsmarena.com/iphone_18_colors_galaxy_s27_ultra_camera_detailed_poco_f9_series_unveiled_week_36_in_review-news-74483.php",
+      "canonical": "https://www.gsmarena.com/iphone_18_colors_galaxy_s27_ultra_camera_detailed_poco_f9_series_unveiled_week_36_in_review-news-74483.php",
+      "summary": "The iPhone 18 Pro and Pro Max could get a completely refreshed color palette this year. A new leak claims Apple will offer the pair in Dark Cherry, Sky Blue, and Black, with Dark Cherry expected to replace Cosmic Orange as the headline finish. The wine-like red/purple shade has appeared repeatedly in previous leaks, while Sky Blue should be a much subtler, almost silvery option. Perhaps more inter",
+      "published": "2026-09-06T19:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/0/998/996.htm"
+      ]
+    },
+    {
+      "id": "e44936753c46ade0",
+      "title": "Xiaomi 18 Fold: New colors officially revealed",
+      "url": "https://www.notebookcheck.net/Xiaomi-18-Fold-New-colors-officially-revealed.1390054.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-18-Fold-New-colors-officially-revealed.1390054.0.html",
+      "summary": "Xiaomi has unveiled two new colors for its upcoming 18 Fold, joining the previously revealed red model. Set to launch in China on September 7, the foldable is expected to feature high-brightness displays, Leica-branded cameras, the new Xring O3 chipset and a 6,000mAh battery.",
+      "published": "2026-09-06T00:52:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "552199988044b153",
+      "title": "Oppo Find X10, X10 Pro Max spotted with different Dimensity 9-series chipsets on Geekbench",
+      "url": "https://www.gizmochina.com/2026/09/06/oppo-find-x10-x10-pro-max-geekbench-dimensity-chipsets/",
+      "canonical": "https://www.gizmochina.com/2026/09/06/oppo-find-x10-x10-pro-max-geekbench-dimensity-chipsets",
+      "summary": "Oppo is expected to hold a launch event to unveil the Find X10 series later this month in China. Speculations are rife that the PMW110 and PMX110 devices that have emerged in the databases of Chinese certification platforms in the recent past could be the Find X10 and Find X10 Pro Max, respectively. Ahead of [&#8230;] The post Oppo Find X10, X10 Pro Max spotted with different Dimensity 9-series ch",
+      "published": "2026-09-06T05:43:55+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cbf8f6d4e0da4e2e",
+      "title": "Chieftec Reveals Atlas Case and Rackmount Chassis at IFA 2026",
+      "url": "https://www.techpowerup.com/352380/chieftec-reveals-atlas-case-and-rackmount-chassis-at-ifa-2026",
+      "canonical": "https://www.techpowerup.com/352380/chieftec-reveals-atlas-case-and-rackmount-chassis-at-ifa-2026",
+      "summary": "The TechPowerUp team visited the Chieftec booth at IFA 2026, with some interesting offerings on display. Chieftec brought its case lineup to the show, mixing an unannounced E-ATX tower with two chassis it already launched earlier this year. The new one is the Atlas, an E-ATX case supporting up to 420 mm radiators in the front or top. It has room for three 120 mm fans behind the power supply shroud",
+      "published": "2026-09-05T12:41:43+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "07bc31c2970ccff7",
+      "title": "GMKtec unveils EVO-X5 Pro at IFA 2026: A compact powerhouse with 192 GB RAM built for local AI",
+      "url": "https://www.notebookcheck.net/GMKtec-unveils-EVO-X5-Pro-at-IFA-2026-A-compact-powerhouse-with-192-GB-RAM-built-for-local-AI.1390527.0.html",
+      "canonical": "https://www.notebookcheck.net/GMKtec-unveils-EVO-X5-Pro-at-IFA-2026-A-compact-powerhouse-with-192-GB-RAM-built-for-local-AI.1390527.0.html",
+      "summary": "GMKtec introduced its latest flagship mini PC, the EVO-X5 Pro, at IFA 2026. Equipped with AMD’s Ryzen AI Max+ Pro 495 processor and 192 GB of RAM, the compact system is engineered to run massive AI models locally.",
+      "published": "2026-09-06T08:53:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 unveil",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "176254c0a819d6ef",
+      "title": "Weekly poll results: fans think that the Samsung Galaxy S26 FE needs a price cut, badly",
+      "url": "https://www.gsmarena.com/weekly_poll_results_fans_think_that_the_samsung_galaxy_s26_fe_needs_a_price_cut_badly-news-74465.php",
+      "canonical": "https://www.gsmarena.com/weekly_poll_results_fans_think_that_the_samsung_galaxy_s26_fe_needs_a_price_cut_badly-news-74465.php",
+      "summary": "The fans have spoken – the Samsung Galaxy S26 FE isn’t it. It could be, but the results from last week’s poll make it very clear that the S26 FE train isn’t leaving the station without a tangible price drop. As things stand right now, people are gravitating towards other Galaxy models – the Galaxy S25 FE and S26+ in particular offer similar specs at better value-for-money – or they are exploring a",
+      "published": "2026-09-06T12:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 price",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f4d7a1729020ed19",
+      "title": "FSP Mega GM 1200W power supply review: An in-house FSP platform that quietly overshoots its own Gold label",
+      "url": "https://www.tomshardware.com/pc-components/power-supplies/fsp-mega-gm-1200w-power-supply-review",
+      "canonical": "https://www.tomshardware.com/pc-components/power-supplies/fsp-mega-gm-1200w-power-supply-review",
+      "summary": "The FSP Mega GM 1200W power supply features Platinum-grade efficiency, an all-Japanese capacitor set, and a compact footprint that is rare on a 1200W unit.",
+      "published": "2026-09-06T13:57:18+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 review",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "735947433f1b58f3",
+      "title": "Hyperkin's ShockLine replaces your retro consoles/handhelds power supply with USB-C ones",
+      "url": "https://www.notebookcheck.net/Hyperkin-s-ShockLine-replaces-your-retro-consoles-handhelds-power-supply-with-USB-C-ones.1389420.0.html",
+      "canonical": "https://www.notebookcheck.net/Hyperkin-s-ShockLine-replaces-your-retro-consoles-handhelds-power-supply-with-USB-C-ones.1389420.0.html",
+      "summary": "Hyperkin has announced power kits for retro consoles and classic handhelds. The kits, which replace the old and bulky power supply, include compact USB-C power adapters, Type-C cables, and connectors/adapters for each device.",
+      "published": "2026-09-05T22:58:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 announced",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b322dcd3f581bc14",
+      "title": "Nvidia RTX-equipped mini PC with up to 96 GB DDR5 RAM is now on shelves",
+      "url": "https://www.notebookcheck.net/Nvidia-RTX-equipped-mini-PC-with-up-to-96-GB-DDR5-RAM-is-now-on-shelves.1390190.0.html",
+      "canonical": "https://www.notebookcheck.net/Nvidia-RTX-equipped-mini-PC-with-up-to-96-GB-DDR5-RAM-is-now-on-shelves.1390190.0.html",
+      "summary": "The Acemagic G3A mini PC was teased a few months ago, and it appears that the powerful system has gone on sale in recent weeks. Equipped with a powerful 24-core Intel CPU and discrete workstation graphics, the mini PC commands a hefty price tag.",
+      "published": "2026-09-06T16:17:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4c8f0326c7aed0ce",
+      "title": "Duva One: Biometric earbuds with bedroom monitoring capabilities promise better sleep",
+      "url": "https://www.notebookcheck.net/Duva-One-Biometric-earbuds-with-bedroom-monitoring-capabilities-promise-better-sleep.1390053.0.html",
+      "canonical": "https://www.notebookcheck.net/Duva-One-Biometric-earbuds-with-bedroom-monitoring-capabilities-promise-better-sleep.1390053.0.html",
+      "summary": "Fitnexa’s Duva One combines side-sleeper-friendly earbuds with noise cancellation, sleep tracking and environmental sensors to provide insights into nighttime habits and bedroom conditions. A launch is planned for October.",
+      "published": "2026-09-06T01:03:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ebbed3f9fac4aad5",
+      "title": "Huawei Watch 6 46mm in for review",
+      "url": "https://www.gsmarena.com/huawei_watch_6_in_for_review-news-74453.php",
+      "canonical": "https://www.gsmarena.com/huawei_watch_6_in_for_review-news-74453.php",
+      "summary": "Huawei's got a watch for everyone - whether you're into smart bands (the Fit and Band series), affordable classic watches (the GT line), all-out superwatches (the Ultimate), and if you're into classy timepieces that aren't your regular watch lookalike, there's the Watch series. This is the Huawei Watch 6 46mm, and it brings back the styling of its predecessor. It has a spherical (read non-flat but",
+      "published": "2026-09-06T05:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "320b85ccfa44dec8",
+      "title": "Massive Galaxy A18 leak reveals complete specs and pricing",
+      "url": "https://www.sammobile.com/news/galaxy-a18-leak-specifications-price/",
+      "canonical": "https://www.sammobile.com/news/galaxy-a18-leak-specifications-price",
+      "summary": "Samsung is working on two entry-level phones, the Galaxy A08 and the Galaxy A18, for a launch next month. While some information about the Galaxy A18 4G had already surfaced, newly leaked images and detailed specifications reveal that the device is slightly thicker and heavier than its predecessor. Galaxy A18 4G design and specifications The [ ]",
+      "published": "2026-09-06T06:32:18+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "19e6b38ca36b1a30",
+      "title": "MediaTek Dimensity 9600 Pro posts impressive CPU gains aboard Vivo X500 Pro Max in latest benchmarks",
+      "url": "https://www.notebookcheck.net/MediaTek-Dimensity-9600-Pro-posts-impressive-CPU-gains-aboard-Vivo-X500-Pro-Max-in-latest-benchmarks.1390049.0.html",
+      "canonical": "https://www.notebookcheck.net/MediaTek-Dimensity-9600-Pro-posts-impressive-CPU-gains-aboard-Vivo-X500-Pro-Max-in-latest-benchmarks.1390049.0.html",
+      "summary": "MediaTek's Dimensity 9600 Pro will debut later this month and rival Apple's A20 Pro and Qualcomm's Snapdragon 8 Elite Extreme Gen 6. The flagship chipset has made a new appearance on Geekbench, delivering significantly better CPU performance than its predecessor.",
+      "published": "2026-09-06T12:54:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 benchmark",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5420c0d30ea92235",
+      "title": "Google Pixel 11 Pro XL vs Apple iPhone 17 Pro Max: Which Flagship Truly Wins?",
+      "url": "https://www.gizmochina.com/2026/09/06/google-pixel-11-pro-xl-vs-iphone-17-pro-max/",
+      "canonical": "https://www.gizmochina.com/2026/09/06/google-pixel-11-pro-xl-vs-iphone-17-pro-max",
+      "summary": "Google Pixel 11 Pro XL and iPhone 17 Pro Max represent one of the biggest flagship battles of the year, putting Google&#8217;s AI-powered photography and smart software against Apple&#8217;s industry-leading performance and professional video tools. Both promise a no-compromise premium experience, but only one can deliver the better overall package. From cameras and battery life [&#8230;] The post",
+      "published": "2026-09-06T13:00:05+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/google_pixel_11_pro-review-2996.php"
+      ]
+    },
+    {
+      "id": "32f7b5b797140bac",
+      "title": "New affordably-priced E-ink and dot-matrix faceplates for Steam Machine go on sale",
+      "url": "https://www.notebookcheck.net/New-affordably-priced-E-ink-and-dot-matrix-faceplates-for-Steam-Machine-go-on-sale.1390191.0.html",
+      "canonical": "https://www.notebookcheck.net/New-affordably-priced-E-ink-and-dot-matrix-faceplates-for-Steam-Machine-go-on-sale.1390191.0.html",
+      "summary": "Jsaux has officially released two new faceplates for the Steam Machine. While one of the faceplates boasts an e-ink display, the other one features a low-resolution dot matrix display.",
+      "published": "2026-09-06T16:18:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 official",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ab560b13cca820fb",
+      "title": "PS5 Version of GTA 5 Now Playable on PC at Up to 60 FPS, via KytyPS5 Emulator",
+      "url": "https://www.techpowerup.com/352418/ps5-version-of-gta-5-now-playable-on-pc-at-up-to-60-fps-via-kytyps5-emulator",
+      "canonical": "https://www.techpowerup.com/352418/ps5-version-of-gta-5-now-playable-on-pc-at-up-to-60-fps-via-kytyps5-emulator",
+      "summary": "The KytyPS5 project can now run the PS5 version of Grand Theft Auto 5 at up to 60 FPS on PC, a big jump from just a month ago when the game was still stuck at its splash screen. It looks like the emulator can only hold that performance for a few minutes before crashing, but that's still a massive leap from where things stood back in July, when GTA 5 had only reached its in-game menus. A demo share",
+      "published": "2026-09-06T18:53:44+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/video-games/pc-gaming/ps5-emulator-can-now-run-the-console-version-of-gta-v-at-up-to-60-fps-on-pc-but-quickly-crashes-as-tweakers-continue-to-optimize-ps5-emulation-advancing-at-an-astronomical-pace-leading-up-to-gta-vi-launch"
+      ]
+    },
+    {
+      "id": "73b10560e4a5237c",
+      "title": "I ditched my browser bookmarks for a two-keystroke launcher, and getting to anything takes seconds now",
+      "url": "https://www.xda-developers.com/keyboard-based-dashboard-launcher/",
+      "canonical": "https://www.xda-developers.com/keyboard-based-dashboard-launcher",
+      "summary": "JumpKey turned my browser start page into a keyboard-driven command center for all my self-hosted services.",
+      "published": "2026-09-06T21:30:15+00:00",
+      "source_id": "xda",
+      "source": "XDA Developers",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a590fa47160d8e7c",
+      "title": "Retroid Pocket 6 is finally available on Amazon, including the new variant",
+      "url": "https://www.notebookcheck.net/Retroid-Pocket-6-is-finally-available-on-Amazon-including-the-new-variant.1390939.0.html",
+      "canonical": "https://www.notebookcheck.net/Retroid-Pocket-6-is-finally-available-on-Amazon-including-the-new-variant.1390939.0.html",
+      "summary": "Several months after its release, the Retroid Pocket 6 can now be purchased on Amazon. The handheld costs more than its MSRP, but buyers should receive their orders in time, compared to buying from the manufacturer's website.",
+      "published": "2026-09-06T22:12:00+00:00",
+      "source_id": "notebookcheck",
+      "source": "Notebookcheck",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "76d4c5120b33c557",
+      "title": "An AI Gave Me A Full-Body Massage: Hands-on with DaVinci AI Pro Massage Chair at IFA 2026",
+      "url": "https://www.yankodesign.com/2026/09/05/an-ai-gave-me-a-full-body-massage-hands-on-with-davinci-ai-pro-massage-chair-at-ifa-2026/?utm_source=rss&utm_medium=rss&utm_campaign=an-ai-gave-me-a-full-body-massage-hands-on-with-davinci-ai-pro-massage-chair-at-ifa-2026",
+      "canonical": "https://www.yankodesign.com/2026/09/05/an-ai-gave-me-a-full-body-massage-hands-on-with-davinci-ai-pro-massage-chair-at-ifa-2026",
+      "summary": "An AI Gave Me A Full-Body Massage: Hands-on with DaVinci AI Pro Massage Chair at IFA 2026 Somewhere out there is a bingo card of jobs AI would come for, and I guarantee nobody had masseuse on it. AI has already eaten...",
+      "published": "2026-09-05T22:30:03+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 hands-on",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "572d751564c7b94e",
+      "title": "New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported",
+      "url": "https://www.techpowerup.com/352395/new-dlss-5-swapper-tool-brings-neural-rendering-to-games-nvidia-never-supported",
+      "canonical": "https://www.techpowerup.com/352395/new-dlss-5-swapper-tool-brings-neural-rendering-to-games-nvidia-never-supported",
+      "summary": "A new tool called DLSS 5 Swapper, published on GitHub by developer rakanki911, automates installing DLSS 5's Neural Rendering into games, including ones that never officially got support for it. Users can drag and drop a game into the app, or let it scan the drive for installed titles on its own. For games that already ship with DLSS, the swap is simple. For everything else, the tool relies on DLS",
+      "published": "2026-09-05T22:49:28+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5d04dd773871a894",
+      "title": "The Blood of Dawnwalker Sells 1 Million Copies Days After Launch",
+      "url": "https://www.techpowerup.com/352397/the-blood-of-dawnwalker-sells-1-million-copies-days-after-launch",
+      "canonical": "https://www.techpowerup.com/352397/the-blood-of-dawnwalker-sells-1-million-copies-days-after-launch",
+      "summary": "Rebel Wolves' debut game is certainly off to a strong start. The Blood of Dawnwalker has sold more than 1 million copies worldwide, the studio confirmed on social media, just two days after its September 3 launch on PC, PS5, and Xbox Series X/S. The game hit 1 million sales fast enough that most of it likely came from day-one momentum, though Rebel Wolves hasn't broken down sales by platform. The ",
+      "published": "2026-09-05T23:12:24+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c679c09035954e42",
+      "title": "MindOne Pro teardown: Flip-style smartphone with sapphire glass, rotating camera and \"global internet\"",
+      "url": "https://www.notebookcheck.net/MindOne-Pro-teardown-Flip-style-smartphone-with-sapphire-glass-rotating-camera-and-global-internet.1390052.0.html",
+      "canonical": "https://www.notebookcheck.net/MindOne-Pro-teardown-Flip-style-smartphone-with-sapphire-glass-rotating-camera-and-global-internet.1390052.0.html",
+      "summary": "A teardown of the MindOne Pro highlights its compact flip-style design, durable sapphire display and versatile 180-degree rotating 50 MP camera. The camera’s fragile pivot mechanism and underwhelming \"global internet,\" however, suggest the phone’s unconventional features come with significant compromises.",
+      "published": "2026-09-06T00:59:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 teardown",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e9fd732df2fdf742",
+      "title": "I finally tried XREAL’s fully-baked Android XR glasses, and now I’m counting down to launch",
+      "url": "https://www.androidauthority.com/xreal-aura-hands-on-experience-impressions-3708053/",
+      "canonical": "https://www.androidauthority.com/xreal-aura-hands-on-experience-impressions-3708053",
+      "summary": "XREAL has been teasing its first Android XR glasses for a long time, and they're genuinely worth the wait.",
+      "published": "2026-09-06T08:37:17+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fe8e84b5debe495c",
+      "title": "AWOL Vision Showcases World's First 4K 120 Hz Ultra-Short-Throw Projector with Optical Shift",
+      "url": "https://www.techpowerup.com/352403/awol-vision-showcases-worlds-first-4k-120-hz-ultra-short-throw-projector-with-optical-shift",
+      "canonical": "https://www.techpowerup.com/352403/awol-vision-showcases-worlds-first-4k-120-hz-ultra-short-throw-projector-with-optical-shift",
+      "summary": "At IFA 2026, we visited the AWOL Vision booth to explore what the company had in store. The highlight was the AWOL LuxVision ultra-short-throw (UST) projector, the company's flagship model designed for high-end home entertainment and theater spaces. As the world's first UST projector with 4K resolution, a 120 Hz refresh rate, and optical shift, this model boasts an output of 6000 ISO lumens and tr",
+      "published": "2026-09-06T08:52:07+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 projector",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d2ad6ec3edd032ad",
+      "title": "Motorola and Google foldables are quietly beating Samsung where it counts",
+      "url": "https://www.androidauthority.com/motorola-google-foldables-beat-samsung-3704932/",
+      "canonical": "https://www.androidauthority.com/motorola-google-foldables-beat-samsung-3704932",
+      "summary": "Samsung forgot the foldable features that truly matter.",
+      "published": "2026-09-06T10:30:51+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "882dfa06284803fd",
+      "title": "Asahi Linux Now Officially Supports Apple M3 Macs - With Caveats",
+      "url": "https://www.phoronix.com/news/Asahi-Linux-Official-M3",
+      "canonical": "https://www.phoronix.com/news/Asahi-Linux-Official-M3",
+      "summary": "Asahi Linux developers announced today that they are now officially supporting the Linux distribution on Apple M3 powered Macs. With the exception of the Mac Studio M3 Ultra, other M3 / M3 Pro / M3 Max devices should now work with the latest Asahi Linux builds but with some feature caveats...",
+      "published": "2026-09-06T10:53:22+00:00",
+      "source_id": "phoronix",
+      "source": "Phoronix",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f9573313281facd9",
+      "title": "Xbox Brings Cloud Gaming to TCL TVs, but Slashes the Time You Can Actually Play to a Paltry 15 Hours",
+      "url": "https://wccftech.com/xbox-cloud-gaming-tcl-tvs-15-hour-play-limit/",
+      "canonical": "https://wccftech.com/xbox-cloud-gaming-tcl-tvs-15-hour-play-limit",
+      "summary": "It seems like Xbox truly can't go a week without some sort of PR debacle; this time around, it's about Xbox Cloud Gaming. It was actually supposed to be a good week on that front: on Friday, Microsoft's gaming division announced that the Xbox app would be coming to TCL's popular televisions in the coming months, allowing owners of TCL Smart TVs to play Xbox games via cloud. This follows the launch",
+      "published": "2026-09-06T12:00:00+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7d620298d3b8b7fe",
+      "title": "DLSS 5 Testing Ends in a Melted RTX 5090 Connector, Power Shoots Past 600 W",
+      "url": "https://www.techpowerup.com/352412/dlss-5-testing-ends-in-a-melted-rtx-5090-connector-power-shoots-past-600-w",
+      "canonical": "https://www.techpowerup.com/352412/dlss-5-testing-ends-in-a-melted-rtx-5090-connector-power-shoots-past-600-w",
+      "summary": "DLSS 5 seems to be contributing to increased power draw, and we have our first victim here. Videocardz reports a new melted-connector case on an MSI GeForce RTX 5090 Gaming Trio OC, which surfaced during DLSS 5 Neural Rendering testing in NBA 2K27 , currently the only officially supported game. A reader nicknamed erek documented the incident, noting DLSS 5 pushed the card's power draw from around ",
+      "published": "2026-09-06T13:52:09+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
