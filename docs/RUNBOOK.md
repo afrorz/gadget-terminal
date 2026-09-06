@@ -30,6 +30,8 @@ gh repo create <あなたのアカウント>/gadget-signal --public --source=. -
 ### 検索エンジンへの登録
 
 - Google Search Console にプロパティを追加 → `sitemap.xml` を送信
+  （所有権確認は `site.yaml` の `search_console_verification` に content の値を
+  入れて公開するだけでよい。受け口は実装済み。詳細は下の「Google Search Console」）
 
 ### アクセス解析（Cloudflare Web Analytics）
 
@@ -263,6 +265,34 @@ v2 のメディアAPIは `Authorization: Bearer` を要求し、1.0a では通�
 - 事実（スペック・価格・日付）そのものに著作権はない。**事実を抜き出して自分の言葉で書く** のが安全かつ品質も高い
 - 引用する場合は、出典明示・引用部分の明確な区別・主従関係（自分の記述が主）の3点を守る
 - 訂正依頼への窓口を `about.html` に用意しておく（現在「準備中」。連絡先を入れること）
+
+## Google Search Console（2026-09-06 時点で未登録）
+
+**いま最も欠けている計測。** Cloudflare Web Analytics は「何人来たか」しか
+分からず、**どの検索語で表示されて何位だったか**が見えない。伸びたテーマの
+まとめ記事を作るという育て方（下の「育て方のロードマップ」）は、この数字が
+無いと判断できない。
+
+1. https://search.google.com/search-console/ に afrorz@gmail.com で入る
+2. プロパティを追加 → **URLプレフィックス**（`https://gadgetterminal.com`）を選ぶ
+   - ドメインプロパティを選ぶと DNS を触ることになるので、こちらのほうが早い
+3. 確認方法で **「HTMLタグ」** を選ぶ。出てくる
+   `<meta name="google-site-verification" content="XXXX">` の **content の中身だけ**を
+   `config/site.yaml` の `search_console_verification` に入れる
+4. `python scripts/build.py; git add -A; git commit -m "chore: Search Console の確認タグ"; git push`
+   → 数分でデプロイされたら、Search Console の「確認」を押す
+5. 確認後、サイトマップに `sitemap.xml` を送信する
+
+**確認が済んでもタグは消さない。** 消すと所有権が外れる。
+
+## Google ニュース パブリッシャーセンター（未登録）
+
+Search Console の次に効く。登録すると Google ニュースと **Discover** の
+対象になる。ニュース型サイトの初期流入は検索よりここが大きいことがある。
+
+https://publishercenter.google.com/ で「出版物を追加」。審査があり、
+コンテンツポリシーへの準拠が条件になる（運営者情報・連絡先・
+著者情報が明示されていること）。**Search Console の確認を先に済ませること。**
 
 ## Google AdSense（2026-09-02 審査中）
 

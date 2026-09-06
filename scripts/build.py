@@ -378,6 +378,11 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
     x_site_meta = f'<meta name="twitter:site" content="@{html.escape(_xa)}">' if _xa else ""
     _p = "" if url_path in ("index.html", "/") else url_path.lstrip("/")
     full_url = f"{s['base_url'].rstrip('/')}/{_p}"
+    # Search Console の所有権確認。「HTMLタグ」方式で出るメタタグの content= の
+    # 中身だけを site.yaml に入れる。空なら何も出さない。
+    _sc = str(s.get("search_console_verification") or "").strip()
+    sc_meta = (f'<meta name="google-site-verification" content="{html.escape(_sc)}">'
+               if _sc else "")
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -386,7 +391,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <meta name="theme-color" content="#f6f7f9">
 <script>(function(){{try{{if(localStorage.getItem("gt-theme")==="dark"){{document.documentElement.setAttribute("data-theme","dark");document.querySelector('meta[name=theme-color]').content="#0a0d16";}}}}catch(e){{}}}})();</script>
 <title>{html.escape(title)}</title>
-<meta name="description" content="{html.escape(desc)}">
+<meta name="description" content="{html.escape(desc)}">{sc_meta}
 <link rel="canonical" href="{html.escape(full_url)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{html.escape(s['title'])}">
