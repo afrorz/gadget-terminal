@@ -33,6 +33,22 @@ jobs:
         id: base
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      - name: Claude Code CLI を明示的にインストール
+        # claude-code-action@v1 内蔵のネイティブインストールが、install.sh の
+        # 失敗(ネットワーク瞬断など)を握りつぶして「成功」扱いのまま
+        # バイナリを置かないまま進み、後段で
+        # 「Claude Code native binary not found at ~/.local/bin/claude」で
+        # 落ちる既知の不具合がある(upstream issue #1242, #1290)。
+        # 2026-09-09 の実行がこれで全滅した(19秒で失敗)ため、自前で
+        # インストールして PATH に通しておく。set -euo pipefail を効かせて
+        # curl の失敗が握りつぶされずこのステップ自体で落ちるようにする。
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
       - uses: anthropics/claude-code-action@v1
         # prompt の中に ${{ }} を書かないこと。書くとプロンプト全体が式として
         # 評価され、GitHub Actions の式の上限 21,000字にぶつかって
