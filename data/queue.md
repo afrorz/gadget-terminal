@@ -58,6 +58,8 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
+- https://www.kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot
+
 ## 処理済み
 
 - 2026-08-24 https://www.makuake.com/project/calorc1/ → content/posts/2026-08-24-calor-c1-makuake.md
