@@ -58,9 +58,9 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
-- https://www.kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot
-
 ## 処理済み
+
+- 2026-09-09 https://www.kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot → content/posts/2026-09-09-mondo-robotics-beni-camera-robot.md
 
 - 2026-08-24 https://www.makuake.com/project/calorc1/ → content/posts/2026-08-24-calor-c1-makuake.md
 - 2026-08-23 https://www.indiegogo.com/projects/hoverair/versa-this-pocket-camera-can-fly → content/posts/2026-08-23-hoverair-versa-indiegogo.md
