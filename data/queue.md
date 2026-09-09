@@ -58,9 +58,9 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
-- https://greenfunding.jp/kibidango/projects/9361
-
 ## 処理済み
+
+- 2026-09-10 https://greenfunding.jp/kibidango/projects/9361 → content/posts/2026-09-10-ultrabarx-magnetic-desk-panel.md
 
 - 2026-09-09 https://www.kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot → content/posts/2026-09-09-mondo-robotics-beni-camera-robot.md
 
