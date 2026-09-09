@@ -1,0 +1,774 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:42:38.397365+09:00",
+  "stats": {
+    "fetched": 725,
+    "unique": 685,
+    "new": 431,
+    "clusters": 369,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "df024d81e0ec2460",
+      "title": "Apple launches its first foldable iPhone Duo with dual 120Hz displays, titanium build & A20 Pro chip",
+      "url": "https://www.gizmochina.com/2026/09/09/apple-iphone-duo-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/09/apple-iphone-duo-launched-specs-price",
+      "summary": "After years of watching competitors like Samsung and Google iterate on flexible displays, Apple has officially entered the foldable smartphone market. Announced today, the iPhone Duo is a book-style foldable that starts at a steep $1,999, bringing the company’s hardware design to a category it has long observed from the sidelines. Apple iPhone Duo Specifications [&#8230;] The post Apple launches i",
+      "published": "2026-09-09T19:51:16+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 30,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）",
+        "Notebookcheck (Smartphone)",
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/000/535.htm",
+        "https://www.ithome.com/1/000/523.htm",
+        "https://www.notebookcheck.net/Apple-iPhone-Duo-debuts-as-company-s-first-foldable-with-7-6-inch-display-and-A20-Pro.1395035.0.html",
+        "https://www.tomshardware.com/pc-components/cpus/apple-a20-pro-powers-iphone-18-pro-the-companys-first-2-nanometer-smartphone-chip"
+      ]
+    },
+    {
+      "id": "5c5aa4d7a98f1dac",
+      "title": "苹果首款折叠 iPhone Duo 不便按指纹时，Apple Watch 可辅助认证",
+      "url": "https://www.ithome.com/1/000/552.htm",
+      "canonical": "https://www.ithome.com/1/000/552.htm",
+      "summary": "IT之家 9 月 10 日消息，科技媒体 AppleInsider 今天（9 月 10 日）发布博文，报道称苹果首款折叠手机 iPhone Duo 如果不方便使用 Touch ID 生物识别方案， 还可以通过 Apple Watch 辅助认证。 苹果首款折叠手机 iPhone Duo 采用 Touch ID 指纹识别解决方案，可不受设备开合状态和正反朝向影响，完成身份验证。 IT之家援引博文介绍，如果用户不愿意或者不方便使用 Touch ID，且随身佩戴 Apple Watch，也可以借助苹果智能手表实现认证和解锁。该认证系统可能结合设备距离及其他因素判断认证条件，以避免他人拿走手机后仍能解锁。",
+      "published": "2026-09-09T22:39:24+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 26,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+20 6媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "GSMArena",
+        "Gadget Flow",
+        "Notebookcheck (Smartphone)",
+        "TechPowerUp"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/09/09/apple-updates-design-resources-with-iphone-duo-and-iphone-18-pro-product-bezels/",
+        "https://www.ithome.com/1/000/549.htm",
+        "https://www.gsmarena.com/iphone_18_pro_and_duo_pricing_overview-news-74546.php",
+        "https://www.ithome.com/1/000/533.htm"
+      ]
+    },
+    {
+      "title": "Makuake｜充電・照明・点火・転送、これ1本。緊急時も頼れる、携帯性を極めた4IN1ケーブル｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/active_tricable/",
+      "summary": "TriCableは、240超急速充電対応のUSB-Cケーブルに、ライトと点火機能をプラスした4in1マルチツールです。さらにUSB4.0を採用し、最大40Gbpsの高速データ転送にも対応。日常使いから仕事、アウトドア、もしもの防災時まで、「あったら助かる」をこれ1本に集約しました。最大240W・PD3.1対応。高出力が必要なノートPCやモバイルバッテリーにも対応。高輝度LEDライト搭載。停電や災害",
+      "image": "https://static.makuake.com/upload/project/53296/main_53296.jpg?version=1787630350&amp;width=690&amp;height=388",
+      "published": "2026-09-12T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "f5517a0750ad4f2c",
+      "canonical": "https://www.makuake.com/project/active_tricable",
+      "score": 24,
+      "reasons": [
+        "+6 makuake",
+        "+4 モバイルバッテリー",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜美しく自立する。大人の日常を整える、大容量本革スマートトート｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/kyoshojin002/",
+      "summary": "置いた瞬間にわかる凛とした自立フォルム自立する。その美しいシルエットを保ちます。日本の職人が一つひとつ丁寧に仕立てた縫製技術により、商談中もカフェのテーブルでも、常に凛とした佇まいをキープします。スマートなルックス驚きの大容量1泊2日の出張も、これひとつで。 見た目以上の大容量設計。ノートPC、A4ノート、着替え、ガジェット類、折りたたみ傘まで——。荷物が多い日や出張の時も",
+      "image": "https://static.makuake.com/upload/project/53382/main_53382.png?version=1787882749&amp;width=690&amp;height=388",
+      "published": "2026-09-11T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "43568d1908c5b797",
+      "canonical": "https://www.makuake.com/project/kyoshojin002",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 折りたたみ",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜日本のバスローブの常識を変える！　軽量・機能性ルームウェア｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/myrobe/",
+      "summary": "バスローブの常識を変える!!【 わずか500gの機能性ルームウェア】「バスローブは重くて動きにくい」「洗濯が増える」「乾きづらい」湿度の高い日本の生活には、厚手のバスローブは日常的に使いづらいのが現状——。そんな理由で、これまで多くの日本人がバスローブを敬遠してきました。海外のホテルのような贅沢感には憧れるけれど・・・お風呂上がりに汗が引かずムレてしまう、重くて身動きが取り",
+      "image": "https://static.makuake.com/upload/project/53494/main_53494.png?version=1788743330&amp;width=690&amp;height=388",
+      "published": "2026-09-11T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "80bc3c7a40168f03",
+      "canonical": "https://www.makuake.com/project/myrobe",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜MNMM × MOONRAKERS｜超軽量素材でつくる、日常を軽くするスウェット｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/mnmm-airfreak/",
+      "summary": "スウェットにまつわる重さを、減らす。MOONRAKERSが展開する先端素材「Airfreak®Ultra-light」と、MNMMの服づくりを組み合わせたスウェットをつくりました。重さ、かさばり、乾きにくさ、毛玉、洗濯後の手入れ。スウェットを着る前後に生まれる小さな負担を、素材の機能によって減らしながら、MNMMらしい余白のあるシルエットに仕立てました。シンプルなクルーネック、装飾を加えな",
+      "image": "https://static.makuake.com/upload/project/53506/main_53506.png?version=1788935247&amp;width=690&amp;height=388",
+      "published": "2026-09-11T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "4ccd952960aecc84",
+      "canonical": "https://www.makuake.com/project/mnmm-airfreak",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【100％カシミヤ】頭・耳・首まで、これ1枚で“全部”暖かいフードウォーマー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/cashmere_hoodwarmer_elvi/",
+      "summary": "冬、こんな「寒い」を感じていませんか？マフラーだけでは頭が寒い。❌ 帽子❌ マフラー❌ 荷物が増えるもっと手軽に、頭から首まで暖かくできたらそんな経験からこのフードウォーマーが生まれました。⭕これ1枚持ち歩いても重さゼロ感。 旅行・通勤・アウトドアでも負担にならない約100g。頭から首まですっぽり覆えて暖かい約100gの軽量設計。首元に身につけても軽やかで、持ち運びにも便利です。これ１枚で「寒い」",
+      "image": "https://static.makuake.com/upload/project/53476/main_53476.png?version=1788485975&amp;width=690&amp;height=388",
+      "published": "2026-09-12T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "3865c31272c817f7",
+      "canonical": "https://www.makuake.com/project/cashmere_hoodwarmer_elvi",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a7674a0b3e0cf690",
+      "title": "(PR) Apple Unveils iPhone Duo, the First Foldable iPhone",
+      "url": "https://www.techpowerup.com/352526/apple-unveils-iphone-duo-the-first-foldable-iphone",
+      "canonical": "https://www.techpowerup.com/352526/apple-unveils-iphone-duo-the-first-foldable-iphone",
+      "summary": "Apple today introduced iPhone Duo, the first foldable iPhone. Opened, it is the thinnest iPhone ever, with a 7.6-inch inner display that provides a large canvas for viewing content, gaming, and multitasking, and a special nano-texture finish that minimizes glare for an unparalleled viewing experience. Closed, the 5.4-inch outer display delivers 90 percent of the screen area of iPhone 18 Pro in a c",
+      "published": "2026-09-09T19:01:51+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+4 unveil",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena",
+        "TechEBlog"
+      ],
+      "related_urls": [
+        "https://www.techeblog.com/apple-iphone-duo-reveal-specs-price-hands-on-release/",
+        "https://www.gsmarena.com/its_here__iphone_duo_gets_official_as_apples_first_foldable_smartphone-news-74545.php"
+      ]
+    },
+    {
+      "id": "0bbf56aff73275bd",
+      "title": "Framework Updates Laptop 13 Pro Pre-Orders Yet Again: Cheaper RAM Comes With Pricier Core Ultra X9 CPUs",
+      "url": "https://www.techpowerup.com/352490/framework-updates-laptop-13-pro-pre-orders-yet-again-cheaper-ram-comes-with-pricier-core-ultra-x9-cpus",
+      "canonical": "https://www.techpowerup.com/352490/framework-updates-laptop-13-pro-pre-orders-yet-again-cheaper-ram-comes-with-pricier-core-ultra-x9-cpus",
+      "summary": "Framework, the maker of repairable laptops and mini PCs, previously stirred up some controversy when it increased pre-order pricing on its Laptop 13 Pro after promising that the announced pricing would hold throughout pre-orders. Following that July price increase, however, Framework has revealed that it has once again dropped the price of pre-orders on the Framework Laptop 13 Pro, after it was ab",
+      "published": "2026-09-08T22:55:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+4 pre-order",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d200d7b435ffb394",
+      "title": "Honor Magic9 series to debut on September 28, design revealed",
+      "url": "https://www.gsmarena.com/honor_magic9_series_to_debut_on_september_28_design_revealed-news-74526.php",
+      "canonical": "https://www.gsmarena.com/honor_magic9_series_to_debut_on_september_28_design_revealed-news-74526.php",
+      "summary": "Honor has announced the launch date for its upcoming Magic9 flagship series. Alongside, it has revealed the phones’ design and highlighted some of their key camera features. The lineup is also available for pre-order in China. The Honor Magic9 series will debut in China on September 28, the company confirmed in a post on Weibo. Honor has not revealed how many models will launch as part of the line",
+      "published": "2026-09-09T07:08:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/09/honor-magic-9-series-dual-200mp-arri-cameras-500mm-telephoto/"
+      ]
+    },
+    {
+      "title": "Makuake｜光るやつ第２弾！蓄光好きに届け！光るクリップ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/hikarukurip/",
+      "summary": "前回は、充電ケーブル等に取り付けて目印、根本の保護となる《 光るやつ 》をプロジェクトさせていただきました、株式会社東具PLASと申します。どうぞよろしくお願いいたします。前回のプロジェクトでは306名の方に応援いただきまして誠にありがとうございました。あれから半年が過ぎ、身の回りのアイテムが光ってたら素敵だなといった思いが次第に強くなり、気が付けば色々な蓄光製品を世に出せたら！！とそればっかり考",
+      "image": "https://static.makuake.com/upload/project/53491/main_53491.png?version=1788919763&amp;width=690&amp;height=388",
+      "published": "2026-09-11T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "377179160fb92ae4",
+      "canonical": "https://www.makuake.com/project/hikarukurip",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜挿すだけで大画面に簡単ミラーリング！Wi-Fi・設定不要のミニアダプター｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/adapter/",
+      "summary": "リターン品の配送が完了するまで、BRIGHT DIY (実行者）はJUST LINK TECH（メーカー）の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。ミラーリングアダプターM5は接続したら自動で認識されるプラグ・アンド・プレイ機能を搭載。何もしなくてもすぐにミラーリングが開始されるので、機器の設定が苦手な方でもお手軽にお使いいただ",
+      "image": "https://static.makuake.com/upload/project/53482/main_53482.jpg?version=1788503851&amp;width=690&amp;height=388",
+      "published": "2026-09-12T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "c74bdc0c88123cc3",
+      "canonical": "https://www.makuake.com/project/adapter",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6e636476ab3d0ac0",
+      "title": "Intel-Backed \"Hypertune\" PC Overlocking Tool Reportedly Boosts FPS by Up to 60%",
+      "url": "https://www.techpowerup.com/352525/intel-backed-hypertune-pc-overlocking-tool-reportedly-boosts-fps-by-up-to-60",
+      "canonical": "https://www.techpowerup.com/352525/intel-backed-hypertune-pc-overlocking-tool-reportedly-boosts-fps-by-up-to-60",
+      "summary": "A new tool called Hypertune has emerged after being in early testing with 60,000 PC DIY enthusiasts. According to exclusive launch coverage from GamesBeat, a Miami-based gaming company announced a new automated overclocking platform named Gaming Performance Engineering, which is said to deliver a significant FPS performance boost of up to 60%. While that figure sounds impressive, it is not expecte",
+      "published": "2026-09-09T18:14:44+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 backed",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/pc-components/cpus/intel-backed-auto-overclocking-tool-hypertune-optimizes-individual-systems-not-test-profiles-tool-claims-fps-improvement-of-up-to-60-percent-on-intel-based-systems"
+      ]
+    },
+    {
+      "id": "e2d73231e2266479",
+      "title": "Xiaomi Mijia Air Pump 3 gets 25% faster inflation and 150psi pressure",
+      "url": "https://www.gizmochina.com/2026/09/09/xiaomi-mijia-air-pump-3-gets-25-faster-inflation-and-150psi-pressure/",
+      "canonical": "https://www.gizmochina.com/2026/09/09/xiaomi-mijia-air-pump-3-gets-25-faster-inflation-and-150psi-pressure",
+      "summary": "Xiaomi today announced a new portable inflator in China. The Mijia Air Pump 3 is now available for crowdfunding through Xiaomi Mall and Xiaomi Youpin at a retail price of 199 yuan (~ $29), while the crowdfunding price is 179 yuan (~ $26). Also ReadThe Best Xiaomi Mijia Gadgets You Can Actually Buy in 2026 [&#8230;] The post Xiaomi Mijia Air Pump 3 gets 25% faster inflation and 150psi pressure appe",
+      "published": "2026-09-09T04:48:23+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 announced",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a39538173784ebbc",
+      "title": "Retroid Pocket Duo Lite announced with dual 60Hz screens and in-line triggers",
+      "url": "https://www.notebookcheck.net/Retroid-shares-more-Pocket-Duo-details-alongside-surprise-reveal-of-the-Pocket-Duo-Lite.1394642.0.html",
+      "canonical": "https://www.notebookcheck.net/Retroid-shares-more-Pocket-Duo-details-alongside-surprise-reveal-of-the-Pocket-Duo-Lite.1394642.0.html",
+      "summary": "Retroid has shared more details of the Retroid Pocket Duo, but it has also unveiled a second model that will launch as the Pocket Duo Lite. Both will have Qualcomm processors, a 6000mAh battery, and launch in five colors.",
+      "published": "2026-09-09T17:32:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Retro Dodo"
+      ],
+      "related_urls": [
+        "https://retrododo.com/retroid-show-off-pocket-duo-pocket-duo-lite-in-new-trailer/"
+      ]
+    },
+    {
+      "id": "668255196fdb39e5",
+      "title": "Apple Watch Series 12 and Ultra 4 unveiled with upgraded health tracking system",
+      "url": "https://9to5mac.com/2026/09/09/apple-watch-series-12-and-ultra-4-unveiled-with-upgraded-health-tracking-system/",
+      "canonical": "https://9to5mac.com/2026/09/09/apple-watch-series-12-and-ultra-4-unveiled-with-upgraded-health-tracking-system",
+      "summary": "Apple Watch Series 12 and Apple Watch Ultra 4 are official. Apple has announced its two new Apple Watch models as part of its product event today. An upgraded health tracking system is key to both models. more…",
+      "published": "2026-09-09T17:44:50+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/behold-the-all-new-apple-watch-series-12-and-apple-watch-ultra-4-a-new-health-age-metric-readiness-scoring-and-tons-of-features-at-the-same-price/"
+      ]
+    },
+    {
+      "id": "12d1ec13f53a0b02",
+      "title": "vivo X500 Pro Max design revealed ahead of launch",
+      "url": "https://www.gsmarena.com/vivo_x500_pro_max_design_revealed_ahead_of_launch-news-74527.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_pro_max_design_revealed_ahead_of_launch-news-74527.php",
+      "summary": "vivo’s next-generation X500 flagship series is set to launch in China later this month. Ahead of the launch, the company has revealed several key features of the upcoming devices and has now offered a first look at the vivo X500 Pro Max’s design. In a post on Weibo, vivo Product Vice President Huang Tao shared a first look at the rear design of the vivo X500 Pro Max. The handset is shown in silver",
+      "published": "2026-09-09T08:07:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/09/vivo-x500-pro-max-design-revealed/"
+      ]
+    },
+    {
+      "id": "cfc219f0becdf685",
+      "title": "Apple confirms iPhone Duo release date for October, details here",
+      "url": "https://9to5mac.com/2026/09/09/apple-confirms-iphone-duo-release-date-for-october-details-here/",
+      "canonical": "https://9to5mac.com/2026/09/09/apple-confirms-iphone-duo-release-date-for-october-details-here",
+      "summary": "Today Apple unveiled the first foldable iPhone ever: iPhone Duo. But the new model won’t launch alongside iPhone 18 Pro. Instead, Apple has confirmed an October release date. more…",
+      "published": "2026-09-09T18:22:01+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 release date",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2839e721c87a901f",
+      "title": "Samsung, take note: iPhone Duo supports stylus input better than any Galaxy Fold",
+      "url": "https://www.androidauthority.com/iphone-duo-apple-pencil-3709490/",
+      "canonical": "https://www.androidauthority.com/iphone-duo-apple-pencil-3709490",
+      "summary": "Apple's late to the foldable fight, but it's coming out swinging.",
+      "published": "2026-09-09T19:54:58+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police",
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/everything-iphone-duo-does-vs-galaxy-z-fold-8/",
+        "https://www.androidpolice.com/apple-takes-on-the-galaxy-z-fold-8-with-1999-iphone-duo/"
+      ]
+    },
+    {
+      "id": "5ff2405410f6b715",
+      "title": "This is when Apple is releasing iOS 27",
+      "url": "https://www.gsmarena.com/this_is_when_apple_is_releasing_ios_27-news-74549.php",
+      "canonical": "https://www.gsmarena.com/this_is_when_apple_is_releasing_ios_27-news-74549.php",
+      "summary": "Today Apple unveiled the iPhone 18 Pro and iPhone 18 Pro Max. These devices will go on pre-order on September 12 and will be released on September 18. They will both be running iOS 27, which Apple announced back in June and has been working on ever since. Today Apple has also revealed when the stable version of iOS 27 will become available for eligible iPhones, following the usual months-long beta",
+      "published": "2026-09-09T21:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4863fc7cf604291a",
+      "title": "iQOO 16’s display officially revealed ahead of September 14 event",
+      "url": "https://www.gizmochina.com/2026/09/09/iqoo-16-samsung-display-event-september-14/",
+      "canonical": "https://www.gizmochina.com/2026/09/09/iqoo-16-samsung-display-event-september-14",
+      "summary": "iQOO recently confirmed that it will hold a launch event this month to unveil the iQOO 16 and iQOO Pad 6 Ultra. Reports have revealed that the iQOO 16 will feature the industry’s best display, and now the company has shared more details about its display technology. iQOO 16 display gets Samsung collaboration iQOO has [&#8230;] The post iQOO 16’s display officially revealed ahead of September 14 ev",
+      "published": "2026-09-09T04:01:38+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3f3a2dfa3eecd171",
+      "title": "iQOO 16 vs. OnePlus 16 camera specifications emerge: Which one would you choose?",
+      "url": "https://www.gizmochina.com/2026/09/09/iqoo-16-vs-oneplus-16-camera-specifications-leak/",
+      "canonical": "https://www.gizmochina.com/2026/09/09/iqoo-16-vs-oneplus-16-camera-specifications-leak",
+      "summary": "The iQOO 16 and OnePlus 16, two upcoming performance-focused flagships, are drawing closer to their respective launches. The iQOO model is already confirmed to launch in China this month, potentially towards the end of September. Meanwhile, rumors suggest the OnePlus 16 could be unveiled in October, and a new leak has now revealed the camera [&#8230;] The post iQOO 16 vs. OnePlus 16 camera specifi",
+      "published": "2026-09-09T09:10:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0c3d8a03cf8a3d77",
+      "title": "iPhone Duo hands-on videos reveal Android foldable pain points we know too well",
+      "url": "https://9to5google.com/2026/09/09/iphone-duo-hands-on-reveals-crease-and-camera/",
+      "canonical": "https://9to5google.com/2026/09/09/iphone-duo-hands-on-reveals-crease-and-camera",
+      "summary": "Apple has a track record of waiting until the kinks get worked out before it tries its own hand at new devices, but hands-on videos of the iPhone Duo are already starting to show that Apple suffers from some of the same pain points other manufacturers like Samsung do, like the beloved screen crease. more…",
+      "published": "2026-09-09T22:10:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+5 hands-on",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gadget Flow"
+      ],
+      "related_urls": [
+        "https://thegadgetflow.com/product/iphone-duo-foldable-smartphone/"
+      ]
+    },
+    {
+      "id": "742138a522f94d4f",
+      "title": "iPhone Duo gets two official first-party cases, here they are",
+      "url": "https://www.gsmarena.com/iphone_duo_gets_two_official_firstparty_cases_here_they_are-news-74547.php",
+      "canonical": "https://www.gsmarena.com/iphone_duo_gets_two_official_firstparty_cases_here_they_are-news-74547.php",
+      "summary": "The iPhone Duo is Apple's first foldable smartphone, and alongside it, the company today also unveiled two official first-party cases for the device. The iPhone Duo Folio is going to be available in navy blue and taupe, and it has an integrated kickstand which supports a wide range of viewing angles. It folds away neatly when not in use. iPhone Duo Folio The iPhone Duo case is thin and light, acco",
+      "published": "2026-09-09T22:29:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e5245b2a2c13a1ec",
+      "title": "Vivo X500 series roundup: Specs, leaks, and launch details",
+      "url": "https://www.gizmochina.com/2026/09/09/vivo-x500-series-roundup-specs-leaks-and-launch-details/",
+      "canonical": "https://www.gizmochina.com/2026/09/09/vivo-x500-series-roundup-specs-leaks-and-launch-details",
+      "summary": "The Vivo X500 series&#8217; launch event is set for September 21st. That&#8217;s when it will launch in China, while the global launch has yet to be announced. Ahead of the launch event, the company has teased many key specs of the upcoming X500 series phones, and the leaks have spilled the rest of the details. [&#8230;] The post Vivo X500 series roundup: Specs, leaks, and launch details appeared ",
+      "published": "2026-09-09T10:29:46+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a78b24b6f0bb70b8",
+      "title": "Samsung takes another shot at Apple hours before iPhone Ultra/Duo launch",
+      "url": "https://www.androidauthority.com/samsung-welcome-to-foldable-ad-3709219/",
+      "canonical": "https://www.androidauthority.com/samsung-welcome-to-foldable-ad-3709219",
+      "summary": "Samsung officially welcomes Apple to the foldable segment while showing off ‘the world’s lightest fold.’",
+      "published": "2026-09-09T14:26:13+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "78fb7d51034c22a2",
+      "title": "Watch Apple's 'Surprise and shine' iPhone launch event here",
+      "url": "https://www.gsmarena.com/apple_iphone_18_series_iphone_duo_launch_event_live_stream-news-74532.php",
+      "canonical": "https://www.gsmarena.com/apple_iphone_18_series_iphone_duo_launch_event_live_stream-news-74532.php",
+      "summary": "The day many of you have been waiting for has arrived. Apple is holding its \"Surprise and shine\" launch event today in Cupertino, California, to unveil a bunch of new products, including the first folding iPhone. This will be the first launch event for John Ternus as Apple's new CEO, and it begins at 5 PM UTC. You can follow it with us by tuning in to the live stream below. The star of the show wi",
+      "published": "2026-09-09T11:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "-3 ceo",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/09/09/apple-updates-trade-in-values-following-surprise-and-shine-event-lowers-iphone-payouts/"
+      ]
+    },
+    {
+      "id": "50ddbf59cdf05f05",
+      "title": "Resident Evil 2, 3, 4 remakes launching on Nintendo Switch 2 next month",
+      "url": "https://www.notebookcheck.net/Resident-Evil-2-3-4-remakes-launching-on-Nintendo-Switch-2-next-month.1395008.0.html",
+      "canonical": "https://www.notebookcheck.net/Resident-Evil-2-3-4-remakes-launching-on-Nintendo-Switch-2-next-month.1395008.0.html",
+      "summary": "Capcom has officially confirmed the three Resident Evil remakes coming to the Nintendo Switch 2. There have been leaks and rumors for a long time suggesting the same, and the games will soon be available for pre-order.",
+      "published": "2026-09-09T15:48:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7b2f911c6d5fbfe5",
+      "title": "The Duskbloods release date in doubt after Switch 2 game skips Nintendo Direct",
+      "url": "https://www.notebookcheck.net/The-Duskbloods-release-date-in-doubt-after-Switch-2-game-skips-Nintendo-Direct.1395006.0.html",
+      "canonical": "https://www.notebookcheck.net/The-Duskbloods-release-date-in-doubt-after-Switch-2-game-skips-Nintendo-Direct.1395006.0.html",
+      "summary": "A Switch 2 exclusive was conspicuously absent from the September Nintendo Direct. Despite The Duskbloods release date in 2026, exact launch, pre-order, and pricing details remain unclear. The recent network test exposed performance problems with frame rates and latency.",
+      "published": "2026-09-09T17:19:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "252a32b1406e631b",
+      "title": "visionOS 27 release date: Here’s when the new update launches",
+      "url": "https://9to5mac.com/2026/09/09/visionos-27-release-date-heres-when-the-new-update-launches/",
+      "canonical": "https://9to5mac.com/2026/09/09/visionos-27-release-date-heres-when-the-new-update-launches",
+      "summary": "Today Apple unveiled its latest hardware products during the “Surprise and shine” event, where we also learned the release date for visionOS 27, the new software update for Vision Pro. more…",
+      "published": "2026-09-09T17:42:40+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
