@@ -1,0 +1,742 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T07:44:54.436937+09:00",
+  "stats": {
+    "fetched": 725,
+    "unique": 685,
+    "new": 375,
+    "clusters": 357,
+    "selected": 30
+  },
+  "items": [
+    {
+      "title": "Makuake｜【日本製センサー×乾電池式】沢田テント一酸化炭素チェッカーがより使いやすく新登場｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/sawadatent_coj5/",
+      "summary": "「充電できる」が当たり前ではない場所だから。キャンプでも、停電でも、災害時でも。本当に必要なのは、「充電しておく」ことを前提にしない道具なのかもしれません。COチェッカーは、",
+      "image": "https://static.makuake.com/upload/project/53504/main_53504.jpg?version=1789105754&amp;width=690&amp;height=388",
+      "published": "2026-09-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "d7da947a81581a14",
+      "canonical": "https://www.makuake.com/project/sawadatent_coj5",
+      "score": 25,
+      "reasons": [
+        "+6 makuake",
+        "+3 新登場",
+        "+2 登場",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a8e97b255d12e4d7",
+      "title": "Wallhack Officially Reveals M-001 Magnesium Gaming Mouse With Hefty Price Tag",
+      "url": "https://www.techpowerup.com/352577/wallhack-officially-reveals-m-001-magnesium-gaming-mouse-with-hefty-price-tag",
+      "canonical": "https://www.techpowerup.com/352577/wallhack-officially-reveals-m-001-magnesium-gaming-mouse-with-hefty-price-tag",
+      "summary": "Wallhack has been teasing its M-001 wireless gaming mouse for some time, but it hasn't revealed much of what to expect from the new peripheral when it launches. However, Wallhack has now officially announced the M-001's release date and pricing, and provided a full spec sheet for the new mouse. The official launch date is slated for September 21, and one of the most notable facts that was previous",
+      "published": "2026-09-10T22:53:01+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 release date",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "33d9a3552f8f41a8",
+      "title": "Retroid announces preorder and release dates for Pocket Duo and Pocket Duo Lite",
+      "url": "https://www.notebookcheck.net/Retroid-announces-preorder-and-release-dates-for-Pocket-Duo-and-Pocket-Duo-Lite.1396783.0.html",
+      "canonical": "https://www.notebookcheck.net/Retroid-announces-preorder-and-release-dates-for-Pocket-Duo-and-Pocket-Duo-Lite.1396783.0.html",
+      "summary": "Retroid has announced the launch and shipping dates for the Pocket Duo and Pocket Duo Lite dual-screen handhelds. The Android-powered devices will be available to purchase on the same day, but shipping dates differ by up to a month.",
+      "published": "2026-09-11T12:09:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 preorder",
+        "+3 release date",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜隠すから「魅せる」へ。老舗ELPAが本気で創った極上のデザインタップ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/montap/",
+      "summary": "モンタップが目指したのは、単に電源を取るためだけの道具ではありません。アートトイのようなインテリア性と、日用品としての使いやすさを兼ね備え、デスクに置くたび、使うたびに、気分が上がる存在です。可愛らしいフォルムの「３個口タイプ」と、便利な「USB-Cポート付き」の２種類ございます。「USB-Cポート付き」は20WのPD対応で急速充電が可能です。カラーは、インテリアや好みに合わせて選べる4色をご用意",
+      "image": "https://static.makuake.com/upload/project/53477/main_53477.png?version=1788491018&amp;width=690&amp;height=388",
+      "published": "2026-09-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "d1ef140eca8cb206",
+      "canonical": "https://www.makuake.com/project/montap",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【ネット不要】スマホに挿すだけ！災害時、旅行先でもTVが見れる「ソナエデンパ」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/sonaedempa/",
+      "summary": "※要専用アプリ/スマホのバッテリーを使用※画像はイメージですネットが遮断された環境でも、地デジの電波を直接受信して情報を得られるのが「ソナエデンパ」の強みです。回線の混雑やパンクの影響を受けず、停電時でも自家発電で放送を続けるテレビ局の電波をキャッチ。災害によって大規模停電や通信障害が発生した場合でも、避難情報や災害状況をリアルタイムで把握するための「情報の命綱」として役立ちます。※画像はイメージ",
+      "image": "https://static.makuake.com/upload/project/53403/main_53403.jpg?version=1788136922&amp;width=690&amp;height=388",
+      "published": "2026-09-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "aa20bbea98a3b4ef",
+      "canonical": "https://www.makuake.com/project/sonaedempa",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜初心者にこそ学んでほしい、クラウドの基礎からAWS・クラウド技術が身につく書籍｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/ms_naruhon_aws/",
+      "summary": "Amazon Web Services（AWS）は、世界中の企業や開発者に利用されているクラウドサービスです。生成AI、IoT、モバイル通信の発展とともにクラウド活用はますます重要になっており、AWSはその中心的な存在となっています。一方で、クラウドエンジニアには従来のオンプレミス環境とは異なる設計思想や、セキュリティ、コスト最適化に関する知識が求められます。しかし、「AWSを学びたいが何から始め",
+      "image": "https://static.makuake.com/upload/project/53527/main_53527.png?version=1788857158&amp;width=690&amp;height=388",
+      "published": "2026-09-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "656c72c9ba4c4520",
+      "canonical": "https://www.makuake.com/project/ms_naruhon_aws",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜初心者にこそ学んでほしい、MicrosoftのAI技術を体系的に学ぶ書籍｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/ms_naruhon_aisol/",
+      "summary": "現在、既に様々なシステム、ソリューションが私たちの社会や生活に溢れています。その中でここ数年、AIを新たに導入・活用するケースが増加し、その話題性と利便性はさらなる進化を見せています。AIはもはや一部の専門家だけのものではなく、私たちの日常や仕事の中に自然と溶け込み、誰もがその恩恵を受ける時代に突入しています。だからこそ、AIを「使う側」から「創る側」へと一歩踏み出す人が増えていくことが、これから",
+      "image": "https://static.makuake.com/upload/project/53528/main_53528.png?version=1788857183&amp;width=690&amp;height=388",
+      "published": "2026-09-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "2e6af7ba8098478a",
+      "canonical": "https://www.makuake.com/project/ms_naruhon_aisol",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜ワインとグラスを美しく魅せる。至福のひとときを彩る高級セラー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/devicestyle_angelshare/",
+      "summary": "すべてのワインラバーへ洗練のデザインとスペックで特別の空間を2002年より家庭用ワインセラーを開発・発信しているデバイスタイルが「美しいデザイン」と「使いやすい本格機能」を作り上げた、満を持して市場に投入するワインセラーです。美しいデザインに加えワインの長期保存と熟成に必要な「安定した温度管理と高断熱性」、「耐振動性と耐久性」を実現するスペックを備えています。上部コンパートメントにはお気に入りのワ",
+      "image": "https://static.makuake.com/upload/project/53480/main_53480.png?version=1788500608&amp;width=690&amp;height=388",
+      "published": "2026-09-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "2e421adb8b43e864",
+      "canonical": "https://www.makuake.com/project/devicestyle_angelshare",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【LEDライトの眩しさ解消】日中もクッキリ見やすい昼夜兼用ドライビングサングラス｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/try-angle_glasses139/",
+      "summary": "夜のヘッドライトの防眩効果と日中の視認性を高めた本格的ドライビングサングラス昼間は見やすさ抜群のサングラスとして、快適なドライブをサポートします。（※太陽光の直射に対する防眩効果はレンズ濃度の関係から劣ります。）お車を運転する方に、より安全で快適な視界をお届けするために、日本のレンズメーカーとして高い技術力を誇る伊藤光学工業株式会社が開発した、目に見える光をコントロールするレンズを採用しています。",
+      "image": "https://static.makuake.com/upload/project/53555/main_53555.png?version=1788994951&amp;width=690&amp;height=388",
+      "published": "2026-09-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "65e28d33f61178e3",
+      "canonical": "https://www.makuake.com/project/try-angle_glasses139",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dc0029bcbc372109",
+      "title": "Samsung brings Galaxy S26 Ultra and S26 to its refurbished program",
+      "url": "https://www.gizmochina.com/2026/09/11/samsung-galaxy-s26-ultra-certified-re-newed-india-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/11/samsung-galaxy-s26-ultra-certified-re-newed-india-price",
+      "summary": "Samsung is giving Indian buyers another way to get its latest flagship smartphones. The Galaxy S26 and Galaxy S26 Ultra have now joined Samsung’s Certified Re-Newed program. This brings the two devices to Samsung’s official refurbished sales channel at lower prices. Also ReadSamsung Galaxy S26 vs S26+ vs S26 Ultra: Specs, Key Differences &#38; Upgrades [&#8230;] The post Samsung brings Galaxy S26 ",
+      "published": "2026-09-11T07:29:51+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 official",
+        "+3 price",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/samsung_galaxy_s26_galaxy_s26_ultra_certified_renewed_india_price-news-74561.php"
+      ]
+    },
+    {
+      "id": "a41d5e3f5beae0ac",
+      "title": "Honor Magic9 series said to include a Super Edition with an 11,000mAh battery",
+      "url": "https://www.gsmarena.com/honor_magic9_series_said_to_include_a_super_edition_with_an_11000mah_battery-news-74577.php",
+      "canonical": "https://www.gsmarena.com/honor_magic9_series_said_to_include_a_super_edition_with_an_11000mah_battery-news-74577.php",
+      "summary": "Honor recently revealed the design of its upcoming Magic9 series but did not share any specs. A recent leak suggested that Honor would launch two models, but a new one now claims that the lineup will include the base Magic9, Magic9 Pro Max, and a Magic9 Super Edition. According to a tipster on Weibo, the entire Honor Magic9 series will use the same rear camera design showcased in recent official r",
+      "published": "2026-09-11T09:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/11/honor-magic-9-pro-max-super-power-edition-specifications-leaked/"
+      ]
+    },
+    {
+      "id": "380a7f79b6c19db6",
+      "title": "Samsung’s Galaxy Buds On leak again",
+      "url": "https://www.gsmarena.com/samsungs_galaxy_buds_on_leak_again_-news-74579.php",
+      "canonical": "https://www.gsmarena.com/samsungs_galaxy_buds_on_leak_again_-news-74579.php",
+      "summary": "Samsung is working on a pair of open-ear clip-on wireless earbuds which are expected to launch as the Galaxy Buds On, and we now have our first official-looking renders complete with additional details thanks to a new report from SammyGuru. Samsung Galaxy Buds On (images: SammyGuru) Just as the previous renders show, Galaxy Buds On feature a two-part design with one side featuring the speaker and ",
+      "published": "2026-09-11T13:16:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-s-AirPods-Max-rival-Galaxy-H1-surface-again-with-feature-list-in-tow.1397277.0.html"
+      ]
+    },
+    {
+      "id": "a4473154a54d623e",
+      "title": "Framework Kills One Key Module Customizable Laptop Keyboard Program",
+      "url": "https://www.techpowerup.com/352589/framework-kills-one-key-module-customizable-laptop-keyboard-program",
+      "canonical": "https://www.techpowerup.com/352589/framework-kills-one-key-module-customizable-laptop-keyboard-program",
+      "summary": "Framework's One Key Module is a project that Framework announced when it launched the Laptop 16 2nd-gen with the goal of creating an ecosystem for developers to design their own keyboard layouts that tinkerers could put together from parts and schematics, or that could be turned into commercial products. Unfortunately, Framework has just announced that it would be ending the One Key Module program",
+      "published": "2026-09-11T15:52:44+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Framework（公式ブログ）"
+      ],
+      "related_urls": [
+        "https://frame.work/blog/one-key-module-developer-program-recap"
+      ]
+    },
+    {
+      "id": "89c5a30bc6d03ae4",
+      "title": "Oppo K14 Lite is coming, launch date and design revealed",
+      "url": "https://www.gsmarena.com/oppo_k14_lite_design_colors_launch_date-news-74575.php",
+      "canonical": "https://www.gsmarena.com/oppo_k14_lite_design_colors_launch_date-news-74575.php",
+      "summary": "Oppo's K14 series currently includes two smartphones - the K14 and the K14x. Next week, these will be joined by a new member, as Oppo today announced it will unveil the K14 Lite in India on September 16 at 12 PM local time. Oppo says the K14 Lite is \"designed for users who seek reliable everyday performance and a smartphone that keeps up with their daily routines.\" While Oppo didn't detail the K14",
+      "published": "2026-09-11T06:40:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f8d492b982857c83",
+      "title": "Poco X8 Power with a 10,000mAh battery goes on sale in India",
+      "url": "https://www.gsmarena.com/poco_x8_power_with_a_10000mah_battery_goes_on_sale_in_india-news-74578.php",
+      "canonical": "https://www.gsmarena.com/poco_x8_power_with_a_10000mah_battery_goes_on_sale_in_india-news-74578.php",
+      "summary": "The Poco X8 was unveiled globally earlier this month, followed by its India launch alongside the X8 Power last week. The Poco X8 Power comes with a massive 10,000mAh battery and is now available for purchase in the country. It’s priced at INR 35,999 ($375) for the 8GB/128GB variant, whereas the 8GB/256GB model carries a price tag of INR 38,999 ($410). The X8 Power is being offered in Black and Yel",
+      "published": "2026-09-11T11:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1fd120b42e225a7f",
+      "title": "ANBERNIC RG DS Plus Price & Release Date Announced",
+      "url": "https://retrododo.com/anbernic-rg-ds-plus-price-release-date-announced/",
+      "canonical": "https://retrododo.com/anbernic-rg-ds-plus-price-release-date-announced",
+      "summary": "&#x1f91d; Don t want to see ads? Become a premium member for $3 a month and support an independent publication today! This is the year of dual-screen devices. It was only this morning that I wrote about Retroid revealing the pre-order date of the Pocket Duo , their",
+      "published": "2026-09-11T18:52:08+00:00",
+      "source_id": "retrododo",
+      "source": "Retro Dodo",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+4 pre-order",
+        "+3 release date",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4c948277a03c349c",
+      "title": "Ubisoft Starts Abandoning Ubisoft Connect for \"Simpler Launch Experience\"",
+      "url": "https://www.techpowerup.com/352581/ubisoft-starts-abandoning-ubisoft-connect-for-simpler-launch-experience",
+      "canonical": "https://www.techpowerup.com/352581/ubisoft-starts-abandoning-ubisoft-connect-for-simpler-launch-experience",
+      "summary": "Ubisoft has officially announced an alternative to Ubisoft Connect, its third-party launcher that has been known to cause stickiness with SteamOS, Linux, and other systems that require translation layers to function. Ubisoft Connect will not be going away completely, but, starting with Prince of Persia: The Lost Crown , Ubisoft is testing Ubisoft Connect Services—a new Steam tool that enables cros",
+      "published": "2026-09-11T02:50:53+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2e56021a9e988a69",
+      "title": "vivo X Fold6's global launch is nearing",
+      "url": "https://www.gsmarena.com/vivo_x_fold6s_global_launch_is_nearing-news-74572.php",
+      "canonical": "https://www.gsmarena.com/vivo_x_fold6s_global_launch_is_nearing-news-74572.php",
+      "summary": "vivo launched its latest foldable smartphone, the X Fold6, in China back in June. We've been patiently waiting for it to go global ever since, and while that still hasn’t happened yet, it seems like it's just around the corner now. That's because someone in possession of a global X Fold6 prototype has decided to run Geekbench on it earlier today. The global X Fold6 has the model number V2559. It m",
+      "published": "2026-09-11T05:38:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 prototype",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fe94fb0fd245257a",
+      "title": "Apple reportedly paying Samsung $250 per iPhone Duo",
+      "url": "https://www.notebookcheck.net/Apple-reportedly-paying-Samsung-250-per-iPhone-Duo-as-1-000-repair-estimates-surface.1397208.0.html",
+      "canonical": "https://www.notebookcheck.net/Apple-reportedly-paying-Samsung-250-per-iPhone-Duo-as-1-000-repair-estimates-surface.1397208.0.html",
+      "summary": "The iPhone Duo will go on sale starting October 30 with a starting price of $1,999. It is believed that Apple is paying about 12.5% of this price to Samsung for each iPhone Duo folding panel.",
+      "published": "2026-09-11T15:23:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gadget Flow",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/apple-will-pay-samsung-250-for-each-inner-foldable-panel-within-the-iphone-duo-and-another-80-for-the-outer-panel/",
+        "https://thegadgetflow.com/product/apple-iphone-duo-folio-kickstand/"
+      ]
+    },
+    {
+      "id": "85c43b9374f20cd9",
+      "title": "Liliputing News Roundup (Amazon, Single-board PCs, Framework)",
+      "url": "https://liliputing.com/liliputing-news-roundup-amazon-sbc-framework/",
+      "canonical": "https://liliputing.com/liliputing-news-roundup-amazon-sbc-framework",
+      "summary": "Here&#8217;s a recent roundup of tech news from around the web. The OpenPaper L is a new 13.3 inch digital picture frame with an 1600 x 1200px E Ink Spectra 6 color display, WiFi 6 and Bluetooth, and 6 months of battery life from four AA batteries. Its hardware and software are both open source. [&#8230;] The post Liliputing News Roundup (Amazon, Single-board PCs, Framework) appeared first on Lili",
+      "published": "2026-09-11T19:43:28+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 single-board",
+        "+4 e ink",
+        "+2 open source",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e9f39fdbb1b1cfb4",
+      "title": "Samsung Galaxy A08 retailer listing gives us specs and official images",
+      "url": "https://www.gsmarena.com/samsung_galaxy_a08_retailer_listing_gives_us_specs_and_official_images-news-74590.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_a08_retailer_listing_gives_us_specs_and_official_images-news-74590.php",
+      "summary": "The Samsung Galaxy A08 was spotted in the Google Play Console in August, and then got certified by Anatel in Brazil a few days later. Things have been quiet since then, but now the phone has shown up at an online retailer in the UAE, where it's seemingly already available for purchase for AED 625 ($170), down from the recommended price of AED 659 ($179). The phone sports a 6.7-inch PLS LCD screen ",
+      "published": "2026-09-11T20:47:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 official",
+        "+3 price",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9e283395a9c1d197",
+      "title": "vivo X500 Pro Max 手机四款配色公布，9 月 21 日发布",
+      "url": "https://www.ithome.com/1/001/456.htm",
+      "canonical": "https://www.ithome.com/1/001/456.htm",
+      "summary": "IT之家 9 月 11 日消息，vivo X500 Pro Max 手机四款配色官图今日公布，新机将于 9 月 21 日发布。 「大地回声」，是走过辽阔大地，听见万物回响，星河倾泻而下，机身细碎星闪，如同将银河握在手中； 「览霞」，是日落时分，霞光铺开的绚烂； 「晴天」，是云开雾散，心境随之明朗； 「摄夜」，是夜色之时的纯粹和静谧 vivo X500 Pro Max 全球首发京东方 Q11 2K 蔡司大师色彩屏 —— 一块 6.85 英寸 2K 的 Pro Max 大屏，首发 2nm 天玑 9600 Pro 处理器。 新机搭载蔡司 2 亿 APO 超级长焦，传感器为 X300 Ultra 同款，1/1.4\" 蓝图 × 三星 HP0。 全球首发蓝图光御 900 传感器 ，还首发主摄和潜望长焦 CIPA 7.0 防抖等级，带来了全新升级的 AI 摄影助手。 除了常规配置外，vivo X500 ",
+      "published": "2026-09-11T13:36:43+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena",
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/11/vivo-buds-clip-watch-6-design-launch-date-confirmed-x500-pro-max-unboxed/",
+        "https://www.gsmarena.com/honor_watch_6_pro_launch_date_design-news-74580.php"
+      ]
+    },
+    {
+      "id": "6544ef541805691c",
+      "title": "Aoostar teases powerful AMD-powered mini PC with up to 192GB of RAM",
+      "url": "https://www.notebookcheck.net/Aoostar-teases-powerful-AMD-powered-mini-PC-with-up-to-192GB-of-RAM.1396853.0.html",
+      "canonical": "https://www.notebookcheck.net/Aoostar-teases-powerful-AMD-powered-mini-PC-with-up-to-192GB-of-RAM.1396853.0.html",
+      "summary": "The successor to the Aoostar Nex395 has been announced, and it's called the Nex495S. It's powered by the AMD Ryzen AI Max+ Pro 495 and has support for up to 192GB of RAM. However, the brand hasn't shared anything on the availability or price yet.",
+      "published": "2026-09-11T16:03:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2396d34eb480092b",
+      "title": "Casio launches three new premium G-Steel GST-W1000 watches with slimmer steel design",
+      "url": "https://www.gizmochina.com/2026/09/10/casio-g-steel-gst-w1000-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/10/casio-g-steel-gst-w1000-watches-launched-specs-price",
+      "summary": "Casio is updating its G-Steel lineup this October with the GST-W1000 series, a trio of new watches launching initially in Japan. The release includes three models, the GST-W1000AD-2A, GST-W1000D-1A, and GST-W1000D-3A, that step away from the traditional, bulky G-Shock aesthetic in favor of a more integrated stainless steel design. Design Details The new watches measure [&#8230;] The post Casio lau",
+      "published": "2026-09-10T23:09:28+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3e6c6013d7f804f9",
+      "title": "Samsung Galaxy SmartTag3's leaked images reveal design and colors",
+      "url": "https://www.gsmarena.com/samsung_galaxy_smarttag3_design_colors_leaked_images-news-74574.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_smarttag3_design_colors_leaked_images-news-74574.php",
+      "summary": "Samsung launched the OG Galaxy SmartTag in 2021 and followed it with the SmartTag2 in 2023. We know Samsung is preparing to launch the third-gen SmartTag soon. Its illustrations that leaked in July revealed the tracker would come in a squircle-like shape. Now we are looking at leaked images of the Galaxy SmartTag3, giving us our first look at it. The images show the Samsung Galaxy SmartTag3 in two",
+      "published": "2026-09-11T08:41:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "691b04f1c86b313a",
+      "title": "iPhone Duo vs Galaxy Z Fold 8: Apple Finally Takes on Samsung",
+      "url": "https://www.gizmochina.com/2026/09/11/iphone-duo-vs-samsung-galaxy-z-fold-8/",
+      "canonical": "https://www.gizmochina.com/2026/09/11/iphone-duo-vs-samsung-galaxy-z-fold-8",
+      "summary": "iPhone Duo and Samsung Galaxy Z Fold 8 represent two very different takes on the premium foldable. Apple is entering a category Samsung has shaped for years, while Samsung is responding with a slimmer, lighter Fold that remains focused on productivity. For buyers spending flagship money, the choice is about more than screen size. Also [&#8230;] The post iPhone Duo vs Galaxy Z Fold 8: Apple Finally",
+      "published": "2026-09-11T09:54:59+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/iphone-duo-vs-galaxy-z-fold-8-weight-and-thickness-compared/"
+      ]
+    },
+    {
+      "id": "b5060187bda4ef3c",
+      "title": "New Samsung Galaxy Buds ‘T1’ leak reveals workout-focused design, battery specs, and features",
+      "url": "https://www.androidauthority.com/samsung-galaxy-buds-canal-5-leak-features-3710315/",
+      "canonical": "https://www.androidauthority.com/samsung-galaxy-buds-canal-5-leak-features-3710315",
+      "summary": "The Galaxy Buds Canal 5 are internally codenamed \"T1,\" and could come with a large battery and touch controls.",
+      "published": "2026-09-11T11:53:03+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/galaxy-buds-on-leak-ahead-of-launch/"
+      ]
+    },
+    {
+      "id": "455ed3cdcfb57714",
+      "title": "Galaxy Tab S12+ and Tab S12 Ultra images leak once again",
+      "url": "https://www.sammobile.com/news/galaxy-tab-s12-plus-ultra-images-leak-again/",
+      "canonical": "https://www.sammobile.com/news/galaxy-tab-s12-plus-ultra-images-leak-again",
+      "summary": "While Samsung recently launched new foldables and smartwatches, it isn't done with this year's high-end releases. The company is planning to launch its premium tablets, the Galaxy Tab S12+ and Galaxy Tab S12 Ultra, in the coming weeks, and their images have leaked once again. The Galaxy Tab S12+ appears to sport a 12.4-inch screen [ ]",
+      "published": "2026-09-11T13:00:14+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 foldable",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "041b7a724da7d2c8",
+      "title": "AOOSTAR Joins The Gorgon Halo Rush With 16-Core NEX495S, As Chinese Makers Race To Ship Ryzen AI Max+ 495 Boxes",
+      "url": "https://wccftech.com/aoostar-teases-nex495s-mini-pc/",
+      "canonical": "https://wccftech.com/aoostar-teases-nex495s-mini-pc",
+      "summary": "Another hardware maker has announced its flagship mini PC based on the new 16-core/32-thread Zen 5 Gorgon Halo SoC. AOOSTAR Showcases NEX495S Mini PC, Featuring 16-Core Ryzen AI Max+ PRO 495 SoC and Support for Up To 192 GB Memory Since the launch of AMD's new Gorgon Halo, aka Ryzen AI Max 400, processors, many manufacturers have introduced their latest mini PCs and systems based on the refreshed ",
+      "published": "2026-09-11T15:06:45+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 mini pc",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e5525147baee52f1",
+      "title": "Here are the iPhone 18 Pro (Max) and iPhone Duo offers from Apple and the big US carriers",
+      "url": "https://www.gsmarena.com/here_are_the_iphone_18_pro_max_and_iphone_duo_offers_from_apple_and_the_big_us_carriers-news-74581.php",
+      "canonical": "https://www.gsmarena.com/here_are_the_iphone_18_pro_max_and_iphone_duo_offers_from_apple_and_the_big_us_carriers-news-74581.php",
+      "summary": "While pre-orders for the new iPhone 18 Pro models technically start tomorrow, September 12, Apple.com’s store is already up and running. Here are the prices for the US. Apple iPhone 18 Pro coming Saturday 256GB - $1,200 at Apple 512GB - $1,400 at Apple 1TB - $1,800 at Apple 2TB - $2,400 at Apple Apple iPhone 18 Pro Max coming Saturday 256GB -...",
+      "published": "2026-09-11T15:49:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": [
+        "https://www.gsmarena.com/here_are_the_iphone_18_pro_and_iphone_18_pro_max_geekbench_scores-news-74559.php"
+      ]
+    }
+  ]
+}
