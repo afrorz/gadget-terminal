@@ -1,0 +1,693 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T07:30:12.021441+09:00",
+  "stats": {
+    "fetched": 718,
+    "unique": 678,
+    "new": 235,
+    "clusters": 224,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "674d13116d25c972",
+      "title": "Realme 16 Pro Harry Potter Edition's key specs confirmed",
+      "url": "https://www.gsmarena.com/realme_16_pro_harry_potter_key_specs-news-74593.php",
+      "canonical": "https://www.gsmarena.com/realme_16_pro_harry_potter_key_specs-news-74593.php",
+      "summary": "Realme teased the Realme 16 Pro Harry Potter Edition a few days ago and confirmed India will be one of the launch markets. While the brand hasn't announced its launch date yet, it has confirmed the special edition's key specs. Realme has set up a promo page for the Realme 16 Pro Harry Potter Edition on its official Indian website, confirming the smartphone will come with the Dimensity 7300 Max SoC",
+      "published": "2026-09-12T10:01:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8a8b43e71e8bbd25",
+      "title": "Samsung Galaxy S26 FE's India price leaks",
+      "url": "https://www.gsmarena.com/samsung_galaxy_s26_fe_india_price_leaks-news-74595.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_s26_fe_india_price_leaks-news-74595.php",
+      "summary": "The Samsung Galaxy S26 FE, unveiled last month, went on sale in select markets on September 4. India wasn't part of the first wave of rollout, as sales are scheduled to begin there on September 18. That may be why Samsung didn't reveal the Galaxy S26 FE's India price. However, if a new leak is to be believed, the Samsung Galaxy S26 FE will have a base price of INR69,999 in India. For that price, y",
+      "published": "2026-09-12T16:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/galaxy-s26-fe-india-price-leaks/"
+      ]
+    },
+    {
+      "id": "fb93ee44185cb210",
+      "title": "Cooler Master GPU Shield Adapter Officially Launches in the US",
+      "url": "https://www.techpowerup.com/352611/cooler-master-gpu-shield-adapter-officially-launches-in-the-us",
+      "canonical": "https://www.techpowerup.com/352611/cooler-master-gpu-shield-adapter-officially-launches-in-the-us",
+      "summary": "Cooler Master previously showed off the GPU Shield adapter cable at CES 2026 , demonstrating the small 12V-2×6 adapter that is able to not only alert the user with a visual and auditory warning when there are anomalies in the current in the GPU power cable, but also actively intervene and reduce current when higher-than-normal current is detected. GPU Shield has officially launched in the US after",
+      "published": "2026-09-12T00:37:11+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Cooler-Master-s-power-monitoring-GPU-adapter-arrives-in-the-US.1397882.0.html"
+      ]
+    },
+    {
+      "id": "043b313f606b2725",
+      "title": "Xiaomi launches Mijia Smart Range Hood 3 Max with 1,700 Pa suction, camera and PM2.5 sensor for smart control",
+      "url": "https://www.gizmochina.com/2026/09/12/xiaomi-launches-mijia-smart-range-hood-3-max-with-1700-pa-suction-camera-and-pm2-5-sensor-for-smart-control/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/xiaomi-launches-mijia-smart-range-hood-3-max-with-1700-pa-suction-camera-and-pm2-5-sensor-for-smart-control",
+      "summary": "Xiaomi just dropped a new flagship range hood that’s basically trying to make kitchen smoke a non-issue. The Mijia Smart Range Hood 3 Max is their most capable smoke-handling appliance yet, and it’s built to suck up fumes fast while using AI to react in real time. Pre-orders are already open in China. The regular [&#8230;] The post Xiaomi launches Mijia Smart Range Hood 3 Max with 1,700 Pa suction",
+      "published": "2026-09-12T01:58:55+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0ce5512ab4a46d03",
+      "title": "vivo shows all colors of the X500 Pro Max",
+      "url": "https://www.gsmarena.com/vivo_shows_all_colors_of_the_x500_pro_max-news-74589.php",
+      "canonical": "https://www.gsmarena.com/vivo_shows_all_colors_of_the_x500_pro_max-news-74589.php",
+      "summary": "vivo is unveiling the X500 series in China on September 21, and ahead of that, a few days ago the company revealed the design of the X500 Pro Max. Today it's back with more official images, this time showing all four colors in which the phone will be available. Here they are for your viewing pleasure. vivo X500 Pro Max in all colors The X500 Pro Max is expected to be powered by the MediaTek Dimens",
+      "published": "2026-09-12T04:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2f3ef835a654e17d",
+      "title": "Xiaomi launches HyperOS 4 global beta program for these devices",
+      "url": "https://www.gizmochina.com/2026/09/12/xiaomi-launches-hyperos-4-global-beta-program-for-these-devices/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/xiaomi-launches-hyperos-4-global-beta-program-for-these-devices",
+      "summary": "A month after the HyperOS 4 beta program was unveiled in China, it&#8217;s finally expanding to the global markets. Xiaomi has already begun the global beta rollout to three phones, with more scheduled to receive it later this month. Xiaomi will release the HyperOS 4 global beta update to seven smartphones. The beta recruitment is [&#8230;] The post Xiaomi launches HyperOS 4 global beta program fo",
+      "published": "2026-09-12T06:52:20+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "efc780ed4d2111e5",
+      "title": "Xiaomi launches Redmi A27U 2027 monitor with 4K 120Hz, 90W USB-C & dedicated Apple color mode",
+      "url": "https://www.gizmochina.com/2026/09/12/redmi-monitor-a27u-type-c-120hz-2027-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/redmi-monitor-a27u-type-c-120hz-2027-launched-specs-price",
+      "summary": "Xiaomi is currently taking pre-orders in China for a new desktop monitor, the Redmi Monitor A27U Type-C 120Hz 2027. It costs 1,699 yuan (about $253), making it a relatively affordable option for people who want one screen that can handle both daily work and gaming. Redmi Monitor A27U 2027 Specifications The monitor uses a 27-inch [&#8230;] The post Xiaomi launches Redmi A27U 2027 monitor with 4K 1",
+      "published": "2026-09-12T11:06:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "99074e382ebeeffd",
+      "title": "NVIDIA is Giving Away RTX 5090s Through an NBA 2K27 Screenshot Contest",
+      "url": "https://www.techpowerup.com/352621/nvidia-is-giving-away-rtx-5090s-through-an-nba-2k27-screenshot-contest",
+      "canonical": "https://www.techpowerup.com/352621/nvidia-is-giving-away-rtx-5090s-through-an-nba-2k27-screenshot-contest",
+      "summary": "NVIDIA has launched the NBA 2K27 DLSS 5 Poster Challenge, giving away four custom RTX 5090 graphics cards as prizes. Given what the card actually costs to buy right now , the timing is a little funny. To enter, players capture an in-game NBA 2K27 screenshot or clip with DLSS 5 enabled on an RTX 50-series GPU, or through GeForce NOW Ultimate streaming from RTX 5080 servers, then post it tagging @NV",
+      "published": "2026-09-12T11:25:05+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Nvidia-is-giving-away-an-RTX-5090.1397293.0.html"
+      ]
+    },
+    {
+      "id": "628bd86bbf2f28b5",
+      "title": "Fairphone's Fairbuds 2 earbuds leak in two colors",
+      "url": "https://www.gsmarena.com/fairphones_fairbuds_2_earbuds_leak_in_two_colors-news-74591.php",
+      "canonical": "https://www.gsmarena.com/fairphones_fairbuds_2_earbuds_leak_in_two_colors-news-74591.php",
+      "summary": "Fairphone launched its first pair of true wireless earbuds, aptly called the Fairbuds, in April of 2024. Now the company is almost ready to introduce the second generation - in fact, the Fairbuds 2 are coming in the fourth quarter of this year (between October and December). Today a new leak brings us a look at the new earbuds in green and black. Fairbuds 2 leaked images As you can see, the Fairbu",
+      "published": "2026-09-11T23:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0772564849015a68",
+      "title": "Glorious Eternal Launches as 96% Compact Gaming Keyboard With a Num Pad",
+      "url": "https://www.techpowerup.com/352609/glorious-eternal-launches-as-96-compact-gaming-keyboard-with-a-num-pad",
+      "canonical": "https://www.techpowerup.com/352609/glorious-eternal-launches-as-96-compact-gaming-keyboard-with-a-num-pad",
+      "summary": "Glorious has apparently taken a break from making membrane and Hall effect gaming keyboards , recently releasing the GMMK Eternal, a new no-nonsense mechanical keyboard based on standard 5- and 3-pin MX-style switches and an easy-to-use, compact 1800 layout that includes a num pad. The Eternal is a wired keyboard that connects to the host system with a detachable USB Type-A-to-C cable, and it come",
+      "published": "2026-09-12T00:00:37+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d89c285c3ea44b3d",
+      "title": "Hands-on: Dbrand’s MNML Pixel 11 Pro cases are simply good, and that’s the point [Gallery]",
+      "url": "https://9to5google.com/2026/09/12/dbrand-mnml-pixel-11-pro-hands-on/",
+      "canonical": "https://9to5google.com/2026/09/12/dbrand-mnml-pixel-11-pro-hands-on",
+      "summary": "Dbrand is definitely best-known for its flashy skins and bombastic personality, but the company is now launching a more subtle brand in “MNML,” aiming to offer dead-simple cases that are comfortable and have good quality. These are available for the latest Pixel 11 Pro phones and, in person, they certainly get the job done. more…",
+      "published": "2026-09-12T12:30:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+5 hands-on",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0ce0096672ccabfb",
+      "title": "Creative launches B3 gaming soundbar with 20W peak power, Bluetooth 6.0 & RGB lighting",
+      "url": "https://www.gizmochina.com/2026/09/12/creative-b3-gaming-soundbar-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/creative-b3-gaming-soundbar-launched-specs-price",
+      "summary": "Creative has launched a new desktop soundbar in China, the Creative B3, which is currently listed on JD.com. The soundbar has a standard retail price of 429 yuan ($64), with an initial launch price set at 339 yuan ($50). Creative B3 Soundbar Specifications Inside the 420mm-wide unit, the B3 features a four-driver acoustic system. It [&#8230;] The post Creative launches B3 gaming soundbar with 20W ",
+      "published": "2026-09-12T13:36:28+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0318ae25fab7ec28",
+      "title": "Steam Frame pre-orders may skip lottery before release date, giving bots an advantage",
+      "url": "https://www.notebookcheck.net/Steam-Frame-pre-orders-may-skip-lottery-before-release-date-giving-bots-an-advantage.1397434.0.html",
+      "canonical": "https://www.notebookcheck.net/Steam-Frame-pre-orders-may-skip-lottery-before-release-date-giving-bots-an-advantage.1397434.0.html",
+      "summary": "A new leak implies that the fastest fingers will secure Valve’s VR headset first. A revised datamined email suggests no lottery-based reservation system for Steam Frame pre-orders. As a result, scalpers could top the queue and deny the wearable to anxious gamers.",
+      "published": "2026-09-12T02:41:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 pre-order",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "362cf8f7dcafb90e",
+      "title": "We tested unofficial DLSS Multi Frame Generation support on RTX 40-series GPUs — new mod brings RTX 50-series exclusive feature to older cards, and it really works",
+      "url": "https://www.tomshardware.com/pc-components/gpus/we-tested-dlss-multi-frame-generation-on-rtx-40-series-gpus-new-mod-brings-rtx-50-series-exclusive-feature-to-older-cards-and-it-really-works",
+      "canonical": "https://www.tomshardware.com/pc-components/gpus/we-tested-dlss-multi-frame-generation-on-rtx-40-series-gpus-new-mod-brings-rtx-50-series-exclusive-feature-to-older-cards-and-it-really-works",
+      "summary": "We tested DLSS Multi Frame Generation on RTX 40-series GPUs.",
+      "published": "2026-09-12T14:08:19+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/how-to/how-to-unlock-dlss-multi-frame-generation-on-rtx-40-rtx-30-rtx-20-gpus/"
+      ]
+    },
+    {
+      "id": "0fbaa359c7aba50c",
+      "title": "Apple nailed iPhone Duo split screen, even as iPad multitasking feels convoluted",
+      "url": "https://9to5mac.com/2026/09/12/apple-nailed-iphone-duo-split-screen-even-as-ipad-multitasking-feels-convoluted/",
+      "canonical": "https://9to5mac.com/2026/09/12/apple-nailed-iphone-duo-split-screen-even-as-ipad-multitasking-feels-convoluted",
+      "summary": "Apple this week unveiled its new iPhone lineup , including the first ever foldable iPhone – the iPhone Duo. While the Duo itself is a fantastic device, it does leave me wishing that Apple did better for the iPad. more…",
+      "published": "2026-09-12T16:47:34+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "87613734c483cdd5",
+      "title": "Japanese brand intros portable monitor with unique aspect ratio and affordable price tag",
+      "url": "https://www.notebookcheck.net/Japanese-brand-intros-portable-monitor-with-unique-aspect-ratio-and-affordable-price-tag.1397884.0.html",
+      "canonical": "https://www.notebookcheck.net/Japanese-brand-intros-portable-monitor-with-unique-aspect-ratio-and-affordable-price-tag.1397884.0.html",
+      "summary": "Japanese company Japannext has introduced a new uniquely shaped portable monitor in Japan. The product features an IPS Panel with a refresh rate of 60 Hz and a resolution of 400 x 1280 pixels.",
+      "published": "2026-09-12T18:11:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a6a0196a66e5bdfc",
+      "title": "Huawei Smart Screen S7 RGB 4K TVs with 55″/65″/75″ sizes now up for pre-order in China",
+      "url": "https://www.gizmochina.com/2026/09/12/huawei-smart-screen-s7-rgb-4k-tvs-with-55-65-75-sizes-now-up-for-pre-order-in-china/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/huawei-smart-screen-s7-rgb-4k-tvs-with-55-65-75-sizes-now-up-for-pre-order-in-china",
+      "summary": "Huawei just opened pre-orders for its new Smart Screen S7 RGB, a smart TV that puts a big focus on better, more accurate colors. The big claim is upgraded backlight tech that should make everyday viewing look richer and more precise. The 55&#8243; model starts at 3,999 yuan (~€513). The key upgrade is RGB-MiniLED. Instead [&#8230;] The post Huawei Smart Screen S7 RGB 4K TVs with 55&#8243;/65&#8243",
+      "published": "2026-09-12T03:26:48+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f8ddd915079620d0",
+      "title": "Affordable AMD-powered Mechrevo laptop launches with slim and lightweight design",
+      "url": "https://www.notebookcheck.net/Affordable-AMD-powered-Mechrevo-laptop-launches-with-slim-and-lightweight-design.1397704.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-AMD-powered-Mechrevo-laptop-launches-with-slim-and-lightweight-design.1397704.0.html",
+      "summary": "Another Mechrevo Unbounded 14S 2026 has been released in China, but unlike the last one, it's not powered by an Intel Wildcat Lake CPU. Instead, it packs the relatively capable AMD Ryzen 7 H 255, and given the hardware in this slim and light 14-inch laptop, the launch price is pretty affordable.",
+      "published": "2026-09-12T11:43:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dec3ae656eac1efd",
+      "title": "苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起",
+      "url": "https://www.ithome.com/1/001/630.htm",
+      "canonical": "https://www.ithome.com/1/001/630.htm",
+      "summary": "IT之家 9 月 12 日消息，苹果 iPhone 18 Pro 系列手机将于今晚 8 点开启预购，新机包括 18 Pro 和 18 Pro Max 两款机型，起售价分别为 9999 元和 10999 元。 IT之家整理价格信息如下： iPhone 18 Pro 256GB 版 9999 元 512GB 版 11999 元 1TB 版 15499 元 2TB 版 20499 元 京东 苹果 iPhone 18 Pro 9999 元起 直达链接 iPhone 18 Pro Max 256GB 版 10999 元 512GB 版 12999 元 1TB 版 16499 元 2TB 版 21499 元 京东 苹果 iPhone 18 Pro Max 10999 元起 直达链接 全新 iPhone 18 Pro 系列提供 黑、银、冰川蓝和勃艮第酒红色 4 种配色，外观与 iPhone 17 Pro",
+      "published": "2026-09-12T11:45:02+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/apple-a20-pro-explained-3709816/"
+      ]
+    },
+    {
+      "id": "691a0ca846d89e84",
+      "title": "Remedy details ray and path tracing hardware specs for Control Resonant ahead of launch",
+      "url": "https://www.notebookcheck.net/Remedy-details-ray-and-path-tracing-hardware-specs-for-Control-Resonant-ahead-of-launch.1397889.0.html",
+      "canonical": "https://www.notebookcheck.net/Remedy-details-ray-and-path-tracing-hardware-specs-for-Control-Resonant-ahead-of-launch.1397889.0.html",
+      "summary": "Remedy has revealed the final system requirements for Control Resonant, the sequel to 2019’s Control. Its previously released requirements outlined the hardware needed to run the game at minimum and recommended levels without ray or path tracing.",
+      "published": "2026-09-12T17:52:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4f7544a75d914817",
+      "title": "Colorful shows off AMD-powered gaming laptop with up to 128 GB RAM and Radeon 8060S iGPU",
+      "url": "https://www.notebookcheck.net/Colorful-shows-off-AMD-powered-gaming-laptop-with-up-to-128-GB-RAM-and-Radeon-8060S-iGPU.1397295.0.html",
+      "canonical": "https://www.notebookcheck.net/Colorful-shows-off-AMD-powered-gaming-laptop-with-up-to-128-GB-RAM-and-Radeon-8060S-iGPU.1397295.0.html",
+      "summary": "The Chinese brand Colorful showed off its Lingchuang K16 laptop at a recent AMD event in China. The laptop is powered by a powerful Ryzen AI Max+ 395 Strix Halo APU, and features a hefty price tag. A global launch, unfortunately, is not in sight.",
+      "published": "2026-09-12T18:43:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3338f2c138078212",
+      "title": "OnePlus 16 may not launch in India",
+      "url": "https://www.gsmarena.com/oneplus_16_may_not_launch_in_india-news-74587.php",
+      "canonical": "https://www.gsmarena.com/oneplus_16_may_not_launch_in_india-news-74587.php",
+      "summary": "According to a new rumor from a tipster on X, OnePlus may not be launching the upcoming OnePlus 16 in India. Instead, the OnePlus 16R will be the brand's next flagship in the country. It will be followed by new Nord series and N series devices. In recent years, OnePlus has launched a new flagship number-series device as well as an R-series model, which uses a lesser chipset and comes with lesser c",
+      "published": "2026-09-12T01:33:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b2f1c77a31c40471",
+      "title": "iPhone Duo vs Galaxy Z Fold 8 Ultra: Which One Should You Buy?",
+      "url": "https://www.gizmochina.com/2026/09/12/iphone-duo-vs-samsung-galaxy-z-fold-8-ultra/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/iphone-duo-vs-samsung-galaxy-z-fold-8-ultra",
+      "summary": "The foldable phone battle is getting more interesting as Apple and Samsung take very different approaches to large-screen smartphones. The iPhone Duo focuses on Apple’s ecosystem, display quality, and video capabilities, while the Galaxy Z Fold 8 Ultra pushes multitasking, cameras, and desktop-style productivity. For buyers spending flagship money, the choice is far from straightforward. [&#8230;]",
+      "published": "2026-09-12T06:58:31+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "850df15551aedb6b",
+      "title": "iPhone Duo vs Huawei Mate XT 2 Ultimate: Apple vs the Wildest Foldable Yet",
+      "url": "https://www.gizmochina.com/2026/09/12/iphone-duo-vs-huawei-mate-xt-2-ultimate/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/iphone-duo-vs-huawei-mate-xt-2-ultimate",
+      "summary": "iPhone Duo and Huawei Mate XT 2 Ultimate are not simply two expensive foldables chasing the same idea. They represent two very different answers to the question of what a folding phone should become. The Duo turns a familiar iPhone into a larger, book-style device, while Huawei takes the concept much further with a tri-fold [&#8230;] The post iPhone Duo vs Huawei Mate XT 2 Ultimate: Apple vs the W",
+      "published": "2026-09-12T09:13:56+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d0cf5100394b0c31",
+      "title": "PS5 Emulation Is Moving Faster Than Anyone Expected, and the “No Single-Player PC Ports” Policy Makes That Awkward for Sony",
+      "url": "https://wccftech.com/kytyps5-ps5-emulation-progress-sony-pc-policy/",
+      "canonical": "https://wccftech.com/kytyps5-ps5-emulation-progress-sony-pc-policy",
+      "summary": "Just a few days ago, we covered PlayStation 5 emulator KyTyPS5 getting Grand Theft Auto V running, and raised the half-joking possibility that Grand Theft Auto VI might end up playable on PC through emulation before Rockstar ships an official port. That timeline now looks a bit less outlandish in light of the emulator's latest advancements. As reported by DSOGaming, the emulator has gone from runn",
+      "published": "2026-09-12T12:30:00+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+3 ships",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "75d68582fdfe36b8",
+      "title": "AMD Confirms Ryzen 5 7500 at $189, Ryzen 5 5500F at $99",
+      "url": "https://www.techpowerup.com/352624/amd-confirms-ryzen-5-7500-at-usd-189-ryzen-5-5500f-at-usd-99",
+      "canonical": "https://www.techpowerup.com/352624/amd-confirms-ryzen-5-7500-at-usd-189-ryzen-5-5500f-at-usd-99",
+      "summary": "AMD has confirmed pricing for the Ryzen 5 7500 and Ryzen 5 5500F , the two budget CPUs it quietly added to its lineup earlier this week. The Ryzen 5 7500 will retail for $189, while the Ryzen 5 5500F comes in at just $99, according to official SEP figures shared with e-tailers. The Ryzen 5 7500 is a 6-core, 12-thread Zen 4 chip that shares silicon with the Ryzen 5 7500F , with its RDNA 2 iGPU swit",
+      "published": "2026-09-12T15:55:16+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "-4 shares",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/amd-ryzen-5-7500-189-usd-ryzen-5-5500f-99-usd-official-prices/"
+      ]
+    },
+    {
+      "id": "1acb7b727cbfaf84",
+      "title": "Citizen brings its GPS-syncing premium Attesa CC4084-83Z watch to the US",
+      "url": "https://www.gizmochina.com/2026/09/12/citizen-attesa-cc4084-83z-launched-in-the-us/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/citizen-attesa-cc4084-83z-launched-in-the-us",
+      "summary": "Citizen has updated its US storefront to include the Attesa CC4084-83Z, bringing the titanium watch to the US market. The company initially launched the watch in the UK earlier this week alongside the CC4085-81Z. While the CC4084-83Z was missing from the initial US rollout, it is now available to purchase directly from the manufacturer for [&#8230;] The post Citizen brings its GPS-syncing premium ",
+      "published": "2026-09-12T16:13:47+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d90e6aae00ce66ae",
+      "title": "After trying 4 alternatives to Reddit's official app, one convinced me to switch",
+      "url": "https://www.androidpolice.com/reddit-redreader-android-app-comparison-features/",
+      "canonical": "https://www.androidpolice.com/reddit-redreader-android-app-comparison-features",
+      "summary": "It got me at open source and ad-free",
+      "published": "2026-09-12T17:30:10+00:00",
+      "source_id": "androidpolice",
+      "source": "Android Police",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+2 open source",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d0253c42d1997b09",
+      "title": "Casio launches five stylish MTP-E735AR watches with a surprisingly premium look",
+      "url": "https://www.gizmochina.com/2026/09/12/casio-mtp-e735ar-watch-series-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/12/casio-mtp-e735ar-watch-series-launched-specs-price",
+      "summary": "Casio has added a new line of analog watches to its global catalog. The MTP-E735AR series, which appeared on the company&#8217;s international website earlier this month, is a set of five quartz watches featuring integrated stainless steel bracelets and patterned dials. The watches are expected to launch in various markets, though Casio has not yet [&#8230;] The post Casio launches five stylish MT",
+      "published": "2026-09-12T19:13:04+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6040782cf860ef35",
+      "title": "d-Matrix Joins the NVIDIA NVLink Fusion Platform",
+      "url": "https://www.servethehome.com/d-matrix-joins-the-nvidia-nvlink-fusion-platform/",
+      "canonical": "https://www.servethehome.com/d-matrix-joins-the-nvidia-nvlink-fusion-platform",
+      "summary": "d-Matrix and NVIDIA announced that d-Matrix will use NVLink Fusion to scale up and out with its next-gen Raptor AI accelerators The post d-Matrix Joins the NVIDIA NVLink Fusion Platform appeared first on ServeTheHome .",
+      "published": "2026-09-12T21:42:59+00:00",
+      "source_id": "servethehome",
+      "source": "ServeTheHome",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
