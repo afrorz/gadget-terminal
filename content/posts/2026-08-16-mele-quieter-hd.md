@@ -23,6 +23,13 @@ faq:
   a: Wi-Fi 5とBluetooth 5.1を搭載するため、無線機能を使う場合は国内で技適の確認が必要です。有線LANだけで運用するなら論点になりません。
 - q: どんな用途に向いていますか
   a: 常時稼働のファイルサーバやNAS代替、録画機・監視カメラのレコーダー、サイネージや店頭端末です。この機種の価値はCPUではなく、ファンレスのまま大容量HDDが1台に収まる点にあります。
+buy:
+  - name: MeLE Quieter HD(8GB/128GB)
+    url: https://store.mele.cn/products/mele-quieter-hd3q-fanless-mini-pc-n5105-ddr4-windows11-pro-wi-fi-6-bt-5-2-usb-3-2-3-vga-type-c-dp-vesa-mount
+    price: 449.99ドル(セール価格。定価479.99ドル。掲載時点)
+    ships_jp: true
+    giteki: 未取得
+    note: MeLE公式ストアの国選択に日本(USD)が含まれ発送は可能とみられるが、送料・関税は別途。Wi-Fi 5/Bluetooth 5.1の技適取得は確認できておらず、国内で使うなら有線LANのみでの運用が無難。保証は1年でMeLE直接対応、国内サポート窓口はない。
 sources:
   - title: "MeLE Quieter HD fanless mini PC with Intel N150 has room for an SSD and HDD inside"
     url: https://liliputing.com/mele-quieter-hd-fanless-mini-pc-with-intel-n150-has-room-for-an-ssd-and-hdd-inside/

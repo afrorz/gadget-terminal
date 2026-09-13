@@ -19,8 +19,8 @@ embeds: []
 images:
 - url: "https://mmx.prnewswire.com/media/MS1980224/20260902025652EDT_image_1.jpg?id=OA2925258&p=twitter"
   caption: 上位機「AURA 3 Max」の設置例。壁面に120インチ超のスクリーンを投影している(投影用スクリーンは別売)
-- url: "https://eu.xgimi.com/cdn/shop/articles/IFA_2026-New_KV_2_a8e34fef-2877-4056-9bd1-45b1cd556dea_1200x1200.jpg?v=1788352469"
-  caption: 劇場を模した会場で展示されたAURA 3の本体。XGIMIのロゴが確認できる
+- url: "https://eu.xgimi.com/cdn/shop/articles/AURA3_IFA_748fac1f-ba9b-48b9-a3c1-d25728329683_1200x1200.png"
+  caption: IFA会場のブースに展示された「AURA 3 Max」本体。手前にリモコンが置かれている
 credit: XGIMI公式(プレスリリース・公式サイト)
 faq:
 - q: 日本で買えますか

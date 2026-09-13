@@ -13,6 +13,9 @@ tags:
 - 周辺機器
 - 中国
 x_hook: ケーブルを忘れても困らない。バッテリー本体にケーブルが生えているから。
+embeds:
+  - type: youtube
+    id: uodvKFq-0FQ
 faq:
 - q: 日本で買えますか
   a: 20,000mAh版のAR11は掲載時点で中国のJD.com限定です。ただし同シリーズの10,000mAh版はBaseus Japan公式ストアがAmazon.co.jpで正規販売しています。
