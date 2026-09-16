@@ -35,6 +35,7 @@ alternatives:
 - name: ASUS ROG Ally X(Amazon.co.jp)
   why: 技適取得済みの国内正規品で在庫があれば今日から購入できる。Intel Arc G3 Extremeほどの新しさはないが、7インチ・120Hzのゲーミングハンドヘルドとして国内サポート付きですぐ試せる。
   url: https://www.amazon.co.jp/ASUS-%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0PC-%E3%83%AA%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%BC%E3%83%88120Hz-Windows11-RC72LA-Z1E24G1T/dp/B0D7M6KHS6
+  merchant: amazon
 sources:
 - title: New OneXPlayer gaming handheld launches with Intel Arc G3 Extreme and 32GB RAM
   url: https://www.notebookcheck.net/New-OneXPlayer-gaming-handheld-launches-with-Intel-Arc-G3-Extreme-and-32GB-RAM.1382721.0.html

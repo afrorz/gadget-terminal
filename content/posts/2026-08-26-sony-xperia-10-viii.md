@@ -30,6 +30,7 @@ alternatives:
 - name: Sony Xperia 10 VII（国内正規SIMフリー版）
   why: Xperia 10 VIIIとチップセット・RAM・電池容量がほぼ共通の前モデル。国内正規品として技適取得済み・おサイフケータイ対応の状態で今すぐ購入できる。
   url: https://www.amazon.co.jp/%E3%83%81%E3%83%A3%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-SIM%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%9B-XQ-FE44-B1JPCX0-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91/dp/B0FRSX29JX
+  merchant: amazon
 images:
 - url: https://www.sony.jp/xperia/products/xperia10m8/assets/overview/white_s.webp
   caption: フローズンホワイトの本体。背面デュアルカメラと前面ディスプレイ

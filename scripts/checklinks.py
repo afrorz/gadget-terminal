@@ -102,15 +102,15 @@ def missing_buy(files: list[str]) -> int:
         meta = yaml.safe_load(m.group(1)) or {}
         if [x for x in (meta.get("buy") or []) if x.get("url")]:
             continue
-        # 楽天の代替品がある記事は、すでに収益導線がある。優先度を下げる。
-        has_rakuten = any(str(x.get("merchant") or "") == "rakuten"
+        # 楽天・Amazonの代替品がある記事は、すでに収益導線がある。優先度を下げる。
+        has_revenue_alt = any(str(x.get("merchant") or "") in ("rakuten", "amazon")
                           for x in (meta.get("alternatives") or []))
-        rows.append((Path(f).name, meta.get("title") or "", has_rakuten))
+        rows.append((Path(f).name, meta.get("title") or "", has_revenue_alt))
 
     print(f"buy が無い記事 {len(rows)}本"
           f"（うち収益リンクが1本も無い {sum(1 for r in rows if not r[2])}本）\n")
-    for name, title, has_rakuten in rows:
-        mark = "--" if has_rakuten else "NG"
+    for name, title, has_revenue_alt in rows:
+        mark = "--" if has_revenue_alt else "NG"
         print(f"{mark}  {name}\n      {str(title)[:70]}")
     print("\nNG = 収益リンクが1本も無い記事。ここから埋めると効果が大きい。")
     return 0

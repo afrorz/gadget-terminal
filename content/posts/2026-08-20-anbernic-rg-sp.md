@@ -29,6 +29,7 @@ alternatives:
 - name: ANBERNIC RG35XX+（日本語対応・Amazon.co.jp国内出品）
   why: 同じANBERNIC製の携帯ゲーム機で、日本語対応をうたう出品がAmazon.co.jpにあり今すぐ購入できる。クラムシェル型ではないが同社のレトロエミュレーション機の使用感を試せる。
   url: https://www.amazon.co.jp/dp/B0BPP4M8D4
+  merchant: amazon
 sources:
 - title: 'ANBERNIC RG SP Review: Refined Clamshell Goodness'
   url: https://retrododo.com/anbernic-rg-sp-review/

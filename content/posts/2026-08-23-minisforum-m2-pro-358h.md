@@ -34,6 +34,7 @@ alternatives:
 - name: GEEKOM IT13 Max（Amazon.co.jp）
   why: Panther Lake世代ではなくCore Ultra 9 185H搭載だが、国内法人（ギコム株式会社）による正規販売で技適の心配がなく、大容量ストレージ拡張と複数画面出力を今日から使える。
   url: https://www.amazon.co.jp/GT13-Pro-%E3%83%9F%E3%83%8BPC%E3%80%902025%E6%9C%80%E6%96%B0%E3%80%91%E7%AC%AC13%E4%B8%96%E4%BB%A3-SSD%EF%BC%88%E6%8B%A1%E5%BC%B5%E5%8F%AF%E8%83%BD%EF%BC%89%E9%AB%98%E6%80%A7%E8%83%BDmini-USB4%EF%BC%88Oculink%E3%82%88%E3%82%8A%E5%AE%89%E5%AE%9A%EF%BC%89/dp/B0F2LYFYBV
+  merchant: amazon
 thumbnail: https://store.minisforum.com/cdn/shop/files/M2_PRO.png?v=1787207308
 thumbnail_credit: Minisforum公式ストア製品ページ
 sources:

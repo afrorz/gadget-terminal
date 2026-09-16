@@ -31,6 +31,7 @@ alternatives:
 - name: CHUWI AuBox Ai365(Amazon.co.jp)
   why: 同じAMD Ryzen AI 9 365とRadeon 880Mを積むミニPCで、Amazon.co.jpから発送・購入できる。開発元不明のPiston Vと異なり、CHUWIという実在するメーカーの製品である点も違いになる。
   url: https://www.amazon.co.jp/-/en/CHUWI-AI-Strongest-365-Accelerated/dp/B0FZSXC5Q8
+  merchant: amazon
 sources:
 - title: Piston V Touchscreen Bazzite Mini PC Launches on Kickstarter With $799 MSRP
   url: https://www.techpowerup.com/352102/piston-v-touchscreen-bazzite-mini-pc-launches-on-kickstarter-with-usd-799-msrp

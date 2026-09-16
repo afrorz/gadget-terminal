@@ -29,6 +29,7 @@ alternatives:
 - name: Baseus PicoGo モバイルバッテリー 45W 10,000mAh
   why: 同じPicoGoシリーズの下位容量モデルで、PSE認証済み・国内正規代理店から購入できる。ケーブル内蔵という中核の使い勝手を今日から試せる。
   url: https://www.amazon.co.jp/Baseus-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-10000mAh-LED%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B3%E3%82%BA%E3%83%9F%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0DKH7VKG7
+  merchant: amazon
 sources:
 - title: Baseus' award-winning power bank gets a 20,000mAh version
   url: https://www.notebookcheck.net/Baseus-award-winning-power-bank-gets-a-20-000mAh-version.1370100.0.html

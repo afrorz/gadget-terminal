@@ -40,6 +40,7 @@ alternatives:
 - name: ANBERNIC RG35XX H(Amazon.co.jp)
   why: 同じくレトロゲームエミュレーション向けのAndroid/Linuxハンドヘルドで、日本語表示に対応した状態でAmazon.co.jpから今日発送・購入できる。KONKR Pocket Advanceのようなゲームボーイアドバンス風の縦長ボディではないが、国内発送で技適の心配がない点が違いになる。
   url: https://www.amazon.co.jp/dp/B0CRNKZYC5
+  merchant: amazon
 sources:
 - title: 'KONKR Pocket Advance Product Showcase: The Retro Icon Awakens'
   url: https://ayaneo.com/article/944
