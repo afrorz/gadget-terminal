@@ -31,8 +31,8 @@ faq:
 alternatives:
 - name: Razer Kishi V2 for iPhone
   why: 同じRazer製のモバイルコントローラーで、国内正規品として今日から購入できる。折りたためない点は異なるが、USB-C接続でスマホに直結する設計思想はPrioと共通する。
-  url: https://item.rakuten.co.jp/kitcut/513758/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0D52FRYQ7
+  merchant: amazon
 sources:
 - title: "Razer Unveils the Razer Prio: the Pocket-Sized Controller"
   url: https://www.techpowerup.com/352231/razer-unveils-the-razer-prio-the-pocket-sized-controller

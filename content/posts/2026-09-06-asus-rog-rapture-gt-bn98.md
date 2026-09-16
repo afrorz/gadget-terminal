@@ -31,8 +31,8 @@ faq:
 alternatives:
 - name: ASUS RT-BE92U
   why: 同じくASUS製でWi-Fi 7・10Gbpsポートを備えた国内正規品。Wi-Fi 8の正式規格化を待たずに、確定した規格で高速な無線LAN環境を今日から組める。
-  url: https://item.rakuten.co.jp/dospara-r/ic517292/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DM8PTZS1
+  merchant: amazon
 sources:
 - title: First Wi-Fi 8 gaming router ROG Rapture GT-BN98 launches at a hefty price in North America
   url: https://www.notebookcheck.net/First-Wi-Fi-8-gaming-router-ROG-Rapture-GT-BN98-launches-at-a-hefty-price-in-North-America.1389415.0.html

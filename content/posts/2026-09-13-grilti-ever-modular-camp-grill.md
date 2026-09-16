@@ -24,8 +24,8 @@ credit: Septem Studio 公式サイト
 alternatives:
   - name: ピコグリル398(Picogrill 398)
     why: ステンレス製の折りたたみ焚き火台で、A4サイズに収まる厚さまで畳める。GrilTi Everのような連結拡張はできないが、軽量・コンパクトな携行グリルとして日本で今日から入手できる。
-    url: https://item.rakuten.co.jp/neesa/1124-000155/
-    merchant: rakuten
+    url: https://www.amazon.co.jp/dp/B079QZFRWC
+    merchant: amazon
 faq:
   - q: 日本から支援できますか
     a: 掲載時点でKickstarterの配送先国リストに日本が含まれるかは確認できていません。支援前にリワードページの配送国表示を確認する必要があります。

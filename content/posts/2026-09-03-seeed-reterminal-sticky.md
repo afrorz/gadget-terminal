@@ -30,10 +30,10 @@ faq:
 - q: 電子書籍リーダーとして使えますか
   a: 標準ファームウェアはメモ・時計・天気表示用ですが、コミュニティ製ファームウェア「CrossPoint Reader」に書き換えることで電子書籍リーダーとしても使えるとSeeed Studioは説明しています。
 alternatives:
-- name: SwitchBot スマートデイリーステーション(楽天市場)
+- name: SwitchBot スマートデイリーステーション(Amazon.co.jp)
   why: 同じ電子ペーパーで天気・予定・メモをまとめて表示するWi-Fi対応スマートディスプレイ。画面は7.5インチとより大きく、reTerminal Stickyのようなファームウェア書き換えはできないが、国内正規品として今日から購入・サポートを受けられる。
-  url: https://item.rakuten.co.jp/switchbot/weather-station/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DBLDKVDW
+  merchant: amazon
 sources:
 - title: 'Lilbits: More phone-sized E Ink gadgets'
   url: https://liliputing.com/lilbits-more-phone-sized-e-ink-gadgets/

@@ -25,8 +25,8 @@ faq:
 alternatives:
 - name: 【全国送料無料】ニッソー Wi-Fi スマートフィーダー
   why: 国内正規品で技適対応済み。スマホアプリからの給餌スケジュール管理という中核機能を今日から使える。
-  url: https://item.rakuten.co.jp/rayon/11963/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B07YMNY26F
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/rayon/cabinet/12000/11963.jpg?_ex=400x400
 sources:
 - title: Xiaomi crowdfunds Mijia Smart Fish Tank 2 Pro with auto feeding

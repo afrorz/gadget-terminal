@@ -20,9 +20,9 @@ images:
 credit: UGREEN(绿联)中国公式サイト 製品ページ(型番WS222)
 alternatives:
   - name: UGREEN HiTune Max5s ワイヤレスヘッドホン
-    why: 同じUgreenブランドでANC(45dB)とLDACハイレゾに対応する製品が、UGREEN公式楽天市場店で国内発送・国内保証付きで買える。形状はイヤホンではなくヘッドホンだが、技適を気にせず今日から使える点は共通。
-    url: https://item.rakuten.co.jp/ugreen-gear/16172/
-    merchant: rakuten
+    why: 同じUgreenブランドでANC(45dB)とLDACハイレゾに対応する製品が、Amazon.co.jpのUGREEN公式ストアで国内発送・国内保証付きで買える。形状はイヤホンではなくヘッドホンだが、技適を気にせず今日から使える点は共通。
+    url: https://www.amazon.co.jp/dp/B0GYZTLH7H
+    merchant: amazon
 faq:
   - q: 日本で買えますか
     a: 掲載時点で日本向けの発売や技適取得の発表はなく、購入できるのは中国のJD.comのみ。UgreenブランドのHiTuneシリーズは日本国内でも別モデルが正規販売されているが、T8自体の国内発売は確認できていない。

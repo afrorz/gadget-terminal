@@ -38,8 +38,8 @@ credit: MNT Research Crowd Supplyプロジェクトページ
 alternatives:
 - name: 【送料無料】GeeekPi N07 ミニタワー NVMe NAS キット Raspberry Pi 5 用、N07 M.2 NVMe SSD Pip PCIe ペリフェラルボード底部付き、M.2 Key-M NVMe SSD 2230/2242/2260/2280 をサポート
   why: 同じくRaspberry Pi 5をベースにNAS/サーバー用途へ組めるキットで、Amazon.co.jpから今日届く。CPUモジュールを差し替えられる自由度はMNT Stationに劣るが、実用のホームサーバー構築ならすぐ試せる。
-  url: https://item.rakuten.co.jp/slife/b0ddwlbpsy/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DDWLBPSY
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/slife/cabinet/rakus141_0043/b0ddwlbpsy00.jpg?_ex=400x400
 sources:
 - title: MNT Station fanless, modular open-hardware computer supports a choice of 10+ Arm CPU or FPGA modules

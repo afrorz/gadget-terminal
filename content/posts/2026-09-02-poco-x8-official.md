@@ -33,9 +33,9 @@ faq:
   a: グローバル市場向けにはすでに発表済みです。インド市場向けの発表は数日後を予定していると案内されています。日本での発売時期は確認できていません。
 alternatives:
 - name: POCO M7 Pro 5G
-  why: 同じPOCOブランドの大容量バッテリー機で、Xiaomi公式楽天市場店が技適取得済みの国内正規品として販売中。POCO X8の国内発売を待たずに近いブランド体験を今日から試せる。
-  url: https://item.rakuten.co.jp/xiaomiofficial/m65159/
-  merchant: rakuten
+  why: 同じPOCOブランドの大容量バッテリー機で、Amazon.co.jpで技適取得済みの国内正規品として販売中。POCO X8の国内発売を待たずに近いブランド体験を今日から試せる。
+  url: https://www.amazon.co.jp/dp/B0DYF4KF65
+  merchant: amazon
 sources:
 - title: Poco X8 is official with an 8,340 mAh battery and the Snapdragon 6s Gen 4 SoC
   url: https://www.gsmarena.com/poco_x8_is_official_with_an_8340_mah_battery_and_the_snapdragon_6s_gen_4_soc-news-74434.php
@@ -66,8 +66,8 @@ POCOが新型スマートフォン「POCO X8」を発表した。最大の特徴
 
 ## 日本から見るとどうか
 
-POCOはXiaomiのサブブランドで、日本の通信キャリアや家電量販店に正規の販売網を持たない。過去のPOCOシリーズも、国内では個人輸入か、Xiaomi公式楽天市場店が扱う一部モデルを通じて流通してきた。POCO X8自体が同店の取り扱いに加わるかどうかは、掲載時点で案内がない。
+POCOはXiaomiのサブブランドで、日本の通信キャリアや家電量販店に正規の販売網を持たない。過去のPOCOシリーズも、国内では個人輸入か、Amazon.co.jpが扱う一部モデルを通じて流通してきた。POCO X8自体が同店の取り扱いに加わるかどうかは、掲載時点で案内がない。
 
 技適についても現時点で情報がない。個人輸入した端末を国内で電波を発する状態のまま使い続けるには技適の取得が前提になり、確認が取れないまま使用を続けると電波法上の問題になりうる。価格はユーロ建てで、為替によって実質的な負担額は変わる。円換算した金額は掲載しない。
 
-同じPOCOブランドの製品を今日から試したいなら、Xiaomi公式楽天市場店が技適取得済みで販売する「POCO M7 Pro 5G」が候補になる。チップセットはSnapdragon 6s Gen 4ではなくDimensity 7025-Ultraだが、大容量バッテリーとAMOLEDディスプレイという方向性は近く、国内正規保証も付く。
+同じPOCOブランドの製品を今日から試したいなら、Amazon.co.jpで技適取得済みで販売する「POCO M7 Pro 5G」が候補になる。チップセットはSnapdragon 6s Gen 4ではなくDimensity 7025-Ultraだが、大容量バッテリーとAMOLEDディスプレイという方向性は近く、国内正規保証も付く。

@@ -29,10 +29,10 @@ faq:
 - q: どんなゲームが収録されていますか
   a: Capcom・バンダイナムコ・ジャレコ・PIKO Interactiveの公式ライセンスタイトルが200本以上プリインストールされています。パックマン、ギャラガ、ストリートファイターII、ロックマンなどが含まれます。
 alternatives:
-- name: サイバーガジェット レトロフリーク(楽天市場)
+- name: サイバーガジェット レトロフリーク(Amazon.co.jp)
   why: ファミコン・スーパーファミコンなど11機種の実カートリッジに対応する国内正規品のレトロゲーム互換機。GameStation Retro Goのようなライセンスタイトル内蔵型ではなく手持ちの実機カートリッジで遊ぶ方式だが、PSE認証済みで国内から今日購入・サポートを受けられる点が異なる。
-  url: https://item.rakuten.co.jp/nekosansyouten/202410241035294544859100000/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B00ZZ70JX6
+  merchant: amazon
 sources:
 - title: The MyArcade GameStation Retro Go Handheld Is Now Up For Pre-Order
   url: https://retrododo.com/the-myarcade-gamestation-retro-go-handheld-is-now-up-for-pre-order/

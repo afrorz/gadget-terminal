@@ -27,8 +27,8 @@ credit: Cooler Master 公式製品ページ
 alternatives:
   - name: Thermal Grizzly WireView GPU 1x12VHPWR
     why: 同じく12V-2×6コネクタの電流・電圧をピン単位で監視できる製品で、日本国内から購入できる。OLED表示で数値そのものを確認できる点がGPU Shieldとの違い。
-    url: https://item.rakuten.co.jp/techace/s-tg-wv-h1n/
-    merchant: rakuten
+    url: https://www.amazon.co.jp/dp/B0C6HX7LZ6
+    merchant: amazon
 faq:
   - q: 日本で買えますか
     a: 掲載時点でCooler Master公式ストア(米国)での販売のみ確認できており、日本への発送可否は確認できていません。国内代理店からの取り扱い告知もありません。

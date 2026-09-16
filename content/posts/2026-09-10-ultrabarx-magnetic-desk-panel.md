@@ -26,8 +26,8 @@ deadline: "2026-11-06"
 alternatives:
 - name: Elgato Stream Deck +
   why: タッチディスプレイとダイヤルを備えた操作パネルとして国内正規品が販売されており、技適取得済みで今日から使える。モジュール拡張はできないが「デスクを操作パネル化する」という発想は同じ。
-  url: https://item.rakuten.co.jp/trend-tech/9760105673332/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0BJL8SJ59
+  merchant: amazon
 faq:
 - q: 日本で買えますか
   a: 買えます。国内のクラウドファンディングサイトGREEN FUNDING(きびだんご)で日本語のまま支援でき、価格も日本円で表示されています。ただし配送は2027年1月ごろの予定で、確定した日程ではありません。

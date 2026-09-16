@@ -28,8 +28,8 @@ faq:
 alternatives:
 - name: クーボ しっぽ クッション 癒し ロボット セラピーロボット 電子ペット 猫 ねこ 動物 癒しグッズ 介護 介護ロボット しっぽクッション 枕 抱き枕 動く アニマル しっぽ 尻尾 充電式 かわいい 誕生日 プレゼント ギフト ユカイ工学【ポイント10倍 送料無料】［ Qoobo ］
   why: しっぽの動きで反応するセラピー用クッション型ロボットとして日本国内で正規販売されている。ホログラム表示は無いが、触れると反応する「デスクの相棒」という体験は今日から試せる。
-  url: https://item.rakuten.co.jp/roomy/yki20nov18h01/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B07YFCS357
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10-4/yki1d10-ny000-1_gt02.jpg?_ex=400x400
 sources:
 - title: ALLTIME Launches oLand, World's First AI Holographic Companion

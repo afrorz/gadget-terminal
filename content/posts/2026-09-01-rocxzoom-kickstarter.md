@@ -39,8 +39,8 @@ faq:
 alternatives:
 - name: ニコン COOLPIX P1100
   why: 光学125倍(3,000mm相当)の超望遠コンパクトカメラで、国内正規品として今日から買える。AIによる自動追尾やジンバル駆動は無いが、野鳥や月面など遠距離の被写体を大きく写す用途ではRocXZoomと重なる。
-  url: https://item.rakuten.co.jp/ec-current/eset000088953/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DW3Z2BPS
+  merchant: amazon
 sources:
 - title: RocXZoom Chases Birds at 45 mph From a 400-Gram Camera, is World's First Robotic Extreme Zoom Camera
   url: https://www.techeblog.com/rocxzoom-first-robotic-extreme-zoom-camera-specs-price-kickstarter/

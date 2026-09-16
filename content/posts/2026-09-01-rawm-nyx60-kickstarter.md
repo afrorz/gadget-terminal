@@ -42,8 +42,8 @@ faq:
 alternatives:
 - name: Wooting 60HE v2
   why: 同じ60%サイズ・8000Hzポーリングの競技用キーボードで、磁気(ホールエフェクト)方式ながら国内正規代理店から今日発送される。Nyx60が採用する光学方式とは検知の仕組みが異なるが、ラピッドトリガーを使った超高速入力という体験は今すぐ試せる。
-  url: https://item.rakuten.co.jp/onostore/ono00600/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0GFFWT5HD
+  merchant: amazon
 sources:
 - title: RAWM eSports Debuts Nyx60 Gaming Keyboard with Light-Guided Optical Switches
   url: https://www.techpowerup.com/352186/rawm-esports-debuts-nyx60-gaming-keyboard-with-light-guided-optical-switches

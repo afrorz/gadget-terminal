@@ -35,8 +35,8 @@ faq:
 alternatives:
 - name: Samsung Galaxy Z Fold7
   why: Samsung公式ストアの国内正規品で、FeliCa(おサイフケータイ)対応・技適取得済み・Google Play利用可能。3つ折りではなく通常の2つ折りだが、大画面折り畳みを技適やアプリ対応の心配なく今日から使える。
-  url: https://item.rakuten.co.jp/samsungonline/smp_zfold7/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0FGNB9M2F
+  merchant: amazon
 sources:
 - title: Huawei Mate XT 2 colors and storage variants revealed, pre-orders now live
   url: https://www.gsmarena.com/huawei_mate_xt_2_colors_and_storage_variants_revealed_preorders_now_live-news-74406.php

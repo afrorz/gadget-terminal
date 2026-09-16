@@ -33,10 +33,10 @@ faq:
 - q: 何が新しいのですか
   a: ESP32-S3を積んだHUB75 LEDパネルをディジーチェーン(数珠つなぎ)で拡張でき、サーバー側でレンダリングしたスポーツスコア・天気・SNS指標・フライト情報などを常時表示できる点です。30種類以上のプラグインが用意され、サブスクリプションは不要とされています。
 alternatives:
-- name: Divoom Pixoo-Max ピクセルディスプレイ(楽天市場)
+- name: Divoom Pixoo-Max ピクセルディスプレイ(Amazon.co.jp)
   why: 常時稼働のBluetooth接続LED表示デバイスとして国内から今日購入できる。TickrCastのようなスポーツ速報プラグインではなくドット絵やメッセージ表示が主用途だが、「ネット経由の情報を壁に表示する」という使い方自体は今すぐ試せる。
-  url: https://item.rakuten.co.jp/netclickstore-r/4950537466338/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B08D2Z2N87
+  merchant: amazon
 sources:
 - title: TickrCast - An ESP32-S3 HUB75 LED ticker display with server-side rendering and OTA (Crowdfunding)
   url: https://www.cnx-software.com/2026/09/03/tickrcast-esp32-s3-hub75-led-ticker-display-with-server-side-rendering-and-ota/
@@ -77,4 +77,4 @@ TickrCastはKickstarterでの募集段階にあり、出資は購入の確約で
 
 **専用アプリは英語表記。** スクリーンショットで確認できた設定画面はすべて英語で、日本語化の予定は掲載時点で案内されていない。
 
-**似た体験は国内でも今日から。** TickrCastのようなスポーツ速報特化のプラグイン基盤ではないが、ネット経由の情報を常時表示するアンビエントLEDデバイスとしてはDivoomのPixooシリーズが国内の楽天市場から購入できる。技適の懸念なく「壁に情報を表示し続ける」という体験を試したい場合の選択肢になる。
+**似た体験は国内でも今日から。** TickrCastのようなスポーツ速報特化のプラグイン基盤ではないが、ネット経由の情報を常時表示するアンビエントLEDデバイスとしてはDivoomのPixooシリーズが国内のAmazon.co.jpから購入できる。技適の懸念なく「壁に情報を表示し続ける」という体験を試したい場合の選択肢になる。

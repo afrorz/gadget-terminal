@@ -32,10 +32,10 @@ faq:
 - q: 何が新しいのですか
   a: 40mm DLC動的ドライバーと10mm LCPドライバーを同じ軸上に並べる「DCAA(デュアル同軸音響構造)」と、周囲の騒音レベルに応じてノイズキャンセリングの強さをリアルタイムに調整する「Adaptive Hybrid ANC」です。QualcommのSnapdragon S3 Gen 1 Sound Platform(QCC3095)を採用し、Bluetooth 6.0やAuracastにも対応します。
 alternatives:
-- name: EarFun Wave Pro ワイヤレスヘッドホン(楽天市場・EarFun公式店)
+- name: EarFun Wave Pro ワイヤレスヘッドホン(Amazon.co.jp・EarFun公式店)
   why: 同じEarFunのANC搭載ワイヤレスヘッドホンで、VGP 2024 SUMMER受賞歴があり国内の正規代理店から今日購入できる。Wave Pro Xと同じDCAA・Bluetooth 6.0ではないが、EarFunのノイズキャンセリング機の実力を国内サポート付きで試せる。
-  url: https://item.rakuten.co.jp/earfun/ra-hp200/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0CSDKW6DN
+  merchant: amazon
 sources:
 - title: EarFun Unveils Wave Pro X Dual-Coaxial Headphones With Qualcomm ANC Technology and Auracast
   url: https://www.techpowerup.com/352318/earfun-unveils-wave-pro-x-dual-coaxial-headphones-with-qualcomm-anc-technology-and-auracast
@@ -65,7 +65,7 @@ EarFunによれば、DCAAは2つのドライバーを別々の経路で鳴らす
 
 **国内発売の告知は掲載時点で確認できていない。** 公式サイトとAmazonでの発売が案内されているのみで、国内正規代理店の取り扱いやEarFun公式の日本向けページでの案内は見当たらなかった。技適の取得状況もWave Pro X単体では確認できていない。
 
-**ただしEarFunは国内実績のあるブランドではある。** 前モデルの「EarFun Wave Pro」はVGP 2024 SUMMERを受賞し、国内の正規代理店(楽天市場のEarFun公式店)から購入できる。今回のWave Pro Xについても、今後同様に国内向け販売が始まる可能性はあるが、掲載時点では未確定として扱いたい。
+**ただしEarFunは国内実績のあるブランドではある。** 前モデルの「EarFun Wave Pro」はVGP 2024 SUMMERを受賞し、国内の正規代理店(Amazon.co.jpのEarFun公式店)から購入できる。今回のWave Pro Xについても、今後同様に国内向け販売が始まる可能性はあるが、掲載時点では未確定として扱いたい。
 
 **価格はドル建て。** 129.99ドルは為替により円換算額が変動し、Amazon.co.jpでの取り扱いが始まった場合も米国価格とは異なる可能性がある。
 

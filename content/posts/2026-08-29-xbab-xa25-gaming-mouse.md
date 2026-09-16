@@ -37,8 +37,8 @@ credit: XBAB Tech 公式サイト
 alternatives:
 - name: ATTACK SHARK R6 39g超軽量ゲーミングマウス、8000Hz、PixArt PAW3950MAXゲーミングセンサー、42000DPI、Nordic 52840 MCU、3モード連続、無線BT/2.4Gワイヤレス/有線、氷感コーティング、光学マイクロスイッチ（1億クリック）、FPSゲーム対応、Windows/Xbox/PS/Mac用オフィ
   why: 同じPixArt PAW3950系センサーを積む39g級の超軽量マウスで、Amazon.co.jpから今日届く。有線接続にも対応する。
-  url: https://item.rakuten.co.jp/netclickstore-r/4950537464410/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DJVSX4WZ
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/netclickstore-r/cabinet/r_1738702768/4950537464410.jpg?_ex=400x400
 sources:
 - title: XBAB Tech Details 25 g Full-Size Gaming Mouse Launching on September 22

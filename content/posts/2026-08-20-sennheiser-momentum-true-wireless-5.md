@@ -24,8 +24,8 @@ faq:
 alternatives:
 - name: ゼンハイザー公式 Sennheiser MOMENTUM True Wireless 4 &USB アダプター BTD 600セットワイヤレスイヤホン イヤフォン True Wireless ダイナミックドライバー IP54 防塵 防滴 遮音性 30時間再生 Bluetooth 5.4対応
   why: 同じMOMENTUMシリーズの前モデルで、国内正規品としてAmazon.co.jpで即日購入できる。バッテリー交換機能はないが、音質傾向やアプリの使用感は共通する。
-  url: https://item.rakuten.co.jp/sennheiser-hearing/mtw4_btd600/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0CTHVX6DK
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/sennheiser-hearing/cabinet/mtw4b.jpg?_ex=400x400
 sources:
 - title: 'Introducing Sennheiser MOMENTUM True Wireless 5: The Flagship MOMENTUM Experience in Your Pocket'

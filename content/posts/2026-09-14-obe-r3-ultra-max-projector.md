@@ -19,8 +19,8 @@ credit: OBE(大眼橙) JD.com公式販売ページ
 alternatives:
   - name: XGIMI Elfin Flip Plus
     why: ジンバル一体型で天井投写にも対応し、Google TV内蔵。XGIMI-STOREが国内正規販売しており、技適を含め日本向けに販売されている製品なので今日から国内サポート付きで買える。
-    url: https://item.rakuten.co.jp/xgimi-store/elfinflipplus/
-    merchant: rakuten
+    url: https://www.amazon.co.jp/dp/B0GP7TLZ5T
+    merchant: amazon
 faq:
   - q: 日本で買えますか
     a: 掲載時点で日本国内での正規販売や代理店の告知は確認できていない。中国のJD.comでの販売のみで、国際発送に対応しているかも確認できていない。

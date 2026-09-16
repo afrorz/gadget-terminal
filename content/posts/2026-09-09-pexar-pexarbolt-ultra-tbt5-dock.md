@@ -21,9 +21,9 @@ origin: HKG 香港
 deadline: "2026-11-08"
 alternatives:
 - name: Anker Prime ドッキングステーション（14-in-1, Thunderbolt 5）
-  why: 同じThunderbolt 5・120Gbps・140W給電に対応し、国内正規品として楽天市場から今すぐ購入できる。タッチ画面は無いが、ポート構成は同水準。
-  url: https://item.rakuten.co.jp/anker/a83b5/
-  merchant: rakuten
+  why: 同じThunderbolt 5・120Gbps・140W給電に対応し、国内正規品としてAmazon.co.jpから今すぐ購入できる。タッチ画面は無いが、ポート構成は同水準。
+  url: https://www.amazon.co.jp/dp/B0DTK6VPH2
+  merchant: amazon
 faq:
 - q: 日本で買えますか
   a: 掲載時点でKickstarterでの募集中であり、国内の正規販売や代理店についての告知は確認できていません。Kickstarterからの海外発送という扱いになります。
@@ -68,4 +68,4 @@ PexarBolt Ultra TBT5 Dockは有線接続のドッキングステーションで�
 
 もう一点、注意したいのが通貨だ。プレスリリースは早期価格479ドル・正規価格649ドルと米ドルで伝えているが、Kickstarterのプロジェクト自体は香港ドル（HKD）建てで登録されており、目標額は78,404香港ドル、掲載時点で135万636香港ドルを集めている。米ドル表記はあくまで参考価格とみられ、実際に支援する際はKickstarter側の表示通貨を確認したほうがよい。
 
-同じThunderbolt 5・120Gbps・140W給電に対応するドックは、国内でもすでに正規品が流通している。Ankerの「Prime ドッキングステーション」はタッチ画面こそ無いが、ポート構成は同水準で、楽天市場から今すぐ購入できる。表示画面という付加価値を待つか、今すぐ使える国内正規品を選ぶかは、用途次第だろう。
+同じThunderbolt 5・120Gbps・140W給電に対応するドックは、国内でもすでに正規品が流通している。Ankerの「Prime ドッキングステーション」はタッチ画面こそ無いが、ポート構成は同水準で、Amazon.co.jpから今すぐ購入できる。表示画面という付加価値を待つか、今すぐ使える国内正規品を選ぶかは、用途次第だろう。

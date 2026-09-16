@@ -22,8 +22,8 @@ credit: Peladn 公式ストア(peladn.us)
 alternatives:
   - name: GEEKOM A6(Ryzen 7 6800H)
     why: PSE・TELEC(技適)認証済みで国内正規販売されており、性能もRyzen 5 3500Uより大きく上。価格は高いが、今日から国内保証付きで確実に買える。
-    url: https://item.rakuten.co.jp/geekom/a6/
-    merchant: rakuten
+    url: https://www.amazon.co.jp/dp/B0F4WJCTBG
+    merchant: amazon
 faq:
   - q: 日本で買えますか
     a: 今回報じられたRyzen 5 3500U構成(1,549元)は掲載時点で中国のJD.com限定で、国際発送の告知は確認できていない。同じWO5シリーズのRyzen 5 4300U構成は公式グローバルストア(peladn.us)の配送先国リストに日本が含まれるが、送料無料の対象はUS/EU/UKのみで、日本への送料は別途確認が必要。

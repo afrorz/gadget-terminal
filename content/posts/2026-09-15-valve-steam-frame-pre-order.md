@@ -19,8 +19,8 @@ credit: Valve Steamストア公式製品ページ
 alternatives:
   - name: Meta Quest 3 512GB
     why: 国内の技適・PSE認証を取得したMeta公式ストアが国内発送・国内保証付きで販売している単体駆動型VRヘッドセット。抽選なしで今日買える。
-    url: https://item.rakuten.co.jp/meta/9089224147192/
-    merchant: rakuten
+    url: https://www.amazon.co.jp/dp/B0CF1DLZPY
+    merchant: amazon
 faq:
   - q: 日本で買えますか
     a: 掲載時点でValveから日本向け販売や技適取得の発表はない。予約(抽選)自体がどの国からできるかも公式発表からは確認できていない。

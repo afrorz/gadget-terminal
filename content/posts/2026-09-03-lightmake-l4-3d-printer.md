@@ -32,10 +32,10 @@ faq:
 - q: 何が新しいのですか
   a: 4本の印刷ヘッドがベルトではなくリニアモーターで独立駆動する点です。同じモデルを4個同時出力したり、色替え時のフィラメント廃棄(パージ)を抑えてマルチカラー印刷したりできるとLightMakeは説明しています。
 alternatives:
-- name: Creality HI マルチカラー3Dプリンター(楽天市場)
+- name: Creality HI マルチカラー3Dプリンター(Amazon.co.jp)
   why: 4基のCFSユニットで最大16色のマルチカラー印刷に対応し、国内から購入できる。LightMake L4のような4ヘッド同時印刷ではなく単一ノズルでのフィラメント切り替え方式だが、色替え時のパージ低減という用途は今日から満たせる。
-  url: https://item.rakuten.co.jp/pagoda/creality-hi/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DNMVSCR2
+  merchant: amazon
 sources:
 - title: LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)
   url: https://www.cnx-software.com/2026/09/02/lightmake-l4-3d-printer-features-four-independent-printing-heads/
@@ -78,4 +78,4 @@ L4はKickstarterでの募集段階にあり、出資は購入の確約ではな�
 
 **価格はドル建て。** 早期支援1,299ドルは為替により円換算額が変動し、関税や送料もKickstarter経由の海外発送では別途かかることが多い。掲載時点の価格として捉えてほしい。
 
-**今すぐマルチカラー印刷を試したいなら。** 4ヘッド同時印刷という仕組みそのものはL4でしか味わえないが、「色替えのたびに廃棄が出るのを減らしたい」という用途だけなら、国内の楽天市場で購入できるCreality HIのようなマルチカラー対応機がすでにある。方式は異なるが、今日から選べる選択肢として挙げておく。
+**今すぐマルチカラー印刷を試したいなら。** 4ヘッド同時印刷という仕組みそのものはL4でしか味わえないが、「色替えのたびに廃棄が出るのを減らしたい」という用途だけなら、国内のAmazon.co.jpで購入できるCreality HIのようなマルチカラー対応機がすでにある。方式は異なるが、今日から選べる選択肢として挙げておく。

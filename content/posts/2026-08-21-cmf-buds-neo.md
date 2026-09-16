@@ -24,8 +24,8 @@ faq:
 alternatives:
 - name: Anker Soundcore P31i (Bluetooth 6.1) 【完全ワイヤレスイヤホン/アクティブノイズキャンセリング/マルチポイント接続 / 最大50時間再生 / PSE技術基準適合】
   why: PSE技術基準適合済みの国内正規品でBluetooth 6.1・ANC対応、最大50時間再生と近い使用感を今日から試せる。
-  url: https://item.rakuten.co.jp/anker/d1202-ss/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0FNRS5WB2
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/d/d1202_normal.jpg?_ex=400x400
 sources:
 - title: CMF Buds Neo goes official with ANC and up to 52 hour total battery life

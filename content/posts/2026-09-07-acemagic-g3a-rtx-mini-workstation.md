@@ -44,9 +44,9 @@ buy:
   note: ACEMAGIC公式ストアは日本を含むアジア地域への配送に対応していない。転送サービスを使って個人輸入した場合も、技適未確認のWi-Fi 6E/Bluetooth 5.2を使うのは避け、有線LANでの運用を前提にしたほうがよい。2年保証(2025年8月以前の購入は3年)も国内では実質的に受けられない。
 alternatives:
 - name: MINISFORUM AtomMan G7 Ti(Core i9-14900HX/RTX 4070)
-  why: 同じ「デスクトップ級CPU+専用GPUのミニPC」という用途を国内正規販売で満たす。Minisforum公式の楽天市場店が扱っており、日本語サポートと保証を受けられる。GPUはRTX 4070とG3AのRTX 2000 Adaよりゲーミング性能寄りだが、価格帯とサイズ感は近い。
-  url: https://item.rakuten.co.jp/minisforum/g7ti/
-  merchant: rakuten
+  why: 同じ「デスクトップ級CPU+専用GPUのミニPC」という用途を国内正規販売で満たす。Amazon.co.jpのMinisforum公式ストアが扱っており、日本語サポートと保証を受けられる。GPUはRTX 4070とG3AのRTX 2000 Adaよりゲーミング性能寄りだが、価格帯とサイズ感は近い。
+  url: https://www.amazon.co.jp/dp/B0DF5J86J7
+  merchant: amazon
 ---
 
 ACEMAGICが、3.5リットル筐体に据え置き級のCPUと専用GPUを詰め込んだミニワークステーション「G3A」を発売した。CPUはデスクトップ向けのCore i9-13900F(24コア/32スレッド、最大5.6GHz)、GPUはワークステーション向けの「NVIDIA RTX 2000 Ada」(16GB GDDR6)を搭載する。メモリは標準32GB(DDR5-5600、16GB×2のデュアルチャンネル)で、最大96GBまで増設できる。

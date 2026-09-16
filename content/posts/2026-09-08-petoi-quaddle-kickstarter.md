@@ -35,10 +35,10 @@ faq:
 - q: いつ届きますか
   a: Petoiは2026年12月からの出荷を予定しています。クラウドファンディングのため、遅延の可能性があります。
 alternatives:
-- name: Petoi Bittle V2 STEMキット(RobotShop Japan 楽天市場店)
+- name: Petoi Bittle V2 STEMキット(Amazon.co.jp)
   why: Quaddleと同じPetoiが手がける先代の四足歩行ロボットキットで、クラウドファンディングの出荷を待たずに国内から今日購入できる。OpenCatの開発環境を先に試しておきたい場合に使える。
-  url: https://item.rakuten.co.jp/robotshopjapan/rb-toi-09/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0F8C51DPT
+  merchant: amazon
 buy:
 - name: Petoi Quaddle(Buddyモデル)
   url: https://www.kickstarter.com/projects/petoi/quaddle-open-source-desktop-robot-kit
@@ -78,4 +78,4 @@ STEM教育向けの四足歩行ロボットキットを手がけるPetoiが、�
 
 **技適は無線機能を使う場合だけの問題になる。** BuddyとScoutのAIコアはWi-Fi・Bluetoothで音声対話やスマートホーム連携を行うが、掲載時点で技適取得の情報は無い。一方でQuaddleはRaspberry Pi ZeroやPCとのUART(有線)接続でもプログラミング・制御ができる設計のため、無線機能を使わずに有線接続だけで動かせば技適の対象外で合法的に使える。AIチャットやスマートホーム連携を無線で使いたい場合は、技適取得の有無を別途確認したほうがよい。
 
-**待たずに近い体験をしたいなら、先代モデルが国内にある。** Petoiの前作「Bittle V2」STEMキットは、国内代理店経由で楽天市場から今日購入できる。Quaddleと同じOpenCat環境で開発できるため、Kickstarterの出荷を待つ間の練習用としても使える。
+**待たずに近い体験をしたいなら、先代モデルが国内にある。** Petoiの前作「Bittle V2」STEMキットは、Amazon.co.jpから今日購入できる。Quaddleと同じOpenCat環境で開発できるため、Kickstarterの出荷を待つ間の練習用としても使える。

@@ -36,10 +36,10 @@ faq:
 - q: いつ発売されますか
   a: Indiegogoキャンペーンは2026年9月2日に開始しました。出荷時期は掲載時点で確認できていません。
 alternatives:
-- name: ASUS ROG Flow Z13(ツクモ楽天市場店)
+- name: ASUS ROG Flow Z13(Amazon.co.jp)
   why: GPD Win Max 3の最上位構成と同じAMD Ryzen AI Max+ 395・128GB RAMを積む2-in-1機で、ASUSの国内正規品として今日から購入できる。ハンドヘルド型ではなくタブレット型だが、同じAPUの実力を国内サポート付きで確認できる。
-  url: https://item.rakuten.co.jp/shoptsukumo/9426505014/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0BXXHG5F4
+  merchant: amazon
 sources:
 - title: GPD WIN Max 3 Removable Battery High Refresh Rate OLED Handheld Gaming Laptop
   url: https://www.indiegogo.com/en/projects/gpdhk/gpd-win-max-3-handheld-gaming-laptop

@@ -35,10 +35,10 @@ faq:
 - q: いつ発売されますか
   a: Indiegogoでのクラウドファンディングは2026年9月8日22:00(日本時間)に開始予定です。出荷時期は掲載時点で確認できていません。
 alternatives:
-- name: PLAUD NotePin(PLAUD楽天市場店)
+- name: PLAUD NotePin(Amazon.co.jp)
   why: ChatGPT連携の文字起こし・要約に対応したウェアラブルAIボイスレコーダーで、国内の正規代理店から今日購入できる。イヤホン一体型ではなくクリップ型だが、「話した内容をAIが要約する」という用途は同じ。
-  url: https://item.rakuten.co.jp/plaud/6977512610680c/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0DL9ZQ8GX
+  merchant: amazon
 sources:
 - title: IFA 2026 Winner viaim Rise Launching on Indiegogo September 8 – The Future of AI Agent Hearables
   url: https://www.notebookcheck.net/IFA-2026-Winner-viaim-Rise-Launching-on-Indiegogo-September-8-The-Future-of-AI-Agent-Hearables.1392363.0.html

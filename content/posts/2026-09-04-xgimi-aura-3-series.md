@@ -32,10 +32,10 @@ faq:
 - q: 技適は取得していますか
   a: 掲載時点で確認できていません。Wi-Fi・Bluetoothを内蔵するGoogle TV搭載機のため、国内で使うには技術基準適合証明(技適)が別途必要になります。
 alternatives:
-- name: XGIMI HORIZON Pro 4Kプロジェクター(楽天市場・XGIMI-STORE)
+- name: XGIMI HORIZON Pro 4Kプロジェクター(Amazon.co.jp・XGIMI公式ストア)
   why: 同じXGIMIブランドで国内の正規代理店(XGIMI-STORE)が販売しており、技適を含め国内向けに整った状態で今日購入できる。AURA 3のような超短焦点ではなく通常投影距離の機種だが、Google TV・Harman Kardonスピーカー・4K対応など基本コンセプトは共通する。
-  url: https://item.rakuten.co.jp/xgimi-store/horizonpro/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B095CF4LKV
+  merchant: amazon
 sources:
 - title: The XGIMI Aura 3 lineup brings Google TV to 4K 120Hz capable short-throw laser projectors
   url: https://9to5google.com/2026/09/03/the-xgimi-aura-3-lineup-brings-google-tv-to-4k-120hz-capable-short-throw-laser-projectors/
@@ -76,4 +76,4 @@ XGIMIがIFA 2026(会期9月4〜8日、ベルリン)で、超短焦点(UST)レー
 
 **価格はドル建て、かつハイエンド帯。** Kickstarter限定価格でも2,199ドルからと安価ではなく、為替次第で円換算額はさらに変動する。関税や送料もKickstarter経由の海外発送では別途かかることが多い。
 
-**今すぐ日本語サポート付きで試したいなら。** XGIMIは日本向けに複数機種を正規展開しており、楽天市場のXGIMI-STORE(公式店)からHORIZON Proのような技適取得済みモデルを今日から購入できる。AURA 3のような超短焦点ではなく通常投影距離の機種になるが、同じGoogle TV・4K・Harman Kardonスピーカーという基本コンセプトを国内サポート付きで体験できる。
+**今すぐ日本語サポート付きで試したいなら。** XGIMIは日本向けに複数機種を正規展開しており、Amazon.co.jpのXGIMI公式ストアからHORIZON Proのような技適取得済みモデルを今日から購入できる。AURA 3のような超短焦点ではなく通常投影距離の機種になるが、同じGoogle TV・4K・Harman Kardonスピーカーという基本コンセプトを国内サポート付きで体験できる。

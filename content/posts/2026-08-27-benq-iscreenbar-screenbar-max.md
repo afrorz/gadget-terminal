@@ -36,8 +36,8 @@ sources:
 alternatives:
 - name: 【BenQ公式店】BenQ ScreenBar スクリーンバー モニターライト モニター掛け式ライト　デスクライト USBライト ディスプレイライト 自動調光 テレワーク 在宅勤務 便利グッズ デスク周り LED PCアクセサリー 高演色 ブルーライト軽減
   why: 同じBenQ製モニターライトの現行モデルで、ベンキュージャパン正規販売としてAmazon.co.jpから今日買える。iScreenBar特有のiMac専用マグネット固定や、ScreenBar Maxのデュアルモニター対応幅は無いが、画面へのグレアを抑えるという基本機能は共通する。
-  url: https://item.rakuten.co.jp/benq-directshop/moniterlight_01/?rafcid=wsc_i_is_426d0238-4559-4562-84cd-0ebadd9809ff
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0785D93KD
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/benq-directshop/cabinet/07271353/screenbar-1.jpg?_ex=400x400
 images:
 - url: https://image.benq.com/is/image/benqco/iscreenbar-01-0728?fmt=png-alpha
