@@ -1,0 +1,734 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:00:27.968780+09:00",
+  "stats": {
+    "fetched": 721,
+    "unique": 681,
+    "new": 406,
+    "clusters": 383,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "c3b3d65d58684777",
+      "title": "iFixit Releases Official Steam Machine Repair Guides",
+      "url": "https://www.techpowerup.com/352778/ifixit-releases-official-steam-machine-repair-guides",
+      "canonical": "https://www.techpowerup.com/352778/ifixit-releases-official-steam-machine-repair-guides",
+      "summary": "Following what appears to have been a relatively successful partnership with Valve on the Steam Deck, despite recent hiccups , iFixit has just announced and published its Steam Machine teardown and repair guides on its website. Including the Inkterface assembly and How to Open and Clean a Steam Machine guides, there are 18 guides in total, ranging from replacing easy components, like the front I/O",
+      "published": "2026-09-17T04:39:05+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 28,
+      "reasons": [
+        "+5 teardown",
+        "+3 announced",
+        "+3 official",
+        "+4 e ink",
+        "+3 steam deck",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/iFixit-publishes-repair-guides-for-Steam-Machine.1401912.0.html"
+      ]
+    },
+    {
+      "id": "d5dbfb2765c292f0",
+      "title": "Galaxy Z Fold 8 Sales Rise After iPhone Duo Launch",
+      "url": "https://www.gizmochina.com/2026/09/17/galaxy-z-fold-8-sales-rise-after-iphone-duo-launch/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/galaxy-z-fold-8-sales-rise-after-iphone-duo-launch",
+      "summary": "Apple’s entry into the foldable smartphone market was expected to put some pressure on Samsung, but the early signs suggest the opposite may be happening. According to the latest sales data from South Korea, Galaxy Z Fold 8 sales increased by 10% week over week in the period following Apple’s unveiling of the iPhone Duo. [&#8230;] The post Galaxy Z Fold 8 Sales Rise After iPhone Duo Launch appeare",
+      "published": "2026-09-17T11:10:06+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 28,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police",
+        "GSMArena",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Surprise-Galaxy-Z-Fold-8-sees-10-sales-jump-after-Apple-s-iPhone-Duo-launch.1401889.0.html",
+        "https://www.androidpolice.com/iphone-duo-helped-galaxy-z-fold-8-sales/",
+        "https://www.gsmarena.com/galaxy_z_fold8_sales_in_korea_pick_up_after_the_announcement_of_the_iphone_duo-news-74656.php"
+      ]
+    },
+    {
+      "title": "Makuake｜持ち運び自由自在。スタンドをスマートに持ち歩く「MAGtico stand」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/magtico_stand/",
+      "summary": "ひとつで、スマートフォンからタブレットまで。外出先で使いたいときに限って、スマホスタンドがない。そんな小さな不便を解消するために生まれたのが、「MAGtico stand」です。MAGticoは、鍵まわりの不便をスマートに解決するアイテムとしてMakuakeに登場し、今までに3,029名のサポーターから、総額18,307,744円の応援購入をいただきました。今回着目したのは、スマホスタンドの持ち運",
+      "image": "https://static.makuake.com/upload/project/53662/main_53662.jpg?version=1789528074&amp;width=690&amp;height=388",
+      "published": "2026-09-24T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "ed95b7cfe8d4bf88",
+      "canonical": "https://www.makuake.com/project/magtico_stand",
+      "score": 28,
+      "reasons": [
+        "+6 makuake",
+        "+6 応援購入",
+        "+2 登場",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜探す時間を減らす、仕事も暮らしも彩る、日本初上陸※スマホ対応カラーラベルメーカー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/tbs_colorlabelmakerzp100/",
+      "summary": "これまでのラベルプリンターのように「使うときに引き出して、使い終わったらしまう」という手間がなく、デスクの上に置いたままでも邪魔になりません。※サイズ（容積）・重さの比較は、当社測定値に基づく概算です。専用アプリ「HerePrint」をスマホにインストールし、BluetoothまたはNFCタッチで接続するだけ。（※初回接続時は、Bluetoothのみとなります）デザインから印刷まで、すべてスマホの",
+      "image": "https://static.makuake.com/upload/project/53610/main_53610.jpg?version=1789371599&amp;width=690&amp;height=388",
+      "published": "2026-09-22T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "83b20c70a99f20b6",
+      "canonical": "https://www.makuake.com/project/tbs_colorlabelmakerzp100",
+      "score": 25,
+      "reasons": [
+        "+6 makuake",
+        "+5 日本初",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜宇宙素材使用！耐荷重120kg、なのに超軽量525g。コンパクトになる回転チェア｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/isplusair/",
+      "summary": "第１弾「360°回転ワークチェア・イスプラス」は、支援総額300万円超、337名にサポートいただきました。耐荷重は120kgのまま、軽量でさらに小型な椅子へ進化折りたたむと、こんなにコンパクト！座面までの高さは37cm。だから立ち座りがラク！※男性身長180cmほどよい高さで、立ち座り時の足腰の負荷を軽減重さはわずか525g。マグカップコーヒー１杯分と同じくらい便利な360°回転機",
+      "image": "https://static.makuake.com/upload/project/53611/main_53611.png?version=1789449837&amp;width=690&amp;height=388",
+      "published": "2026-09-24T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "5cbe4dc57aa488dc",
+      "canonical": "https://www.makuake.com/project/isplusair",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c0792222b1bc7e3c",
+      "title": "Bose unveils new Ultra Open Earbuds and Sport Open Earbuds",
+      "url": "https://www.gsmarena.com/bose_unveils_new_ultra_open_earbuds_and_sport_open_earbuds-news-74663.php",
+      "canonical": "https://www.gsmarena.com/bose_unveils_new_ultra_open_earbuds_and_sport_open_earbuds-news-74663.php",
+      "summary": "Today Bose has unveiled the new Sport Open Earbuds and the Ultra Open Earbuds. Both of these are \"designed to create more listening moments across active pursuits and everyday life\", the company says. These second-generation Ultra Open Earbuds represent Bose's new flagship open-ear experience, while the new Sport Open Earbuds are the more affordable (yet still not cheap) option. The Ultra Open Ear",
+      "published": "2026-09-17T14:57:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+4 unveil",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）",
+        "TechPowerUp"
+      ],
+      "related_urls": [
+        "https://www.techpowerup.com/352794/bose-advances-open-ear-audio-with-new-sport-open-earbuds-and-ultra-open-earbuds-2nd-gen",
+        "https://www.ithome.com/1/003/854.htm"
+      ]
+    },
+    {
+      "id": "6e1a814597b54d8d",
+      "title": "Xiaomi launches its first full-color day-and-night camera with 4K output",
+      "url": "https://www.gizmochina.com/2026/09/17/xiaomi-launches-its-first-full-color-day-and-night-camera-with-4k-output/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/xiaomi-launches-its-first-full-color-day-and-night-camera-with-4k-output",
+      "summary": "Xiaomi has started crowdfunding for the Smart Camera 5 Pro Full-Color Night Vision in China. It costs 429 yuan (~ $64) during the crowdfunding campaign, while the regular retail price will be 599 yuan (~ $90). The camera is special because its what Xiaomi the company&#8217;s first &#8220;day and night full-color&#8221; camera, with the main [&#8230;] The post Xiaomi launches its first full-color d",
+      "published": "2026-09-17T06:38:13+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+6 crowdfunding",
+        "+2 campaign",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "04ecaf8182d383e9",
+      "title": "Apple M5 Ultra Scores Big GPU Gains in Leaked Geekbench Benchmark",
+      "url": "https://www.techpowerup.com/352802/apple-m5-ultra-scores-big-gpu-gains-in-leaked-geekbench-benchmark",
+      "canonical": "https://www.techpowerup.com/352802/apple-m5-ultra-scores-big-gpu-gains-in-leaked-geekbench-benchmark",
+      "summary": "Apple officially announced the M5 Ultra in late August 2026 , alongside the new Mac Studio desktop PC, claiming that it would offer significant increases in both AI and GPU-accelerated workloads. A new leaked set of Geekbench scores seems to validate many of Apple's claims in the GPU performance department, with the new GPU in the M5 Ultra coming out around 41% faster, on average. The Apple M5 Ult",
+      "published": "2026-09-17T20:02:46+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+4 benchmark",
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Apple-M5-Ultra-flexes-monstrous-GPU-performance-in-leaked-Geekbench-result.1401596.0.html"
+      ]
+    },
+    {
+      "id": "4637929ce7f8fb8d",
+      "title": "Xiaomi 18 Pro runs Geekbench confirming its chipset",
+      "url": "https://www.gsmarena.com/xiaomi_18_pro_runs_geekbench_confirming_its_chipset-news-74647.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_18_pro_runs_geekbench_confirming_its_chipset-news-74647.php",
+      "summary": "Yesterday Xiaomi finally started to officially tease the upcoming 18 Pro series, revealing that the Xiaomi 18 Pro and Xiaomi 18 Pro Max will be unveiled later this month (an exact date is yet to be announced). Today a Xiaomi device powered by the upcoming Snapdragon 8 Elite Gen 6 Pro SoC was spotted in the Geekbench online database with the model number M154FF. That is a very new way for Xiaomi to",
+      "published": "2026-09-17T02:04:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 official",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8fb00315c5fd34b0",
+      "title": "(PR) Team Group Unveils the ACE 8K MicroSDXC Memory Card for 4K 120 FPS",
+      "url": "https://www.techpowerup.com/352784/team-group-unveils-the-ace-8k-microsdxc-memory-card-for-4k-120-fps",
+      "canonical": "https://www.techpowerup.com/352784/team-group-unveils-the-ace-8k-microsdxc-memory-card-for-4k-120-fps",
+      "summary": "As next-generation imaging devices continue to evolve, Team Group Inc., a global leader in memory and storage solutions, today introduces the Team Group ACE 8K MicroSDXC Memory Card. The ACE 8K is designed for a wide range of handheld imaging devices, including Insta360 and DJI cameras, as well as drones. The memory card supports smooth 4K 120 FPS video recording, making it an excellent choice for",
+      "published": "2026-09-17T07:06:29+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+4 handheld",
+        "+3 drone",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d9f01c631a4c5e76",
+      "title": "Oppo’s ColorOS 17 goes official, check the latest features and rollout schedule here",
+      "url": "https://www.gizmochina.com/2026/09/17/oppos-coloros-17-goes-official-check-the-latest-features-and-rollout-schedule-here/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/oppos-coloros-17-goes-official-check-the-latest-features-and-rollout-schedule-here",
+      "summary": "Oppo has officially unveiled its new skin for Android devices, ColorOS 17, at its developer conference in China, highlighting new AI capabilities, performance upgrades, and a host of other major changes. The brand has also announced the rollout schedule for Oppo, OnePlus, and Realme devices. Also ReadNothing OS 5.0 roundup: Rollout timeline, supported devices, and [&#8230;] The post Oppo&#8217;s C",
+      "published": "2026-09-17T11:15:39+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bc4f4e1ca01c0a8c",
+      "title": "G-Wolves Announces 22.7 g Lupine II Asymmetrical Fingertip Gaming Mouse",
+      "url": "https://www.techpowerup.com/352811/g-wolves-announces-22-7-g-lupine-ii-asymmetrical-fingertip-gaming-mouse",
+      "canonical": "https://www.techpowerup.com/352811/g-wolves-announces-22-7-g-lupine-ii-asymmetrical-fingertip-gaming-mouse",
+      "summary": "G-Wolves, maker of the Fenrir , which helped popularize the idea of the ultra-light fingertip gaming mouse, has officially announced that pre-orders for its next ultra-light gaming mouse, the Lupine II, will start on September 18. The actual shape of the mouse is still unknown, beyond a top-down silhouette image that confirms a right-handed asymmetrical shape designed for a fingertip grip—seemingl",
+      "published": "2026-09-17T22:33:06+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8414b00ca936bfb6",
+      "title": "Casio launches three premium Oceanus OCW-P3000 watches with a clever world-time bezel",
+      "url": "https://www.gizmochina.com/2026/09/17/casio-oceanus-cachalot-ocw-p3000-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/casio-oceanus-cachalot-ocw-p3000-watches-launched-specs-price",
+      "summary": "Casio has announced three new models in its Oceanus line, scheduled for release in Japan in October 2026. The new Cachalot OCW-P3000 series includes the OCW-P3000-2A, OCW-P3000-3A, and the OCW-P3000B-1A. Rather than relying on digital displays or complex sub-menus to manage multiple time zones, these watches use a physical system that Casio calls the Time [&#8230;] The post Casio launches three pr",
+      "published": "2026-09-17T22:44:15+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "009ee681de1e2821",
+      "title": "Snap announces Specs Intelligence app for iPhone and Mac, cellular variant of Specs",
+      "url": "https://9to5mac.com/2026/09/16/snap-specs-intelligence-cellular-support/",
+      "canonical": "https://9to5mac.com/2026/09/16/snap-specs-intelligence-cellular-support",
+      "summary": "After unveiling the design of its consumer-grade Spectacles back in June, Snap is now announcing that they’ll be available for pre-order starting today with a new 5G carrying case. The company also introduced a new proactive AI agent called Specs Intelligence, which despite being Specs branded, will be available on iPhone and Mac regardless of if you own a pair. more…",
+      "published": "2026-09-16T23:40:00+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+4 pre-order",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "423966eb8fe5dca6",
+      "title": "Gnome 51 Launches With Smoother Desktop Performance and Myriad QoL Updates",
+      "url": "https://www.techpowerup.com/352781/gnome-51-launches-with-smoother-desktop-performance-and-myriad-qol-updates",
+      "canonical": "https://www.techpowerup.com/352781/gnome-51-launches-with-smoother-desktop-performance-and-myriad-qol-updates",
+      "summary": "It's been just over six months since Gnome 50 launched into beta , in the process, ditching X11 and issuing a number of updates to Mutter, its compositor, including VRR and fractional scaling. Now, the Gnome Foundation has officially announced the public release of Gnome 51, which features myriad updates, both to the user interface and to the underlying tech, all of which is aimed at making Gnome ",
+      "published": "2026-09-17T05:38:45+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a9ae717878974941",
+      "title": "Bose Ultra Open Earbuds 2nd Gen: Pricing, specifications and release date officially revealed",
+      "url": "https://www.notebookcheck.net/Bose-Ultra-Open-Earbuds-2nd-Gen-Pricing-specifications-and-release-date-officially-revealed.1401907.0.html",
+      "canonical": "https://www.notebookcheck.net/Bose-Ultra-Open-Earbuds-2nd-Gen-Pricing-specifications-and-release-date-officially-revealed.1401907.0.html",
+      "summary": "Bose has revealed pricing, specifications and release dates for its latest pair of premium earbuds. Another pair of clip-on earbuds, the Bose Ultra Open Earbuds 2nd Gen, boasts 20% longer battery life than their predecessors, as well as Snapdragon Sound (Qualcomm aptX) support.",
+      "published": "2026-09-17T13:21:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 official",
+        "+3 release date",
+        "+3 earbuds",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5038eb8d44c527c6",
+      "title": "Nintendo announces a new Switch Lite for Europe",
+      "url": "https://www.notebookcheck.net/Nintendo-announces-a-new-Switch-Lite-for-Europe.1401823.0.html",
+      "canonical": "https://www.notebookcheck.net/Nintendo-announces-a-new-Switch-Lite-for-Europe.1401823.0.html",
+      "summary": "Nintendo will release a new Switch Lite next month and it will include a bestseller game that launched this year. The new handheld will be available in Europe, but its price hasn't been revealed.",
+      "published": "2026-09-17T13:57:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5dfca728ae17e5dc",
+      "title": "Galaxy Z Fold 8 saw a surge in popularity as soon as Apple unveiled the iPhone Duo",
+      "url": "https://9to5google.com/2026/09/17/galaxy-z-fold-8-saw-a-surge-in-popularity-as-soon-as-apple-unveiled-the-iphone-duo/",
+      "canonical": "https://9to5google.com/2026/09/17/galaxy-z-fold-8-saw-a-surge-in-popularity-as-soon-as-apple-unveiled-the-iphone-duo",
+      "summary": "Apple’s first foldable is likely going to be the world’s most popular foldable in due time, but the launch of iPhone Duo actually had the opposite effect off of the bat, with Galaxy Z Fold 8 seeing a surge in popularity. more…",
+      "published": "2026-09-17T14:35:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "928fa81f5ae53a1f",
+      "title": "(PR) Philips Unveils Evnia 34M2C8600P Ultrawide Curved Gaming Monitor With 5th Gen QD-OLED Panel and 280 Hz Refresh Rate",
+      "url": "https://www.techpowerup.com/352805/philips-unveils-evnia-34m2c8600p-ultrawide-curved-gaming-monitor-with-5th-gen-qd-oled-panel-and-280-hz-refresh-rate",
+      "canonical": "https://www.techpowerup.com/352805/philips-unveils-evnia-34m2c8600p-ultrawide-curved-gaming-monitor-with-5th-gen-qd-oled-panel-and-280-hz-refresh-rate",
+      "summary": "Philips Evnia introduces the 34M2C8600P, a 34-inch (86.4 cm) curved ultrawide gaming monitor that combines 5th Gen QD-OLED picture quality with a refresh rate of up to 280 Hz. Designed for gaming and everyday work, it also brings AI-enhanced Ambiglow, AmbiScape, USB-C connectivity, and an integrated KVM switch to users' setups. Ultrawide immersion with QD-OLED picture quality The Evnia 34M2C8600P ",
+      "published": "2026-09-17T20:17:17+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/philips-brings-5th-gen-qd-oled-panel-to-evnia-34m2c8600p-monitor/"
+      ]
+    },
+    {
+      "id": "a6eb48935311759d",
+      "title": "ENILINX TICKEY – An ESP32-S3-based color e-Paper badge with open firmware (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/09/17/enilinx-tickey-esp32-s3-color-e-paper-badge-with-open-firmware/",
+      "canonical": "https://www.cnx-software.com/2026/09/17/enilinx-tickey-esp32-s3-color-e-paper-badge-with-open-firmware",
+      "summary": "ENIAC (operating as ENILINX) has launched the TICKEY, a 3.7-inch color e-Paper smart badge and desk display built around an ESP32-S3 MCU. The device features Wi-Fi, Bluetooth, and NFC connectivity, allowing users to update the screen from a smartphone without requiring continuous power to hold a static image. The display uses Modos’ color e-paper technology to deliver 48+ native colors, with refre",
+      "published": "2026-09-17T00:00:34+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "07339e2a8543dd2a",
+      "title": "Honor Win 2 and Win 2 RT get 3C certification with different charging speeds",
+      "url": "https://www.gizmochina.com/2026/09/17/honor-win-2-and-win-2-rt-get-3c-certification-with-different-charging-speeds/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/honor-win-2-and-win-2-rt-get-3c-certification-with-different-charging-speeds",
+      "summary": "Honor&#8216;s upcoming Win 2 and Win 2 RT have cleared 3C certification in China ahead of their expected launch in October. The listing reveals Win 2 will keep the 100W wired charging from the previous generation, while the Win 2 RT will support 90W charging — slower than its predecessor. The original Honor Win RT [&#8230;] The post Honor Win 2 and Win 2 RT get 3C certification with different char",
+      "published": "2026-09-17T07:04:51+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/honor_win_2_and_win_2_rt_get_certified-news-74653.php"
+      ]
+    },
+    {
+      "id": "d38845fc69a35d86",
+      "title": "Xiaomi launches Mijia Sterilizing Foot Bath 2 with 99.9% sterilization, a three-section massage system",
+      "url": "https://www.gizmochina.com/2026/09/17/xiaomi-launches-mijia-sterilizing-foot-bath-2-with-99-9-sterilization-a-three-section-massage-system/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/xiaomi-launches-mijia-sterilizing-foot-bath-2-with-99-9-sterilization-a-three-section-massage-system",
+      "summary": "Xiaomi has just added another product to its home wellness lineup with the Mijia Sterilizing Foot Bath 2. Pre-orders are open, and it’s being positioned as a more hygienic, better-massaging, and easier-to-use upgrade for people who like a proper foot spa at home. One of the main talking points is the patented pipe sterilization system. [&#8230;] The post Xiaomi launches Mijia Sterilizing Foot Bath",
+      "published": "2026-09-17T07:21:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0d6a79d30ae48de6",
+      "title": "Xiaomi launches Mijia Air Purifier 6C with 603 m³/h CADR, six-stage filter setup, big focus on formaldehyde removal",
+      "url": "https://www.gizmochina.com/2026/09/17/xiaomi-launches-mijia-air-purifier-6c-with-603-m%c2%b3-h-cadr-six-stage-filter-setup-big-focus-on-formaldehyde-removal/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/xiaomi-launches-mijia-air-purifier-6c-with-603-m%c2%b3-h-cadr-six-stage-filter-setup-big-focus-on-formaldehyde-removal",
+      "summary": "Xiaomi has launched and has started taking pre-orders for the Mijia Air Purifier 6C, a more compact model aimed at people living in smaller apartments. It’s currently listed at 1099 yuan (around €142) and puts a lot of emphasis on formaldehyde detection and multi-stage purification. It’s designed for small to medium spaces, covering up to [&#8230;] The post Xiaomi launches Mijia Air Purifier 6C wi",
+      "published": "2026-09-17T16:00:10+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3be2fbc279125325",
+      "title": "New Modern Warfare 4 trailer reveals more story details",
+      "url": "https://www.notebookcheck.net/New-Modern-Warfare-4-trailer-reveals-more-story-details.1402010.0.html",
+      "canonical": "https://www.notebookcheck.net/New-Modern-Warfare-4-trailer-reveals-more-story-details.1402010.0.html",
+      "summary": "Call of Duty: Modern Warfare 4 unveils its campaign trailer at TGS 2026, confirming Mads Mikkelsen in the cast. Get full release dates & early access details.",
+      "published": "2026-09-17T16:01:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+2 campaign",
+        "+4 unveil",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "70351c9a6cc58dbc",
+      "title": "(PR) Razer Unveils the Tartarus V2 Pro",
+      "url": "https://www.techpowerup.com/352797/razer-unveils-the-tartarus-v2-pro",
+      "canonical": "https://www.techpowerup.com/352797/razer-unveils-the-tartarus-v2-pro",
+      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Tartarus V2 Pro, the next evolution of its Tartarus gaming keypad line. Built to carry forward the accuracy and speed players expect from the Tartarus name, the Tartarus V2 Pro brings Razer's flagship switch technology and true 8000 Hz HyperPolling into a dedicated keypad for the first time, alongside a wrist rest desi",
+      "published": "2026-09-17T16:02:45+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6866fb2d10975be3",
+      "title": "Snap's Specs AR glasses are now on pre-order, Verizon is offering data plans for them",
+      "url": "https://www.gsmarena.com/snaps_specs_ar_glasses_are_now_on_preorder_verizon_is_offering_data_plans_for_them-news-74661.php",
+      "canonical": "https://www.gsmarena.com/snaps_specs_ar_glasses_are_now_on_preorder_verizon_is_offering_data_plans_for_them-news-74661.php",
+      "summary": "Snap, formerly known as Snapchat, spun off Specs, the division responsible for its augmented reality (AR) glasses, early this year, and now it's ready to take pre-orders for the upcoming product, which is also called Specs, just to be confusing. These are $2,195 standalone AR glasses that don't require a phone or computer connection to work. They have a see-through transparent display with a 51-de",
+      "published": "2026-09-17T17:14:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 pre-order",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bcfb95eb190840d8",
+      "title": "iPhone 18 Pro and Apple Watch Series 12 hands-on review, iOS 27 released",
+      "url": "https://9to5mac.com/2026/09/17/happy-hour-608/",
+      "canonical": "https://9to5mac.com/2026/09/17/happy-hour-608",
+      "summary": "Chance has been testing the iPhone 18 Pro and the new Apple Watches for the last week, and is here to give his hands-on reviews. Also, Apple has finally released its new operating systems out into the world, which means Benjamin has tried macOS Golden Gate for the first time. And in Happy Hour Plus , Apple is rumored to be making their own game controllers for iPhone. Subscribe at 9to5mac.com/join",
+      "published": "2026-09-17T20:44:56+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d6adbe562da5fbb3",
+      "title": "Casio launches two new G-Shock 5600 watches with MIP screens, Bluetooth & solar charging",
+      "url": "https://www.gizmochina.com/2026/09/17/casio-g-shock-gwbx5600-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/casio-g-shock-gwbx5600-watches-launched-specs-price",
+      "summary": "Casio is expanding its square G-Shock lineup in the US with the new GW-BX5600 series. The lineup includes the GW-BX5600-1 and GW-BX5600-1A1, both of which retain the familiar DW-5600 design while adding newer display and connectivity features. Both models are priced at $180 and are set to launch in September 2026. Design Details The models [&#8230;] The post Casio launches two new G-Shock 5600 wat",
+      "published": "2026-09-17T00:31:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "af4a443ff836abc3",
+      "title": "Nubia LiveClip 2 launches with clip-on design, 11mm drivers, 6.5h/30h battery life, and RGB lighting on case",
+      "url": "https://www.gizmochina.com/2026/09/17/nubia-liveclip-2-launches-with-clip-on-design-11mm-drivers-6-5h-30h-battery-life-and-rgb-lighting-on-case/",
+      "canonical": "https://www.gizmochina.com/2026/09/17/nubia-liveclip-2-launches-with-clip-on-design-11mm-drivers-6-5h-30h-battery-life-and-rgb-lighting-on-case",
+      "summary": "Nubia just dropped its new open-ear clip-style earbuds, the LiveClip 2, and they’re now available starting from September 16. The brand is clearly pushing further into the affordable audio space with something that focuses on comfort. The first thing you’ll notice is the charging case: it’s smoked black and transparent, with three different RGB lighting [&#8230;] The post Nubia LiveClip 2 launches",
+      "published": "2026-09-17T00:38:10+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bfec6164f60d151f",
+      "title": "OnePlus 16 launch teased, 165Hz system-wide refresh rate confirmed",
+      "url": "https://www.gsmarena.com/oneplus_16_launch_teased_165hz_systemwide_refresh_rate_confirmed-news-74654.php",
+      "canonical": "https://www.gsmarena.com/oneplus_16_launch_teased_165hz_systemwide_refresh_rate_confirmed-news-74654.php",
+      "summary": "We’ve heard plenty about the OnePlus 16 through leaks and rumors, but the company has remained quiet about the upcoming flagship until now. OnePlus has officially teased the phone’s launch in China and confirmed some of its key specifications. In a post on Weibo, the company teased the launch of the OnePlus 16, saying that the phone is coming soon. A recent leak suggested that the flagship could b",
+      "published": "2026-09-17T06:00:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
