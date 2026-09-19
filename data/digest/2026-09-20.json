@@ -1,0 +1,703 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T07:26:18.103530+09:00",
+  "stats": {
+    "fetched": 718,
+    "unique": 677,
+    "new": 239,
+    "clusters": 232,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "e33f447025ee5975",
+      "title": "Mchose Launches Ace75 Hall Effect Gaming Keyboard on Kickstarter",
+      "url": "https://www.techpowerup.com/352843/mchose-launches-ace75-hall-effect-gaming-keyboard-on-kickstarter",
+      "canonical": "https://www.techpowerup.com/352843/mchose-launches-ace75-hall-effect-gaming-keyboard-on-kickstarter",
+      "summary": "Mchose, a brand known for making affordable high-performance gaming peripherals, has officially launched the Ace75, a new Hall effect gaming keyboard with a 75% layout and a focus on both aesthetics and gaming performance. Mchose hasn't specified what the keyboard is made from, but the images on the Kickstarter page suggest an aluminium case that's been anodized to color-match the keycaps for vari",
+      "published": "2026-09-18T22:45:48+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+6 kickstarter",
+        "+3 launch",
+        "+3 official",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "696a3f83def31b9f",
+      "title": "Casio Oceanus OCW-P3000: First hands-on photos show off the clever world-time bezel and striking design",
+      "url": "https://www.notebookcheck.net/Casio-Oceanus-OCW-P3000-First-hands-on-photos-show-off-the-clever-world-time-bezel-and-striking-design.1402406.0.html",
+      "canonical": "https://www.notebookcheck.net/Casio-Oceanus-OCW-P3000-First-hands-on-photos-show-off-the-clever-world-time-bezel-and-striking-design.1402406.0.html",
+      "summary": "Casio’s new Oceanus OCW-P3000 lineup is getting its first close-up look ahead of its October launch in Japan. New hands-on photos show off the three travel-focused watches, their intricate dials, two-tone ceramic bezels, and even a teardown of the components used.",
+      "published": "2026-09-19T20:01:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+5 hands-on",
+        "+5 teardown",
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "475f0969de8cbb45",
+      "title": "Samsung Galaxy Tab S12 Plus and Tab S12 Ultra full specs leak along with launch date",
+      "url": "https://www.gizmochina.com/2026/09/19/samsung-galaxy-tab-s12-plus-and-tab-s12-ultra-full-specs-leak-along-with-launch-date/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/samsung-galaxy-tab-s12-plus-and-tab-s12-ultra-full-specs-leak-along-with-launch-date",
+      "summary": "Samsung’s Galaxy Tab S12 series has been leaking for months, and we now have what could be the full specifications for both models. WinFuture has published the specs for the Galaxy Tab S12 Plus and Galaxy Tab S12 Ultra, along with their expected release date and European pricing. Also ReadBest Samsung Galaxy Tab S series [&#8230;] The post Samsung Galaxy Tab S12 Plus and Tab S12 Ultra full specs l",
+      "published": "2026-09-19T08:54:15+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 release date",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-Galaxy-Tab-S12-and-Tab-S12-Ultra-full-specs-leak-with-price-and-launch-date.1403188.0.html"
+      ]
+    },
+    {
+      "id": "5cb1e0b0d90612a9",
+      "title": "OnePlus 16 shows up on Geekbench 7 with Snapdragon 8 Elite Gen 6 Pro chipset",
+      "url": "https://www.gsmarena.com/oneplus_16_shows_up_on_geekbench_7_with_snapdragon_8_elite_gen_6_pro_chipset-news-74686.php",
+      "canonical": "https://www.gsmarena.com/oneplus_16_shows_up_on_geekbench_7_with_snapdragon_8_elite_gen_6_pro_chipset-news-74686.php",
+      "summary": "The OnePlus 16 release is seemingly getting closer, as the leak intensity has increased lately. We've had an official teaser from OnePlus the other day and an extensive report on the specs shortly after that. But now, we have a solid confirmation about the chipset. A Geekbench 7 listing just popped up on the radar, revealing the Snapdragon 8 Elite Gen 6 Pro chipset, which is hardly a surprise, of ",
+      "published": "2026-09-19T10:18:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 official",
+        "+3 specs",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/19/oneplus-16-geekbench-snapdragon-8-elite-gen-6-pro-16gb-ram/"
+      ]
+    },
+    {
+      "id": "8cfb75a36014ca41",
+      "title": "Asus Googlebook appears in a new set of renders ahead of launch",
+      "url": "https://www.gsmarena.com/asus_googlebook_appears_in_a_new_set_of_renders_ahead_of_launch-news-74687.php",
+      "canonical": "https://www.gsmarena.com/asus_googlebook_appears_in_a_new_set_of_renders_ahead_of_launch-news-74687.php",
+      "summary": "Google's new seemingly premium lineup of notebooks called Googlebook will kick off pre-orders on September 21. However, we still haven't seen anything official from Google's hardware partners, so the renders of the Asus Googlebook obtained by The Mac Observer give us a really good look at what to expect in a few days. Asus Googlebook The Asus Googlebook comes in a very familiar form factor, but fe",
+      "published": "2026-09-19T12:44:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "89caf072374ac2ce",
+      "title": "This is when Motorola is unveiling the Signature 27",
+      "url": "https://www.gsmarena.com/this_is_when_motorola_is_unveiling_the_signature_27-news-74681.php",
+      "canonical": "https://www.gsmarena.com/this_is_when_motorola_is_unveiling_the_signature_27-news-74681.php",
+      "summary": "Motorola's Signature, its current flagship smartphone, came out in January, and now the company is almost ready to reveal its successor, the Signature 27. Motorola started teasing the upcoming device earlier this month, and today it has announced its unveiling date: September 22. That is also when Qualcomm is expected to unveil the Snapdragon 8 Elite Gen 6 and the Snapdragon 8 Elite Gen 6 Pro chip",
+      "published": "2026-09-18T23:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b9d9e09700ef9e8d",
+      "title": "Valve's Android Compatibility Tool Designed for the Steam Frame Goes Open-Source",
+      "url": "https://www.techpowerup.com/352852/valves-android-compatibility-tool-designed-for-the-steam-frame-goes-open-source",
+      "canonical": "https://www.techpowerup.com/352852/valves-android-compatibility-tool-designed-for-the-steam-frame-goes-open-source",
+      "summary": "Following the official launch of the Steam Frame , Valve has finally made Lepton, its compatibility layer that enables the Steam Frame to run Android games, open-source. Lepton was formally announced in March 2026, when Valve also revealed the Steam Frame Verified program requirements. The project is now hosted on Valve's GitLab repository, where Valve details the tool's basis and how it differs f",
+      "published": "2026-09-19T04:18:23+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c9138f0eb0c0da4f",
+      "title": "Xiaomi 18 Fold vs Huawei Mate X7: Specs, Camera, Battery and Price Compared",
+      "url": "https://www.gizmochina.com/2026/09/19/xiaomi-18-fold-vs-huawei-mate-x7/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/xiaomi-18-fold-vs-huawei-mate-x7",
+      "summary": "Foldables are moving beyond novelty, with flagship models now competing on camera hardware, display quality, battery capacity, and everyday usability. The Xiaomi 18 Fold and Huawei Mate X7 take different approaches: Xiaomi focuses on a powerful 200MP Leica camera, a large battery and high-brightness displays, while Huawei counters with a larger inner screen, variable-aperture camera [&#8230;] The ",
+      "published": "2026-09-19T07:35:33+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 price",
+        "+3 specs",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "928b448475df6236",
+      "title": "Vivo X300 Ultra gets a price hike in China, and the Vivo X500 series may cost more too",
+      "url": "https://www.gizmochina.com/2026/09/19/vivo-x300-ultra-gets-a-price-hike-in-china-and-the-vivo-x500-series-may-cost-more-too/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/vivo-x300-ultra-gets-a-price-hike-in-china-and-the-vivo-x500-series-may-cost-more-too",
+      "summary": "Phones usually get cheaper when their successors are about to launch. The Vivo X300 Ultra is going in the opposite direction. Vivo has raised the official prices of every X300 Ultra variant in China, with the base model now starting at 7,499 yuan (~$1,119). Depending on the configuration, the price increase ranges from 500 yuan [&#8230;] The post Vivo X300 Ultra gets a price hike in China, and the",
+      "published": "2026-09-19T11:28:38+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "da82722bdfcdb810",
+      "title": "Samsung leaves competition in the dust: best flip smartphone of 2026 is in its own class",
+      "url": "https://www.notebookcheck.net/Samsung-leaves-competition-in-the-dust-best-flip-smartphone-of-2026-is-in-its-own-class.1398189.0.html",
+      "canonical": "https://www.notebookcheck.net/Samsung-leaves-competition-in-the-dust-best-flip-smartphone-of-2026-is-in-its-own-class.1398189.0.html",
+      "summary": "Our review of Samsung's latest flip smartphone demonstrates that this premium foldable stands out for more than just its attractive price-to-performance ratio. Powered by the Exynos 2600, it delivers up to twice the performance of Motorola's competing model in some workloads and offers a stronger overall feature package.",
+      "published": "2026-09-19T08:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+3 price",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "10b7a03a8e06285d",
+      "title": "Xiaomi 18 Fold vs OPPO Find N6: Which Foldable Should You Buy?",
+      "url": "https://www.gizmochina.com/2026/09/19/xiaomi-18-fold-vs-oppo-find-n6/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/xiaomi-18-fold-vs-oppo-find-n6",
+      "summary": "Xiaomi 18 Fold and OPPO Find N6 take different approaches to the premium foldable formula. Xiaomi focuses on a compact, highly protected design, a huge 6,000mAh battery and a Leica-backed 200MP camera system. OPPO counters with a larger foldable display, stylus support, a zero-feel crease and Snapdragon 8 Elite Gen 5 performance. The choice comes [&#8230;] The post Xiaomi 18 Fold vs OPPO Find N6: ",
+      "published": "2026-09-19T09:19:20+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 backed",
+        "+3 foldable",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "882019b2d9c6a355",
+      "title": "8K Live Photos show dynamic Zeiss camera quality ahead of Vivo X500 launch",
+      "url": "https://www.notebookcheck.net/8K-Live-Photos-show-dynamic-Zeiss-camera-quality-ahead-of-Vivo-X500-launch.1403479.0.html",
+      "canonical": "https://www.notebookcheck.net/8K-Live-Photos-show-dynamic-Zeiss-camera-quality-ahead-of-Vivo-X500-launch.1403479.0.html",
+      "summary": "Just a few hours until Vivo will fully unveil their new X500 series, aimed to deliver the best camera quality inside a smartphone. The new Zeiss flagships will also make their way to many international markets in Asia an Europe in just a few weeks and demonstrate today what they are capable of in terms of photo quality, debuting the new 8K Live Photo feature.",
+      "published": "2026-09-19T12:33:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 ships",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "df524237bcffdc04",
+      "title": "OpenMote – An ESP32-S3 programmable universal remote in a Wiimote shell (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/09/19/openmote-an-esp32-s3-programmable-universal-remote-in-a-wiimote-shell/",
+      "canonical": "https://www.cnx-software.com/2026/09/19/openmote-an-esp32-s3-programmable-universal-remote-in-a-wiimote-shell",
+      "summary": "Hat &#38; Hammer has launched the OpenMote, an ESP32-S3-powered programmable universal remote that adopts the familiar, nostalgic form factor of a Nintendo Wiimote. It features WiFi, Bluetooth LE, an infrared (IR) transceiver, a 6-axis IMU, and Home Assistant integration, letting it control smart home devices and media centers and act as a Bluetooth gamepad without relying on cloud services. The r",
+      "published": "2026-09-19T00:00:25+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d978b3046af2ef14",
+      "title": "Xiaomi launches new dishwasher with 156L cavity, 52,000 Pa water pressure, 115°C steam drying",
+      "url": "https://www.gizmochina.com/2026/09/19/xiaomi-launches-new-dishwasher-with-156l-cavity-52000-pa-water-pressure-115c-steam-drying/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/xiaomi-launches-new-dishwasher-with-156l-cavity-52000-pa-water-pressure-115c-steam-drying",
+      "summary": "Xiaomi just dropped a seriously spacious new dishwasher, and it’s aimed at people who are tired of running multiple loads every day. The Mijia Smart Dishwasher Built-in 20-Set is now up for pre-order in China. It washes, dries, sterilizes, and can even keep clean dishes fresh for days, all in a fully recessed design that [&#8230;] The post Xiaomi launches new dishwasher with 156L cavity, 52,000 Pa",
+      "published": "2026-09-19T08:12:24+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f30b3f9fb24e1c6d",
+      "title": "Vivo S2 FE appears on Geekbench with a MediaTek chip and 6GB RAM",
+      "url": "https://www.gizmochina.com/2026/09/19/vivo-s2-fe-appears-on-geekbench-with-a-mediatek-chip-and-6gb-ram/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/vivo-s2-fe-appears-on-geekbench-with-a-mediatek-chip-and-6gb-ram",
+      "summary": "The Vivo S2 FE has now shown up on Geekbench, giving us a first look at how the phone performs. The listing comes after model number V2640 was spotted on Bluetooth SIG and the BIS certification database in India. The phone has now appeared in three certification databases, although Vivo has yet to officially announce [&#8230;] The post Vivo S2 FE appears on Geekbench with a MediaTek chip and 6GB R",
+      "published": "2026-09-19T09:50:04+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 first look",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "284cc6c219c8675e",
+      "title": "Citizen launches charming Disney Eco-Drive watch with Mickey and Minnie on a tandem bicycle",
+      "url": "https://www.gizmochina.com/2026/09/19/citizen-disney-picnic-pedal-watch-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/citizen-disney-picnic-pedal-watch-launched-specs-price",
+      "summary": "Citizen has released a new Disney-branded watch in the UK market. The Mickey Mouse and Minnie Mouse Picnic Pedal watch, identified by model number FE7097-05W, is available now on the Citizen UK website for £229.00. Design Details The watch features a 36mm case constructed from silver-tone stainless steel. The case size falls into a mid-range [&#8230;] The post Citizen launches charming Disney Eco-",
+      "published": "2026-09-19T13:47:35+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Citizen-s-new-Disney-Eco-Drive-watch-with-colorful-design-lands-in-the-UK.1403572.0.html"
+      ]
+    },
+    {
+      "id": "50811f94bdc03e05",
+      "title": "Honor Magic 9 Series: Everything We Know Before Launch",
+      "url": "https://www.gizmochina.com/2026/09/19/honor-magic-9-series-everything-we-know-before-launch/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/honor-magic-9-series-everything-we-know-before-launch",
+      "summary": "Honor is holding its Magic Grand Ceremony in Beijing on September 28, where it will unveil the upcoming Magic 9 series. Interestingly enough, the company has spent the past few weeks confirming major details itself instead of leaving it to leaks. First off, the lineup will have three phones: the standard Magic 9, the range-topping [&#8230;] The post Honor Magic 9 Series: Everything We Know Before ",
+      "published": "2026-09-19T16:04:53+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "06d6574c840826b5",
+      "title": "Ugreen launches 67W smart charger with everything frequent travelers need in one compact brick",
+      "url": "https://www.gizmochina.com/2026/09/19/ugreen-67w-x576-travel-charger-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/ugreen-67w-x576-travel-charger-launched-specs-price",
+      "summary": "Ugreen has introduced a new 67W travel charger in China, combining a multi-region plug adapter and a multi-port fast charger into a single unit. It is currently available for pre-order for 189 yuan ($28). Ugreen 67W Travel Charger Specifications The charger features a built-in screen that displays real-time charging information. It shows the active charging [&#8230;] The post Ugreen launches 67W s",
+      "published": "2026-09-19T20:27:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "62ca79bdb3cade22",
+      "title": "Oppo Find X10 series gets a Hasselblad teleconverter kit made for concert shooting",
+      "url": "https://www.gizmochina.com/2026/09/19/oppo-find-x10-series-gets-a-hasselblad-teleconverter-kit-made-for-concert-shooting/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/oppo-find-x10-series-gets-a-hasselblad-teleconverter-kit-made-for-concert-shooting",
+      "summary": "Oppo is bringing back its Hasselblad Teleconverter Kit for the Find X10 series. Zhuo Shijie, head of Oppo Find series products, announced today that both the Oppo Find X10 and Find X10 Pro Max will support the kit. Also ReadOppo Find X10 Series Roundup: Everything We Know Before Launch As you may know, this isn’t [&#8230;] The post Oppo Find X10 series gets a Hasselblad teleconverter kit made for ",
+      "published": "2026-09-19T08:31:11+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b18b2652791822ee",
+      "title": "SanDisk launches E31 portable SSD with 1000MB/s speeds and up to 2TB storage",
+      "url": "https://www.gizmochina.com/2026/09/19/sandisk-e31-portable-ssd-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/sandisk-e31-portable-ssd-launched-specs-price",
+      "summary": "SanDisk has announced the E31, a new USB-C portable solid-state drive in China. It is scheduled to go on sale on September 21. The drive is built for people who need to store and transfer large files, such as high-resolution photos, videos, and project archives. SanDisk E31 SSD Specifications The physical design of the E31 [&#8230;] The post SanDisk launches E31 portable SSD with 1000MB/s speeds a",
+      "published": "2026-09-19T22:08:49+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0e5750019fed4a23",
+      "title": "Akasa Newton N16: Fanless mini PC case launched with wall-mounting support",
+      "url": "https://www.notebookcheck.net/Akasa-Newton-N16-Fanless-mini-PC-case-launched-with-wall-mounting-support.1402682.0.html",
+      "canonical": "https://www.notebookcheck.net/Akasa-Newton-N16-Fanless-mini-PC-case-launched-with-wall-mounting-support.1402682.0.html",
+      "summary": "Akasa has introduced the Newton N16, which happens to be a compact passively cooled case for the Asus NUC 16 Pro mini PC. The case is capable of offering up to 28 W of heat dissipation as well as passive cooling for dual M.2 SSDs.",
+      "published": "2026-09-19T05:43:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f50c9062b98e5223",
+      "title": "Clicks Communicator gets upgraded specs and new accessories ahead of December release",
+      "url": "https://www.notebookcheck.net/Clicks-Communicator-gets-upgraded-specs-and-new-accessories-ahead-of-December-release.1402870.0.html",
+      "canonical": "https://www.notebookcheck.net/Clicks-Communicator-gets-upgraded-specs-and-new-accessories-ahead-of-December-release.1402870.0.html",
+      "summary": "Clicks has announced that its BlackBerry-style Communicator smartphone will be getting more RAM and a larger battery capacity. It is also getting two Dbrand accessories and optional protection and mobile services.",
+      "published": "2026-09-19T01:55:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 announced",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a595178d8606c8f6",
+      "title": "Hasselblad cameras showcase versatile photo quality with Oppo Find X10 European launch teased for the first time",
+      "url": "https://www.notebookcheck.net/Hasselblad-cameras-showcase-versatile-photo-quality-with-Oppo-Find-X10-European-launch-teased-for-the-first-time.1403376.0.html",
+      "canonical": "https://www.notebookcheck.net/Hasselblad-cameras-showcase-versatile-photo-quality-with-Oppo-Find-X10-European-launch-teased-for-the-first-time.1403376.0.html",
+      "summary": "Exciting impressions from the Far East are currently available to anyone venturing onto the Chinese social network Weibo and searching for the Oppo Find X10 and Find X10 Pro Max, which will officially launch in just a few days and are already showing what their Hasselblad branded cameras can do. Meanwhile, the first global teaser for the European launch has appeared in the UK.",
+      "published": "2026-09-19T07:38:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4c0a0b281f3c07b9",
+      "title": "Galaxy S27 Ultra’s biggest upgrade in years? Major certification hints 5,700mAh battery",
+      "url": "https://www.gizmochina.com/2026/09/19/samsung-galaxy-s27-ultra-s27-pro-battery-size-revealed/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/samsung-galaxy-s27-ultra-s27-pro-battery-size-revealed",
+      "summary": "Samsung Galaxy S27 Ultra may finally bring the battery upgrade that Galaxy S Ultra users have been waiting for. The upcoming flagship is listed with a larger battery than the Galaxy S26 Ultra, while the Galaxy S27 Pro is also expected to gain a sizeable power cell. The new battery details have emerged alongside the [&#8230;] The post Galaxy S27 Ultra’s biggest upgrade in years? Major certification",
+      "published": "2026-09-19T08:01:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Galaxy-S27-Pro-and-S27-Ultra-reportedly-getting-major-battery-upgrade.1403489.0.html"
+      ]
+    },
+    {
+      "id": "7e084b2688117821",
+      "title": "AMD Targets NVIDIA Vera In Latest EPYC Venice “Agentic AI” Benchmarks, Zen 6 Leads With 20% Higher Per-Core & Over 2x Gains In Platform-Level Performance",
+      "url": "https://wccftech.com/amd-targets-nvidia-vera-in-latest-epyc-venice-agentic-ai-benchmarks/",
+      "canonical": "https://wccftech.com/amd-targets-nvidia-vera-in-latest-epyc-venice-agentic-ai-benchmarks",
+      "summary": "AMD has shared new benchmarks of its 6th Gen EPYC Venice CPUs in Agentic AI workloads against the competition from Intel &#38; NVIDIA. AMD Leads The Agentic AI CPU Race With Strong 6th Gen EPYC Venice Numbers, NVIDIA Vera Targeted In its latest blog post, AMD has published a new whitepaper in which it provides a performance overview of its server EPYC CPUs. Launched during the Advancing AI 2026 ev",
+      "published": "2026-09-19T09:40:29+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 benchmark",
+        "+3 launch",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ad99ff4e3e7e57c6",
+      "title": "Galaxy Buds 5 FE may offer better audio without any price increase",
+      "url": "https://www.sammobile.com/news/galaxy-buds-5-fe-may-offer-better-audio-without-any-price-increase/",
+      "canonical": "https://www.sammobile.com/news/galaxy-buds-5-fe-may-offer-better-audio-without-any-price-increase",
+      "summary": "If a new rumor is to be believed, Samsung has the Galaxy Buds 5 FE in the pipeline which it may launch in the coming months. It's claimed that even though there will be an improvement in audio quality, the company is not likely to raise the price. Audio quality improvements will likely be made [ ]",
+      "published": "2026-09-19T16:03:12+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "83c5764fa8d8e5d3",
+      "title": "Apple iPhone 18 Pro takes second place in DXOMARK’s camera ranking, lagging behind Huawei Pura 80 Ultra",
+      "url": "https://www.gizmochina.com/2026/09/19/apple-iphone-18-pro-takes-second-place-in-dxomarks-camera-ranking-lagging-behind-huawei-pura-80-ultra/",
+      "canonical": "https://www.gizmochina.com/2026/09/19/apple-iphone-18-pro-takes-second-place-in-dxomarks-camera-ranking-lagging-behind-huawei-pura-80-ultra",
+      "summary": "Apple gave the iPhone 18 Pro a main camera with a physical iris of six moving blades, which opens and closes like the aperture on a standalone camera. DXOMARK has now scored how well that works in practice. The Apple iPhone 18 Pro earned an overall camera score of 172, which puts it second in [&#8230;] The post Apple iPhone 18 Pro takes second place in DXOMARK&#8217;s camera ranking, lagging behin",
+      "published": "2026-09-19T17:14:24+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/iphone_18_pro_in_for_review-news-74684.php"
+      ]
+    },
+    {
+      "id": "8d2fb28fc4c334b8",
+      "title": "Samsung Galaxy Z Fold8 Ultra Puts an 8″ Workspace and a 200MP Camera in Android’s Thinnest Book Fold",
+      "url": "https://www.techeblog.com/samsung-galaxy-z-fold8-ultra-specs-price-review/",
+      "canonical": "https://www.techeblog.com/samsung-galaxy-z-fold8-ultra-specs-price-review",
+      "summary": "Apple’s foldable has soaked up most of the oxygen this season, which is convenient if you already live inside iOS. Anyone who would rather keep Android, DeX, and three live apps on one slab still has a clearer answer: Samsung’s Galaxy Z Fold8 Ultra, priced at $1,799.99 (was $2,100), the first book-style Fold to carry [...]",
+      "published": "2026-09-18T22:58:08+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 price",
+        "+3 foldable",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7c56d54933933a39",
+      "title": "Honor Reveals 2 Liter AI Workstation with AMD, Intel, or NVIDIA CPU Options",
+      "url": "https://www.techpowerup.com/352844/honor-reveals-2-liter-ai-workstation-with-amd-intel-or-nvidia-cpu-options",
+      "canonical": "https://www.techpowerup.com/352844/honor-reveals-2-liter-ai-workstation-with-amd-intel-or-nvidia-cpu-options",
+      "summary": "Honor, the smartphone and computer company formerly owned by Huawei, has officially revealed the Tiangong AXB35, a new AI workstation platform that designed for enterprise use and made to run on a choice of AMD, Intel, or NVIDIA hardware in a tiny SFF desktop chassis measuring just 70 × 192 × 203 mm, or around 2 L volume. Honor says that the Tiangong SFF PC is designed for everything from high-lev",
+      "published": "2026-09-18T23:35:52+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d424c26bf60395a9",
+      "title": "Modder Builds Split Keyboard With Integrated Joysticks and One-Handed Gaming Functionality",
+      "url": "https://www.techpowerup.com/352853/modder-builds-split-keyboard-with-integrated-joysticks-and-one-handed-gaming-functionality",
+      "canonical": "https://www.techpowerup.com/352853/modder-builds-split-keyboard-with-integrated-joysticks-and-one-handed-gaming-functionality",
+      "summary": "The Tiwaz is an open-source split keyboard product that started as a DIY project and morphed into something a little more concrete and comprehensive. Unlike traditional split ergonomic keyboards, like the MoErgo Go60 and ZSA Voyager, which generally eschew any thoughts of gaming prowess in favor of ergonomics, the Tiwaz was designed with gaming in mind. Specifically, its designer, Timo Strube, exp",
+      "published": "2026-09-19T04:43:54+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
