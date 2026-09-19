@@ -12,6 +12,12 @@ embeds:
   - type: youtube
     id: xFOfg703xN8
     caption: Aetherion Maxの実機を投写状態で映しながら、映画とゲームの両面から評価するレビュー（Brian Tong）
+images:
+  - url: "https://awolvision.com/cdn/shop/files/aetherion_max_120_cinematic_screen_4_1_2tb_1600x.webp?v=1789367603"
+    caption: Aetherion Max本体とスクリーン(120インチ、幅105.4インチ)、5.1chスピーカーセットの構成例
+  - url: "https://awolvision.com/cdn/shop/files/aetherion_max_132_cinematic_screen_4_1_2tb_1600x.webp?v=1789367603"
+    caption: 同じ構成の132インチスクリーン版(幅115.1インチ)。本体サイズとスクリーンの縮尺差がわかる
+credit: AWOL Vision 公式製品ページ
 faq:
 - q: いつからいくらで支援できますか
   a: Makuakeでの応援購入は8月18日11時開始、10月21日22時終了、目標金額100万円です。リターン価格は本稿執筆時点では未公開です。
@@ -31,6 +37,9 @@ sources:
   - title: "Review: The crispiest wall-hugging laser projector we've seen yet"
     url: https://newatlas.com/home-entertainment/review-awol-vision-aetherion-max/
     publisher: New Atlas
+  - title: "Aetherion Max 4K RGB Laser UST Projector"
+    url: https://awolvision.com/products/rgb-laser-ust-projector-aetherion-max
+    publisher: AWOL Vision公式ストア
 ---
 
 AWOL Visionの超短焦点プロジェクター「Aetherion」が、Makuakeで8月18日11時から応援購入を開始する。終了は10月21日22時、目標金額は100万円。本稿執筆時点ではプロジェクトは「COMING SOON」状態で、支援額・支援者数ともにゼロ、リターン価格も公開されていない。
