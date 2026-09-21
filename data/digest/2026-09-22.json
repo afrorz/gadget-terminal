@@ -1,0 +1,740 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T08:30:35.137230+09:00",
+  "stats": {
+    "fetched": 718,
+    "unique": 678,
+    "new": 390,
+    "clusters": 365,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "25c9fb4947c942e0",
+      "title": "vivo X500, X500 Pro and X500 Pro Max hands-on review",
+      "url": "https://www.gsmarena.com/vivo_x500_x500_pro_x500_pro_max_handson-review-3001.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_x500_pro_x500_pro_max_handson-review-3001.php",
+      "summary": "",
+      "published": "2026-09-21T17:58:31+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina",
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/vivo_x500_x500_pro_and_x500_pro_max_announced-news-74698.php",
+        "https://www.gizmochina.com/2026/09/21/vivo-x500-pro-and-x500-pro-max-debut-as-worlds-first-phones-with-2nm-dimensity-9600-pro/",
+        "https://www.ithome.com/1/005/445.htm",
+        "https://www.ithome.com/1/005/442.htm"
+      ]
+    },
+    {
+      "id": "0edc5575b265319c",
+      "title": "(PR) LG Display Launches 24.5-inch 720Hz Gaming OLED Panel",
+      "url": "https://www.techpowerup.com/352892/lg-display-launches-24-5-inch-720hz-gaming-oled-panel",
+      "canonical": "https://www.techpowerup.com/352892/lg-display-launches-24-5-inch-720hz-gaming-oled-panel",
+      "summary": "LG Display, the world's leading innovator of display technologies, announced today its launch of a 24.5-inch 720 Hz Gaming OLED panel, leading the esports monitor market paradigm. The company's 24.5-inch 720 Hz Gaming OLED panel is the first-ever OLED panel tailored specifically for esports. Standard monitors used for esports are primarily in the 24-inch class, enabling players to view the entire ",
+      "published": "2026-09-21T08:57:46+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/LG-Display-launches-720Hz-gaming-OLED-panel-built-specifically-for-Esports.1404675.0.html",
+        "https://wccftech.com/lg-launches-worlds-first-24-5-inch-oled-panel-720hz-refresh-rate-for-esports-gamers/"
+      ]
+    },
+    {
+      "id": "bc77dfe309d66e31",
+      "title": "Googlebook Laptops Arrive with Designs from ASUS, Acer, Dell, HP, and Lenovo",
+      "url": "https://www.techpowerup.com/352898/googlebook-laptops-arrive-with-designs-from-asus-acer-dell-hp-and-lenovo",
+      "canonical": "https://www.techpowerup.com/352898/googlebook-laptops-arrive-with-designs-from-asus-acer-dell-hp-and-lenovo",
+      "summary": "Google's collective effort to introduce a new generation of Gemini-powered laptops, called Googlebook, has officially launched today. Now available on the Google storefront, Googlebooks are being produced by some of the biggest laptop OEMs, including ASUS, Acer, Dell, HP, and Lenovo. Starting with ASUS, the company has prepared a 14-inch Googlebook 14, powered by the Intel Panther Lake Core Ultra ",
+      "published": "2026-09-21T13:54:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/googlebook-launch-899-usd-pre-order-price-dell-hp-acer-lenovo-asus/",
+        "https://www.androidauthority.com/google-googlebook-laptops-launch-features-models-price-specs-availability-3713215/"
+      ]
+    },
+    {
+      "id": "6ea605b661128c7b",
+      "title": "Best ColorOS 17 features: what’s new and which phones get it",
+      "url": "https://www.gizmochina.com/2026/09/21/best-coloros-17-features-whats-new-and-which-phones-get-it/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/best-coloros-17-features-whats-new-and-which-phones-get-it",
+      "summary": "Oppo unveiled ColorOS 17 at its developer conference in China on September 17, and the company has now revealed most of what is coming with the update. Along with the new software, Oppo also announced a rollout schedule for Oppo, OnePlus, and Realme devices, which we covered in our official launch and rollout schedule report. [&#8230;] The post Best ColorOS 17 features: what&#8217;s new and which ",
+      "published": "2026-09-21T12:47:27+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "762c1a6e74608e71",
+      "title": "Xiaomi Mijia Graphene Heater Pro launches with tower design and 2000W heating",
+      "url": "https://www.gizmochina.com/2026/09/21/xiaomi-mijia-graphene-heater-pro-launches-with-tower-design-and-2000w-heating/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/xiaomi-mijia-graphene-heater-pro-launches-with-tower-design-and-2000w-heating",
+      "summary": "Xiaomi has launched the Mijia Graphene Heater Pro as a step up from the Mijia Graphene Heater C it announced nearly a month ago. The heater will go on crowdfunding on September 28 at 349 yuan (about $49) before mass release. The Mijia Graphene Heater Pro has a vertical tower design that takes up little [&#8230;] The post Xiaomi Mijia Graphene Heater Pro launches with tower design and 2000W heating",
+      "published": "2026-09-21T05:41:40+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3261cc57023db10e",
+      "title": "MMO Solarpunk Cozy Game \"Loftia\" Gets Launch Date",
+      "url": "https://www.techpowerup.com/352918/mmo-solarpunk-cozy-game-loftia-gets-launch-date",
+      "canonical": "https://www.techpowerup.com/352918/mmo-solarpunk-cozy-game-loftia-gets-launch-date",
+      "summary": "Loftia was announced in 2023 as a new cozy life simulation game set in a world of floating islands with a solarpunk aesthetic, and after both closed and open beta tests, Qloud Games, the developer behind the game, has officially announced the game's release date as November 3 and revealed the full details about the release. Loftia is touted as a game in which nature and community thrive, and will ",
+      "published": "2026-09-21T19:09:13+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 release date",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0ba1fc58f80de8f9",
+      "title": "Realme launches Buds T500 Pro Harry Potter Edition in India with 50dB ANC, 56h battery & LHDC 5.0",
+      "url": "https://www.gizmochina.com/2026/09/21/realme-buds-t500-pro-harry-potter-edition-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/realme-buds-t500-pro-harry-potter-edition-launched-specs-price",
+      "summary": "Following the debut of its themed Realme 16 Pro 5G smartphone, Realme is expanding its licensing collaboration with Warner Bros. Discovery by releasing a matching set of wireless earbuds. Also ReadThe Best Wireless Earbuds Under $100 You Can Buy Right Now The Realme Buds T500 Pro Harry Potter Edition has officially launched in India, priced [&#8230;] The post Realme launches Buds T500 Pro Harry Po",
+      "published": "2026-09-21T20:26:36+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/21/realme-16-pro-5g-harry-potter-edition-launches-with-hogwarts-inspired-design/"
+      ]
+    },
+    {
+      "id": "4589cdeea48591f2",
+      "title": "vivo unveils global OriginOS 7, it will be available today in a Preview Program",
+      "url": "https://www.gsmarena.com/vivo_unveils_global_originos_7_it_will_be_available_today_in_a_preview_program-news-74699.php",
+      "canonical": "https://www.gsmarena.com/vivo_unveils_global_originos_7_it_will_be_available_today_in_a_preview_program-news-74699.php",
+      "summary": "vivo launched the X500, X500 Pro, and X500 Pro Max in China today, and the company has also unveiled OriginOS 7, the latest version of its skin, now built on top of Android 17. OriginOS 7 brings a \"smartly smooth experience\" that's \"engineered across touch response, fluid motion, and peak-load performance\". It's built to stay smooth even after six years of daily use. The goal with the development ",
+      "published": "2026-09-21T14:23:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6828dcc5aefd5214",
+      "title": "AMD Joins Trillion-Dollar Club, Surpasses $600 Per Share",
+      "url": "https://www.techpowerup.com/352910/amd-joins-trillion-dollar-club-surpasses-usd-600-per-share",
+      "canonical": "https://www.techpowerup.com/352910/amd-joins-trillion-dollar-club-surpasses-usd-600-per-share",
+      "summary": "A new era for AMD has begun today as the company officially crossed one trillion US dollars in market capitalization. This achievement places AMD as the world's 16th most valuable company by market capitalization, climbing up the ranks. This means AMD is catching up to industry giants and has become one itself, joining others like Broadcom, Tesla, NVIDIA, and Apple in the trillion-dollar club. Rea",
+      "published": "2026-09-21T15:23:33+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/AMD-joins-the-1-trillion-club-leaving-Intel-behind.1404984.0.html",
+        "https://www.tomshardware.com/tech-industry/amd-beats-intel-to-the-trillion-dollar-club-as-stock-price-soars-firm-joins-nvidia-broadcom-and-sk-hynix-for-companies-worth-over-usd1-trillion"
+      ]
+    },
+    {
+      "id": "38fa21dc6057962b",
+      "title": "Google’s Android laptops are here, but where’s Samsung?",
+      "url": "https://www.sammobile.com/news/google-android-laptops-here-where-is-samsung/",
+      "canonical": "https://www.sammobile.com/news/google-android-laptops-here-where-is-samsung",
+      "summary": "Google has finally announced prices and release dates for its first Googlebooks. Acer, Asus, Dell, HP, and Lenovo are making the first five models &#8212; prices start at $899, pre-orders opened on September 21, and retail availability will begin on October 4. Notice anyone missing from that list? SamMobile exclusively reported in May that Samsung [ ]",
+      "published": "2026-09-21T22:51:20+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+4 pre-order",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2c06fa2f97fa8e04",
+      "title": "OnePlus 16 design and color options officially revealed",
+      "url": "https://www.gsmarena.com/oneplus_16_design_and_color_options_officially_revealed-news-74691.php",
+      "canonical": "https://www.gsmarena.com/oneplus_16_design_and_color_options_officially_revealed-news-74691.php",
+      "summary": "While we still don’t have a launch date for the OnePlus 16, the company has now fully revealed the upcoming flagship’s design, color options, and RAM and storage configurations. The phone is also available for pre-reservation in China. The OnePlus 16 will look largely identical to its predecessor, the OnePlus 15, although it will be available in new color options. OnePlus has confirmed that the fl",
+      "published": "2026-09-21T05:35:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/21/oneplus-16-design-ram-storage-color-options-officially-revealed/"
+      ]
+    },
+    {
+      "id": "95eab13729d96476",
+      "title": "Xiaomi 18 Pro series to launch on September 23 with hardware-level privacy screen",
+      "url": "https://www.gsmarena.com/xiaomi_18_pro_series_to_launch_on_september_23_with_hardwarelevel_privacy_screen-news-74692.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_18_pro_series_to_launch_on_september_23_with_hardwarelevel_privacy_screen-news-74692.php",
+      "summary": "Xiaomi recently began teasing its flagship 18 Pro series and has now revealed more details about the phones, including their launch date, color options, and key specs. The company has also confirmed that the Xiaomi 18 Pro and 18 Pro Max will sport a hardware-level privacy display. The Xiaomi 18 Pro series will debut in China on September 23 with an upgraded rear display, HyperOS 4, and several oth",
+      "published": "2026-09-21T08:40:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/21/xiaomi-confirms-super-pixel-2-0-display-with-hardware-level-privacy-on-18-pro/"
+      ]
+    },
+    {
+      "id": "cb771121fc471d2b",
+      "title": "From specs to pricing: Here are all the new Googlebooks announced today",
+      "url": "https://www.androidauthority.com/all-googlebooks-announced-today-3712687/",
+      "canonical": "https://www.androidauthority.com/all-googlebooks-announced-today-3712687",
+      "summary": "Acer, Lenovo, and others are offering something for everyone. If you have at least $900, that is.",
+      "published": "2026-09-21T13:00:54+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/These-are-all-the-new-Googlebooks-releasing-today-with-standardized-high-end-specs-and-premium-builds.1404726.0.html"
+      ]
+    },
+    {
+      "id": "3d842649591df81a",
+      "title": "ZTE launches M3 Pro 5G portable WiFi with 5000mAh battery, 500Mbps speeds & 16-device support",
+      "url": "https://www.gizmochina.com/2026/09/21/zte-m3-pro-5g-portable-wifi-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/zte-m3-pro-5g-portable-wifi-launched-specs-price",
+      "summary": "ZTE has put a new portable 5G hotspot up for pre-order in China. The M3 Pro 5G is priced at 599 yuan (~$90) and is scheduled to go on regular sale on September 24th. It is a straightforward mobile networking device aimed at people who need a dedicated internet connection while traveling or working away [&#8230;] The post ZTE launches M3 Pro 5G portable WiFi with 5000mAh battery, 500Mbps speeds 16-",
+      "published": "2026-09-21T13:47:14+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3d4e0db98e6486c5",
+      "title": "(PR) GameSir Announces Official Fortnite Mobile Controller Collection",
+      "url": "https://www.techpowerup.com/352891/gamesir-announces-official-fortnite-mobile-controller-collection",
+      "canonical": "https://www.techpowerup.com/352891/gamesir-announces-official-fortnite-mobile-controller-collection",
+      "summary": "GameSir, a global leader in gaming peripherals, announced its collaboration with Fortnite, introducing an all-new collection of officially licensed mobile controllers that combine GameSir's award-winning technology with one of the world's most iconic games.Launching with the GameSir G8 Plus Fortnite Edition and GameSir X5 Lite for XBOX Fortnite Edition, the collection is designed for mobile player",
+      "published": "2026-09-21T08:51:59+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ef7553487176ba7d",
+      "title": "Xiaomi launches compact 271L three-door refrigerator with a clever adjustable middle zone",
+      "url": "https://www.gizmochina.com/2026/09/21/xiaomi-mijia-271l-three-door-refrigerator-launched-specs-price-2/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/xiaomi-mijia-271l-three-door-refrigerator-launched-specs-price-2",
+      "summary": "Xiaomi has launched the Mijia 271L refrigerator (MC-271WTMPN) in China. The new three-door model features a compact design aimed at small kitchens, rental homes, and apartments with limited space. It carries an official retail price of 1,799 yuan ($268), but is currently listed on Chinese e-commerce platforms for 1,599 yuan ($238). Xiaomi Mijia 271L Refrigerator [&#8230;] The post Xiaomi launches ",
+      "published": "2026-09-21T11:10:58+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9128e5b21707a7a9",
+      "title": "Xiaomi 18 Fold vs Huawei Mate XT 2: Specs, Features and Price Compared",
+      "url": "https://www.gizmochina.com/2026/09/21/xiaomi-18-fold-vs-huawei-mate-xt-2/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/xiaomi-18-fold-vs-huawei-mate-xt-2",
+      "summary": "Xiaomi 18 Fold vs Huawei Mate XT 2 Ultimate is a fascinating foldable comparison because both push the category in different directions. Xiaomi focuses on a more conventional book-style foldable experience with flagship cameras and a high-refresh-rate display, while Huawei takes the concept further with a massive tri-fold screen. The choice ultimately comes down to [&#8230;] The post Xiaomi 18 Fol",
+      "published": "2026-09-21T13:45:21+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 price",
+        "+3 specs",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2842b69b765448db",
+      "title": "iPhone 18 series could see another price hike in 2027",
+      "url": "https://www.gizmochina.com/2026/09/21/iphone-18-series-could-see-another-price-hike-in-2027/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/iphone-18-series-could-see-another-price-hike-in-2027",
+      "summary": "Just when Apple’s newest flagships hit the market with higher starting prices, fresh reports suggest the company may have to raise them again next year. The iPhone 18 Pro and Pro Max launched $100 higher than their 2025 predecessors. The same $100 bump showed up on the older iPhone 17 and 16 models too. Those [&#8230;] The post iPhone 18 series could see another price hike in 2027 appeared first o",
+      "published": "2026-09-21T14:12:47+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3f3736fcbf71de58",
+      "title": "Google fully details Googlebooks: $899+, October launch, & more",
+      "url": "https://9to5google.com/2026/09/21/googlebook-launch/",
+      "canonical": "https://9to5google.com/2026/09/21/googlebook-launch",
+      "summary": "Following the May preview , Google today fully announced Googlebooks ahead of the consumer launch in October. more…",
+      "published": "2026-09-21T13:00:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "50133ae4df858cd4",
+      "title": "Will the iPhone 18 Pro bend?",
+      "url": "https://www.gsmarena.com/will_the_iphone_18_pro_bend-news-74697.php",
+      "canonical": "https://www.gsmarena.com/will_the_iphone_18_pro_bend-news-74697.php",
+      "summary": "Since the iPhone 18 Pro and iPhone 18 Pro Max became available on Friday, we've seen not one but two video teardowns, but wait - there's more! Zack from the JerryRigEverything YouTube channel has also got his hands on the new devices, and proceeded to subject them to his usual \"durability test\". [#InlinePriceWidget,14934,1#] [#InlinePriceWidget,14716,1#] This starts with scratching the display gla",
+      "published": "2026-09-21T18:18:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+5 teardown",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "722b8028862136e5",
+      "title": "The Retroid Pocket Duo Lite Plus might be the Goldilocks dual-screen handheld",
+      "url": "https://www.androidauthority.com/retroid-pocket-duo-lite-plus-3713310/",
+      "canonical": "https://www.androidauthority.com/retroid-pocket-duo-lite-plus-3713310",
+      "summary": "The Pocket Duo Lite Plus might strike the best balance between performance, features, and price.",
+      "published": "2026-09-21T08:42:41+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b3165e5a7e7c7a72",
+      "title": "Realme 16 Pro Harry Potter Edition debuts with quadra light-sensing color-changing technology",
+      "url": "https://www.gsmarena.com/realme_16_pro_harry_potter_edition_debuts_with_quadra_lightsensing_colorchanging_technology-news-74695.php",
+      "canonical": "https://www.gsmarena.com/realme_16_pro_harry_potter_edition_debuts_with_quadra_lightsensing_colorchanging_technology-news-74695.php",
+      "summary": "As promised, the Realme 16 Pro Harry Potter Edition is now official with what the company calls the world’s first quadra light sensing color changing technology. The company has also unveiled the Realme Buds T500 Pro Harry Potter Edition alongside the smartphone. The Realme 16 Pro Harry Potter Edition is the company’s second smartphone created in collaboration with Warner Bros., following the Real",
+      "published": "2026-09-21T11:44:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9a524630fb0de50f",
+      "title": "Googlebook OS hands-on: It’s Android, stupid",
+      "url": "https://9to5google.com/2026/09/21/googlebook-os-hands-on/",
+      "canonical": "https://9to5google.com/2026/09/21/googlebook-os-hands-on",
+      "summary": "An overwhelming sense of familiarity struck me the first time I used a Googlebook . That was immediately followed by a realization that this is just Android, and I think that feeling of similarity will go a long way in justifying and ultimately selling Googlebooks. more…",
+      "published": "2026-09-21T13:01:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+5 hands-on",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/laptops/hands-on-with-googlebooks-five-models-the-new-googlebook-os-and-a-mac-style-experience-for-android-users-at-premium-prices"
+      ]
+    },
+    {
+      "id": "eb8fed740a95af10",
+      "title": "Vivo X500 Pro series launches with new flagship SoC, tweaked Zeiss camera setup, and up to 8,000mAh battery",
+      "url": "https://www.notebookcheck.net/Vivo-X500-Pro-series-launches-with-new-flagship-SoC-tweaked-Zeiss-camera-setup-and-up-to-8-000mAh-battery.1404721.0.html",
+      "canonical": "https://www.notebookcheck.net/Vivo-X500-Pro-series-launches-with-new-flagship-SoC-tweaked-Zeiss-camera-setup-and-up-to-8-000mAh-battery.1404721.0.html",
+      "summary": "The Vivo X500 Pro series is now official in China, bringing the first phones powered by the Dimensity 9600 Pro. Among the two, the Pro Max features an 8,000mAh battery, but both sport a new Zeiss-backed primary camera sensor.",
+      "published": "2026-09-21T13:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 backed",
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4187d0ad26e21f8f",
+      "title": "vivo Watch 6 launches with titanium case, sapphire crystal, and a 505mAh battery",
+      "url": "https://www.gsmarena.com/vivo_watch_6_launches_with_titanium_case_sapphire_crystal_and_a_505mah_battery-news-74700.php",
+      "canonical": "https://www.gsmarena.com/vivo_watch_6_launches_with_titanium_case_sapphire_crystal_and_a_505mah_battery-news-74700.php",
+      "summary": "Alongside the X500, X500 Pro, and X500 Pro Max, vivo has also unveiled the Watch 6 today. It comes in two case options: titanium and stainless steel. It's 45mm across. It has a 1.47-inch AMOLED display with a 466x466 resolution, a 60Hz refresh rate, a 1.49mm bezel, 3,500-nit peak brightness, and a sapphire crystal on top, an optical heart rate and blood oxygen sensor, an accelerometer, a gyroscope",
+      "published": "2026-09-21T16:18:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6fc90df705858409",
+      "title": "Creality Sparkx i8 uses clever QuarTeks system for zero waste, live now on Indiegogo",
+      "url": "https://www.notebookcheck.net/Creality-Sparkx-i8-uses-clever-QuarTeks-system-for-zero-waste-live-now-on-Indiegogo.1404985.0.html",
+      "canonical": "https://www.notebookcheck.net/Creality-Sparkx-i8-uses-clever-QuarTeks-system-for-zero-waste-live-now-on-Indiegogo.1404985.0.html",
+      "summary": "Creality has expanded its Sparkx lineup of bed-slinger 3D printers. It features the company’s new QuarTeks system that claims zero waste and 500% faster multicolor printing.",
+      "published": "2026-09-21T19:13:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 indiegogo",
+        "+3 3d printer",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "093d735127b4f7e7",
+      "title": "AOC launches 320Hz QD-OLED gaming monitor with five-layer tandem panel & factory HDR calibration",
+      "url": "https://www.gizmochina.com/2026/09/20/aoc-agon-ag277qsd-gaming-monitor-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/20/aoc-agon-ag277qsd-gaming-monitor-launched-specs-price",
+      "summary": "AOC has launched its latest gaming monitor, the Agon AG277QSD, in China. The monitor is priced at 3,160 yuan ($472), while local subsidies bring the price down to 2,799 yuan ($418). It features a 26.5-inch 1440p QD-OLED panel with a high refresh rate and factory color calibration, including dedicated calibration for HDR content. AOC Agon [&#8230;] The post AOC launches 320Hz QD-OLED gaming monitor",
+      "published": "2026-09-20T23:52:07+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7d2670b8502ab84d",
+      "title": "Casio launches four new ultra-slim rectangular watches in India with leather and steel mesh straps",
+      "url": "https://www.gizmochina.com/2026/09/21/casio-ltp-b171-watch-series-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/casio-ltp-b171-watch-series-launched-specs-price",
+      "summary": "Casio has expanded its watch lineup in India with the release of four new analog models under the LTP-B171 series. The new watches are currently listed for sale on the official Casio India website. The release focuses on a basic, minimal design, offering standard timekeeping without the addition of digital displays, date windows, or smart [&#8230;] The post Casio launches four new ultra-slim recta",
+      "published": "2026-09-21T00:19:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d917daa9847291d0",
+      "title": "Casio launches two G-Shock GMA-P2110B watches in India with a compact design",
+      "url": "https://www.gizmochina.com/2026/09/21/casio-g-shock-gma-p2110b-watches-launched-india-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/casio-g-shock-gma-p2110b-watches-launched-india-specs-price",
+      "summary": "Casio has launched two new G-Shock watches in India, the GMA-P2110B-1A and GMA-P2110B-5A. Both models are priced at ₹9,195 ($96) and are currently available for purchase directly through the Casio India website. Design Details The new GMA-P2110B series takes the octagonal bezel design of the standard G-Shock 2100 line and reduces the overall dimensions. The [&#8230;] The post Casio launches two G-",
+      "published": "2026-09-21T00:41:35+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "95fdf42e2046a800",
+      "title": "Evil Empire and Konami's Castlevania: Belmont's Curse Demo Launches in October",
+      "url": "https://www.techpowerup.com/352886/evil-empire-and-konamis-castlevania-belmonts-curse-demo-launches-in-october",
+      "canonical": "https://www.techpowerup.com/352886/evil-empire-and-konamis-castlevania-belmonts-curse-demo-launches-in-october",
+      "summary": "It was announced in February 2026 that Evil Empire and Motion Twin, the indie studios behind the massively successful Dead Cell franchise, is working with Konami on Castlevania: Belmont's Curse . Ahead of the game's October 15 launch, Konami just announced in a Tokyo Game Show livestream that it would be releasing a demo for Castlevania: Belmont's Curse on October 1. The demo will be available on ",
+      "published": "2026-09-21T02:55:01+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
