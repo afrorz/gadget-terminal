@@ -12,6 +12,10 @@ tags:
   - 3Dプリンター
   - Indiegogo
   - クラウドファンディング
+images:
+  - url: "https://cdn.images.indiegogo.com/richtextimage/richtext/cef027ce-e98c-48cd-be4e-8aa308143b5d.jpg"
+    caption: Sparkx i8のホットエンド部。緑色のラインは81点オートレベリングのスキャン、ビルドプレートに260x260x255mmの表記が見える
+    credit: Creality Sparkx i8 Indiegogoプロジェクトページ
 x_hook: 3Dプリンターのマルチカラー印刷は、色替えのたびにパージで大量のフィラメントを捨てるのが弱点だった。Crealityの新システムはホットエンド内で4色を切り替え、1秒未満のスワップと従来比500%速い色替えをうたう。早期価格は289ドルでIndiegogo実施中、39日残して目標額はすでに達成済み。
 faq:
   - q: 日本で買えますか

@@ -12,6 +12,10 @@ tags:
   - ChromeOS
   - Android
   - ノートPC
+images:
+  - url: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CapCut_from_Ram.width-1200.format-webp.webp"
+    caption: Googlebook実機での作業画面。CapCutなどAndroidアプリがそのまま動く
+    credit: Google公式ブログ
 x_hook: ChromebookでもWindowsノートでもない「Googlebook」という新ジャンルをGoogleが発表した。ChromeOSのマルチウィンドウ機能とAndroidのアプリ資産を統合し、Acer・ASUS・Dell・HP・Lenovoが899ドルから対応モデルを出す。発売は米国など6か国のみで10月4日から。
 faq:
   - q: 日本で買えますか

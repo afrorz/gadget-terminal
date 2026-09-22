@@ -12,6 +12,10 @@ tags:
   - スマートウォッチ
   - チタニウム
   - ウェアラブル
+images:
+  - url: "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1790000566956/zip/img/kv-kv.jpg.avif"
+    caption: vivo WATCH 6のチタニウムモデル。ベゼルに「TITANIUM」の刻印が見える
+    credit: vivo公式サイト vivo WATCH 6製品ページ
 x_hook: サファイアクリスタル風防にチタニウムケースを備えたスマートウォッチが999元(約149ドル)から登場した。505mAhのバッテリーで軽使用時21日間、常時表示(AOD)ありでも6日間もつという。掲載時点で確認できているのは中国発売のみ。
 faq:
   - q: 日本で買えますか
