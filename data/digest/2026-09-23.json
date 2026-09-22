@@ -1,0 +1,727 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T08:12:17.137743+09:00",
+  "stats": {
+    "fetched": 718,
+    "unique": 678,
+    "new": 403,
+    "clusters": 377,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "107cbaaad35e25ba",
+      "title": "(PR) Qualcomm Unveils the Snapdragon 8 Elite Extreme Gen 6 and Snapdragon 8 Elite Gen 6",
+      "url": "https://www.techpowerup.com/352964/qualcomm-unveils-the-snapdragon-8-elite-extreme-gen-6-and-snapdragon-8-elite-gen-6",
+      "canonical": "https://www.techpowerup.com/352964/qualcomm-unveils-the-snapdragon-8-elite-extreme-gen-6-and-snapdragon-8-elite-gen-6",
+      "summary": "Qualcomm Technologies, Inc. unveiled today its newest premium mobile lineup - the Snapdragon 8 Elite Extreme Gen 6 Mobile Platform and Snapdragon 8 Elite Gen 6 Mobile Platform. Designed to meet the evolving needs of consumers and OEM partners, both platforms power a new generation of mobile experiences. Chris Patrick, Senior Vice President and General Manager of Mobile Handsets, Qualcomm Technolog",
+      "published": "2026-09-22T20:34:44+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 24,
+      "reasons": [
+        "+4 unveil",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "Android Authority",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/snapdragon-8-elite-extreme-gen-6-snapdragon-8-elite-gen-6-official/",
+        "https://www.androidauthority.com/motorola-signature-27-snapdragon-8-elite-extreme-gen-6-3713829/",
+        "https://9to5google.com/2026/09/22/snapdragon-8-elite-gen-6/"
+      ]
+    },
+    {
+      "id": "760546cc3b3f712c",
+      "title": "vivo V80's key specs, colors, and launch date revealed",
+      "url": "https://www.gsmarena.com/vivo_v80_key_specs_colors_design_launch_date-news-74706.php",
+      "canonical": "https://www.gsmarena.com/vivo_v80_key_specs_colors_design_launch_date-news-74706.php",
+      "summary": "vivo started teasing the V80 last week, and today it announced that the smartphone will be unveiled on October 6 at 12 PM in India. Additionally, vivo revealed key specs of the V80, including a 6.59\" 1.5K OLED display with 5,000 nits peak brightness and a 144Hz refresh rate, a 7,200 mAh battery with 90W charging support, and four cameras co-developed with ZEISS. The V80 will also feature 4K Cinema",
+      "published": "2026-09-22T08:21:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/22/vivo-v80-india-launch-date-specifications-features/"
+      ]
+    },
+    {
+      "id": "25876d808a7fe126",
+      "title": "vivo V80 runs Geekbench just as a new teaser video gets released",
+      "url": "https://www.gsmarena.com/vivo_v80_runs_geekbench_just_as_a_new_teaser_video_gets_released-news-74703.php",
+      "canonical": "https://www.gsmarena.com/vivo_v80_runs_geekbench_just_as_a_new_teaser_video_gets_released-news-74703.php",
+      "summary": "Last week, the upcoming vivo V80 had its battery capacity leaked, and then vivo started officially teasing it. So it's definitely coming soon. Now it's allegedly been spotted in the Geekbench online database with the model number V2648. The benchmark run reveals the fact that the V80 is powered by the same Snapdragon 7 Gen 4 chipset as its predecessor. In the prototype that ran the benchmark, this",
+      "published": "2026-09-22T01:03:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 benchmark",
+        "+3 official",
+        "+3 prototype",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dac16b3f532db30f",
+      "title": "Here's when the vivo X500 series is launching in Europe",
+      "url": "https://www.gsmarena.com/heres_when_the_vivo_x500_series_is_launching_in_europe-news-74709.php",
+      "canonical": "https://www.gsmarena.com/heres_when_the_vivo_x500_series_is_launching_in_europe-news-74709.php",
+      "summary": "vivo launched the X500, X500 Pro, and X500 Pro Max in China yesterday, and today the company has already revealed when they're coming to Europe. The European launch event will take place on October 27, which is also when pre-orders will start. The devices will then be released on November 5. There is, however, something you need to know - while vivo's page talks about the \"X500 series\", the vanill",
+      "published": "2026-09-22T13:01:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/22/vivo-x500-ultra-launch-timeframe-confirmed/"
+      ]
+    },
+    {
+      "id": "1e1262af602f403d",
+      "title": "Nothing OS 5.0 open beta based on Android 17 expands to more devices",
+      "url": "https://www.gsmarena.com/nothing_os_50_open_beta_based_on_android_17_expands_to_more_devices-news-74717.php",
+      "canonical": "https://www.gsmarena.com/nothing_os_50_open_beta_based_on_android_17_expands_to_more_devices-news-74717.php",
+      "summary": "Back in late August, Nothing unveiled the Nothing OS 5.0 update, based on Android 17, and proceeded to make it available as an open beta for the Nothing Phone (3). Since then, the Nothing Phone (4a) Pro has also joined the party earlier this month, and today the rollout is expanding to the Nothing Phone (4a), Nothing Phone (3a), and Nothing Phone (3a) Pro. [#InlinePriceWidget,13969,1#] [#InlinePri",
+      "published": "2026-09-22T21:33:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/nothing-os-5-android-17-beta-phone-4a-3a-pro-3a-3714025/"
+      ]
+    },
+    {
+      "id": "ecd15a51807fc36b",
+      "title": "Oppo Find X10 Pro Max official as world’s first phone with three 200MP cameras",
+      "url": "https://www.gizmochina.com/2026/09/22/oppo-find-x10-pro-max-official-as-worlds-first-phone-with-three-200mp-cameras/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/oppo-find-x10-pro-max-official-as-worlds-first-phone-with-three-200mp-cameras",
+      "summary": "Oppo has officially launched the Oppo Find X10 Pro Max at its launch event tonight. It’s the first Pro Max in the Oppo Find line ever, and also the first smartphone in the world to feature three 200MP cameras.&#160; The Find X10 Pro Max is also among the first to feature MediaTek’s new Dimensity 9600 [&#8230;] The post Oppo Find X10 Pro Max official as world&#8217;s first phone with three 200MP ca",
+      "published": "2026-09-22T13:10:12+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Oppo-Find-X10-Pro-Max-is-first-phone-with-triple-200-MP-camera-and-8K-video-across-the-focal-range.1405991.0.html"
+      ]
+    },
+    {
+      "id": "54f309a83a41939a",
+      "title": "Oppo Find X10 and Find X10 E are official too, here are their specs and pricing details",
+      "url": "https://www.gsmarena.com/oppo_find_x10_and_find_x10_e_are_official_too_here_are_their_specs_and_pricing_details-news-74716.php",
+      "canonical": "https://www.gsmarena.com/oppo_find_x10_and_find_x10_e_are_official_too_here_are_their_specs_and_pricing_details-news-74716.php",
+      "summary": "Alongside the Find X10 Pro Max, today Oppo has also unveiled the Find X10 and Find X10 E in China. These are more affordable options than the X10 Pro Max, as you may have expected from their names. Let's take them one by one. Find X10 The Oppo Find X10 has a 6.59-inch AMOLED screen with 1272x2768 resolution, a 144 Hz refresh rate (in some games, 120Hz system-wide), 288Hz touch sampling, and a 2,00",
+      "published": "2026-09-22T17:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e0e376c0d3136f2e",
+      "title": "Motorola Signature 27 is a proper flagship with Snapdragon 8 Elite Extreme Gen 6",
+      "url": "https://9to5google.com/2026/09/22/motorola-signature-27-snapdragon-reveal-flagship/",
+      "canonical": "https://9to5google.com/2026/09/22/motorola-signature-27-snapdragon-reveal-flagship",
+      "summary": "Alongside Qualcomm’s latest announcements, Motorola has officially shown off the Motorola Signature 27, a true flagship offering that’s set to launch before the end of this year. more…",
+      "published": "2026-09-22T20:01:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/motorola-debuts-premium-signature-27-flagship-with-brand-new-snapdragon-8-elite-extreme/"
+      ]
+    },
+    {
+      "id": "2f81046b558f9de7",
+      "title": "Vivo launches its first clip-on earbuds with 12mm drivers, Hi-Res audio & 42h battery",
+      "url": "https://www.gizmochina.com/2026/09/22/vivo-buds-clip-clip-on-earbuds-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/vivo-buds-clip-clip-on-earbuds-launched-specs-price",
+      "summary": "Vivo has launched the Buds Clip, its first pair of clip-on open-ear earbuds, alongside the new X500 smartphone series. The standard version carries a promotional price of 599 yuan ($89), down from its regular price of 699 yuan ($104). Vivo is also offering a wireless charging version for 699 yuan ($104), which will normally retail [&#8230;] The post Vivo launches its first clip-on earbuds with 12m",
+      "published": "2026-09-22T00:15:53+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "43d805dedbc678d6",
+      "title": "OnePlus N6 Lite goes official with a 7,000mAh battery",
+      "url": "https://www.gsmarena.com/oneplus_n6_lite_goes_official_with_a_7000mah_battery-news-74708.php",
+      "canonical": "https://www.gsmarena.com/oneplus_n6_lite_goes_official_with_a_7000mah_battery-news-74708.php",
+      "summary": "OnePlus has expanded its N6 lineup in India with the launch of the new OnePlus N6 Lite. The affordable 4G smartphone packs a 7,000mAh battery and joins the OnePlus N6 and N6x in the country. The OnePlus N6 Lite is priced at INR 16,999 for the sole 4GB RAM and 64GB storage variant. It is available in Midnight Black and a bright Neo Green colorway. It is powered by the Unisoc T7250 chipset and comes",
+      "published": "2026-09-22T11:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "30ebaef39f07c5a1",
+      "title": "Samsung is struggling with a wider One UI 9 rollout",
+      "url": "https://www.gizmochina.com/2026/09/22/samsung-is-struggling-with-a-wider-one-ui-9-rollout/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/samsung-is-struggling-with-a-wider-one-ui-9-rollout",
+      "summary": "It took Samsung four months of testing and seven beta iterations to finally begin rolling out the stable One UI 9 to the Galaxy S26 series. The rollout went live on September 16, and as expected, it was initially limited to Samsung&#8217;s home market, South Korea. But the company is struggling with a wider rollout. [&#8230;] The post Samsung is struggling with a wider One UI 9 rollout appeared fi",
+      "published": "2026-09-22T11:22:09+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/samsung-may-have-pushed-galaxy-s26-one-ui-9-0-release-date-even-further/",
+        "https://www.notebookcheck.net/Samsung-delays-One-UI-9-rollout-for-the-Galaxy-S26-series.1405757.0.html"
+      ]
+    },
+    {
+      "id": "7bd2c8ae73b35a83",
+      "title": "Minisforum launches new budget-friendly mini-PC with AMD Zen 4 and LPDDR5X RAM",
+      "url": "https://www.notebookcheck.net/Minisforum-launches-new-budget-friendly-mini-PC-with-AMD-Zen-4-and-LPDDR5X-RAM.1405747.0.html",
+      "canonical": "https://www.notebookcheck.net/Minisforum-launches-new-budget-friendly-mini-PC-with-AMD-Zen-4-and-LPDDR5X-RAM.1405747.0.html",
+      "summary": "Minisforum has launched the UM780L Slim, a compact mini PC powered by AMD's Zen 4-based Ryzen 7 7840HS CPU. Other specs include LPDDR5X-7500 memory, two PCIe Gen4 SSD slots and USB 4 ports in a 0.77-litre chassis.",
+      "published": "2026-09-22T13:53:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "140ebc1b750897c7",
+      "title": "(PR) Corsair Deploys the WARTHOG Airflow Mid-Tower PC Case for Standout Builds",
+      "url": "https://www.techpowerup.com/352946/corsair-deploys-the-warthog-airflow-mid-tower-pc-case-for-standout-builds",
+      "canonical": "https://www.techpowerup.com/352946/corsair-deploys-the-warthog-airflow-mid-tower-pc-case-for-standout-builds",
+      "summary": "Corsair is pleased to announce that the highly anticipated WARTHOG Series cases are now available for pre-order, with shipments beginning within the next four weeks. WARTHOG is also available today at select resellers and as a complete build from select system integrators. This unique ruggedized chassis stole the show when it was unveiled at Computex 2026 and won numerous awards for its eye-catchi",
+      "published": "2026-09-22T14:30:52+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c28732e615d65805",
+      "title": "The Signature 27 will be Motorola’s first smartphone with Bang & Olufsen audio",
+      "url": "https://www.gsmarena.com/the_signature_27_will_be_motorolas_first_smartphone_with_bang___olufsen_audio-news-74710.php",
+      "canonical": "https://www.gsmarena.com/the_signature_27_will_be_motorolas_first_smartphone_with_bang___olufsen_audio-news-74710.php",
+      "summary": "Motorola saw what Poco (and, before it, Redmi in China) did with Bose, and thought it wanted some of that co-branded audio action too. But it also stepped it up - all the way up to Bang & Olufsen's level. Motorola has entered into a multi-year partnership with the audio company, and as its teaser from yesterday showed us, the first smartphone to come with a B O badge will be the Signature 27, whic",
+      "published": "2026-09-22T20:02:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina",
+        "Yanko Design"
+      ],
+      "related_urls": [
+        "https://www.yankodesign.com/2026/09/22/the-motorola-signature-27-signs-its-camera-with-bang-olufsen/?utm_source=rss&utm_medium=rss&utm_campaign=the-motorola-signature-27-signs-its-camera-with-bang-olufsen",
+        "https://www.gizmochina.com/2026/09/22/motorola-signature-27-teasers-reveals-unique-camera-layout-200mp-lytia-sensor-audio-by-bang-olufsen/"
+      ]
+    },
+    {
+      "id": "8974efe5f20152ec",
+      "title": "Oppo A7 Pro Max makes its global debut, here's how much it costs in Europe",
+      "url": "https://www.gsmarena.com/oppo_a7_pro_max_makes_its_global_debut_heres_how_much_it_costs_in_europe-news-74704.php",
+      "canonical": "https://www.gsmarena.com/oppo_a7_pro_max_makes_its_global_debut_heres_how_much_it_costs_in_europe-news-74704.php",
+      "summary": "Oppo launched the A7 Pro Max in China in August, and now the phone has finally made its way to other markets, including Austria in Europe. Over there, it is now up for pre-order in Surfing Blue and Lunar Black for €599. Shipping is set to commence on October 1. The phone comes with a 6.78-inch AMOLED display with 1272x2772 resolution, a 120Hz refresh rate, and 1,800-nit peak brightness, the Snapdr",
+      "published": "2026-09-22T03:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "200cfa44d0188afb",
+      "title": "Xiaomi 18 Pro series confirmed with dual 200MP main and telephoto sensors",
+      "url": "https://www.gizmochina.com/2026/09/22/xiaomi-18-pro-series-dual-200mp-leica-cameras/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/xiaomi-18-pro-series-dual-200mp-leica-cameras",
+      "summary": "Xiaomi is gearing up to unveil the Xiaomi 18 Pro and 18 Pro Max, its next-generation flagship smartphones, tomorrow. The company has already confirmed several key details ahead of the launch. Its latest announcement puts the focus firmly on the camera system. Also ReadXiaomi 18 Pro Series Roundup: Everything We Know Before Launch Xiaomi confirms [&#8230;] The post Xiaomi 18 Pro series confirmed wi",
+      "published": "2026-09-22T03:25:31+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "862d9883fdcc7546",
+      "title": "HUAWEI FreeBuds Neo Review: Lightweight ANC Earbuds With a Pink Twist",
+      "url": "https://www.gizmochina.com/2026/09/22/huawei-freebuds-neo-review-lightweight-anc-earbuds-with-a-pink-twist/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/huawei-freebuds-neo-review-lightweight-anc-earbuds-with-a-pink-twist",
+      "summary": "Huawei’s FreeBuds Neo are one of the most comfortable pairs of budget ANC earbuds you can buy right now. The lightweight design, effective noise cancellation for commutes, and a genuinely attractive Sakura Pink colorway make them a compelling option for anyone who wants dependable everyday earbuds without spending flagship money. Pros Exceptionally light and comfortable [&#8230;] The post HUAWEI F",
+      "published": "2026-09-22T04:00:42+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1b4e52f98f805b17",
+      "title": "Vivo Camera Screen gives the X500 series the rear display Xiaomi’s 18 Pro has",
+      "url": "https://www.gizmochina.com/2026/09/22/vivo-camera-screen-gives-the-x500-series-the-rear-display-xiaomis-18-pro-has/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/vivo-camera-screen-gives-the-x500-series-the-rear-display-xiaomis-18-pro-has",
+      "summary": "The Xiaomi 17 Pro series has its whole identity built around the rear screen, and its successor is following in its footsteps. The Vivo X500 series, which launched yesterday, skips that hardware entirely. But for folks who want it, the company has a workaround: a clip-on accessory called the Vivo Camera Screen. Vivo unveiled the [&#8230;] The post Vivo Camera Screen gives the X500 series the rear ",
+      "published": "2026-09-22T05:29:56+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "52a2b6a6c6b46804",
+      "title": "Googlebook PC launches with Android, Gemini features, and up to 10 years of updates",
+      "url": "https://www.gizmochina.com/2026/09/22/googlebook-pc-launches-with-android-gemini-features-and-up-to-10-years-of-updates/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/googlebook-pc-launches-with-android-gemini-features-and-up-to-10-years-of-updates",
+      "summary": "Google&#8217;s Android-based laptop platform is finally shipping. Four months after confirming it was building an Android-based alternative to the Chromebook, and just days after leaked Lenovo renders gave us an early look, Google and five hardware partners have opened pre-orders for the first Googlebooks. They are available to order now, with sales beginning on October [&#8230;] The post Googlebo",
+      "published": "2026-09-22T06:14:23+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "66f3358035751804",
+      "title": "vivo X500 Ultra's China launch timeline revealed",
+      "url": "https://www.gsmarena.com/vivo_x500_ultras_china_launch_timeline_revealed-news-74707.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_ultras_china_launch_timeline_revealed-news-74707.php",
+      "summary": "After unveiling the X500 series in China, vivo will likely turn its focus to the X500 Ultra. While the company has remained tight-lipped about the phone, a vivo executive reportedly shared the launch timeline for the X300 Ultra successor during a media interview post the X500 series launch event. Huang Tao, Vice President of Product at vivo, reportedly confirmed that the vivo X500 Ultra will debut",
+      "published": "2026-09-22T10:12:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f4f9760746952605",
+      "title": "Edge of Memories gets official release date",
+      "url": "https://www.notebookcheck.net/Edge-of-Memories-gets-official-release-date.1405780.0.html",
+      "canonical": "https://www.notebookcheck.net/Edge-of-Memories-gets-official-release-date.1405780.0.html",
+      "summary": "Nacon and Midgar Studio confirm Edge of Memories launches Nov 5, 2026 on PS5, Xbox Series X|S, and PC. Explore Unreal Engine 5 action combat and soundtrack details.",
+      "published": "2026-09-22T13:27:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1c6e80033925efc9",
+      "title": "Review: Beats 360 are the closest Apple headphones to AirPods Max, with one caveat",
+      "url": "https://9to5mac.com/2026/09/22/apple-beats-360-review-close-to-airpods-max/",
+      "canonical": "https://9to5mac.com/2026/09/22/apple-beats-360-review-close-to-airpods-max",
+      "summary": "The highly anticipated Beats 360 are now available for purchase. After being teased prior to the World Cup, Apple’s latest pair of Beats headphones are now on the market. I got an early hands-on with them, and they’re quite an interesting product offering that I’ve thoroughly enjoyed using – though they have one key flaw: no wired connectivity, which will bother some more than others. more…",
+      "published": "2026-09-22T14:00:00+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "14c149f9aefc43c6",
+      "title": "Oppo Find X10 debuts with dual 200MP cameras, 0.99 mm bezel, Dimensity 9600M chipset",
+      "url": "https://www.gizmochina.com/2026/09/22/oppo-find-x10-debuts-with-dual-200mp-cameras-0-99-mm-bezel-dimensity-9600m-chipset/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/oppo-find-x10-debuts-with-dual-200mp-cameras-0-99-mm-bezel-dimensity-9600m-chipset",
+      "summary": "Oppo has officially unveiled the Find X10, its new standard flagship. Instead of just pushing the ultra-premium model, they’re pitching this one as a proper all-rounder with strong cameras, serious battery life, and a refined design that doesn’t feel like a compromise. The real headline, of course, is the camera setup. The Find X10 brings [&#8230;] The post Oppo Find X10 debuts with dual 200MP cam",
+      "published": "2026-09-22T14:27:52+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e662ce8525adbc0e",
+      "title": "Oppo Find X10 Pro Max launches with three 200MP rear cameras, Dimensity 9600 Pro SoC",
+      "url": "https://www.gsmarena.com/oppo_find_x10_pro_max_launches_with_three_200mp_rear_cameras_dimensity_9600_pro_soc-news-74714.php",
+      "canonical": "https://www.gsmarena.com/oppo_find_x10_pro_max_launches_with_three_200mp_rear_cameras_dimensity_9600_pro_soc-news-74714.php",
+      "summary": "Oppo has just unveiled its latest flagship smartphone, the Find X10 Pro Max. This is powered by the new MediaTek Dimensity 9600 Pro chipset, just like the vivo X500 Pro Max which was unveiled yesterday. The Oppo Find X10 Pro Max one-ups its direct competitor in terms of cameras, though, sporting a whopping three 200MP sensors on the rear. The 24mm main camera uses a 1/1.3-inch type sensor with f/1",
+      "published": "2026-09-22T14:32:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "efe470fa47b10ccd",
+      "title": "(PR) Razer Unveils the Mako Desktop Gaming Speakers",
+      "url": "https://www.techpowerup.com/352958/razer-unveils-the-mako-desktop-gaming-speakers",
+      "canonical": "https://www.techpowerup.com/352958/razer-unveils-the-mako-desktop-gaming-speakers",
+      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Mako, a new line of compact desktop gaming speakers designed to deliver fuller sound, deeper bass, and Razer Chroma RGB lighting for modern battlestations. The Mako desktop gaming speakers line gives gamers clear ways to upgrade their desktop audio: Mako for those who want fuller sound with a dedicated subwoofer and mo",
+      "published": "2026-09-22T17:52:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c8d8b2510f235c4c",
+      "title": "Vivo Watch 6 debuts with sapphire crystal, 1.47″ AMOLED display, eSIM & 21-day battery life",
+      "url": "https://www.gizmochina.com/2026/09/21/vivo-watch-6-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/21/vivo-watch-6-launched-specs-price",
+      "summary": "Vivo has announced the Watch 6 alongside its new X500 series smartphones, bringing a few high-end materials to a relatively budget-friendly price point. The main takeaway for this year&#8217;s wearable is that sapphire crystal glass is now standard across the entire lineup, starting with the base model priced at 999 yuan (around $149). Pricing The [&#8230;] The post Vivo Watch 6 debuts with sapphi",
+      "published": "2026-09-21T23:44:27+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a99c62133c48a9e8",
+      "title": "OnePlus 16 officially confirmed to feature 1.15mm ultra-thin bezels, new design details emerge",
+      "url": "https://www.gizmochina.com/2026/09/22/oneplus-16-design-details-confirmed/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/oneplus-16-design-details-confirmed",
+      "summary": "OnePlus has started revealing details about the OnePlus 16 ahead of its expected launch in October in China. Recently, the brand shared official images, color options, and memory configurations for the upcoming flagship. Now, OnePlus China President Li Jie Louis has revealed more about the phone’s design and usability. OnePlus 16 design details revealed According [&#8230;] The post OnePlus 16 offi",
+      "published": "2026-09-22T03:50:47+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6acbae644b162c2a",
+      "title": "Xiaomi 18 Pro series camera specs and samples revealed ahead of launch",
+      "url": "https://www.gsmarena.com/xiaomi_18_pro_series_camera_specs_and_samples_revealed_ahead_of_launch-news-74705.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_18_pro_series_camera_specs_and_samples_revealed_ahead_of_launch-news-74705.php",
+      "summary": "The Xiaomi 18 Pro and 18 Pro Max are set to launch tomorrow in China, and the company has now revealed more details about their rear camera systems. Xiaomi has also shared camera samples captured with the upcoming phones ahead of the launch. In separate posts on Weibo, Xiaomi shared key hardware specifications of the dual 200MP rear cameras on the upcoming 18 Pro lineup. The Xiaomi 18 Pro and 18 P",
+      "published": "2026-09-22T06:30:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0e814c3a140c1c56",
+      "title": "OnePlus surprises with a Unisoc chip in its new budget phone",
+      "url": "https://www.gizmochina.com/2026/09/22/oneplus-n6-lite-unisoc-chip-launch-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/oneplus-n6-lite-unisoc-chip-launch-specs-price",
+      "summary": "OnePlus just launched the N6 Lite in India, and it&#8217;s cheaper than everything else in the N-series lineup. But the price tag isn&#8217;t the interesting part; it’s on the inside. The N6 Lite 4G is powered by a Unisoc T7250 chipset, something that has never shown up in a OnePlus phone before. Here’s a bit [&#8230;] The post OnePlus surprises with a Unisoc chip in its new budget phone appeared ",
+      "published": "2026-09-22T09:10:52+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0c942a1b0cab1f59",
+      "title": "Xiaomi launches Mijia Instant Hot Water Dispenser Pro with three-second heating, 2.8L tank, four temperature settings",
+      "url": "https://www.gizmochina.com/2026/09/22/xiaomi-launches-mijia-instant-hot-water-dispenser-pro-with-three-second-heating-2-8l-tank-four-temperature-settings/",
+      "canonical": "https://www.gizmochina.com/2026/09/22/xiaomi-launches-mijia-instant-hot-water-dispenser-pro-with-three-second-heating-2-8l-tank-four-temperature-settings",
+      "summary": "Xiaomi has added another practical gadget to its Mijia lineup: the Mijia Instant Hot Water Dispenser Pro. It’s built for the small daily tasks, making tea or coffee. It’s heading to Chinese shelves soon at a pretty accessible price. The dispenser is priced at 399 yuan (~$60) and goes on sale on September 28. The [&#8230;] The post Xiaomi launches Mijia Instant Hot Water Dispenser Pro with three-se",
+      "published": "2026-09-22T09:22:40+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
