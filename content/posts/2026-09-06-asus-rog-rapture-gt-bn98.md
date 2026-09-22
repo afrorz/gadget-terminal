@@ -33,6 +33,7 @@ alternatives:
   why: 同じくASUS製でWi-Fi 7・10Gbpsポートを備えた国内正規品。Wi-Fi 8の正式規格化を待たずに、確定した規格で高速な無線LAN環境を今日から組める。
   url: https://www.amazon.co.jp/dp/B0DM8PTZS1
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/r-kojima/cabinet/n0000001276/0197105650411_1.jpg?_ex=400x400"
 sources:
 - title: First Wi-Fi 8 gaming router ROG Rapture GT-BN98 launches at a hefty price in North America
   url: https://www.notebookcheck.net/First-Wi-Fi-8-gaming-router-ROG-Rapture-GT-BN98-launches-at-a-hefty-price-in-North-America.1389415.0.html

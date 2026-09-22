@@ -39,6 +39,7 @@ alternatives:
   why: ChatGPT連携の文字起こし・要約に対応したウェアラブルAIボイスレコーダーで、国内の正規代理店から今日購入できる。イヤホン一体型ではなくクリップ型だが、「話した内容をAIが要約する」という用途は同じ。
   url: https://www.amazon.co.jp/dp/B0DL9ZQ8GX
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/plaud/cabinet/12930484/imgrc0143279709.jpg?_ex=400x400"
 sources:
 - title: IFA 2026 Winner viaim Rise Launching on Indiegogo September 8 – The Future of AI Agent Hearables
   url: https://www.notebookcheck.net/IFA-2026-Winner-viaim-Rise-Launching-on-Indiegogo-September-8-The-Future-of-AI-Agent-Hearables.1392363.0.html

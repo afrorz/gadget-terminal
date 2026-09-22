@@ -31,6 +31,7 @@ alternatives:
   why: X20と同じRyzen AI Z2 Extreme・24GB RAM・1TB SSD構成の前モデルを、国内正規品として今すぐ購入できる。OLED化前の液晶パネルだが、処理性能自体はX20と共通。
   url: https://www.amazon.co.jp/ASUS-%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0PC-%E3%83%AA%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%BC%E3%83%88120Hz-Windows11-RC72LA-Z1E24G1T/dp/B0D7M6KHS6
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/e-cutestyle/cabinet/img048/p000000876021_1.jpg?_ex=400x400"
 images:
 - url: https://dlcdnwebimgs.asus.com/files/media/202607/e671a4a7-3325-4a83-9fbe-e1c7792b6a02/v1/images/large/1x/kv_xbox_ally_standalone.png
   caption: 本体前面。画面はROG20周年記念のブートスクリーンを表示

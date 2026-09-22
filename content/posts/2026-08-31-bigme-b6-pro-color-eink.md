@@ -39,6 +39,7 @@ alternatives:
   why: 同じくカラーE Ink(Kaleido 3系)を積む電子書籍リーダーで、Amazon.co.jpから発送・購入できる。4G非搭載でWi-Fi専用だが、国内正規販売品であり技適の心配がない点が違いになる。
   url: https://www.amazon.co.jp/dp/B0D493Y9ZB
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000365/7163731017.jpg?_ex=400x400"
 sources:
 - title: Bigme B6 Pro launches with 6-inch color E Ink display, 4G, 8GB RAM and 256GB storage
   url: https://www.notebookcheck.net/Bigme-B6-Pro-launches-with-6-inch-color-E-Ink-display-4G-8GB-RAM-and-256GB-storage.1382960.0.html

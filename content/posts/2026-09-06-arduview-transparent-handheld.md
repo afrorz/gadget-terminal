@@ -33,6 +33,7 @@ alternatives:
   why: 同じレトロゲーム機カテゴリで、国内の正規販売店が技適取得済みとして扱う。折りたたみ式でWi-Fi/Bluetooth対応、日本語UIにも対応しており、Arduviewの発売を待たずに今日から遊べる。
   url: https://www.amazon.co.jp/dp/B0D4HC76FN
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/netclickstore-r/cabinet/r_1738702768/4950537464431.jpg?_ex=400x400"
 sources:
 - title: Arduview - World's first fully transparent video game console weighs just 50 g
   url: https://www.notebookcheck.net/Arduview-World-s-first-fully-transparent-video-game-console-weighs-just-50-g.1389612.0.html

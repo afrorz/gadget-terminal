@@ -21,6 +21,7 @@ alternatives:
     why: 国内の技適・PSE認証を取得したMeta公式ストアが国内発送・国内保証付きで販売している単体駆動型VRヘッドセット。抽選なしで今日買える。
     url: https://www.amazon.co.jp/dp/B0CF1DLZPY
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: 掲載時点でValveから日本向け販売や技適取得の発表はない。予約(抽選)自体がどの国からできるかも公式発表からは確認できていない。

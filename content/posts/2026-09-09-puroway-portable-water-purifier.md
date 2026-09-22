@@ -22,6 +22,7 @@ alternatives:
   why: 同じ電動ポンプ式・USB-C充電式の携帯浄水器で、国内の防災安全協会の認証を取得済み。Amazon.co.jpから今すぐ購入できる。
   url: https://www.amazon.co.jp/dp/B0BRW3799G
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/keynice/cabinet/10372088/imgrc0092289348.jpg?_ex=400x400"
 faq:
 - q: 日本で買えますか
   a: 掲載時点で日本国内での正規販売や代理店の告知は確認できていません。Kickstarterは海外発送に対応していますが、個人輸入という扱いになります。

@@ -23,6 +23,7 @@ alternatives:
     why: 同じUgreenブランドでANC(45dB)とLDACハイレゾに対応する製品が、Amazon.co.jpのUGREEN公式ストアで国内発送・国内保証付きで買える。形状はイヤホンではなくヘッドホンだが、技適を気にせず今日から使える点は共通。
     url: https://www.amazon.co.jp/dp/B0GYZTLH7H
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/11871349/16172.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: 掲載時点で日本向けの発売や技適取得の発表はなく、購入できるのは中国のJD.comのみ。UgreenブランドのHiTuneシリーズは日本国内でも別モデルが正規販売されているが、T8自体の国内発売は確認できていない。

@@ -33,6 +33,7 @@ alternatives:
   why: ファミコン・スーパーファミコンなど11機種の実カートリッジに対応する国内正規品のレトロゲーム互換機。GameStation Retro Goのようなライセンスタイトル内蔵型ではなく手持ちの実機カートリッジで遊ぶ方式だが、PSE認証済みで国内から今日購入・サポートを受けられる点が異なる。
   url: https://www.amazon.co.jp/dp/B00ZZ70JX6
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/elimino/cabinet/rakutentool2pic/systempic011/2c00zz70kmg1.jpg?_ex=400x400"
 sources:
 - title: The MyArcade GameStation Retro Go Handheld Is Now Up For Pre-Order
   url: https://retrododo.com/the-myarcade-gamestation-retro-go-handheld-is-now-up-for-pre-order/

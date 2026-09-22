@@ -26,6 +26,7 @@ alternatives:
   why: 技適取得済みの国内正規品で在庫があれば今日から購入できる。Strix Haloほどの性能ではないが、7インチ・120Hzのゲーミングハンドヘルドとしてすぐ試せる。
   url: https://www.amazon.co.jp/ASUS-%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0PC-%E3%83%AA%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%BC%E3%83%88120Hz-Windows11-RC72LA-Z1E24G1T/dp/B0D7M6KHS6
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/e-cutestyle/cabinet/img048/p000000876021_1.jpg?_ex=400x400"
 thumbnail: https://gpdstore.net/wp-content/uploads/2026/06/GPD-WIN-MAX-3-Front-View-1200x675.jpg
 thumbnail_credit: GPD公式ストア（gpdstore.net）製品ページ
 sources:

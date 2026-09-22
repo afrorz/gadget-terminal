@@ -43,6 +43,7 @@ alternatives:
   why: 睡眠時装着を前提にした完全ワイヤレスイヤホンで、専用アプリによる睡眠モニタリング機能を持つ。Amazon.co.jpのAnker公式ストアが国内向けにPSE技術基準適合を明記して販売しており、技適やサポート面の不安なく今日から使える。DUVA ONEのような室内環境センサーや心拍計測は無いが、「イヤホンを着けたまま眠る」という用途はこちらで満たせる。
   url: https://www.amazon.co.jp/dp/B0F7RVW2QG
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/d-shop1one/cabinet/point3/4571651004038.jpg?_ex=400x400"
 ---
 
 インド・ナグプールを拠点とするFitnexaが、睡眠テック専門の新ブランド「DUVA」を立ち上げ、第1弾製品「DUVA ONE」をIFA 2026(2026年9月4日〜8日、ベルリン)で発表した。音響設計にはBoseが協力しており、充電ケースの内側には「SOUND BY BOSE」の刻印が入る。価格は349.99ドルで、2026年10月の発売を予定している。

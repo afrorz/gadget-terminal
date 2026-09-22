@@ -34,6 +34,7 @@ alternatives:
   why: 同じ電子ペーパーで天気・予定・メモをまとめて表示するWi-Fi対応スマートディスプレイ。画面は7.5インチとより大きく、reTerminal Stickyのようなファームウェア書き換えはできないが、国内正規品として今日から購入・サポートを受けられる。
   url: https://www.amazon.co.jp/dp/B0DBLDKVDW
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/switchbot/cabinet/09377790/12988198/12988202/imgrc0100120623.jpg?_ex=400x400"
 sources:
 - title: 'Lilbits: More phone-sized E Ink gadgets'
   url: https://liliputing.com/lilbits-more-phone-sized-e-ink-gadgets/

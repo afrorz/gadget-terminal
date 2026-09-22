@@ -33,6 +33,7 @@ alternatives:
   why: 同じRazer製のモバイルコントローラーで、国内正規品として今日から購入できる。折りたためない点は異なるが、USB-C接続でスマホに直結する設計思想はPrioと共通する。
   url: https://www.amazon.co.jp/dp/B0D52FRYQ7
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/7291/00000010565487_a01.jpg?_ex=400x400"
 sources:
 - title: "Razer Unveils the Razer Prio: the Pocket-Sized Controller"
   url: https://www.techpowerup.com/352231/razer-unveils-the-razer-prio-the-pocket-sized-controller

@@ -36,6 +36,7 @@ alternatives:
   why: 4基のCFSユニットで最大16色のマルチカラー印刷に対応し、国内から購入できる。LightMake L4のような4ヘッド同時印刷ではなく単一ノズルでのフィラメント切り替え方式だが、色替え時のパージ低減という用途は今日から満たせる。
   url: https://www.amazon.co.jp/dp/B0DNMVSCR2
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/konanonline/cabinet/root_sniper_folder/sniper_folder_00020/imgrc0373213389.jpg?_ex=400x400"
 sources:
 - title: LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)
   url: https://www.cnx-software.com/2026/09/02/lightmake-l4-3d-printer-features-four-independent-printing-heads/

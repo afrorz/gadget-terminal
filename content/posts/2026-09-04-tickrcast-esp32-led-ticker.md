@@ -37,6 +37,7 @@ alternatives:
   why: 常時稼働のBluetooth接続LED表示デバイスとして国内から今日購入できる。TickrCastのようなスポーツ速報プラグインではなくドット絵やメッセージ表示が主用途だが、「ネット経由の情報を壁に表示する」という使い方自体は今すぐ試せる。
   url: https://www.amazon.co.jp/dp/B08D2Z2N87
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/raspberrymarket/cabinet/g/2/e9tgqfq7tn-5.jpg?_ex=400x400"
 sources:
 - title: TickrCast - An ESP32-S3 HUB75 LED ticker display with server-side rendering and OTA (Crowdfunding)
   url: https://www.cnx-software.com/2026/09/03/tickrcast-esp32-s3-hub75-led-ticker-display-with-server-side-rendering-and-ota/

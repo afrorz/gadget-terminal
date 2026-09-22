@@ -21,6 +21,7 @@ alternatives:
     why: ジンバル一体型で天井投写にも対応し、Google TV内蔵。XGIMI-STOREが国内正規販売しており、技適を含め日本向けに販売されている製品なので今日から国内サポート付きで買える。
     url: https://www.amazon.co.jp/dp/B0GP7TLZ5T
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/xgimi-store/cabinet/10953583/13834345/imgrc0108649433.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: 掲載時点で日本国内での正規販売や代理店の告知は確認できていない。中国のJD.comでの販売のみで、国際発送に対応しているかも確認できていない。

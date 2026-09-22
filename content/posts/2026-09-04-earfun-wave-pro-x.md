@@ -36,6 +36,7 @@ alternatives:
   why: 同じEarFunのANC搭載ワイヤレスヘッドホンで、VGP 2024 SUMMER受賞歴があり国内の正規代理店から今日購入できる。Wave Pro Xと同じDCAA・Bluetooth 6.0ではないが、EarFunのノイズキャンセリング機の実力を国内サポート付きで試せる。
   url: https://www.amazon.co.jp/dp/B0CSDKW6DN
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/earfun/cabinet/11055449/imgrc0095763400.jpg?_ex=400x400"
 sources:
 - title: EarFun Unveils Wave Pro X Dual-Coaxial Headphones With Qualcomm ANC Technology and Auracast
   url: https://www.techpowerup.com/352318/earfun-unveils-wave-pro-x-dual-coaxial-headphones-with-qualcomm-anc-technology-and-auracast

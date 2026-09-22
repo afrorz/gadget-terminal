@@ -36,6 +36,7 @@ alternatives:
   why: 同じPOCOブランドの大容量バッテリー機で、Amazon.co.jpで技適取得済みの国内正規品として販売中。POCO X8の国内発売を待たずに近いブランド体験を今日から試せる。
   url: https://www.amazon.co.jp/dp/B0DYF4KF65
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/etre/cabinet/itemimage41/1300284.jpg?_ex=400x400"
 sources:
 - title: Poco X8 is official with an 8,340 mAh battery and the Snapdragon 6s Gen 4 SoC
   url: https://www.gsmarena.com/poco_x8_is_official_with_an_8340_mah_battery_and_the_snapdragon_6s_gen_4_soc-news-74434.php

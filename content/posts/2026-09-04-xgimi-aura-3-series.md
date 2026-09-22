@@ -36,6 +36,7 @@ alternatives:
   why: 同じXGIMIブランドで国内の正規代理店(XGIMI-STORE)が販売しており、技適を含め国内向けに整った状態で今日購入できる。AURA 3のような超短焦点ではなく通常投影距離の機種だが、Google TV・Harman Kardonスピーカー・4K対応など基本コンセプトは共通する。
   url: https://www.amazon.co.jp/dp/B095CF4LKV
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/xgimi-store/cabinet/10953583/13834345/imgrc0108649458.jpg?_ex=400x400"
 sources:
 - title: The XGIMI Aura 3 lineup brings Google TV to 4K 120Hz capable short-throw laser projectors
   url: https://9to5google.com/2026/09/03/the-xgimi-aura-3-lineup-brings-google-tv-to-4k-120hz-capable-short-throw-laser-projectors/

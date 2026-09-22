@@ -40,6 +40,7 @@ alternatives:
   why: GPD Win Max 3の最上位構成と同じAMD Ryzen AI Max+ 395・128GB RAMを積む2-in-1機で、ASUSの国内正規品として今日から購入できる。ハンドヘルド型ではなくタブレット型だが、同じAPUの実力を国内サポート付きで確認できる。
   url: https://www.amazon.co.jp/dp/B0BXXHG5F4
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11489/00000013881745_a01.jpg?_ex=400x400"
 sources:
 - title: GPD WIN Max 3 Removable Battery High Refresh Rate OLED Handheld Gaming Laptop
   url: https://www.indiegogo.com/en/projects/gpdhk/gpd-win-max-3-handheld-gaming-laptop
