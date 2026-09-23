@@ -1,0 +1,758 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T08:04:33.080915+09:00",
+  "stats": {
+    "fetched": 720,
+    "unique": 680,
+    "new": 383,
+    "clusters": 351,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "e46f55d847ee5595",
+      "title": "OnePlus 16's AnTuTu score surfaces",
+      "url": "https://www.gsmarena.com/heres_the_oneplus_16s_antutu_score-news-74728.php",
+      "canonical": "https://www.gsmarena.com/heres_the_oneplus_16s_antutu_score-news-74728.php",
+      "summary": "The AnTuTu team just spotted a OnePlus device with the model number PYB110 in their database. It's powered by the just-unveiled Snapdragon 8 Elite Extreme Gen 6 SoC, and the prototype which ran the benchmark had 16GB of RAM and 1TB of storage. The phone also comes with a 185Hz refresh rate. Given these specs, this is clearly the upcoming OnePlus 16. As you can see from the image below, it scored 5",
+      "published": "2026-09-23T17:49:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 26,
+      "reasons": [
+        "+4 benchmark",
+        "+4 unveil",
+        "+3 specs",
+        "+3 prototype",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/23/oneplus-16-antutu-score-snapdragon-8-elite-extreme-gen-6/"
+      ]
+    },
+    {
+      "id": "235d3741fa247945",
+      "title": "微软 Surface Pro 12 与 Laptop 13 升级高通骁龙 X2 Plus 处理器，基础内存从 8GB 提升至 16GB 且价格大涨",
+      "url": "https://www.ithome.com/1/006/517.htm",
+      "canonical": "https://www.ithome.com/1/006/517.htm",
+      "summary": "IT之家 9 月 24 日消息，当地时间 9 月 23 日，微软在高通 2026 骁龙峰会上发布了新一代 Surface Pro 12 英寸和 Surface Laptop 13 英寸新品。 两款产品均搭载高通骁龙 X2 Plus 处理器，同时推出了一款集成触觉反馈的 Surface Mouse 鼠标。 新品将于 10 月 13 日起在部分市场上市。Surface Pro 12 英寸起售价从去年的 799.99 美元 （现汇率约合 5,371 元人民币） 涨至 1,149.99 美元 （IT之家注：现汇率约合 7,720 元人民币） ，Surface Laptop 13 英寸也从 899.99 美元 （现汇率约合 6,042 元人民币） 涨到 1,199 美元 （现汇率约合 8,049 元人民币） 。 好消息是，两款设备的基础内存也已经从上一代的 8GB 提升至 16GB，最高可选 24G",
+      "published": "2026-09-23T22:48:09+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 26,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+20 6媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "Notebookcheck (Smartphone)",
+        "TechPowerUp",
+        "Tom's Hardware",
+        "XDA Developers"
+      ],
+      "related_urls": [
+        "https://www.techpowerup.com/353016/microsoft-introduces-surface-pro-and-surface-laptop-with-snapdragon-x2-plus",
+        "https://www.xda-developers.com/microsofts-surface-pro-and-surface-laptop-refresh-is-powered-by-qualcomms-x2-plus-chip/",
+        "https://9to5google.com/2026/09/23/microsoft-surface-pro-12-inch-5g-laptop-13-snapdragon-x2/",
+        "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-brings-snapdragon-x2-plus-to-13-inch-surface-laptop-12-inch-surface-pro-low-end-systems-finally-get-upgrades"
+      ]
+    },
+    {
+      "id": "7e901b561c44af21",
+      "title": "A Triple Screen Laptop, Mechacomet, and Steam Frame: Liliputing News Roundup",
+      "url": "https://liliputing.com/triplescreenlaptop-mechacomet-and-steam-frame-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/triplescreenlaptop-mechacomet-and-steam-frame-liliputing-news-roundup",
+      "summary": "The Mecha Comet is a modular Linux handheld computer that launched via a Kickstarter campaign earlier this year, and is now available for pre-order for $239 and up • Why carry around a portable monitor when you can buy a laptop that has one • The Steam Frame VR headset may be one of the most repairable on the market The post A Triple Screen Laptop, Mechacomet, and Steam Frame: Liliputing News Roun",
+      "published": "2026-09-23T21:00:02+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 25,
+      "reasons": [
+        "+6 kickstarter",
+        "+2 campaign",
+        "+3 launch",
+        "+4 pre-order",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f17310d6c20f1365",
+      "title": "Motorola unveils Signature 27 with 200MP telephoto camera, Snapdragon 8 Elite Extreme Gen 6",
+      "url": "https://www.gsmarena.com/motorola_unveils_signature_27_with_200mp_telephoto_camera_snapdragon_8_elite_extreme_gen_6-news-74726.php",
+      "canonical": "https://www.gsmarena.com/motorola_unveils_signature_27_with_200mp_telephoto_camera_snapdragon_8_elite_extreme_gen_6-news-74726.php",
+      "summary": "Motorola has shared a first look at its upcoming Signature 27 flagship phone during Qualcomm’s Snapdragon Summit keynote. The handset is among the first smartphones to feature the newly announced Snapdragon 8 Elite Extreme Gen 6 chipset. Although it is only the second phone in Motorola’s Signature series, the upcoming flagship introduces a new naming convention based on the last two digits of the ",
+      "published": "2026-09-23T11:38:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+4 first look",
+        "+4 unveil",
+        "+3 announced",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/09/23/motorola-signature-27-announced-as-true-flagship-with-200mp-telephoto-1-1-28-main-sensor-snapdragon-8-elite-extreme-gen-6-chip/"
+      ]
+    },
+    {
+      "id": "869ed34962460717",
+      "title": "Snapdragon 8 Elite Extreme Gen 6: Specs, benchmarks, and upgrades",
+      "url": "https://www.gizmochina.com/2026/09/23/snapdragon-8-elite-extreme-gen-6-specs-benchmarks-and-upgrades/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/snapdragon-8-elite-extreme-gen-6-specs-benchmarks-and-upgrades",
+      "summary": "Qualcomm has unveiled the Snapdragon 8 Elite Extreme Gen 6, alongside a more affordable but very capable Snapdragon 8 Elite Gen 6 at the Snapdragon Summit 2026. The &#8220;Extreme&#8221; version packs a much stronger CPU that can reach a peak speed of 5.0 GHz &#8211; the first smartphone chipset to achieve this feat. Plus, it [&#8230;] The post Snapdragon 8 Elite Extreme Gen 6: Specs, benchmarks, ",
+      "published": "2026-09-23T14:02:58+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+4 benchmark",
+        "+4 unveil",
+        "+3 specs",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Snapdragon-8-Elite-Extreme-Gen-6-first-party-benchmarks-show-sizable-graphics-uplift-over-Snapdragon-8-Elite-Gen-5.1406358.0.html"
+      ]
+    },
+    {
+      "title": "Makuake｜掃除機なのに空気も入る！吸う・吹く・照らすを詰め込んだ1台4役の多機能クリーナー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/funsmile-hbshop-jq722/",
+      "summary": "※リターン品の配送が完了するまで、合同会社福祉カンパニーは深セン興吉一溝科技有限公司の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。「大きな掃除機を出すほどではない」そんな場面は、意外と多くありませんか。・車内に落ちた砂やお菓子のくず ・ソファの奥に入り込んだゴミ ・キーボードの隙間にたまったホコリ……&h",
+      "image": "https://static.makuake.com/upload/project/53640/main_53640.png?version=1789452225&amp;width=690&amp;height=388",
+      "published": "2026-09-27T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "1df77203f8904971",
+      "canonical": "https://www.makuake.com/project/funsmile-hbshop-jq722",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 キーボード",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "85a4732b03289e24",
+      "title": "Samsung's One UI 9 update for the Galaxy S26 series reaches the US",
+      "url": "https://www.gsmarena.com/samsungs_one_ui_9_update_for_the_galaxy_s26_series_reaches_the_us-news-74735.php",
+      "canonical": "https://www.gsmarena.com/samsungs_one_ui_9_update_for_the_galaxy_s26_series_reaches_the_us-news-74735.php",
+      "summary": "A week ago, Samsung officially announced the rollout of One UI 9 based on Android 17 for the Galaxy S26, Galaxy S26+, and Galaxy S26 Ultra. The update was initially available in South Korea only, but that changes today. The Galaxy S26 trio is now receiving the One UI 9 update in the US as well. The first carrier versions to get it are T-Mobile's. It arrives over-the-air as a 4.1GB download. After ",
+      "published": "2026-09-23T21:49:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-s-Galaxy-S26-series-is-now-getting-stable-One-UI-9-in-the-US.1406579.0.html",
+        "https://www.androidauthority.com/samsung-galaxy-s26-series-stable-one-ui-9-us-3714362/"
+      ]
+    },
+    {
+      "title": "Makuake｜【鯖江製】耳に掛けないメガネ型ルーペ。江戸の意匠を現代に【EDOGANE】｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/edogane/",
+      "summary": "江戸時代の眼鏡には、今のように耳に掛けるのではなく、手に持ち、必要なときだけ目元にかざして使うものがありました。その所作には、現代の持ち歩きルーペとは少し違う、道具としての便利さ、美しさがあります。私たちは、そんな古い眼鏡のかたちや所作に、現代の暮らしに合う新しい役割を見出しました。メニューの小さな文字。商品の値札や細かな表示。説明書や書類。スマートフォンの小さな文字。日常には、「今だけ、もう少し",
+      "image": "https://static.makuake.com/upload/project/53615/main_53615.png?version=1789367810&amp;width=690&amp;height=388",
+      "published": "2026-09-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "4bc472cab91b721e",
+      "canonical": "https://www.makuake.com/project/edogane",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "60b24773f3f4d781",
+      "title": "Oppo K14 Plus' key specs, launch date, and design revealed",
+      "url": "https://www.gsmarena.com/oppo_k14_plus_key_specs_launch_date_design-news-74722.php",
+      "canonical": "https://www.gsmarena.com/oppo_k14_plus_key_specs_launch_date_design-news-74722.php",
+      "summary": "Oppo teased the K14 Plus last week, and today it announced that the smartphone will be unveiled in India on September 29 at 12 PM local time. The Oppo K14 Plus will be available through Flipkart as a Flipkart Unique product, with Oppo promising \"exciting offers during the Big Billion Days\" to customers. A promo page set up on Flipkart reveals the Oppo K14 Plus will come with a MediaTek 7360 Max So",
+      "published": "2026-09-23T08:43:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3c38c64d4e3f56cb",
+      "title": "Xiaomi 18 Pro series will be the first to bring both Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6 to market",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-series-will-be-the-first-to-bring-both-snapdragon-8-elite-gen-6-and-8-elite-extreme-gen-6-to-market/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-series-will-be-the-first-to-bring-both-snapdragon-8-elite-gen-6-and-8-elite-extreme-gen-6-to-market",
+      "summary": "At the 2026 Snapdragon Summit, Zeng Xuezhong, Senior Vice President of Xiaomi Group and President of the International Department, announced that Xiaomi will be the world’s first to launch phones powered by Qualcomm’s latest Snapdragon 8 Elite Gen 6 series. The Xiaomi 18 Pro will use the standard chipset, while the 18 Pro Max will [&#8230;] The post Xiaomi 18 Pro series will be the first to bring ",
+      "published": "2026-09-23T07:00:36+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/09/23/xiaomi-18-pro-official-specs-features/"
+      ]
+    },
+    {
+      "id": "f18ad138f718902a",
+      "title": "Rollme launches Matrix smartwatch with 4G, GPS, AMOLED display and a pop-up camera",
+      "url": "https://www.gizmochina.com/2026/09/23/rollme-matrix-smartwatch-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/rollme-matrix-smartwatch-launched-specs-price",
+      "summary": "Rollme has launched the Matrix, a new wearable designed to function as a standalone 4G device on your wrist. Thanks to a dedicated SIM card slot, built-in GPS, and an unusual side-mounted pop-up camera, the smartwatch can operate independently without a smartphone. Rollme Matrix Specifications The Matrix features support for global 4G frequency bands, allowing [&#8230;] The post Rollme launches Ma",
+      "published": "2026-09-23T11:56:16+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Yanko Design"
+      ],
+      "related_urls": [
+        "https://www.yankodesign.com/2026/09/23/rollme-matrix-is-89-4g-smartwatch-with-a-crown-mounted-pop-up-camera/?utm_source=rss&utm_medium=rss&utm_campaign=rollme-matrix-is-89-4g-smartwatch-with-a-crown-mounted-pop-up-camera"
+      ]
+    },
+    {
+      "id": "17b55c539560ab62",
+      "title": "Xiaomi 18 Pro series officially confirmed to launch globally this year",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-series-global-launch-confirmed/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/xiaomi-18-pro-series-global-launch-confirmed",
+      "summary": "In September 2025, Xiaomi unveiled the Xiaomi 17, 17 Pro, and 17 Pro Max. While the standard model was released globally, the Pro variants remained exclusive to the Chinese market. Now, the brand has taken the covers off the Xiaomi 18 Pro series in China. And the good news is that it is going global. [&#8230;] The post Xiaomi 18 Pro series officially confirmed to launch globally this year appeared",
+      "published": "2026-09-23T14:07:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5f4aa9d2c91b9dae",
+      "title": "Qualcomm is solving Snapdragon X’s Linux problem",
+      "url": "https://www.androidauthority.com/snapdragon-laptop-linux-3714807/",
+      "canonical": "https://www.androidauthority.com/snapdragon-laptop-linux-3714807",
+      "summary": "Bringing this powerful operating system to the very latest in mobile computing hardware.",
+      "published": "2026-09-23T21:39:50+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Phoronix",
+        "XDA Developers"
+      ],
+      "related_urls": [
+        "https://www.xda-developers.com/qualcomm-is-helping-linux-run-better-on-snapdragon-x2-laptops-with-an-early-developer-preview/",
+        "https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux"
+      ]
+    },
+    {
+      "id": "81b1b6bc78793f74",
+      "title": "Realme Buds T500 Pro Harry Potter Edition hands-on",
+      "url": "https://www.gsmarena.com/realme_buds_t500_pro_harry_potter_edition_hands_on-news-74712.php",
+      "canonical": "https://www.gsmarena.com/realme_buds_t500_pro_harry_potter_edition_hands_on-news-74712.php",
+      "summary": "Realme teamed up with Warner Bros. Discovery Global Consumer Products last year for the Realme 15 Pro Game of Thrones Limited Edition smartphone. Earlier this week, the company unveiled two more limited-edition products in partnership with Warner Bros., inspired by the Harry Potter universe. The products that got the Harry Potter treatment are the Realme 16 Pro and the Realme Buds T500 Pro TWS ear",
+      "published": "2026-09-23T03:17:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8c606e56a7d18779",
+      "title": "Amazfit T-Rex Dual Solar launches with dual-sided solar charging and 25-day battery life",
+      "url": "https://www.gizmochina.com/2026/09/23/amazfit-t-rex-dual-solar-launches-with-dual-sided-solar-charging-and-25-day-battery-life/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/amazfit-t-rex-dual-solar-launches-with-dual-sided-solar-charging-and-25-day-battery-life",
+      "summary": "Amazfit has launched the T-Rex Dual Solar, its first AMOLED smartwatch with solar panels on both the front and back. The watch is designed for long trips and multi-day treks where access to a power outlet can be limited. It is priced at $649.99. The watch offers up to 25 days of typical battery life, [&#8230;] The post Amazfit T-Rex Dual Solar launches with dual-sided solar charging and 25-day bat",
+      "published": "2026-09-23T05:12:04+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "78f6d2a5880bf0a8",
+      "title": "Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 debut",
+      "url": "https://www.gsmarena.com/snapdragon_8_elite_extreme_gen_6_and_8_elite_gen_6_debut-news-74721.php",
+      "canonical": "https://www.gsmarena.com/snapdragon_8_elite_extreme_gen_6_and_8_elite_gen_6_debut-news-74721.php",
+      "summary": "Qualcomm’s latest flagship chipsets are now official. The new Snapdragon 8 Elite Extreme Gen 6 and Snapdragon 8 Elite Gen 6 mobile platforms are built on a 2nm process and feature Oryon CPU cores clocked at up to 5.0GHz. The Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 feature 64 bit Oryon CPUs paired with new Adreno GPUs and Hexagon NPUs. Both chipsets feature two Prime cores clocked at up ",
+      "published": "2026-09-23T07:39:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 official",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/09/23/qualcomm-announces-snapdragon-sound-elite-gen-2/"
+      ]
+    },
+    {
+      "id": "ec4dca2f58daad84",
+      "title": "Xiaomi launches red Transparent Special Edition for the 18 Pro and 18 Pro Max",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-red-transparent-special-edition-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/xiaomi-red-transparent-special-edition-launched-specs-price",
+      "summary": "Xiaomi has announced a Transparent Special Edition for its Xiaomi 18 Pro and 18 Pro Max smartphones. The new models are priced at 9,999 yuan ($1,492) for the 18 Pro and 10,999 yuan ($1,642) for the 18 Pro Max. Both versions are available in a single configuration featuring 16GB of RAM and 1TB of internal [&#8230;] The post Xiaomi launches red Transparent Special Edition for the 18 Pro and 18 Pro M",
+      "published": "2026-09-23T14:31:55+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2081cb28b7c81e0e",
+      "title": "Control Resonant Steam build leaks before release date, giving pirates early access",
+      "url": "https://www.notebookcheck.net/Control-Resonant-Steam-build-leaks-before-release-date-giving-pirates-early-access.1406843.0.html",
+      "canonical": "https://www.notebookcheck.net/Control-Resonant-Steam-build-leaks-before-release-date-giving-pirates-early-access.1406843.0.html",
+      "summary": "Control Resonant early access isn't an option for Xbox or PC players. Still, hackers have distributed a working Steam build a day in advance of its September 24th release date. An increasing number of AAA games with costly pre-order previews have fallen victim to piracy.",
+      "published": "2026-09-23T16:13:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 review",
+        "+4 pre-order",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2afa18180ca74729",
+      "title": "Xiaomi launches Watch S5 Transparent Edition with a see-through glass body, limited to just 5000 units",
+      "url": "https://www.gizmochina.com/2026/09/23/xiaomi-watch-s5-transparent-edition-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/xiaomi-watch-s5-transparent-edition-launched-specs-price",
+      "summary": "Xiaomi has announced a new variant in its wearable lineup, the Watch S5 Transparent Edition, which launched today alongside the standard 41mm Watch S5. The new model is priced at 2,499 yuan ($372) and will be restricted to a production run of just 5,000 units. Design Details The differentiator for this model is its casing. [&#8230;] The post Xiaomi launches Watch S5 Transparent Edition with a see-",
+      "published": "2026-09-23T19:03:44+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a8cc17f4848c61cd",
+      "title": "Airbus turned the Steam Deck into a controller for a prototype Mars rover",
+      "url": "https://www.tomshardware.com/video-games/handheld-gaming/airbus-turned-the-steam-deck-into-a-controller-for-a-prototype-mars-rover-valve-handheld-pc-gives-engineers-command-of-the-exomars-platform-during-testing",
+      "canonical": "https://www.tomshardware.com/video-games/handheld-gaming/airbus-turned-the-steam-deck-into-a-controller-for-a-prototype-mars-rover-valve-handheld-pc-gives-engineers-command-of-the-exomars-platform-during-testing",
+      "summary": "Airbus engineers have employed Valve's Steam Deck handheld as a fancy remote control for the firm's new ExoMars",
+      "published": "2026-09-23T10:00:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 prototype",
+        "+4 handheld",
+        "+3 steam deck",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cd7b7b8b91db381a",
+      "title": "RTX 6090 launch : Moore's Law Is Dead leaks more RTX 60 release date information",
+      "url": "https://www.notebookcheck.net/RTX-6090-launch-Moore-s-Law-Is-Dead-leaks-more-RTX-60-release-date-information.1406465.0.html",
+      "canonical": "https://www.notebookcheck.net/RTX-6090-launch-Moore-s-Law-Is-Dead-leaks-more-RTX-60-release-date-information.1406465.0.html",
+      "summary": "Moore's Law Is Dead has responded to people who are skeptical regarding the 2027 release date of the next-gen Nvidia GeForce RTX 6090. MLID's Nvidia source has doubled down on the information that the RTX 6090 will be ready for launch in 2027.",
+      "published": "2026-09-23T21:06:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/09/23/ios-27-2-new-features-release-date/"
+      ]
+    },
+    {
+      "id": "1fe16e0d281695ef",
+      "title": "Soulart Station – A markerless full-body motion tracker for VR and VTubers (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/09/23/soulart-station-a-markerless-full-body-motion-tracker-for-vr-and-vtubers/",
+      "canonical": "https://www.cnx-software.com/2026/09/23/soulart-station-a-markerless-full-body-motion-tracker-for-vr-and-vtubers",
+      "summary": "South Korean startup Soulart has launched the Soulart Station, a markerless full-body motion tracker for VR, VTubing, and motion capture. The device uses a Time-of-Flight (ToF) sensor and an onboard Neural Processing Unit (NPU) to capture 3D point cloud data and process motion tracking on the device. By running machine learning models locally, it avoids expensive PC-side GPU computation or cloud p",
+      "published": "2026-09-23T00:00:07+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c55366507f5672c4",
+      "title": "(PR) SteelSeries Unveils Limited-Edition Cyber and Steel Apex Pro TKL Gen 3 Keyboards",
+      "url": "https://www.techpowerup.com/352984/steelseries-unveils-limited-edition-cyber-and-steel-apex-pro-tkl-gen-3-keyboards",
+      "canonical": "https://www.techpowerup.com/352984/steelseries-unveils-limited-edition-cyber-and-steel-apex-pro-tkl-gen-3-keyboards",
+      "summary": "SteelSeries, the original esports brand that fuses gaming culture, is leading the way in defining a gaming lifestyle. The worldwide brand creates industry-defining esports and gaming peripherals with a focus on premium quality, innovation, and functionality. The brand added the new LTD Series to its award-winning line of Apex Pro Gen 3 Series Keyboards as part of SteelSeries' 25th Anniversary cele",
+      "published": "2026-09-23T08:14:03+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8a0092f2632a0ee0",
+      "title": "Googlebook vs Chromebook: What changes with Google’s Android laptop",
+      "url": "https://www.gizmochina.com/2026/09/23/googlebook-vs-chromebook-what-changes-with-googles-android-laptop/",
+      "canonical": "https://www.gizmochina.com/2026/09/23/googlebook-vs-chromebook-what-changes-with-googles-android-laptop",
+      "summary": "Google just made the Chromebook decision a little more complicated. After confirming back in May that it was building an Android-based alternative to ChromeOS, Googlebook is now official, available for pre-order, and set to hit stores on October 4. It&#8217;s not a rebrand, either. Google has created a new laptop category with its own operating [&#8230;] The post Googlebook vs Chromebook: What cha",
+      "published": "2026-09-23T10:08:50+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d3a9ccf93a43d7b2",
+      "title": "More Samsung Galaxy Tab S12 renders have leaked",
+      "url": "https://www.sammobile.com/news/more-samsung-galaxy-tab-s12-renders-have-leaked/",
+      "canonical": "https://www.sammobile.com/news/more-samsung-galaxy-tab-s12-renders-have-leaked",
+      "summary": "Samsung is preparing to launch a couple of new premium tablets. The Galaxy Tab S12+ and Galaxy Tab S12 Ultra haven't been officially announced yet, but the latest leaks leave little to the imagination. A new series of Tab S12 renders have emerged via WinFuture, showing the same familiar face as before. The Galaxy Tab [ ]",
+      "published": "2026-09-23T11:40:36+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8119d178152f0e30",
+      "title": "ASUS Officially Launches Googlebook 14 With Up To Core Ultra 7 Series 3 Processor And A 3K OLED Touchscreen Display",
+      "url": "https://wccftech.com/asus-officially-launches-googlebook-14/",
+      "canonical": "https://wccftech.com/asus-officially-launches-googlebook-14",
+      "summary": "ASUS has released its own Googlebook 14 model alongside other vendors, featuring powerful configuration based on Intel Panther Lake. ASUS Unveils Googlebook 14 Ultraportable Laptop With Up To 64 GB RAM, 70Wh Battery, and Core Ultra 7 Processor at Just Under 0.99 Kg Multiple vendors are now preparing their own Googlebook laptops, featuring the Google OS, and today, ASUS has joined in launching its ",
+      "published": "2026-09-23T11:52:54+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7bf0bb4a905f1ae5",
+      "title": "Leak threatens major price hike for the Galaxy Tab S12 Ultra and Tab S12+ in India",
+      "url": "https://www.gsmarena.com/leak_threatens_major_price_hike_for_the_galaxy_tab_s12_ultra_and_tab_s12_in_india-news-74730.php",
+      "canonical": "https://www.gsmarena.com/leak_threatens_major_price_hike_for_the_galaxy_tab_s12_ultra_and_tab_s12_in_india-news-74730.php",
+      "summary": "The Galaxy Tab S12+ and Galaxy Tab S12 Ultra are expected to be unveiled on October 7, though Samsung hasn’t confirmed the date yet. Obviously, the company hasn’t said anything about the prices either – that said, a leaked poster that was shared by Sparrows News may reveal the prices for India. Galaxy Tab S12 series – rumored prices for India Galaxy Tab S12+ Wi-Fi 12/256GB ₹130,000 Galaxy Tab S12+",
+      "published": "2026-09-23T13:57:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "afed4243b68a1d31",
+      "title": "Yoniq's Kickstarter For The Duo & Portal Handhelds Are Going Live This Year",
+      "url": "https://retrododo.com/yoniqs-kickstarter-for-the-duo-portal-handhelds-are-going-live-this-year/",
+      "canonical": "https://retrododo.com/yoniqs-kickstarter-for-the-duo-portal-handhelds-are-going-live-this-year",
+      "summary": "&#x1f91d; Don t want to see ads? Become a premium member for &#x24;3 a month and support an independent publication today! I try my best to keep in touch with handheld manufacturers around the globe, especially the ones we cover extneisvely here at Retro Dodo. I knew Yoniq",
+      "published": "2026-09-23T15:02:02+00:00",
+      "source_id": "retrododo",
+      "source": "Retro Dodo",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 kickstarter",
+        "+4 handheld",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "32600247f812c0fc",
+      "title": "(PR) Titan Quest II Launches January 2027 on PC and Consoles",
+      "url": "https://www.techpowerup.com/353009/titan-quest-ii-launches-january-2027-on-pc-and-consoles",
+      "canonical": "https://www.techpowerup.com/353009/titan-quest-ii-launches-january-2027-on-pc-and-consoles",
+      "summary": "The Moirai have woven a long thread - after roughly a year and a half of hard Early Access labor, that thread is finally nearing its final knot. Hermes, herald of the gods, has descended to the mortal realm to announce the decision of the Pantheon: the Olympians are pleased with the efforts of hundreds of thousands of mortal adventurers, who already faced their Nemesis. In their eternal, divine gr",
+      "published": "2026-09-23T18:03:13+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/titan-quest-ii-january-2027-launch-5-week-gap-path-of-exile-2/"
+      ]
+    },
+    {
+      "id": "c50fe6acc93628f7",
+      "title": "Logitech launches the Pro X2 Rapid with an OLED display and 8kHz polling",
+      "url": "https://www.notebookcheck.net/Logitech-launches-the-Pro-X2-Rapid-with-an-OLED-display-and-8kHz-polling.1406996.0.html",
+      "canonical": "https://www.notebookcheck.net/Logitech-launches-the-Pro-X2-Rapid-with-an-OLED-display-and-8kHz-polling.1406996.0.html",
+      "summary": "Logitech’s second-generation rapid-trigger keyboard lets players adjust its most important settings through a new OLED display. It also gets 8kHz polling, lighter magnetic switches and finer actuation adjustments, but these upgrades come with a $60 higher launch price.",
+      "published": "2026-09-23T18:25:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
