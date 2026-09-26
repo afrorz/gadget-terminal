@@ -1,0 +1,685 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T08:05:48.552176+09:00",
+  "stats": {
+    "fetched": 719,
+    "unique": 679,
+    "new": 209,
+    "clusters": 203,
+    "selected": 30
+  },
+  "items": [
+    {
+      "title": "Makuake｜【ステンレスより約40％軽量】切れ味爽快。特殊技術が実現した軽いチタン製包丁｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/bds1_07_titaniumknife/",
+      "summary": "リターン品の配送が完了するまで、番場デザイン制作所はBlade Legendの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。試作品のテスト動画。木材に叩きつけた後でも、紙をスーッと、カット可能。チタンの硬度を高めた結果、高い耐久性・切れ味を実現することができました。抑えることなく、トマトを薄くカットできる切れ味。過去2回のプロジェクト",
+      "image": "https://static.makuake.com/upload/project/53609/main_53609.jpg?version=1789356191&amp;width=690&amp;height=388",
+      "published": "2026-09-30T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "d6dd66dd62c73c09",
+      "canonical": "https://www.makuake.com/project/bds1_07_titaniumknife",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5dc25e0033ab00d8",
+      "title": "Epson launches three new 4K laser home cinema projectors",
+      "url": "https://www.notebookcheck.net/Epson-launches-three-new-4K-laser-home-cinema-projectors.1409083.0.html",
+      "canonical": "https://www.notebookcheck.net/Epson-launches-three-new-4K-laser-home-cinema-projectors.1409083.0.html",
+      "summary": "Epson has unveiled the Home Cinema LS5000, LS6000 and LS7500, three 4K HDR laser projectors priced at $1,999.99, $2,199.99 and $2,699.99. The models use 3-chip 3LCD engines rated at 2,500 to 3,500 lumens, accept 4K at 120Hz over HDMI 2.1, project images up to 300 inches and ship in late September, below the $4,499.99 LS11000.",
+      "published": "2026-09-26T08:43:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 price",
+        "+3 projector",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3ac81fc28f7681c8",
+      "title": "Oppo gives us our best look yet at the upcoming K14 Plus, confirms memory options",
+      "url": "https://www.gsmarena.com/oppo_k14_plus_official_images_memory_options_colors-news-74784.php",
+      "canonical": "https://www.gsmarena.com/oppo_k14_plus_official_images_memory_options_colors-news-74784.php",
+      "summary": "Oppo recently announced that it would unveil the K14 Plus in India on September 29, with online retailer Flipkart revealing its design, color options, and key specs. Now, Oppo has set up a page on its Indian website and shared images of the K14 Plus, giving us our best look at it yet. The Oppo K14 Plus' white model is called Star White, and the orange version is called Solar Orange. Both have the ",
+      "published": "2026-09-26T09:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d0292ad9811cb729",
+      "title": "Here's proof the vivo X500 Pro Max is a cameraphone to be reckoned with",
+      "url": "https://www.gsmarena.com/camera_samples_from_the_vivo_x500_pro_max_shanghai-news-74779.php",
+      "canonical": "https://www.gsmarena.com/camera_samples_from_the_vivo_x500_pro_max_shanghai-news-74779.php",
+      "summary": "We had the distinct pleasure of attending vivo's X500 series unveiling in Shanghai, China. If you've never been to such an event, it's pretty nice; the maker usually arranges a bunch of photo opportunities around the location, and vivo did just that. So we went to a couple of places, vivo X500 Pro Max in hand, and took some photos. We did share a bunch of these pics with you in our hands-on, but w",
+      "published": "2026-09-26T01:03:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7b8618775a6a593c",
+      "title": "The \"first\" Snapdragon 8 Elite Extreme phone - Xiaomi 18 Pro Max Hands-On!",
+      "url": "https://www.notebookcheck.net/The-iPhone-18-Pro-founds-its-match-Xiaomi-18-Pro-Hands-On.1409432.0.html",
+      "canonical": "https://www.notebookcheck.net/The-iPhone-18-Pro-founds-its-match-Xiaomi-18-Pro-Hands-On.1409432.0.html",
+      "summary": "Video | Directly from Qualcomm’s Snapdragon Summit in Maui, Hawaii, Alex gets a hands-on preview of Xiaomi’s new flagship smartphones: the Xiaomi 18 Pro and Xiaomi 18 Pro Max! With the new silicon, dual displays, a privacy display, and a potential global release, these could be trouble for Apple's latest iPhones...",
+      "published": "2026-09-26T19:22:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "14468f393cc911a3",
+      "title": "Bose launches special edition version of QuietComfort Ultra headphones",
+      "url": "https://www.notebookcheck.net/Bose-launches-special-edition-version-of-QuietComfort-Ultra-headphones.1409231.0.html",
+      "canonical": "https://www.notebookcheck.net/Bose-launches-special-edition-version-of-QuietComfort-Ultra-headphones.1409231.0.html",
+      "summary": "Bose’s limited-edition Thom Browne QuietComfort Ultra Headphones (2nd Gen) pair cashmere cushioning and signature striped detailing with the standard model’s unchanged audio, noise cancellation and 30-hour battery life. Carrying a hefty price tag, the fashion-focused headphones are available for preorder ahead of September 28 shipping.",
+      "published": "2026-09-26T19:58:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 preorder",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "652ea0e66197b0fd",
+      "title": "First hands-on photos of Casio's limited-edition MRG-B2100HR showcase unique dual-nature finish",
+      "url": "https://www.notebookcheck.net/First-hands-on-photos-of-Casio-s-limited-edition-MRG-B2100HR-showcase-unique-dual-nature-finish.1409082.0.html",
+      "canonical": "https://www.notebookcheck.net/First-hands-on-photos-of-Casio-s-limited-edition-MRG-B2100HR-showcase-unique-dual-nature-finish.1409082.0.html",
+      "summary": "Hodinkee Japan has published the first hands-on photos of Casio's MRG-B2100HR. They show the structural colour on the bezel and bracelet only appears in direct light, leaving a near-black watch the rest of the time. It goes on sale on November 13.",
+      "published": "2026-09-26T04:41:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+5 hands-on",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "497d234ad9a73e3d",
+      "title": "Here are some more renders of the Samsung Galaxy Tab S12+ and Galaxy Tab S12 Ultra",
+      "url": "https://www.gsmarena.com/samsung_galaxy_tab_s12_plus_galaxy_tab_s12_ultra_renders-news-74785.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_tab_s12_plus_galaxy_tab_s12_ultra_renders-news-74785.php",
+      "summary": "Samsung was expected to unveil the Galaxy Tab S12+ and Galaxy Tab S12 Ultra this month, but rumors now suggest it will make these tablets official next month - October 7, to be precise. Leaked renders of both tablets revealed their designs, so we already know what they would look like. Now a new set of renders has surfaced, corroborating earlier design leaks. The Samsung Galaxy Tab S12 Ultra has a",
+      "published": "2026-09-26T13:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "633f119462fa0354",
+      "title": "Here's the Apple HomePod Mini 2 in all its colors",
+      "url": "https://www.gsmarena.com/apple_homepod_mini_2_design_colors-news-74786.php",
+      "canonical": "https://www.gsmarena.com/apple_homepod_mini_2_design_colors-news-74786.php",
+      "summary": "Apple unveiled the first HomePod Mini in October 2020. It was initially offered in white and midnight, then later in blue, orange, and yellow. Now, an image of the yet-to-be-launched HomePod Mini 2, shared by MacRumors, shows the speaker in all its colors. The image below shows the HomePod Mini 2 in five colors: pink, white, green, blue, and midnight. Pink and green are new colors, while the blue ",
+      "published": "2026-09-26T16:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1666d483965988f3",
+      "title": "Casio launches new collab DW-5600 G-Shock watch in the US with flashy gold makeover",
+      "url": "https://www.gizmochina.com/2026/09/26/casio-dw-5600bep-9-blackeyepatch-g-shock-launched-in-the-us/",
+      "canonical": "https://www.gizmochina.com/2026/09/26/casio-dw-5600bep-9-blackeyepatch-g-shock-launched-in-the-us",
+      "summary": "Casio is bringing its newest streetwear collaboration to the US market. The company has listed the DW-5600BEP-9, a G-Shock designed in partnership with Tokyo-based apparel brand BlackEyePatch, on its US website. The watch originally launched in Japan earlier in September and is now scheduled to go on sale in the US on October 9th, 2026, [&#8230;] The post Casio launches new collab DW-5600 G-Shock ",
+      "published": "2026-09-26T16:16:15+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "23c2c94cf6c8e9aa",
+      "title": "Nikon launches Z5IIC full-frame camera with 15 scene modes & 4K 60fps video",
+      "url": "https://www.gizmochina.com/2026/09/26/nikon-z5iic-camera-launched-in-india-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/26/nikon-z5iic-camera-launched-in-india-specs-price",
+      "summary": "Nikon is expanding its mirrorless camera lineup in India with the new Z5IIC, which is scheduled to arrive this October. The full-frame camera is priced at Rs. 139,995 ($1,460) for the body only and is designed to make the jump from smartphone photography a little easier. It pairs a full-frame sensor with several beginner-friendly features, [&#8230;] The post Nikon launches Z5IIC full-frame camera ",
+      "published": "2026-09-26T13:53:28+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b1ff66e1c48e98db",
+      "title": "Rockstar readies GTA 6 to ship by release date, adding regional editions that may cut content",
+      "url": "https://www.notebookcheck.net/Rockstar-readies-GTA-6-to-ship-by-release-date-adding-regional-editions-that-may-cut-content.1408694.0.html",
+      "canonical": "https://www.notebookcheck.net/Rockstar-readies-GTA-6-to-ship-by-release-date-adding-regional-editions-that-may-cut-content.1408694.0.html",
+      "summary": "The Rockstar Store has taken another necessary step to fulfill GTA 6 pre-orders and avoid a delay. Regional codes now appear in the backend for the physical PS5 version. This may point to country-specific variations with edited content to match age ratings.",
+      "published": "2026-09-26T02:29:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 pre-order",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "00da45d4a877cd95",
+      "title": "Cheaper Panther Lake-powered MSI Claw gaming handheld arrives with Arc G3",
+      "url": "https://www.notebookcheck.net/Cheaper-Panther-Lake-powered-MSI-Claw-gaming-handheld-arrives-with-Arc-G3.1409096.0.html",
+      "canonical": "https://www.notebookcheck.net/Cheaper-Panther-Lake-powered-MSI-Claw-gaming-handheld-arrives-with-Arc-G3.1409096.0.html",
+      "summary": "The MSI Claw 8 EX AI+ with the non-Extreme Intel Arc G3 has been formally released in China. It's about $150 more affordable in that market and retains the core specs of the other configuration available for the gaming handheld.",
+      "published": "2026-09-26T09:51:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 specs",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3b91b20c5500c597",
+      "title": "Anker launches new security camera with dual 4K lenses and radar detection",
+      "url": "https://www.notebookcheck.net/Anker-launches-new-security-camera-with-dual-4K-lenses-and-radar-detection.1409222.0.html",
+      "canonical": "https://www.notebookcheck.net/Anker-launches-new-security-camera-with-dual-4K-lenses-and-radar-detection.1409222.0.html",
+      "summary": "Anker has opened pre-orders for the eufy SoloCam E50, a $229.99 solar-powered pan-tilt security camera with two 4K lenses, 12x hybrid zoom, radar detection and a 10,000mAh battery, due to ship by the end of October 2026. It follows the $129.99 SoloCam E40, which recorded 2K video from a single fixed lens and stored clips on 8GB of built-in memory.",
+      "published": "2026-09-26T12:08:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "482b0e5da1292179",
+      "title": "Sandisk Optimus GX Pro 850P 2TB SSD review: A PS5 SSD you recognize at a price you don’t",
+      "url": "https://www.tomshardware.com/pc-components/ssds/sandisk-optimus-gx-pro-850p-2tb-ssd-review",
+      "canonical": "https://www.tomshardware.com/pc-components/ssds/sandisk-optimus-gx-pro-850p-2tb-ssd-review",
+      "summary": "The Sandisk Optimus GX Pro 850P is a WD Black SN850P by another name. It’s a great PS5 SSD with good performance in a mature package, but with a stiff premium.",
+      "published": "2026-09-26T13:00:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "14d312538860941d",
+      "title": "Meta Unveils AI Tools That Build Playable Games From Text Prompts",
+      "url": "https://www.techpowerup.com/353108/meta-unveils-ai-tools-that-build-playable-games-from-text-prompts",
+      "canonical": "https://www.techpowerup.com/353108/meta-unveils-ai-tools-that-build-playable-games-from-text-prompts",
+      "summary": "Meta has detailed Horizon Create and Horizon Studio , two generative AI tools that can let people build playable 2D and 3D games from text prompts. Horizon Create is a mobile app aimed at quick, on-the-go creation, while Horizon Studio is a web-based tool with more granular controls for editing details like difficulty, art direction, and progression systems. Both run on the Meta Horizon Engine and",
+      "published": "2026-09-26T00:26:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "143d319c3f0f478b",
+      "title": "让 AI 学会“挑刺”：根据说明书 + 照片指出家具是否装错，OpenAI GPT-6 Astra 准确率已达 80%",
+      "url": "https://www.ithome.com/1/007/414.htm",
+      "canonical": "https://www.ithome.com/1/007/414.htm",
+      "summary": "IT之家 9 月 26 日消息，Epoch AI 于当地时间 9 月 23 日进行了一组家具组装基准测试（Furniture Assembly Benchmark，FAB）。结果显示，多模态 AI 在识别宜家家具组装错误方面取得明显进展。 其中，OpenAI 最新的 GPT-6 Astra 在该基准测试中达到 80% 的准确率，相比 2025 年底提升近三倍。 FAB 是一项专门评估 AI 理解现实世界装配过程能力的测试。该测试用 60 张宜家家具组装过程照片评估 AI 模型的视觉与空间推理能力。测试人员选取三款宜家家具故意错误组装，并拍摄不同阶段的照片，要求 AI 将照片与官方安装说明书进行比对，找出错误位置并说明具体问题。 研究团队认为，这类能力与汽车维修、家电检修等需要结合图像和技术说明进行判断的任务具有较高相关性，因此具有一定实际应用价值。 在测试时，AI 不仅会获得组装时的照片，",
+      "published": "2026-09-26T10:18:15+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 benchmark",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "639143459e946fa2",
+      "title": "OPPO Find X10 Pro Max vs Galaxy S26 Ultra: Which Flagship Is Worth Your Money?",
+      "url": "https://www.gizmochina.com/2026/09/26/oppo-find-x10-pro-max-vs-galaxy-s26-ultra/",
+      "canonical": "https://www.gizmochina.com/2026/09/26/oppo-find-x10-pro-max-vs-galaxy-s26-ultra",
+      "summary": "OPPO Find X10 Pro Max and Samsung Galaxy S26 Ultra represent two different approaches to the premium smartphone. OPPO pushes aggressive hardware with a 144Hz display, enormous 8,000mAh battery, triple 200MP cameras, and fast charging, while Samsung focuses on a more versatile camera system, S Pen functionality, software support, and productivity features. At very different [&#8230;] The post OPPO ",
+      "published": "2026-09-26T11:36:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/007/396.htm"
+      ]
+    },
+    {
+      "id": "09e0804b86d13709",
+      "title": "Xiaomi 18 Pro series available globally: Free shipping on all imports for a limited time only",
+      "url": "https://www.notebookcheck.net/Xiaomi-18-Pro-series-available-globally-Free-shipping-on-all-imports-for-a-limited-time-only.1409216.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-18-Pro-series-available-globally-Free-shipping-on-all-imports-for-a-limited-time-only.1409216.0.html",
+      "summary": "Both the Xiaomi 18 Pro and Xiaomi 18 Pro Max are already available outside China albeit not officially: Customers in Europe and many other parts of the world can order the new Leica camera flagships by importing them from Xiaomi`s home market. Here is a brief overview of the costs, your options and what to look out for.",
+      "published": "2026-09-26T11:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 official",
+        "+3 ships",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "17df6dab55f47f30",
+      "title": "荣耀 Magic9 Pro Max 手机搭载自研至臻黑钻屏：反射率 1.5%、峰值亮度 1 万尼特",
+      "url": "https://www.ithome.com/1/007/429.htm",
+      "canonical": "https://www.ithome.com/1/007/429.htm",
+      "summary": "IT之家 9 月 26 日消息，全新荣耀 Magic9 系列手机将于 9 月 28 日 14:30 发布并开售。 荣耀工作人员王飞今日发文表示，荣耀 Magic9 Pro Max 搭载自研至臻黑钻屏，包含 5600 层氮化硅镀膜， 反射率降低至 1.5% 。 官方海报显示，荣耀 Magic9 Pro Max 手机的屏幕支持 25 倍耐摔、15 倍耐刮， 峰值亮度可达 10000 尼特 。 博主 @数码闲聊站 已曝光荣耀 Magic9 Pro Max 手机规格信息，IT之家整理如下： 6.8\"2868*1320p 1.5K+120Hz LTPO 大直屏，大 R 角极窄四等边 骁龙 8EE6 处理器（第六代骁龙 8 超级至尊版），8800mAh 大电池 +100W 有线充 +80W 无线充 55Mp F2.0 1:1 方形前摄，后置 200Mp 1/1.28\" F1.57 超大底主摄 +50M",
+      "published": "2026-09-26T12:16:23+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/honor_keeps_teasing_the_magic9_pro_maxs_cinematic_mic_and_teleconverter-news-74780.php"
+      ]
+    },
+    {
+      "id": "938a66bb6542ba34",
+      "title": "PeakDo teases new Starlink Mini power bank with a semi-solid-state battery",
+      "url": "https://www.notebookcheck.net/PeakDo-teases-new-Starlink-Mini-power-bank-with-a-semi-solid-state-battery.1408663.0.html",
+      "canonical": "https://www.notebookcheck.net/PeakDo-teases-new-Starlink-Mini-power-bank-with-a-semi-solid-state-battery.1408663.0.html",
+      "summary": "After launching a new compact power bank for the Starlink Mini, PeakDo is teasing a new product. A teaser for the new power bank has revealed it will have a semi-solid-state battery instead of a lithium battery like in its other products.",
+      "published": "2026-09-26T12:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 power bank",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1e97a27d44d326d2",
+      "title": "Modder Brings Path Tracing And Frame Generation to Grand Theft Auto 2 via RTX Remix",
+      "url": "https://www.techpowerup.com/353119/modder-brings-path-tracing-and-frame-generation-to-grand-theft-auto-2-via-rtx-remix",
+      "canonical": "https://www.techpowerup.com/353119/modder-brings-path-tracing-and-frame-generation-to-grand-theft-auto-2-via-rtx-remix",
+      "summary": "Modder gebdag has released GTA2 RTX Remix, a mod that brings full path tracing and dynamic time-of-day lighting to Grand Theft Auto 2, the 1999 top-down classic. NVIDIA's Jacob Freeman shared a clip of the mod on X, showing a day-night cycle that looks quite well-done. Apparently, the biggest hurdle in the process was technical, as GTA 2 ran on DirectDraw and an early version of Direct3D, neither ",
+      "published": "2026-09-26T18:46:22+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/video-games/pc-gaming/27-year-old-gta-2-gets-full-path-tracing-and-60-fps-frame-generation-via-rtx-remix-custom-direct3d-9-wrapper-modernizes-classic-with-custom-direct3d-9-bridge-unlocks-dynamic-lighting"
+      ]
+    },
+    {
+      "id": "f238c01c8fe942e1",
+      "title": "GTA 6 on Nintendo Switch 2 \"Doesn't Make Sense\" Former Rockstar Dev Says",
+      "url": "https://www.techpowerup.com/353106/gta-6-on-nintendo-switch-2-doesnt-make-sense-former-rockstar-dev-says",
+      "canonical": "https://www.techpowerup.com/353106/gta-6-on-nintendo-switch-2-doesnt-make-sense-former-rockstar-dev-says",
+      "summary": "Grand Theft Auto VI is stacking up to be one of, if not the biggest launch in the history of the games industry, if analyst predictions are true. Despite the massive hype around the game, it will still be a console exclusive at launch and likely for a considerable time after that. However, according to Jérémy Hartvick, a former Rockstar developer who worked on GTA VI until 2020, in a recent interv",
+      "published": "2026-09-26T03:33:34+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5c252998edfa21b2",
+      "title": "Resident Evil Requiem Analytics Tip $500m Revenue and High Physical Sales",
+      "url": "https://www.techpowerup.com/353109/resident-evil-requiem-analytics-tip-usd-500m-revenue-and-high-physical-sales",
+      "canonical": "https://www.techpowerup.com/353109/resident-evil-requiem-analytics-tip-usd-500m-revenue-and-high-physical-sales",
+      "summary": "Resident Evil Requiem topped 6 million sales within two weeks of its initial launch , so it's no secret that it's been a hit for Capcom, and it has, by Capcom's own account, broken sales records for the series in the process. It's no surprise, then, that Alinea Analytics is reporting that the game has sold an estimated 8.5 million copies across PlayStation 5, PC, and Xbox Series consoles. Surprisi",
+      "published": "2026-09-26T04:17:32+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "70c0f020bbf25b08",
+      "title": "Xiaomi announces Pocket Guitar as new magnetic accessory for Xiaomi 18 Pro",
+      "url": "https://www.gizmochina.com/2026/09/26/xiaomi-announces-pocket-guitar-as-new-magnetic-accessory-for-xiaomi-18-pro/",
+      "canonical": "https://www.gizmochina.com/2026/09/26/xiaomi-announces-pocket-guitar-as-new-magnetic-accessory-for-xiaomi-18-pro",
+      "summary": "Xiaomi has a new accessory for the latest Xiaomi 18 Pro and Pro Max, and it&#8217;s designed around their rear display. Because why not. Xiaomi already uses the secondary screen for AI-generated widgets and mini apps, and the new guitar accessory puts that screen to a more unusual use. The company launched Xiaomi Pocket Guitar, [&#8230;] The post Xiaomi announces Pocket Guitar as new magnetic acce",
+      "published": "2026-09-26T05:18:27+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fb7753777ff5ff5d",
+      "title": "The Galaxy Z Fold 8 is exactly what I’ve wanted in a foldable, but I’m more excited for the Z Fold 9",
+      "url": "https://www.androidauthority.com/samsung-galaxy-z-fold-8-review-3708629/",
+      "canonical": "https://www.androidauthority.com/samsung-galaxy-z-fold-8-review-3708629",
+      "summary": "The Galaxy Z Fold 8 is easily the closest I've come to pulling the trigger on a foldable. But I still can't do it.",
+      "published": "2026-09-26T10:15:20+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5e45d52b70e3a51d",
+      "title": "iQOO confirms new compact gaming tablet set to rival Legion Tab Gen 5",
+      "url": "https://www.notebookcheck.net/iQOO-confirms-new-compact-gaming-tablet-set-to-rival-Legion-Tab-Gen-5.1409215.0.html",
+      "canonical": "https://www.notebookcheck.net/iQOO-confirms-new-compact-gaming-tablet-set-to-rival-Legion-Tab-Gen-5.1409215.0.html",
+      "summary": "The iQOO Pad Ultra is set to launch soon as the first gaming-focused tab with the Snapdragon 8 Elite Extreme Gen 6. As the brand has just confirmed, another new 8.8-inch pad powered by the last-gen Snapdragon 8 Elite Gen 5 will also launch soon.",
+      "published": "2026-09-26T11:17:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "68b2f98e2fd26c42",
+      "title": "Xiaomi 18 Pro vs. Xiaomi 18 Pro Max: Video shows big difference between the two Leica main cameras",
+      "url": "https://www.notebookcheck.net/Xiaomi-18-Pro-vs-Xiaomi-18-Pro-Max-Video-shows-big-difference-between-the-two-Leica-main-cameras.1409236.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-18-Pro-vs-Xiaomi-18-Pro-Max-Video-shows-big-difference-between-the-two-Leica-main-cameras.1409236.0.html",
+      "summary": "There are obvious and less obvious differences between the two new Leica camera flagships based on the 2 nm Snapdragon 8 Elite Gen 6 and Snapdragon 8 Elite Extreme Gen 6 chipsets. The difference between their main camera sensors is far from transparent, but it makes a major difference in daily life, as a comparison video demonstrates.",
+      "published": "2026-09-26T13:47:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 ships",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "168dc2f4eaff512c",
+      "title": "Framework Laptop 13 Pro and highlights from the Framework [Next Gen] Event",
+      "url": "https://frame.work/blog/framework-laptop-13-pro-and-highlights-from-the-framework-next-gen-event",
+      "canonical": "https://frame.work/blog/framework-laptop-13-pro-and-highlights-from-the-framework-next-gen-event",
+      "summary": "Earlier today, we hosted our Framework [Next Gen] Event, where we announced Framework Laptop 13 Pro , updates to Framework Laptop 16 , and previews of the OCuLink Dev Kit and the Framework Wireless Touchpad Keyboard . You can watch a recording of the full event livestream on the Framework YouTube channel. Six years into our existence as a company, these new products represent a step change in our ",
+      "published": "2026-04-21T18:36:19+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c0c09d1ffdf2d479",
+      "title": "Lilbits: GrapheneOS coming to Moto phones in 2027, Apple launches Mac Mini with M6 and Mac Studio with M5 Ultra, Lenovo launches a handheld for game streaming",
+      "url": "https://liliputing.com/lilbits-grapheneos-coming-to-moto-phones-in-2027-apple-launches-mac-mini-with-m6-and-mac-studio-with-m5-ultra-lenovo-launches-a-handheld-for-game-streaming/",
+      "canonical": "https://liliputing.com/lilbits-grapheneos-coming-to-moto-phones-in-2027-apple-launches-mac-mini-with-m6-and-mac-studio-with-m5-ultra-lenovo-launches-a-handheld-for-game-streaming",
+      "summary": "Earlier this year we learned that Motorola was working with the folks behind the security-hardened version of Android called GrapheneOS. Now it looks like the fruits of that labor are expected to ripen next year. While Motorola isn&#8217;t expected to ship any phones with the operating pre-installed, GrapheneOS plans to add official support for some [&#8230;] The post Lilbits: GrapheneOS coming to",
+      "published": "2026-08-25T20:54:20+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 handheld",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}
