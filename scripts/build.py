@@ -392,6 +392,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <script>(function(){{try{{if(localStorage.getItem("gt-theme")==="dark"){{document.documentElement.setAttribute("data-theme","dark");document.querySelector('meta[name=theme-color]').content="#0a0d16";}}}}catch(e){{}}}})();</script>
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">{sc_meta}
+<meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="{html.escape(full_url)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{html.escape(s['title'])}">
