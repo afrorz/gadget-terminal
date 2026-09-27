@@ -1,5 +1,6 @@
-"""daily-article.yml が公開した新着記事を、X 自動投稿アプリ(x-poster)の
-取り込み口(ingestGadgetPosts)へ送る。
+"""daily-article.yml が公開した新着記事を、X 投稿アプリ(x-poster)の
+取り込み口(ingestGadgetPosts)へ送る。アプリの GT タブに「コピペで投稿できる
+素材」として並び、本人が手動で X に投稿する。
 
 新着の判定は「ワークフロー開始時点の HEAD」から「今の HEAD」までの間に
 追加された content/posts/*.md の差分で行う。記事が1本も追加されなかった回
@@ -60,14 +61,20 @@ def build_hashtags(tags) -> str:
     return " ".join(out)
 
 
-def compose_text(hook: str, url: str, hashtags: str) -> str:
-    """1通で投稿する本文。hook → 改行1つ → ハッシュタグ → 改行2つ → URL
-    (Xが自動でカード展開する)。
+MAX_IMAGES = 4  # X の1ポストに付けられる画像の上限
 
-    以前はURLをリプライ側に分けていたが、運営判断で1通にまとめる方針に変更した
-    (2026-09-05)。"""
-    head = f"{hook}\n{hashtags}" if hashtags else hook
-    return f"{head}\n\n{url}"
+
+def image_urls(fm: dict) -> list[str]:
+    """X に添付する候補画像。build.py と同じく images を正とし、旧 thumbnail を補う。"""
+    urls = []
+    for it in fm.get("images") or []:
+        url = it if isinstance(it, str) else (it or {}).get("url")
+        url = str(url or "").strip()
+        if url and url not in urls:
+            urls.append(url)
+    if not urls and fm.get("thumbnail"):
+        urls.append(str(fm["thumbnail"]).strip())
+    return urls[:MAX_IMAGES]
 
 
 def site_base_url() -> str:
@@ -98,11 +105,17 @@ def main() -> int:
         if not slug or not hook:
             print(f"⚠ {path.name}: slug または x_hook が無いためスキップします")
             continue
-        url = f"{base_url}/posts/{slug}.html"
-        hashtags = build_hashtags(fm.get("tags"))
+        # 投稿文は組み立てずに素材のまま送る。X へは本人がアプリから
+        # コピペで手動投稿する(URL 付きの API 投稿は1件$0.20と割高なため、
+        # 2026-09-27 に自動投稿をやめた)。
         articles.append({
             "id": path.stem,
-            "text": compose_text(hook, url, hashtags),
+            "title": fm.get("title") or "",
+            "hook": hook,
+            "hashtags": build_hashtags(fm.get("tags")),
+            "url": f"{base_url}/posts/{slug}.html",
+            "images": image_urls(fm),
+            "ogImage": f"{base_url}/ogp/{slug}.png",
         })
 
     if not articles:
