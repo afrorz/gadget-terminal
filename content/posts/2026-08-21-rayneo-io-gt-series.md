@@ -23,6 +23,7 @@ faq:
 alternatives:
   - name: XREAL One（XREAL Japan／Amazon.co.jp）
     why: 国内正規販売でスマートフォンやSteam DeckなどをミラーリングできるARグラスを今日から購入できる。RayNeo iOのようなAIアシスタント機能は無いが、画面投影型ARグラスの使用感を試せる。
+    image: "https://jp.shop.xreal.com/cdn/shop/files/00_be6c9df7-b1c4-4490-82fd-d10d37e8bbe9.jpg?v=1755171464"
     url: https://jp.shop.xreal.com/products/xreal-one
 sources:
   - title: "RayNeo Unveils RayNeo iO Smart Glasses and Cinematic RayNeo GT Series"

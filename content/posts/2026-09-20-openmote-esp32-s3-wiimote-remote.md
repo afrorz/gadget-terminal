@@ -30,6 +30,7 @@ buy:
 alternatives:
   - name: Nature Remo nano
     why: 技適取得済みの国内メーカー製スマートリモコンで、Alexa/Google Home/Siriと連携し赤外線家電をまとめて操作できる。OpenMoteのようなボタン単体でのプログラマブル操作や6軸IMUによるジェスチャー入力は無いが、「スマホ経由で家中の家電をリモコン化する」という目的は今日から満たせる。
+    image: "https://shop.nature.global/cdn/shop/files/Remo-nano_1_97e6492c-4468-4e74-83fd-ae2d1e74551a.png?v=1700182325"
     url: https://www.amazon.co.jp/dp/B0C6V1CJB7
     merchant: amazon
 faq:

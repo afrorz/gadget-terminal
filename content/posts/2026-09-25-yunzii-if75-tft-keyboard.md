@@ -33,6 +33,7 @@ buy:
 alternatives:
   - name: Keychron Q1 Pro(国内正規品・JISレイアウト、Amazon.co.jp)
     why: 同じくQMK/VIA対応のホットスワップ基板を備えたカスタムメカニカルキーボードで、国内正規品として技適取得済み・JISレイアウトも選べる。カラーTFT画面は無いが、国内から今日購入でき無線利用に不安が無い。
+    image: "https://keychron.jp/cdn/shop/products/Keychron-Q1-Pro-QMK-VIA-wireless-custom-mechanical-keyboard-75_-layout-full-aluminum-black-frame-for-Mac-WIndows-Linux-with-RGB-backlight-and-hot-swappable-K-Pro-switch-red_1800x1800_868124e5-3cef-4dee-8fe3-b502459eee42.jpg?crop=center&height=1200&v=1676606039&width=1200"
     url: https://www.amazon.co.jp/dp/B0D5J67VJC
     merchant: amazon
 faq:

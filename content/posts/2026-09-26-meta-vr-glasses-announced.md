@@ -32,6 +32,7 @@ alternatives:
     why: 同じMetaのVRデバイスで、国内の技適・PSE認証を取得したMeta公式ストアが国内発送・国内保証付きで販売している。Meta VR Glassesと同じOS・コンテンツ基盤を使うため、Metaの空間コンピューティング体験を今日から先に試せる。
     url: https://www.amazon.co.jp/dp/B0CF1DLZPY
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg?_ex=400x400"
 sources:
   - title: "Meta VR Glasses Officially Announced, Shipping Spring 2027 For $1300"
     url: https://www.uploadvr.com/meta-vr-glasses-officially-announced-connect-2026/

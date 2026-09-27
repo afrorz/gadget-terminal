@@ -41,6 +41,7 @@ alternatives:
     why: ワイヤレス伝送機能を持たずUSB-C/HDMI接続のみのため、電波法・技適を気にせず今日から国内で使える。ワイヤレスでのスマホ画面ミラーリングはできないが、タッチ対応の携帯モニターという用途はすぐに満たせる。
     url: https://www.amazon.co.jp/dp/B09GK1HMKR
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/matsukageya/cabinet/root_sniper_folder/sniper_folder_00027/imgrc0112951965.jpg?_ex=400x400"
 ---
 
 ワイヤレス映像伝送を専門にしてきたメーカー4URPCが、15.6インチのタッチ対応モバイルモニター「4URPC X6」をKickstarterで公開した。同社にとって6回目のKickstarterプロジェクトで、これまでの受賞歴あるワイヤレス伝送機技術を、単体のモバイルモニターに統合したのが今回の新しさだという。掲載時点の支援額はHK$2,012,568で、目標HK$31,359に対し6,417%(974人が支援)。「Successfully funded」の表示が出ており、募集は2026年10月1日まで続く。

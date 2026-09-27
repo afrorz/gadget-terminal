@@ -42,6 +42,7 @@ sources:
 alternatives:
   - name: Raspberry Pi 公式 AI カメラ(IMX500搭載)
     why: 同じくセンサー上でAI推論を行うカメラモジュールで、国内Amazonから技適を気にせず今日から入手できる。Ovisのような低照度カラー補正(AI-ISP)機能は無いが、エッジAIカメラの入り口として使える。
+    image: "https://assets.raspberrypi.com/static/opengraph-eaa2fae5c4a457267dc374b13518c643.jpg"
     url: https://www.amazon.co.jp/RaspberryPi-AI-12MP%E3%80%81IMX500-%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%80%81IMX500-78-3%C2%B0FOV%E3%80%81Pi5/dp/B0DSBTHNKT
     merchant: amazon
 ---

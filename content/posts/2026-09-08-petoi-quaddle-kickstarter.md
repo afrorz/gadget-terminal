@@ -37,6 +37,7 @@ faq:
 alternatives:
 - name: Petoi Bittle V2 STEMキット(Amazon.co.jp)
   why: Quaddleと同じPetoiが手がける先代の四足歩行ロボットキットで、クラウドファンディングの出荷を待たずに国内から今日購入できる。OpenCatの開発環境を先に試しておきたい場合に使える。
+  image: "https://www.petoi.com/cdn/shop/files/black_yellow_light_blue_bittle_stands_with_text.png?v=1775845824"
   url: https://www.amazon.co.jp/dp/B0F8C51DPT
   merchant: amazon
 buy:

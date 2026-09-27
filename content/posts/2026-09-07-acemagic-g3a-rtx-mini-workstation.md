@@ -45,6 +45,7 @@ buy:
 alternatives:
 - name: MINISFORUM AtomMan G7 Ti(Core i9-14900HX/RTX 4070)
   why: 同じ「デスクトップ級CPU+専用GPUのミニPC」という用途を国内正規販売で満たす。Amazon.co.jpのMinisforum公式ストアが扱っており、日本語サポートと保証を受けられる。GPUはRTX 4070とG3AのRTX 2000 Adaよりゲーミング性能寄りだが、価格帯とサイズ感は近い。
+  image: "https://www.minisforum.com/cdn/shop/files/front_1200x1200.jpg?v=1731310417"
   url: https://www.amazon.co.jp/dp/B0DF5J86J7
   merchant: amazon
 ---

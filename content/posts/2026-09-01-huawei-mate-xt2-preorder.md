@@ -35,6 +35,7 @@ faq:
 alternatives:
 - name: Samsung Galaxy Z Fold7
   why: Samsung公式ストアの国内正規品で、FeliCa(おサイフケータイ)対応・技適取得済み・Google Play利用可能。3つ折りではなく通常の2つ折りだが、大画面折り畳みを技適やアプリ対応の心配なく今日から使える。
+  image: "https://images.samsung.com/jp/smartphones/galaxy-z-fold7/images/galaxy-z-fold7-share-image.jpg"
   url: https://www.amazon.co.jp/dp/B0FGNB9M2F
   merchant: amazon
 sources:

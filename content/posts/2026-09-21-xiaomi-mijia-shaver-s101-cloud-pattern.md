@@ -30,6 +30,7 @@ buy:
 alternatives:
 - name: パナソニック ラムダッシュ ES-LV9D(国内正規品)
   why: 国内正規品として今日から購入でき、メーカー保証と国内でのアフターサービスが付く。3枚刃・IPX7クラスの防水という基本仕様の方向性はS101雲紋刀頭版と共通する。
+  image: "https://panasonicjp.scene7.com/is/image/panasonicjp/ES-LV9D-S_%E3%83%95%E3%83%AA?wid=1200&hei=630"
   url: https://www.amazon.co.jp/dp/B09WY87N4L
   merchant: amazon
 faq:

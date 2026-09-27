@@ -28,6 +28,7 @@ images:
 alternatives:
   - name: ソニー mocopi(Amazon.co.jp)
     why: 体に6個の小型センサーを装着するマーカー式のモーションキャプチャで、Soulart Stationのようなマーカーレスではないが、VTuber・VR用途で国内から今日購入でき、技適取得済みのソニー製品として使える。
+    image: "https://www.sony.jp/mocopi/images/products/mocopi_product_01.jpg"
     url: https://www.amazon.co.jp/Sony-QMSS1-USCXA-3D%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3-VR%E3%81%A83D%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E4%BD%9C%E6%88%90%E7%94%A8/dp/B0D9R3YVZ6
     merchant: amazon
 faq:

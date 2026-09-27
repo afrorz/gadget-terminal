@@ -30,6 +30,7 @@ buy:
 alternatives:
   - name: Unihertz Titan 2
     why: 同じ物理QWERTYキーボード付きAndroidスマートフォンとして国内向けに販売されている。Unihertz公式の日本向けページでは技適取得済みとしているが、海外版と日本版で認証状況が異なるとの指摘もあるため、購入前に商品ページで対象モデルを確認したい。
+    image: "https://www.unihertz.com/cdn/shop/files/titan-2-the-latest-5g-qwerty-physical-keyboard-smartphone-unihertz-smartphones-unihertz-2923626.jpg?v=1767631146&width=1024"
     url: https://www.amazon.co.jp/Unihertz-Titan-%E6%9C%80%E6%96%B0QWERTY%E7%89%A9%E7%90%86%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E6%90%AD%E8%BC%89-Android-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3/dp/B0G4VZ171B
     merchant: amazon
 faq:

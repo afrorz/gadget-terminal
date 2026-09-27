@@ -32,6 +32,7 @@ alternatives:
     why: 同じホールエフェクト方式でラピッドトリガーに対応した75%相当のキーボードを、国内正規品として今日から購入できる。2.4GHz/Bluetooth/有線の3モード対応で、技適の心配なく使える。
     url: https://www.amazon.co.jp/dp/B0DSG2XW3G
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kitcut/cabinet/item/181/p-475787.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: 掲載時点ではKickstarterでの支援のみで、日本への発送可否は確認できていません。

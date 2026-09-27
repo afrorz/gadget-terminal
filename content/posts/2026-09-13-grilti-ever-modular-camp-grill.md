@@ -24,6 +24,7 @@ credit: Septem Studio 公式サイト
 alternatives:
   - name: ピコグリル398(Picogrill 398)
     why: ステンレス製の折りたたみ焚き火台で、A4サイズに収まる厚さまで畳める。GrilTi Everのような連結拡張はできないが、軽量・コンパクトな携行グリルとして日本で今日から入手できる。
+    image: "https://www.picogrill.ch/images/product_images/info_images/picogrill-grill-outdoor-model-398-.jpg"
     url: https://www.amazon.co.jp/dp/B079QZFRWC
     merchant: amazon
 faq:

@@ -28,6 +28,7 @@ faq:
 alternatives:
 - name: ANBERNIC RG35XX+（日本語対応・Amazon.co.jp国内出品）
   why: 同じANBERNIC製の携帯ゲーム機で、日本語対応をうたう出品がAmazon.co.jpにあり今すぐ購入できる。クラムシェル型ではないが同社のレトロエミュレーション機の使用感を試せる。
+  image: "https://anbernic.com/cdn/shop/files/RG35XX_b647f51d-9e8a-4d4a-b8a4-17dcb7a1ab41.jpg?v=1756540825&width=2048"
   url: https://www.amazon.co.jp/dp/B0BPP4M8D4
   merchant: amazon
 sources:

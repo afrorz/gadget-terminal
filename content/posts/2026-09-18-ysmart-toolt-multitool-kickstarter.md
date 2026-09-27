@@ -35,6 +35,7 @@ buy:
 alternatives:
 - name: LEATHERMAN Micra(日本正規品)
   why: 国内正規品として今日から購入でき、25年保証も付く。キーホルダーサイズで常時携行しやすい点はTOOLTと共通する用途を満たす。
+  image: "https://www.leatherman.com/cdn/shop/files/micra_20260402201535_gze7.jpg?crop=center&height=1200&v=1777561249&width=1200"
   url: https://www.amazon.co.jp/LEATHERMAN-%E3%83%AC%E3%82%B6%E3%83%BC%E3%83%9E%E3%83%B3-%E3%83%9E%E3%83%AB%E3%83%81%E3%83%84%E3%83%BC%E3%83%AB-MICRA-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B0CTJD8TVD
   merchant: amazon
 faq:

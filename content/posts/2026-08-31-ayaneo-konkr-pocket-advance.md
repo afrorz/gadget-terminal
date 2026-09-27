@@ -41,6 +41,7 @@ alternatives:
   why: 同じくレトロゲームエミュレーション向けのAndroid/Linuxハンドヘルドで、日本語表示に対応した状態でAmazon.co.jpから今日発送・購入できる。KONKR Pocket Advanceのようなゲームボーイアドバンス風の縦長ボディではないが、国内発送で技適の心配がない点が違いになる。
   url: https://www.amazon.co.jp/dp/B0CRNKZYC5
   merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/historia/cabinet/skypiea/skypiea_0042/b0fmn3bwyn_1.jpg?_ex=400x400"
 sources:
 - title: 'KONKR Pocket Advance Product Showcase: The Retro Icon Awakens'
   url: https://ayaneo.com/article/944

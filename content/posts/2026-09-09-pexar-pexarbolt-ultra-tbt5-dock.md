@@ -22,6 +22,7 @@ deadline: "2026-11-08"
 alternatives:
 - name: Anker Prime ドッキングステーション（14-in-1, Thunderbolt 5）
   why: 同じThunderbolt 5・120Gbps・140W給電に対応し、国内正規品としてAmazon.co.jpから今すぐ購入できる。タッチ画面は無いが、ポート構成は同水準。
+  image: "https://cdn.shopify.com/s/files/1/0493/9834/9974/files/A83B51A1_TD01_V1.png?v=1745918227"
   url: https://www.amazon.co.jp/dp/B0DTK6VPH2
   merchant: amazon
 faq:

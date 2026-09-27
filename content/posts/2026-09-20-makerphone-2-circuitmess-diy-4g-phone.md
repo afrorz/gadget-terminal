@@ -34,6 +34,7 @@ alternatives:
     why: MAKERphone本体のような「電話」ではないが、はんだ付け不要でプログラミングと電子工作を組み合わせて学ぶという体験は今日から国内で始められる。日本正規代理店品で技適の心配がない。
     url: https://www.amazon.co.jp/dp/B07NVMFQW5
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/chack0605/cabinet/r_2024081841/20241030182106_96_1.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: CircuitMessは100か国以上への出荷実績があり、Kickstarterの支援自体は日本からも可能とみられます。ただし技適は掲載時点で未取得です。

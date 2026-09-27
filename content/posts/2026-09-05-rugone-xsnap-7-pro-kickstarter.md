@@ -37,6 +37,7 @@ faq:
 alternatives:
 - name: DOOGEE B10(楽天市場)
   why: 同じIP68/IP69K防水防塵の技適取得済みタフネススマホで、7,600mAhの大容量バッテリーを積み国内から今日購入できる。着脱式アクションカメラは無いが、耐久性という核心部分の代替になる。
+  image: "https://shop.r10s.jp/doogee-store/cabinet/10857890/13132000/b10-blacks.jpg"
   url: https://item.rakuten.co.jp/doogee-store/b10/
   merchant: rakuten
 sources:

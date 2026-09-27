@@ -26,6 +26,7 @@ deadline: "2026-11-06"
 alternatives:
 - name: Elgato Stream Deck +
   why: タッチディスプレイとダイヤルを備えた操作パネルとして国内正規品が販売されており、技適取得済みで今日から使える。モジュール拡張はできないが「デスクを操作パネル化する」という発想は同じ。
+  image: "https://images.ctfassets.net/h50kqpe25yx1/4LFUaqI1lHDfQQjdkocxZd/4f281ec86fe0084d7fa99be4e4dff437/stream-deck-plus.jpg"
   url: https://www.amazon.co.jp/dp/B0BJL8SJ59
   merchant: amazon
 faq:

@@ -45,6 +45,7 @@ alternatives:
     why: 鍵盤を1〜3音押さえるだけで和音がまるごと鳴る「CASIOコード」機能を国内正規品で今日から試せる。NOPIAのような独立したハーモニー専用楽器としての音作りとは別物だが、「和音理論を知らなくても弾ける」という体験の入り口にはなる。
     url: https://www.amazon.co.jp/CASIO-61%E9%8D%B5%E7%9B%A4-%E9%9B%BB%E5%AD%90%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF-CT-X700/dp/B079PQQHQL
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/superdeal/cabinet/13182495/13571156/13691921/ct-x700.jpg?_ex=400x400"
 ---
 
 アルゼンチンの音楽家Martin Grieco氏とデザイナーRocío Gal氏による独立チームが、電子楽器「NOPIA MK1」をKickstarterで公開した。**きっかけは2023年、楽器デザインコンテスト向けに作ったプロトタイプのデモ動画が24時間で2万回、3日で100万回再生される反響を呼んだこと。** そこから3年をかけて製品化にこぎつけた。Kickstarterは目標5万ドルに対し、掲載時点で144万7,761ドル(2,895%)、支援者は2,207人に達している。MusicRadarの報道によれば、公開から24時間で140万ドルを超えたという。募集は2026年10月15日まで。

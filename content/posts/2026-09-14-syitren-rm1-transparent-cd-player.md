@@ -27,6 +27,7 @@ credit: Syitren 公式サイト
 alternatives:
   - name: ロジテック Bluetooth対応CDプレーヤー(LCP-PAPB02WHLWD)
     why: 国内メーカー製でBluetooth送受信に対応し、技適を含め日本向けに正規販売されている。透明フレームの意匠はないが、今日から国内サポート付きで買える。
+    image: "https://www.logitec.co.jp/wp/wp-content/uploads/2025/12/top-168.jpg"
     url: https://www.amazon.co.jp/dp/B0BS22DC42
     merchant: amazon
 faq:

@@ -37,6 +37,7 @@ buy:
 alternatives:
 - name: Anker PowerPort III 2-Port 65W
   why: 同じ65W・2ポートのGaN充電器として国内正規品が販売されており、PSE技術基準適合済みで今日から使える。国産化のストーリーはないが、実利用は待たずに始められる。
+  image: "https://prtimes.jp/i/16775/332/resize/d16775-332-76b6c89cdbbf82ed89a3-1.jpg"
   url: https://www.amazon.co.jp/dp/B095W99H1C
   merchant: amazon
 faq:

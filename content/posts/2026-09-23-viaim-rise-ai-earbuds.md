@@ -38,6 +38,7 @@ alternatives:
     why: AIボイスレコーダー機能とクリアな音声通話、マルチポイント接続を備えた国内正規流通の完全ワイヤレスイヤホン。Rise特有の「ケース単体での会議録音」や連続要約機能は無いが、技適取得済みで今日から使える「AI機能付きイヤホン」という用途は満たせる。
     url: https://www.amazon.co.jp/Anker-Soundcore-Liberty-Pro-%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0GLF2TBD4
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/d/d1204_normal.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: Indiegogoでの支援という形になります。日本への発送に明確に対応しているかは掲載時点の情報からは確認できていません。

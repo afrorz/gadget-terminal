@@ -27,6 +27,7 @@ buy:
 alternatives:
 - name: Logicool G PRO X SUPERLIGHT 2
   why: 国内正規品として販売されており、無線ゲーミングマウスとして技適取得済み。重量は60gとLupine IIより重いが、今日から確実に使える。
+  image: "https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight-2/new-gallery-assets-2025/pro-x-superlight-2-mice-top-angle-white-gallery-1.png"
   url: https://www.amazon.co.jp/Logicool-SUPERLIGHT-G-PPD-004WL-BK-LIGHTFORCE-%E9%80%A3%E7%B6%9A%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/dp/B0CGR5B9FS
   merchant: amazon
 faq:

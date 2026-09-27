@@ -33,6 +33,7 @@ alternatives:
     why: 同じQualcomm Snapdragon X系(Elite)のCopilot+ PCとして国内正規品が販売されており、技適取得済み。フォームファクタはノートPCだがNPUを使ったAI処理という体験は今日から試せる。
     url: https://www.amazon.co.jp/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88-Microsoft-Basic%EF%BC%881%E5%B9%B4%E7%84%A1%E6%96%99%E7%89%88%EF%BC%89-Snapdragon%C2%AE-ZGP-00072/dp/B0D4TPTJ52
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/microsoft-store/cabinet/10998065/13041568/13545397/lp7_s_sale.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: 掲載時点ではASUS公式ページは米国向けで、日本での発売・価格は告知されていません。

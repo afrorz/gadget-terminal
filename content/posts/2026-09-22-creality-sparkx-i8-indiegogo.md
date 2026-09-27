@@ -31,6 +31,7 @@ alternatives:
     why: 同じCreality製のマルチカラー3Dプリンターで、4基のCFSユニットによる色替えに対応する。Sparkx i8のようなホットエンド内蔵の1秒未満スワップではないが、国内から今日購入できるマルチカラー機として使える。
     url: https://www.amazon.co.jp/dp/B0DNMVSCR2
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/konanonline/cabinet/root_sniper_folder/sniper_folder_00020/imgrc0373213389.jpg?_ex=400x400"
 sources:
   - title: "Creality Sparkx i8 uses clever QuarTeks system for zero waste, live now on Indiegogo"
     url: https://www.notebookcheck.net/Creality-Sparkx-i8-uses-clever-QuarTeks-system-for-zero-waste-live-now-on-Indiegogo.1404985.0.html

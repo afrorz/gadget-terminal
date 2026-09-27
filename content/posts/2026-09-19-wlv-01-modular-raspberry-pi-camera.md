@@ -33,6 +33,7 @@ alternatives:
     why: WLV-01と同じRaspberry Pi向けの交換レンズ対応カメラモジュール(IMX477、C/CSマウント)を国内から購入できる。完成したカメラ本体ではなく自作の出発点になる位置づけだが、「Raspberry Piで写真を撮る」という体験自体は今日から試せる。
     url: https://www.amazon.co.jp/Raspberry-Pi-HQ-%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB-CS-%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%88%E3%83%AC%E3%83%B3%E3%82%BA%E5%AF%BE%E5%BF%9C/dp/B08LHJR3K4
     merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/entaniya/cabinet/biiino/item/main-image-2/20251211165256_1.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
     a: 掲載時点ではKickstarterでの支援のみで、日本への発送可否は確認できていません。

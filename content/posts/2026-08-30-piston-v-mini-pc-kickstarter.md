@@ -30,6 +30,7 @@ faq:
 alternatives:
 - name: CHUWI AuBox Ai365(Amazon.co.jp)
   why: 同じAMD Ryzen AI 9 365とRadeon 880Mを積むミニPCで、Amazon.co.jpから発送・購入できる。開発元不明のPiston Vと異なり、CHUWIという実在するメーカーの製品である点も違いになる。
+  image: "https://www.chuwi.com/public/upload/image/20251010/763f6201a95182b68f91cbd3416cc9d1.png"
   url: https://www.amazon.co.jp/-/en/CHUWI-AI-Strongest-365-Accelerated/dp/B0FZSXC5Q8
   merchant: amazon
 sources:

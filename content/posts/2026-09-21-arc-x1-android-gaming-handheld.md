@@ -29,6 +29,7 @@ buy:
 alternatives:
 - name: ROG Ally X(国内正規品)
   why: 技適取得済みの国内正規品として今日から購入でき、メーカー保証も付く。7インチ級の画面とWindowsゲームライブラリへのアクセスという用途はARC X1と重なる部分がある(ただしOSはWindowsでAndroidではない)。
+  image: "https://dlcdnwebimgs.asus.com/gain/F12D7B4D-DC78-4228-8426-D2C474B7BD0D"
   url: https://www.amazon.co.jp/dp/B0D7C2CGPW
   merchant: amazon
 faq:
