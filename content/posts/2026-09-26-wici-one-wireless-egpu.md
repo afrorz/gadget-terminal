@@ -17,14 +17,12 @@ origin: SJC サンノゼ
 status: SCHEDULED
 status_note: 出荷は2026年Q4を予定
 images:
-  - url: "https://wici.ai/images/product/hero-wici-one.webp"
+  - url: "https://wici.ai/images/home/hero-device.webp"
     caption: 波状のアルミ外装とパンチング仕上げのグリルを持つWici One本体。上面に「WiCi」のロゴが刻印されている
-  - url: "https://wici.ai/images/product/product-external.webp"
-    caption: 正面から見たWici One。左側は波状のアルミパネル、右側は通気用のパンチンググリル
-  - url: "https://wici.ai/images/product/product-xray-io.webp"
-    caption: 内部透視図。USBポート群と基板、冷却ファンの配置が確認できる
-  - url: "https://wici.ai/images/product/explode-view-3.webp"
-    caption: 分解図。電源ユニット、マザーボード、GPU、冷却ファンが積層構造で収まっている様子がわかる
+  - url: "https://wici.ai/images/product/hero-device-ledge.webp"
+    caption: 別アングルから見たWici One。左側は波状のアルミパネル、右側は通気用のパンチンググリル
+  - url: "https://wici.ai/images/product/device-exploded.webp"
+    caption: 分解図。電源ユニット(1000W)、マザーボード、GPU基板、冷却ファンが積層構造で収まっている様子がわかる
 credit: Wici公式サイト(wici.ai)
 faq:
   - q: 日本で買えますか
