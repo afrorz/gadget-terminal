@@ -22,6 +22,7 @@ japan:
   status: 発売予定
   checked: 2026-09-27
   summary: 日本では9月29日から11月13日までMakuakeで先行販売される。Makuake限定価格はスターターセット12万7,900円、オールインワンセット16万2,600円(通常価格は13万9,800円/17万7,800円)。一般販売は11月中旬〜下旬の予定。飛行時の重量は100gを超えるため、屋外で飛ばすには機体登録が必要になる。技適は、Makuakeのページ公開前のため9月27日時点で確認できていない。
+  x_hook: 手持ちカメラに羽根を付けると飛ぶ「HOVERAir VERSA」が日本に来る。9月29日からMakuakeで先行販売、12万7,900円から。飛ばすときは100gを超えるので機体登録が要る。
   source:
     title: 手持ちのジンバルカメラが67gの羽根で飛ぶ HOVERAir「VERSA」国内発表(ITmedia Mobile)
     url: https://www.itmedia.co.jp/mobile/articles/2609/08/news066.html

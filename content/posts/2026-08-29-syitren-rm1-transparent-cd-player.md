@@ -24,6 +24,7 @@ japan:
   status: クラウドファンディング中
   checked: 2026-09-27
   summary: 日本ではヤンミン・ストアが9月24日から10月30日までMakuakeで応援購入を受け付けている。Makuake割は1台1万9,584円から(超早割・早割は受付終了、掲載時点)で、お届けは2027年1月の予定。Bluetooth出力を備えるが、技適はMakuakeのページにも総務省の技適データベースにも9月27日時点で確認できていない。3.5mmの有線出力だけで使うなら技適は関係しない。
+  x_hook: CDと基板が透けて見える透明CDプレーヤー「SYITREN RM1」が、Makuakeで国内の応援購入を受け付けている。1台1万9,584円から、10月30日まで。
   source:
     title: 音楽を聴く、CDを眺める、空間を彩る。新感覚のCDプレーヤー(Makuake)
     url: https://www.makuake.com/project/syitren/

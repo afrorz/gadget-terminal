@@ -23,6 +23,7 @@ japan:
   status: 発売済み
   checked: 2026-09-27
   summary: Razer Japanが9月11日に国内で発売した。価格は税込1万6,980円(Razer公式ストア)。USB-Cの有線接続だけでスマートフォンとつながり、無線機能を持たないため技適の対象外。なお国内発売は本記事の公開前日(9月1日)にRazer Japanから発表されており、公開時の「国内発売は発表されていない」という記述は誤りだった。
+  x_hook: 折りたたむとカード大になるRazerのスマホ用コントローラー「Prio」は、国内でも9月11日に発売されていた。1万6,980円。USB-C直結で電波を出さないので技適は関係ない。
   buy:
   - name: Razer公式ストア(日本)
     url: https://www.razer.com/jp-jp/mobile-controllers/razer-prio

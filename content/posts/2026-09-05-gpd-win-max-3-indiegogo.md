@@ -30,6 +30,7 @@ japan:
   status: 予約受付中
   checked: 2026-09-27
   summary: 株式会社天空が国内正規版を12月25日に発売する。予約は9月24日から、GPDダイレクト、ハイビーム公式オンラインストア、Amazon.co.jpで受け付けている。価格は税込30万8,000円(Ryzen AI Max+ 388/32GB/1TB)、39万8,000円(388/64GB/2TB)、69万8,000円(Ryzen AI Max+ 395/128GB/2TB)で、予約すると3,000円引き。技適は9月27日時点で総務省の技適データベースに該当する登録が見当たらず、確認できていない。
+  x_hook: Ryzen AI Max+を積んだ9インチのゲーミングUMPC「GPD WIN MAX 3」の国内正規版が、12月25日に発売される。予約受付中で30万8,000円から。
   buy:
   - name: GPD WIN MAX 3 国内正規版(Amazon.co.jp)
     url: https://www.amazon.co.jp/dp/B0HKTZLS94

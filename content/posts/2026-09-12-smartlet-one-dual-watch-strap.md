@@ -28,6 +28,7 @@ japan:
   status: クラウドファンディング中
   checked: 2026-09-27
   summary: 国内総代理店の株式会社フリーダムが、10月30日までMakuakeで応援購入を受け付けている。Makuake割はClassicが9万6,600円、Shadowが11万1,800円から(掲載時点)で、お届けは2027年2月末までの予定。本体は電子部品を持たない金属のブレスレットなので技適の対象外。なおMakuakeでの受付は本記事の公開前(9月10日)に始まっており、公開時にこれを確認できていなかった。
+  x_hook: 機械式腕時計とスマートウォッチを同じ手首に着けられるブレスレット「Smartlet One」が、Makuakeで国内展開している。9万6,600円から、10月30日まで。
   buy:
   - name: Makuake(株式会社フリーダム)
     url: https://www.makuake.com/project/smartlet/

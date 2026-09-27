@@ -18,6 +18,7 @@ japan:
   status: 発売済み
   checked: 2026-09-27
   summary: ベンキュージャパンが8月26日に国内で発売した。直販価格はiScreenBarが税込2万6,910円、ScreenBar Maxが税込4万9,500円。iScreenBarは在席を検知する24GHzのミリ波レーダーを内蔵しており、電波を出すため技適の対象になるが、9月27日時点で総務省の技適データベースから該当する型番を特定できていない。なお国内発売は本記事の公開前日に発表されており、公開時の「日本での発売は告知されていない」という記述は誤りだった。
+  x_hook: iMacの上にマグネットで付くBenQのモニターライト「iScreenBar」は、国内でも8月26日から売られている。直販価格は2万6,910円。
   buy:
   - name: iScreenBar(BenQ公式 楽天市場店)
     url: https://item.rakuten.co.jp/benq-directshop/lighting-iscreenbar/

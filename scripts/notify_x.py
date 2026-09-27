@@ -137,8 +137,19 @@ def main() -> int:
     for path, j in updates:
         fm = load_front_matter(path)
         slug = fm.get("slug")
-        hook = str(j.get("x_hook") or "").strip() or str(j.get("summary") or "").split("。")[0] + "。"
-        if not slug or not hook.strip("。"):
+        # summary は記事の中で読む前提の文で、製品名が入っていない
+        # (「日本ではヤンミン・ストアが…応援購入を受け付けている」だけでは
+        # 何の話か分からない、と本人から指摘があった)。x_hook が無ければ
+        # 製品名を必ず頭に付ける。
+        hook = str(j.get("x_hook") or "").strip()
+        if not hook:
+            name = str(fm.get("keyword") or "").strip()
+            first = str(j.get("summary") or "").split("。")[0]
+            if not name or not first:
+                print(f"⚠ {path.name}: x_hook も製品名も無いため続報の通知をスキップします")
+                continue
+            hook = f"「{name}」の日本上陸の続報。{first}。"
+        if not slug:
             continue
         articles.append({
             # アプリ側は id を英数字に限っているので、状況は英語の略号にする
