@@ -1,6 +1,6 @@
 ---
 title: GPD Win Max 3はAMD Ryzen AI Max+搭載、IndiegogoでUS$1,750から3,499ドルまで
-seo_title: GPD Win Max 3、1750ドルからIndiegogo
+seo_title: GPD WIN MAX 3は12月25日に国内発売
 slug: gpd-win-max-3-indiegogo
 keyword: Win Max 3
 category: pc
@@ -26,9 +26,16 @@ images:
 - url: "https://img.website.xin/contents/sitefiles3601/18006016/images/176465745.png"
   caption: 物理キーボード。中央に「G」キーとGPDロゴの刻印
 credit: GPD公式サイト(gpd.hk)
+japan:
+  status: 予約受付中
+  checked: 2026-09-27
+  summary: 株式会社天空が国内正規版を12月25日に発売する。予約は9月24日から、GPDダイレクト、ハイビーム公式オンラインストア、Amazon.co.jpで受け付けている。価格は税込30万8,000円(Ryzen AI Max+ 388/32GB/1TB)、39万8,000円(388/64GB/2TB)、69万8,000円(Ryzen AI Max+ 395/128GB/2TB)で、予約すると3,000円引き。技適は9月27日時点で総務省の技適データベースに該当する登録が見当たらず、確認できていない。
+  source:
+    title: 天空、モジュール式ゲーミングPC「GPD WIN MAX 3 国内正規版」を発売(株式会社天空)
+    url: https://www.value-press.com/pressrelease/381239
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でIndiegogo経由の海外発送が前提です。国内正規代理店の取り扱いは確認できていません。
+  a: 株式会社天空が国内正規版を2026年12月25日に発売します。予約はGPDダイレクトやAmazon.co.jpなどで受付中で、価格は税込30万8,000円からです(2026年9月27日確認)。
 - q: 技適は取得していますか
   a: 掲載時点で技適取得の情報は確認できていません。Wi-Fi・Bluetoothを国内で使うには技適の取得が前提になります。
 - q: いくらですか

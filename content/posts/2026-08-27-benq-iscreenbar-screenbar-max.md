@@ -1,6 +1,6 @@
 ---
 title: BenQ、iMac専用モニターライト「iScreenBar」とデュアルモニター用「ScreenBar Max」を発表 189ドル・289ドルから
-seo_title: BenQ iScreenBar、iMac専用189ドルから
+seo_title: BenQ iScreenBarは国内2万6910円、iMac専用
 slug: benq-iscreenbar-screenbar-max
 keyword: iScreenBar
 category: pc
@@ -14,11 +14,18 @@ tags:
 - モニターライト
 - iMac
 x_hook: iMacの背面にマグネットで吸い付くだけの新型ライトが登場。ウェブカメラを塞がない設計は、既存のクリップ式では解決できなかった問題だ。
+japan:
+  status: 発売済み
+  checked: 2026-09-27
+  summary: ベンキュージャパンが8月26日に国内で発売した。直販価格はiScreenBarが税込2万6,910円、ScreenBar Maxが税込4万9,500円。iScreenBarは在席を検知する24GHzのミリ波レーダーを内蔵しており、電波を出すため技適の対象になるが、9月27日時点で総務省の技適データベースから該当する型番を特定できていない。なお国内発売は本記事の公開前日に発表されており、公開時の「日本での発売は告知されていない」という記述は誤りだった。
+  source:
+    title: ベンキュー、2画面対応のLEDモニターライト「ScreenBar Max」など2製品発売(エルミタージュ秋葉原)
+    url: https://www.gdm.or.jp/pressrelease/2026/0825/649492
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でiScreenBar・ScreenBar Maxとも日本での発売は公式に告知されていません。米国ではBenQ.com、Amazon.com、Adorama、B&Hで販売中です。既存のScreenBar／ScreenBar Pro／ScreenBar Halo 2はベンキュージャパンが国内正規販売しているため、今後日本に入ってくる可能性はありますが、掲載時点では未確定です。
+  a: ベンキュージャパンが2026年8月26日にiScreenBar・ScreenBar Maxとも国内で発売しました。BenQ直販サイトなどで購入できます(2026年9月27日確認)。
 - q: いくらですか
-  a: iScreenBarが189ドル、ScreenBar Maxが289ドル（別売りの据え置き用デスクベースが39ドル）。いずれも米国価格で、円換算はしていません。
+  a: 国内の直販価格はiScreenBarが税込2万6,910円、ScreenBar Maxが税込4万9,500円です。米国価格は189ドル/289ドルです（いずれも掲載時点）。
 - q: iMacのどのモデルに対応しますか
   a: 2021年以降のiMacに対応します。マグネット式マウントで本体背面に固定する方式のため、対応年式外のモデルには使えません。
 - q: 電源はどこから取りますか

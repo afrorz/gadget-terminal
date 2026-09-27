@@ -82,6 +82,10 @@ def parse_post(path: Path) -> dict | None:
     meta["body_html"] = MD.convert(body_md)
     meta["slug"] = meta.get("slug") or path.stem
     meta["date"] = str(meta.get("date", datetime.now(JST).strftime("%Y-%m-%d")))
+    # 更新日。日本上陸の続報を書き足したら、その確認日を更新日として扱う
+    # （構造化データの dateModified と sitemap の lastmod に効き、再クロールを促す）。
+    meta["modified"] = max(str(meta.get("modified") or ""),
+                           str((meta.get("japan") or {}).get("checked") or "")) or ""
     meta["reading_min"] = max(1, round(len(body_md) / 500))
     meta["path"] = f"posts/{meta['slug']}.html"
     meta.setdefault("tags", [])
@@ -294,6 +298,89 @@ def buy_section(s: dict, p: dict) -> tuple[str, bool]:
             f'<ul>{"".join(rows)}</ul>'
             f'<p class="buy-caution">海外からの個人輸入になります。関税・送料・'
             f'保証の扱いは販売ページで確認してください。</p></section>', has_aff)
+
+
+# 日本上陸の続報（front matter の japan）で、購入先の店名を URL から決める。
+# 書き手に書かせると表記が揺れるため、buy の DIRECT_MERCHANTS と同じ考え方。
+JAPAN_STORES = (
+    (("amazon.co.jp",), "Amazon.co.jp"),
+    (("rakuten.co.jp",), "楽天市場"),
+    (("yahoo.co.jp",), "Yahoo!ショッピング"),
+    (("makuake.com",), "Makuake"),
+    (("greenfunding.jp",), "GREEN FUNDING"),
+    (("camp-fire.jp",), "CAMPFIRE"),
+    (("kibidango.com",), "kibidango"),
+)
+
+# 状況は選択式。自由記述にすると「発売」「販売開始」「上陸」が混ざり、
+# 読者にも自動の見回り(scripts/followup.py)にも読めなくなる。
+JAPAN_STATUS = ("発売済み", "予約受付中", "クラウドファンディング中", "発売予定")
+
+
+def japan_store(url: str) -> str:
+    host = urlparse(url).netloc.lower()
+    for hosts, name in JAPAN_STORES:
+        if any(host == h or host.endswith("." + h) for h in hosts):
+            return name
+    return "販売ページ"
+
+
+def japan_section(s: dict, p: dict) -> tuple[str, bool]:
+    """「日本上陸」の続報枠。記事の冒頭に出す。
+
+    この媒体は海外で出たばかりの製品を扱うので、公開時点では「日本では買えない」
+    と書くことが多い。ところが日本で検索されるのは上陸したとき(Makuake開始・
+    国内発売)で、その時点で記事が古いままだと、せっかく先に書いた記事が
+    「買えない」と言い続けることになる。上陸を確認したらここに書き足す。
+
+    本文は公開時点の記録として残し、続報はこの枠に分けて出す。
+    購入リンクは buy と同じく技適の判定が無ければ出さない。
+    戻り値: (HTML, アフィリエイトリンクを含むか)
+    """
+    j = p.get("japan") or {}
+    status = str(j.get("status") or "").strip()
+    if not j or status not in JAPAN_STATUS:
+        if j:
+            print(f"! japan: {p['slug']} の status が {status or '未記入'}。"
+                  f"続報を出さずに飛ばす（使える値: {' / '.join(JAPAN_STATUS)}）")
+        return "", False
+    has_aff = False
+    rows = []
+    for x in (j.get("buy") or []):
+        if not x.get("url"):
+            continue
+        giteki = str(x.get("giteki") or "").strip()
+        if giteki not in GITEKI_BUY:
+            print(f"! japan.buy: {p['slug']} {x['url']} は giteki が {giteki or '未記入'}。"
+                  f"購入リンクを出さずに飛ばす")
+            continue
+        link, is_aff = affiliate_url(s, str(x["url"]), str(x.get("merchant") or ""))
+        has_aff = has_aff or is_aff
+        gi_label, gi_kind, gi_warn = GITEKI_BUY[giteki]
+        name = str(x.get("name") or japan_store(str(x["url"])))
+        price = (f'<span class="buy-price">{html.escape(str(x["price"]))}</span>'
+                 if x.get("price") else "")
+        warn = f'<p class="buy-warn">{html.escape(gi_warn)}</p>' if gi_warn else ""
+        note = f'<p class="buy-note">{html.escape(str(x["note"]))}</p>' if x.get("note") else ""
+        rows.append(
+            f'<li class="buy-item"><a href="{html.escape(link)}" '
+            f'rel="{"nofollow sponsored noopener" if is_aff else "nofollow noopener"}" target="_blank">'
+            f'{html.escape(name)}</a><p class="buy-meta">{price}'
+            f'<span class="buy-giteki gi-{gi_kind}">{gi_label}</span></p>{warn}{note}</li>')
+    checked = str(j.get("checked") or "")
+    src = j.get("source") or {}
+    src_html = (f'<p class="jp-src">出典: <a href="{html.escape(str(src["url"]))}" rel="nofollow noopener" '
+                f'target="_blank">{html.escape(str(src.get("title") or src["url"]))}</a></p>'
+                if src.get("url") else "")
+    time_html = (f'<time datetime="{html.escape(checked)}">{checked.replace("-", ".")} 確認</time>'
+                 if checked else "")
+    list_html = f'<ul>{"".join(rows)}</ul>' if rows else ""
+    return (f'<aside class="jp-update"><p class="jp-head"><span class="jp-badge">日本上陸</span>'
+            f'<span class="jp-status">{html.escape(status)}</span>{time_html}</p>'
+            f'<p class="jp-summary">{html.escape(str(j.get("summary") or ""))}</p>'
+            f'{list_html}{src_html}'
+            f'<p class="jp-note">この枠は公開後の続報です。本文は公開時点の情報のまま残しています。</p>'
+            f'</aside>', has_aff)
 
 
 def analytics(s: dict) -> str:
@@ -1362,9 +1449,13 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
             f'<p>{html.escape(str(x["a"]))}</p></div>' for x in faq)
         faq_html = f'<section class="faq"><h2>よくある質問</h2>{rows}</section>'
 
+    jp_html, jp_aff = japan_section(s, p)
     buy_html, buy_aff = buy_section(s, p)
     alts_html, alts_aff = alternatives_section(s, p)
-    has_aff = buy_aff or alts_aff
+    has_aff = jp_aff or buy_aff or alts_aff
+    modified = p.get("modified") or ""
+    upd_meta = (f'<span class="dot"></span><span class="meta-updated">更新 {modified.replace("-", ".")}</span>'
+                if modified and modified > p["date"] else "")
     # ステマ規制。アフィリエイトリンクがある記事は、本文の先頭で広告を含む旨を示す。
     # 「サイトのどこかに書いてある」では足りないため、記事ごとに出す。
     disclosure = ""
@@ -1392,7 +1483,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {f'<p class="article-lede">{html.escape(str(p["kicker"]))}</p>' if p.get('kicker') else ''}
     {f'<aside class="pick-callout"><p class="pick-callout-head">編集部ピックアップ</p><p class="pick-callout-note">{html.escape(p["pick_note"])}</p></aside>' if p.get('pick') and p.get('pick_note') else (f'<p class="pick-callout pick-callout-bare">編集部ピックアップ<span>運営者が選んだガジェットです</span></p>' if p.get('pick') else '')}
     {disclosure}
-    <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ{route}</p>
+    <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ{upd_meta}{route}</p>
+    {jp_html}
     {hero_block}
     <div class="prose">{p['body_html']}</div>
     {gallery_html}
@@ -1706,7 +1798,7 @@ def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = 
     # lastmod があるとクローラーが再訪問すべきURLを判断できる。
     # 記事は自身の日付、一覧系は最新記事の日付を使う。
     latest = max((p["date"] for p in posts), default="")
-    by_url = {f"{base}/{p['path']}": p["date"] for p in posts}
+    by_url = {f"{base}/{p['path']}": max(p["date"], p.get("modified") or "") for p in posts}
     def entry(loc: str) -> str:
         d = by_url.get(loc, latest)
         return f"<url><loc>{loc}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>"
@@ -2106,6 +2198,20 @@ img{max-width:100%}
   color:var(--ink-2);font-size:13px;line-height:1.75}
 .buy-note{margin:5px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
 .buy-caution{margin:14px 0 0;color:var(--ink-3);font-size:12.5px;line-height:1.85}
+/* 日本上陸の続報。記事の冒頭に置く。本文(公開時点の記録)と取り違えないよう、
+   左の太い罫線とバッジで「後から足した情報」だと一目で分かる形にする。 */
+.jp-update{max-width:var(--measure);margin:22px 0 0;padding:14px 16px 12px;
+  background:var(--surface);border-left:3px solid var(--accent);border-radius:3px}
+.jp-head{margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:10px;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.06em}
+.jp-badge{background:var(--accent);color:#fff;padding:2px 7px;border-radius:2px;font-weight:600}
+.jp-status{color:var(--ink);font-weight:600}
+.jp-head time{color:var(--ink-3)}
+.jp-summary{margin:10px 0 0;font-size:15px;line-height:1.85;color:var(--ink)}
+.jp-update ul{list-style:none;padding:0;margin:12px 0 0}
+.jp-update .buy-item{margin:0 0 12px}
+.jp-src,.jp-note{margin:6px 0 0;font-size:12px;line-height:1.7;color:var(--ink-3)}
+.meta-updated{color:var(--accent)}
 .faq{max-width:var(--measure);margin:44px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
 .faq h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin:0 0 18px}
 .faq-item{margin:0 0 18px}

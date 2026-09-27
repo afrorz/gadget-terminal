@@ -1,6 +1,6 @@
 ---
 title: 機械式腕時計とスマートウォッチを同じ手首に同時装着できる「Smartlet One」、チタン版549ユーロ
-seo_title: Smartlet Oneは549ユーロから、時計2本を同時装着
+seo_title: Smartlet OneはMakuakeで9万6600円から
 slug: smartlet-one-dual-watch-strap
 keyword: Smartlet One
 category: smartphone
@@ -24,13 +24,23 @@ credit: Smartlet 公式サイト
 origin: CDG パリ
 status: LANDED
 status_note: Kickstarterは2026年7月終了、現在は公式サイトで通常販売中
+japan:
+  status: クラウドファンディング中
+  checked: 2026-09-27
+  summary: 国内総代理店の株式会社フリーダムが、10月30日までMakuakeで応援購入を受け付けている。Makuake割はClassicが9万6,600円、Shadowが11万1,800円から(掲載時点)で、お届けは2027年2月末までの予定。本体は電子部品を持たない金属のブレスレットなので技適の対象外。なおMakuakeでの受付は本記事の公開前(9月10日)に始まっており、公開時にこれを確認できていなかった。
+  buy:
+  - name: Makuake(株式会社フリーダム)
+    url: https://www.makuake.com/project/smartlet/
+    price: 9万6,600円から(Makuake割、掲載時点)
+    giteki: 対象外
+    note: 応援購入はクラウドファンディングで、お届けは2027年2月末までの予定。
 faq:
 - q: 日本で買えますか
-  a: 公式サイト(smartlet.io)から海外発送を受け付けているが、配送対象国の一覧に日本が含まれるかどうかは掲載時点で確認できていない。購入前に公式サイトで配送可否を確認する必要がある。
+  a: 国内総代理店の株式会社フリーダムが、2026年10月30日までMakuakeで応援購入を受け付けています(2026年9月27日確認)。公式サイト(smartlet.io)からの個人輸入も可能ですが、国内の保証を考えるとMakuake経由が確実です。
 - q: 技適は取得していますか
   a: Smartlet One自体は腕時計を機械的に保持するブレスレットで、Bluetoothなどの無線通信機能を持たない。したがって技適の対象外にあたる。
 - q: いくらですか
-  a: ステンレス製のClassicが299ユーロ、黒PVD仕上げのShadowが399ユーロ、チタン製のTitaniumが549ユーロ(いずれも掲載時点の価格)。
+  a: 公式サイトではステンレス製のClassicが299ユーロ、黒PVD仕上げのShadowが399ユーロ、チタン製のTitaniumが549ユーロ。国内のMakuakeではClassicが9万6,600円、Shadowが11万1,800円からです(いずれも掲載時点の価格)。
 - q: どんな時計に対応していますか
   a: ラグ幅18mmから24mmの機械式・伝統的な腕時計と、Apple WatchやGalaxy Watch、Garmin、Fitbitなど主要なスマートウォッチ・フィットネストラッカーに対応するとしている。
 sources:

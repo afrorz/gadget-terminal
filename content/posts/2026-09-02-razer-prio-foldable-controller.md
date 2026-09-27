@@ -1,6 +1,6 @@
 ---
 title: Razer「Prio」発表、折りたたむとクレジットカード大になるモバイルコントローラーでiPhone・Android対応
-seo_title: Razer Prioはカード大、iPhone/Android対応
+seo_title: Razer Prioは国内1万6980円、カード大に折りたたみ
 slug: razer-prio-foldable-controller
 keyword: Razer Prio
 category: weird
@@ -19,13 +19,25 @@ images:
 - url: "https://assets2.razerzone.com/images/pnx.assets/967c1892727e7bc2de08ec41ef5d4411/razer-prio-tactile-buttons-1920x700-v2.webp"
   caption: 右側の面。Y/B/X/Aボタンとアナログスティック、Razer Cortex Mobileボタンを確認できる
 credit: Razer公式製品ページ
+japan:
+  status: 発売済み
+  checked: 2026-09-27
+  summary: Razer Japanが9月11日に国内で発売した。価格は税込1万6,980円(Razer公式ストア)。USB-Cの有線接続だけでスマートフォンとつながり、無線機能を持たないため技適の対象外。なお国内発売は本記事の公開前日(9月1日)にRazer Japanから発表されており、公開時の「国内発売は発表されていない」という記述は誤りだった。
+  buy:
+  - name: Razer公式ストア(日本)
+    url: https://www.razer.com/jp-jp/mobile-controllers/razer-prio
+    price: 1万6,980円(税込、掲載時点)
+    giteki: 対象外
+  source:
+    title: RAZER、遅延を遊びに変えるポケットサイズコントローラー「Razer Prio」を発表(Razer Japan)
+    url: https://prtimes.jp/main/html/rd/p/000000113.000163154.html
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でRazer Prioの国内発売や販売時期は発表されていません。razer.comの日本サイトにも掲載は確認できていません。
+  a: Razer Japanが2026年9月11日に国内で発売しました。Razer公式ストアなどで購入できます(2026年9月27日確認)。
 - q: 価格はいくらですか
-  a: Razer自身の発表文には価格の記載がありません。Android Centralの実機レビューでは99ドルと報じられていますが、これは同レビュー時点の情報で、Razerによる確定した公式発表ではありません。
+  a: 国内価格は税込1万6,980円です(Razer公式ストア、掲載時点)。
 - q: 技適は取得していますか
-  a: PrioはBluetoothなどの無線機能を持たず、USB-C接続のみでスマートフォンと通信します。無線を発する機能が無いため技適の対象になる可能性は低いとみられますが、確認は取れていません。
+  a: PrioはBluetoothなどの無線機能を持たず、USB-C接続のみでスマートフォンと通信します。電波を出さないため技適の対象外です。
 - q: iPhoneとAndroidのどちらに対応していますか
   a: 両対応です。iPhoneはiOS 18以降、AndroidはAndroid 14以降で、画面サイズ7インチまでの機種(iPhone 17 Pro Max、Galaxy S26 Ultraを含む)に対応するとされています。
 alternatives:
