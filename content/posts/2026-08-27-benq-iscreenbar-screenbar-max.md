@@ -18,6 +18,12 @@ japan:
   status: 発売済み
   checked: 2026-09-27
   summary: ベンキュージャパンが8月26日に国内で発売した。直販価格はiScreenBarが税込2万6,910円、ScreenBar Maxが税込4万9,500円。iScreenBarは在席を検知する24GHzのミリ波レーダーを内蔵しており、電波を出すため技適の対象になるが、9月27日時点で総務省の技適データベースから該当する型番を特定できていない。なお国内発売は本記事の公開前日に発表されており、公開時の「日本での発売は告知されていない」という記述は誤りだった。
+  buy:
+  - name: iScreenBar(BenQ公式 楽天市場店)
+    url: https://item.rakuten.co.jp/benq-directshop/lighting-iscreenbar/
+    merchant: rakuten
+    price: 2万6,910円(税込、掲載時点)
+    giteki: 国内正規
   source:
     title: ベンキュー、2画面対応のLEDモニターライト「ScreenBar Max」など2製品発売(エルミタージュ秋葉原)
     url: https://www.gdm.or.jp/pressrelease/2026/0825/649492

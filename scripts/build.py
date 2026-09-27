@@ -317,6 +317,19 @@ JAPAN_STORES = (
 JAPAN_STATUS = ("発売済み", "予約受付中", "クラウドファンディング中", "発売予定")
 
 
+# 日本上陸の続報でだけ使える技適の判定(2026-09-27 本人判断)。
+# 日本法人・正規代理店が国内向けに売っているのに、総務省のデータベースで
+# 型番を特定できない(登録の反映待ち・型番が非公開)ことがある。その場合は
+# 「確認した」とは書かずに、確認できていないことを明示したうえでリンクを出す。
+# **海外直販の buy には使わせない。** 国内の販売元が責任を持つ場合に限る根拠が無くなるため。
+GITEKI_JAPAN = {
+    **GITEKI_BUY,
+    "国内正規": ("国内正規品・技適番号は未確認", "na",
+             "日本法人・正規代理店が国内向けに販売しています。技適の番号は掲載時点で"
+             "総務省のデータベースから確認できていません。"),
+}
+
+
 def japan_store(url: str) -> str:
     host = urlparse(url).netloc.lower()
     for hosts, name in JAPAN_STORES:
@@ -350,13 +363,13 @@ def japan_section(s: dict, p: dict) -> tuple[str, bool]:
         if not x.get("url"):
             continue
         giteki = str(x.get("giteki") or "").strip()
-        if giteki not in GITEKI_BUY:
+        if giteki not in GITEKI_JAPAN:
             print(f"! japan.buy: {p['slug']} {x['url']} は giteki が {giteki or '未記入'}。"
-                  f"購入リンクを出さずに飛ばす")
+                  f"購入リンクを出さずに飛ばす（使える値: {' / '.join(GITEKI_JAPAN)}）")
             continue
         link, is_aff = affiliate_url(s, str(x["url"]), str(x.get("merchant") or ""))
         has_aff = has_aff or is_aff
-        gi_label, gi_kind, gi_warn = GITEKI_BUY[giteki]
+        gi_label, gi_kind, gi_warn = GITEKI_JAPAN[giteki]
         name = str(x.get("name") or japan_store(str(x["url"])))
         price = (f'<span class="buy-price">{html.escape(str(x["price"]))}</span>'
                  if x.get("price") else "")
