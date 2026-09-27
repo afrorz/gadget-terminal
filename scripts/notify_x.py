@@ -13,6 +13,7 @@ X への実際の投稿失敗はここでは起きない(ここは下書きを�
 """
 
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -23,11 +24,12 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def added_post_files(base_sha: str) -> list[Path]:
+def changed_post_files(base_sha: str, diff_filter: str) -> list[Path]:
     import subprocess
 
     result = subprocess.run(
-        ["git", "diff", "--name-only", "--diff-filter=A", base_sha, "HEAD", "--", "content/posts/*.md"],
+        ["git", "diff", "--name-only", f"--diff-filter={diff_filter}", base_sha, "HEAD",
+         "--", "content/posts/*.md"],
         cwd=ROOT,
         capture_output=True,
         text=True,
@@ -36,13 +38,44 @@ def added_post_files(base_sha: str) -> list[Path]:
     return [ROOT / line for line in result.stdout.splitlines() if line.strip()]
 
 
+def parse_front_matter(text: str) -> dict:
+    # 画像URLに "---" を含む記事があるので、単純な split("---") では切らない
+    m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", text, re.S)
+    return yaml.safe_load(m.group(1)) if m else {}
+
+
 def load_front_matter(path: Path) -> dict:
-    text = path.read_text(encoding="utf-8")
-    _, fm, _ = text.split("---", 2)
-    return yaml.safe_load(fm)
+    return parse_front_matter(path.read_text(encoding="utf-8"))
+
+
+def front_matter_at(sha: str, path: Path) -> dict:
+    import subprocess
+
+    rel = path.relative_to(ROOT).as_posix()
+    r = subprocess.run(["git", "show", f"{sha}:{rel}"], cwd=ROOT, capture_output=True,
+                       text=True, encoding="utf-8")
+    return parse_front_matter(r.stdout) if r.returncode == 0 else {}
+
+
+def japan_updates(base_sha: str) -> list[tuple[Path, dict]]:
+    """この実行で「日本上陸」の続報が新しく付いた、または状況が変わった記事。
+
+    確認日だけ更新した(状況は同じ)記事は投稿しない。同じ「予約受付中」を
+    毎週流すと、読者には同じ話の繰り返しにしか見えない。
+    """
+    out = []
+    for path in changed_post_files(base_sha, "M"):
+        now = (load_front_matter(path).get("japan") or {})
+        before = (front_matter_at(base_sha, path).get("japan") or {})
+        if now.get("status") and now.get("status") != before.get("status"):
+            out.append((path, now))
+    return out
 
 
 MAX_HASHTAGS = 2
+
+JAPAN_STATUS_ID = {"発売予定": "announced", "クラウドファンディング中": "funding",
+                   "予約受付中": "preorder", "発売済み": "released"}
 
 
 def build_hashtags(tags) -> str:
@@ -91,13 +124,32 @@ def main() -> int:
         print("使い方: notify_x.py <base_sha> <ingest_url> <token>")
         return 0
 
-    files = added_post_files(base_sha)
-    if not files:
-        print("新着記事なし。X への通知はスキップします。")
+    files = changed_post_files(base_sha, "A")
+    updates = japan_updates(base_sha)
+    if not files and not updates:
+        print("新着記事も日本上陸の続報もなし。X への通知はスキップします。")
         return 0
 
     base_url = site_base_url()
     articles = []
+    # 日本上陸の続報。記事と同じ素材の形で送り、アプリ側では新着と並んで出る。
+    # id に状況を含めるので、「予約受付中」→「発売済み」と進めばそれぞれ1回ずつ届く。
+    for path, j in updates:
+        fm = load_front_matter(path)
+        slug = fm.get("slug")
+        hook = str(j.get("x_hook") or "").strip() or str(j.get("summary") or "").split("。")[0] + "。"
+        if not slug or not hook.strip("。"):
+            continue
+        articles.append({
+            # アプリ側は id を英数字に限っているので、状況は英語の略号にする
+            "id": f"{path.stem}-jp-{JAPAN_STATUS_ID.get(j['status'], 'update')}",
+            "title": f"【日本上陸・{j['status']}】{fm.get('title') or ''}",
+            "hook": hook,
+            "hashtags": build_hashtags(fm.get("tags")),
+            "url": f"{base_url}/posts/{slug}.html",
+            "images": image_urls(fm),
+            "ogImage": f"{base_url}/ogp/{slug}.png",
+        })
     for path in files:
         fm = load_front_matter(path)
         slug = fm.get("slug")

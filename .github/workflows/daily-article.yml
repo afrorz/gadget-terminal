@@ -19,6 +19,11 @@ on:
         required: false
         default: ""
 
+# 日本上陸の見回り(followup.yml)と同時に走って push が衝突しないよう直列にする
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
 jobs:
   write:
     runs-on: ubuntu-latest
@@ -385,6 +390,14 @@ jobs:
                - クラファン案件は「まだ製品ではない」ことを必ず書く。納期遅延・仕様変更の
                  リスク、調達額は取得時点の値であること
                - 「日本から見るとどうか」を必ず入れる（技適・PSE・電波法、国内流通、価格）
+               - **「日本では発売されていない」「国内代理店は確認できない」と書く前に、
+                 日本語で必ず検索する。** WebSearch で「<製品名> 国内 発売」と
+                 「<製品名> Makuake」の2回。海外メディアだけを読むと、国内の発表を
+                 見落とす。実際に BenQ iScreenBar・Razer Prio・Smartlet One の3本で、
+                 公開の前日までに国内発売やMakuake開始が発表されていたのに
+                 「日本では未発表」と書いてしまった（2026-09-27 に発覚）。
+                 国内発表があれば、本文の「日本から見るとどうか」にそれを書き、
+                 docs/PLAYBOOK.md の japan（日本上陸の続報）も付ける
                - 既存記事（content/posts/ の .md）を1本読んで、front matter の書式と
                  文体を合わせること
 
