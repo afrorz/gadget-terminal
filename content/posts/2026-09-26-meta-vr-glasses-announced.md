@@ -1,6 +1,6 @@
 ---
 title: Metaがグラス型VR「Meta VR Glasses」を発表、重量約100g・視度37PPDで1,299.99ドル・2027年春発売
-seo_title: Meta VR Glasses、100gで1300ドル
+seo_title: Meta VR Glasses、日本でも2027年春発売予定
 slug: meta-vr-glasses-announced
 keyword: Meta VR Glasses
 category: smartphone
@@ -18,13 +18,20 @@ images:
     caption: Meta VR Glasses本体(左)と、バッテリー・プロセッサを収めた外部パック(右)。ハイブリッド光ファイバーケーブルで接続する
     credit: Meta公式ストア Meta VR Glasses製品ページ
 credit: Meta公式ストア Meta VR Glasses製品ページ
+japan:
+  status: 発売予定
+  checked: 2026-09-29
+  summary: Meta日本法人(Metaについて)の発表によれば、日本でも2027年春に発売予定。日本円での価格は未定で、予約受付は始まっていない。技適は、総務省のデータベースで型番を特定できず、確認できていない。
+  source:
+    title: Meta VR Glassesを発表、VRの新時代へ(Metaについて)
+    url: https://about.fb.com/ja/news/2026/09/meta-vr-glasses/
 faq:
   - q: 日本で買えますか
-    a: 掲載時点で発表されているのは米ドル建ての価格のみで、日本円での価格や国内発売の有無は確認できていません。
+    a: まだ買えません。Meta日本法人の発表では日本でも2027年春に発売予定ですが、日本円での価格は未定で、予約も始まっていません(2026年9月29日確認)。
   - q: 技適は取得していますか
     a: 確認できていません。Wi-Fi・Bluetoothなどの無線機能を持つ製品のため、国内で無線機能を使うには技適の取得が前提になります。
   - q: いくらですか
-    a: 1,299.99ドル(掲載時点、米国価格)。日本円での価格は示されていません。
+    a: 1,299.99ドル(掲載時点、米国価格)。日本円での価格は未定です(2026年9月29日確認)。
   - q: いつ発売されますか
     a: 2027年春を予定しています。
 alternatives:
