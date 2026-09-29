@@ -208,7 +208,7 @@ def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
         # image は任意（楽天APIから拾えたときだけ入る。scripts/find_rakuten_alt.py 参照）。
         # 無ければ今までどおり画像無しで出す。
         img = (f'<a href="{html.escape(link)}" class="alt-thumb" rel="nofollow sponsored noopener" '
-               f'target="_blank"><img src="{html.escape(str(x["image"]))}" alt="" loading="lazy"></a>'
+               f'target="_blank"><img src="{html.escape(str(x["image"]))}" alt="{html.escape(str(x["name"]))}" loading="lazy"></a>'
                if x.get("image") else "")
         rows.append(
             f'<li class="alt-item">{img}<div class="alt-text">'
@@ -463,7 +463,7 @@ def ad_unit(s: dict, slot_key: str) -> str:
 
 
 def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
-         image: str = "ogp/default.png") -> str:
+         image: str = "ogp/default.png", og_type: str = "website") -> str:
     s = site["site"]
     # image が外部URL（公式サイトの製品画像）ならそのまま使う。
     # 自社生成のアイキャッチだけがサイト相対パスで渡ってくる。
@@ -494,7 +494,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <meta name="description" content="{html.escape(desc)}">{sc_meta}
 <meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="{html.escape(full_url)}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="{html.escape(s['title'])}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
@@ -514,6 +514,23 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 {extra}
 </head>
 <body>"""
+
+
+def home_ld(site: dict) -> str:
+    """トップページの構造化データ。サイト名と運営組織を検索エンジンに宣言する。
+
+    WebSite の name が検索結果の「サイト名」表示の元になる。無いとドメイン名が出る。
+    """
+    s = site["site"]
+    base = s["base_url"].rstrip("/")
+    xa = str(s.get("x_account") or "").strip().lstrip("@")
+    org = {"@type": "Organization", "@id": f"{base}/#org", "name": s["title"], "url": base + "/",
+           "logo": {"@type": "ImageObject", "url": f"{base}/ogp/default.png"},
+           **({"sameAs": [f"https://x.com/{xa}"]} if xa else {})}
+    web = {"@type": "WebSite", "@id": f"{base}/#website", "name": s["title"], "url": base + "/",
+           "inLanguage": "ja", "description": s["description"], "publisher": {"@id": f"{base}/#org"}}
+    d = {"@context": "https://schema.org", "@graph": [web, org]}
+    return f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False, separators=(",", ":"))}</script>'
 
 
 def header(site: dict) -> str:
@@ -963,7 +980,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
 {pager(page, total_pages)}"""
     title = f"{s['title']} — {s['tagline']}" if page <= 1 else f"{s['title']} — {page}ページ目"
     return (
-        head(site, title, s["description"], page_path(page))
+        head(site, title, s["description"], page_path(page), home_ld(site) if page <= 1 else "")
         + header(site)
         + f"""
 <main class="wrap">
@@ -1476,7 +1493,11 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         text = str((s.get("affiliate") or {}).get("disclosure") or "この記事にはアフィリエイト広告を含みます")
         disclosure = f'<p class="ad-notice">{html.escape(text)}</p>'
 
-    ld = "".join(
+    # og:type=article と公開・更新時刻。SNSやDiscoverが「記事」として扱う手がかりになる。
+    _pub, _mod = p["date"], p.get("modified") or p["date"]
+    og_times = (f'<meta property="article:published_time" content="{_pub}T09:00:00+09:00">'
+                f'<meta property="article:modified_time" content="{_mod}T09:00:00+09:00">')
+    ld = og_times + "".join(
         f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False, separators=(",", ":"))}</script>'
         for d in (article_ld, breadcrumb_ld, faq_ld) if d)
 
@@ -1486,7 +1507,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
                    if needs_x else ""),
              # thumbnail は外部URLのまま、生成アイキャッチはサイト相対で渡す
              image=(str(p["thumbnail"]) if p.get("thumbnail")
-                    else f"ogp/{p['slug']}.png"))
+                    else f"ogp/{p['slug']}.png"),
+             og_type="article")
         + header(site)
         + f"""
 <main class="wrap article-wrap">
