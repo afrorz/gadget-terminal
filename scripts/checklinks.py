@@ -142,7 +142,7 @@ def main(argv: list[str]) -> int:
         print("対象の記事がありません:", " ".join(args))
         return 1
 
-    dead_merchant, mismatch, no_money, gone, bad_buy = [], [], [], [], []
+    dead_merchant, mismatch, no_money, gone, bad_buy, no_image = [], [], [], [], [], []
     money_links = plain_links = 0
 
     for f in files:
@@ -191,6 +191,15 @@ def main(argv: list[str]) -> int:
             merchant = str(x.get("merchant") or "").strip()
             label = f"{name}: {x['name']}"
 
+            # 画像の無いおすすめは、並んだときに明らかに見劣りして押されない。
+            # 毎朝の記事生成に画像を付ける手順が無く、2026-09-28/29 の記事で
+            # 5件抜けていた(本人の指摘で発覚)。公開前にここで止める。
+            if not str(x.get("image") or "").strip():
+                no_image.append(label)
+                print(f"NG  {label}\n      image がありません → "
+                      f"python3 scripts/find_alt_images.py --apply で楽天から探すか、"
+                      f"メーカー公式ページの製品画像URLを書く(型番違い・付属品でないか目で確かめる)")
+
             if not merchant:
                 # merchant なしは「対応ストアではない」の意思表示。事故ではない。
                 plain_links += 1
@@ -223,8 +232,12 @@ def main(argv: list[str]) -> int:
 
     print(f"\n記事 {len(files)}本 / 収益リンク {money_links}本 / 素のリンク {plain_links}本"
           f" / 未提携 merchant {len(dead_merchant)}本 / ドメイン不一致 {len(mismatch)}本"
-          f" / 終了した商品 {len(gone)}本 / 収益リンク0本の記事 {len(no_money)}本")
+          f" / 終了した商品 {len(gone)}本 / 収益リンク0本の記事 {len(no_money)}本"
+          f" / 画像なしのおすすめ {len(no_image)}件")
 
+    if no_image:
+        print("\n公開できません。おすすめ欄(alternatives)の画像が無いものがあります。")
+        return 1
     if dead_merchant or mismatch or gone:
         print("\n公開できません。代替品を "
               f"{'/'.join(sorted(live))} の商品ページに差し替えてください。"

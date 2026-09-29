@@ -32,6 +32,7 @@ images:
 credit: AYANEO公式ストア(shop.ayaneo.com)
 alternatives:
   - name: ANBERNIC RG35XX H(Amazon.co.jp)
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/historia/cabinet/skypiea/skypiea_0042/b0fmn3bwyn_1.jpg?_ex=400x400"
     why: 同じくレトロゲームのエミュレーション向けハンドヘルドで、Amazon.co.jpから国内発送で買える。Pocket Blockのような縦型のAndroid機ではないが、技適や輸入の手間を避けて今日から遊べる点が違いになる。
     url: https://www.amazon.co.jp/dp/B0CRNKZYC5
     merchant: amazon

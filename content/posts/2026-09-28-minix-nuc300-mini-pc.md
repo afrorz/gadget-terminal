@@ -24,6 +24,7 @@ images:
 credit: MINIX 公式製品ページ
 alternatives:
   - name: MINIX NEO Z300-0dB(Intel Core i3-N300搭載ファンレスミニPC)
+    image: "https://www.minix.com.hk/cdn/shop/files/Z300-0dB_1.jpg?v=1763359885&width=1024"
     why: 同じMinixブランド・同じN300世代のミニPCが、Amazon.co.jpで既に販売されている。NUC300自体の国内取り扱いが確認できるまで、同等の使い勝手を今日から選べる。
     url: https://www.amazon.co.jp/dp/B0DHZ588YH
     merchant: amazon

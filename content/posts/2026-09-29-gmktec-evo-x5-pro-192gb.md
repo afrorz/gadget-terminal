@@ -26,6 +26,7 @@ images:
 credit: GMKtec公式ストア(gmktec.com)
 alternatives:
   - name: GMKtec EVO-X2(Ryzen AI Max+ 395、64GB+1TB)
+    image: "https://www.gmktec.com/cdn/shop/files/3236633c9c3cf624fc617d8ceea1246c_28049231-bded-49ff-915d-3fd6ae59ddef.png?v=1784801458&width=800"
     why: 同じGMKtecの前世代モデルで、Amazon.co.jpの出品(GMKtec-JP)から国内発送で買える。メモリは64GBと少なく、320B級のモデルは載らないが、ローカルLLMの入門機として現実的な価格帯になる。
     url: https://www.amazon.co.jp/dp/B0F5HDWNKR
     merchant: amazon

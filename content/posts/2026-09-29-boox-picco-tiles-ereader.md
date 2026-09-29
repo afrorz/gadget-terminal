@@ -23,6 +23,7 @@ images:
 credit: BOOX公式ストア(shop.boox.com)
 alternatives:
   - name: BOOX Palma 2(国内正規品)
+    image: "https://shop.boox.com/cdn/shop/files/01_d2c58899-ae0c-489e-a94f-fc3417b8834b_grande.jpg?v=1729236534"
     why: 同じBOOXのスマホ型E Ink端末で、Amazon.co.jpで既に販売されている。画面はPiccoより大きいがポケットに入るサイズで、Androidアプリも使える。Piccoの国内発売を待たずに、今日から試せる。
     url: https://www.amazon.co.jp/BOOX-6-13%E3%82%A4%E3%83%B3%E3%83%81-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-Android-300ppi/dp/B0FGJ8DL59
     merchant: amazon
