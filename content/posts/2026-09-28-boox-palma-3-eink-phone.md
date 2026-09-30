@@ -36,6 +36,13 @@ faq:
     a: 米国公式ストアで319.99〜339.99ドル(構成により変動、掲載時点)。日本ではSKT株式会社が54,800円での発売を予告しています。
   - q: いつ発売されますか
     a: 米国では一部構成が公式ストアで既に注文可能です。日本ではSKT株式会社が2026年10月末の発売を予告しています。
+japan:
+  status: 発売予定
+  checked: 2026-10-01
+  summary: 国内正規代理店のSKT株式会社が、商品ページ(SKTNETSHOP・楽天市場・Yahoo!ショッピング向け)で「商品情報及び発売は10月後半」と案内している。日本語の初期設定マニュアル付き。価格は54,800円と報じられているが、SKT側の商品ページで価格と技適の記載は確認できていない。販売開始までに情報が更新される見込み。
+  source:
+    title: SKT株式会社 BOOX Palma3 商品ページ
+    url: https://sktgroup.co.jp/palma3/
 sources:
   - title: "スマホ型電子ペーパーBOOX「Palma 3」発表！アルミ筐体・ペン入力・Android 16で319ドルから"
     url: https://daily-gadget.net/smartphone_tablet/120452/

@@ -1,6 +1,6 @@
 ---
 title: "Valveの単体駆動型VRヘッドセット「Steam Frame」が予約受付開始、256GB版1,059ドル・1TB版1,299ドルから"
-seo_title: Steam Frameが予約開始、1,059ドルから
+seo_title: Steam Frameは国内発売済み、199,980円から
 slug: valve-steam-frame-pre-order
 keyword: Steam Frame
 category: pc
@@ -11,7 +11,7 @@ tags:
   - Steam Frame
   - VR
   - VRヘッドセット
-x_hook: "PCに繋がなくても単体で動くVRヘッドセットが1,059ドルから予約開始。電源アダプタは別売りで29ドル、Half-Life: Alyxが同梱される一方、抽選に当たらないと購入すらできない仕組みになっている。"
+x_hook: "PCに繋がなくても単体で動くVRヘッドセット「Steam Frame」が、日本でもKOMODOから9月15日に発売された。256GB版は199,980円、1TB版は244,980円(税込)。"
 images:
   - url: "https://clan.fastly.steamstatic.com/images/45479024/41ac1feaa13a1396844a31be91beb068eb2e509f.jpg"
     caption: Steam Frame本体と左右のコントローラー。ヘッドセットは単体でスタンドアロン動作するほか、PCやSteam Machineとの無線ストリーミングにも対応する
@@ -24,13 +24,25 @@ alternatives:
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg?_ex=400x400"
 faq:
   - q: 日本で買えますか
-    a: 掲載時点でValveから日本向け販売や技適取得の発表はない。予約(抽選)自体がどの国からできるかも公式発表からは確認できていない。
+    a: 買えます。株式会社KOMODOが運営するKOMODO STATIONで2026年9月15日に国内販売が始まりました(確認日2026-10-01)。この記事の公開時点で既に国内販売は始まっていました。
   - q: いくらですか
-    a: 米国価格で256GBモデルが1,059ドル、1TBモデルが1,299ドル(掲載時点)。Phoronixの報道によるとユーロ圏では256GBモデルが1,049ユーロ、英国では889ポンドとされる。
+    a: 国内ではKOMODO STATIONで256GB版が199,980円、1TB版が244,980円(税込)。米国価格は256GBモデルが1,059ドル、1TBモデルが1,299ドル(掲載時点)。Phoronixの報道によるとユーロ圏では256GBモデルが1,049ユーロ、英国では889ポンドとされる。
   - q: 予約すればすぐ買えますか
     a: いいえ。Valveは転売対策として抽選制の予約システムを採用しており、登録の受付は9月17日に締め切られる。当選者への購入招待は9月18日から順次送られる予定とTechPowerUpは報じている。
   - q: どんなVRヘッドセットですか
     a: "Qualcomm製Snapdragon 8系SoCを搭載し、単体でもPCやSteam Machineとの無線ストリーミングでも動作する。購入者にはHalf-Life: Alyxが同梱され、Steam Frame Standalone Verifiedとして動作確認済みのゲームが100本以上あるとPhoronixは伝えている。"
+japan:
+  status: 発売済み
+  checked: 2026-10-01
+  summary: 公開時点で既に国内販売は始まっていたのに見落としていた。株式会社KOMODOが2026年9月15日から、運営するKOMODO STATIONで日本・台湾・香港向けに販売している。価格は税込で256GB版が199,980円、1TB版が244,980円。先着販売で、報道では発売当日の午後には256GB版が売り切れ表示だった。プレスリリースに技適・認証の記載はなく、総務省のデータベースでもSteam Frameの型番は特定できていないため、技適は確認できていない。
+  buy:
+  - name: KOMODO STATION(株式会社KOMODO)
+    url: https://komodostation.com/product/steam-frame/
+    price: 256GB版199,980円・1TB版244,980円(税込、掲載時点)
+    giteki: 国内正規
+  source:
+    title: "『STEAM FRAME』日本、台湾、香港で本日より販売開始(株式会社KOMODO、PR TIMES)"
+    url: https://prtimes.jp/main/html/rd/p/000000110.000080799.html
 sources:
   - title: "Valve's Steam Frame Starts at $1,059, Pre-Orders Now Open"
     url: https://www.techpowerup.com/352695/valves-steam-frame-starts-at-usd-1-059-pre-orders-now-open
