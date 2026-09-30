@@ -5,7 +5,7 @@ slug: atk-blazing-sky-phantom
 keyword: Phantom
 category: pc
 date: 2026-09-30
-kicker: 中国のゲーミングギア会社ATKが、中空カーボン繊維の殻で44gに収めたワイヤレスマウス「Blazing Sky Phantom」を発売した。有線と2.4GHz無線のどちらでも8,000Hz。公式ストアの価格は99.98ドル(定価は119.98ドル)。技適は、この機種ではまだ確認できていない。
+kicker: 中国のゲーミングギア会社ATKが、中空カーボン繊維の殻で44gに収めたワイヤレスマウス「Blazing Sky Phantom」を発売した。有線と2.4GHz無線のどちらでも8,000Hz。公式ストアの価格は99.98ドル(定価は119.98ドル)。
 tags:
   - ATK
   - Blazing Sky Phantom

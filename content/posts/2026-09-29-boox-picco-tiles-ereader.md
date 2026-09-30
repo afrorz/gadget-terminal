@@ -5,7 +5,7 @@ slug: boox-picco-tiles-ereader
 keyword: BOOX Picco
 category: smartphone
 date: 2026-09-29
-kicker: BOOXがシリーズ最小の電子書籍リーダー「Picco」の予約を9月28日に公式ストアで始めた。3.97インチ・58gで99.99ドル、出荷は11月の予定。ほかのBOOX端末と違い、Androidではない独自OSで動く。日本での発売は確認できていない。
+kicker: BOOXがシリーズ最小の電子書籍リーダー「Picco」の予約を9月28日に公式ストアで始めた。3.97インチ・58gで99.99ドル、出荷は11月の予定。ほかのBOOX端末と違い、Androidではない独自OSで動く。
 tags:
   - BOOX
   - Picco

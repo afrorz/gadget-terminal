@@ -5,7 +5,7 @@ slug: puroway-portable-water-purifier
 keyword: Puroway
 category: weird
 date: 2026-09-09
-kicker: USB-C充電式で電動ポンプ稼働する携帯浄水器「Puroway」がKickstarterに登場し、目標2000ドルに対し8433ドル（421%）を集めている。6段階ろ過で河川・湖沼の水を処理できるとうたうが、フィルター性能を裏付ける第三者認証は掲載時点で確認できていない。早期価格は69ドルから。
+kicker: USB-C充電式で電動ポンプ稼働する携帯浄水器「Puroway」がKickstarterに登場し、目標2000ドルに対し8433ドル（421%）を集めている。6段階ろ過で河川・湖沼の水を処理できるとうたう。早期価格は69ドルから。
 tags:
 - Puroway
 - 携帯浄水器

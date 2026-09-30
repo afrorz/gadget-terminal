@@ -114,7 +114,10 @@ def parse_post(path: Path) -> dict | None:
     meta["images"] = imgs
     meta["thumbnail"] = imgs[0]["url"] if imgs else ""
     meta["thumbnail_credit"] = imgs[0]["credit"] if imgs else ""
-    meta.setdefault("excerpt", re.sub(r"<[^>]+>", "", meta["body_html"])[:110].strip() + "…")
+    # 検索結果の説明文・RSS・構造化データに使う。本文の書き出しは「日本から見ると」の
+    # 注意書きを含みやすいので、要点を書いた kicker を優先する(2026-09-30)。
+    meta.setdefault("excerpt", str(meta.get("kicker") or "").strip()
+                    or re.sub(r"<[^>]+>", "", meta["body_html"])[:110].strip() + "…")
     return meta
 
 

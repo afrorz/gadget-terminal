@@ -5,7 +5,7 @@ slug: steelseries-sensei-rival-pro-uwb
 keyword: Sensei Pro
 category: pc
 date: 2026-09-30
-kicker: SteelSeriesがワイヤレスゲーミングマウス「Sensei Pro」「Rival Pro」を発表した。接続は2.4GHz帯ではなく6.4〜9.056GHzのUWBで、USBケーブルでの有線接続は無い。海外の価格は179.99ドル、発売は10月13日。日本の価格と発売日は掲載時点で告知されていない。
+kicker: SteelSeriesがワイヤレスゲーミングマウス「Sensei Pro」「Rival Pro」を発表した。接続は2.4GHz帯ではなく6.4〜9.056GHzのUWBで、USBケーブルでの有線接続は無い。海外の価格は179.99ドル、発売は10月13日。
 tags:
   - SteelSeries
   - Sensei Pro

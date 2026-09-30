@@ -5,7 +5,7 @@ slug: ayaneo-konkr-pocket-block
 keyword: Pocket Block
 category: weird
 date: 2026-09-29
-kicker: AYANEOの廉価ブランドKONKRが、3.33インチ・4:3画面の縦型Androidハンドヘルド「Pocket Block」の予約を公式サイトで始めた。価格は2GB版が89ドル(早期価格79ドル)からで、海外向けの出荷は10月末の予定。日本向けの発表は確認できていない。
+kicker: "AYANEOの廉価ブランドKONKRが、3.33インチ・4:3画面の縦型Androidハンドヘルド「Pocket Block」の予約を公式サイトで始めた。価格は2GB版が89ドル(早期価格79ドル)からで、海外向けの出荷は10月末の予定。"
 tags:
   - AYANEO
   - KONKR

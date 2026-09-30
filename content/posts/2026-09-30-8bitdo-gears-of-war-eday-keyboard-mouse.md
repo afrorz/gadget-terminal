@@ -5,7 +5,7 @@ slug: 8bitdo-gears-of-war-eday-keyboard-mouse
 keyword: 8BitDo Gears版
 category: pc
 date: 2026-09-30
-kicker: "8BitDoが、Xboxの公式ライセンスを受けた「Gears of War: E-Day」版のRetro 87キーボードとRetro R8マウスを発表した。価格はキーボードが119.99ドル、マウスが59.99ドルで、発売は10月30日。日本での取り扱いは掲載時点で確認できていない。"
+kicker: "8BitDoが、Xboxの公式ライセンスを受けた「Gears of War: E-Day」版のRetro 87キーボードとRetro R8マウスを発表した。価格はキーボードが119.99ドル、マウスが59.99ドルで、発売は10月30日。"
 tags:
   - 8BitDo
   - Gears of War

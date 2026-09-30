@@ -5,7 +5,7 @@ slug: xiaomi-mijia-fish-tank-2-pro
 keyword: スマート水槽
 category: weird
 date: 2026-08-25
-kicker: Xiaomiが展開する先行予約プラットフォーム「小米有品（Xiaomi Youpin）」で、自動給餌・自動ろ過機能を備えたスマート水槽「Mijia Smart Fish Tank 2 Pro」の予約が始まった。早期価格は599元（約85ドル、掲載時点）。中国国内限定の案件で、日本語対応や国内発売は確認できていない。
+kicker: Xiaomiが展開する先行予約プラットフォーム「小米有品（Xiaomi Youpin）」で、自動給餌・自動ろ過機能を備えたスマート水槽「Mijia Smart Fish Tank 2 Pro」の予約が始まった。早期価格は599元（約85ドル、掲載時点）。
 tags:
 - Xiaomi
 - Mijia
