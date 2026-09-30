@@ -1,6 +1,6 @@
 ---
 title: CtrlVibe AI Consoleは9キーのAI操作用キーパッド。Kickstarterで目標10,000ドルに対し33,018ドル、109ドルから
-seo_title: CtrlVibeのAIキーパッドは109ドル、技適は未確認
+seo_title: "CtrlVibeのAIキーパッドは109ドル、日本で使える？"
 slug: ctrlvibe-ai-console
 images:
   - url: "https://i.kickstarter.com/assets/054/609/348/2646786fcbae9c7143138e7ad13455ff_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1785455604&width=1552&sig=e3c9UYo641IFFfRW3sG6%2BT1cgSpOD410251AZ5%2BV6SQ%3D"

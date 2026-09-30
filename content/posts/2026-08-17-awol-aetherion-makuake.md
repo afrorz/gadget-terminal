@@ -1,6 +1,6 @@
 ---
 title: AWOL Vision「Aetherion」がMakuakeに登場 — Kickstarterで18M USDを集め、海外ではすでに発売済みの4K RGBレーザー超短焦点
-seo_title: Aetherionが8月18日Makuake開始、技適は未確認
+seo_title: "Aetherionが8月18日Makuake開始、技適は？"
 slug: awol-aetherion-makuake
 keyword: Aetherion
 category: pc

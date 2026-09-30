@@ -1,6 +1,6 @@
 ---
-title: SteelSeries「Sensei Pro」「Rival Pro」は2.4GHzをやめてUWB接続、53gで8,000Hz、179.99ドル。日本の価格と発売日は未発表
-seo_title: SteelSeries Sensei Pro、日本の発売と技適
+title: "SteelSeries「Sensei Pro」「Rival Pro」は2.4GHzをやめてUWB接続、53gで8,000Hz、179.99ドル"
+seo_title: "SteelSeries Sensei Pro、日本発売は？"
 slug: steelseries-sensei-rival-pro-uwb
 keyword: Sensei Pro
 category: pc

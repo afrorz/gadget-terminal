@@ -1,5 +1,5 @@
 ---
-title: 超ミニAndroid TV「CaloR C1」がMakuake開始、35,980円からだが技適の記載が見当たらない
+title: "超ミニAndroid TV「CaloR C1」がMakuake開始、35,980円から"
 slug: calor-c1-makuake
 keyword: CaloR C1
 category: weird

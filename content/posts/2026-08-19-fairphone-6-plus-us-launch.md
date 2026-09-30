@@ -1,6 +1,6 @@
 ---
 title: "Fairphone 6+が米国に初上陸、12GB RAMと着脱式バッテリーで649ドル"
-seo_title: Fairphone 6+は649ドル、日本での正式販売はなし
+seo_title: "Fairphone 6+は649ドル、日本で買える？"
 slug: fairphone-6-plus-us-launch
 keyword: Fairphone 6+
 category: smartphone

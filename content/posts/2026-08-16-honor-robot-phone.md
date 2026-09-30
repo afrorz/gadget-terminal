@@ -1,6 +1,6 @@
 ---
 title: Honor Robot Phone 実機レビュー — 背面からジンバルが生えるスマホ、中国限定でCNY 9,999
-seo_title: Honor Robot Phoneは中国限定、日本発売は未定
+seo_title: "Honor Robot Phone、日本発売は？"
 slug: honor-robot-phone
 keyword: Honor Robot Phone
 category: smartphone

@@ -1,6 +1,6 @@
 ---
 title: Elecrow ThinkNode M9 — 電波が届かない場所で文字を送る、75ドルのQWERTY端末
-seo_title: ThinkNode M9は75ドル、日本では技適が必要
+seo_title: "ThinkNode M9は75ドル、日本で使える？"
 slug: elecrow-thinknode-m9
 keyword: ThinkNode M9
 category: weird

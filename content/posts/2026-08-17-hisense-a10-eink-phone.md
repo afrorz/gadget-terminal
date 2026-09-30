@@ -1,6 +1,6 @@
 ---
 title: Hisense A10は6.13インチE Inkスマホ — 背面に5インチのカラーLCDをマグネットで貼り付ける
-seo_title: Hisense A10は中国で約590ドル、日本発売は未定
+seo_title: "Hisense A10は中国で約590ドル、日本発売は？"
 slug: hisense-a10-eink-phone
 keyword: Hisense A10
 category: smartphone

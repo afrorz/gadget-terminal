@@ -1,6 +1,6 @@
 ---
-title: AYANEO「KONKR Pocket Block」は3.33インチ4:3画面のAndroid縦型機、89ドルから予約開始で国内販売は未確認
-seo_title: KONKR Pocket Blockは89ドル、技適は未確認
+title: "AYANEO「KONKR Pocket Block」は3.33インチ4:3画面のAndroid縦型機、89ドルから予約開始"
+seo_title: "KONKR Pocket Blockは89ドル、日本で使える？"
 slug: ayaneo-konkr-pocket-block
 keyword: Pocket Block
 category: weird

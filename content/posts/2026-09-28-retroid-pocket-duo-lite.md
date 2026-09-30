@@ -1,5 +1,5 @@
 ---
-title: 二画面クラムシェル型ゲーム機「Retroid Pocket Duo Lite」が149ドルから、国内は並行輸入のみで技適未確認
+title: "二画面クラムシェル型ゲーム機「Retroid Pocket Duo Lite」が149ドルから出荷開始"
 seo_title: Retroid Pocket Duo Liteは149ドルから
 slug: retroid-pocket-duo-lite
 category: weird
