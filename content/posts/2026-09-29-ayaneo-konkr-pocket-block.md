@@ -15,7 +15,7 @@ tags:
 origin: SZX 深圳
 status: SCHEDULED
 status_note: 海外向けは10月末出荷予定
-x_hook: 幅77mm、165gのゲームボーイ風筐体に、960×720の4:3液晶とHelio G85を詰めた。2GB版は89ドル、早期価格なら79ドル。ただし出荷は10月末で、日本の技適や国内代理店の情報は掲載時点でまだ出ていない
+x_hook: 幅77mm・165gのゲームボーイのような縦型の本体に、960×720の4:3液晶とHelio G85を詰めた。AYANEOの廉価ブランドKONKRの「Pocket Block」は、2GB版が89ドル、早期価格なら79ドルで予約を受け付けている
 embeds:
   - type: youtube
     id: MJtMwX7jP2U

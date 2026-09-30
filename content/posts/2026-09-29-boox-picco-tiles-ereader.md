@@ -14,7 +14,7 @@ tags:
 origin:
 status: SCHEDULED
 status_note: 予約受付中、11月出荷予定
-x_hook: 58g、クレジットカード程度の大きさの電子書籍リーダーが99.99ドルで予約開始。BOOXなのにAndroidが入っておらず、Kindleアプリも使えない。国内代理店のSKTがPiccoを扱うかは、掲載時点で告知されていない
+x_hook: 58g、クレジットカードほどの大きさの電子書籍リーダー「BOOX Picco」が99.99ドルで予約開始。物理のページ送りボタンと色温度を変えられるフロントライトを備え、付属の磁気リング付きケースでスマホの背面にも付けられる
 images:
   - url: "https://shop.boox.com/cdn/shop/files/1_004f8439-0b2d-42cb-98fb-26feec2833f7_900x.jpg"
     caption: 本体前面。画面は3.97インチのモノクロE Inkで、右側面にページ送りボタンがある

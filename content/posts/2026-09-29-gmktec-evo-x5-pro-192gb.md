@@ -17,7 +17,7 @@ embeds:
   - type: youtube
     id: 1I6_fVxGY3M
     caption: "Singularity Feedによる動画「GMKtec EVO-X5 Pro: On-device 192 GB RAM leads Local AI Revolution」"
-x_hook: 192GBのメモリを積んだ2.5kgの箱で、3,200億パラメータのAIモデルを手元で動かせるというのがGMKtecの主張。価格は6,599ドルで、日本向けストアにも円建ての価格表示がある。ただし性能は同社の発表値で、第三者の検証は確認できていない
+x_hook: 192GBのメモリを積んだ2.5kgの箱で、3,200億パラメータのAIモデルを手元で動かせるという。GMKtec「EVO-X5 Pro」は10GbEを2つとUSB4 v2を備え、価格は6,599ドル。日本向けの公式ストアにも掲載されている
 images:
   - url: "https://www.gmktec.com/cdn/shop/files/EVO-X5PRO_en-GB_3840x1600_65a4d53f-0c00-41b6-901e-dc0097d5ec80.jpg?v=1790565967&width=3200"
     caption: 20台をラックに載せたクラスタ構成のイメージ。本体は黒い筐体で、前面にUSBポートと緑色の電源ボタンがある

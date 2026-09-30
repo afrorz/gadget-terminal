@@ -11,7 +11,7 @@ tags:
   - ミニPC
   - Intel N300
 origin: HKG 香港
-x_hook: 650ドルのミニPCに、テレビの電源と連動して切り替わるHDMI CECが付いた。CPUは非力なN300のままだが、2.5Gb Ethernetと三画面出力を備え、性能より「置いて忘れられる使い勝手」を選んだ設計に見える
+x_hook: テレビの電源と連動して入力が切り替わるHDMI CECを、ミニPCが備えた。MINIX「NUC300」は2.5Gb Ethernetと3画面出力を持ち、16GBメモリ・512GB SSDで650ドル。リビングに置いて存在を忘れられる使い勝手を狙った1台
 images:
   - url: "https://www.minix.com.hk/cdn/shop/files/NUC300-mini-PC-2000-2000-1.jpg?v=1770262771&width=2000"
     caption: 本体前面。USB-A×2とヘッドホン端子、電源ボタンを備える

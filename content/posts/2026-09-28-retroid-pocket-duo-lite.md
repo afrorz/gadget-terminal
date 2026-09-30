@@ -15,7 +15,7 @@ origin: SZX 深圳
 embeds:
   - type: youtube
     id: WKhldAN9bCY
-x_hook: 上下2枚の液晶を開くと、上が1920×1080、下が1280×960という解像度違いの2画面が同時に光る。最安149ドルで出荷が始まったが、国内の並行輸入店は「保証なし・キャンセル不可」と明記しており、Wi-FiとBluetoothの技適取得も確認できていない
+x_hook: 開くと上が1920×1080、下が1280×960の2枚の液晶が同時に光る。Retroidの2画面レトロゲーム機「Pocket Duo Lite」は6,000mAhのバッテリーを積み、149ドルから出荷が始まった
 images:
   - url: "https://www.goretroid.com/cdn/shop/files/1_36295990-b422-4fb3-a067-89825b3602f6_2048x.jpg"
     caption: 折りたたみ時。5.5インチ(上)と4.2インチ(下)の2画面を開いた状態
