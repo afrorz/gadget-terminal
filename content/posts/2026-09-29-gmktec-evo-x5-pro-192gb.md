@@ -1,6 +1,6 @@
 ---
 title: GMKtec「EVO-X5 Pro」はRyzen AI Max+ PRO 495と192GBメモリで6,599ドル、320Bモデルのローカル実行をうたう
-seo_title: GMKtec EVO-X5 Pro、192GBで6,599ドル
+seo_title: GMKtec EVO-X5 Pro、192GBメモリで国内発売、108万円台から
 slug: gmktec-evo-x5-pro-192gb
 keyword: EVO-X5 Pro
 category: pc
@@ -17,13 +17,20 @@ embeds:
   - type: youtube
     id: 1I6_fVxGY3M
     caption: "Singularity Feedによる動画「GMKtec EVO-X5 Pro: On-device 192 GB RAM leads Local AI Revolution」"
-x_hook: 192GBのメモリを積んだ2.5kgの箱で、3,200億パラメータのAIモデルを手元で動かせるという。GMKtec「EVO-X5 Pro」は10GbEを2つとUSB4 v2を備え、価格は6,599ドル。日本向けの公式ストアにも掲載されている
+x_hook: 192GBメモリを積み、3,200億パラメータのAIモデルを手元で動かせるとうたうミニPC「GMKtec EVO-X5 Pro」が、9月28日に日本でも発売された。2TB構成で108万7,840円、4TB構成は113万5,840円。
 images:
   - url: "https://www.gmktec.com/cdn/shop/files/EVO-X5PRO_en-GB_3840x1600_65a4d53f-0c00-41b6-901e-dc0097d5ec80.jpg?v=1790565967&width=3200"
     caption: 20台をラックに載せたクラスタ構成のイメージ。本体は黒い筐体で、前面にUSBポートと緑色の電源ボタンがある
   - url: "https://www.gmktec.com/cdn/shop/files/EVO-X5PRO_en-GB_3840x1600_d9d3dd29-cddd-4a7a-a3e6-1690422080e6.jpg?v=1790566080&width=3200"
     caption: 前面と背面のポート配置図。背面にHDMI 2.1、USB4 v2が2基、10GbE RJ45が2基、DC入力がある
 credit: GMKtec公式ストア(gmktec.com)
+japan:
+  status: 発売済み
+  checked: 2026-10-02
+  summary: GMKtecが日本向け公式ストア(jp.gmktec.com)で2026年9月28日に発売した。PC Watchの報道では2TB構成が108万7,840円、4TB構成が113万5,840円で、発売直後の24時間限定・30台の早割は2TB構成103万9,840円だった。公開時点でも日本向けストアに製品ページがあり、国内発表を見落としていたわけではないが、発売日と円建て価格は今回確認した。技適は総務省のデータベースでGMKtecを検索しても該当がなく、確認できていない。Wi-Fi 7を内蔵するため、無線を使うなら取得の確認を待つべきで、有線LANだけなら電波法上の問題はない。販売元は日本法人ではなくメーカー直販で、国内正規代理店の扱いは確認できていない。
+  source:
+    title: 約108万円で320B LLM をオフライン実行できる「EVO-X5 Pro」
+    url: https://pc.watch.impress.co.jp/docs/news/2144148.html
 alternatives:
   - name: GMKtec EVO-X2(Ryzen AI Max+ 395、64GB+1TB)
     image: "https://www.gmktec.com/cdn/shop/files/3236633c9c3cf624fc617d8ceea1246c_28049231-bded-49ff-915d-3fd6ae59ddef.png?v=1784801458&width=800"
@@ -32,11 +39,11 @@ alternatives:
     merchant: amazon
 faq:
   - q: 日本で買えますか
-    a: GMKtecの日本向け公式ストア(jp.gmktec.com)に製品ページがあり、日本送料無料の表示が出ています。掲載時点の表示は期間限定の早割価格で、円建てで100万円台からです。
+    a: はい。GMKtecが日本向け公式ストア(jp.gmktec.com)で2026年9月28日に発売しています。日本送料無料の表示があります。ただし技適は確認できていません。
   - q: 技適は取得していますか
     a: Wi-Fi 7を内蔵しますが、掲載時点でEVO-X5 Proの技適取得は確認できていません。公式の製品ページにも記載はありません。
   - q: いくらですか
-    a: 公式ストアの価格は、2TB構成が6,599ドル、4TB構成が6,899ドルです(掲載時点)。
+    a: 日本向けでは、PC Watchの報道で2TB構成が108万7,840円、4TB構成が113万5,840円です(掲載時点)。海外の公式ストアでは2TB構成が6,599ドル、4TB構成が6,899ドルでした。
   - q: 320Bのモデルは本当に動きますか
     a: GMKtecは量子化した320Bパラメータのモデルをオフラインで実行できるとしていますが、これは同社の発表であり、第三者の検証は確認できていません。
 sources:
