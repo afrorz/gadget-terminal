@@ -5,7 +5,7 @@ slug: violoop-ai-plugin-computer
 keyword: Violoop
 category: weird
 date: 2026-09-25
-kicker: 香港のBVIO Technologyが、既存のパソコンにHDMIとUSB-Cで挿すだけでAIが画面を読み取り、キーボードとマウスを代わりに操作する外付け機器「Violoop」をKickstarterで公開した。目標額の173倍を集めて資金調達中だが、現時点の出荷対象地域に日本は含まれていない。
+kicker: 香港のBVIO Technologyが、既存のパソコンにHDMIとUSB-Cで挿すだけでAIが画面を読み取り、キーボードとマウスを代わりに操作する外付け機器「Violoop」をKickstarterで公開した。目標額の173倍を集めて資金調達中。
 tags:
   - Violoop
   - BVIO

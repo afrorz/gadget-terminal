@@ -5,7 +5,7 @@ slug: samsung-galaxy-book6-800dollar
 keyword: Galaxy Book6
 category: pc
 date: 2026-09-02
-kicker: Samsungが、Galaxy Book6シリーズに手頃な価格帯のエントリーモデル「Galaxy Book6」を追加した。14インチ・Intel Core 3またはCore 5 315搭載で、米国価格は800ドルから。10月5日に米国で発売される。日本ではCESで発表済みのGalaxy Book6 Pro/Ultraのみが案内されており、本モデルの国内投入は掲載時点で確認できていない。
+kicker: Samsungが、Galaxy Book6シリーズに手頃な価格帯のエントリーモデル「Galaxy Book6」を追加した。14インチ・Intel Core 3またはCore 5 315搭載で、米国価格は800ドルから。10月5日に米国で発売される。
 tags:
 - Samsung
 - Galaxy Book6

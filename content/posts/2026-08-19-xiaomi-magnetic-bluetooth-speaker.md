@@ -1,6 +1,6 @@
 ---
 title: "Xiaomiの磁気吸着Bluetoothスピーカーが中国でクラウドファンディング開始、132元・95gでスマホスタンドにもなる"
-seo_title: Xiaomiの磁気吸着スピーカーは132元、日本発送なし
+seo_title: "Xiaomiの磁気吸着スピーカーは132元、日本で買える？"
 slug: xiaomi-magnetic-bluetooth-speaker
 keyword: 磁吸スピーカー
 category: weird

@@ -1,6 +1,6 @@
 ---
 title: Seeed Studio、ファームウェアを書き換えられる50ドルの電子ペーパー端末「reTerminal Sticky」
-seo_title: reTerminal Stickyは50ドル、技適は未確認
+seo_title: "reTerminal Stickyは50ドル、日本で使える？"
 keyword: reTerminal Sticky
 slug: seeed-reterminal-sticky
 category: pc

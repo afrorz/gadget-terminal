@@ -1,0 +1,673 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T08:19:13.052681+09:00",
+  "stats": {
+    "fetched": 724,
+    "unique": 684,
+    "new": 218,
+    "clusters": 213,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "65cbe123555de880",
+      "title": "Honor Magic 9 series full specs surface for all three phones before launch day",
+      "url": "https://www.gizmochina.com/2026/09/27/honor-magic-9-series-full-specs-surface-for-all-three-phones-before-launch-day/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/honor-magic-9-series-full-specs-surface-for-all-three-phones-before-launch-day",
+      "summary": "Digital Chat Station has filled in the remaining details of Honor’s Magic 9 lineup, just days after Honor confirmed the starting price for the series. The lineup launches tomorrow with three models, and the latest leak reveals the display sizes, battery capacities, charging speeds, and camera hardware for the Magic 9, Magic 9 Pro Max, [&#8230;] The post Honor Magic 9 series full specs surface for ",
+      "published": "2026-09-27T07:39:28+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c492150514007261",
+      "title": "Weekly poll: what do you think of the Xiaomi 18 Pro and Xiaomi 18 Pro Max?",
+      "url": "https://www.gsmarena.com/weekly_poll_what_do_you_think_of_the_xiaomi_18_pro_and_xiaomi_18_pro_max-news-74753.php",
+      "canonical": "https://www.gsmarena.com/weekly_poll_what_do_you_think_of_the_xiaomi_18_pro_and_xiaomi_18_pro_max-news-74753.php",
+      "summary": "Hot on the heels of the Snapdragon 8 Elite Extreme Gen 6 and 8 Elite Gen 6 announcement, Xiaomi unveiled two flagships featuring the new chips. These two are already on sale in China and Xiaomi has confirmed that the Xiaomi 18 Pro series will be available globally. “When?” and “How much?” are questions for another date. We wanted to get your first reaction to the new models – do you like the direc",
+      "published": "2026-09-27T08:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+3 ships",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3fe65689c504ac80",
+      "title": "vivo X500 Pro Max unboxing and hands-on",
+      "url": "https://www.gsmarena.com/vivo_x500_pro_max_in_for_review-news-74773.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_pro_max_in_for_review-news-74773.php",
+      "summary": "We had the pleasure of attending the vivo X500 Pro Max unveiling in China, but we're now back at HQ and can get our unboxing hats on! And boy, is there a lot to unpack here. First, a word on the phone itself. This is vivo's latest premium flagship that sits just below the Ultra model (in theory more than in practice), and packs some truly impressive hardware. It's got a spanking-new 2nm SoC in the",
+      "published": "2026-09-27T19:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": [
+        "https://www.gsmarena.com/xiaomi_18_pro_pro_max_vivo_x500_pro_pro_max_are_all_official_week_39_in_review-news-74776.php"
+      ]
+    },
+    {
+      "id": "f65c0914357105b2",
+      "title": "Entry-level Minix NUC300 launches with speedy Ethernet port and HDMI CEC support",
+      "url": "https://www.notebookcheck.net/Entry-level-Minix-NUC300-launches-with-speedy-Ethernet-port-and-HDMI-CEC-support.1409872.0.html",
+      "canonical": "https://www.notebookcheck.net/Entry-level-Minix-NUC300-launches-with-speedy-Ethernet-port-and-HDMI-CEC-support.1409872.0.html",
+      "summary": "Minix has launched the NUC300, an entry-level mini PC that's powered by the Intel N300. The launch price isn't attractive for the performance, but with a 2.5GbE port and HDMI CEC, it can be a good pick for media needs.",
+      "published": "2026-09-27T14:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f558bdfa5e86efeb",
+      "title": "Ugreen launches 65W travel adapter that lets you switch plug types with a simple twist",
+      "url": "https://www.gizmochina.com/2026/09/26/ugreen-65w-gan-travel-adapter-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/26/ugreen-65w-gan-travel-adapter-launched-specs-price",
+      "summary": "Ugreen is releasing a new 65W travel adapter that changes how the actual wall plugs work. Instead of the usual sliders or snap-on attachments you see on most international chargers, this one uses a rotating mechanism. It is currently up for pre-order in China for 169 yuan ($25) and goes on regular sale on September [&#8230;] The post Ugreen launches 65W travel adapter that lets you switch plug typ",
+      "published": "2026-09-26T23:15:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8628862dbac5db8c",
+      "title": "Apple has no answer to the Galaxy Z Fold 8 Ultra, and Samsung should pounce on it",
+      "url": "https://www.sammobile.com/opinion/apple-no-answer-to-galaxy-z-fold-8-ultra-samsung-should-pounce/",
+      "canonical": "https://www.sammobile.com/opinion/apple-no-answer-to-galaxy-z-fold-8-ultra-samsung-should-pounce",
+      "summary": "Since Apple launched the iPhone Duo, people have largely compared it to the Galaxy Z Fold 8. It makes sense, too. Both are wider foldables with a distinct passport-style that's easily distinguishable from the more established book-style of the Galaxy Z Fold 8 Ultra. Both of these devices are around the same price point. They [ ]",
+      "published": "2026-09-27T16:49:25+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b2a8e0a0865d7d33",
+      "title": "Qualcomm Unveils Snapdragon 8 Elite Gen 6 and Elite Extreme Gen 6: Next Gen Flagship Mobile Chips",
+      "url": "https://www.servethehome.com/qualcomm-unveils-snapdragon-8-elite-gen-6-and-elite-extreme-gen-6-next-gen-flagship-mobile-chips/",
+      "canonical": "https://www.servethehome.com/qualcomm-unveils-snapdragon-8-elite-gen-6-and-elite-extreme-gen-6-next-gen-flagship-mobile-chips",
+      "summary": "This week Qualcomm unveiled its next generation of high-end mobile SoCs: Snapdragon 8 Elite Gen 6, and Elite Extreme Gen 6. The flagship chips bring a slew of new features to the table, including new Oryon CPU cores, GPU matrix cores, and LPDDR6 support The post Qualcomm Unveils Snapdragon 8 Elite Gen 6 and Elite Extreme Gen 6: Next Gen Flagship Mobile Chips appeared first on ServeTheHome .",
+      "published": "2026-09-26T19:00:12+00:00",
+      "source_id": "servethehome",
+      "source": "ServeTheHome",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 unveil",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ed887d370f047f63",
+      "title": "Google Pixel can use Tensor as long as it wants; it’s all the other specs I’m jealous of",
+      "url": "https://9to5google.com/2026/09/27/google-pixel-tensor-snapdragon-mediatek-newsletter/",
+      "canonical": "https://9to5google.com/2026/09/27/google-pixel-tensor-snapdragon-mediatek-newsletter",
+      "summary": "This week saw the debut of Qualcomm’s latest Snapdragon chips and, with it, the usual onslaught of Tensor hate around Google’s Pixel phones. Personally, I don’t care about those, but new launches around Qualcomm’s event have shown off a lot of other specs I’d much rather see Pixel adopt. 9to5Google Weekender by Ben Schoon is a part of our free newsletter that also includes ‘Inbox,’ a twice-weekly ",
+      "published": "2026-09-27T13:00:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "477f81d2948b6f58",
+      "title": "Gigabyte 1000GM PG5 1000W power supply review: Impressive Platinum-level efficiency with T-Guard thermal protection",
+      "url": "https://www.tomshardware.com/pc-components/power-supplies/gigabyte-1000gm-pg5-1000w-power-supply-review",
+      "canonical": "https://www.tomshardware.com/pc-components/power-supplies/gigabyte-1000gm-pg5-1000w-power-supply-review",
+      "summary": "Gigabyte's new Gaming series flagship, the Gigabyte 1000GM PG5 1000W, pairs an HEC-built platform with all-Japanese capacitors, Platinum-level efficiency, and T-Guard thermal protection for the 12V-2x6 connector.",
+      "published": "2026-09-27T13:00:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 review",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0710ce19240c9e56",
+      "title": "Hands-on with the Gamrombo RH-5189 PlayStation 5 controller: DualSense replacement at half the price",
+      "url": "https://www.notebookcheck.net/Hands-on-with-the-Gamrombo-RH-5189-PlayStation-5-controller-DualSense-replacement-at-half-the-price.1400244.0.html",
+      "canonical": "https://www.notebookcheck.net/Hands-on-with-the-Gamrombo-RH-5189-PlayStation-5-controller-DualSense-replacement-at-half-the-price.1400244.0.html",
+      "summary": "Gamrombo offers two PS5 controllers: the RH-5188 with programmable back buttons, and the simpler, cleaner RH-5189. The latter can cost as low as $40 when purchased through certain channels, and here's how it performs.",
+      "published": "2026-09-27T13:59:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+5 hands-on",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "afdc5fc77af1f2fb",
+      "title": "Timex launches premium Atelier GMT Premiere M1a Swiss-made watches in India",
+      "url": "https://www.gizmochina.com/2026/09/27/timex-atelier-gmt-premiere-m1a-watches-launched-in-india-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/timex-atelier-gmt-premiere-m1a-watches-launched-in-india-specs-price",
+      "summary": "Following their US debut last month, Timex has officially launched its high-end Atelier GMT Première M1a watches in India. The new models are now listed and available for purchase on the Timex India website. Pricing The Atelier GMT Première M1a is available in two distinct configurations based on the strap choice. The stainless steel bracelet [&#8230;] The post Timex launches premium Atelier GMT P",
+      "published": "2026-09-27T16:13:36+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e3980c9f710f3c53",
+      "title": "Huawei Mate 90 live photos reveal vibrant green design ahead of launch",
+      "url": "https://www.gizmochina.com/2026/09/27/huawei-mate-90-live-photos-reveal-vibrant-green-design-ahead-of-launch/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/huawei-mate-90-live-photos-reveal-vibrant-green-design-ahead-of-launch",
+      "summary": "Huawei may have just spilled the launch date for the Mate 90 series, although its arrival was already expected soon. Reportedly, a page briefly went up on Huawei&#8217;s official Chinese site today that confirmed an October 1 launch date for Mate 90 phones. However, the microsite was taken down soon after, but we have the [&#8230;] The post Huawei Mate 90 live photos reveal vibrant green design ah",
+      "published": "2026-09-27T17:53:15+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d2662057d19635b4",
+      "title": "Affordable AMD-equipped Minix mini PC debuts with dual Gigabit Ethernet",
+      "url": "https://www.notebookcheck.net/Affordable-AMD-equipped-Minix-mini-PC-debuts-with-dual-Gigabit-Ethernet.1409698.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-AMD-equipped-Minix-mini-PC-debuts-with-dual-Gigabit-Ethernet.1409698.0.html",
+      "summary": "Minix has quietly introduced ZR535, and at the core, it's an AMD-powered mini PC with a relatively dated Zen+ Ryzen APU. On the bright side, it's powerful enough to handle day-to-day tasks and media needs, and it has an affordable price tag.",
+      "published": "2026-09-27T10:31:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ca941b4d6100d37c",
+      "title": "Palm-sized Intel Wildcat Lake mini PC debuts with rich port configuration",
+      "url": "https://www.notebookcheck.net/Palm-sized-Intel-Wildcat-Lake-mini-PC-debuts-with-rich-port-configuration.1409692.0.html",
+      "canonical": "https://www.notebookcheck.net/Palm-sized-Intel-Wildcat-Lake-mini-PC-debuts-with-rich-port-configuration.1409692.0.html",
+      "summary": "At the Intel Connection 2026 event held in China, Sixunited has showcased a palm-sized mini PC that's powered by an Intel Wildcat Lake CPU. The company didn't share detailed specs yet, but for its size, the system has a rich port configuration.",
+      "published": "2026-09-27T12:24:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 specs",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "798a1b155f0a03f1",
+      "title": "U.S. and UK navies successfully launch 3,700-pound submarine-sinking torpedo from robotic drone submarine in historic first",
+      "url": "https://www.tomshardware.com/tech-industry/u-s-and-uk-navies-successfully-launch-3-700-pound-submarine-sinking-torpedo-from-robotic-drone-submarine-in-historic-first-project-broadsword-proves-weapon-interchangeability-in-just-seven-months",
+      "canonical": "https://www.tomshardware.com/tech-industry/u-s-and-uk-navies-successfully-launch-3-700-pound-submarine-sinking-torpedo-from-robotic-drone-submarine-in-historic-first-project-broadsword-proves-weapon-interchangeability-in-just-seven-months",
+      "summary": "The U.S. Navy and Royal Navy have successfully launched a 3,700-pound Mk 48 heavyweight torpedo from Britain’s uncrewed XV Excalibur submarine, marking the first time the weapon has been fired from an autonomous underwater vehicle",
+      "published": "2026-09-27T10:30:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 drone",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "71640c5dada7e1b5",
+      "title": "(PR) Thermal Grizzly and Noctua Introduce WireView Pro II Noctua Edition GPU Monitoring Device",
+      "url": "https://www.techpowerup.com/353137/thermal-grizzly-and-noctua-introduce-wireview-pro-ii-noctua-edition-gpu-monitoring-device",
+      "canonical": "https://www.techpowerup.com/353137/thermal-grizzly-and-noctua-introduce-wireview-pro-ii-noctua-edition-gpu-monitoring-device",
+      "summary": "Thermal Grizzly, a German specialist in thermal interface materials, liquid cooling and PC enthusiast hardware, and Noctua, an Austrian leader in premium quality quiet cooling components, today introduced the Thermal Grizzly WireView Pro II Noctua Edition. Combining Thermal Grizzly's patented WireView Pro II platform with a customized Noctua cooling solution, the new device helps to safeguard high",
+      "published": "2026-09-27T20:06:22+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7d4be414d6526a47",
+      "title": "目标让手机用十年：Linux 手机系统 postmarketOS 正式更名为 Nura",
+      "url": "https://www.ithome.com/1/007/620.htm",
+      "canonical": "https://www.ithome.com/1/007/620.htm",
+      "summary": "IT之家 9 月 28 日消息，Linux 手机系统 postmarketOS 宣布项目正式更名为“Nura”，新的名称源自意大利撒丁岛古老的努拉吉（nuraghe）石结构建筑，寓意项目希望让智能手机长期保持可用。 公开信息显示，postmarketOS 诞生于 2017 年，最初目标是让智能手机能够持续使用 10 年。该系统基于 Alpine Linux 开发，希望让受支持的手机在厂商停止提供系统更新后仍能继续运行。如今项目成立已经接近 10 年，开发团队决定正式更换沿用了多年的项目名称。 在 9 月 27 日举行的项目会议上，开发团队宣布 postmarketOS 正式更名为 Nura。团队表示，随着项目不断发展，原有名称越来越难向新用户解释，同时在不同语言环境下也存在发音和记忆困难的问题。 postmarketOS 的大小写方式也容易造成混淆。名称由小写的“p”和“m”以及大写的“O",
+      "published": "2026-09-27T22:59:29+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/postmarketOS-is-now-Nura-after-nearly-a-decade-of-bringing-Linux-to-phones.1410027.0.html"
+      ]
+    },
+    {
+      "id": "a59675391df9ae63",
+      "title": "Timex launches two stunning Marlin GMT watches with ice blue and chocolate brown dials",
+      "url": "https://www.gizmochina.com/2026/09/27/timex-marlin-quartz-gmt-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/timex-marlin-quartz-gmt-watches-launched-specs-price",
+      "summary": "Timex has expanded its Marlin lineup with a pair of new quartz GMT watches, which are now available in the US and UK. The release brings dual time zone tracking to the company’s mid-century-inspired watch collection, offering a straightforward, battery-powered alternative to more expensive mechanical GMTs. Design Details The new Marlin Quartz GMT comes in [&#8230;] The post Timex launches two stun",
+      "published": "2026-09-27T00:06:41+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4c8e1157118dcae1",
+      "title": "Timex launches three classy Waterbury Heritage automatic watches with transparent casebacks",
+      "url": "https://www.gizmochina.com/2026/09/27/timex-three-waterbury-heritage-automatic-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/timex-three-waterbury-heritage-automatic-watches-launched-specs-price",
+      "summary": "Timex has released three new automatic watches under its Waterbury Heritage collection. The lineup, which is now available in the US and UK, includes two 39mm day-date models and a 41.5mm GMT version. Design Details Also ReadBest Fitness Bands Under $100 in 2026 The two standard Waterbury Heritage Automatic watches feature a 39mm stainless steel [&#8230;] The post Timex launches three classy Water",
+      "published": "2026-09-27T01:01:25+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9d96ba73962360e4",
+      "title": "Weekly poll results: the Redmi Note 17 Pro and Note 17 Pro Max feel like a step back",
+      "url": "https://www.gsmarena.com/weekly_poll_results_the_redmi_note_17_pro_and_note_17_pro_max_feel_like_a_step_back-news-74756.php",
+      "canonical": "https://www.gsmarena.com/weekly_poll_results_the_redmi_note_17_pro_and_note_17_pro_max_feel_like_a_step_back-news-74756.php",
+      "summary": "While they were not universally loved, the Redmi Note 15 series from Xiaomi got a positive response in a poll a year ago. The Pro+ model was clearly the fan favorite, but the Pro did well for itself too. Last week we polled your opinion on their successors – and the results aren’t nearly as good. To summarize the results, the Redmi Note 17 Pro Max is overpriced. The regular 17 Pro is also overpric",
+      "published": "2026-09-27T05:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "48bd51e7a1387eb5",
+      "title": "Global Oppo Find X10 shows up on Geekbench as company teases international launch",
+      "url": "https://www.gizmochina.com/2026/09/27/global-oppo-find-x10-shows-up-on-geekbench-as-company-teases-international-launch/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/global-oppo-find-x10-shows-up-on-geekbench-as-company-teases-international-launch",
+      "summary": "The Find X10 and Find X10 Pro Max launched in China earlier this week. Now, the global version of the Find X10 has shown up on the Geekbench platform, confirming what international buyers will get inside. Tipster Abhishek Yadav spotted the global Find X10 with model number CPH2911 on Geekbench 7.1. The phone scored 2,528 [&#8230;] The post Global Oppo Find X10 shows up on Geekbench as company teas",
+      "published": "2026-09-27T07:58:05+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b0863c354655c97e",
+      "title": "Vivo X Fold 6 Global and India launch dates leak",
+      "url": "https://www.gizmochina.com/2026/09/27/vivo-x-fold-6-global-and-india-launch-dates-leak/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/vivo-x-fold-6-global-and-india-launch-dates-leak",
+      "summary": "The global Geekbench listing for the X Fold 6 hints at an October launch window after Vivo&#8217;s X500 series took up the company&#8217;s September launch slot. Now, that timeline appears to be set. Tipster Abhishek Yadav claims Vivo will launch the X Fold 6 globally on October 1, followed by its India launch on October [&#8230;] The post Vivo X Fold 6 Global and India launch dates leak appeared ",
+      "published": "2026-09-27T08:12:43+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2506650b217cc657",
+      "title": "I used to love foldable phones. Now, I can’t stand them",
+      "url": "https://www.androidauthority.com/why-i-cant-stand-foldable-phones-3714723/",
+      "canonical": "https://www.androidauthority.com/why-i-cant-stand-foldable-phones-3714723",
+      "summary": "It turns out I’d rather keep my phone and tablet apart.",
+      "published": "2026-09-27T09:30:11+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "88ed4ef307aff7c5",
+      "title": "Casio launches two new compact GMA-P2110B G-Shock watches in the US",
+      "url": "https://www.gizmochina.com/2026/09/27/casio-g-shock-gma-p2110b-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/casio-g-shock-gma-p2110b-watches-launched-specs-price",
+      "summary": "Casio has released two new G-Shock watches in the United States, following their initial launch in India earlier this week. The new models, the GMA-P2110B-1A and GMA-P2110B-5A, are now available on the Casio US website for $145 each. Casio GMA-P2110B Specifications Also ReadG-Shock Buying Guide 2026: How to Choose the Best G-Shock Watch These watches [&#8230;] The post Casio launches two new compa",
+      "published": "2026-09-27T14:31:55+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cf625f9a9087de92",
+      "title": "5 Best MagSafe Power Banks for iPhone 18 Pros",
+      "url": "https://www.gizmochina.com/2026/09/27/5-best-magsafe-power-banks-for-iphone-18-pros/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/5-best-magsafe-power-banks-for-iphone-18-pros",
+      "summary": "The iPhone 18 Pro and iPhone 18 Pro Max support MagSafe and Qi2 wireless charging at up to 25W. Apple says the phones can reach 50% in about 30 minutes when using a MagSafe charger with a 35W or higher power adapter. That&#8217;s a notable increase from the 15W limit that MagSafe accessories used for [&#8230;] The post 5 Best MagSafe Power Banks for iPhone 18 Pros appeared first on Gizmochina .",
+      "published": "2026-09-27T15:35:40+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 power bank",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8f51119ae6fbb89f",
+      "title": "Xiaomi 18 Standard Edition clears MIIT certification, pointing to a December launch",
+      "url": "https://www.gizmochina.com/2026/09/27/xiaomi-18-standard-edition-clears-miit-certification-pointing-to-a-december-launch/",
+      "canonical": "https://www.gizmochina.com/2026/09/27/xiaomi-18-standard-edition-clears-miit-certification-pointing-to-a-december-launch",
+      "summary": "Xiaomi&#8216;s new flagship line is still missing one phone, and we may now have a rough sense of when it might launch. A device carrying model number M261DB passed wireless certification with China&#8217;s Ministry of Industry and Information Technology. Tipster Digital Chat Station suggests the device is the Xiaomi 18 standard model. We already had [&#8230;] The post Xiaomi 18 Standard Edition c",
+      "published": "2026-09-27T17:16:51+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2955ffa3830c7f13",
+      "title": "Experimental Emulator Brings Nintendo Switch Games to Jailbroken PS5 Consoles",
+      "url": "https://www.techpowerup.com/353135/experimental-emulator-brings-nintendo-switch-games-to-jailbroken-ps5-consoles",
+      "canonical": "https://www.techpowerup.com/353135/experimental-emulator-brings-nintendo-switch-games-to-jailbroken-ps5-consoles",
+      "summary": "An unofficial port of the Eden Nintendo Switch emulator is now running natively on jailbroken PlayStation 5 consoles. Developer BlackBearReloaded released ProsperoEden , which adapts Eden, itself a fork of the now-defunct Yuzu project, to run directly on Sony's hardware as homebrew rather than through Linux or another layer. The developer also shared compatibility results from the latest v1.000.01",
+      "published": "2026-09-27T19:03:09+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f18683934bb5d192",
+      "title": "Panther Lake teardown reveals Intel 18A in detail — TSMC still leads in density",
+      "url": "https://www.notebookcheck.net/Panther-Lake-teardown-reveals-Intel-18A-in-detail-TSMC-still-leads-in-density.1410032.0.html",
+      "canonical": "https://www.notebookcheck.net/Panther-Lake-teardown-reveals-Intel-18A-in-detail-TSMC-still-leads-in-density.1410032.0.html",
+      "summary": "SemiAnalysis has taken Intel’s Panther Lake apart, showing how the company’s 18A process combines RibbonFET gate-all-around transistors with PowerVia backside power delivery. The analysis finds that 18A delivers logic density similar to TSMC’s N3E, but does not yet give Intel a clear manufacturing lead over TSMC’s newer nodes.",
+      "published": "2026-09-27T21:23:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 teardown",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "168dc2f4eaff512c",
+      "title": "Framework Laptop 13 Pro and highlights from the Framework [Next Gen] Event",
+      "url": "https://frame.work/blog/framework-laptop-13-pro-and-highlights-from-the-framework-next-gen-event",
+      "canonical": "https://frame.work/blog/framework-laptop-13-pro-and-highlights-from-the-framework-next-gen-event",
+      "summary": "Earlier today, we hosted our Framework [Next Gen] Event, where we announced Framework Laptop 13 Pro , updates to Framework Laptop 16 , and previews of the OCuLink Dev Kit and the Framework Wireless Touchpad Keyboard . You can watch a recording of the full event livestream on the Framework YouTube channel. Six years into our existence as a company, these new products represent a step change in our ",
+      "published": "2026-04-21T18:36:19+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c0c09d1ffdf2d479",
+      "title": "Lilbits: GrapheneOS coming to Moto phones in 2027, Apple launches Mac Mini with M6 and Mac Studio with M5 Ultra, Lenovo launches a handheld for game streaming",
+      "url": "https://liliputing.com/lilbits-grapheneos-coming-to-moto-phones-in-2027-apple-launches-mac-mini-with-m6-and-mac-studio-with-m5-ultra-lenovo-launches-a-handheld-for-game-streaming/",
+      "canonical": "https://liliputing.com/lilbits-grapheneos-coming-to-moto-phones-in-2027-apple-launches-mac-mini-with-m6-and-mac-studio-with-m5-ultra-lenovo-launches-a-handheld-for-game-streaming",
+      "summary": "Earlier this year we learned that Motorola was working with the folks behind the security-hardened version of Android called GrapheneOS. Now it looks like the fruits of that labor are expected to ripen next year. While Motorola isn&#8217;t expected to ship any phones with the operating pre-installed, GrapheneOS plans to add official support for some [&#8230;] The post Lilbits: GrapheneOS coming to",
+      "published": "2026-08-25T20:54:20+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 handheld",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ]
+}

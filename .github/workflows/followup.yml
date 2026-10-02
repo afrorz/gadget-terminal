@@ -1,0 +1,146 @@
+name: 過去記事の日本上陸を見回る
+
+on:
+  schedule:
+    # 19:40 UTC = 04:40 JST。収集(05:30)と記事生成(06:00)より前に終わらせ、
+    # 同じ main に push し合わないようにする。就寝中なので本人の Claude 利用枠とも
+    # 取り合わない。
+    - cron: "40 19 * * *"
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "見回る記事の本数"
+        required: false
+        default: "8"
+
+# 記事生成と同時に走って push が衝突しないよう、同じグループで直列にする
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+jobs:
+  followup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 見回り前の HEAD を記録(続報の差分検出に使う)
+        id: base
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: 今日見る記事を選ぶ
+        id: pick
+        env:
+          N: ${{ github.event.inputs.n || '8' }}
+        run: |
+          pip install -r requirements.txt --break-system-packages -q
+          python scripts/followup.py pick --n "$N" | tee /tmp/pick.txt
+          {
+            echo "list<<EOF"
+            cat /tmp/pick.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Claude Code CLI を明示的にインストール
+        # daily-article.yml と同じ理由(claude-code-action 内蔵インストールの既知の不具合)
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - uses: anthropics/claude-code-action@v1
+        if: ${{ !contains(steps.pick.outputs.list, '今日見る記事はありません') }}
+        # prompt の中に ${{ }} を書かないこと(daily-article.yml の注意書きを参照)。
+        env:
+          PICKED: ${{ steps.pick.outputs.list }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          claude_args: |
+            --max-turns 120
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
+          prompt: |
+            あなたは海外ガジェットメディア「Gadget Terminal」(https://gadgetterminal.com/) の
+            編集担当です。今日は新しい記事は書きません。**公開済みの記事が扱った製品が、
+            その後日本に上陸したか**を確かめ、上陸していれば記事に続報を書き足します。
+
+            この媒体は、海外で出たばかりでまだ日本で買えない製品を先に書いています。
+            日本でその製品が検索されるのは上陸したとき(Makuake開始・国内発売・
+            国内正規代理店の予約開始)です。そのとき記事が「日本では買えない」のままだと、
+            先に書いた意味が無くなります。
+
+            ## 今日見る記事
+            環境変数 PICKED に一覧があります(`echo "$PICKED"` で読む)。
+
+            ## 手順(1本ずつ)
+            1. 記事の front matter を読む(製品名・現在の japan)
+            2. 日本語で検索する。WebSearch を最低2回:
+               「<製品名> 国内 発売」「<製品名> Makuake」
+               必要なら「<製品名> GREEN FUNDING」「<製品名> 日本 予約」「<製品名> 技適」も。
+               **国内販売元(日本法人・正規代理店・Makuakeの実行者)の一次情報で裏付ける。**
+               転売業者の出品や、海外ストアの日本発送だけでは「上陸」とみなさない。
+            3. 上陸していなければ何も書かない(記録だけ手順5で付ける)。
+               既に japan がある記事は、状況が変わっていれば更新する
+               (例: 予約受付中→発売済み、Makuakeページが公開された、技適が確認できた)。
+            4. 上陸していれば docs/PLAYBOOK.md の「japan — 公開後の日本上陸の続報」の
+               とおりに書く。要点:
+               - status は「発売済み / 予約受付中 / クラウドファンディング中 / 発売予定」のどれか
+               - checked は今日の日付(`TZ=Asia/Tokyo date +%Y-%m-%d`)
+               - summary に「誰が・いつ・いくらで・どこで」と技適の判定を書く
+               - **技適は `python3 scripts/giteki.py --name <メーカー名> --since <1年前>` か
+                 `--model <型番>` で総務省のデータベースを引いて確かめる。** 型番は FCC ID や
+                 海外の認証情報から探す。データベースで特定できなければ
+                 summary に「確認できていない」と書く。
+                 そのうえで、日本法人・正規代理店・「国内正規品」と明記した大手販売店が
+                 売っている場合に限り、giteki: 国内正規 で buy を付けてよい。
+                 転売業者・並行輸入品には付けない。既に 国内正規 の記事で
+                 データベースに型番が載ったら 取得済み に書き換える。
+                 電波を出さない製品(有線だけ・電子部品なし)は「対象外」。
+               - Amazon.co.jp・楽天の商品ページなら merchant: amazon / rakuten を付ける
+                 (収益リンクになる)。転売価格や並行輸入品は載せない
+               - x_hook に X 投稿の本文を書く。**X では記事を読んでいない人が単体で読む。**
+                 必ず「どんな製品か(一言の説明)+「製品名」」から始め、日本で何が
+                 起きたか(いつ・どこで・いくら)まで書く。summary の流用は禁止
+                 (summary は記事の中で読む前提なので、製品名が入っていない)。
+                 例: 「CDと基板が透けて見える透明CDプレーヤー「SYITREN RM1」が、
+                 Makuakeで国内の応援購入を受け付けている。1台1万9,584円から、10月30日まで。」
+                 煽らない、感嘆符・絵文字を使わない
+               - **x_hook には注意点を書かない。** 機体登録が要る・受付終了・技適未確認などは
+                 summary と記事で書く。X の一文は「欲しい」と思わせる役（2026-09-30 本人の指摘）
+               - seo_title と FAQ の「日本で買えますか」「いくらですか」を、続報と
+                 矛盾しないように直す。本文は書き換えない(公開時点の記録として残す)
+               - 公開時点で既に国内発表があったのに見落としていた場合は、summary でそう書く
+               - 元の情報に無い数字を書かない。円の価格は国内販売元のものをそのまま書く
+            5. 見終わった記事(上陸していなかったものも含む)をすべて記録する:
+               `python3 scripts/followup.py done content/posts/<ファイル名> ...`
+
+            ## 検証してから push する
+            a. `pip install -r requirements.txt --break-system-packages -q && python3 scripts/build.py`
+               が通ること(front matter の YAML が壊れていないこと)
+            b. `python3 scripts/checklinks.py content/posts/*.md` が通ること
+            c. 通ったら content/posts/ と data/followup.json をまとめてコミットし、main に push。
+               コミットメッセージは「日本上陸の見回り <今日の日付>(続報N本)」。
+               続報が0本でも data/followup.json の記録はコミットする。
+               public/ はコミットしない。
+
+            ## 注意
+            - 事実の捏造は絶対にしない。確認できないことは「確認できていない」と書く。
+            - 1本で行き詰まっても止まらず、次の記事へ進む。
+            - 最後に、続報を書いた記事と、その根拠にした国内の一次情報のURLを一覧で出力する。
+
+      - name: TamakoStock の GT タブへ続報を届ける
+        # 失敗しても記事の更新は済んでいるので、ジョブ全体を失敗扱いにしない
+        continue-on-error: true
+        env:
+          GADGET_INGEST_TOKEN: ${{ secrets.GADGET_INGEST_TOKEN }}
+        run: |
+          git pull -q --rebase || true
+          python scripts/notify_x.py "${{ steps.base.outputs.sha }}" \
+            "https://tamakostock.web.app/api/ingest-gadget" \
+            "$GADGET_INGEST_TOKEN"

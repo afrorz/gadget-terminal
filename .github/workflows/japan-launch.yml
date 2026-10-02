@@ -1,0 +1,44 @@
+name: 日本発売の知らせを貯める
+
+on:
+  schedule:
+    # 08:30 UTC = 17:30 JST。PR TIMES の全件サイトマップは直近16時間ぶんしか
+    # 載らないので、朝の収集(05:30)だけだと前日の午前〜昼(リリースが一番多い
+    # 時間帯)を取りこぼす。夕方にも拾って data/japan_launch.json に貯めておき、
+    # 翌朝の collect.py がそこからダイジェストに載せる。Claude は使わない。
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pool:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: PR TIMES から拾う
+        run: python3 scripts/japan_launch.py --save
+
+      - name: コミット
+        run: |
+          git config user.name  "gadget-signal-bot"
+          git config user.email "actions@github.com"
+          git add data/japan_launch.json
+          git diff --staged --quiet && exit 0
+          git commit -m "japan-launch: $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

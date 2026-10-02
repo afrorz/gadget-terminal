@@ -5,7 +5,7 @@ slug: duva-one-sleep-earbuds
 keyword: DUVA ONE
 category: smartphone
 date: 2026-09-07
-kicker: インド・ナグプールのFitnexaが新ブランド「DUVA」を立ち上げ、第1弾製品の睡眠特化イヤホン「DUVA ONE」をIFA 2026で発表した。音響にBoseが協力し、心拍・HRV・体動から睡眠段階を推定するほか、充電ケースが寝室の騒音・照度・温湿度を監視する。価格は349.99ドルで2026年10月発売予定だが、対象市場に日本は含まれていない。
+kicker: インド・ナグプールのFitnexaが新ブランド「DUVA」を立ち上げ、第1弾製品の睡眠特化イヤホン「DUVA ONE」をIFA 2026で発表した。音響にBoseが協力し、心拍・HRV・体動から睡眠段階を推定するほか、充電ケースが寝室の騒音・照度・温湿度を監視する。価格は349.99ドルで2026年10月発売予定。
 tags:
 - DUVA ONE
 - Fitnexa

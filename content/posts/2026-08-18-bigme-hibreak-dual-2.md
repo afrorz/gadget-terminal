@@ -1,6 +1,6 @@
 ---
 title: "Bigme HiBreak Dual 2 が Kickstarter開始 — 6.13インチE Ink＋5インチLCDの両面スマホ、599ドルから"
-seo_title: Bigme HiBreak Dual 2は599ドル、技適は未確認
+seo_title: "Bigme HiBreak Dual 2は599ドル、日本で使える？"
 slug: bigme-hibreak-dual-2
 keyword: HiBreak Dual 2
 category: smartphone

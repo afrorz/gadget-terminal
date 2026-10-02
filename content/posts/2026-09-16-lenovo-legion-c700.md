@@ -1,6 +1,6 @@
 ---
 title: Lenovoのクラウドゲーム携帯機「Legion C700」が中国で発売、7.82型120Hzと8,000mAh、価格2,199元
-seo_title: Legion C700は中国2,199元、日本未発売
+seo_title: "Legion C700は中国2,199元、日本発売は？"
 slug: lenovo-legion-c700
 keyword: Legion C700
 category: pc

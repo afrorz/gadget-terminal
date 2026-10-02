@@ -1,6 +1,6 @@
 ---
 title: 携帯型ハッキング&開発ツール「FREE-WILi 2」、RP2350×2とFPGAを積み400ドルで予約開始
-seo_title: FREE-WILi 2は400ドルから、技適は未確認
+seo_title: "FREE-WILi 2は400ドルから、日本で使える？"
 slug: free-wili-2-hacking-multitool
 keyword: FREE-WILi 2
 category: weird

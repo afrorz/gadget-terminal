@@ -5,7 +5,7 @@ slug: poco-x8-official
 keyword: POCO X8
 category: smartphone
 date: 2026-09-02
-kicker: POCOが新型スマートフォン「POCO X8」を発表した。8,340mAhの大容量バッテリーとSnapdragon 6s Gen 4を搭載し、ヨーロッパでの価格は8GB+256GB構成が399.99ユーロから。日本語圏での取り扱いは掲載時点で確認できていない。
+kicker: POCOが新型スマートフォン「POCO X8」を発表した。8,340mAhの大容量バッテリーとSnapdragon 6s Gen 4を搭載し、ヨーロッパでの価格は8GB+256GB構成が399.99ユーロから。
 tags:
 - POCO
 - POCO X8

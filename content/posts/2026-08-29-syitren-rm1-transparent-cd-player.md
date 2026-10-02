@@ -1,6 +1,6 @@
 ---
 title: SYITREN「RM1」は基板とCDが丸見えの壁掛け型CDプレーヤー、目標の1万4000%を集めてKickstarterは9月2日締切
-seo_title: SYITREN RM1、透明CDプレーヤーが89ドル
+seo_title: SYITREN RM1はMakuakeで1万9584円から
 slug: syitren-rm1-transparent-cd-player
 keyword: SYITREN RM1
 category: weird
@@ -20,9 +20,17 @@ embeds:
 - type: youtube
   id: -qFV8_Q843g
   caption: SYITREN公式によるRM1のKickstarter紹介動画
+japan:
+  status: クラウドファンディング中
+  checked: 2026-09-27
+  summary: 日本ではヤンミン・ストアが9月24日から10月30日までMakuakeで応援購入を受け付けている。Makuake割は1台1万9,584円から(超早割・早割は受付終了、掲載時点)で、お届けは2027年1月の予定。Bluetooth出力を備えるが、技適はMakuakeのページにも総務省の技適データベースにも9月27日時点で確認できていない。3.5mmの有線出力だけで使うなら技適は関係しない。
+  x_hook: CDと基板が透けて見える透明CDプレーヤー「SYITREN RM1」が、Makuakeで国内の応援購入を受け付けている。1台1万9,584円から、10月30日まで。
+  source:
+    title: 音楽を聴く、CDを眺める、空間を彩る。新感覚のCDプレーヤー(Makuake)
+    url: https://www.makuake.com/project/syitren/
 faq:
 - q: 日本で買えますか
-  a: Kickstarter経由の海外発送が前提で、日本向けの正規販売や代理店は確認できていません。募集終了(9月2日)後、2026年10月ごろの発送を予定しています。
+  a: 国内ではヤンミン・ストアが2026年10月30日までMakuakeで応援購入を受け付けています(2026年9月27日確認)。Makuake割は1台1万9,584円からで、お届けは2027年1月の予定です。
 - q: 技適は取得していますか
   a: RM1はBluetooth 5.3モジュールを内蔵しています。SYITRENが日本の技適(技術基準適合証明)を取得しているという記載は確認できておらず、未取得のまま国内で電波を発する使い方は電波法上の論点になり得ます。
 - q: いくらですか

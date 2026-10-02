@@ -1,12 +1,12 @@
 ---
-title: 超ミニAndroid TV「CaloR C1」がMakuake開始、35,980円からだが技適の記載が見当たらない
+title: "超ミニAndroid TV「CaloR C1」がMakuake開始、35,980円から"
 slug: calor-c1-makuake
 keyword: CaloR C1
 category: weird
 date: 2026-08-24
 pick: true
 pick_note: レトロデザインなのに機能がたくさん。デザインもかわいいし、机の上に置いておきたい。
-kicker: ブラウン管テレビを模した約300gの超ミニAndroid TV「CaloR C1」がMakuakeで応援購入を開始した。日本国内の正規代理店経由で今すぐ買えるが、プロジェクトページには技適に関する記載が見当たらない。
+kicker: ブラウン管テレビを模した約300gの超ミニAndroid TV「CaloR C1」がMakuakeで応援購入を開始した。
 tags:
 - CaloR C1
 - Makuake

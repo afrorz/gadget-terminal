@@ -36,6 +36,11 @@ try:
 except Exception:  # 収集モジュールが無くてもRSS収集は動かす
     crowdfunding = None
 
+try:
+    import japan_launch
+except Exception:
+    japan_launch = None
+
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "feeds.yaml"
 DATA = ROOT / "data"
@@ -235,6 +240,19 @@ def main() -> int:
         except Exception as e:
             print(f"  ! クラウドファンディング収集を飛ばしました: {e}", file=sys.stderr)
 
+    # 海外メーカーの日本発売（PR TIMES）。海外ニュースとは物差しが違うので
+    # スコアリングに混ぜず、ダイジェストの別枠に出す。
+    jp_launch: list[dict] = []
+    if japan_launch is not None and not args.category:
+        try:
+            for it in japan_launch.update_pool():
+                it["id"] = item_id(it["url"])
+                if it["id"] not in seen:
+                    jp_launch.append(it)
+            print(f"■ 日本発売の候補 {len(jp_launch)}件")
+        except Exception as e:
+            print(f"  ! 日本発売の収集を飛ばしました: {e}", file=sys.stderr)
+
     # 1. URL重複を除去（同一記事が複数フィードに出るケース）
     by_id: dict[str, dict] = {}
     for it in raw:
@@ -285,6 +303,7 @@ def main() -> int:
             "selected": len(top),
         },
         "items": top,
+        "japan_launch": jp_launch,
     }
     (DIGEST_DIR / f"{today}.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -292,7 +311,7 @@ def main() -> int:
     (DIGEST_DIR / f"{today}.md").write_text(render_markdown(payload, cfg), encoding="utf-8")
 
     if not args.dry_run:
-        for it in fresh:
+        for it in fresh + jp_launch:
             seen[it["id"]] = it["published"]
         # 30日より古い記録は捨てる
         cutoff = (now - timedelta(days=30)).isoformat()
@@ -329,6 +348,18 @@ def render_markdown(payload: dict, cfg: dict) -> str:
             if it["also_covered_by"]:
                 lines.append(f"  - 他媒体: {', '.join(it['also_covered_by'])}")
             if it["summary"]:
+                lines.append(f"  - {it['summary'][:180]}")
+            lines.append("")
+    jp = payload.get("japan_launch") or []
+    if jp:
+        lines += ["## 日本発売（国内プレスリリース）", "",
+                  "> 海外メーカーの製品が日本で発売・予約開始・国内クラファン開始になった知らせ。",
+                  "> 書くなら1日1本まで。条件は docs/PLAYBOOK.md の「日本発売の記事」。", ""]
+        for it in jp:
+            pub = datetime.fromisoformat(it["published"]).astimezone(JST).strftime("%m/%d %H:%M")
+            lines.append(f"- [ ] **【日本発売】{it['title']}**")
+            lines.append(f"  - {it['source']} / {pub} JST — {it['url']}")
+            if it.get("summary"):
                 lines.append(f"  - {it['summary'][:180]}")
             lines.append("")
     return "\n".join(lines)
