@@ -1,0 +1,819 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T08:58:30.457224+09:00",
+  "stats": {
+    "fetched": 727,
+    "unique": 686,
+    "new": 367,
+    "clusters": 354,
+    "selected": 30
+  },
+  "items": [
+    {
+      "title": "Makuake｜増えていく、愛するペットとの思い出を、ひとつの場所に。「思い出を育てる箱」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/omoidenohako/",
+      "summary": "気づけば、スマホの中には、うちの子の写真や動画がいっぱい。何度も見返したくなる、お気に入りの写真。ずっと残しておきたい、小さな思い出の品々。一緒に過ごす毎日の中で、うちの子との思い出は、少しずつ増えていきます。「思い出を育てる箱」は、そんな大切な思い出をひとつの場所に集めながら、世界にひとつだけの宝箱へと育てていく箱です。写真や動画はスマホの中。思い出の品は引き出しの中。大切な思い出なのに、いつの",
+      "image": "https://static.makuake.com/upload/project/53904/main_53904.png?version=1790938018&amp;width=690&amp;height=388",
+      "published": "2026-10-05T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "1f37461816e6ac5d",
+      "canonical": "https://www.makuake.com/project/omoidenohako",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【5.5 インチ画面 × 8-in-1】集中力を切らさない！スマートなサブ画面へ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/screendock/",
+      "summary": "リターン品の配送が完了するまで、株式会社宅民商事はNingbo aolan electronic technology co., ltdの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。【5.5インチ画面 × 8-in-1機能】「見る」と「つなぐ」を1台に凝縮「ScreenDock」は、高精細な5.5インチディスプレイと8つ",
+      "image": "https://static.makuake.com/upload/project/53839/main_53839.jpg?version=1790736142&amp;width=690&amp;height=388",
+      "published": "2026-10-05T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "febad90dfa78d849",
+      "canonical": "https://www.makuake.com/project/screendock",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜高い場所も下からサッと届く！「忍者フック」で高い場所をもっと自由に｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/ninjahook/",
+      "summary": "高い場所も下からサッと届く！　　　　　「忍者フック」で高い場所をもっと自由に「クローゼットの上の棚、もっと活用できたら……」「高い場所の物を掛け外しするのが、ちょっと大変……」「店舗や展示会で、高い場所のディスプレイを変更するたびに手間がかかる……」日常や仕事の現場で、そんな「高い場所の不便」を感じたことはありませ",
+      "image": "https://static.makuake.com/upload/project/53891/main_53891.png?version=1790938609&amp;width=690&amp;height=388",
+      "published": "2026-10-05T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "b8e9df7f5aae9742",
+      "canonical": "https://www.makuake.com/project/ninjahook",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "eeb2be5260d513bc",
+      "title": "(PR) NVIDIA Launches DGX Spark 64 GB Desktop AI Systems",
+      "url": "https://www.techpowerup.com/353347/nvidia-launches-dgx-spark-64-gb-desktop-ai-systems",
+      "canonical": "https://www.techpowerup.com/353347/nvidia-launches-dgx-spark-64-gb-desktop-ai-systems",
+      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64 GB of unified memory from top manufacturer partners—Acer, ASUS, Dell, Gigabyte, HP and MSI—giving developers, researchers",
+      "published": "2026-10-02T17:17:56+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/nvidia-64-gb-dgx-spark-this-month-for-4999-usd-128-gb-spark-jumps-past-6000/",
+        "https://www.ithome.com/1/009/359.htm"
+      ]
+    },
+    {
+      "id": "d2c8e99b1b923ed1",
+      "title": "vivo X Fold6 in for review",
+      "url": "https://www.gsmarena.com/vivo_x_fold6_in_for_review-news-74862.php",
+      "canonical": "https://www.gsmarena.com/vivo_x_fold6_in_for_review-news-74862.php",
+      "summary": "The vivo X Fold6 is now globally available, so let's unbox it. Our unit ships with a case, an 80W charger, and a USB-A to USB-C cable. Cases for foldables usually latch onto just the \"rear\" part of the phone, which is also the case here. The one provided in the box is pretty nice, with a textured surface that adds grip. The case is nice, ditto having a charger in the box Now that vivo finally gave",
+      "published": "2026-10-02T02:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 review",
+        "+3 ships",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "10e91fde87fc5536",
+      "title": "Nothing will let you play with its upcoming products before anyone else, here's how",
+      "url": "https://www.gsmarena.com/nothing_will_let_you_play_with_its_upcoming_products_before_anyone_else_heres_how-news-74877.php",
+      "canonical": "https://www.gsmarena.com/nothing_will_let_you_play_with_its_upcoming_products_before_anyone_else_heres_how-news-74877.php",
+      "summary": "Today Nothing has opened up submissions for a new Community Review Program. The company describes this as \"your chance to get hands-on\" with its latest products and software before anyone else, \"and to show off your creativity by sharing your own take with a vibrant global community\". If you are selected, you are promised to \"get products in your hands first\", as well as have \"direct lines to spea",
+      "published": "2026-10-02T13:12:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f8ed4309630e96bb",
+      "title": "Ugreen launches affordable e-ink phone case with 3.7-inch six-color screen and passive NFC",
+      "url": "https://www.notebookcheck.net/Ugreen-launches-affordable-e-ink-phone-case-with-3-7-inch-six-color-screen-and-passive-NFC.1414234.0.html",
+      "canonical": "https://www.notebookcheck.net/Ugreen-launches-affordable-e-ink-phone-case-with-3-7-inch-six-color-screen-and-passive-NFC.1414234.0.html",
+      "summary": "The Ugreen Magic E Ink phone case was initially introduced earlier in September 2026, and now, the company has launched it in China. Available for the iPhone 18 Pro and 17 Pro series, it brings a 3.7-inch six-color screen and has a launch price of around $41.",
+      "published": "2026-10-02T11:18:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 e ink",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "098eefcc581864cf",
+      "title": "Samsung starts mass producing Exynos 2700 chip, Galaxy S27 Ultra decision still up in the air",
+      "url": "https://www.gsmarena.com/samsung_starts_mass_producing_exynos_2700_chip_galaxy_s27_ultra_decision_still_up_in_the_air-news-74879.php",
+      "canonical": "https://www.gsmarena.com/samsung_starts_mass_producing_exynos_2700_chip_galaxy_s27_ultra_decision_still_up_in_the_air-news-74879.php",
+      "summary": "Samsung has begun mass production of the Exynos 2700 chipset, according to Korean publication The Elec. The company has reportedly set the production target “more than 10% higher” than the Exynos 2600 target to account for the new addition to the S-series family – the Galaxy S27 Pro. The Samsung Galaxy S27 Pro – along with the vanilla and plus models – will use the Exynos 2700 in Korea and Europe.",
+      "published": "2026-10-02T18:41:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）",
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/exynos-2700-mass-production-samsung-unsure-which-chip-the-s27-ultra-should-use/",
+        "https://www.ithome.com/1/009/347.htm"
+      ]
+    },
+    {
+      "id": "a7cf596386690dfa",
+      "title": "Aecooly Cold Air & Cold Air Ultra Review: I Wasn’t Expecting Them to Cool This Well",
+      "url": "https://www.gizmochina.com/2026/10/02/aecooly-cold-air-and-cold-air-ultra-full-review/",
+      "canonical": "https://www.gizmochina.com/2026/10/02/aecooly-cold-air-and-cold-air-ultra-full-review",
+      "summary": "Handheld fans are nothing new, but Aecooly is trying to make them considerably more useful with its Cold Air series. Instead of simply blowing ambient air at your face, both the Aecooly Cold Air and Cold Air Ultra combine high-speed airflow with a built-in misting system designed to provide more immediate relief in hot weather. [&#8230;] The post Aecooly Cold Air Cold Air Ultra Review: I Wasn’t Ex",
+      "published": "2026-10-02T20:35:50+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a803e1e5d3b6a410",
+      "title": "Not even the NVIDIA Shield TV Pro is safe from a huge price hike",
+      "url": "https://www.androidauthority.com/nvidia-shield-tv-pro-big-price-increase-3718275/",
+      "canonical": "https://www.androidauthority.com/nvidia-shield-tv-pro-big-price-increase-3718275",
+      "summary": "It looks like we've got another casualty of the RAM crisis.",
+      "published": "2026-10-02T08:13:45+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/10/02/nvidia-shield-tv-pro-price-hike/"
+      ]
+    },
+    {
+      "id": "e744b84c97a8ede3",
+      "title": "iPhone Duo's inner display protector is replaceable, here's how much it costs",
+      "url": "https://www.gsmarena.com/iphone_duos_inner_display_cover_can_be_replaced-news-74873.php",
+      "canonical": "https://www.gsmarena.com/iphone_duos_inner_display_cover_can_be_replaced-news-74873.php",
+      "summary": "According to Apple's service and repair website, the iPhone Duo's top layer of the foldable screen can be replaced. And it's quite cheap if you have AppleCare. Apple says the matte screen cover on top of the main display can be replaced for just $19.99 if you have active AppleCare. You just need to visit one of Apple's Service Providers. AppleCare also includes a $29 cover display or back glass re",
+      "published": "2026-10-02T11:06:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/iphone-duo-screen-coating-replacement-cost-3718254/"
+      ]
+    },
+    {
+      "id": "461b635a40e98ceb",
+      "title": "(PR) ASRock DeskSlim Series Delivers RTX PRO Blackwell Performance in a Compact 5L Workstation",
+      "url": "https://www.techpowerup.com/353335/asrock-deskslim-series-delivers-rtx-pro-blackwell-performance-in-a-compact-5l-workstation",
+      "canonical": "https://www.techpowerup.com/353335/asrock-deskslim-series-delivers-rtx-pro-blackwell-performance-in-a-compact-5l-workstation",
+      "summary": "ASRock, the global leading manufacturer of motherboards, graphics cards, mini PCs, gaming monitors, power supply units, and AIO liquid coolers, today announced that the DeskSlim X600 and DeskSlim B760 compact desktop platforms support NVIDIA RTX PRO 4000 Blackwell SFF Edition and NVIDIA RTX PRO 2000 Blackwell professional graphics cards. Designed for professional users who require desktop-class ex",
+      "published": "2026-10-02T11:45:49+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "22e748c923c1b671",
+      "title": "Amazon unveils its updated Kindle lineup",
+      "url": "https://www.gsmarena.com/amazon_unveils_its_updated_kindle_lineup-news-74874.php",
+      "canonical": "https://www.gsmarena.com/amazon_unveils_its_updated_kindle_lineup-news-74874.php",
+      "summary": "Amazon announced three new Kindles today, which bring updated colors, thinner and lighter profiles and longer-lasting batteries. All versions now come with flush displays and optional aluminum backs. The basic Kindle (12th generation) features the same-sized 6-inch e-ink screen but with more rounded corners and a seamless flush display. This allowed Amazon to expand the color options, with the bor",
+      "published": "2026-10-02T12:09:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d1285a01a6cd78fc",
+      "title": "Oppo Find X10 and Find X10 Pro Max: Crazy global prices and all the differences to the Chinese models leaked",
+      "url": "https://www.notebookcheck.net/Oppo-Find-X10-and-Find-X10-Pro-Max-Crazy-global-prices-and-all-the-differences-to-the-Chinese-models-leaked.1414463.0.html",
+      "canonical": "https://www.notebookcheck.net/Oppo-Find-X10-and-Find-X10-Pro-Max-Crazy-global-prices-and-all-the-differences-to-the-Chinese-models-leaked.1414463.0.html",
+      "summary": "Anyone interested in the new Hasselblad camera flagships who does not want to import the Oppo Find X10 or Find X10 Pro Max from China will have to shell out a ton of cash. A reliable source has revealed the official prices in Europe plus all the differences from the Chinese models as well as the global color and storage options.",
+      "published": "2026-10-02T12:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 official",
+        "+3 price",
+        "+3 ships",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f039ee7600ab1a26",
+      "title": "Unreleased AMD Ryzen 9 5900X3D Engineering Sample Appears With 128 MB L3 Cache",
+      "url": "https://www.techpowerup.com/353348/unreleased-amd-ryzen-9-5900x3d-engineering-sample-appears-with-128-mb-l3-cache",
+      "canonical": "https://www.techpowerup.com/353348/unreleased-amd-ryzen-9-5900x3d-engineering-sample-appears-with-128-mb-l3-cache",
+      "summary": "An engineering sample of AMD's never-released Ryzen 9 5900X3D has surfaced on the Chinese forum Chiphell , and it looks quite different from the prototype AMD has shown before. The 12-core, 24-thread Zen 3 chip carries the code 100-000000652 and reports 128 MB of L3 cache, split as 96 MB on one CCD and 32 MB on the other. That means only one of its two six-core chiplets has the 64 MB 3D V-Cache st",
+      "published": "2026-10-02T17:39:51+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 prototype",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/rare-and-unreleased-amd-ryzen-9-5900x3d-sample-surfaces-online-with-128-mb-l3-cache/"
+      ]
+    },
+    {
+      "id": "b1f4475a6d59d804",
+      "title": "Affordable Ugreen power bank launches with retractable cable and 45W fast charging support",
+      "url": "https://www.notebookcheck.net/Affordable-Ugreen-power-bank-launches-with-retractable-cable-and-45W-fast-charging-support.1414307.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-Ugreen-power-bank-launches-with-retractable-cable-and-45W-fast-charging-support.1414307.0.html",
+      "summary": "Ugreen has launched a new power bank in China, the PB792. It's a 20,000mAh power bank with a built-in retractable Type-C cable. There are two additional USB ports, along with a USB-A port. The launch price is around $40.",
+      "published": "2026-10-02T18:26:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 power bank",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d81bdce3e990d835",
+      "title": "Price alert: Samsung raises the prices of Galaxy S26 phones, the US, Europe and India affected",
+      "url": "https://www.gsmarena.com/price_alert_samsung_raises_the_prices_of_galaxy_s26_phones_the_us_europe_and_india_affected-news-74865.php",
+      "canonical": "https://www.gsmarena.com/price_alert_samsung_raises_the_prices_of_galaxy_s26_phones_the_us_europe_and_india_affected-news-74865.php",
+      "summary": "We live in Opposite World – half a year after new phones launch, the manufacturer is typically expected to reduce prices. Instead, Samsung just raised the prices of Galaxy S26 series phones by at least $100 (it’s $200 in the case of the 1TB S26 Ultra). And it’s not just the US that was affected. We went through the online stores of several regional divisions of Samsung.com to check how much a new ",
+      "published": "2026-10-02T00:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0ff418b35342e9a7",
+      "title": "Android's new sideloading guardrails are now official in four countries",
+      "url": "https://www.gsmarena.com/androids_new_sideloading_guardrails_are_now_official_in_four_countries-news-74868.php",
+      "canonical": "https://www.gsmarena.com/androids_new_sideloading_guardrails_are_now_official_in_four_countries-news-74868.php",
+      "summary": "Google announced a new process of sideloading apps on Android back in spring this year, and Android users had mixed feelings about it, to say the least. Google argues that the new rules prevent scammers from pressuring people into installing malicious apps, and four countries are now getting the changes. Every phone running Android 7 or later in Brazil, Thailand, Singapore and Indonesia now requir",
+      "published": "2026-10-02T05:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "63ff75eafc06093a",
+      "title": "Here's when Samsung's first Android XR glasses are finally launching",
+      "url": "https://www.gsmarena.com/heres_when_samsungs_first_android_xr_glasses_are_finally_launching-news-74867.php",
+      "canonical": "https://www.gsmarena.com/heres_when_samsungs_first_android_xr_glasses_are_finally_launching-news-74867.php",
+      "summary": "Samsung showcased its first Android XR glasses during its Galaxy Unpacked event in July, and now a new report from its home country of South Korea tells us when we should expect them to finally launch: in November. This has allegedly been confirmed by \"a Samsung official\". Pricing still isn't known, unfortunately. The glasses will apparently be called Intelligent Eyewear. They have no display, but",
+      "published": "2026-10-02T06:18:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "603884c611507d69",
+      "title": "(PR) BenQ Introduces AK900ST and AK800ST 4K Projectors Aimed at Golf Simulation",
+      "url": "https://www.techpowerup.com/353324/benq-introduces-ak900st-and-ak800st-4k-projectors-aimed-at-golf-simulation",
+      "canonical": "https://www.techpowerup.com/353324/benq-introduces-ak900st-and-ak800st-4k-projectors-aimed-at-golf-simulation",
+      "summary": "BenQ, a global leader in display and projection technology, today announced the AK900ST and AK800ST, its newest projectors purpose-built for golf simulation. Building on BenQ's deep experience and continued innovation in the golf simulator market, the new projectors combine true 4K UHD resolution, advanced color processing, and automated setup tools to deliver a more realistic round of indoor golf",
+      "published": "2026-10-02T07:51:57+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 projector",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dc72c28b32db27c9",
+      "title": "Huawei Mate 90 Pro Max will let you use three SIMs simultaneously",
+      "url": "https://www.gsmarena.com/huawei_mate_90_pro_max_will_let_you_use_three_sims_simultaneously-news-74872.php",
+      "canonical": "https://www.gsmarena.com/huawei_mate_90_pro_max_will_let_you_use_three_sims_simultaneously-news-74872.php",
+      "summary": "Ever wished you could use three SIMs simultaneously on your phone? You can do just that with Huawei’s latest flagship phone, the Mate 90 Pro Max. Huawei launched the phone in China alongside the rest of the Mate 90 series, which includes the Mate 90, Mate 90 Pro, and Mate 90 RS. An X user has highlighted the feature, which is also confirmed on Huawei’s official specifications page for the Mate 90 ",
+      "published": "2026-10-02T10:05:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "38f89defe816f554",
+      "title": "(PR) Gigabyte AI TOP ATOM 64GB Unified Memory Version Expands Possibilities for Desktop AI Development",
+      "url": "https://www.techpowerup.com/353342/gigabyte-ai-top-atom-64gb-unified-memory-version-expands-possibilities-for-desktop-ai-development",
+      "canonical": "https://www.techpowerup.com/353342/gigabyte-ai-top-atom-64gb-unified-memory-version-expands-possibilities-for-desktop-ai-development",
+      "summary": "Gigabyte today announced the launch of a new 64 GB unified memory version of Gigabyte AI TOP ATOM, expanding its existing 128 GB offering. Available starting October 23, the new configuration retains the hardware design of AI TOP ATOM, based on the NVIDIA DGX Spark platform, giving developers, researchers, and enterprise teams greater flexibility to select the configuration that best fits their AI",
+      "published": "2026-10-02T16:39:21+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "626568dd832a626d",
+      "title": "AT&T, Verizon, and T-Mobile officially launch joint venture to end dead zones",
+      "url": "https://www.gsmarena.com/at_t_verizon_and_tmobile_officially_launch_joint_venture_to_end_dead_zones-news-74870.php",
+      "canonical": "https://www.gsmarena.com/at_t_verizon_and_tmobile_officially_launch_joint_venture_to_end_dead_zones-news-74870.php",
+      "summary": "Back in May, AT T, Verizon, and T-Mobile announced \"an agreement in principle\" to create a joint venture that would strive to end dead zones across the US. Today, almost five months later, that joint venture has finally been officially launched. Paul Roth will serve as interim CEO of the new company while an active search is underway for a permanent CEO. Roth previously held several leadership pos",
+      "published": "2026-10-02T17:09:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "-3 ceo",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "40c8694bde272849",
+      "title": "RugOne Xsnap 7 Pro Launches, Puts a Detachable Action Camera on a Rugged Phone",
+      "url": "https://www.techeblog.com/rugone-xsnap-7-pro-smartphone-detachable-action-camera-launch-specs-price-review/",
+      "canonical": "https://www.techeblog.com/rugone-xsnap-7-pro-smartphone-detachable-action-camera-launch-specs-price-review",
+      "summary": "RugOne, the outdoor arm of rugged-phone maker Ulefone, showed the Xsnap 7 Pro at IFA in Berlin on September 5 and opened Kickstarter orders two days later. Early backers can still claim a limited run at €799. Full retail follows this month at $999 in the US and €1,099.99 in Europe, in Sand Dune or [...]",
+      "published": "2026-10-02T17:55:38+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+6 kickstarter",
+        "+3 launch",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "718ea01debb1a2ab",
+      "title": "Pinball Machine 2.0 Builds a Full Desk Game From 3D-Printed Square Tiles",
+      "url": "https://www.techeblog.com/pinball-machine-2-3d-printed-build/",
+      "canonical": "https://www.techeblog.com/pinball-machine-2-3d-printed-build",
+      "summary": "Steven at 3D Printer Academy spent close to a year tearing up his own desktop pinball machine and starting over. The first one, sold as file packs after a spring Kickstarter that drew about 1,500 backers and roughly $120,000, already proved a strange point. A playable pinball table can come off a normal home printer, [...]",
+      "published": "2026-10-02T20:47:47+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+6 kickstarter",
+        "+3 3d printer",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4033c14ebb1f6070",
+      "title": "iPhone Duo can be just $9/month with trade-in using Apple Upgrade",
+      "url": "https://9to5mac.com/2026/10/02/iphone-duo-can-be-just-9-month-with-trade-in-using-apple-upgrade/",
+      "canonical": "https://9to5mac.com/2026/10/02/iphone-duo-can-be-just-9-month-with-trade-in-using-apple-upgrade",
+      "summary": "iPhone Duo pre-orders start soon , and while the foldable is Apple’s most expensive iPhone ever, the new Apple Upgrade program can get you a leased model at a lower monthly cost than I expected. more…",
+      "published": "2026-10-02T14:21:34+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 pre-order",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ef6e6d110d335e56",
+      "title": "The Pixel 10a just got a $100 price hike without getting any better",
+      "url": "https://www.androidpolice.com/pixel-10a-price-hike-without-getting-any-better/",
+      "canonical": "https://www.androidpolice.com/pixel-10a-price-hike-without-getting-any-better",
+      "summary": "All thanks to the DRAM and NAND crisis",
+      "published": "2026-10-02T15:31:38+00:00",
+      "source_id": "androidpolice",
+      "source": "Android Police",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/10/02/google-pixel-10a-price-hike/"
+      ]
+    },
+    {
+      "id": "c9d29f4f5017c0f2",
+      "title": "Using an iPad mini to preview the iPhone Duo experience",
+      "url": "https://9to5mac.com/2026/10/02/using-an-ipad-mini-to-preview-the-iphone-duo-experience/",
+      "canonical": "https://9to5mac.com/2026/10/02/using-an-ipad-mini-to-preview-the-iphone-duo-experience",
+      "summary": "Alongside using the iPhone 18 Pro , I’ve also been carrying out a little experiment as we await the launch of the iPhone Duo . To get a sense of what it might be like to use the large screen of the upcoming device, I’ve been using my iPad mini as a substitute phone some of the time. Given that the screen is a similar size and shape, I’m hoping that it gives me something of a preview of the experie",
+      "published": "2026-10-02T16:00:00+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9299d13dafb5fdb3",
+      "title": "Samsung Googlebook appears on Geekbench with a Snapdragon X Elite chipset",
+      "url": "https://www.gsmarena.com/samsung_googlebook_appears_on_geekbench_with_a_snapdragon_x_elite_chipset-news-74880.php",
+      "canonical": "https://www.gsmarena.com/samsung_googlebook_appears_on_geekbench_with_a_snapdragon_x_elite_chipset-news-74880.php",
+      "summary": "Not satisfied with having one laptop platform, Google introduced Googlebooks – Android-powered laptops. The official page for the platform lists laptops from Acer, Asus, Dell, HP and Lenovo. Now it appears that Samsung will be joining the party soon with a Googlebook of its own. We don’t know what it will be called as Geekbench 7.1.0 only lists its model number – Samsung XE940XSA. Samsung has a “G",
+      "published": "2026-10-02T20:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 official",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "631901e903371499",
+      "title": "Here’s everything new in Android 17 QPR3 Beta 1 [Gallery]",
+      "url": "https://9to5google.com/2026/10/02/android-17-qpr3-beta-1-everything-new/",
+      "canonical": "https://9to5google.com/2026/10/02/android-17-qpr3-beta-1-everything-new",
+      "summary": "Google today rolled out Android 17 QPR3 Beta 1 in quick succession to start a new preview cycle ahead of an expected March 2027 stable launch. more…",
+      "published": "2026-10-02T21:39:55+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "ニコチン・タールゼロの持ち歩ける電子シーシャ『Al Fakher CROWN BAR』から新モデル『40K MEGAMAX』登場、全13種類のフレーバーを10月5日より販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000191310.html",
+      "summary": "",
+      "published": "2026-10-02T10:33:09+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "7cfc75fb2958e16d"
+    },
+    {
+      "title": "【STORM × gg】限定ゲーミングPC 2機種を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000079.000134073.html",
+      "summary": "[合同会社気づけば] [画像1: https://prcdn.freetls.fastly.net/release_image/134073/79/134073-79-fab9a0cdf156bb3a4f3ad04b958ece51-1200x630.png?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&a...",
+      "published": "2026-10-02T08:40:49+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "fb5c33636a281853"
+    },
+    {
+      "title": "【DMM Factory】『カラフルピーチ』 より、「オリジナル腕時計＆カードセット」の予約受付を10月2日（金）より開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000005142.000002581.html",
+      "summary": "",
+      "published": "2026-10-02T03:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "c8931febe7fe7209"
+    },
+    {
+      "title": "SASUKEに挑戦する俳優・トレーナー梶原颯、東京・有明にパーソナルジム「LailaX」を11月開業。先行予約開始。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000190631.html",
+      "summary": "",
+      "published": "2026-10-02T02:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "3b8120f8e5f91b0c"
+    },
+    {
+      "title": "SB C&S、Zenityとディストリビューター契約を締結AIエージェント向けセキュリティプラットフォームの日本国内における取り扱いを開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000001093.000022656.html",
+      "summary": "",
+      "published": "2026-10-02T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "c973359375114ebc"
+    },
+    {
+      "title": "JQA、生活支援ロボット分野で国内初となるJIS B 8445認証書を発行",
+      "url": "https://prtimes.jp/main/html/rd/p/000000466.000003627.html",
+      "summary": "",
+      "published": "2026-10-02T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "ae6707301caae665"
+    },
+    {
+      "title": "産業用タッチパネルディスプレイとSTBを組み合わせたシステムを今冬販売開始へ",
+      "url": "https://prtimes.jp/main/html/rd/p/000000031.000044750.html",
+      "summary": "",
+      "published": "2026-10-02T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a72fc4a8a4593db6"
+    },
+    {
+      "title": "【株式会社CIO】旅のすべての電源を、これ一台で。変換プラグ・充電・ケーブル・電源タップを集約した『Polaris CUBE TRAVEL Built in CORD REEL』を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000691.000043212.html",
+      "summary": "",
+      "published": "2026-10-02T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a06b9dc7add41e29"
+    },
+    {
+      "title": "【国内メーカー品質】Qi2 25W認証取得！最大83W出力＆マグネット式ワイヤレス充電搭載。機能美を追求した車載ホルダー「ACWPD-V025M-QI22-83W」を10月2日より発売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000122.000102992.html",
+      "summary": "",
+      "published": "2026-10-02T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "5083842adbe425ef"
+    },
+    {
+      "title": "第二回AI日本国際映画祭 - AI Film Festival Japan 2026 | 10月2日よりチケット発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000005.000189364.html",
+      "summary": "",
+      "published": "2026-10-02T00:36:03+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "db97fe469d683717"
+    },
+    {
+      "title": "指輪型AI記録デバイス Vocci、GREEN FUNDINGで開始20分で目標金額を達成―",
+      "url": "https://prtimes.jp/main/html/rd/p/000000663.000036256.html",
+      "summary": "",
+      "published": "2026-10-02T00:21:04+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "f694336fd9f5b882"
+    }
+  ]
+}
