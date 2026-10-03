@@ -46,6 +46,10 @@ def main() -> int:
         "hashtags": [str(h).lstrip("#") for h in (fm.get("hashtags") or [])],
         "markdown": body,
         "html": markdown.markdown(body, extensions=["sane_lists"]),
+        # 製品の写真(1製品1枚)。note に本文を貼って写真が落ちたとき、GT タブから
+        # 保存して差し込めるように、節の見出し・出典と組で送る。
+        "images": [{"section": s, "url": u, "credit": c} for s, u, c in re.findall(
+            r"(?m)^## (\d+\.[^\n]*)\n+!\[[^\]]*\]\(([^)\s]+)\)\n画像[:：]\s*([^\n]+)", body)],
         # build.py が public/note/<日付>.png に作る見出し画像
         "headerImage": f"{base}/note/{path.stem}.png",
     }

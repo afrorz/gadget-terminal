@@ -17,6 +17,12 @@ note には投稿用の API が無い。下書きは data/note/<日付>.md に�
 TamakoStock の GT タブからコピーして貼り付ける。見出し画像は build.py が
 public/note/<日付>.png に作る(文字とサイトの配色だけの自前の画像。製品写真は
 note にアップロードする形になり、サイトの画像ルールの外に出るので使わない)。
+
+**製品の写真は1製品1枚まで入れる**(2026-10-03 本人判断。「ガジェットがテーマなのに
+写真が無いのは微妙」)。note では写真をアップロードする形になり、サイトの
+「ホットリンクで引用」より一歩踏み込むので、次を守って引用の形を保つ:
+サイトの記事で使っているメーカー公式・クラファンのページの写真だけ /
+1製品1枚 / 直下に出典。check がこれを機械で確かめる。
 """
 from __future__ import annotations
 
@@ -52,6 +58,19 @@ def status_at(sha: str | None, f: Path) -> str | None:
     return ((front_matter(r.stdout).get("japan") or {}).get("status")) if r.returncode == 0 else None
 
 
+def first_image(fm: dict) -> dict | None:
+    """記事の1枚目の画像と出典。build.py と同じ解決のしかた(images を正、旧 thumbnail を補う)。"""
+    for it in (fm.get("images") or []):
+        it = {"url": it} if isinstance(it, str) else (it or {})
+        url = str(it.get("url") or "").strip()
+        if url:
+            return {"url": url, "credit": str(it.get("credit") or fm.get("credit")
+                                              or fm.get("thumbnail_credit") or "").strip()}
+    if fm.get("thumbnail"):
+        return {"url": str(fm["thumbnail"]).strip(), "credit": str(fm.get("thumbnail_credit") or "").strip()}
+    return None
+
+
 def week_posts(today: date) -> list[dict]:
     """today の前日までの7日間に公開した記事と、その期間に日本上陸の状況が変わった記事。
 
@@ -82,7 +101,7 @@ def week_posts(today: date) -> list[dict]:
         out.append({
             "file": f.name, "new": new, "landed": landed, "date": str(d),
             "title": fm.get("title"), "keyword": fm.get("keyword"), "category": fm.get("category"),
-            "kicker": fm.get("kicker"), "x_hook": fm.get("x_hook"),
+            "kicker": fm.get("kicker"), "x_hook": fm.get("x_hook"), "image": first_image(fm),
             "url": f"{base}/posts/{fm.get('slug')}.html", "tags": fm.get("tags") or [],
             "japan": {k: j.get(k) for k in ("status", "summary") if j.get(k)} if j else None,
         })
@@ -105,7 +124,7 @@ def cmd_context(args) -> int:
 # 煽り・否定の結論・円換算の混入を機械で拾う。全部を防げるわけではないが、
 # 毎日の記事で実際に起きたもの(2026-09-30 の本人指摘など)は止める。
 BANNED = [
-    (re.compile(r"[!！]"), "感嘆符"),
+    (re.compile(r"[!！](?!\[)"), "感嘆符"),  # 画像の書式 ![...] は除く
     (re.compile(r"約?[\d,]+円(相当|程度)"), "円換算らしき表記"),
     (re.compile(r"話題|衝撃|ヤバい|すごすぎ"), "煽りの語"),
 ]
@@ -129,6 +148,31 @@ def cmd_check(args) -> int:
     for pat, label in BANNED:
         for m in pat.finditer(body):
             errors.append(f"{label}: …{body[max(0, m.start() - 15):m.end() + 15]}…")
+    # 製品の写真: 「## 1.」〜「## 5.」の各節に1枚ずつ、出典つきで、記事で使っている写真だけ
+    allowed = {}
+    for f in POSTS.glob("*.md"):
+        fm2 = front_matter(f.read_text(encoding="utf-8"))
+        for it in (fm2.get("images") or []):
+            it = {"url": it} if isinstance(it, str) else (it or {})
+            if it.get("url"):
+                allowed[str(it["url"]).strip()] = True
+        if fm2.get("thumbnail"):
+            allowed[str(fm2["thumbnail"]).strip()] = True
+    sections = re.split(r"(?m)^## (?=\d+\.)", body)[1:]
+    for sec in sections:
+        name = sec.splitlines()[0][:40]
+        sec = re.split(r"(?m)^## ", sec)[0]
+        imgs = re.findall(r"!\[[^\]]*\]\(([^)\s]+)\)", sec)
+        if len(imgs) != 1:
+            errors.append(f"「{name}」の写真が {len(imgs)}枚です(1製品1枚)")
+            continue
+        if imgs[0] not in allowed:
+            errors.append(f"「{name}」の写真が、サイトの記事で使っている写真ではありません: {imgs[0][:80]}")
+        if not re.search(r"(?m)^画像[:：]\s*\S", sec):
+            errors.append(f"「{name}」の写真の下に「画像: 出典」がありません")
+    if not sections:
+        errors.append("「## 1.」から始まる製品の節が見つかりません")
+
     links = re.findall(r"https://gadgetterminal\.com/posts/[\w.-]+\.html", body)
     if len(links) < 3:
         errors.append(f"サイトの記事へのリンクが {len(links)}本しかありません")
