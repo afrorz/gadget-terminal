@@ -1,0 +1,124 @@
+name: noteの週まとめを書く
+
+on:
+  schedule:
+    # 土曜 18:00 UTC = 日曜 03:00 JST。GitHub の定時実行は2〜3.5時間遅れるので、
+    # 実際には日曜の朝(05:00〜06:30ごろ)に下書きが届く。本人がその日のうちに
+    # note に貼り付けて公開する(2026-10-03 開始)。
+    - cron: "0 18 * * 6"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "まとめる週の翌日の日付(YYYY-MM-DD)。空なら今日。その前日までの7日間をまとめる"
+        required: false
+        default: ""
+
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # note_weekly.py が「週の始まりの時点の日本上陸の状況」を git の履歴から読む
+          fetch-depth: 0
+
+      - name: Claude Code CLI を明示的にインストール
+        # daily-article.yml と同じ理由(内蔵のインストールが失敗を握りつぶす既知の不具合)
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - uses: anthropics/claude-code-action@v1
+        # prompt の中に ${{ }} を書かない(daily-article.yml の注意書きを参照)
+        env:
+          NOTE_DATE: ${{ github.event.inputs.date }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          claude_args: |
+            --max-turns 40
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash"
+          prompt: |
+            あなたは海外ガジェットメディア「Gadget Terminal」(https://gadgetterminal.com/)の
+            編集担当です。note(https://note.com/gadgetterminal)に載せる、週1本のまとめ記事の
+            下書きを書いてください。公開は本人が手作業で行います。
+
+            ## 何のための記事か
+            note は検索に強く、新しいドメインのこのサイトより Google で見つけてもらいやすい。
+            note の読者に「この1週間、海外でこんなガジェットが出た」を見渡してもらい、
+            気になった製品はサイトの記事で詳しく読んでもらう。**サイトの記事の転載ではない。**
+            同じ文章が2か所にあると Google はどちらか一方しか評価しないので、
+            記事の文をそのまま使わず、まとめとして新しく書き起こす。
+
+            ## 手順
+            1. 日付を決める。`echo "$NOTE_DATE"` が空なら `TZ=Asia/Tokyo date +%Y-%m-%d`。
+               以下これを <DATE> と呼ぶ。
+            2. `python3 scripts/note_weekly.py context --date <DATE>` を実行して、
+               その週の記事一覧を読む(新着と、日本上陸の状況が変わったもの)。
+               必要なら content/posts/ の記事本文も読む。**事実はこの記事群からだけ取る。**
+               記事に無い数字・評価を足さない。Web で新しく調べることもしない。
+            3. 新着から5本を選ぶ。選び方:
+               - 読者が「欲しい」「見てみたい」と思えるもの。製品として面白いもの
+               - カテゴリ(スマホ・PC・変わり種)が偏らないように
+               - 日本で買える・買えそうなもの(日本上陸あり、国内代理店あり)を優先
+               新着が5本に満たなければ、ある本数でよい。
+            4. 日本上陸の状況が変わった記事から、目立つものを最大3本選ぶ(無ければ枠ごと省く)。
+            5. data/note/<DATE>.md に下書きを書く。形式は下の「書式」。
+            6. `python3 scripts/note_weekly.py check data/note/<DATE>.md` を通す。NG が出たら直す。
+            7. `pip install -r requirements.txt --break-system-packages -q` のあと
+               `python3 scripts/build.py` が通ることを確認する(見出し画像が作られる)。
+            8. data/note/<DATE>.md だけを git add してコミットし、main に push する。
+               コミットメッセージは「noteの週まとめ <DATE>」。public/ はコミットしない。
+
+            ## 書式
+            ```
+            ---
+            title: 今週の海外ガジェット5選｜10月第1週   # 32字前後まで。否定の結論を入れない
+            label: WEEKLY｜2026.09.27-10.03           # 見出し画像の上に小さく出る
+            hashtags: [ガジェット, 海外ガジェット, クラウドファンディング, 新製品, 技適]
+            ---
+
+            (導入 2〜3文。この週の傾向をひとことで。例:「今週はRyzen AI Max+を積んだ
+             小型PCが続けて出た」のように、記事群から言えることだけ)
+
+            ## 1. 製品名 ― 何がすごいかを一言で
+            (3〜5文。何が新しいか、誰に向いているか、価格(ドル・ユーロのまま)。
+             最後の1文で日本での入手性や技適に触れる)
+
+            詳しくは: https://gadgetterminal.com/posts/xxx.html
+
+            ## 2. ...(5本まで同じ形)
+
+            ## 今週の日本上陸
+            (1本あたり2〜3文。誰が・いつ・いくらで。最後に記事のURL)
+
+            ## Gadget Terminal について
+            海外で発表されたばかりのガジェットを毎朝3本、日本で買えるか・使えるか(技適)まで
+            調べて紹介しています。
+            サイト: https://gadgetterminal.com/
+            X: https://x.com/GadgetTerminal2
+            Threads: https://www.threads.com/@gadgetterminal
+            ```
+
+            ## 文章のルール(サイトと同じ)
+            - 煽らない。感嘆符と絵文字を使わない。「話題」「衝撃」「すごい」を使わない
+            - 円換算を書かない。ドル・ユーロのまま。日本の販売元が円で出している価格はそのまま書いてよい
+            - 在庫・価格は掲載時点の情報である旨を、導入か末尾で1回だけ書く
+            - クラウドファンディングの製品は「出資は購入ではない」ことを1文で添える
+            - **タイトルと各見出しに否定の結論を書かない**(「日本未発売」「技適未確認」など)。
+              日本で買えない・技適が未確認といった話は、本文の最後の1文で事実として書く
+            - 1本ずつの紹介は、記事の kicker や x_hook を写さず、自分の言葉で書き直す
+            - 全体で2,000〜3,000字
+            - Markdown は見出し(##)・太字・箇条書き・リンクだけを使う。表は使わない
+              (note の編集画面に貼り付けたときに崩れるため)

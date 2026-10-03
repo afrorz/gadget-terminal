@@ -2457,6 +2457,18 @@ def main() -> int:
         print(f"■ OGP画像 {made}枚 / アイキャッチ {cards}枚" if made
               else "■ 画像生成: フォントが無いためスキップ")
 
+        # note の週まとめの見出し画像(scripts/note_weekly.py)。本人が note に
+        # アップロードするので、文字とサイトの配色だけの自前の画像にしている。
+        notes = 0
+        for f in sorted((ROOT / "data" / "note").glob("*.md")):
+            m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", f.read_text(encoding="utf-8"), re.S)
+            fm = (yaml.safe_load(m.group(1)) or {}) if m else {}
+            if fm.get("title") and ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
+                                               site["site"]["title"], PUBLIC / "note" / f"{f.stem}.png"):
+                notes += 1
+        if notes:
+            print(f"■ note の見出し画像 {notes}枚")
+
     # 実物画像の充足率。ガジェット記事は実物が見えないと成立しないため必ず出す。
     shots = sum(len(p.get("images") or []) for p in posts)
     naked = [p["slug"] for p in posts
