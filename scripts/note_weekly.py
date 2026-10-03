@@ -58,14 +58,26 @@ def status_at(sha: str | None, f: Path) -> str | None:
     return ((front_matter(r.stdout).get("japan") or {}).get("status")) if r.returncode == 0 else None
 
 
+IMAGE_EXT = re.compile(r"\.(jpe?g|png|gif|webp)$", re.I)
+
+
 def first_image(fm: dict) -> dict | None:
-    """記事の1枚目の画像と出典。build.py と同じ解決のしかた(images を正、旧 thumbnail を補う)。"""
+    """note に入れる写真1枚と出典。build.py と同じ解決のしかた(images を正、旧 thumbnail を補う)。
+
+    URL のパスにファイル名(.jpg 等)がある写真を優先する。note は貼り付けた本文の写真を
+    自分のサーバーに取り込むが、拡張子の無い URL(Meta の lookaside.fbsbx.com/.../media/?...)
+    は読み込み中のまま止まった(2026-10-03)。
+    """
+    cands = []
     for it in (fm.get("images") or []):
         it = {"url": it} if isinstance(it, str) else (it or {})
         url = str(it.get("url") or "").strip()
         if url:
-            return {"url": url, "credit": str(it.get("credit") or fm.get("credit")
-                                              or fm.get("thumbnail_credit") or "").strip()}
+            cands.append({"url": url, "credit": str(it.get("credit") or fm.get("credit")
+                                                    or fm.get("thumbnail_credit") or "").strip()})
+    if cands:
+        from urllib.parse import urlparse
+        return next((c for c in cands if IMAGE_EXT.search(urlparse(c["url"]).path)), cands[0])
     if fm.get("thumbnail"):
         return {"url": str(fm["thumbnail"]).strip(), "credit": str(fm.get("thumbnail_credit") or "").strip()}
     return None

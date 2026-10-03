@@ -17,6 +17,9 @@ images:
   - url: "https://lookaside.fbsbx.com/elementpath/media/?media_id=1043112282055510&version=1789761587&transcode_extension=webp"
     caption: Meta VR Glasses本体(左)と、バッテリー・プロセッサを収めた外部パック(右)。ハイブリッド光ファイバーケーブルで接続する
     credit: Meta公式ストア Meta VR Glasses製品ページ
+  - url: "https://about.fb.com/ja/wp-content/uploads/sites/15/2026/09/Meta_VR_Glasses_ProductShot_16x9-1.png?w=1200"
+    caption: グラス本体と、クリップ付きの外部パック。本体側を約100gに抑えるため、演算とバッテリーをケーブルの先のパックに分けている
+    credit: Meta日本公式ニュースルーム(about.fb.com)
 credit: Meta公式ストア Meta VR Glasses製品ページ
 japan:
   status: 発売予定
