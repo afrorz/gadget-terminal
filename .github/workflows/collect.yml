@@ -2,10 +2,11 @@ name: 日次ダイジェスト収集
 
 on:
   schedule:
-    # JST 05:30 (UTC 20:30) — 記事生成(06:00 JST)の30分前。
-    # この時刻にしているのは、海外ガジェットのニュースが米国の営業時間
-    # (= 日本の深夜〜早朝) に出るため。朝5:30なら米国の丸1日ぶんを拾える。
-    - cron: "30 20 * * *"
+    # JST 02:30 (UTC 17:30)。終わると記事生成(daily-article.yml)が続けて走る。
+    # 海外ガジェットのニュースは米国の営業時間(= 日本の深夜〜早朝)に出るので、本当は
+    # 05:30 に拾いたい。ただ GitHub の定時実行は毎日2〜3.5時間遅れるため、
+    # 3時間早めに置いて、実際に走るのが 04:30〜06:00 ごろになるようにしている。
+    - cron: "30 17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -33,6 +34,7 @@ jobs:
           git config user.email "actions@github.com"
           git add data/
           git diff --staged --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push
 
       - name: ダイジェストをArtifactとして保存
