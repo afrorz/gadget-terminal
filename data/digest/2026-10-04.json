@@ -1,0 +1,686 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T05:07:58.730928+09:00",
+  "stats": {
+    "fetched": 684,
+    "unique": 643,
+    "new": 184,
+    "clusters": 177,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "7e9f58a7c377577a",
+      "title": "Casio launches three sushi-inspired G-Shock watches",
+      "url": "https://www.gizmochina.com/2026/10/03/casio-sushi-inspired-g-shock-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/casio-sushi-inspired-g-shock-watches-launched-specs-price",
+      "summary": "Casio has announced a new set of three G-Shock watches in Japan. Manufactured at the company’s Yamagata Casio facility, the upcoming models take standard G-Shock hardware and apply colors, materials, and textures designed to look like tuna, salmon roe, and salmon. The watches are currently available for pre-order on the Casio Japan website and are [&#8230;] The post Casio launches three sushi-insp",
+      "published": "2026-10-03T11:14:25+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 pre-order",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "43256cfb3b697ac9",
+      "title": "vivo teases the X Fold6 in India along with an MR headset",
+      "url": "https://www.gsmarena.com/vivo_x_fold6_vivo_vision_india_launch_teaser-news-74891.php",
+      "canonical": "https://www.gsmarena.com/vivo_x_fold6_vivo_vision_india_launch_teaser-news-74891.php",
+      "summary": "Last week, vivo announced it would unveil the V80 on October 6 in India. Later, the company said it would also unveil the S2 FE that day. Now, the brand has posted a short video clip on X, teasing the launch of the X Fold6 in India on October 6. The teaser shows the vivo X Fold6 in Nebula Teal, but there could be more color options that are yet to be confirmed. The next chapter of innovation is re",
+      "published": "2026-10-03T15:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fc325b9bde3411ae",
+      "title": "Global Oppo Find X10 and Find X10 Pro Max prices leak, and Europe faces a big jump",
+      "url": "https://www.gizmochina.com/2026/10/03/global-oppo-find-x10-and-find-x10-pro-max-prices-leak-and-europe-faces-a-big-jump/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/global-oppo-find-x10-and-find-x10-pro-max-prices-leak-and-europe-faces-a-big-jump",
+      "summary": "Oppo hasn&#8217;t announced a date for the international launch of the Find X10 series, but European pricing has now surfaced on the web, courtesy of a report from YTECHB. Spoiler: they sit well above what Oppo charged for the previous generation. According to the report, the Oppo Find X10 will cost €1,399 for the 12GB [&#8230;] The post Global Oppo Find X10 and Find X10 Pro Max prices leak, and E",
+      "published": "2026-10-03T08:27:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "-5 court",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/oppo_find_x10_and_find_x10_pro_max_leaked_european_prices_are_shocking-news-74878.php"
+      ]
+    },
+    {
+      "id": "a1f7804cce48f637",
+      "title": "Here’s why Star Wars: Galactic Racer could be great, according to early reviews",
+      "url": "https://www.notebookcheck.net/Here-s-why-Star-Wars-Galactic-Racer-could-be-great-according-to-early-reviews.1415156.0.html",
+      "canonical": "https://www.notebookcheck.net/Here-s-why-Star-Wars-Galactic-Racer-could-be-great-according-to-early-reviews.1415156.0.html",
+      "summary": "Star Wars: Galactic Racer is earning some perfect scores in its first reviews and generating plenty of excitement on Reddit. The combination of fast-paced arcade racing and a roguelite campaign is receiving particular praise, although a few weaknesses remain.",
+      "published": "2026-10-03T12:04:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+2 campaign",
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/review/star-wars-galactic-racer-review-its-not-a-wipeout-for-star-wars/"
+      ]
+    },
+    {
+      "id": "46db29f0b03db448",
+      "title": "Here's when Honor's wide foldable is now rumored to launch",
+      "url": "https://www.gsmarena.com/heres_when_honors_wide_foldable_is_now_rumored_to_launch-news-74886.php",
+      "canonical": "https://www.gsmarena.com/heres_when_honors_wide_foldable_is_now_rumored_to_launch-news-74886.php",
+      "summary": "If you trust rumors, Honor has been working on a wide foldable of its own for quite some time now. Last we heard anything about it, it was apparently supposed to be launching by the end of this year. However, according to a new rumor from a well-known leaker on Weibo, that won't quite happen. Instead, Honor will allegedly be launching its wide foldable in January. Intriguingly, it is said to arriv",
+      "published": "2026-10-03T01:03:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5baa2553445770a1",
+      "title": "Honor officially teases OLED gaming tablet with over 200Hz refresh rate",
+      "url": "https://www.notebookcheck.net/Honor-officially-teases-OLED-gaming-tablet-with-over-200Hz-refresh-rate.1414302.0.html",
+      "canonical": "https://www.notebookcheck.net/Honor-officially-teases-OLED-gaming-tablet-with-over-200Hz-refresh-rate.1414302.0.html",
+      "summary": "Honor has shared a new teaser for its upcoming Win Tablet. The device is already confirmed to feature a flagship Snapdragon chipset and an OLED panel, with a launch expected later in October 2026 in China.",
+      "published": "2026-10-03T02:42:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ee3f452139575543",
+      "title": "What’s the best Snapdragon 8 Gen 5 series chip? I tested them all to find out",
+      "url": "https://www.androidauthority.com/all-snapdragon-8-gen-5-chips-tested-3704993/",
+      "canonical": "https://www.androidauthority.com/all-snapdragon-8-gen-5-chips-tested-3704993",
+      "summary": "CPU testing goes about as expected, but GPU benchmarking is another story altogether.",
+      "published": "2026-10-03T10:00:05+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 benchmark",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0f346b50de4728fd",
+      "title": "NVIDIA Raises Shield TV Pro Price to $299, Discontinues Standard Shield TV",
+      "url": "https://www.techpowerup.com/353354/nvidia-raises-shield-tv-pro-price-to-usd-299-discontinues-standard-shield-tv",
+      "canonical": "https://www.techpowerup.com/353354/nvidia-raises-shield-tv-pro-price-to-usd-299-discontinues-standard-shield-tv",
+      "summary": "NVIDIA has raised the price of the Shield TV Pro from $199.99 to $299.99, effective October 2. The streaming box launched in October 2019 at $199.99 and held that price for almost seven years. Earlier this year, NVIDIA promised to keep updating the Shield TV, with hardware engineering SVP Andrew Bell saying the company had no plans to abandon it anytime soon. NVIDIA has also stopped making the sta",
+      "published": "2026-10-03T12:16:55+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9bd82e7750575bff",
+      "title": "NVIDIA DGX Spark 64GB Launched and Big 128GB GB10 Price Increases",
+      "url": "https://www.servethehome.com/nvidia-dgx-spark-64gb-launched-and-big-128gb-gb10-price-increases/",
+      "canonical": "https://www.servethehome.com/nvidia-dgx-spark-64gb-launched-and-big-128gb-gb10-price-increases",
+      "summary": "The NVIDIA DGX Spark 64GB is launching with a $4999 price as the 128GB model jumps to $6950 pushed by memory pricing The post NVIDIA DGX Spark 64GB Launched and Big 128GB GB10 Price Increases appeared first on ServeTheHome .",
+      "published": "2026-10-03T14:12:17+00:00",
+      "source_id": "servethehome",
+      "source": "ServeTheHome",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "584348e94bdce32a",
+      "title": "Poco F9 Ultra: An older chip at a higher price?",
+      "url": "https://www.notebookcheck.net/Poco-F9-Ultra-An-older-chip-at-a-higher-price.1413156.0.html",
+      "canonical": "https://www.notebookcheck.net/Poco-F9-Ultra-An-older-chip-at-a-higher-price.1413156.0.html",
+      "summary": "With the F8 Ultra, Poco aimed to stay at the forefront with Qualcomm’s latest top-of-the-line SoC. With the F9 Ultra, the manufacturer is changing its strategy: The launch has been moved up, and the Snapdragon 8 Elite Gen 5 remains, meaning it’s the same chip as in the previous model. At the same time, the price is rising sharply. Is this a step backward? It’s not quite that simple.",
+      "published": "2026-10-03T14:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e761f083f5da4efb",
+      "title": "Ugreen launches 45W 20000mAh power bank with built-in cables, color display & 2026 safety standards",
+      "url": "https://www.gizmochina.com/2026/10/03/ugreen-p7-45w-20000mah-power-bank-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/ugreen-p7-45w-20000mah-power-bank-launched-specs-price",
+      "summary": "Ugreen has released the Ugreen P7 (PB792), a 20,000mAh power bank in China. It features two built-in USB-C cables and a color display. The device is currently listed on JD.com for 269 yuan ($40). Ugreen 45W 20K Power Bank Specifications The power bank uses a 3C + 1A configuration, providing three USB-C connections and one [&#8230;] The post Ugreen launches 45W 20000mAh power bank with built-in cab",
+      "published": "2026-10-03T17:47:58+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 power bank",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3db7f1580c97a898",
+      "title": "TSMC Explores Collaboration with Elon Musk's Terafab Project",
+      "url": "https://www.techpowerup.com/353352/tsmc-explores-collaboration-with-elon-musks-terafab-project",
+      "canonical": "https://www.techpowerup.com/353352/tsmc-explores-collaboration-with-elon-musks-terafab-project",
+      "summary": "Taiwanese semiconductor giant TSMC is considering collaborating with Elon Musk's Terafab project to establish advanced end-to-end semiconductor manufacturing in the United States. According to an exclusive report from Tim Culpan's Culpium newsletter, later confirmed by Elon Musk on X, the two companies are in discussions about a joint venture to boost American semiconductor manufacturing. The plan",
+      "published": "2026-10-03T11:36:42+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai"
+      ]
+    },
+    {
+      "id": "75f5840e8a58fe4e",
+      "title": "Huawei Watch GT 7 Pro review",
+      "url": "https://www.gsmarena.com/huawei_watch_gt_7_pro_review-news-74802.php",
+      "canonical": "https://www.gsmarena.com/huawei_watch_gt_7_pro_review-news-74802.php",
+      "summary": "Huawei’s Watch GT series has consistently offered a blend of premium build quality, extensive health and activity tracking, and top-tier battery endurance, and the Watch GT 7 Pro takes that same formula while overhauling the sports tracking experience. Despite its new colors and a revised watch strap system, the Watch GT 7 Pro is mostly unchanged from its predecessor on the hardware front. With th",
+      "published": "2026-10-03T12:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d1bbc5160e7a9f34",
+      "title": "华为 Mate 90 Pro Max 性能解禁：搭载麒麟 9050 Pro，部分游戏能效优于第五代骁龙 8 至尊版机型",
+      "url": "https://www.ithome.com/1/009/580.htm",
+      "canonical": "https://www.ithome.com/1/009/580.htm",
+      "summary": "IT之家 10 月 4 日消息，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 Mate 90 系列手机正式发布。其中，Mate 90 Pro Max / RS 非凡大师搭载的是首款逻辑折叠 τ 芯片 —— 麒麟 9050 Pro。 根据华为官方介绍，麒麟 9050 Pro 是麒麟性能新巅峰，通过软硬芯云垂直整合， 整机性能提升 31% 。这枚芯片 CPU 还支持 9 核 16 线程超线程技术，多核性能提升 23%、GPU 渲染性能提升 40%、NPU 性能提升 140%。 极客湾发布了一期针对华为 Mate 90 Pro Max 的性能分析报告，讲解了麒麟 9050 Pro 的逻辑折叠是如何实现，并公开了 Mate 90 Pro Max 的实际性能续航表现。 需要注意的是，此次华为 Mate 90 和 Mate 90 Pro 分别搭载的是麒麟 9030",
+      "published": "2026-10-03T16:20:02+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/009/539.htm",
+        "https://www.gsmarena.com/huawei_mate_90_pro_max_runs_geekbench_revealing_kirin_9050_pro_performance__-news-74881.php"
+      ]
+    },
+    {
+      "id": "9f1ecdc42572908f",
+      "title": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage",
+      "url": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
+      "canonical": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
+      "summary": "The Shield TV Pro remains one of Nvidia’s longest-running consumer devices, but its $299.99 price tag now makes the streaming box considerably more expensive than when it launched.",
+      "published": "2026-10-03T16:59:51+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3bf76a794b9d717f",
+      "title": "Steam on Track for $20 Billion Year After Record $1.7 Billion September",
+      "url": "https://www.techpowerup.com/353367/steam-on-track-for-usd-20-billion-year-after-record-usd-1-7-billion-september",
+      "canonical": "https://www.techpowerup.com/353367/steam-on-track-for-usd-20-billion-year-after-record-usd-1-7-billion-september",
+      "summary": "Steam reportedly just had its best September on record. Alinea Analytics estimates that the platform generated a hefty $1.7 billion last month, up 13% from September 2025, which held the previous record. The third quarter was also Steam's best to date at $5.5 billion, a 12% increase year over year. That puts the 2026 total at $16.5 billion after nine months, compared to $14.5 billion in the same p",
+      "published": "2026-10-03T18:38:20+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/video-games/pc-gaming/steam-revenue-hit-usd1-7-billion-in-september-2026-pc-gaming-spending-grows-despite-skyrocketing-hardware-costs"
+      ]
+    },
+    {
+      "id": "1fb20ca1b619ae50",
+      "title": "Ugreen’s new 2-in-1 phone case has an e-ink screen attached to it",
+      "url": "https://www.gizmochina.com/2026/10/03/ugreen-magic-e-ink-screen-case-iphone-18-pro/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/ugreen-magic-e-ink-screen-case-iphone-18-pro",
+      "summary": "Ugreen has launched a new color e-ink case for the Pro iPhones in China. Called the Ugreen Magic E-ink Screen Case, it really is what the name suggests — a case and second screen. Back-mounted phone accessories are becoming more common. Dockcase&#8217;s Selfix case gave the iPhone 17 Pro a second screen for taking selfies [&#8230;] The post Ugreen&#8217;s new 2-in-1 phone case has an e-ink screen ",
+      "published": "2026-10-03T00:26:16+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "84ed48e95ae8ae91",
+      "title": "Best Tecno phones in 2026",
+      "url": "https://www.gizmochina.com/2026/10/03/best-tecno-phones/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/best-tecno-phones",
+      "summary": "Tecno’s smartphone lineup in 2026 covers everything from entry-level models to more capable mid-range phones, but the current market is not exactly offering more for less. Prices have been going up, while the differences between models and generations are not always significant enough to make the choice straightforward. This list focuses on the models that [&#8230;] The post Best Tecno phones in 2",
+      "published": "2026-10-03T05:53:57+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5da3d3f18d4594b3",
+      "title": "Samsung’s Android-powered laptop surfaces on Geekbench with over 15K multi core CPU score",
+      "url": "https://www.gizmochina.com/2026/10/03/samsungs-android-powered-laptop-surfaces-on-geekbench-with-over-15k-multi-core-cpu-score/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/samsungs-android-powered-laptop-surfaces-on-geekbench-with-over-15k-multi-core-cpu-score",
+      "summary": "Samsung has been quietly poking around in a new direction for its laptops, and a mysterious machine just showed up in the Geekbench database that has people talking. The device is listed as the Samsung XE940XSA, and it’s running Android 17, not Windows, not ChromeOS. That’s a big departure from the previously announced Galaxybooks. It [&#8230;] The post Samsung&#8217;s Android-powered laptop surfa",
+      "published": "2026-10-03T07:08:34+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "35919f48e6843d73",
+      "title": "Teardown shows Huawei Kirin 9050 Pro uses a 3D V-Cache-like stacked design for the SoC, and the results are impressive",
+      "url": "https://www.notebookcheck.net/Teardown-shows-Huawei-Kirin-9050-Pro-uses-a-3D-V-Cache-like-stacked-design-for-the-SoC-and-the-results-are-impressive.1414228.0.html",
+      "canonical": "https://www.notebookcheck.net/Teardown-shows-Huawei-Kirin-9050-Pro-uses-a-3D-V-Cache-like-stacked-design-for-the-SoC-and-the-results-are-impressive.1414228.0.html",
+      "summary": "Geekerwan's teardown and analysis of the Kirin 9050 Pro show how Huawei's first LogicFolding chip works, and the results are impressive.",
+      "published": "2026-10-03T07:53:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 teardown",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "43f0549dbe7a9793",
+      "title": "I hate when Android brands copy Apple — but the iPhone Duo is the exception",
+      "url": "https://www.androidauthority.com/hate-when-android-copies-apple-iphone-duo-exception-3716696/",
+      "canonical": "https://www.androidauthority.com/hate-when-android-copies-apple-iphone-duo-exception-3716696",
+      "summary": "The iPhone Duo could make Android foldables much better.",
+      "published": "2026-10-03T09:30:40+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fcb2babc6dc5d47e",
+      "title": "ASRock Cram RTX Pro 4000/2000 GPUs Into Its DeskSlim Desktops Coupled With AMD AM5 And Intel LGA 1700 Platforms",
+      "url": "https://wccftech.com/asrock-cram-rtx-pro-4000-2000-gpus-into-its-deskslim-desktops/",
+      "canonical": "https://wccftech.com/asrock-cram-rtx-pro-4000-2000-gpus-into-its-deskslim-desktops",
+      "summary": "ASRock has announced new configurations for its DeskSlim compact desktops, which include NVIDIA's powerful workstation Blackwell GPUs. ASRock Launches DeskSlim X600 and B760 Desktop With NVIDIA RTX Pro 4000 and Pro 2000 GPUs for Professionals Popular hardware manufacturer ASRock has announced the launch of new configurations for its DeskSlim series desktops. The company has revealed that its DeskS",
+      "published": "2026-10-03T11:39:57+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "07c1f0e2853d62e8",
+      "title": "Used Ryzen 7 5800X3D Gets Buyer Locked Out of Valorant Due to Previous Owner's Cheating",
+      "url": "https://www.techpowerup.com/353353/used-ryzen-7-5800x3d-gets-buyer-locked-out-of-valorant-due-to-previous-owners-cheating",
+      "canonical": "https://www.techpowerup.com/353353/used-ryzen-7-5800x3d-gets-buyer-locked-out-of-valorant-due-to-previous-owners-cheating",
+      "summary": "Buying a used Ryzen 7 5800X3D CPU has apparently locked its new owner out of Valorant. Reddit user After-Cartoonist-196 posted on r/PCBaumeister that they bought the chip through the German classifieds site Kleinanzeigen and have owned it since September 21. The CPU apparently works fine. However, Valorant kicked them out at launch, even though the game ran normally on their previous processor. Ri",
+      "published": "2026-10-03T11:44:07+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "93f35fb2b5ff7500",
+      "title": "Honor launches portable air compressor for cars and bicycles with 25–30 L/min airflow, up to 160 PSI",
+      "url": "https://www.gizmochina.com/2026/10/03/honor-launches-portable-air-compressor-for-cars-and-bicycles-with-25-30-l-min-airflow-up-to-160-psi/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/honor-launches-portable-air-compressor-for-cars-and-bicycles-with-25-30-l-min-airflow-up-to-160-psi",
+      "summary": "Honor just added a handy little gadget to its lifestyle lineup that’s aimed squarely at drivers, cyclists, and anyone who has ever been stuck with a flat tire or under-inflated ball. It’s called the “Honor Life Air Pump Lite” (machine-translated from Chinese), and it’s now listed on JD.com. At 248 yuan (roughly $37 or €32), [&#8230;] The post Honor launches portable air compressor for cars and bic",
+      "published": "2026-10-03T13:46:00+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b472d6ccbd282400",
+      "title": "Best Buy Drops AMD Radeon RX 9070 XT To $759 While Other Retailers Sell It For $900",
+      "url": "https://wccftech.com/best-buy-drops-radeon-rx-9070-xt-to-759/",
+      "canonical": "https://wccftech.com/best-buy-drops-radeon-rx-9070-xt-to-759",
+      "summary": "It might not be the best price for an RX 9070 XT, but it's definitely the lowest you will see in the current market. ASRock Radeon RX 9070 XT Steel Legend Drops to $759 on Best Buy While it Sells for $900 at Other Retailers A GPU that debuted at $600 is now selling for $800-$900 and even for around $1000 at some retailers. AMD launched its flagship RDNA 4 GPU, the Radeon RX 9070 XT 16 GB, last yea",
+      "published": "2026-10-03T14:32:38+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "370cfb82c77ba755",
+      "title": "Samsung Galaxy S25 series receiving One UI 9 stable update in the US",
+      "url": "https://www.gsmarena.com/samsung_galaxy_s25_series_one_ui_9_stable_update_usa-news-74890.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_s25_series_one_ui_9_stable_update_usa-news-74890.php",
+      "summary": "Samsung released the Android 17-based One UI 9 stable update for the Galaxy S25 series a few days ago, but the rollout was limited to South Korea. Well, the rollout has now expanded to the US. [#InlinePriceWidget,13322,1#] The One UI 9 stable update for the Galaxy S25, Galaxy S25+, and Galaxy S25 Ultra rolling out in the US has a firmware version ending with DZIF, while the firmware version for th",
+      "published": "2026-10-03T18:31:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6e965372380b1768",
+      "title": "UUNA TEK iAuto review – A professional handwriting and drawing machine",
+      "url": "https://www.cnx-software.com/2026/10/03/uuna-tek-iauto-review-a-professional-handwriting-and-drawing-machine/",
+      "canonical": "https://www.cnx-software.com/2026/10/03/uuna-tek-iauto-review-a-professional-handwriting-and-drawing-machine",
+      "summary": "Hello, today I am going to review the UUNA TEK iAuto, an automatic handwriting machine designed to reproduce physical handwriting using a real pen on real paper. It also supports wireless connectivity, spreadsheet-based mail merge, custom fonts, and font variation features that can make the writing look more natural. The machine can handle paper sizes up to A3 and supports pens with a diameter of ",
+      "published": "2026-10-03T03:00:36+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "91bb79868a95249b",
+      "title": "Remedy unveils plans for new features and content for Control Resonant",
+      "url": "https://www.notebookcheck.net/Remedy-unveils-plans-for-new-features-and-content-for-Control-Resonant.1414793.0.html",
+      "canonical": "https://www.notebookcheck.net/Remedy-unveils-plans-for-new-features-and-content-for-Control-Resonant.1414793.0.html",
+      "summary": "Remedy has revealed a roadmap of new features and content it plans to add to Control Resonant. This includes photo mode as well as a 'New Game++' mode.",
+      "published": "2026-10-03T10:43:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 unveil",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "17b8714ce371cf5f",
+      "title": "Capcom unveils REX: RE Engine gets AI workflow upgrade",
+      "url": "https://www.notebookcheck.net/Capcom-details-REX-upgrade-to-make-RE-Engine-AI-ready.1415290.0.html",
+      "canonical": "https://www.notebookcheck.net/Capcom-details-REX-upgrade-to-make-RE-Engine-AI-ready.1415290.0.html",
+      "summary": "Capcom detailed its REX project at RE:2026, a staged RE Engine upgrade built for the AI era, with new developer tools, AI testing goals and open-source components.",
+      "published": "2026-10-03T15:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 unveil",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6ae8c625fae614b6",
+      "title": "ANREALAGE’s E Ink Dresses Give One Outfit Several Different Looks",
+      "url": "https://www.yankodesign.com/2026/10/03/anrealages-e-ink-dresses-give-one-outfit-several-different-looks/?utm_source=rss&utm_medium=rss&utm_campaign=anrealages-e-ink-dresses-give-one-outfit-several-different-looks",
+      "canonical": "https://www.yankodesign.com/2026/10/03/anrealages-e-ink-dresses-give-one-outfit-several-different-looks",
+      "summary": "ANREALAGE&#8217;s E Ink Dresses Give One Outfit Several Different Looks Changing your outfit usually means heading back to your closet, but ANREALAGE’s Spring/Summer 2027 “SKIN” collection suggests a different solution. Six dresses at Paris Fashion...",
+      "published": "2026-10-03T19:15:12+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 e ink",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": []
+}
