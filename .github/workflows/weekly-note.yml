@@ -122,3 +122,18 @@ jobs:
             - 全体で2,000〜3,000字
             - Markdown は見出し(##)・太字・箇条書き・リンクだけを使う。表は使わない
               (note の編集画面に貼り付けたときに崩れるため)
+
+      - name: TamakoStock へ下書きを送る
+        # 失敗しても下書きは data/note/ に残るので、ジョブは失敗にしない
+        continue-on-error: true
+        env:
+          GADGET_INGEST_TOKEN: ${{ secrets.GADGET_INGEST_TOKEN }}
+          NOTE_DATE: ${{ github.event.inputs.date }}
+        run: |
+          git pull -q
+          D="${NOTE_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
+          if [ ! -f "data/note/$D.md" ]; then echo "data/note/$D.md がありません。送信をスキップします"; exit 0; fi
+          pip install -r requirements.txt --break-system-packages -q
+          python3 scripts/notify_note.py "data/note/$D.md" \
+            "https://tamakostock.web.app/api/ingest-note" \
+            "$GADGET_INGEST_TOKEN"
