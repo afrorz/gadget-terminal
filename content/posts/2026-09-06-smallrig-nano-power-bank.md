@@ -1,6 +1,6 @@
 ---
 title: SmallRigがカメラリグに直接ネジ止めできるモバイルバッテリー「Nano36」「Nano72」を発売
-seo_title: SmallRig Nano36/72、リグ直付け対応バッテリー
+seo_title: SmallRig Nano36/72は国内1万590円から、リグ直付けバッテリー
 slug: smallrig-nano-power-bank
 keyword: SmallRig Nano
 category: pc
@@ -12,7 +12,14 @@ tags:
 - カメラアクセサリー
 - 動画制作
 - Vマウント
-x_hook: バッテリーの背面にネジ穴とVマウントが付いていて、カメラケージやライトスタンドに直接ねじ込める。ケーブルは本体に67cm分内蔵、100W出力で三口同時給電もできる。
+x_hook: カメラリグに直接ネジ止めできる内蔵ケーブル付きモバイルバッテリー「SmallRig Nano36／Nano72」を、SmallRig Japanが国内で予約受付中。10,000mAhのNano36が1万590円、20,000mAhのNano72が1万4,390円（税込）。
+japan:
+  status: 予約受付中
+  checked: 2026-10-04
+  summary: SmallRig Japan株式会社が2026年9月4日に予約受付を始めた。税込価格はNano36が1万590円、Nano72が1万4,390円。出荷時期と取扱店はプレスリリースに記載が無く確認できていない。USB-C有線のみで無線機能を持たないため技適の対象外。公開時点（9月6日）で既に国内のプレスリリースが出ていたのを見落としていた。
+  source:
+    title: SmallRig、リグ対応バッテリーNano36/72予約受付開始（SmallRig Japan、PR TIMES）
+    url: https://prtimes.jp/main/html/rd/p/000000163.000136208.html
 images:
 - url: "https://static.smallrig.com/mall/img/public/225yafenp8i-1788492432751_.jpg"
   caption: Nano72本体。前面のディスプレイに残量100%とC1(30W入力)・C2(45W出力)・A(18W出力)の状態を表示
@@ -21,11 +28,11 @@ images:
 credit: SmallRig 公式製品ページ
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でNano36・Nano72の国内発売や取扱代理店の告知は確認できていません。SmallRigの日本公式X(旧Twitter)アカウントは発表と同じタイミングで日本語の紹介投稿をしていますが、価格や購入方法には触れておらず、国内投入の時期は未定です。
+  a: SmallRig Japan株式会社が国内で予約受付を始めています（2026年9月4日のプレスリリース）。出荷時期や取扱店はリリースに書かれておらず、確認できていません。
 - q: 技適は取得していますか
   a: Nano36・Nano72はUSB-C有線接続のみのモバイルバッテリーで、Wi-FiやBluetoothなどの無線通信機能を持ちません。無線機能が無い前提であれば、技適の対象にはなりません。
 - q: いくらですか
-  a: 発表時点でNano36は59ドル、Nano72は80ドルです。いずれも米ドル建ての発表時点の価格で、日本円での価格は確認できていません。
+  a: 国内ではSmallRig Japanの価格でNano36が1万590円、Nano72が1万4,390円（いずれも税込、掲載時点）です。米国ではNano36が59ドル、Nano72が80ドルです。
 - q: いつ発売されますか
   a: 掲載時点でSmallRig公式サイトから購入可能な状態になっています。国・地域ごとの正式な発売告知や、日本を含む今後の展開時期は確認できていません。
 sources:
