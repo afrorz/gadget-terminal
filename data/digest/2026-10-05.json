@@ -1,0 +1,718 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T05:23:51.855203+09:00",
+  "stats": {
+    "fetched": 724,
+    "unique": 683,
+    "new": 227,
+    "clusters": 222,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "90515c0a157c4410",
+      "title": "Honor Magic9 series is official, Motorola's wide foldable coming, Week 40 in review",
+      "url": "https://www.gsmarena.com/honor_magic9_series_is_official_motorolas_wide_foldable_coming_week_40_in_review-news-74882.php",
+      "canonical": "https://www.gsmarena.com/honor_magic9_series_is_official_motorolas_wide_foldable_coming_week_40_in_review-news-74882.php",
+      "summary": "Honor unveiled its Magic9 flagship series in China, consisting of the Magic9, Magic9 Super Edition, and the range-topping Magic9 Pro Max. The regular Magic9 pairs a compact 6.37-inch 120Hz OLED with a huge 8,000mAh battery, Snapdragon 8 Elite Gen 5, and dual 200MP main and periscope cameras. The Magic9 Super Edition goes even further on battery capacity with an enormous 11,000mAh cell and adds a 3",
+      "published": "2026-10-04T00:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 official",
+        "+3 foldable",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "63b4663cde0fa2d4",
+      "title": "Casio launches three Mudman GDG-B100 watches with MIP displays and basic fitness tracking",
+      "url": "https://www.gizmochina.com/2026/10/04/casio-mudman-gdg-b100-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/casio-mudman-gdg-b100-watches-launched-specs-price",
+      "summary": "Casio is releasing three new Mudman GDG-B100 watches in Japan this October. The models are priced at ¥38,500 ($244) and are currently available for pre-order on the Casio Japan website. Design Details The lineup consists of the black GDG-B100-1, the olive-accented GDG-B100-1A3, and the tan-accented GDG-B100-1A5. This release integrates basic activity tracking and smartphone connectivity [&#8230;] ",
+      "published": "2026-10-04T11:37:22+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 pre-order",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a9c7f447c6baa12c",
+      "title": "Lenovo Watch Fit 3 official with AMOLED display, zinc alloy frame",
+      "url": "https://www.gizmochina.com/2026/10/04/lenovo-watch-fit-3-launches-in-china-with-amoled-display-zinc-alloy-frame/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/lenovo-watch-fit-3-launches-in-china-with-amoled-display-zinc-alloy-frame",
+      "summary": "Lenovo has launched the Lenovo Watch Fit 3 smartwatch in China, and it is currently on sale at 199 yuan (~$ 30). It is a budget smartwatch meant for basic tracking like fitness and everyday routines. The Lenovo Watch Fit 3 has a 1.96-inch AMOLED panel with a resolution of 410 x 502 pixels. For [&#8230;] The post Lenovo Watch Fit 3 official with AMOLED display, zinc alloy frame appeared first on Gi",
+      "published": "2026-10-04T17:18:45+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/009/697.htm"
+      ]
+    },
+    {
+      "id": "c5ed8a413d178d91",
+      "title": "Honor X5ds launches with a rear touchscreen and 6,000mAh battery in the budget segment",
+      "url": "https://www.gizmochina.com/2026/10/04/honor-x5ds-launche-price-specs/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/honor-x5ds-launche-price-specs",
+      "summary": "While Xiaomi offers a rear-facing display on its premium Xiaomi 18 Pro series, Honor is adopting a different strategy by offering rear displays on more affordable models like the Honor Play 20A, which debuted in August in China. Now, it has unveiled the Honor X5ds with a rear display in South Africa. It is also [&#8230;] The post Honor X5ds launches with a rear touchscreen and 6,000mAh battery in ",
+      "published": "2026-10-04T07:50:47+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Honor-launches-budget-phone-with-a-rear-facing-display-and-6-000mAh-battery.1415479.0.html"
+      ]
+    },
+    {
+      "id": "9cb71f130d062447",
+      "title": "Affordable Lenovo smartwatch launches with AMOLED display and up to 9-day battery life",
+      "url": "https://www.notebookcheck.net/Affordable-Lenovo-smartwatch-launches-with-AMOLED-display-and-up-to-9-day-battery-life.1415613.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-Lenovo-smartwatch-launches-with-AMOLED-display-and-up-to-9-day-battery-life.1415613.0.html",
+      "summary": "The Lenovo Watch Fit 3 has launched in China, and while it doesn't have any fancy specs, it stands as an affordable smartwatch with a somewhat decent set of features for the price. It also sports a 1.96-inch AMOLED display and a 9.9mm thin chassis.",
+      "published": "2026-10-04T15:33:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 specs",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a8a5edceb71c9aa1",
+      "title": "Google's Pixel 10a gets $100 more expensive",
+      "url": "https://www.gsmarena.com/googles_pixel_10a_gets_100_more_expensive-news-74889.php",
+      "canonical": "https://www.gsmarena.com/googles_pixel_10a_gets_100_more_expensive-news-74889.php",
+      "summary": "It's definitely price hike season for smartphones these days. Following Samsung raising its smartphone prices just yesterday, today Google is going the same route for its cheapest Pixel. [#InlinePriceWidget,14474,1#] So, the Pixel 10a, previously priced at $499, is now $599. Google hasn't announced the move officially, but the new price is live in its online store for the US. Judging by how compon",
+      "published": "2026-10-03T21:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ba34b354a1f134a4",
+      "title": "iQOO 16 is headed to India, but at what price?",
+      "url": "https://www.gsmarena.com/iqoo_16_is_headed_to_india_but_at_what_price-news-74888.php",
+      "canonical": "https://www.gsmarena.com/iqoo_16_is_headed_to_india_but_at_what_price-news-74888.php",
+      "summary": "The iQOO 16 became official in China earlier this week. Now if you've been wondering whether it will be available in India, a tipster over on X today tells us that it's a real possibility, as the phone has allegedly started some testing procedures in the country. So it's pretty likely that it will launch in India in the coming weeks. However, the big question is how much it will end up costing. Ov",
+      "published": "2026-10-04T03:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5aa8e67f03c29f80",
+      "title": "RedMagic 12 Pro+ posts the highest Snapdragon 8 Elite Extreme Gen 6 score on Geekbench 7 so far",
+      "url": "https://www.gizmochina.com/2026/10/04/redmagic-12-pro-posts-the-highest-snapdragon-8-elite-extreme-gen-6-score-on-geekbench-7-so-far/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/redmagic-12-pro-posts-the-highest-snapdragon-8-elite-extreme-gen-6-score-on-geekbench-7-so-far",
+      "summary": "The RedMagic 12 Pro+ has appeared on Geekbench 7, with what are likely the highest scores so far for a device powered by the Snapdragon 8 Elite Extreme Gen 6. The listing comes just days before RedMagic confirmed an October 15 launch for the phone. The Geekbench listing identifies the phone as the Nubia NX819J. [&#8230;] The post RedMagic 12 Pro+ posts the highest Snapdragon 8 Elite Extreme Gen 6 ",
+      "published": "2026-10-04T11:25:35+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/RedMagic-12-Pro-shows-off-unfettered-Snapdragon-8-Elite-Extreme-Gen-6-performance-on-Geekbench-7.1415300.0.html"
+      ]
+    },
+    {
+      "id": "dc9399ac71183dcf",
+      "title": "Casio launches two stunning square G-Shocks with lab-grown blue sapphires",
+      "url": "https://www.gizmochina.com/2026/10/04/casio-blue-sapphires-g-shock-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/casio-blue-sapphires-g-shock-watches-launched-specs-price",
+      "summary": "Casio is releasing two new watches to mark the 30th anniversary of its high-end MR-G line. Both models are based on the classic square G-Shock silhouette, but they integrate lab-grown blue sapphires directly into their metal bezels. The two watches, the MRG-B5000SA and the GMW-B5000SB, will be available in the US and Japan starting in [&#8230;] The post Casio launches two stunning square G-Shocks ",
+      "published": "2026-10-04T00:17:49+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1dfbdb2130c2550a",
+      "title": "Vivo S60t launches with 7,200mAh battery, 50MP periscope camera, and OriginOS 7",
+      "url": "https://www.gizmochina.com/2026/10/04/vivo-s60t-launched-price-specs/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/vivo-s60t-launched-price-specs",
+      "summary": "Vivo unveiled the Vivo S60 and S60e (aka V60 Vitality Edition) smartphones earlier, and now the brand has silently taken the covers off another model called the Vivo S60t. The new S-series phone has appeared on Vivo&#8217;s Chinese website with a large 7,200mAh battery, a 144Hz AMOLED display, and a versatile triple-camera setup featuring a [&#8230;] The post Vivo S60t launches with 7,200mAh batte",
+      "published": "2026-10-04T06:27:46+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e18d8472a0572a6d",
+      "title": "Arri camera flagships with eSIM at the lowest possible price: Importing the Honor Magic 9 (Pro Max)",
+      "url": "https://www.notebookcheck.net/Arri-camera-flagships-with-eSIM-at-the-lowest-possible-price-Importing-the-Honor-Magic-9-Pro-Max.1415313.0.html",
+      "canonical": "https://www.notebookcheck.net/Arri-camera-flagships-with-eSIM-at-the-lowest-possible-price-Importing-the-Honor-Magic-9-Pro-Max.1415313.0.html",
+      "summary": "For the first time, a Chinese smartphone with global appeal appears to offer two eSIMs, apparently removing a major limitation of Chinese models. The first regular Arri camera flagships since the Robot Phone are also currently available as early and as cheaply as possible. A global launch will likely mean higher prices and is probably still several weeks away.",
+      "published": "2026-10-04T09:00:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 ships",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cc0c576e8c40ce40",
+      "title": "Lenovo launches new 8kHz magnetic keyboard with customized Legion switches",
+      "url": "https://www.notebookcheck.net/Lenovo-launches-new-8kHz-magnetic-keyboard-with-customized-Legion-switches.1415482.0.html",
+      "canonical": "https://www.notebookcheck.net/Lenovo-launches-new-8kHz-magnetic-keyboard-with-customized-Legion-switches.1415482.0.html",
+      "summary": "The Lenovo Legion R9 is a newly introduced magnetic gaming keyboard in China, and there's an option for equipping it with Legion-branded Huanou customized switches. It's available only in a wired version and has a compact 68-key design. The launch price is CNY 999, about $149.",
+      "published": "2026-10-04T13:51:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "791c827ab611a1a8",
+      "title": "Ace Combat 8: Wings of Theve Steam player count smashes record, as reviews praise missions",
+      "url": "https://www.notebookcheck.net/Ace-Combat-8-Wings-of-Theve-Steam-player-count-smashes-record-as-reviews-praise-missions.1415345.0.html",
+      "canonical": "https://www.notebookcheck.net/Ace-Combat-8-Wings-of-Theve-Steam-player-count-smashes-record-as-reviews-praise-missions.1415345.0.html",
+      "summary": "Ace Combat 8: Wings of Theve easily topped the peak concurrent Steam player count of its predecessors. Over 52,000 pilots logged on at once, more than 3X the high of Ace Combat 7. Criticisms of performance and a pre-order bonus have slightly influenced reviews.",
+      "published": "2026-10-03T23:29:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 review",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7d546fcf95cf9014",
+      "title": "This is when the Honor Magic9 series is landing in Europe",
+      "url": "https://www.gsmarena.com/this_is_when_the_honor_magic9_series_is_landing_in_europe-news-74887.php",
+      "canonical": "https://www.gsmarena.com/this_is_when_the_honor_magic9_series_is_landing_in_europe-news-74887.php",
+      "summary": "Honor launched the Magic9, Magic9 Super, and Magic9 Pro Max in China a few days ago. If the devices interest you, you may want to know when to expect them to arrive in Europe. Today we have the answer for the UK and France, officially revealed by Honor's website. Obviously, the rest of Europe is likely to get them at the same time. Over in the UK and France, Honor says the Magic9 series is landing",
+      "published": "2026-10-04T06:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6421f966f96dd274",
+      "title": "Redmi Mini-LED TV 2027 Competition Edition launches with 360Hz mode and 1,300 nits brightness",
+      "url": "https://www.gizmochina.com/2026/10/04/redmi-mini-led-tv-2027-competition-edition-launches-with-360hz-mode-and-1300-nits-brightness/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/redmi-mini-led-tv-2027-competition-edition-launches-with-360hz-mode-and-1300-nits-brightness",
+      "summary": "Xiaomi has opened pre-sales for the Redmi TV X RGB-Mini LED 2027 Competition Edition in China. The new model follows the Redmi TV X 2026, which brought standard Mini LED panels to the series. It will officially go on sale on October 12, starting at 2,705 yuan (about $400). The new TV uses an RGB-Mini [&#8230;] The post Redmi Mini-LED TV 2027 Competition Edition launches with 360Hz mode and 1,300 n",
+      "published": "2026-10-04T08:25:51+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "851d40b2fa86e36a",
+      "title": "A super affordable gaming handheld alternative from Xiaomi? Redmi Pad 2 9.7 gaming review",
+      "url": "https://www.notebookcheck.net/A-super-affordable-gaming-handheld-alternative-from-Xiaomi-Redmi-Pad-2-9-7-gaming-review.1409699.0.html",
+      "canonical": "https://www.notebookcheck.net/A-super-affordable-gaming-handheld-alternative-from-Xiaomi-Redmi-Pad-2-9-7-gaming-review.1409699.0.html",
+      "summary": "A 2K display with a 120 Hz refresh rate and a compact form factor for under $160 sounds like the ultimate handheld dream. We tested the relatively compact Redmi Pad 2 9.7 with the latest Android games. Can this budget tablet handle gaming reasonably well? We’ll find out whether the Xiaomi tablet is also suitable for casual gamers.",
+      "published": "2026-10-04T13:37:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 review",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fc0956ced68706c9",
+      "title": "Vivo X500 Pro vs iPhone 18 Pro: Two Very Different Compact Flagships",
+      "url": "https://www.gizmochina.com/2026/10/04/vivo-x500-pro-vs-iphone-18-pro-two-very-different-compact-flagships/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/vivo-x500-pro-vs-iphone-18-pro-two-very-different-compact-flagships",
+      "summary": "The Vivo X500 Pro has a 6,510mAh battery, while the iPhone 18 Pro has a market-dependent 4,056mAh or 4,288mAh battery. Both phones have displays that are close in size, use 2nm chips, and launched just a couple of weeks apart, but they take very different routes when it comes to hardware. The Vivo X500 Pro [&#8230;] The post Vivo X500 Pro vs iPhone 18 Pro: Two Very Different Compact Flagships appe",
+      "published": "2026-10-04T16:27:21+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "af5d2a2b268f3de7",
+      "title": "Google Japan shows off wild conveyor-belt keyboard with keys that move to your fingers",
+      "url": "https://www.tomshardware.com/peripherals/keyboards/google-japan-shows-off-wild-conveyor-belt-keyboard-with-keys-that-move-to-your-fingers-3d-printable-gboard-features-four-belts-with-29-keys-each-built-to-make-one-hand-typing-easier",
+      "canonical": "https://www.tomshardware.com/peripherals/keyboards/google-japan-shows-off-wild-conveyor-belt-keyboard-with-keys-that-move-to-your-fingers-3d-printable-gboard-features-four-belts-with-29-keys-each-built-to-make-one-hand-typing-easier",
+      "summary": "This keyboard is designed so that you don't have to move your hands or arms to press its keys. It's not going to be put on sale, but you can build one yourself.",
+      "published": "2026-10-04T11:40:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 keyboard",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "241e8ee64c547e82",
+      "title": "Street Fighter 6 turns Juri, Cammy, Akuma and Ken into Japan-exclusive AGV motorcycle helmets",
+      "url": "https://www.notebookcheck.net/Street-Fighter-6-turns-Juri-Cammy-Akuma-and-Ken-into-Japan-exclusive-AGV-motorcycle-helmets.1415484.0.html",
+      "canonical": "https://www.notebookcheck.net/Street-Fighter-6-turns-Juri-Cammy-Akuma-and-Ken-into-Japan-exclusive-AGV-motorcycle-helmets.1415484.0.html",
+      "summary": "AGV has launched four Street Fighter 6-themed K1 S motorcycle helmets in Japan, with designs based on Juri, Cammy, Akuma and Ken. The limited-production models cost ¥47,300 each and are offered in four sizes, with deliveries scheduled to begin in December.",
+      "published": "2026-10-04T18:05:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bab22ad756d534d1",
+      "title": "Affordable 9.7-inch Honor tablet launches with 8,000mAh battery and microSD slot",
+      "url": "https://www.notebookcheck.net/Affordable-9-7-inch-Honor-tablet-launches-with-8-000mAh-battery-and-microSD-slot.1415437.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-9-7-inch-Honor-tablet-launches-with-8-000mAh-battery-and-microSD-slot.1415437.0.html",
+      "summary": "The Honor Pad X7b has been quietly launched, and at the core, it's an affordable tablet with a 90Hz 9.7-inch display, 8,000mAh battery, and 2TB microSD card support. It has been listed on the global website, but it's currently available only in Saudi Arabia, with a starting price of around $133.",
+      "published": "2026-10-04T06:38:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fdcaa4ea3856a368",
+      "title": "语音开黑平台 Discord 将引入“游戏模式”，开启后可降低应用 CPU / GPU 占用",
+      "url": "https://www.ithome.com/1/009/685.htm",
+      "canonical": "https://www.ithome.com/1/009/685.htm",
+      "summary": "IT之家 10 月 4 日消息，Discord 官方账号在 X 平台透露，目前开发人员正在为 Discord 应用开发全新的“游戏模式（Game Mode）”。该功能可在检测到玩家启动游戏后，自动降低 Discord 应用的 CPU、GPU 使用量，减少后台运行对游戏性能造成的影响。 另综合 Discord 资讯账号“Discord Previews”曝光的测试版应用页面，用户可以在设置中找到“Enable Game Mode（游戏模式）”，相应功能说明为“在游戏运行期间降低 Discord 的 CPU 与 GPU 使用量”。 在开启相应功能后，Discord 应用会自动检测用户是否正在运行游戏，并降低应用内部分视觉效果（包括减少界面动画、停用部分特效等），从而降低 Discord 对硬件资源的占用，为正在运行的游戏释放更多 CPU 和 GPU 资源。 IT之家注意到，目前 Discord",
+      "published": "2026-10-04T09:33:17+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4464d532b18702a6",
+      "title": "HMD Slate Tab 5G 平板曝光：设计灵感来自微软 Surface / 诺基亚 Lumia 2520、有望随 Skyline 2 手机一同发布",
+      "url": "https://www.ithome.com/1/009/693.htm",
+      "canonical": "https://www.ithome.com/1/009/693.htm",
+      "summary": "IT之家 10 月 4 日消息，消息源 smashx_60 现已曝光了 HMD Slate Tab 5G 二合一平板电脑，该机搭载安卓系统，据称已开发了两年，有望随同 Skyline 2 手机一同发布。 参考消息源曝光的产品外观渲染图，可以看到该机可选蓝 / 橙双色，正面配备了一块疑似 15.6 英寸 2K 分辨率 LCD 面板；平板背面采用单摄设计，印有 HMD 标识，底部带有扩展触点，整体设计灵感来自于微软 Surface 及诺基亚 Lumia 2520。 而在 Skyline 2 方面，此前消息称该机正面配备一块 6.55 英寸 FHD+ 144Hz OLED 面板（峰值亮度 1200 尼特），匹配 50MP 自拍摄像头；背面采用 108MP 主摄 + 50MP 长焦 + 50MP 超广角设计。搭载高通骁龙 7s Gen 4 处理器，匹配 8/12GB RAM 及 256GB 存储空",
+      "published": "2026-10-04T10:12:03+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/HMD-Slate-Tab-5G-tablet-leaks-as-Nokia-Lumia-2520-and-Surface-mashup.1415487.0.html"
+      ]
+    },
+    {
+      "id": "e683ea8b061de491",
+      "title": "US Navy uses Xbox-style controllers to fire anti-drone lasers deployed on ships",
+      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/us-navy-uses-xbox-style-controllers-to-fire-anti-drone-lasers-deployed-on-ships-usd13-per-shot-laser-weapon-deployed-in-the-strait-of-hormuz-uses-a-familiar-interface-instead-of-a-custom-control-system",
+      "canonical": "https://www.tomshardware.com/peripherals/controllers-gamepads/us-navy-uses-xbox-style-controllers-to-fire-anti-drone-lasers-deployed-on-ships-usd13-per-shot-laser-weapon-deployed-in-the-strait-of-hormuz-uses-a-familiar-interface-instead-of-a-custom-control-system",
+      "summary": "This would make it easier for sailors to get used to controlling the weapon system, as they're probably already comfortable holding a controller.",
+      "published": "2026-10-04T11:15:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 ships",
+        "+3 drone",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3d5912a08f70fdc4",
+      "title": "XVX MU68 Walnut Mechanical Keyboard Review: Solid, Beautiful, And Versatile",
+      "url": "https://wccftech.com/review/xvx-mu68-walnut-mechanical-keyboard-review/",
+      "canonical": "https://wccftech.com/review/xvx-mu68-walnut-mechanical-keyboard-review",
+      "summary": "Most mechanical keyboards tend to follow the same design pattern. Aluminum frames, plastic cases, RGB lighting, and compact layouts are what you see most often, so finding a keyboard with a genuinely different visual character has become quite difficult. The XVX MU68 takes a totally different route with its solid walnut enclosure. Rather than looking like a conventional gaming peripheral, it bring",
+      "published": "2026-10-04T19:29:43+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 keyboard",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "590a6b4a08d1b809",
+      "title": "Asus launches Vivobook 16 Ryzen Edition 2026 with Ryzen 7 H 260, 144Hz display & 16GB LPDDR5 RAM",
+      "url": "https://www.gizmochina.com/2026/10/03/asus-vivobook-16-ryzen-edition-2026-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/03/asus-vivobook-16-ryzen-edition-2026-launched-specs-price",
+      "summary": "Asus has launched the 2026 Vivobook 16 Ryzen Edition, which is currently listed on the Chinese retail site JD.com for 5,999 yuan ($894). The new 16-inch laptop is built around AMD’s Ryzen 7 H 260 processor and focuses on standard hardware configurations for general use and office workloads. Asus Vivobook 16 2026 Specifications Also ReadAsus [&#8230;] The post Asus launches Vivobook 16 Ryzen Editio",
+      "published": "2026-10-03T20:46:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "113586ffd4827920",
+      "title": "Timex releases two new Deepwater Arctic 200 watches in the US with ceramic bezels & sapphire glass",
+      "url": "https://www.gizmochina.com/2026/10/04/timex-deepwater-arctic-200-dive-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/timex-deepwater-arctic-200-dive-watches-launched-specs-price",
+      "summary": "Timex has introduced two new Deepwater Arctic 200 dive watches in the US, priced at $259 and $269. Both models use battery-powered quartz movements and come equipped with sapphire crystals and ceramic bezel inserts, giving buyers some premium materials without pushing the price beyond $300. Timex Deepwater Arctic 200 Specifications The watches share the same [&#8230;] The post Timex releases two n",
+      "published": "2026-10-04T00:47:39+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "984a760a7dbbb2ff",
+      "title": "Jagex Announces RuneScape 4, a New MMO Built in Unreal Engine",
+      "url": "https://www.techpowerup.com/353372/jagex-announces-runescape-4-a-new-mmo-built-in-unreal-engine",
+      "canonical": "https://www.techpowerup.com/353372/jagex-announces-runescape-4-a-new-mmo-built-in-unreal-engine",
+      "summary": "Jagex has announced a fourth RuneScape MMO at RuneFest 2026. It currently goes by the working title RS4, though most people are already calling it RuneScape 4. The game is being built in Unreal Engine, and Jagex hasn't said which version. It's the first numbered follow-up since RuneScape 3 arrived in 2013. A CGI teaser shown at the event has a town in a green valley, floating islands, and a dragon",
+      "published": "2026-10-04T00:51:40+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "432a1a02f5011aeb",
+      "title": "Vivo X Fold 6 India launch date out; tagging along is MR headset",
+      "url": "https://www.gizmochina.com/2026/10/04/vivo-x-fold-6-india-launch-date-out-tagging-along-is-mr-headset/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/vivo-x-fold-6-india-launch-date-out-tagging-along-is-mr-headset",
+      "summary": "After its global debut earlier this week, Vivo has now confirmed it will launch the X Fold 6 in India on October 6. The company shared a short video on X confirming the date, and it’s not the only device to launch. Tagging along are the Vivo S2 FE and Vivo V80. The company first [&#8230;] The post Vivo X Fold 6 India launch date out; tagging along is MR headset appeared first on Gizmochina .",
+      "published": "2026-10-04T04:15:21+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "be3687de1c0fc9b8",
+      "title": "Iranian national extradited to US over alleged $3.4 billion state-backed hacking campaign in rare legal win for law enforcement",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/iranian-national-extradited-to-us-over-alleged-usd3-4-billion-state-backed-hacking-campaign-in-rare-legal-win-for-law-enforcement-operative-helped-steal-31-terabytes-of-data-from-over-300-universities",
+      "canonical": "https://www.tomshardware.com/tech-industry/cyber-security/iranian-national-extradited-to-us-over-alleged-usd3-4-billion-state-backed-hacking-campaign-in-rare-legal-win-for-law-enforcement-operative-helped-steal-31-terabytes-of-data-from-over-300-universities",
+      "summary": "An Iranian-Turkish man has been extradited from Montenegro to the U.S. over his alleged role in a hacking campaign that targeted hundreds of universities, companies, and government agencies and stole more than 31 TB of academic data.",
+      "published": "2026-10-04T12:55:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 backed",
+        "+2 campaign",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "810b7ee3adcc8fea",
+      "title": "Honor Magic 9 series is coming to Europe in January 2027",
+      "url": "https://www.gizmochina.com/2026/10/04/honor-magic-9-series-europe-launch-january-2027/",
+      "canonical": "https://www.gizmochina.com/2026/10/04/honor-magic-9-series-europe-launch-january-2027",
+      "summary": "Honor’s Magic 9 series is heading towards its international rollout following its recent debut in China. The company has now provided an early indication of when European buyers can expect the new flagship lineup. The timing could make the series particularly interesting for the European smartphone market. Honor Magic 9 series European launch details Honor’s [&#8230;] The post Honor Magic 9 series",
+      "published": "2026-10-04T13:59:32+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "85FPS対応E Inkスマートフォン「HiBreak Dual 3」予約販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000179671.html",
+      "summary": "",
+      "published": "2026-10-04T10:22:42+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "809773babfc61375"
+    },
+    {
+      "title": "【10月4日20時販売開始】預けた荷物の場所をスマホで確認！キッズ用キャリーケース×Find Myタグの特別セット",
+      "url": "https://prtimes.jp/main/html/rd/p/000000774.000047737.html",
+      "summary": "",
+      "published": "2026-10-04T06:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "4310dca31e5ff851"
+    }
+  ]
+}
