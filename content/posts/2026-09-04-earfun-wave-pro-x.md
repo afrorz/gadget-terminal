@@ -1,6 +1,6 @@
 ---
 title: EarFun「Wave Pro X」発売、デュアル同軸ドライバーとQualcomm新チップで最大90時間再生
-seo_title: EarFun Wave Pro Xが発売、129.99ドル
+seo_title: EarFun Wave Pro Xが国内で10月13日発売、16,990円
 slug: earfun-wave-pro-x
 keyword: Wave Pro X
 category: smartphone
@@ -12,7 +12,7 @@ tags:
 - ワイヤレスヘッドホン
 - Qualcomm
 - ノイズキャンセリング
-x_hook: ドライバーを2つ同じ軸に並べる設計で、音のズレを無くしにいったヘッドホン。バッテリーは最大90時間。
+x_hook: 40mmと10mmのドライバーを同軸に重ねた最大90時間再生のヘッドホン「EarFun Wave Pro X」が、国内では10月13日に16,990円で発売される。9月29日から10月12日までは25%オフの12,743円で先行予約を受け付けている。
 embeds: []
 images:
 - url: "https://api.myearfun.com/image/product/808n42741rpoazs5gdu.png"
@@ -24,11 +24,11 @@ images:
 credit: EarFun公式サイト(myearfun.com)
 faq:
 - q: 日本で買えますか
-  a: 掲載時点ではEarFun公式サイトとAmazonでの発売(2026年9月3日)のみ案内されており、国内正規販売の告知は確認できていません。
+  a: 買えます。EarFunの日本向け公式ページが、2026年10月13日の国内発売と、9月29日から10月12日までの25%オフ先行予約(12,743円)を案内しています。公式サイトとAmazon公式ショップでの販売です(2026-10-05確認)。
 - q: いくらですか
-  a: 129.99ドルです(掲載時点、米国での価格)。
+  a: 国内の通常価格は16,990円で、先行予約は12,743円です(2026-10-05確認)。米国では129.99ドルで発売されています。
 - q: 技適は取得していますか
-  a: 掲載時点でWave Pro X単体の技適取得状況は確認できていません。同社の前モデル「EarFun Wave Pro」は国内の正規代理店経由で販売された実績があります。
+  a: 2026-10-05時点で、総務省のデータベースからWave Pro Xの技適は特定できていません。同社の前モデル「EarFun Wave Pro」は国内の正規代理店経由で販売された実績があります。
 - q: 何が新しいのですか
   a: 40mm DLC動的ドライバーと10mm LCPドライバーを同じ軸上に並べる「DCAA(デュアル同軸音響構造)」と、周囲の騒音レベルに応じてノイズキャンセリングの強さをリアルタイムに調整する「Adaptive Hybrid ANC」です。QualcommのSnapdragon S3 Gen 1 Sound Platform(QCC3095)を採用し、Bluetooth 6.0やAuracastにも対応します。
 alternatives:
@@ -37,6 +37,13 @@ alternatives:
   url: https://www.amazon.co.jp/dp/B0CSDKW6DN
   merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/earfun/cabinet/11055449/imgrc0095763400.jpg?_ex=400x400"
+japan:
+  status: 発売予定
+  checked: 2026-10-05
+  summary: EarFunが日本向け公式ページで、2026年10月13日の国内発売を案内している。通常価格は16,990円で、9月29日から10月12日までは25%オフの12,743円で先行予約を受け付けている。販売先は公式サイトとAmazon公式ショップ。技適は、総務省のデータベースでWave Pro Xの型番を特定できておらず、確認できていない。発売後に型番の表示や登録を確かめてから買いたい。
+  source:
+    title: EarFun Wave Pro X 先行予約キャンペーン(EarFun日本公式)
+    url: https://www.myearfun.com/jp/promo/earfun-wave-pro-x-early-bird-special
 sources:
 - title: EarFun Unveils Wave Pro X Dual-Coaxial Headphones With Qualcomm ANC Technology and Auracast
   url: https://www.techpowerup.com/352318/earfun-unveils-wave-pro-x-dual-coaxial-headphones-with-qualcomm-anc-technology-and-auracast
