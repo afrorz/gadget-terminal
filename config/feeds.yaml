@@ -332,26 +332,30 @@ crowdfunding:
         robots.txt を確認済み（2026-08-16）。/api/ は禁止、/project/ と /sitemap/ は許可。
         プロジェクトページはサーバー生成なので OGP から題名・説明・画像URLが取れる。
 
-    - id: kickstarter_tech
-      name: Kickstarter（Technology）
-      type: atom
-      url: https://www.kickstarter.com/discover/advanced.atom?category_id=16&sort=newest
-      browser_ua: true
-      limit: 30
+    - id: kickstarter_json
+      name: Kickstarter
+      type: kickstarter_json
+      # 人気順。Technology(16)配下のハードウェア系カテゴリだけ残す(crowdfunding.py の KS_HARDWARE)
+      url: https://www.kickstarter.com/discover/advanced.json?category_id=16&sort=popularity
+      pages: 2
+      min_percent_funded: 30
+      min_backers: 50
       category: weird
       tier: 1
       note: |
-        既定のUAだと 406 を返す。ブラウザ相当のUAで取りに行く。
-        それでも弾かれる場合はこのソースだけスキップされ、他は動き続ける。
+        2026-10-05 に atom 方式から切り替え。Atom フィード(advanced.atom /
+        categories/technology/gadgets.atom)はブラウザ相当の UA でも 406 を返し、
+        少なくとも 2026-09-01 以降 Kickstarter の案件が1件も取れていなかった。
 
-    - id: kickstarter_gadgets
-      name: Kickstarter（Gadgets）
-      type: atom
-      url: https://www.kickstarter.com/discover/categories/technology/gadgets.atom?sort=newest
-      browser_ua: true
-      limit: 30
+    - id: indiegogo_tech
+      name: Indiegogo
+      type: indiegogo_explore
+      url: https://www.indiegogo.com/explore/tech-innovation?project_timing=all&sort=trending
+      max_pages: 15
       category: weird
       tier: 1
+      note: |
+        2026-10-05 追加。公開フィードが無いので、一覧ページのリンクから各プロジェクトの OGP を読む。
 
     - id: campfire
       name: CAMPFIRE

@@ -22,6 +22,7 @@ collect.py から呼ばれる。単体でも動く:
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sys
 import time
@@ -207,6 +208,138 @@ def collect_atom(src: dict, cfg: dict) -> list[dict]:
     return items
 
 
+def _curl(url: str, timeout: int = 25) -> str | None:
+    """curl で取る。Kickstarter と Indiegogo は Python(urllib)からの接続を 403 で
+    弾くことがあり(付けるヘッダーや TLS の癖で判定しているらしい)、同じ UA の curl
+    なら 200 が返る(2026-10-05 実測)。GitHub Actions の Ubuntu にも curl はある。"""
+    import subprocess
+    try:
+        # Windows 標準の curl.exe(schannel)は Kickstarter に 403 で弾かれる。手元で試すときは
+        # Git for Windows の curl を CF_CURL に渡す。Actions(Ubuntu)の curl はそのままでよい。
+        r = subprocess.run([os.environ.get("CF_CURL", "curl"), "-4", "-sL", "--fail", "--max-time", str(timeout),
+                            "-A", BROWSER_UA, url], capture_output=True, timeout=timeout + 5)
+    except Exception as e:
+        print(f"    ! {type(e).__name__} {url}", file=sys.stderr)
+        return None
+    if r.returncode != 0:
+        print(f"    ! curl exit {r.returncode} {url}", file=sys.stderr)
+        return None
+    return r.stdout.decode("utf-8", "replace")
+
+
+# ────────────────────────── Kickstarter（JSON）──────────────────────────
+# Atom フィードは 2026-09 時点で 406 を返し続け、9月以降 Kickstarter の案件が
+# ダイジェストに1件も載っていなかった(載っていた【クラファン】は全部 Makuake)。
+# 検索画面が裏で使っている advanced.json はブラウザ相当の UA で 200 を返す。
+# robots.txt で /discover は禁止されていない(2026-10-05 確認)。
+# 一般向けのガジェット媒体として扱わないもの
+ADULT = re.compile(r"sex|adult|erotic|vibrator", re.I)
+
+KS_HARDWARE = {"Gadgets", "Hardware", "Wearables", "Camera Equipment", "DIY Electronics",
+               "3D Printing", "Robots", "Sound", "Fabrication Tools", "Flight",
+               "Technology", "Space Exploration"}
+
+
+def collect_kickstarter_json(src: dict, cfg: dict) -> list[dict]:
+    """検索結果の JSON から、資金が集まり始めているハードウェア案件を拾う。
+
+    新着順だと支援0件のソフトウェア・アプリ・教材が大半なので、人気順で取り、
+    カテゴリと集まり具合で絞る。数値は取得時点のもの。記事を書くときは必ず
+    プロジェクトページで取り直す(手順は daily-article.yml の手順6)。
+    """
+    import json as _json
+    items = []
+    min_pct = float(src.get("min_percent_funded", 30))
+    min_backers = int(src.get("min_backers", 50))
+    for page in range(1, int(src.get("pages", 2)) + 1):
+        time.sleep(float(cfg.get("request_interval", 1.2)))
+        body = _curl(f"{src['url']}&page={page}")
+        if not body:
+            print(f"  ! {src['id']}: 取得できず（この回はスキップ）", file=sys.stderr)
+            break
+        try:
+            projects = _json.loads(body).get("projects") or []
+        except ValueError:
+            print(f"  ! {src['id']}: JSON を読めず（この回はスキップ）", file=sys.stderr)
+            break
+        for pj in projects:
+            cat = (pj.get("category") or {}).get("name", "")
+            if pj.get("state") != "live" or cat not in KS_HARDWARE:
+                continue
+            if ADULT.search(f"{pj.get('name', '')} {pj.get('blurb', '')}"):
+                continue
+            pct = float(pj.get("percent_funded") or 0)
+            backers = int(pj.get("backers_count") or 0)
+            if pct < min_pct and backers < min_backers:
+                continue
+            url = ((pj.get("urls") or {}).get("web") or {}).get("project", "").split("?")[0]
+            if not url:
+                continue
+            deadline = datetime.fromtimestamp(int(pj.get("deadline") or 0), timezone.utc)
+            stats = (f"{cat} / {pj.get('country', '')} / 目標 {pj.get('goal'):,.0f} {pj.get('currency', '')}"
+                     f" に対して {pct:.0f}%・支援者 {backers}人 / 締切 {deadline:%Y-%m-%d}（取得時点）")
+            items.append({
+                "title": str(pj.get("name") or "")[:300],
+                "url": url,
+                "summary": f"{pj.get('blurb') or ''} — {stats}"[:400],
+                "image": ((pj.get("photo") or {}).get("full") or ""),
+                "published": datetime.fromtimestamp(int(pj.get("launched_at") or 0), timezone.utc).isoformat(),
+                "source_id": src["id"],
+                "source": src["name"],
+                "category": src.get("category", "weird"),
+                "tier": src.get("tier", 1),
+                "kind": "crowdfunding",
+            })
+    print(f"  + {src['id']}: {len(items)}件")
+    return items
+
+
+# ────────────────────────── Indiegogo（一覧ページ）──────────────────────────
+def collect_indiegogo_explore(src: dict, cfg: dict, seen: set[str], id_of=None) -> list[dict]:
+    """カテゴリの一覧ページからプロジェクトURLを拾い、各ページの OGP を読む。
+
+    Indiegogo には公開のフィードが無い。一覧ページはサーバー側でリンクを
+    出しているので、そこから /projects/<slug> を集める(robots.txt は Allow: /)。
+    """
+    interval = float(cfg.get("request_interval", 1.2))
+    page = _curl(src["url"])
+    if not page:
+        print(f"  ! {src['id']}: 取得できず（この回はスキップ）", file=sys.stderr)
+        return []
+    slugs = []
+    for s in re.findall(r"/projects/([a-z0-9][a-z0-9-]*)", page):
+        if s not in ("search",) and s not in slugs:
+            slugs.append(s)
+    urls = [f"https://www.indiegogo.com/projects/{s}" for s in slugs]
+    known = (lambda u: id_of(u) in seen) if id_of else (lambda u: u in seen)
+    todo = [u for u in urls if not known(u)][: int(src.get("max_pages", 15))]
+    print(f"  + {src['id']}: 一覧 {len(urls)}件 → 新規 {len(todo)}件を確認")
+    items = []
+    for url in todo:
+        time.sleep(interval)
+        html_text = _curl(url)
+        if not html_text:
+            continue
+        og = _ogp(html_text)
+        title = _unescape(og.get("title", ""))
+        if not title or ADULT.search(f"{title} {og.get('description', '')}"):
+            continue
+        items.append({
+            "title": title[:300],
+            "url": url,
+            "summary": _unescape(og.get("description", ""))[:400],
+            "image": og.get("image", ""),
+            "published": datetime.now(timezone.utc).isoformat(),
+            "source_id": src["id"],
+            "source": src["name"],
+            "category": src.get("category", "weird"),
+            "tier": src.get("tier", 1),
+            "kind": "crowdfunding",
+        })
+    print(f"    → {len(items)}件を採用")
+    return items
+
+
 # ────────────────────────── 入口 ──────────────────────────
 def collect_all(seen: set[str] | None = None, id_of=None) -> list[dict]:
     cfg_all = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
@@ -224,6 +357,10 @@ def collect_all(seen: set[str] | None = None, id_of=None) -> list[dict]:
                 out.extend(collect_sitemap(src, cf, seen, id_of))
             elif src.get("type") == "atom":
                 out.extend(collect_atom(src, cf))
+            elif src.get("type") == "kickstarter_json":
+                out.extend(collect_kickstarter_json(src, cf))
+            elif src.get("type") == "indiegogo_explore":
+                out.extend(collect_indiegogo_explore(src, cf, seen, id_of))
         except Exception as e:  # 1ソースの失敗で全体を止めない
             print(f"  ! {src.get('id')}: {type(e).__name__}: {e}", file=sys.stderr)
     return out
