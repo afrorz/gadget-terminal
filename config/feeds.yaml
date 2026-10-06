@@ -491,6 +491,22 @@ scoring:
     "stock": -5
     "shares": -4
     "ceo": -3
+    # 日本と無関係な市場向けの地域発売（日本の読者には「だから何？」で終わる。PLAYBOOK 2.7）
+    "in india": -8
+    "india launch": -8
+    "launches in india": -8
+    "price in india": -8
+    "indian market": -6
+    "in indonesia": -6
+    "in pakistan": -6
+    "in bangladesh": -6
+    "in malaysia": -6
+    "in the philippines": -6
+    "in nigeria": -6
+    "in kenya": -6
+    "in south africa": -6
+    "in egypt": -6
+    "in brazil": -6
   tier_bonus:
     1: 3
     2: 1
