@@ -1,6 +1,20 @@
 ---
 title: ONEXPLAYER「APEX Air」はIntel Arc G3 Extreme搭載、32GB RAM・85Wh着脱式バッテリーで1,839ドル
-seo_title: APEX Airが1839ドル、Intel Arc G3搭載
+seo_title: OneXFly APEX Airが国内発売、298,000円
+japan:
+  status: 発売済み
+  checked: 2026-10-07
+  summary: 株式会社天空が「OneXFly APEX Air」として9月11日に国内発売した。価格は税込298,000円(32GB/1TB)で、One-Netbook公式サイトのほかAmazonでの販売予定が発表されている。公式サイトには国内1年サポートと日本語マニュアル付属、技適認証番号の本体刻印対応との記載がある。総務省の技適データベースでは10月7日時点でメーカー名からは該当を特定できておらず、番号は確認できていない。記事公開(8月30日)の時点では国内展開は未発表だった。
+  x_hook: Intel Arc G3 Extreme搭載の8インチ携帯ゲーミングPC「OneXFly APEX Air」が、国内で9月11日に発売された。32GB/1TBで税込298,000円、国内1年サポート付き。
+  buy:
+  - name: One-Netbook公式サイト(国内正規版)
+    url: https://www.one-netbook.jp/onexfly-apex-air/
+    price: 298,000円(税込、掲載時点)
+    giteki: 国内正規
+    note: 掲載時点で公式サイトは一時「お取扱い出来ません」の表示。在庫は要確認。
+  source:
+    title: 天空、Intel Arc G3 Extreme搭載の携帯型ゲーミングPC「OneXFly APEX Air」を9月11日に発売
+    url: https://www.gdm.or.jp/pressrelease/2026/0904/650895
 slug: onexplayer-apex-air
 keyword: APEX Air
 category: pc
@@ -24,11 +38,11 @@ images:
 credit: ONEXPLAYER公式ストア(onexplayerstore.com)製品ページ
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でONEXPLAYER公式ストアからの海外発送が前提で、国内正規代理店の取り扱いは確認できていません。
+  a: 買えます。株式会社天空が「OneXFly APEX Air」として2026年9月11日に国内発売しました。価格は税込298,000円です(2026年10月7日確認)。
 - q: 技適は取得していますか
   a: Wi-FiやBluetoothを搭載するモデルですが、掲載時点で日本向けの技適取得は確認できていません。
 - q: いくらですか
-  a: 公式ストアでの掲載価格は1,839ドルです(掲載時点)。
+  a: 海外公式ストアの掲載価格は1,839ドルでした(公開時点)。国内版は税込298,000円です(2026年10月7日確認)。
 - q: MSI Claw 8 EX AI+とどちらが良いですか
   a: 同じIntel Arc G3 Extremeを搭載する競合機で、価格は1,799ドルとやや安く、重量も785gと軽量です。一方APEX AirはMini SSDスロットとmicroSDスロットを備え、最大2TBまでストレージを拡張できる点が異なります。
 alternatives:
