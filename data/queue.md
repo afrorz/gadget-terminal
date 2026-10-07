@@ -58,6 +58,8 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
+- [2026-10-08] https://prtimes.jp/main/html/rd/p/000006148.000011495.html 運営者の指定。国内メーカー（サンワサプライ）の製品だが見送らずに書く。Amazon・楽天で売っていれば購入リンクを付ける
+
 ## 処理済み
 
 - 2026-09-11 https://www.makuake.com/project/cio-madeinjapan/ → content/posts/2026-09-11-cio-novaport-duo3-madeinjapan.md
