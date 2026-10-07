@@ -615,6 +615,17 @@ def jp(text) -> str:
     return "<wbr>".join(f'<span class="nb">{html.escape(x)}</span>' for x in parts)
 
 
+def title_text(text) -> str:
+    """記事タイトル。jp() の「句読点でしか折り返さない」細工はかけない。
+
+    記事タイトルは「、」で区切った塊が長く、塊の途中で折り返せないせいで
+    1行に余白を残したまま「、」ごとに改行され、段々に見えていた
+    (2026-10-07 本人の指摘「途中で改行しなくてもいい」)。素のテキストにして、
+    文節単位の折り返しは CSS の word-break:auto-phrase に任せる。
+    """
+    return html.escape(str(text))
+
+
 def jp_em(text) -> str:
     """jp() に **強調** だけ効かせる版。
 
@@ -673,7 +684,7 @@ def card(site: dict, p: dict, featured: bool = False) -> str:
     <time datetime="{p['date']}">{p['date'].replace('-', '.')}</time>
     <span class="card-read">{p['reading_min']}MIN</span>
   </p>
-  <h2 class="card-title">{'<span class="pick-badge">PICK</span>' if p.get('pick') else ''}<a href="{u(p['path'])}">{jp(p['title'])}</a></h2>
+  <h2 class="card-title">{'<span class="pick-badge">PICK</span>' if p.get('pick') else ''}<a href="{u(p['path'])}">{title_text(p['title'])}</a></h2>
   <p class="card-excerpt">{html.escape(blurb)}</p>
 </article>"""
 
@@ -1517,7 +1528,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
 <main class="wrap article-wrap">
   <article class="article cat-{p.get("category", "misc")}">
     <p class="eyebrow"><a href="{u("category/" + cat['slug'] + ".html")}"><span class="eyebrow-code">{cat.get('code','---')}</span>{html.escape(cat['label'])}</a></p>
-    <h1 class="article-title">{jp(p['title'])}</h1>
+    <h1 class="article-title">{title_text(p['title'])}</h1>
     {f'<p class="article-lede">{html.escape(str(p["kicker"]))}</p>' if p.get('kicker') else ''}
     {f'<aside class="pick-callout"><p class="pick-callout-head">編集部ピックアップ</p><p class="pick-callout-note">{html.escape(p["pick_note"])}</p></aside>' if p.get('pick') and p.get('pick_note') else (f'<p class="pick-callout pick-callout-bare">編集部ピックアップ<span>運営者が選んだガジェットです</span></p>' if p.get('pick') else '')}
     {disclosure}
