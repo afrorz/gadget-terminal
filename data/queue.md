@@ -58,7 +58,6 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
-- [2026-10-08] https://prtimes.jp/main/html/rd/p/000006148.000011495.html 運営者の指定。国内メーカー（サンワサプライ）の製品だが見送らずに書く。Amazon・楽天で売っていれば購入リンクを付ける
 
 ## 処理済み
 
@@ -75,3 +74,5 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 ## 保留
 
 - https://www.kickstarter.com/projects/nimbopearl/nimbo-x1-worlds-lightest-sic-color-display-ar-glasses — KickstarterのページがCloudflareのボット対策で終始403を返し、curl（ブラウザUA）・WebFetch・r.jina.ai経由のいずれでも本文を取得できず。数値（調達額・支援者数など）の裏取りができないため見送り。次回実行時に取得できれば再挑戦する。
+
+- https://prtimes.jp/main/html/rd/p/000006148.000011495.html — サンワサプライ公式ページ(direct.sanwa.co.jp)が503で取得できず、公式の製品画像を用意できないため見送り（2026-10-08）。再試行可
