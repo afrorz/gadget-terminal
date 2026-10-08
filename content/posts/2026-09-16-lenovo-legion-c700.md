@@ -23,6 +23,12 @@ buy:
     ships_jp: true
     giteki: 未取得
     note: Giztopは中国国外向けの並行輸入的な販売店で、Lenovoの正規代理店ではない。国際発送に対応するとしているが、関税・返品・保証の扱いは販売ページで個別に確認が必要。
+alternatives:
+- name: ASUS ROG Xbox Ally
+  why: 携帯型ゲーム機。国内の販売店で買える。中国専売の機種と違い、日本で入手しやすい。
+  url: https://item.rakuten.co.jp/pc-bomber-shop/250290002051800/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/pc-bomber-shop/cabinet/mastertool81/250290002051800.jpg"
 faq:
   - q: 日本で買えますか
     a: Lenovoは中国での発売としており、日本での正規販売の発表は掲載時点でない。中国以外では並行輸入業者Giztopが399ドルで国際発送しているが、正規代理店経由の販売ではない。

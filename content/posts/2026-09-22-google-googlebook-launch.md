@@ -17,6 +17,12 @@ images:
     caption: Googlebook実機での作業画面。CapCutなどAndroidアプリがそのまま動く
     credit: Google公式ブログ
 x_hook: ChromebookでもWindowsノートでもない「Googlebook」という新ジャンルをGoogleが発表した。ChromeOSのマルチウィンドウ機能とAndroidのアプリ資産を統合し、Acer・ASUS・Dell・HP・Lenovoが899ドルから対応モデルを出す。発売は米国など6か国のみで10月4日から。
+alternatives:
+- name: Lenovo Chromebook Plus Gen10 14型
+  why: ChromeOSを積む14型ノートPC。国内サポート付きで家電量販店から買える。Googlebookが日本で出るまでの代わりに。
+  url: https://item.rakuten.co.jp/yamada-denki/9420317019/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000451/9420317019.jpg"
 faq:
   - q: 日本で買えますか
     a: 掲載時点で発表されているのは米国・英国・アイルランド・フランス・ドイツ・オーストラリアでの発売のみです。日本展開の発表は確認できていません。

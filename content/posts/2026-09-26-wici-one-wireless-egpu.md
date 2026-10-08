@@ -24,6 +24,12 @@ images:
   - url: "https://wici.ai/images/product/device-exploded.webp"
     caption: 分解図。電源ユニット(1000W)、マザーボード、GPU基板、冷却ファンが積層構造で収まっている様子がわかる
 credit: Wici公式サイト(wici.ai)
+alternatives:
+- name: Razer Core X V2
+  why: Thunderbolt 5対応の外付けGPUボックス。グラフィックスカードと電源ユニットは別売。有線接続でデスクトップ級GPUをノートPCにつなげる国内流通品。
+  url: https://item.rakuten.co.jp/jism/8887910053645-44-48274-n/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0003/8887910053645.jpg"
 faq:
   - q: 日本で買えますか
     a: 公式サイトに国際発送や対象国の記載が無く、日本への発送は掲載時点で確認できていません。購入は現在ニュースレター登録・先行登録の段階です。

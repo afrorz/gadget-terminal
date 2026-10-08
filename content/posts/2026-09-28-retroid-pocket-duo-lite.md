@@ -33,6 +33,12 @@ buy:
     ships_jp: true
     giteki: 未取得
     note: 販売店が「海外並行輸入品、ベンチャー商品」と明記しており、保証・返品・キャンセルはできない。Wi-Fi/Bluetoothの技適取得も未確認のため、無線機能を国内で使う場合は電波法上のリスクがある。
+alternatives:
+- name: AYANEO Pocket Ace
+  why: Android 13搭載の4.5インチ携帯ゲーム機。ビックカメラの国内正規販売品。
+  url: https://item.rakuten.co.jp/biccamera/4580454983068/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/12874/00000014134926_a01.jpg"
 faq:
   - q: 日本で買えますか
     a: Retroid公式ストア(goretroid.com)からの海外発送のほか、国内の並行輸入店GameGadgetでも取り扱いがあります。ただし並行輸入品のため保証はなく、キャンセルもできません。

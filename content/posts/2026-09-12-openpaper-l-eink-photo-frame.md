@@ -23,6 +23,12 @@ images:
 credit: paperlesspaper 公式サイト
 status: LANDED
 status_note: 公式サイトで受注中、14日程度で発送(日本への配送可否は要確認)
+alternatives:
+- name: SwitchBot AI アートキャンバス 13.3インチ
+  why: 13.3インチのフルカラー電子ペーパー(E Ink Spectra 6)額縁。国内の家電通販で買える。
+  url: https://item.rakuten.co.jp/ec-current/0810150547412/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ec-current/cabinet/9264/0810150547412.jpg"
 faq:
 - q: 日本で買えますか
   a: 公式サイト(paperlesspaper.de)は欧州向けの配送を中心に案内しており、日本への発送に対応しているかどうかは掲載時点で確認できていない。

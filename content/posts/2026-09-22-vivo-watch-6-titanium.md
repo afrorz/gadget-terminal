@@ -17,6 +17,12 @@ images:
     caption: vivo WATCH 6のチタニウムモデル。ベゼルに「TITANIUM」の刻印が見える
     credit: vivo公式サイト vivo WATCH 6製品ページ
 x_hook: サファイアクリスタル風防にチタニウムケースを備えたスマートウォッチが999元(約149ドル)から登場した。505mAhのバッテリーで軽使用時21日間、常時表示(AOD)ありでも6日間もつという。掲載時点で確認できているのは中国発売のみ。
+alternatives:
+- name: Samsung Galaxy Watch Ultra2 チタニウム
+  why: チタニウム素材のスマートウォッチ。Samsung公式ストアの国内正規品で、Felica対応。
+  url: https://item.rakuten.co.jp/samsungonline/wtc_watchultra2/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/samsungonline/cabinet/prd/wtc_watchultra2/wtc_watchultra2_.jpg"
 faq:
   - q: 日本で買えますか
     a: 掲載時点で確認できているのは中国での発売のみです。GSMArenaの記事も国際展開は「不明」としており、日本での発売や技適取得の情報は確認できていません。

@@ -18,6 +18,12 @@ images:
   caption: "「MADE FOR THE DUO, Built as One」と題した告知画像。PicoGo Air AM72(左下)をiPhone Duoに装着した状態と、マグネット式ケース「HoopRing」(右)、100W充電器「AH22」(左)"
 credit: Baseus 公式プレスリリース(PR Newswire)
 origin: SZX 深圳
+alternatives:
+- name: Anker Nano Power Bank (5000mAh, MagGo, Slim)
+  why: Qi2認証・最大15Wのマグネット式ワイヤレス充電に対応する5,000mAhのモバイルバッテリー。アンカー公式ストアで買える国内正規品。
+  url: https://item.rakuten.co.jp/anker/a1665/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a1/a1665_normal.jpg"
 faq:
 - q: 日本で買えますか
   a: 掲載時点で価格や日本での販売経路は発表されていません。発売は2026年11月下旬を予定していますが、日本向けの取り扱いは確認できていません。
