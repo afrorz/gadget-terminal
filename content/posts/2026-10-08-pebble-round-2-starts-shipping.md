@@ -13,6 +13,17 @@ tags:
 - 電子ペーパー
 - スマートウォッチ
 - Core Devices
+alternatives:
+- name: ガーミン Instinct E 40mm
+  why: Pebbleと同じく、見やすいモノクロ表示の丸型で電池持ちを重視した腕時計。ガーミンの国内正規品で、今日から国内で買える。
+  url: https://item.rakuten.co.jp/biccamera/0753759345136/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11372/00000013778340_a01.jpg"
+- name: Amazfit Active Max
+  why: 丸型の画面で、公式の表示では電池が最大25日間もつ。日本正規代理店が扱い、Pebbleより安く今日から買える。
+  url: https://item.rakuten.co.jp/jism/6972596109624-51-57518-n/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0049/6972596109624.jpg"
 faq:
 - q: Pebble Round 2はいつ届きますか
   a: 公式ブログによると、最初の200台は倉庫に到着済みで、続く1,000台は中国の連休（10月1〜7日）明けに生産を始めて10月末に出荷、残りは11月初めに生産を始めて11月末から出荷する計画です。全予約の出荷完了は12月末の見込みで、さらに遅れる可能性があると本人たちが書いています。
