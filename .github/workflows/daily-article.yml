@@ -70,6 +70,8 @@ jobs:
         env:
           MANUAL_URL: ${{ github.event.inputs.url }}
           EVENT_NAME: ${{ github.event_name }}
+          # 代替品を探す scripts/rakuten_search.py が使う(無いと代替品を毎回省いていた)
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
@@ -91,8 +93,10 @@ jobs:
             3. **3本書く。** ある候補が書けなければ見送って次の候補へ進む。3本に届くまで、
                ダイジェストの全候補 → 手順4の全ソースの順に探し続ける。全部見ても届かないときに
                限って、書けた本数で終える。
-            4. それ以外の項目（動画・代替品 alternatives・buy・FAQ の一部・origin など）は、用意
-               できなければ**その項目を省いて記事は出す**。項目が埋まらないことを理由に記事を見送らない。
+            4. **代替品（alternatives）は毎回必ず探して付ける**（手順9の【alternatives】）。
+               読者が今日買える物を示すこの欄が、記事の収益と「読んで終わり」にしない価値の柱である。
+               それ以外の項目（動画・buy・FAQ の一部・origin など）は、用意できなければ
+               **その項目を省いて記事は出す**。項目が埋まらないことを理由に記事を見送らない。
 
             「薄い記事」を防ぐのは本数を減らすことではない。各記事に「日本から見るとどうか」
             （技適・入手手段・代替品・価格）を具体的に書くことで防ぐ。
@@ -325,18 +329,24 @@ jobs:
                - status: 上で表せない状態だけ。SCHEDULED / LANDED / LOCAL ONLY / FULLY BOOKED /
                  DELAYED。status_note に短い補足を書ける
 
-               【alternatives】（任意。日本で今すぐ買える、同じ用途の別の製品を1〜2件）
-               見つからない・確かめられないときは書かない。**記事は出す。**
+               【alternatives】（**必ず探して付ける。** 日本で今すぐ買える、同じ用途の別の製品を1〜2件）
+               探し方: `python3 scripts/rakuten_search.py "<同じ用途の製品名や種類>"` で楽天市場を
+               検索する。商品名・価格・商品ページURL・商品画像URLが出る。同じ用途でも1つの型番に
+               こだわらず、国内正規品で手に入りやすい製品を選ぶ（例: 丸型の電子ペーパー腕時計なら、
+               国内で売っている丸型で電池持ちのよい腕時計）。
+               本当に同じ用途の製品が国内に無いときだけ省いてよい（記事は出す）。その場合は
+               最後のログに「代替品なし: 理由」を書く。
                  - why に「なぜ代替になるか」を1行で書く（技適取得済み・国内保証など）
                  - url は Amazon.co.jp か楽天市場の商品ページ（`https://www.amazon.co.jp/dp/XXXXXXXXXX`
                    または `item.rakuten.co.jp/店舗/商品コード/`）。検索結果ページは不可。実在を確かめる
-                 - `merchant` に書ける値は **amazon** か **rakuten** だけ。同じ製品が両方にあれば
-                   Amazon を優先する。それ以外の店（メーカー直販など）は merchant を書かず素のリンクにする。
+                 - `merchant` に書ける値は **amazon** か **rakuten** だけ。Amazon の商品ページを
+                   WebFetch で確かめられれば Amazon を優先し、確かめられなければ楽天でよい。それ以外の店（メーカー直販など）は merchant を書かず素のリンクにする。
                    転売価格・怪しい並行輸入しか無ければ、その製品は載せない
                  - **image（製品写真のURL）は必須。** 無いと checklinks.py が公開を止める。
-                   `python3 scripts/find_alt_images.py --apply` で楽天から探し、無ければメーカー公式の
-                   製品写真のURLを使う。どちらも画像を /tmp に落として Read で開き、その型番の本体で
-                   あることを確かめる（楽天は付属品・上位機種・別世代を拾いやすい）。
+                   楽天の商品なら rakuten_search.py が出す image の URL を使う。Amazon の商品なら
+                   メーカー公式の製品写真の URL を使う。どちらも画像を /tmp に落として Read で開き、
+                   その型番の本体であることを確かめる（楽天は付属品・上位機種・別世代を拾いやすい）。
+                   販促の文字が大きく入った画像なら、同じ商品の別の店の画像を使う。
                    確かめられなければ、その代替品を載せない
                書式:
                  alternatives:

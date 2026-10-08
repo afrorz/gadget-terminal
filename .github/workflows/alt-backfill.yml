@@ -1,0 +1,93 @@
+name: 代替品の無い過去記事を埋める
+
+# 2026-10 前半、クラウドの記事生成が楽天の鍵を読めず、代替品(alternatives)を
+# 毎回省いていた。過去記事のうち代替品が1件も無いものが68本あった(本人の指摘で発覚)。
+# 手で回す一回きりの補修。新しい記事は daily-article.yml が付けるので、ここは過去分だけ。
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "1回で埋める記事の本数"
+        required: false
+        default: "12"
+
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Claude Code CLI を明示的にインストール
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - uses: anthropics/claude-code-action@v1
+        env:
+          N: ${{ github.event.inputs.n || '12' }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          claude_args: |
+            --max-turns 250
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
+          prompt: |
+            あなたは海外ガジェットメディア「Gadget Terminal」の編集担当です。
+            過去記事のうち「今すぐ買えるオススメガジェット」（front matter の alternatives）が
+            1件も無い記事に、代替品を足してください。本数は環境変数 N（`echo "$N"`）。
+
+            1. 対象の一覧を出す。新しい記事から順に N 本を処理する:
+                 python3 - <<'PY'
+                 import glob, re, yaml
+                 for f in sorted(glob.glob("content/posts/*.md"), reverse=True):
+                     t = open(f, encoding="utf-8").read()
+                     m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", t, re.S)
+                     fm = yaml.safe_load(m.group(1)) or {}
+                     if not [a for a in (fm.get("alternatives") or []) if a.get("url")]:
+                         print(f, "|", fm.get("title"))
+                 PY
+
+            2. 記事ごとに、本文を読んで「何の製品で、読者は何に使いたいか」をつかむ。
+               日本で今すぐ買える、**同じ用途の別の製品**を1〜2件選ぶ。
+               - 探し方: `python3 scripts/rakuten_search.py "<同じ用途の製品名や種類>"`
+                 商品名・価格・商品ページURL・商品画像URLが出る
+               - 国内正規品で手に入りやすいものを選ぶ。中古・並行輸入・転売価格は選ばない
+               - 型番違い・上位機種・付属品（ケース・バンド・フィルム）を選ばない
+               - 業界ニュースや調査レポートなど、買う「製品」が無い記事は飛ばして次へ進む
+                 （本数には数えない）
+               - 同じ用途の製品が国内に本当に無いときも飛ばす
+
+            3. 画像を必ず目で確かめる。rakuten_search.py が出した image の URL を
+               `curl -sL -o /tmp/a1.jpg "<URL>"` で落とし、Read ツールで開く。その型番の本体が
+               写っていることを確かめる。販促の文字が大きい画像なら、同じ商品の別の店の画像を使う。
+               確かめられない製品は載せない。
+
+            4. front matter の faq: の直前に書き足す。書式:
+                 alternatives:
+                 - name: 製品名
+                   why: なぜ代わりになるか1行（国内正規品・技適取得済み・同じ用途など、確かめた事実だけ）
+                   url: https://item.rakuten.co.jp/店舗/商品コード/
+                   merchant: rakuten
+                   image: "https://thumbnail.image.rakuten.co.jp/..."
+               本文には手を入れない。why に確かめていないこと（電池時間など）を書かない。
+
+            5. 書き終えたら検証する。すべて通ってからコミットする。
+                 pip install -r requirements.txt --break-system-packages -q
+                 python3 scripts/checklinks.py <直したファイル>
+                 python3 scripts/build.py
+               失敗したら直す。直せない代替品は消す。
+
+            6. `git commit -m "代替品の補充 N本"`（N は実際に足した本数）で main に push する。
+               最後に、足した記事と、飛ばした記事とその理由を一覧で書く。

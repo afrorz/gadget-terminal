@@ -53,9 +53,9 @@ def main(argv: list[str]) -> int:
     if "--skip" in argv:
         skip = set(argv[argv.index("--skip") + 1].split(","))
     site = yaml.safe_load((ROOT / "config" / "site.yaml").read_text(encoding="utf-8"))["site"]
-    secrets = yaml.safe_load((ROOT / "config" / "secrets.local.yaml").read_text(encoding="utf-8")) or {}
-    app_id = str(site.get("rakuten_app_id") or "").strip()
-    key = str(secrets.get("rakuten_access_key") or "").strip()
+    # 鍵は Actions のシークレット(環境変数)か、手元の secrets.local.yaml から読む
+    from rakuten_search import credentials
+    app_id, key = credentials()
     if not app_id or not key:
         print("NG rakuten_app_id / rakuten_access_key が空です")
         return 1
