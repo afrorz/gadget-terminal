@@ -11,15 +11,15 @@ tags:
 - Panther Lake
 - Core Ultra
 - Arc B390
-seo_title: Minisforum M2 Pro-358Hが1439ドルで発売
+seo_title: Minisforum M2 Pro-358Hが発売、国内は税込25万1,999円で受注中
 x_hook: 発表時は96GBメモリだったミニPCが、実際の発売では32GBに減っていた。
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でMinisforum公式ストア（米国・欧州向け）からの海外発送が前提です。国内正規代理店の取り扱いは確認できていません。
+  a: 2026年8月24日からMinisforumの日本向け直販サイトで受注しています。販売元は香港の法人で、国内代理店の取り扱いは確認できていません（2026年10月9日確認）。
 - q: 技適は取得していますか
   a: Wi-Fi 7・Bluetooth 6.0を搭載しますが、掲載時点で技適取得の情報は確認できていません。
 - q: いくらですか
-  a: セール価格1,439ドル（通常価格1,799ドルから360ドル引き）、欧州向けは1,519ユーロです（掲載時点の価格）。
+  a: 国内直販は税込25万1,999円です（2026年10月9日確認）。米国のセール価格は1,439ドル（通常1,799ドル）、欧州向けは1,519ユーロです（記事公開時点）。
 - q: いつ発売されますか
   a: 注文受付は開始済みです。米国向けは9月下旬、欧州向けは9月初旬に香港から発送予定とされています。
 buy:
@@ -36,6 +36,14 @@ alternatives:
   image: "https://geekom.jp/cdn/shop/files/IT13_Max.jpg?v=1785753746&width=2048"
   url: https://www.amazon.co.jp/GT13-Pro-%E3%83%9F%E3%83%8BPC%E3%80%902025%E6%9C%80%E6%96%B0%E3%80%91%E7%AC%AC13%E4%B8%96%E4%BB%A3-SSD%EF%BC%88%E6%8B%A1%E5%BC%B5%E5%8F%AF%E8%83%BD%EF%BC%89%E9%AB%98%E6%80%A7%E8%83%BDmini-USB4%EF%BC%88Oculink%E3%82%88%E3%82%8A%E5%AE%89%E5%AE%9A%EF%BC%89/dp/B0F2LYFYBV
   merchant: amazon
+japan:
+  status: 発売済み
+  checked: 2026-10-09
+  summary: Minisforum（MICRO COMPUTER(HK)TECH LIMITED）が2026年8月24日、日本向け直販サイトで受注を開始した。税込25万1,999円（製品ページ上の通常価格は31万4,999円）、32GBメモリ+1TB SSDの1構成。プレスリリースの出荷予定は9月25日だが、10月9日時点の製品ページは10月15日出荷予定と表示している。国内向けの発表は本記事の公開の翌日で、公開時点では未発表だった。技適は、総務省のデータベースで事業者名「Minisforum」「MICRO COMPUTER」を引いたが該当が無く、確認できていない。販売元は香港の法人で、国内法人・正規代理店とは確認できないため、販売先の掲載は見送る。
+  x_hook: Core Ultra X7 358HとArc B390を積むミニPC「Minisforum M2 Pro-358H」が、日本向けの直販サイトでも受注中。32GBメモリ+1TB SSDで税込25万1,999円。
+  source:
+    title: MINISFORUM、合計180TOPSのミニPC「M2 PRO-358H」受注開始（プレスリリース）
+    url: https://www.gdm.or.jp/pressrelease/2026/0824/649293
 thumbnail: https://store.minisforum.com/cdn/shop/files/M2_PRO.png?v=1787207308
 thumbnail_credit: Minisforum公式ストア製品ページ
 sources:
