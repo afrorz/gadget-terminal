@@ -164,7 +164,8 @@ def main() -> int:
     for path in files:
         fm = load_front_matter(path)
         slug = fm.get("slug")
-        hook = fm.get("x_hook")
+        # 箇条書きの x_hook は YAML のブロック形式で書くので、末尾の改行を落とす
+        hook = str(fm.get("x_hook") or "").strip()
         if not slug or not hook:
             print(f"⚠ {path.name}: slug または x_hook が無いためスキップします")
             continue
