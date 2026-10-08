@@ -1,0 +1,901 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T07:20:45.504869+09:00",
+  "stats": {
+    "fetched": 725,
+    "unique": 685,
+    "new": 432,
+    "clusters": 407,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "8fe06f26aeb0256c",
+      "title": "Oppo Find X10 and Pro Max unboxing and hands-on",
+      "url": "https://www.gsmarena.com/oppo_find_x10_and_pro_max_unboxing_and_handson-news-74959.php",
+      "canonical": "https://www.gsmarena.com/oppo_find_x10_and_pro_max_unboxing_and_handson-news-74959.php",
+      "summary": "This is your first look at the Oppo Find X10 series, which will go global on October 21. The Oppo Find X10 Pro Max and Find X10 launched in China in late September, so we know the specs. At least, we know the starting point. There's every chance that the global models (especially the Europe-bound ones) could have smaller batteries. The Oppo Find X10 Pro Max is the larger of the two, owing to its l",
+      "published": "2026-10-08T14:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 25,
+      "reasons": [
+        "+5 hands-on",
+        "+4 first look",
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/heres_when_the_oppo_find_x10_and_find_x10_pro_max_will_launch_globally-news-74957.php",
+        "https://www.gizmochina.com/2026/10/08/oppo-find-x10-seriss-global-launch-date-officially-confirmed/"
+      ]
+    },
+    {
+      "id": "a7cd187de6871e4e",
+      "title": "Microsoft Surface Laptop Ultra launches with RTX Spark and up to 128GB RAM",
+      "url": "https://www.gizmochina.com/2026/10/08/microsoft-surface-laptop-ultra-launched-price-specs/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/microsoft-surface-laptop-ultra-launched-price-specs",
+      "summary": "Microsoft has officially revealed the Surface Laptop Ultra, its most powerful Surface laptop yet. First unveiled earlier this year, the new machine is aimed at developers, creators and AI researchers who need workstation-class computing in a portable form factor. Surface Laptop Ultra brings serious hardware for local AI The Surface Laptop Ultra features a 15-inch [&#8230;] The post Microsoft Surfa",
+      "published": "2026-10-08T03:53:37+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 24,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gadget Flow",
+        "ServeTheHome"
+      ],
+      "related_urls": [
+        "https://thegadgetflow.com/product/surface-rtx-spark-dev-box-developer-workstation/",
+        "https://www.servethehome.com/microsoft-launches-surface-laptop-ultra-surface-rtx-spark-dev-box/"
+      ]
+    },
+    {
+      "id": "d562b199876e0c73",
+      "title": "微软拿出最高 1000 美元置换补贴，吸引苹果 MacBook Pro 用户跳槽 Surface Laptop Ultra",
+      "url": "https://www.ithome.com/1/010/739.htm",
+      "canonical": "https://www.ithome.com/1/010/739.htm",
+      "summary": "IT之家 10 月 8 日消息，微软今天在美国和加拿大官方商城推出一项限时优惠，消费者购买 Surface Laptop Ultra 时，如果选择将手上的苹果 MacBook Pro 置换掉，那么将获得最高 1,000 美元 （IT之家注：现汇率约合 6,712 元人民币） 补贴。 IT之家了解到，微软已在美国和加拿大官方商城的 Surface Laptop Ultra 商店页打出“告别你的 MacBook，最高可获 1,000 美元”宣传语，吸引消费者换机。如果用户真的选择以旧换新， 那么除了正常的折抵金额外 ， 还会额外获得最高 1,000 美元补贴 。 微软表示，这笔优惠可与原本的以旧换新折扣相叠加，相关服务由合作伙伴 Teladvance 负责。因此回收 MacBook Pro 能够获得多少补贴，用户需要查询 Teladvance。",
+      "published": "2026-10-08T15:36:48+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+16 5媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena",
+        "Gadget Flow",
+        "Notebookcheck (Smartphone)",
+        "The Register"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Surface-Laptop-Ultra-Microsoft-omits-test-methodology-in-MacBook-Pro-comparison.1419388.0.html",
+        "https://www.theregister.com/offbeat/2026/10/08/microsoft-unveils-surace-laptop-ultra/5301882",
+        "https://www.gsmarena.com/microsoft_reveals_surface_laptop_ultra_price_and_availability-news-74953.php",
+        "https://thegadgetflow.com/product/surface-laptop-ultra-performance-laptop/"
+      ]
+    },
+    {
+      "id": "920920664cdef5b0",
+      "title": "(PR) Atari 800XL Home Computer Relaunched: Pre-Orders Open Today, Ships April 2027",
+      "url": "https://www.techpowerup.com/353515/atari-800xl-home-computer-relaunched-pre-orders-open-today-ships-april-2027",
+      "canonical": "https://www.techpowerup.com/353515/atari-800xl-home-computer-relaunched-pre-orders-open-today-ships-april-2027",
+      "summary": "Atari today announced THE 800XL - a faithful recreation of its best-selling 8-bit computer, bringing the iconic machine and its extensive collection of games and software to a new generation. Designed by Retro Games Ltd., renowned for authentic recreations of 1980s hardware, THE 800XL retains the look and feel of the original, including a full-sized mechanical keyboard, baked-in Atari BASIC, and a",
+      "published": "2026-10-08T16:08:09+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9239c0bae5588dfa",
+      "title": "Apple could swiftly follow its smart home event with new iPads and MacBooks",
+      "url": "https://www.androidauthority.com/apple-october-ipad-macbook-3721018/",
+      "canonical": "https://www.androidauthority.com/apple-october-ipad-macbook-3721018",
+      "summary": "October's heating up for Apple hardware launches, with new iPads now in the running.",
+      "published": "2026-10-08T21:16:50+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "GSMArena",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/apple_announces_october_13_event_for_new_smart_home_products-news-74968.php",
+        "https://www.notebookcheck.net/Welcome-home-Apple-event-on-October-13-2026.1419459.0.html",
+        "https://9to5mac.com/2026/10/08/apple-announces-special-event-for-october-13-welcome-home/"
+      ]
+    },
+    {
+      "id": "8b2ce01f4451221e",
+      "title": "Samsung signs Thierry Henry to promote the Galaxy Z Fold8, Fold8 Ultra, and Flip8",
+      "url": "https://www.gsmarena.com/samsung_gets_football_legend_thierry_henry_to_promote_the_galaxy_z_fold8_fold8_ultra_and_flip8-news-74947.php",
+      "canonical": "https://www.gsmarena.com/samsung_gets_football_legend_thierry_henry_to_promote_the_galaxy_z_fold8_fold8_ultra_and_flip8-news-74947.php",
+      "summary": "Today Samsung has announced that it's partnered up with former French football star Thierry Henry to promote the Galaxy Z Fold8, Fold8 Ultra, and Flip8. The three devices launched back in July, and now Henry will star in a new Welcome to Foldables ad campaign that will run across Europe. [#InlinePriceWidget,14673,1#] [#InlinePriceWidget,14802,1#] [#InlinePriceWidget,14803,1#] The campaign will con",
+      "published": "2026-10-08T02:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+2 campaign",
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "737f984995e61f29",
+      "title": "Asus launches ProArt GR1X Mini PC with Nvidia RTX Spark Superchip",
+      "url": "https://www.gizmochina.com/2026/10/08/asus-proart-gr1x-mini-pc-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/asus-proart-gr1x-mini-pc-launched-specs-price",
+      "summary": "Asus has announced the ProArt GR1X, a new compact desktop computer built around Nvidia’s RTX Spark architecture. Introduced alongside the company&#8217;s latest ProArt laptops, the GR1X is a 1.1-liter mini PC designed to run large local AI models and creative applications on Windows without relying on cloud servers. Asus ProArt GR1X Specifications Also Read5 Best [&#8230;] The post Asus launches P",
+      "published": "2026-10-08T14:58:56+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Dell-launches-powerful-new-mini-PC-with-128-GB-RAM-and-Nvidia-RTX-Spark.1419181.0.html",
+        "https://www.notebookcheck.net/New-Asus-ProArt-GR1X-release-details-revealed-with-up-to-128-GB-RAM-and-20-core-RTX-Spark.1419176.0.html"
+      ]
+    },
+    {
+      "title": "Makuake｜顔印象を整える新習慣。韓国発EMS×RF×LED搭載フェイスケアデバイス｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/naturia_casa/",
+      "summary": "こんなお悩みありませんか？表情筋を日頃からケアしませんか？これらの自己投資で十分と思っていませんか？スーツも時計もジムも投資するなら、自分の顔にも投資しませんか？1日5分で顔周りのフェイスケア習慣顔も、毎日のケア習慣へ。スキンケアの時間に、EMS・RF・LEDによるフェイスケアをプラス。毎日続けやすい約5分のケアで、ご自宅でも本格的なホームケアをサポートします。年齢を問わず、日々のフェイスケア習慣",
+      "image": "https://static.makuake.com/upload/project/53887/main_53887.png?version=1790920934&amp;width=690&amp;height=388",
+      "published": "2026-10-12T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "28b0c869f27137af",
+      "canonical": "https://www.makuake.com/project/naturia_casa",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "666ed1971a76c0a1",
+      "title": "You can now pre-order Xreal’s Aura Android XR glasses, here's how much they cost",
+      "url": "https://www.gsmarena.com/you_can_now_preorder_xreals_aura_android_xr_glasses_heres_how_much_they_cost-news-74948.php",
+      "canonical": "https://www.gsmarena.com/you_can_now_preorder_xreals_aura_android_xr_glasses_heres_how_much_they_cost-news-74948.php",
+      "summary": "Xreal announced its Aura Android XR glasses back in June, when it started taking reservations for them. Today, those who hold a reservation can move to the next step and place a pre-order for a pair, starting with the US, Canada, Japan, and South Korea. More regions will get this option soon. The glasses cost $1,279 with 12GB of RAM and 256GB of storage, or $1,499 with 16GB of RAM and 512GB of sto",
+      "published": "2026-10-08T04:41:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 announced",
+        "+4 pre-order",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f380696d1a50bde2",
+      "title": "RedMagic 12 Pro+ design and color options revealed ahead of launch",
+      "url": "https://www.gsmarena.com/redmagic_12_pro_design_and_color_options_revealed_ahead_of_launch-news-74954.php",
+      "canonical": "https://www.gsmarena.com/redmagic_12_pro_design_and_color_options_revealed_ahead_of_launch-news-74954.php",
+      "summary": "The RedMagic 12 Pro+ is set to launch in China on October 15. Ahead of the launch, the company has revealed the phone’s full design and color options, with pre-orders now live. In a post on Weibo, RedMagic confirmed that the 12 Pro+ will feature the company’s signature transparent design, a flat rear panel, and RGB liquid cooling. The phone will be available in Transparent Dark Night, Transparent ",
+      "published": "2026-10-08T08:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/10/08/red-magic-12-pro-color-options-revealed/"
+      ]
+    },
+    {
+      "id": "24fd256ecbeb27a8",
+      "title": "Timex launches two Marlin Chatham Automatic watches with Japanese Miyota movements",
+      "url": "https://www.gizmochina.com/2026/10/08/timex-marlin-chatham-automatic-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/timex-marlin-chatham-automatic-watches-launched-specs-price",
+      "summary": "Timex just released two new versions of its Marlin Chatham Automatic watch in the US. The new models bring a 36mm cushion case to the company&#8217;s entry-level mechanical lineup, leaning into the current industry shift back toward smaller, vintage-proportioned watches. Design Details &#38; Pricing Also ReadBest Fitness Smartwatches for Tracking Workouts and Heart Rate in [&#8230;] The post Timex",
+      "published": "2026-10-08T00:12:40+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8f9281b196590682",
+      "title": "(PR) The Apex Returns: Razer Unveils the Basilisk V4 Line",
+      "url": "https://www.techpowerup.com/353510/the-apex-returns-razer-unveils-the-basilisk-v4-line",
+      "canonical": "https://www.techpowerup.com/353510/the-apex-returns-razer-unveils-the-basilisk-v4-line",
+      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the launch of the Razer Basilisk V4 Pro, the latest evolution of its iconic ergonomic gaming mouse, together with the Razer Mouse Dock V2 Pro wireless charging dock. The Basilisk V4 Pro keeps the ergonomic shape players trust and delivers key upgrades, from 14 customizable controls and the new Razer HyperScroll Tilt Wheel Gen-2 ",
+      "published": "2026-10-08T15:05:52+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fa6e08e198bfbb64",
+      "title": "Keychron Officially Launches G6 HE Wireless Gaming Mouse for $89.99 Pre-Order",
+      "url": "https://www.techpowerup.com/353511/keychron-officially-launches-g6-he-wireless-gaming-mouse-for-usd-89-99-pre-order",
+      "canonical": "https://www.techpowerup.com/353511/keychron-officially-launches-g6-he-wireless-gaming-mouse-for-usd-89-99-pre-order",
+      "summary": "After announcing the Keychron G6 HE as its latest wireless gaming mouse, Keychron has officially made the new Hall effect gaming mouse available for pre-order and finally divulged the mouse's entire spec sheet and features list. The G6 HE is a 49 g wireless gaming mouse with a symmetrical shape, flagship internals—a PixArt PAW 3955 sensor and Nordic 54LM20A MCU with 8 kHz polling—and hybrid MagOpt",
+      "published": "2026-10-08T16:35:24+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "953256a57184a089",
+      "title": "iQOO Neo 12 could get the world’s first mass-produced 2K 185Hz OLED display",
+      "url": "https://www.gizmochina.com/2026/10/08/iqoo-neo-12-2k-185hz-oled-display-specs-leak/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/iqoo-neo-12-2k-185hz-oled-display-specs-leak",
+      "summary": "iQOO unveiled the iQOO 16 as one of the first Snapdragon 8 Elite Extreme Gen 6-powered phones in October. Unlike last year, the company did not introduce the Neo 12 alongside its flagship, as it launched the iQOO 15 and Neo 11 separately. Now, the arrival of the Neo 12 appears to be getting closer, [&#8230;] The post iQOO Neo 12 could get the world’s first mass-produced 2K 185Hz OLED display appea",
+      "published": "2026-10-08T07:54:22+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "38131a77bacf7a1e",
+      "title": "Elecom Unveils a USB-C Dock with Built-In Dial Knob and Four Macro Keys",
+      "url": "https://www.techpowerup.com/353481/elecom-unveils-a-usb-c-dock-with-built-in-dial-knob-and-four-macro-keys",
+      "canonical": "https://www.techpowerup.com/353481/elecom-unveils-a-usb-c-dock-with-built-in-dial-knob-and-four-macro-keys",
+      "summary": "Japanese peripheral maker Elecom has introduced the DST-L080BPBK, an 8-in-1 USB Type-C dock that combines a conventional docking station with a large dial knob and four customizable buttons. The company is known for some unusual PC peripherals, including the M.A.P.P. mouse and IST trackball mouse . The dock measures 74 × 87 × 59 mm and weighs approximately 250 g. The top of the dock houses the dia",
+      "published": "2026-10-07T22:43:08+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ed19c36963c07933",
+      "title": "Elevate your Steam Deck and ROG Ally's SSD storage for just $0.13 per GB",
+      "url": "https://www.tomshardware.com/pc-components/ssds/elevate-your-steam-deck-and-rog-allys-ssd-storage-for-just-usd0-13-per-gb-rare-discount-brings-wd-black-sn770m-2tb-back-to-near-launch-price",
+      "canonical": "https://www.tomshardware.com/pc-components/ssds/elevate-your-steam-deck-and-rog-allys-ssd-storage-for-just-usd0-13-per-gb-rare-discount-brings-wd-black-sn770m-2tb-back-to-near-launch-price",
+      "summary": "The WD Black SN770M 2TB SSD is currently on sale for $259.99, just 8% over the PCIe 4.0's launch price before the storage shortage.",
+      "published": "2026-10-07T23:35:11+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 steam deck",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8636d05d1cdca330",
+      "title": "Gears of War: E-Day Launches to Modest Reviews and 31,500 Peak Steam Players",
+      "url": "https://www.techpowerup.com/353482/gears-of-war-e-day-launches-to-modest-reviews-and-31-500-peak-steam-players",
+      "canonical": "https://www.techpowerup.com/353482/gears-of-war-e-day-launches-to-modest-reviews-and-31-500-peak-steam-players",
+      "summary": "Gears of War: E-Day, the origin story of the long-running Gears of War franchise, launched on Steam, Xbox, and Game Pass, and, although Microsoft has been building hype for the new Gears game for several months leading up to launch day, the game's launch performance on Steam is less than stellar. According to SteamDB , E-Day peaked at a somewhat underwhelming 31,517 concurrent players on Steam, al",
+      "published": "2026-10-07T23:55:45+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "51277adb850f34b0",
+      "title": "Motorola rolls out Android 17 to the Razr Ultra 2026",
+      "url": "https://www.gsmarena.com/motorola_rolls_out_android_17_to_the_razr_ultra_2026-news-74949.php",
+      "canonical": "https://www.gsmarena.com/motorola_rolls_out_android_17_to_the_razr_ultra_2026-news-74949.php",
+      "summary": "The latest Motorola device to be graced with an update to Android 17 is the Razr Ultra 2026. This phone is now receiving the latest version of Android in the US. [#InlinePriceWidget,14638,1#] The update arrives over-the-air as a whopping 4.17GB download, so make sure you grab it over a fast enough network. Once you install it, you will be running software version A171WLH.38-19-5. The update brings",
+      "published": "2026-10-08T05:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Motorola-Razr-Ultra-2026-Android-17-update-brings-programmable-AI-key-themed-icons-and-more.1419198.0.html"
+      ]
+    },
+    {
+      "id": "6303b6ab0b43cce6",
+      "title": "Redmi Turbo 6 Max may pack Dimensity 9500s and 10,000mAh battery",
+      "url": "https://www.gizmochina.com/2026/10/08/redmi-turbo-6-max-leak-dimensity-9500s-10000mah-battery/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/redmi-turbo-6-max-leak-dimensity-9500s-10000mah-battery",
+      "summary": "Xiaomi has launched a new slew of phones in China, including the Xiaomi 18 Pro Max, Xiaomi 18 Pro, Redmi K100 Pro Max, and Redmi K100 Pro. Rumors suggest the new Xiaomi 18 and Redmi K100 series could be unveiled by the end of this year. Alongside these models, Redmi is also working on the [&#8230;] The post Redmi Turbo 6 Max may pack Dimensity 9500s and 10,000mAh battery appeared first on Gizmochi",
+      "published": "2026-10-08T05:51:52+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "95294c78d7b90135",
+      "title": "Vivo Y600s Pro launched with 10,200mAh battery and 120Hz AMOLED display",
+      "url": "https://www.gizmochina.com/2026/10/08/vivo-y600s-pro-launched-price-specs/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/vivo-y600s-pro-launched-price-specs",
+      "summary": "After unveiling the Vivo Y600i and Y600k Turbo phones recently in China, Vivo has quietly added another model to the Y600 family. Called the Vivo Y600s Pro, the new smartphone focuses on a large battery and a high-resolution AMOLED display. Here is everything you need to know about Vivo&#8217;s latest Y-series phone. Vivo Y600s Pro [&#8230;] The post Vivo Y600s Pro launched with 10,200mAh battery ",
+      "published": "2026-10-08T13:20:17+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "85fb7d79a755aca9",
+      "title": "Sipeed SLogic32U3 – A high-speed 10 Gbps USB 3.2 logic analyzer (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/10/09/sipeed-slogic32u3-high-speed-10-gbps-usb-3-2-logic-analyzer/",
+      "canonical": "https://www.cnx-software.com/2026/10/09/sipeed-slogic32u3-high-speed-10-gbps-usb-3-2-logic-analyzer",
+      "summary": "Sipeed has just launched what they claim is the world&#8217;s first 10 Gbps USB 3.2 logic analyzer. The SLogic32U3 is the successor to the SLogic16U3 3.2 Gbps logic analyzer launched in 2025. The SLogic32U3 USB-C logic analyzer supports up to 32 channels via four mini HDMI connectors, 350 MHz signal bandwidth, up to 1400 MS/s per channel with four channels, or 200 MS/s per channel with 32 channels",
+      "published": "2026-10-08T17:01:38+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "34baf2ff004095e6",
+      "title": "(PR) Logitech Unveils Its Biggest Enterprise Launch Ever",
+      "url": "https://www.techpowerup.com/353521/logitech-unveils-its-biggest-enterprise-launch-ever",
+      "canonical": "https://www.techpowerup.com/353521/logitech-unveils-its-biggest-enterprise-launch-ever",
+      "summary": "Today, Logitech unveiled the largest enterprise product launch in company history, engineered to equip companies for the AI revolution. Headlined by Logitech Rally Bar 2, Rally System 2 Pro, and Sound Shape technology, the new portfolio brings advanced compute, intelligence, and sensing into more workspaces to support the next decade of intelligent collaboration. Henry Levak, general manager of Te",
+      "published": "2026-10-08T18:34:35+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3367b8d88fdf4fe2",
+      "title": "Steam Beta Update Automatically Sets Non-Steam Windows Binaries To Launch Under Proton",
+      "url": "https://www.techpowerup.com/353523/steam-beta-update-automatically-sets-non-steam-windows-binaries-to-launch-under-proton",
+      "canonical": "https://www.techpowerup.com/353523/steam-beta-update-automatically-sets-non-steam-windows-binaries-to-launch-under-proton",
+      "summary": "Seemingly as part of the ongoing efforts to streamline and polish Steam and SteamOS , Valve has published a new beta update for the Steam client that fixes a handful of issues with the library, Steam Input, the Steam Controller's BLE mode, and Big Picture mode. More notably, with this update, Steam clients installed on Linux machines will automatically set Windows programs added to Steam as non-St",
+      "published": "2026-10-08T19:14:43+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Phoronix"
+      ],
+      "related_urls": [
+        "https://www.phoronix.com/news/Steam-Beta-Use-Proton-Default"
+      ]
+    },
+    {
+      "id": "657907be2ff78676",
+      "title": "Amazon Kids Tablets are now official in two sizes",
+      "url": "https://www.gsmarena.com/amazon_kids_tablets_are_now_official_in_two_sizes-news-74964.php",
+      "canonical": "https://www.gsmarena.com/amazon_kids_tablets_are_now_official_in_two_sizes-news-74964.php",
+      "summary": "Today Amazon has unveiled two tablets aimed at kids, and they're unsurprisingly called the Amazon Kids Tablets. They are available in 8.7\" and 11\" sizes, with two distinct models, one made for ages 3+, the other for ages 6+. The 8.7-inch tablet has 64GB of storage and its battery lasts for up to 14 hours of video playback, while the 11\" model has \"a beautiful 2.5K display\" and 8GB of RAM. Every ve",
+      "published": "2026-10-08T19:31:04+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b83a0f6d609206c5",
+      "title": "Samsung Galaxy S26 FE vs. Galaxy S25 FE",
+      "url": "https://www.gsmarena.com/samsung_galaxy_s26_fe_vs_galaxy_s25_fe_battery_camera_price_compared-news-74772.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_s26_fe_vs_galaxy_s25_fe_battery_camera_price_compared-news-74772.php",
+      "summary": "The Fan Edition of the latest Galaxy S series is out, but before you pull the trigger on the Samsung Galaxy S26 FE, why not consider the Samsung Galaxy S25 FE instead. It gets you a lot of the way there at a more reasonable starting price, which is exactly the FE series spirit. After all, the memory chip prices forced Samsung to launch the S26 FE at a higher price point and without changing almost",
+      "published": "2026-10-07T22:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f77271088974ee49",
+      "title": "Asus launches ProArt P16 and P14 laptops with Nvidia RTX Spark & 120Hz OLED displays",
+      "url": "https://www.gizmochina.com/2026/10/07/asus-proart-p16-and-p14-laptops-with-nvidia-rtx-spark-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/07/asus-proart-p16-and-p14-laptops-with-nvidia-rtx-spark-launched-specs-price",
+      "summary": "Asus has finally launched the ProArt P16 and ProArt P14 laptops following their initial announcement at Computex 2026. These machines feature the all new Nvidia’s RTX Spark platform, which combines an Arm-based Grace CPU with a Blackwell RTX GPU to run massive AI models entirely on-device. Asus ProArt P16 &#38; ProArt P14 Specs The RTX [&#8230;] The post Asus launches ProArt P16 and P14 laptops wi",
+      "published": "2026-10-07T23:35:57+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6fc6cd06deb9428e",
+      "title": "Xbox Launches \"XP\" Division for TV Film, Movies, and Theme Parks",
+      "url": "https://www.techpowerup.com/353507/xbox-launches-xp-division-for-tv-film-movies-and-theme-parks",
+      "canonical": "https://www.techpowerup.com/353507/xbox-launches-xp-division-for-tv-film-movies-and-theme-parks",
+      "summary": "Xbox has launched a new division called XP, which stands for four Ps that will be combined under the brand: Pictures, Products, Places, and Partnerships. For Xbox Pictures, the division will focus on creating entertainment for audiences through worlds and characters developed internally by Xbox Game Studios, which will be featured in films, television, and nearly all forms of storytelling. Xbox Pr",
+      "published": "2026-10-08T13:07:04+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "44ad439d2e447682",
+      "title": "(PR) Senao Networks Releases x86 Enterprise Server Series",
+      "url": "https://www.techpowerup.com/353509/senao-networks-releases-x86-enterprise-server-series",
+      "canonical": "https://www.techpowerup.com/353509/senao-networks-releases-x86-enterprise-server-series",
+      "summary": "Senao Networks Inc. today announced the launch of its new x86 enterprise server portfolio, featured on the company's Senao computing website at www.senaocomputing.com. The portfolio includes the SR810, SR710, SR610, SE210, and SE110 and is designed to support a broad range of enterprise computing and AI workloads, including generative AI, AI inference, model fine-tuning, data analytics, visualizat",
+      "published": "2026-10-08T14:47:06+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6e45bce0ec4752e2",
+      "title": "Here's how thin the iPhone Air 2 will be despite having better battery life than its predecessor",
+      "url": "https://www.gsmarena.com/heres_how_thin_the_iphone_air_2_will_be_despite_having_better_battery_life_than_its_predecessor-news-74952.php",
+      "canonical": "https://www.gsmarena.com/heres_how_thin_the_iphone_air_2_will_be_despite_having_better_battery_life_than_its_predecessor-news-74952.php",
+      "summary": "According to a new rumor, the iPhone Air 2, expected to launch next spring alongside the iPhone 18 and iPhone 18e, will be even thinner than its predecessor. How thin? 5.2mm. That's 0.4mm less than the original iPhone Air from 2025. Obviously it's a tiny difference, but you can't really expect much since the iPhone Air was already very thin. [#InlinePriceWidget,13502,1#] The source of this leak al",
+      "published": "2026-10-08T15:17:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "32dbd17d6bf22a12",
+      "title": "Timex launches affordable Addison square watches with vintage charm and leather straps",
+      "url": "https://www.gizmochina.com/2026/10/08/timex-addison-square-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/08/timex-addison-square-watches-launched-specs-price",
+      "summary": "Timex has just released a new line of compact, square-case watches in the US market. The new Addison collection is a straightforward nod to traditional watchmaking, offering a very small footprint and a classic dial layout for buyers who prefer an understated look over a bulky smartwatch or oversized diver. Timex Addison Specifications Also ReadCasio [&#8230;] The post Timex launches affordable Ad",
+      "published": "2026-10-08T15:49:34+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "2つのヘッドが左右に交互に動く。新感覚のHAGOOGI「スカルプケアデバイス」がMakuakeに登場！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000073.000115864.html",
+      "summary": "",
+      "published": "2026-10-08T10:57:06+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "27998895d23c04d3"
+    },
+    {
+      "title": "初音ミク「デコミク(ライトネス)」「デコミク(ダークネス)」のフィギュアがPOP UP PARADEのLサイズで登場。あみあみにて、それぞれ予約受付中。",
+      "url": "https://prtimes.jp/main/html/rd/p/000003869.000025615.html",
+      "summary": "",
+      "published": "2026-10-08T10:20:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "4e8eba7d189fea41"
+    },
+    {
+      "title": "【新サービス】時計型ゴルフGPSが「今日のピン位置」に対応。リアルタイムピン位置サービス「オートピン APL(TM)（Auto Pin Location）」が日本上陸",
+      "url": "https://prtimes.jp/main/html/rd/p/000000022.000107318.html",
+      "summary": "[VC Japan株式会社] [画像1: https://prcdn.freetls.fastly.net/release_image/107318/22/107318-22-416f6a109dfc2ed7f205ea3a21f288fb-1000x1009.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&...",
+      "published": "2026-10-08T09:41:20+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a8c6fe8377ecf1a6"
+    },
+    {
+      "title": "「SEKAI NO OWARI 銀テープストラップ」カプセルトイ 大好評のvol.1の再販売と、待望のvol.2の発売が決定！2026年10月23日(金)より順次発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000728.000034304.html",
+      "summary": "",
+      "published": "2026-10-08T09:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a6ee20e1fb10b54d"
+    },
+    {
+      "title": "初回入荷分完売！使って楽しい、触ってハマる！「エアーマウス」×「フィジェット」の新感覚ガジェット「CheerPlay」待望のブラックカラーを販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000178.000043758.html",
+      "summary": "",
+      "published": "2026-10-08T05:30:59+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "b7b3285a1c20fee7"
+    },
+    {
+      "title": "【11/27発売】150社超の企業を支援する株式会社AX代表・石綿文太が、AI時代の経営変革「AX」を解説。著書『いちばんわかりやすい AXの教科書』KADOKAWAより刊行。Amazonで予約受付中",
+      "url": "https://prtimes.jp/main/html/rd/p/000000072.000171095.html",
+      "summary": "",
+      "published": "2026-10-08T05:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "7cd73117f7dc1269"
+    },
+    {
+      "title": "創業100周年のSTIHL、 次の100年を見据えた次世代バッテリーソリューション 「ALLPRO」と「MSA 260 C-O」を日本発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000020.000037571.html",
+      "summary": "",
+      "published": "2026-10-08T04:30:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "7fe64a3e9ffd2a50"
+    },
+    {
+      "title": "3,600lmの高輝度と4K（注1）表示に対応。家庭用プロジェクター『EH-LS7000』新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000868.000033845.html",
+      "summary": "",
+      "published": "2026-10-08T04:10:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "9d19295c8910d43b"
+    },
+    {
+      "title": "台湾発のAI企業Spingence Technology、日本市場での展開を加速",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000153662.html",
+      "summary": "",
+      "published": "2026-10-08T02:40:33+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "9525ee6496d17d1b"
+    },
+    {
+      "title": "【株式会社CIO】国産充電器がつくられる現場へ。Makuake「国産充電器プロジェクト」に工場見学・製造体験の追加リターンが登場",
+      "url": "https://prtimes.jp/main/html/rd/p/000000707.000043212.html",
+      "summary": "",
+      "published": "2026-10-08T02:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "488dd73a43cbfd6d"
+    },
+    {
+      "title": "毎日の仕事や学びに、“ちょうどいいノートパソコン”第3弾が登場。16GBメモリを搭載し、99,800円で提供「DIGI+Windows 11 Pro 15.6インチノート型PC」10月8日（木）新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000820.000035169.html",
+      "summary": "",
+      "published": "2026-10-08T02:05:27+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "9bd06650c20ff89c"
+    },
+    {
+      "title": "「腰のひねり」を数値で確認。ゴルフのスイングをサポートする3in1ゴルフエイミング「AIMTEMPO」がGREEN FUNDINGでプロジェクト開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000121.000114048.html",
+      "summary": "",
+      "published": "2026-10-08T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "371be10d1cc4e778"
+    },
+    {
+      "title": "Casefinite、薄型ケース「The Frost Air」から、質感と使い心地を追求した AirPods / AirPods Pro対応ケースを新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000056.000093351.html",
+      "summary": "",
+      "published": "2026-10-08T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "9b46d37c533f6ff8"
+    },
+    {
+      "title": "通訳から会話の要約・AI議事録まで。AI通訳イヤホン「Timekettle W4 Plus」、Makuakeで先行予約販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000004.000179245.html",
+      "summary": "",
+      "published": "2026-10-08T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "e0c15bb7ae5d7755"
+    },
+    {
+      "title": "生成AI品質評価ツール「GENFLUX Evaluation」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000068.000019103.html",
+      "summary": "",
+      "published": "2026-10-08T01:10:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "56ee0669ae113cf7"
+    },
+    {
+      "title": "AIR TWOKYOからアニメ『刃牙道』グッズコレクションが10月8日（木）(10:00JST)販売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000049.000064883.html",
+      "summary": "",
+      "published": "2026-10-08T01:10:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "14a20606c7323756"
+    }
+  ]
+}
