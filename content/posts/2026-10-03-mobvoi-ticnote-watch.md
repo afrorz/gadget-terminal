@@ -13,6 +13,12 @@ tags:
 - スマートウォッチ
 - AI文字起こし
 - ウェアラブル
+alternatives:
+- name: "Plaud NotePin S"
+  why: "身に着けて録音し、文字起こしと要約までこなすウェアラブルAIボイスレコーダー。Plaud公式店が販売"
+  url: https://item.rakuten.co.jp/plaud/0199284031340/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/plaud/cabinet/12090111/13193056/13193080/1.jpg"
 faq:
 - q: TicNote Watchはいくらですか
   a: 掲載時点で通常価格は249ドル、期間限定の発売記念価格は199ドルです。TicNote.aiとAmazon（米国向け）で販売されています。

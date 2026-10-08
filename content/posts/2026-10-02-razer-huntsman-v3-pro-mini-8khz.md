@@ -13,6 +13,12 @@ tags:
 - 60%キーボード
 - ラピッドトリガー
 - 8KHz
+alternatives:
+- name: "Logicool G PRO X 60 LIGHTSPEED"
+  why: "60%サイズのゲーミングキーボード。ロジクール公式ストアが販売する日本語配列の国内正規品"
+  url: https://item.rakuten.co.jp/logicool/g-pkb-60-001lnbk/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/logicool/cabinet/prd/g_kb/g-pkb-60-001ln/g-pkb-60-001ln_011.jpg"
 faq:
 - q: Razer Huntsman V3 Pro Mini 8KHzはいくらですか
   a: Razer公式の米国ページで179.99ドルから、日本の公式ページで30,880円からと掲載されています（いずれも掲載時点）。色や構成によって価格が分かれます。

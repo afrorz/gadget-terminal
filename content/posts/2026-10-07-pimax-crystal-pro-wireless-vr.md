@@ -13,6 +13,12 @@ tags:
 - PC VR
 - ワイヤレスVR
 - 60GHz
+alternatives:
+- name: "Meta Quest 3 512GB"
+  why: "ケーブル無しで遊べるVRヘッドセット。Meta公式ストアで販売される国内正規品"
+  url: https://item.rakuten.co.jp/meta/9089224147192/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg"
 faq:
 - q: Pimax Crystal Proはいくらですか
   a: 発表時の価格は、本体のみが1,399ドル、60G AirLinkキットとのセットが1,899ドル、キット単体が599ドルです。1ドルで予約できます。

@@ -13,6 +13,12 @@ tags:
 - ファンレス
 - Intel N150
 - ミニPC
+alternatives:
+- name: "HiMeLE Quieter 4C N150"
+  why: "Intel N150搭載のファンレスミニPC。ムラウチ取り扱いで国内で買える"
+  url: https://item.rakuten.co.jp/murauchi-denki/4529327899082/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/murauchi-denki/cabinet/m2/01239/4529327899082.jpg"
 faq:
 - q: NUC 14 Essential Fanlessの価格はいくらですか
   a: ASUS公式ページには価格の記載がなく、掲載時点で価格は確認できていません。

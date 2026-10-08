@@ -13,6 +13,12 @@ tags:
 - ゲームコントローラー
 - Xbox
 - 静電容量式
+alternatives:
+- name: "Xbox Elite ワイヤレス コントローラー シリーズ 2"
+  why: "Xbox/PC向けの背面パドル付きプロ向けコントローラー。マイクロソフト純正の国内正規品"
+  url: https://item.rakuten.co.jp/superdeal/12716msxboxheadset2305/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/superdeal/cabinet/09061004/09970951/4549576126906_01.jpg"
 faq:
 - q: Wolverine V4 Proはいくらですか
   a: Razer公式ページに「US$199.99から」と表示されています（掲載時点）。V4 Proと有線のTournament Editionのどちらの価格かは、公式ページの表記からは切り分けていません。

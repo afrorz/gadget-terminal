@@ -13,6 +13,12 @@ tags:
 - レバーレス
 - 格闘ゲーム
 - Switch 2
+alternatives:
+- name: "FightBox F10-EX-PC-V2"
+  why: "16ボタンの全ボタン式レバーレスコントローラー。日本語マニュアル付きで国内ショップが販売"
+  url: https://item.rakuten.co.jp/goodselectshop/fb002/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/goodselectshop/cabinet/13283942/imgrc0355535726.jpg"
 faq:
 - q: Arcade Controller Proはいくらですか
   a: 価格は確認できていません。6月の発表時点でも、公式ページにも価格の記載はありません。

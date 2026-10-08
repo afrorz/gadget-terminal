@@ -23,6 +23,12 @@ sources:
   - title: PlayStation 5 compatible Nacon Revolution 5 Unlimited Gaming Controller Shows Off A Built-in Screen
     url: https://www.yankodesign.com/2026/10/05/playstation-5-compatible-nacon-revolution-5-unlimited-gaming-controller-shows-off-a-built-in-screen/
     publisher: Yanko Design
+alternatives:
+- name: "DualSense Edge ワイヤレスコントローラー"
+  why: "背面ボタンやスティック交換に対応するPS5向けのカスタマイズ可能コントローラー。ソニー・インタラクティブエンタテインメントの純正品"
+  url: https://item.rakuten.co.jp/book/18780277/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/7938/4948872417938.jpg"
 faq:
   - q: いくらですか
     a: Naconの米国ストアのページでは、掲載時点で199.90ドルと表示されています。一方、報道では199.99ユーロ、229.99ドル、179.99ポンドという希望小売価格が伝えられており、ドルの数字が食い違っています。購入前にストアで確認してください。

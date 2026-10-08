@@ -21,6 +21,12 @@ images:
   - url: "https://aurzen.com/cdn/shop/files/Aurzen_ZIP_Pro_projector_Ultra-Slim_Optical_Engine.webp?v=1789544065&width=3200"
     caption: 本体に内蔵される厚さ10.7mmの薄型光学エンジン部分の単体図
 credit: Aurzen公式サイト(aurzen.com)
+alternatives:
+- name: "Anker Nebula Capsule 3"
+  why: "Google TV搭載のモバイルプロジェクター。アンカー製で国内正規品"
+  url: https://item.rakuten.co.jp/d-shop1one/4571411215179/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/d-shop1one/cabinet/point3/4571411215179.jpg"
 faq:
   - q: 日本で買えますか
     a: New Atlasの報道によれば予約受付の対象地域は米国・英国・EUで、日本への発送は掲載時点で確認できていません。

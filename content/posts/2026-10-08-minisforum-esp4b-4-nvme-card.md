@@ -13,6 +13,12 @@ tags:
 - NVMe
 - OCuLink
 - 拡張カード
+alternatives:
+- name: "StarTech.com QUAD-M2-PCIE-CARD-B"
+  why: "PCIe 4.0 x16接続でM.2 NVMe SSDを4枚挿せる拡張カード。同じ用途の国内流通品"
+  url: https://item.rakuten.co.jp/synnexstore/zu20379/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/synnexstore/cabinet/ds_helper/zu203_012345678/zu20379.jpg"
 faq:
 - q: ESP4Bはいくらですか
   a: Minisforumの米国公式ストアでは、掲載時点でセール価格135.90ドル、通常価格169ドルです。
