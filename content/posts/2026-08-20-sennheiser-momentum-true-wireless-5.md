@@ -11,10 +11,18 @@ tags:
 - バッテリー交換
 - Bluetooth 6.0
 - aptX Lossless
-seo_title: MOMENTUM TW5はバッテリー交換式、299ドルで9/3発売
+seo_title: MOMENTUM TW5はバッテリー交換式、国内でも9/3発売
+x_hook: ユーザー自身でバッテリーを交換できる完全ワイヤレスイヤホン「MOMENTUM True Wireless 5」が、ゼンハイザーから国内でも発売された。9月3日発売、オープン価格で店頭想定は税込4万9,940円前後。
+japan:
+  status: 発売済み
+  checked: 2026-10-10
+  summary: Sonova Consumer Hearing Japan株式会社（ゼンハイザー）が2026年9月3日に国内発売した。オープン価格で、店頭想定価格は税込4万9,940円（税抜4万5,400円）。技適は総務省データベースに、Sonova Consumer Hearing GmbH名義の「MTW5」（認証番号201-250883、2026-02-10付）が載っており、本機の型番と見られるが、販売ページ側で型番の突き合わせまでは確認できていない。公開時点（8月20日）で既に国内発表があったのを見落としていた。
+  source:
+    title: ゼンハイザー、ユーザー自身でバッテリー交換可能なMOMENTUM True Wireless 5（Sonova Consumer Hearing Japan、PR TIMES）
+    url: https://prtimes.jp/main/html/rd/p/000000004.000168099.html
 faq:
 - q: 日本で買えますか
-  a: 掲載時点で日本発売の告知は確認できていません。前モデルのMOMENTUM True Wireless 4は国内正規販売されているため、後継機も国内投入される可能性はありますが、時期・価格は続報待ちです。
+  a: 買えます。Sonova Consumer Hearing Japanが2026年9月3日に国内発売しました。オープン価格で、店頭想定価格は税込4万9,940円です（2026年10月10日確認）。
 - q: いくらですか
   a: 米国価格は299.95ドルです（掲載時点、為替により円建て価格は変動します）。
 - q: いつ発売されますか
