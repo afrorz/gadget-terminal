@@ -2324,7 +2324,7 @@ img{max-width:100%}
 
 /* ── 特集ページ ───────────────────────────────────────────── */
 .nav-ft{--cat:#5fb0d9}
-.feature-intro{max-width:70ch;margin:0 auto 40px}
+.feature-intro{max-width:70ch;margin:32px auto 40px}
 .fp-updated{margin:14px 0 0;font-size:.78rem;color:var(--ink-3);
   font-family:var(--mono,ui-monospace,monospace);letter-spacing:.06em}
 
