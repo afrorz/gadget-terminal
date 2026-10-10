@@ -14,6 +14,12 @@ tags:
 - Kickstarter
 - クラウドファンディング
 - 写真・映像
+alternatives:
+- name: UGREEN NASync DH2300（2ベイNAS）
+  why: HDDを2台入れて常用するファイルサーバー用途の2ベイNASキットで、Joshin webの楽天店で国内販売されている。据え置き型で、携帯はできない。
+  url: https://item.rakuten.co.jp/jism/4595555318107-44-26682-n/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0037/4595555318107.jpg"
 faq:
 - q: PixelMobはいくらですか
   a: 掲載時点で確認できたKickstarterの価格は、標準版499ドル、Pro版899ドル、Proスターターコンボ1,099ドルです（9月1日付のGizmoCrowdの記事による）。単品の価格にはSSDが含まれず、別売りです。

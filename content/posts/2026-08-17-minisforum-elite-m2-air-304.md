@@ -19,6 +19,12 @@ buy:
   ships_jp: true
   giteki: 未取得
   note: Minisforum公式ストアはWi-Fi 6E・Bluetooth 5.4搭載と明記しているが、技適マークや日本向け認証への言及はない。海外から直接届く個人輸入の扱いになり、国際送料・関税が別に乗るほか国内保証・サポート窓口は付かない。無線機能を国内で使うには技適取得が必要。
+alternatives:
+- name: MINISFORUM LN150W（Intel N150搭載ミニPC）
+  why: Intel N150を積む小型デスクトップで、Joshin webの楽天店で国内販売されているため、輸入せずに今すぐ買える。
+  url: https://item.rakuten.co.jp/jism/4529327824275-41-77291-n/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0054/4529327824275.jpg"
 faq:
 - q: いくらですか
   a: ベアボーンズ版が263ドル（通常価格329ドル）、16GB RAMと500GB SSDを搭載した構成済みモデルが559ドルです。出荷はプリオーダー開始後、2026年9月初旬を予定しています。

@@ -30,6 +30,12 @@ sources:
 - title: THE 800XL
   url: https://www.retrogames.biz/products/the800xl
   publisher: Retro Games Ltd.（公式）
+alternatives:
+- name: Atari 2600+ パックマンエディション
+  why: 同じAtariブランドの復刻レトロゲーム機で、Joshin webの楽天店で国内販売されている。8ビット機ではなく、2600互換のカートリッジ機。
+  url: https://item.rakuten.co.jp/jism/4580717791171-54-47029-n/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0013/4580717791171.jpg"
 faq:
 - q: THE 800XLはいくらですか
   a: 予約価格は米国で219.99ドル、英国で199.99ポンド、欧州で219.99ユーロ、豪州で349ドル（豪ドル）です。掲載時点の発表値です。
