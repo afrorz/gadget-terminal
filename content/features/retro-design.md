@@ -1,5 +1,5 @@
 ---
-title: レトロデザインのガジェット、日本で買えるもの
+title: Playdateから、ファミコン柄のキーボードまで
 seo_title: レトロデザインのガジェット、日本で買えるもの
 slug: retro-design
 eyebrow: FEATURE / RETRO

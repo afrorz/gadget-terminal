@@ -1,5 +1,5 @@
 ---
-title: スマートグラス、日本で買えるもの
+title: Ray-Ban Metaから、文字が浮かぶメガネまで
 seo_title: スマートグラス・ARグラス、日本で正規に買えるもの
 slug: smart-glasses
 eyebrow: FEATURE / GLASSES

@@ -1,5 +1,5 @@
 ---
-title: 電子ペーパー端末、日本で買えるもの
+title: Kindleの次に選ぶ電子ペーパー端末
 seo_title: 電子ペーパー端末、日本で正規に買えるもの
 slug: eink-devices
 eyebrow: FEATURE / E INK
