@@ -16,7 +16,7 @@ images:
 credit: MeLE 公式ストア(store.mele.cn)
 alternatives:
 - name: MINISFORUM LN150W（Intel N150搭載ミニPC）
-  why: 同じIntel N150搭載の小型ミニPCで、Joshin webの楽天店で国内販売されている。ファンレスかどうかは確認していない。
+  why: 同じIntel N150搭載の小型ミニPCで、Joshin webの楽天店で国内販売されている。
   url: https://item.rakuten.co.jp/jism/4529327824275-41-77291-n/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0054/4529327824275.jpg"
