@@ -66,6 +66,44 @@ def load_site() -> dict:
     return yaml.safe_load(SITE_CFG.read_text(encoding="utf-8"))
 
 
+GITEKI_FEATURE_SLUG = "giteki"
+
+
+def link_giteki(body_html: str) -> str:
+    """記事本文の最初の「技適」を、技適の特集ページへのリンクにする。
+
+    技適の説明ページへ記事から入れるように。2026-10-11 本人了承。
+    毎朝の記事生成の指示は変えず、ビルドで自動で付ける（過去記事にも効く）。
+    リンクするのは <p>/<li> の本文中の最初の1か所だけ。見出し・既存リンク・
+    コード・タグの属性の中には入れない。本文が特集ページへのリンクを既に持つなら何もしない。
+    """
+    if not (FEATURES_DIR / f"{GITEKI_FEATURE_SLUG}.md").exists():
+        return body_html
+    href = u(f"features/{GITEKI_FEATURE_SLUG}.html")
+    if href in body_html or "技適" not in body_html:
+        return body_html
+
+    block = {"p", "li"}                                   # ここの中だけ対象
+    skip = {"a", "h1", "h2", "h3", "h4", "h5", "h6", "code", "pre", "script", "style"}
+    depth = {t: 0 for t in block | skip}
+    parts = re.split(r"(<!--.*?-->|<[^>]+>)", body_html, flags=re.S)
+    for i, part in enumerate(parts):
+        if part.startswith("<!--"):
+            continue
+        tag = re.match(r"<(/?)([a-zA-Z][a-zA-Z0-9]*)", part)
+        if tag:
+            name = tag.group(2).lower()
+            if name in depth and not part.endswith("/>"):
+                depth[name] = max(0, depth[name] + (-1 if tag.group(1) else 1))
+            continue
+        if part.startswith("<") or "技適" not in part:
+            continue
+        if sum(depth[t] for t in block) > 0 and sum(depth[t] for t in skip) == 0:
+            parts[i] = part.replace("技適", f'<a href="{href}">技適</a>', 1)
+            break
+    return "".join(parts)
+
+
 def parse_post(path: Path) -> dict | None:
     text = path.read_text(encoding="utf-8")
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
@@ -79,7 +117,7 @@ def parse_post(path: Path) -> dict | None:
         return None
 
     MD.reset()
-    meta["body_html"] = MD.convert(body_md)
+    meta["body_html"] = link_giteki(MD.convert(body_md))
     meta["slug"] = meta.get("slug") or path.stem
     meta["date"] = str(meta.get("date", datetime.now(JST).strftime("%Y-%m-%d")))
     # 更新日。日本上陸の続報を書き足したら、その確認日を更新日として扱う
