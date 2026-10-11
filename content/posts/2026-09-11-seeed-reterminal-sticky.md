@@ -21,6 +21,12 @@ images:
 - url: "https://www.seeedstudio.com/sticky/playground-registry/sticky-lotus/assets/sticky-lotus.webp"
   caption: カードゲーム用のライフカウンター表示。有志によるオープンソースファームウェアの一つ
 credit: Seeed Studio 公式製品ページ
+alternatives:
+- name: SwitchBot スマートデイリーステーション(Amazon.co.jp)
+  why: 同じ電子ペーパーで天気・予定・メモをまとめて表示するWi-Fi対応スマートディスプレイ。画面は7.5インチとより大きく、reTerminal Stickyのようなファームウェア書き換えはできないが、国内正規品として今日から購入・サポートを受けられる。
+  url: https://www.amazon.co.jp/dp/B0DBLDKVDW
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/switchbot/cabinet/09377790/12988198/12988202/imgrc0100120623.jpg?_ex=400x400"
 faq:
 - q: 日本で買えますか
   a: Seeed Studioの公式サイトから予約注文できますが、発送元は中国倉庫で、日本への発送可否は商品ページに明記されていません。掲載時点で日本の代理店での取り扱いは確認できていません。

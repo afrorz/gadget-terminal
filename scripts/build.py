@@ -2468,6 +2468,16 @@ def main() -> int:
     print(f"■ base_path: {BASE_PATH or '(ルート直下)'}")
 
     posts = [p for p in (parse_post(f) for f in sorted(POSTS_DIR.glob("*.md"))) if p]
+    # 同じ slug の記事が2本あると、後の記事が前の記事のページを黙って上書きする。
+    # 毎朝の記事生成が書いた製品を見落とし、同じ製品を2回書いていた(2026-10-11 に5組
+    # 見つかった)。ビルドを止めれば、検証を通らない記事は公開されない。
+    seen_slugs: dict[str, str] = {}
+    for p in posts:
+        if p["slug"] in seen_slugs:
+            sys.exit(f"✗ slug が重複しています: {p['slug']}\n"
+                     f"  {seen_slugs[p['slug']]} と {p['date']} の「{p['title']}」。"
+                     f"同じ製品なら新しいほうの記事を消す")
+        seen_slugs[p["slug"]] = f"{p['date']} の「{p['title']}」"
     features = []
     if FEATURES_DIR.exists():
         features = [f for f in (parse_feature(x)
