@@ -2477,6 +2477,10 @@ def main() -> int:
             if fm.get("title") and ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
                                                site["site"]["title"], PUBLIC / "note" / f"{f.stem}.png"):
                 notes += 1
+            # X 記事の表紙(横長 5:2)。note と同じ週まとめを X 記事にも出す(2026-10-11 開始)
+            if fm.get("title"):
+                ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"), site["site"]["title"],
+                           PUBLIC / "note" / f"{f.stem}-x.png", size=(1500, 600))
         if notes:
             print(f"■ note の見出し画像 {notes}枚")
 

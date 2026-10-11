@@ -96,8 +96,13 @@ def _wrap(draw, text: str, font, max_width: int, max_lines: int) -> list[str]:
     return lines
 
 
-def render(title: str, category_label: str, site_title: str, out_path: Path) -> bool:
-    """OGP画像を1枚書き出す。成功したら True。"""
+def render(title: str, category_label: str, site_title: str, out_path: Path,
+           size: tuple[int, int] = (W, H)) -> bool:
+    """OGP画像を1枚書き出す。成功したら True。
+
+    size は X 記事の表紙(横長 5:2)用。note の見出し画像は既定の 1200×630。
+    """
+    w, h = size
     if Image is None:
         return False
     f_title = _font("bold", 52)
@@ -106,31 +111,31 @@ def render(title: str, category_label: str, site_title: str, out_path: Path) -> 
     if not all([f_title, f_small, f_brand]):
         return False
 
-    img = Image.new("RGB", (W, H), BG)
+    img = Image.new("RGB", (w, h), BG)
     d = ImageDraw.Draw(img)
 
     pad = 88
 
     # 上端のアクセントバー
-    d.rectangle([0, 0, W, 8], fill=ACCENT)
+    d.rectangle([0, 0, w, 8], fill=ACCENT)
 
     # カテゴリ
     d.text((pad, 108), category_label, font=f_small, fill=ACCENT)
 
     # タイトル
-    lines = _wrap(d, title, f_title, W - pad * 2, 4)
+    lines = _wrap(d, title, f_title, w - pad * 2, 4)
     y = 168
     for ln in lines:
         d.text((pad, y), ln, font=f_title, fill=INK)
         y += 76
 
     # 下端：罫線＋ブランド
-    d.line([(pad, H - 108), (W - pad, H - 108)], fill=RULE, width=1)
-    cx, cy = pad + 9, H - 66
+    d.line([(pad, h - 108), (w - pad, h - 108)], fill=RULE, width=1)
+    cx, cy = pad + 9, h - 66
     d.ellipse([cx - 9, cy - 9, cx + 9, cy + 9], fill=ACCENT)
-    d.text((pad + 32, H - 80), site_title.upper(), font=f_brand, fill=INK)
+    d.text((pad + 32, h - 80), site_title.upper(), font=f_brand, fill=INK)
     label = "海外ガジェットの、まだ日本語で読めない話"
-    d.text((W - pad - d.textlength(label, font=f_small), H - 76), label, font=f_small, fill=INK_3)
+    d.text((w - pad - d.textlength(label, font=f_small), h - 76), label, font=f_small, fill=INK_3)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, "PNG", optimize=True)
