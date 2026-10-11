@@ -1354,34 +1354,58 @@ def ext_img(src: str, alt: str, *, lazy: bool = True, fallback: str = "") -> str
             f'referrerpolicy="no-referrer" onerror="{onerr}">')
 
 
-def render_gallery(p: dict) -> str:
-    """1枚目以外の製品画像をまとめて出す。1枚しか無ければ何も出さない。"""
-    imgs = p.get("images") or []
-    if len(imgs) < 2:
+def inline_photo(im: dict, title: str) -> str:
+    """本文中に差し込む製品写真1枚。切り抜かずに全体を見せる。読み込めなければ figure ごと消える。"""
+    cap = im.get("caption") or ""
+    credit = im.get("credit") or ""
+    parts = []
+    if cap:
+        parts.append(html.escape(cap))
+    if credit:
+        parts.append(f'<span class="inline-credit">出典: {html.escape(credit)}</span>')
+    figcap = f'<figcaption>{" ".join(parts)}</figcaption>' if parts else ""
+    return f'<figure class="inline-shot">{ext_img(im["url"], cap or title)}{figcap}</figure>'
+
+
+def insert_inline_media(body_html: str, media: list[str]) -> str:
+    """本文の各 <h2 の直前にメディアを1つずつ割り当てて差し込む（上から順）。
+
+    h2 は markdown が最上位にしか出さないので、分割しても表やリストの中には入らない。
+    スロットより多いメディアは最後のスロットにまとめる。h2 が無ければ本文の後ろに全部足す。
+    """
+    if not media:
+        return body_html
+    pieces = re.split(r"(?=<h2[\s>])", body_html)
+    # pieces[0] は最初の h2 より前の導入部。h2 で始まる断片がスロットになる
+    n_slots = len(pieces) - 1
+    if n_slots < 1:
+        return body_html + _media_group(media)
+    groups: list[list[str]] = [[] for _ in range(n_slots)]
+    for i, m in enumerate(media):
+        groups[min(i, n_slots - 1)].append(m)
+    out = [pieces[0]]
+    for g, piece in zip(groups, pieces[1:]):
+        out.append(_media_group(g) + piece)
+    return "".join(out)
+
+
+def _media_group(items: list[str]) -> str:
+    if not items:
         return ""
-    figs = []
-    for im in imgs[1:]:
-        cap = im.get("caption") or ""
-        figs.append(f'<figure class="shot">{ext_img(im["url"], cap or p["title"])}'
-                    + (f'<figcaption>{html.escape(cap)}</figcaption>' if cap else "")
-                    + "</figure>")
-    credit = imgs[0].get("credit") or ""
-    return ('<section class="gallery"><h2>製品画像</h2>'
-            f'<div class="gallery-grid">{"".join(figs)}</div>'
-            + (f'<p class="gallery-credit">出典: {html.escape(credit)}</p>' if credit else "")
-            + "</section>")
+    cls = "inline-media inline-media-grid" if len(items) > 1 else "inline-media"
+    return f'<div class="{cls}">{"".join(items)}</div>'
 
 
-def render_embeds(p: dict) -> tuple[str, bool]:
+def render_embeds(p: dict) -> tuple[list[tuple[str, str]], bool]:
     """front matter の embeds を、プラットフォーム公式の埋め込みHTMLに変換する。
 
     画像を自社サーバーにコピーせず、権利者が公開している投稿をそのまま表示する方式。
     転載にあたらないため、メーカー公式アカウントの製品写真を合法的に見せられる。
-    戻り値: (HTML, X埋め込みスクリプトが必要か)
+    戻り値: ([(種別, HTML), ...], X埋め込みスクリプトが必要か)。種別は x / youtube / link。
     """
     items = p.get("embeds") or []
     if not items:
-        return "", False
+        return [], False
     blocks, needs_x = [], False
     for e in items:
         kind = (e.get("type") or "").lower()
@@ -1389,37 +1413,36 @@ def render_embeds(p: dict) -> tuple[str, bool]:
         caption = html.escape(e.get("caption", ""))
         if kind in ("x", "twitter"):
             needs_x = True
-            blocks.append(
+            blocks.append(("x",
                 f'<figure class="embed embed-x">'
                 f'<blockquote class="twitter-tweet" data-lang="ja" data-dnt="true">'
                 f'<a href="{html.escape(url)}"></a></blockquote>'
-                f'{f"<figcaption>{caption}</figcaption>" if caption else ""}</figure>')
+                f'{f"<figcaption>{caption}</figcaption>" if caption else ""}</figure>'))
         elif kind == "youtube":
             vid = html.escape(e.get("id", ""))
-            blocks.append(
+            blocks.append(("youtube",
                 f'<figure class="embed embed-video">'
                 f'<iframe src="https://www.youtube-nocookie.com/embed/{vid}" '
                 f'title="{caption or "YouTube"}" loading="lazy" allowfullscreen '
                 f'referrerpolicy="strict-origin-when-cross-origin"></iframe>'
-                f'{f"<figcaption>{caption}</figcaption>" if caption else ""}</figure>')
+                f'{f"<figcaption>{caption}</figcaption>" if caption else ""}</figure>'))
         elif kind == "link":
             # 権利上そのまま出せない画像は、元記事へのリンクカードで代替する
             title = html.escape(e.get("title", url))
             pub = html.escape(e.get("publisher", ""))
-            blocks.append(
+            blocks.append(("link",
                 f'<figure class="embed embed-link">'
                 f'<a href="{html.escape(url)}" rel="nofollow noopener" target="_blank">'
                 f'<span class="embed-link-title">{title}</span>'
                 f'<span class="embed-link-pub">{pub} — 製品画像は元記事でご覧いただけます</span>'
-                f'</a></figure>')
-    return "\n".join(blocks), needs_x
+                f'</a></figure>'))
+    return blocks, needs_x
 
 
 def render_post(site: dict, p: dict, others: list[dict]) -> str:
     s = site["site"]
     cat = site["categories"].get(p.get("category"), {"label": "その他", "slug": "misc"})
-    embeds_html, needs_x = render_embeds(p)
-    gallery_html = render_gallery(p)
+    embed_blocks, needs_x = render_embeds(p)
     # 出発地 → 成田。この媒体がやっているのは「海外の製品を日本に着陸させること」なので、
     # 出所が分かる記事ではそれを1行で見せる。分からない記事では何も出さない。
     o_code, o_city = post_origin(site, p)
@@ -1429,24 +1452,26 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         route = (f'<span class="dot"></span><span class="meta-route">'
                  f'{html.escape(o_code)}{f" {html.escape(o_city)}" if o_city else ""}'
                  f'<i aria-hidden="true">✈</i>NRT 日本</span>')
-    # 最初の1本は本文の前に出す。下端に置くと誰も見ないため。
-    lead_embed, rest_embed = "", ""
-    if embeds_html:
-        parts = embeds_html.split("</figure>")
-        blocks = [x + "</figure>" for x in parts if x.strip()]
-        lead_embed = f'<section class="embeds embeds-lead">{blocks[0]}</section>' if blocks else ""
-        if len(blocks) > 1:
-            rest_embed = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
-                          + "".join(blocks[1:]) + '</section>')
-    embeds_html = rest_embed
-
-    # 動画がある記事は生成画像を出さない。実写のほうが情報量が多い。
-    # 動画が無く thumbnail がある場合は、そちらを実写として出す。
+    # ヒーローの優先順位: 1枚目の写真 → 最初のYouTube → 最初のその他の埋め込み → 生成カード。
+    # 写真が1枚目にある記事ではYouTubeも本文中に回すので、1枚目の写真が埋もれない。
     # 外部URLのときは自社サーバーに複製せず、権利者のサーバーを直接参照する。
     fallback = u("cards/" + p["slug"] + ".png")
+    imgs = p.get("images") or []
+    has_photo = bool(p.get("thumbnail"))
+    videos = [h for k, h in embed_blocks if k == "youtube"]
+    others = [h for k, h in embed_blocks if k != "youtube"]
+    lead_embed = ""
+    if has_photo:
+        inline_videos = videos
+    elif videos:
+        lead_embed, inline_videos = videos[0], videos[1:]
+    elif others:
+        lead_embed, others, inline_videos = others[0], others[1:], []
+    else:
+        inline_videos = []
     if lead_embed:
-        hero_block = lead_embed
-    elif p.get("thumbnail"):
+        hero_block = f'<section class="embeds embeds-lead">{lead_embed}</section>'
+    elif has_photo:
         th = str(p["thumbnail"])
         credit = p.get("thumbnail_credit")
         cap = (f'<figcaption class="hero-credit">出典: {html.escape(str(credit))}</figcaption>'
@@ -1458,6 +1483,11 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         hero_block = (f'<figure class="article-hero">'
                       f'<img src="{fallback}" '
                       f'alt="{html.escape(p["title"])}" width="1200" height="675"></figure>')
+    # 本文中に差し込むメディア。動くものが最も価値が高いので動画を先に、写真(2枚目以降)を続ける。
+    media = inline_videos + [inline_photo(im, p["title"]) for im in imgs[1:]]
+    body_with_media = insert_inline_media(p["body_html"], media)
+    embeds_html = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
+                   + "".join(others) + '</section>') if others else ""
     sources = ""
     if p["sources"]:
         rows = "".join(
@@ -1587,8 +1617,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ{upd_meta}{route}</p>
     {jp_html}
     {hero_block}
-    <div class="prose">{p['body_html']}</div>
-    {gallery_html}
+    <div class="prose">{body_with_media}</div>
     {embeds_html}
     {buy_html}
     {alts_html}
@@ -2132,16 +2161,14 @@ img{max-width:100%}
 .pick-callout-note{margin:0;font-size:14.5px;line-height:1.85}
 .pick-callout-bare{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--ink-3);display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
-.gallery{margin:44px 0 0}
-.gallery h2{font-size:16px;margin:0 0 14px}
-.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.gallery .shot{margin:0;background:var(--panel);border:1px solid var(--line);
-  border-radius:10px;overflow:hidden}
-.gallery .shot img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
-  background:var(--panel)}
-.gallery .shot figcaption{padding:8px 10px;font-size:11.5px;line-height:1.6;color:var(--ink-3)}
-.gallery-credit{margin:12px 0 0;font-size:11.5px;color:var(--ink-3)}
-@media (max-width:520px){.gallery-grid{grid-template-columns:1fr 1fr;gap:8px}}
+.inline-media{margin:28px 0}
+.inline-media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
+.inline-media .embed{margin:0}
+.inline-shot{margin:0;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.inline-shot img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
+.inline-shot figcaption{padding:9px 12px 10px;font-size:12.5px;line-height:1.7;color:var(--ink-3)}
+.inline-credit{display:block;margin-top:2px;font-size:11px;letter-spacing:.02em}
+@media (max-width:520px){.inline-media-grid{grid-template-columns:1fr}}
 .pick-callout-bare span{font-family:inherit;font-size:12.5px;letter-spacing:0;text-transform:none}
 @media(max-width:520px){.pick{grid-template-columns:72px 1fr}.pick-thumb img{height:48px}}
 .lead{margin-bottom:8px}
