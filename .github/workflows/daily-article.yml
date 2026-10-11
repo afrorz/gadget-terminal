@@ -267,7 +267,8 @@ jobs:
                画像ファイルを public/ や content/ に置くことは絶対にしない。
                確認用に /tmp へ落とすのはよい。front matter には権利者のURLを書く。
 
-            8. 【任意】実物が見える動画を1本つける。見つからなければ embeds を省略する。
+            8. 実物が見える動画を探す。**写真がそろった記事でも毎回探す**（写真と並べて本文に入る）。
+               見つからなければ embeds を省略する。
                a. WebSearch で「<製品名> YouTube review」「<製品名> hands-on」等を検索
                b. 必ず存在確認する。次を WebFetch して title と author_name が返ることを確認:
                   https://www.youtube.com/oembed?url=https%3A//www.youtube.com/watch%3Fv%3D<動画ID>&format=json
