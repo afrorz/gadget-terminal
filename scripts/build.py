@@ -1232,9 +1232,9 @@ def render_features_index(site: dict, features: list[dict]) -> str:
     if features:
         rows = "".join(
             f'<a class="fi" href="{u(f["path"])}">'
-            f'{thumbs(f)}'
             f'<p class="fi-eyebrow">{html.escape(str(f.get("eyebrow") or "FEATURE"))}</p>'
             f'<h2 class="fi-title">{html.escape(f["title"])}</h2>'
+            f'{thumbs(f)}'
             f'<p class="fi-lede">{html.escape(str(f.get("lede") or ""))}</p>'
             f'<p class="fi-count">{str(len(f["products"]))+"製品" if f["products"] else "解説"}</p></a>'
             for f in features)
@@ -2394,7 +2394,7 @@ img{max-width:100%}
 .fi{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:3px;
   padding:22px 24px;text-decoration:none;transition:border-color .15s}
 .fi:hover{border-color:var(--accent)}
-.fi-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:0 0 14px}
+.fi-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:12px 0 12px}
 .fi-thumbs img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;border:1px solid var(--rule);border-radius:2px;padding:4px;box-sizing:border-box}
 .fi-eyebrow{margin:0 0 6px;font-size:.7rem;letter-spacing:.14em;color:var(--ink-3)}
 .fi-title{margin:0 0 8px;font-size:1.12rem;line-height:1.4;color:var(--ink)}
