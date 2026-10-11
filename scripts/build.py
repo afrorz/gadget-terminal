@@ -659,7 +659,7 @@ def title_text(text) -> str:
     記事タイトルは「、」で区切った塊が長く、塊の途中で折り返せないせいで
     1行に余白を残したまま「、」ごとに改行され、段々に見えていた
     (2026-10-07 本人の指摘「途中で改行しなくてもいい」)。素のテキストにして、
-    文節単位の折り返しは CSS の word-break:auto-phrase に任せる。
+    折り返しは CSS に任せる(2026-10-11 から文節単位をやめ、1文字単位+行頭禁則)。
     """
     return html.escape(str(text))
 
@@ -2012,9 +2012,13 @@ img{max-width:100%}
 /* 日本語の折り返し。塊の途中では改行させない（jp() が挿入する span） */
 .nb{display:inline-block}
 /* 対応ブラウザ（Chromium系）では、塊の内部も文節単位で折り返す */
-.hero-title,.hero-sub,.article-title,.article-lede,.card-title,.card-excerpt,
-.pick-title,.pick-note,.pick-callout-note,.board-title,.prose p,.prose li,
+.hero-sub,.article-lede,.card-excerpt,
+.pick-note,.pick-callout-note,.prose p,.prose li,
 .prose td,.prose th,.faq dt,.faq dd{word-break:auto-phrase}
+/* タイトルは文節単位にしない。「手のひら」を「手の／ひら」と切るなど区切りを誤り、
+   切れ目でしか折り返せないので各行の右に余白が残って段々に見えた(2026-10-11
+   本人の指摘)。新聞・ニュースサイトと同じ1文字単位の折り返し+行頭禁則にする。 */
+.hero-title,.article-title,.card-title,.pick-title,.board-title,.fi-title{word-break:normal;line-break:strict}
 
 /* ── 出発案内板 ─────────────────────────────── */
 /* 案内板は明るいターミナルビルの中で光る実物の掲示板と同じで、
