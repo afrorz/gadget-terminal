@@ -8,6 +8,9 @@ weekly-note.yml が下書きを push したあとに呼ぶ。TamakoStock の GT 
 本文は Markdown と HTML の両方を送る。note の編集画面は HTML を貼ると
 見出し・太字・リンクを引き継ぐので、手直しが少なくて済む。
 
+同じ週の X 長文ポスト(data/note/<日付>-x.txt)が隣にあれば、本文を xLong、
+製品の写真(先頭4製品ぶん)を xImages として一緒に送る。無ければ送らない。
+
 送信に失敗しても下書き自体は GitHub に残っているので、exit 0 で警告だけ出す
 (notify_x.py と同じ考え方)。
 """
@@ -53,6 +56,25 @@ def main() -> int:
         # build.py が public/note/<日付>.png に作る見出し画像
         "headerImage": f"{base}/note/{path.stem}.png",
     }
+    xfile = path.with_name(f"{path.stem}-x.txt")
+    if xfile.is_file():
+        x_text = xfile.read_text(encoding="utf-8").strip()
+        payload["xLong"] = x_text
+        # 写真は X 長文の並び順にそろえる(冒頭のつかみに使う製品が note と違うことがある)。
+        # note の各製品は「写真 → … → 詳しくは: 記事URL」の順なので、写真を次の記事URLに結び付ける。
+        img_of: dict[str, str] = {}
+        pending = None
+        for line in body.splitlines():
+            m = re.match(r"^!\[[^\]]*\]\(([^)\s]+)\)", line)
+            if m:
+                pending = m.group(1)
+                continue
+            u = re.search(r"https://gadgetterminal\.com/posts/[\w.-]+\.html", line)
+            if u and pending:
+                img_of.setdefault(u.group(0), pending)
+                pending = None
+        order = re.findall(r"https://gadgetterminal\.com/posts/[\w.-]+\.html", x_text)
+        payload["xImages"] = [img_of[u] for u in dict.fromkeys(order) if u in img_of][:4]
     req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), method="POST",
                                  headers={"Content-Type": "application/json",
                                           "Authorization": f"Bearer {token}"})

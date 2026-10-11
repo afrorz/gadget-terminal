@@ -1,0 +1,30 @@
+Googleの日本法人が10月1日に出したGboardは、116個のキーがベルトに乗って指先へ流れてくる。押しに行くのではなく、キーが来る。今週の海外ガジェット5選です。
+
+1. Google Japan「Gboard くるくるバージョン」（GitHubで設計データを公開）
+4本のコンベアベルトに載った116個のキーが、目当ての位置まで動いてくるのを待って押す。毎年10月1日に風変わりなキーボードを出してきたGoogle Japanの今年の1台で、3Dプリント用データと基板、ファームウェアが公開されている。
+部品表の参照先はAmazon.co.jp、スイッチサイエンス、遊舎工房で、国内で部品をそろえやすい。
+https://gadgetterminal.com/posts/google-japan-gboard-conveyor-belt.html
+
+2. ASUS「Ascent QN10」（1,349ドル、約21万円から）
+18コアのSnapdragon X2 Eliteを載せた、130×130×40mm・0.7L未満のArm版WindowsミニPC。海外レビューでは、アイドル時はファンが止まり、最大でも53dBA。
+日本の発売日と価格は確認できておらず、無線を内蔵するが技適も確認できていない。
+https://gadgetterminal.com/posts/asus-ascent-qn10-snapdragon-x2-elite.html
+
+3. Bigme「HiBreak Dual 3」（569ドル、約9万円から）
+前面が6.13インチのE Inkスマホで、背面の5インチ液晶を磁石で付け外しできる。読書では外して薄く、動画のときだけ付ける。液晶付きは629ドル（約10万円）から、出荷は11月の予定。
+5GとWi-Fiを積む端末だが、総務省の技適データベースにDual 3の型番は見つからなかった。国内の販売も確認できていない。
+https://gadgetterminal.com/posts/bigme-hibreak-dual-3.html
+
+4. MBOX D69（79ドル、約1万円）
+6.9インチ・1280×480の細長いサブ画面で、USB-C1本でPCの横につなぐ。CPUやGPUの温度、Nixie管風の時計、歌詞、チャットの常時表示を切り替えて使う。Kickstarterで10月14日まで募集中で、出資は購入ではなく、配送は11月の予定。
+日本への発送が選べるかは確認できておらず、無線機能の記載はないので技適は論点になりにくい。
+https://gadgetterminal.com/posts/mbox-d69-mini-screen-kickstarter.html
+
+5. Pebble Round 2（予約受付中）
+電子ペーパーにタッチ操作を足した、ケース径41.5mmの丸型スマートウォッチ。電池は平均8日、ステンレスケースの検査で合格率15%の回もあり、全予約の出荷は12月末までかかる見込み。
+日本への発送と国内の取り扱いは確認できておらず、公式ブログに書かれた認証はFCC・CE・ICのみで、技適の記載はない。
+https://gadgetterminal.com/posts/pebble-round-2-starts-shipping.html
+
+価格は各記事の掲載時点、円は1ドル156円の目安です。詳しい記事はサイトで読めます。
+https://gadgetterminal.com/
+#ガジェット #海外ガジェット

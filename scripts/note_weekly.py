@@ -143,6 +143,30 @@ BANNED = [
 NEGATIVE_IN_TITLE = re.compile(r"未発売|未発表|未確認|未定|買えない")
 
 
+X_NEGATIVE_IN_HOOK = re.compile(r"日本未発売|技適未確認|未定")
+
+
+def check_x_long(text: str) -> list[str]:
+    """X の長文ポスト(data/note/<日付>-x.txt)の検査。X Premium は25,000字まで入るが、
+    読まれるのは800〜1,500字ほど。冒頭約140字が「さらに表示」の手前に出る。"""
+    errs = []
+    for marker in ("**", "##", "![", "！", "!"):
+        if marker in text:
+            errs.append(f"X長文: 使えない記号 {marker!r} があります(Markdown・感嘆符は不可)")
+    for pat, label in BANNED[1:]:
+        for m in pat.finditer(text):
+            errs.append(f"X長文 {label}: …{text[max(0, m.start() - 15):m.end() + 15]}…")
+    n = len(text.strip())
+    if not 600 <= n <= 2000:
+        errs.append(f"X長文: 長さが範囲外です({n}字。600〜2000字)")
+    m = X_NEGATIVE_IN_HOOK.search(text.strip()[:140])
+    if m:
+        errs.append(f"X長文: 冒頭140字に否定の結論があります: {m.group(0)}")
+    if not re.search(r"https://gadgetterminal\.com/posts/[\w.-]+\.html", text):
+        errs.append("X長文: サイトの記事URL(https://gadgetterminal.com/posts/…)がありません")
+    return errs
+
+
 def cmd_check(args) -> int:
     p = Path(args.file)
     text = p.read_text(encoding="utf-8")
@@ -188,6 +212,9 @@ def cmd_check(args) -> int:
     links = re.findall(r"https://gadgetterminal\.com/posts/[\w.-]+\.html", body)
     if len(links) < 3:
         errors.append(f"サイトの記事へのリンクが {len(links)}本しかありません")
+    xfile = p.with_name(f"{p.stem}-x.txt")
+    if xfile.is_file():
+        errors += check_x_long(xfile.read_text(encoding="utf-8"))
     for e in errors:
         print("NG ", e)
     print("OK  検査を通りました" if not errors else f"\n{len(errors)}件の問題があります")
