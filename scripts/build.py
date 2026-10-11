@@ -1953,7 +1953,7 @@ CSS = """
   /* 注意喚起。カテゴリ色(--cat)とは独立させる。技適の警告は記事の
      カテゴリで色が変わってよいものではない。 */
   --warn:#b4472b;
-  --max:1280px; --measure:36rem;
+  --max:1280px; --measure:37.5rem;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   --disp:"Space Grotesk","Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
   --sans:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
@@ -2226,7 +2226,7 @@ img{max-width:100%}
 .card-next:hover .cn-arrow{transform:translateX(6px)}
 
 /* ── 記事 ───────────────────────────────────── */
-.article-wrap{padding-top:38px}
+.article-wrap{padding-top:38px;container-type:inline-size}
 .article{max-width:var(--measure);margin:0 auto}
 .eyebrow-code{font-family:var(--mono);border:1px solid var(--cat);padding:2px 6px;
   border-radius:2px;margin-right:10px}
@@ -2238,7 +2238,7 @@ img{max-width:100%}
 .dot{width:3px;height:3px;border-radius:50%;background:var(--ink-3);display:inline-block}
 .article-hero{margin:0 0 30px;border-bottom:1px solid var(--rule)}
 .hero-credit{padding:8px 0 10px;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.03em}
-.article-hero img{display:block;width:100%;height:auto;max-height:220px;object-fit:cover;object-position:left center}
+.article-hero img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
 .prose{font-size:15.5px;line-height:1.9;color:var(--ink)}
 .prose h2{font-family:var(--disp);font-size:19px;line-height:1.5;margin:38px 0 14px;font-weight:700;
   letter-spacing:-.01em;padding-top:8px;position:relative}
@@ -2268,6 +2268,9 @@ img{max-width:100%}
 .embeds,.sources{margin-top:38px;padding-top:22px;border-top:1px solid var(--rule)}
 .embeds-lead{margin:0 0 30px;padding-top:0;border-top:0}
 .embeds-lead .embed{margin-bottom:0}
+/* 写真と動画だけ本文(600px)より広げて最大760pxにする。ガジェットは見た目が情報なので。
+   画面が狭いときは本文の枠いっぱい(cqw は .article-wrap の内側の幅)。2026-10-11 本人の指定 */
+.article-hero,.embeds-lead,.inline-media{width:min(760px,100cqw);margin-left:calc(50% - min(380px,50cqw));margin-right:0}
 .embeds h2,.sources h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
   text-transform:uppercase;color:var(--ink-3);margin:0 0 20px;font-weight:600}
 .embed{margin:0 0 30px}
