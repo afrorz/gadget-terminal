@@ -2332,7 +2332,7 @@ img{max-width:100%}
 .buy-caution{margin:14px 0 0;color:var(--ink-3);font-size:12.5px;line-height:1.85}
 /* 日本上陸の続報。記事の冒頭に置く。本文(公開時点の記録)と取り違えないよう、
    左の太い罫線とバッジで「後から足した情報」だと一目で分かる形にする。 */
-.jp-update{max-width:var(--measure);margin:22px 0 0;padding:14px 16px 12px;
+.jp-update{max-width:var(--measure);margin:22px 0 24px;padding:14px 16px 12px;
   background:var(--surface);border-left:3px solid var(--accent);border-radius:3px}
 .jp-head{margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:10px;
   font-family:var(--mono);font-size:11.5px;letter-spacing:.06em}
