@@ -1,0 +1,701 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T06:03:45.783775+09:00",
+  "stats": {
+    "fetched": 724,
+    "unique": 684,
+    "new": 219,
+    "clusters": 209,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "ec4a5c602c4b237f",
+      "title": "Global Xiaomi 18 Pro, Xiaomi 18 Pro Max appear on Geekbench as launch nears",
+      "url": "https://www.gizmochina.com/2026/10/11/global-xiaomi-18-pro-max-geekbench-listing/",
+      "canonical": "https://www.gizmochina.com/2026/10/11/global-xiaomi-18-pro-max-geekbench-listing",
+      "summary": "Xiaomi unveiled its Xiaomi 18 Pro and Xiaomi 18 Pro Max flagship smartphones in China last month. Soon after their debut, the company confirmed plans to bring the series to global markets. Now, benchmark listings suggest that international testing could already be underway, potentially pointing to an earlier overseas launch. Xiaomi 18 Pro series Geekbench [&#8230;] The post Global Xiaomi 18 Pro, X",
+      "published": "2026-10-11T14:25:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 benchmark",
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cf5c2122f8d9536f",
+      "title": "Activision DMCA Takes Down Vibe-Coded Call of Duty Browser Ports",
+      "url": "https://www.techpowerup.com/353601/activision-dmca-takes-down-vibe-coded-call-of-duty-browser-ports",
+      "canonical": "https://www.techpowerup.com/353601/activision-dmca-takes-down-vibe-coded-call-of-duty-browser-ports",
+      "summary": "Activision has reportedly issued a DMCA takedown against a set of unofficial Call of Duty browser ports made by developer Luckey Faraday. Faraday announced it on X, saying the publisher went after him for porting CoD games to the browser, that every related post was removed, and that every game is now offline. He also asked whether he is the first vibe coder to get a DMCA notice from a major gamin",
+      "published": "2026-10-11T15:48:38+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "XDA Developers"
+      ],
+      "related_urls": [
+        "https://www.xda-developers.com/activision-hits-vibe-coded-classic-call-of-duty-browser-ports-with-dmca-takedowns/"
+      ]
+    },
+    {
+      "id": "306bb42a6f420323",
+      "title": "Anker announces new 5kWh power station with 99-minute charging",
+      "url": "https://www.gizmochina.com/2026/10/11/anker-solix-s5000-5kwh-power-station-launch/",
+      "canonical": "https://www.gizmochina.com/2026/10/11/anker-solix-s5000-5kwh-power-station-launch",
+      "summary": "Anker has recently announced the SOLIX S5000, a portable power station with a 5,024Wh battery that will go on sale in the US on October 27. It has a list price of $3,599.99, but Anker is offering it for $2,499.99 at launch through its own store and Amazon. Buyers can also sign up for early [&#8230;] The post Anker announces new 5kWh power station with 99-minute charging appeared first on Gizmochin",
+      "published": "2026-10-11T04:21:22+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2b402ba5e646085a",
+      "title": "Casio launches Y2K-inspired Baby-G BA110MC watches in the US",
+      "url": "https://www.gizmochina.com/2026/10/11/casio-baby-g-ba110mc-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/11/casio-baby-g-ba110mc-watches-launched-specs-price",
+      "summary": "Casio has launched three new Baby-G watches in the US under its BA110MC series. The lineup includes the BA-110MC-2A in blue, BA-110MC-6A in purple, and BA-110MC-7A in white. All three models are priced at $145 each and are now available through Casio’s official US website. The new watches feature glossy finishes and metallic dial accents [&#8230;] The post Casio launches Y2K-inspired Baby-G BA110M",
+      "published": "2026-10-11T20:27:46+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "454608f8174e8a2f",
+      "title": "8.8-inch Android tablet launches with 4G LTE support for ~$278",
+      "url": "https://www.notebookcheck.net/8-8-inch-Android-tablet-launches-with-4G-LTE-support-for-278.1421024.0.html",
+      "canonical": "https://www.notebookcheck.net/8-8-inch-Android-tablet-launches-with-4G-LTE-support-for-278.1421024.0.html",
+      "summary": "The FPad9 is Headwolf's latest Android tablet, featuring a compact form factor and 4G LTE connectivity. It has landed in Japan with a regular price of ¥43,999, roughly translating to $278.",
+      "published": "2026-10-11T02:57:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": [
+        "https://www.notebookcheck.net/Affordable-Android-tablet-launches-with-11-inch-2-5K-display-for-132.1420906.0.html"
+      ]
+    },
+    {
+      "id": "d59987b131c2fc13",
+      "title": "New mini PC with Intel SoC and up to 64 GB RAM launches on Amazon",
+      "url": "https://www.notebookcheck.net/New-mini-PC-with-Intel-SoC-and-up-to-64-GB-RAM-launches-on-Amazon.1421375.0.html",
+      "canonical": "https://www.notebookcheck.net/New-mini-PC-with-Intel-SoC-and-up-to-64-GB-RAM-launches-on-Amazon.1421375.0.html",
+      "summary": "The Bosgame E7 is a new mini PC now available on Amazon, powered by an Intel SoC and supporting up to 64 GB of RAM. The system ships with a 512 GB SSD out of the box.",
+      "published": "2026-10-11T06:05:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 ships",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "562c1bbddc54aa3d",
+      "title": "Apple A20 outclasses Android rivals in our review: iPhone's lead is impressive",
+      "url": "https://www.notebookcheck.net/Apple-A20-outclasses-Android-rivals-in-our-review-iPhone-s-lead-is-impressive.1420909.0.html",
+      "canonical": "https://www.notebookcheck.net/Apple-A20-outclasses-Android-rivals-in-our-review-iPhone-s-lead-is-impressive.1420909.0.html",
+      "summary": "With the new A20 chip in the iPhone 18 Pro, Apple raises the bar for smartphone chips to new heights in our benchmark tests. The direct comparison with the Snapdragon 8 Elite Gen 5 in particular reveals just how large the gap is in single-core and AI tests.",
+      "published": "2026-10-11T12:08:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 benchmark",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cb08a9d3719c8373",
+      "title": "消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元",
+      "url": "https://www.ithome.com/1/011/713.htm",
+      "canonical": "https://www.ithome.com/1/011/713.htm",
+      "summary": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天表示，苹果计划本月晚些时候推出新款 iPad mini。新机的起步存储空间可能会有所提升， 但有意换机的用户得提前做好涨价的准备 。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元 （IT之家注：现汇率约合 5,359 元人民币） 。作为对比，现款 iPad mini 7 价格为 599 美元 （现汇率约合 4,017 元人民币） /4,799 元人民币。 据悉，新款 iPad mini 将首次采用 OLED 屏幕，配备重新设计的机身。预计将拥有全新扬声器系统，搭载性能更强的芯片。目前我们尚不清楚这款 OLED 面板的规格水平，并且该屏幕是否支持 120Hz 高刷，行业人士也存在相互矛盾的说法。",
+      "published": "2026-10-11T15:12:21+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/OLED-iPad-Mini-8-to-be-significantly-pricier-than-iPad-Mini-7.1421608.0.html",
+        "https://9to5mac.com/2026/10/11/ipad-mini-oled-higher-price/"
+      ]
+    },
+    {
+      "id": "78a6917968a4493f",
+      "title": "LineageOS 24 Released, Another Game Boy Emulator On E Ink, and turn A PSP Into Raspberry Pi-Powered PC: Liliputing News Roundup",
+      "url": "https://liliputing.com/lineageos-24-released-another-game-boy-emulator-on-e-ink-and-turn-a-psp-into-raspberry-pi-powered-pc-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/lineageos-24-released-another-game-boy-emulator-on-e-ink-and-turn-a-psp-into-raspberry-pi-powered-pc-liliputing-news-roundup",
+      "summary": "The PSPi 6 turns the PlayStation Portable (PSP-1000) into a modern emulation handheld (and PC) with a custom board that lets you use a Raspberry Pi Zero, Zero 2W, or CM4 for brains • Microsoft is moving to standardize printer drivers, meaning that newer models should work well with most PCs running Windows 10 21H2 or newer • E Ink displays used for eReaders and electronic labels usually only suppo",
+      "published": "2026-10-11T18:18:51+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 handheld",
+        "+4 e ink",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2ac5af12667e04c6",
+      "title": "SPECviewperf 15.0.1 Linux Edition Released: Linux’s Key Graphics Benchmark Adds Arm Support",
+      "url": "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support/",
+      "canonical": "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support",
+      "summary": "SPEC has released version 15.0.1 of SPECviewperf Linux Edition, bringing a slew of upgrades and official Arm support to Linux's key workstation graphics benchmark suite. We are taking a look at those changes, and what performance is like on some modern systems The post SPECviewperf 15.0.1 Linux Edition Released: Linux&#8217;s Key Graphics Benchmark Adds Arm Support appeared first on ServeTheHome .",
+      "published": "2026-10-10T21:00:43+00:00",
+      "source_id": "servethehome",
+      "source": "ServeTheHome",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 benchmark",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1b456e05c0ccc041",
+      "title": "GTA 6 Leaker Claims to Have Full Build, Threatens to Release It Unless Take-Two Apologizes",
+      "url": "https://www.techpowerup.com/353589/gta-6-leaker-claims-to-have-full-build-threatens-to-release-it-unless-take-two-apologizes",
+      "canonical": "https://www.techpowerup.com/353589/gta-6-leaker-claims-to-have-full-build-threatens-to-release-it-unless-take-two-apologizes",
+      "summary": "The notorious leaker known as Cyberleek is now threatening to release what is claimed to be a playable build of GTA 6 ahead of the game's November 19 launch. According to a post on the leaker's own website, the build supposedly includes the full story mode, playable through to the end credits. The threat comes with two conditions. The build would apparently go out if a meme coin tied to the leaker",
+      "published": "2026-10-11T00:21:37+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/software/linux/cyberleek-threatens-full-gta-6-build-leak-unless-take-two-apologizes-and-his-usd30-million-crypto-memecoin-goal-is-met-leaker-demands-physical-release-while-pumping-solana-memecoin-to-usd30m"
+      ]
+    },
+    {
+      "id": "aab27618ec00acbd",
+      "title": "Xiaomi launches ultra-thin 10000mAh 45W magnetic power bank with silicon-carbon battery tech",
+      "url": "https://www.gizmochina.com/2026/10/10/xiaomi-10000mah-wpb1026s-magnetic-power-bank-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/10/xiaomi-10000mah-wpb1026s-magnetic-power-bank-launched-specs-price",
+      "summary": "Xiaomi has launched the new 10000mAh 45W Ultra-Thin Magnetic Power Bank (WPB1026S). It is now available on Xiaomi Youpin for 399 yuan ($60). The launch follows the release of the similarly specced WPB1025S model earlier this year. Xiaomi 10K 45W Magnetic Power Bank Specifications Also ReadBest Magnetic Power Banks for iPhone 17 &#38; Galaxy S26 [&#8230;] The post Xiaomi launches ultra-thin 10000mA",
+      "published": "2026-10-10T22:54:34+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 power bank",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "546f992fb3657b9f",
+      "title": "Weekly poll results: the vivo X Fold6 is hot, but its price can singe your wallet",
+      "url": "https://www.gsmarena.com/weekly_poll_results_the_vivo_x_fold6_is_hot_but_its_price_can_singe_your_wallet-news-74962.php",
+      "canonical": "https://www.gsmarena.com/weekly_poll_results_the_vivo_x_fold6_is_hot_but_its_price_can_singe_your_wallet-news-74962.php",
+      "summary": "As if foldables weren’t expensive enough, the skyrocketing costs of memory chips raised their prices even further – and that’s a problem for the vivo X Fold6. Not just for it, of course, the other foldables that it is competing with are in the same boat. Still, even among those who want a foldable phone, the largest contingent is people wishing for a price cut. In last week’s poll, we listed sever",
+      "published": "2026-10-11T02:46:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 price",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "af4c9302015cd71f",
+      "title": "REDMI Monitor Arm launches with five-way adjustment, supports monitors up to 9kg",
+      "url": "https://www.gizmochina.com/2026/10/11/redmi-monitor-arm-launches-with-five-way-adjustment-supports-monitors-up-to-9kg/",
+      "canonical": "https://www.gizmochina.com/2026/10/11/redmi-monitor-arm-launches-with-five-way-adjustment-supports-monitors-up-to-9kg",
+      "summary": "Xiaomi just added another practical desk accessory under the REDMI brand. The new REDMI Monitor Arm is listed for sale on Xiaomi Youpin. It’s a budget-friendly way to free up desk space and get a better viewing angle without spending much. It is priced at 299 yuan (around $44) and comes with a 5-year replacement [&#8230;] The post REDMI Monitor Arm launches with five-way adjustment, supports monit",
+      "published": "2026-10-11T20:56:06+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3cbb0954fb3b3fd3",
+      "title": "App replaces PS Portal, cloud streaming PS5 games console-free to Steam Deck or Windows",
+      "url": "https://www.notebookcheck.net/App-replaces-PS-Portal-cloud-streaming-PS5-games-console-free-to-Steam-Deck-or-Windows.1421241.0.html",
+      "canonical": "https://www.notebookcheck.net/App-replaces-PS-Portal-cloud-streaming-PS5-games-console-free-to-Steam-Deck-or-Windows.1421241.0.html",
+      "summary": "Asobi: Remote Play overcomes many limitations of Sony’s first-party programs. Reducing reliance on PS5 consoles, the app offers PS Portal features like cloud streaming of purchased games. The new version 1.0 works on the Steam Deck, Windows handhelds, and PCs.",
+      "published": "2026-10-11T02:17:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 handheld",
+        "+3 steam deck",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "04588418db5816ac",
+      "title": "Sandisk NAS 800 1.92TB SSD Review: Endurance at a premium",
+      "url": "https://www.tomshardware.com/pc-components/ssds/sandisk-nas-800-1-92tb-ssd-review",
+      "canonical": "https://www.tomshardware.com/pc-components/ssds/sandisk-nas-800-1-92tb-ssd-review",
+      "summary": "The Sandisk NAS 800 is a high-end PCIe 5.0 NVMe SSD built for NAS workloads, with high endurance, strong sustained write performance, and low 4KB random latency. It’s mainly held back by its high price.",
+      "published": "2026-10-11T13:05:59+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0e8fb958596351df",
+      "title": "5 Reasons why a foldable iPad Duo is a BAD Idea",
+      "url": "https://www.yankodesign.com/2026/10/11/5-reasons-why-a-foldable-ipad-duo-is-a-bad-idea/?utm_source=rss&utm_medium=rss&utm_campaign=5-reasons-why-a-foldable-ipad-duo-is-a-bad-idea",
+      "canonical": "https://www.yankodesign.com/2026/10/11/5-reasons-why-a-foldable-ipad-duo-is-a-bad-idea",
+      "summary": "5 Reasons why a foldable iPad Duo is a BAD Idea Exactly a month and 2 days ago, John Ternus unveiled Apple&#8217;s first foldable phone. It&#8217;s been a decade in the making, Apple&#8217;s done a whole...",
+      "published": "2026-10-11T17:20:36+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "526331e42ac7f7f1",
+      "title": "Xiaomi launches safer 10,000mAh power bank with 55W fast charging and retractable cable",
+      "url": "https://www.notebookcheck.net/Xiaomi-launches-safer-10-000mAh-power-bank-with-55W-fast-charging-and-retractable-cable.1421018.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-launches-safer-10-000mAh-power-bank-with-55W-fast-charging-and-retractable-cable.1421018.0.html",
+      "summary": "Xiaomi has released a new 10,000mAh power bank with a retractable USB-C cable in China. Also with a display and up to 55W fast charging, it includes additional USB-C and USB-A ports for charging three devices simultaneously. The new model is also said to offer improved protection against battery-related fires and explosions.",
+      "published": "2026-10-10T23:03:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 power bank",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "28b3227b48de7a95",
+      "title": "Xiaomi Watch S5 review",
+      "url": "https://www.gsmarena.com/xiaomi_watch_s5_review-news-73952.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_watch_s5_review-news-73952.php",
+      "summary": "Introduction, unboxing People love the Xiaomi Watch S models and with good reason. They're affordable (€150 from Amazon), they're feature-rich and capable, but probably more important than anything else, they're great-looking. Model five is no different and, this editor argues, is even prettier than before, making it even more desirable. There's a noticeable uptick in refinement and perceived qual",
+      "published": "2026-10-11T00:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1534a0c6b1eda7e8",
+      "title": "Creality launches new 3D printer that swaps between four nozzles in five seconds",
+      "url": "https://www.notebookcheck.net/Creality-launches-new-3D-printer-that-swaps-between-four-nozzles-in-five-seconds.1421372.0.html",
+      "canonical": "https://www.notebookcheck.net/Creality-launches-new-3D-printer-that-swaps-between-four-nozzles-in-five-seconds.1421372.0.html",
+      "summary": "Creality has opened pre-sales in China for the K3, a four-nozzle multicolor 3D printer. The company says nozzle swaps take roughly five seconds, cutting print times by 80% and filament waste by about 85% against single-nozzle multicolor machines.",
+      "published": "2026-10-11T05:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 3d printer",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "86907be2bd8ad6b6",
+      "title": "CUDA 生态优势推动 RTX Spark 笔记本热销，微软 128GB 内存版 Surface Laptop Ultra 开始在美国缺货",
+      "url": "https://www.ithome.com/1/011/677.htm",
+      "canonical": "https://www.ithome.com/1/011/677.htm",
+      "summary": "IT之家 10 月 11 日消息，微软美国官网显示，Surface Laptop Ultra 笔记本 128GB 统一内存、1TB SSD 配置已经缺货，该产品定价 5,899.99 美元 （IT之家注：现汇率约合 39,570 元人民币） ，其他较低配置机型仍可购买。 结合科技媒体 Wccftech 报道，这款笔记本迅速售罄的原因可能与早期供应有限有关，但由于微软没有公布详细数据，我们无法验证这种说法的真实性。另一方面， 这款笔记本能够支持 CUDA 生态 ，因此只要仔细考虑这类笔记本面向的客户群体，就不难理解其快速售罄的缘由。 对 AI 开发者和创作者来说，Surface Laptop Ultra 这类支持 CUDA 生态的超大内存笔记本显得非常实用。 大多数 AI 框架 、 推理引擎和创意工具都优先针对 CUDA 开发 ，因此用户购买设备后可以直接运行现有工具，无需费力寻找替代方案。",
+      "published": "2026-10-11T10:38:04+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/nvidia-cuda-moat-rtx-spark-laptop-sales-surface-laptop-ultra-128gb-out-of-stock/"
+      ]
+    },
+    {
+      "id": "b06509105189e5ff",
+      "title": "Tales of Eternia Remastered worldwide launch details",
+      "url": "https://www.notebookcheck.net/Tales-of-Eternia-Remastered-worldwide-launch-details.1421459.0.html",
+      "canonical": "https://www.notebookcheck.net/Tales-of-Eternia-Remastered-worldwide-launch-details.1421459.0.html",
+      "summary": "Tales of Eternia Remastered launches worldwide on October 16, 2026, on PS5, PS4, Switch 2, Switch, Xbox Series X|S, and PC. See the new modes, difficulties, and PC specs.",
+      "published": "2026-10-11T10:54:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d8531762a3458385",
+      "title": "Oppo Find X10 Pro Max: Global version apparently further downgraded beyond the battery",
+      "url": "https://www.notebookcheck.net/Oppo-Find-X10-Pro-Max-Global-version-apparently-further-downgraded-beyond-the-battery.1421533.0.html",
+      "canonical": "https://www.notebookcheck.net/Oppo-Find-X10-Pro-Max-Global-version-apparently-further-downgraded-beyond-the-battery.1421533.0.html",
+      "summary": "It is already pretty safe to say that the upcoming Hasselblad camera flagship will have a smaller battery globally compared to China. There could, however, be further diverging specs between China- and global models. Some of the downgrades currently being reported by a Reddit user, seem somewhat arbitrary. Evidence for these claims will only be available at launch or after tests.",
+      "published": "2026-10-11T11:10:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "73ce21d1f818ead5",
+      "title": "Arzopa D10 WiFi Digital Photo Frame Review",
+      "url": "https://www.gizmochina.com/2026/10/11/arzopa-d10-wifi-digital-photo-frame-full-review/",
+      "canonical": "https://www.gizmochina.com/2026/10/11/arzopa-d10-wifi-digital-photo-frame-full-review",
+      "summary": "We capture hundreds of photographs with our smartphones, but most of them eventually get buried in our galleries or cloud storage. Digital photo frames offer a convenient way to revisit those memories without constantly scrolling through our phones. Arzopa, a brand primarily known for its portable monitors, has brought its D10 WiFi Smart Digital Picture [&#8230;] The post Arzopa D10 WiFi Digital P",
+      "published": "2026-10-11T13:06:59+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e57b931786e6eee8",
+      "title": "微软为 Linux 7.4 贡献 Hyper-V 半虚拟化 IOMMU 驱动，已进入-next 分支",
+      "url": "https://www.ithome.com/1/011/700.htm",
+      "canonical": "https://www.ithome.com/1/011/700.htm",
+      "summary": "IT之家 10 月 11 日消息，据科技媒体 Phoronix 今天报道，微软为即将发布的 Linux 7.4 贡献全新内核驱动。目前该驱动已进入 IOMMU 子系统的 -next 分支，可在 Hyper-V 的 Linux 客户机虚拟机使用。 据介绍，这款半虚拟化 IOMMU 驱动可通过 HYPERV_PVIOMMU Kconfig 配置选项启用。 可让 Hyper-V 上的 Linux 客户机为分配给虚拟机的设备 ， 提供内核级 DMA 保护 。 IT之家从原报道获悉，该驱动同时适用于 Intel VT-d 和 AMD IOMMU 系统。如果进展顺利，Linux 7.4 正式版预计将在 12 月底发布。",
+      "published": "2026-10-11T13:32:33+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Phoronix"
+      ],
+      "related_urls": [
+        "https://www.phoronix.com/news/MS-Paravirt-Hyper-V-IOMMU"
+      ]
+    },
+    {
+      "id": "f41ab2a4eedd2486",
+      "title": "Huawei Watch D3 in for review",
+      "url": "https://www.gsmarena.com/huawei_watch_d3_in_for_review-news-74981.php",
+      "canonical": "https://www.gsmarena.com/huawei_watch_d3_in_for_review-news-74981.php",
+      "summary": "Huawei's unique line of health-obsessed Watch D series' latest model is the Watch D3, and it's better in almost every way compared to its predecessor (review here). We'll get to that, but first, let's unbox it. You get a similar haul to the D2, but here too there are improvements. The magnetic wireless charging puck ends in a USB-C connection (finally), not USB-A like last year. You get an M-sized",
+      "published": "2026-10-11T14:31:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d07bcaeaf89522b2",
+      "title": "消息称荣耀 WIN Pad 平板搭载 8.4 英寸 240Hz OLED 屏，本月发布",
+      "url": "https://www.ithome.com/1/011/711.htm",
+      "canonical": "https://www.ithome.com/1/011/711.htm",
+      "summary": "IT之家 10 月 11 日消息，据博主 @体验more 爆料，荣耀 WIN Pad 平板搭载第五代骁龙 8 至尊版处理器，配备 8.4 英寸 240Hz OLED 平板、主动散热风扇，和 iQOO Pad Pro 都是本月发布。 据博主 @数码闲聊站 于 9 月 21 日爆料， 荣耀 WIN2 系列 +WIN Pad 小平板确定 10 月发布 。据其爆料，荣耀 WIN2 系列顶配搭载骁龙 8EE6（第六代骁龙 8 超级至尊版处理器）+ 主动散热风扇 + 超高刷 OLED ，今年唯一万级大电池的 2nm 新机。小平板搭载骁龙 8E5（第五代骁龙 8 至尊版处理器）+ 主动散热风扇 +8 英寸级别超高刷 OLED，没有 5G 通信版本。 此外，该博主 @数码闲聊站 后续再爆料，荣耀 WIN Pad 小平板将拥有黑 / 银两种配色，搭载 8.4 英寸左右的 OLED 挖孔屏，刷新率干到 240",
+      "published": "2026-10-11T14:55:18+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Honor-Win-Pad-compact-gaming-tablet-to-sport-240-Hz-OLED-display-and-cooling-fan.1421620.0.html"
+      ]
+    },
+    {
+      "id": "f06df9bc9702b4c0",
+      "title": "Anbernic RG DDS brings 3DS-inspired design and Snapdragon power to dual-screen gaming",
+      "url": "https://www.yankodesign.com/2026/10/11/anbernic-rg-dds-brings-3ds-inspired-design-and-snapdragon-power-to-dual-screen-gaming/?utm_source=rss&utm_medium=rss&utm_campaign=anbernic-rg-dds-brings-3ds-inspired-design-and-snapdragon-power-to-dual-screen-gaming",
+      "canonical": "https://www.yankodesign.com/2026/10/11/anbernic-rg-dds-brings-3ds-inspired-design-and-snapdragon-power-to-dual-screen-gaming",
+      "summary": "Anbernic RG DDS brings 3DS-inspired design and Snapdragon power to dual-screen gaming Following the success of RG DS and the more recent RG DS Plus, Anbernic is taking its dual-screen handheld lineup in a more powerful direction...",
+      "published": "2026-10-11T15:20:17+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 handheld",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6ec3ef0c2275a5cf",
+      "title": "Apple’s Upcoming iPad mini 8 Will Arrive With A Plethora Of Upgrades, But The Company’s Rumored Price Won’t Make It Any Easier To Upgrade",
+      "url": "https://wccftech.com/apple-ipad-mini-8-upgrades-rumored-price-hike/",
+      "canonical": "https://wccftech.com/apple-ipad-mini-8-upgrades-rumored-price-hike",
+      "summary": "After two years, Apple will finally introduce a successor to its A17 Pro-powered iPad mini 7, with the iPad mini 8 expected to be unveiled during the company’s event scheduled to happen this month. According to the latest report, there will be sufficient upgrades arriving to the compact tablet, and as exciting as that sounds, Cupertino isn’t going to make the burden on your wallet any less painful",
+      "published": "2026-10-11T15:33:07+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 unveil",
+        "+3 price",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9a3fdce3c8384c8e",
+      "title": "Gears of War: E-Day launch errors and official fixes",
+      "url": "https://www.notebookcheck.net/Gears-of-War-E-Day-launch-errors-and-official-fixes.1421622.0.html",
+      "canonical": "https://www.notebookcheck.net/Gears-of-War-E-Day-launch-errors-and-official-fixes.1421622.0.html",
+      "summary": "Gears of War: E-Day is out now. Here are the official fixes for matchmaking issues, the quentin-ephyra error on Xbox, and sign-in problems on PC from The Coalition.",
+      "published": "2026-10-11T18:16:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": []
+}
