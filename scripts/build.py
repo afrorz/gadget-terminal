@@ -2226,7 +2226,7 @@ img{max-width:100%}
 .card-next:hover .cn-arrow{transform:translateX(6px)}
 
 /* ── 記事 ───────────────────────────────────── */
-.article-wrap{padding-top:38px;container-type:inline-size}
+.article-wrap{padding-top:38px}
 .article{max-width:var(--measure);margin:0 auto}
 .eyebrow-code{font-family:var(--mono);border:1px solid var(--cat);padding:2px 6px;
   border-radius:2px;margin-right:10px}
@@ -2268,9 +2268,6 @@ img{max-width:100%}
 .embeds,.sources{margin-top:38px;padding-top:22px;border-top:1px solid var(--rule)}
 .embeds-lead{margin:0 0 30px;padding-top:0;border-top:0}
 .embeds-lead .embed{margin-bottom:0}
-/* 写真と動画だけ本文(600px)より広げて最大760pxにする。ガジェットは見た目が情報なので。
-   画面が狭いときは本文の枠いっぱい(cqw は .article-wrap の内側の幅)。2026-10-11 本人の指定 */
-.article-hero,.embeds-lead,.inline-media{width:min(760px,100cqw);margin-left:calc(50% - min(380px,50cqw));margin-right:0}
 .embeds h2,.sources h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
   text-transform:uppercase;color:var(--ink-3);margin:0 0 20px;font-weight:600}
 .embed{margin:0 0 30px}
