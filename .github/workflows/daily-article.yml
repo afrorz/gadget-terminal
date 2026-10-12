@@ -399,9 +399,11 @@ jobs:
                   → front matter の YAML が壊れていないか。コロン(:)を含む値は必ずダブルクォートで囲む
                b. pip install -r requirements.txt --break-system-packages -q && python3 scripts/build.py
                   → 「記事 N本」の N が、書いた本数だけ増えていることを確認
-               c. python3 scripts/checklinks.py content/posts/<TODAY>-*.md
-                  → merchant の誤り・代替品の画像抜けがあれば失敗する。直すか、その代替品を消す。
-                    「収益リンク0本」の△だけなら合格
+               c. python3 scripts/checklinks.py content/posts/<TODAY>-*.md --check-alive
+                  → merchant の誤り・代替品の画像抜け・商品ページが存在しない(HTTP 404 など)があれば失敗する。
+                    直すか、その代替品を消す。「収益リンク0本」の△だけなら合格。
+                    Amazon の URL は検索結果や記憶から型番(ASIN)を推測して作らない。実在しない ASIN が
+                    過去に5本公開され、報酬ゼロのまま放置されていた(2026-10-12 発覚)。
                   python3 scripts/checkimages.py content/posts/<TODAY>-*.md
                   → 画像が無い記事、URLが死んでいる画像があれば失敗する。手順7に戻る。
                     画像を用意できない記事は削除し、別の候補で書き直す

@@ -34,12 +34,6 @@ faq:
   a: 組み立て要の入門モデル「Builder」が99ドル(MSRP149ドル)、AIチャット対応の「Buddy」が139ドル、センサー拡張した「Scout」が199ドルです(いずれもKickstarterの掲載時点価格)。
 - q: いつ届きますか
   a: Petoiは2026年12月からの出荷を予定しています。クラウドファンディングのため、遅延の可能性があります。
-alternatives:
-- name: Petoi Bittle V2 STEMキット(Amazon.co.jp)
-  why: Quaddleと同じPetoiが手がける先代の四足歩行ロボットキットで、クラウドファンディングの出荷を待たずに国内から今日購入できる。OpenCatの開発環境を先に試しておきたい場合に使える。
-  image: "https://www.petoi.com/cdn/shop/files/black_yellow_light_blue_bittle_stands_with_text.png?v=1775845824"
-  url: https://www.amazon.co.jp/dp/B0F8C51DPT
-  merchant: amazon
 buy:
 - name: Petoi Quaddle(Buddyモデル)
   url: https://www.kickstarter.com/projects/petoi/quaddle-open-source-desktop-robot-kit
@@ -79,4 +73,4 @@ STEM教育向けの四足歩行ロボットキットを手がけるPetoiが、�
 
 **技適は無線機能を使う場合だけの問題になる。** BuddyとScoutのAIコアはWi-Fi・Bluetoothで音声対話やスマートホーム連携を行うが、掲載時点で技適取得の情報は無い。一方でQuaddleはRaspberry Pi ZeroやPCとのUART(有線)接続でもプログラミング・制御ができる設計のため、無線機能を使わずに有線接続だけで動かせば技適の対象外で合法的に使える。AIチャットやスマートホーム連携を無線で使いたい場合は、技適取得の有無を別途確認したほうがよい。
 
-**待たずに近い体験をしたいなら、先代モデルが国内にある。** Petoiの前作「Bittle V2」STEMキットは、Amazon.co.jpから今日購入できる。Quaddleと同じOpenCat環境で開発できるため、Kickstarterの出荷を待つ間の練習用としても使える。
+**先代モデルの「Bittle」は、国内の販売店では確認できていない。** Petoi公式ストアでは販売されているが、日本への発送条件と技適の扱いは確認できていない。Quaddleと同じOpenCat環境で開発できるため、試すならまずOpenCatのソフト側から触れておくのが現実的だ。

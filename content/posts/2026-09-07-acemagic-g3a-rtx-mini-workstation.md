@@ -43,10 +43,10 @@ buy:
   giteki: 未取得
   note: ACEMAGIC公式ストアは日本を含むアジア地域への配送に対応していない。転送サービスを使って個人輸入した場合も、技適未確認のWi-Fi 6E/Bluetooth 5.2を使うのは避け、有線LANでの運用を前提にしたほうがよい。2年保証(2025年8月以前の購入は3年)も国内では実質的に受けられない。
 alternatives:
-- name: MINISFORUM AtomMan G7 Ti(Core i9-14900HX/RTX 4070)
-  why: 同じ「デスクトップ級CPU+専用GPUのミニPC」という用途を国内正規販売で満たす。Amazon.co.jpのMinisforum公式ストアが扱っており、日本語サポートと保証を受けられる。GPUはRTX 4070とG3AのRTX 2000 Adaよりゲーミング性能寄りだが、価格帯とサイズ感は近い。
-  image: "https://www.minisforum.com/cdn/shop/files/front_1200x1200.jpg?v=1731310417"
-  url: https://www.amazon.co.jp/dp/B0DF5J86J7
+- name: MINISFORUM G1 Pro(Ryzen 9 8945HX/RTX 5060)
+  why: 同じ「高性能CPU+専用GPUのミニPC」という用途を国内で満たす。Amazon.co.jpのMINISFORUM JP直営店が販売している。GPUはゲーミング向けのRTX 5060で、G3Aのワークステーション向けRTX 2000 Adaとは性格が違う。
+  image: "https://m.media-amazon.com/images/I/71iW+ZAdlFL._AC_SL1500_.jpg"
+  url: https://www.amazon.co.jp/dp/B0GFSSQMLQ
   merchant: amazon
 ---
 

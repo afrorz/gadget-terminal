@@ -24,10 +24,10 @@ faq:
 - q: どのCPUソケットに対応していますか
   a: Intel LGA1851/1700/1200/115X、AMD AM5/AM4に対応します。AM5用にはコールドプレート位置を最適化するオフセットブラケットが付属します。
 alternatives:
-- name: 【マラソンセール中 P10倍!】 DeepCool LS720 ブラック 水冷クーラー
+- name: DeepCool LS720 ブラック 水冷クーラー
   why: 同じ360mm ARGB水冷クーラーで、国内で正規に流通しており保証・サポートも受けやすい。新興ブランドの流通不安を避けて同クラスの性能を今日から選べる。
-  url: https://www.amazon.co.jp/dp/B0B5TZ486Y
-  merchant: amazon
+  url: https://item.rakuten.co.jp/freiheit-cars/ft-deep-2/
+  merchant: rakuten
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/freiheit-cars/cabinet/pc2/deep-2-0.jpg?_ex=400x400
 sources:
 - title: XERON Launches NEX L360 ARGB AIO Liquid CPU Coolers at Gamescom 2026
