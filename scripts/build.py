@@ -1141,12 +1141,22 @@ def parse_feature(path: Path) -> dict | None:
     return meta
 
 
-def feature_product(item: dict, n: int = 0) -> str:
+def merchant_of(url: str) -> str:
+    """URL のドメインから国内ECの merchant を引く。対象外なら空文字。"""
+    host = urlparse(url).netloc.lower()
+    for m, hosts in MERCHANT_HOSTS.items():
+        if any(host == h or host.endswith("." + h) for h in hosts):
+            return m
+    return ""
+
+
+def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
     """製品1件を、記事の一節として縦に組む。
 
     横並びのカードにすると比較表になってしまい、上から読ませる記事にならない。
     見出し → 大きな写真 → 本文 → 事実の箱 → リンク、の順に置く。
     本文は空行で段落に割る。ここが記事の実体なので、いちばん広く取る。
+    戻り値: (HTML, アフィリエイトリンクか)
     """
     key = str(item.get("availability") or "").strip()
     label, tone = AVAIL_STYLE.get(key, ("判定なし", "bad"))
@@ -1172,8 +1182,15 @@ def feature_product(item: dict, n: int = 0) -> str:
                if credit else "")
         shot = f'<figure class="fp-shot">{ext_img(img, name)}{cap}</figure>'
 
+    # 特集の製品は merchant を書かせず、URL のドメインで決める（楽天・Amazon の
+    # 店舗ページをそのまま貼る運用のため）。2026-10-12 まで変換を通しておらず、
+    # 特集の購入ボタンは全部素のリンクで報酬が発生していなかった。
+    is_aff = False
+    if url:
+        url, is_aff = affiliate_url(s, url, merchant_of(url))
+    rel = "nofollow sponsored noopener" if is_aff else "noopener nofollow"
     buy = (f'<a class="fp-buy" href="{html.escape(url)}" target="_blank" '
-           f'rel="noopener nofollow">購入ページを開く</a>') if url else ""
+           f'rel="{rel}">購入ページを開く</a>') if url else ""
     src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
                 f'rel="noopener">確認したソース</a>') if src else ""
 
@@ -1192,13 +1209,20 @@ def feature_product(item: dict, n: int = 0) -> str:
     <dt>技適</dt><dd>{giteki or "&mdash;"}</dd>
   </dl>
   <p class="fp-links">{buy}{src_link}</p>
-</section>"""
+</section>""", is_aff
 
 
 def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     s = site["site"]
-    items = "".join(feature_product(x, i) for i, x in enumerate(f["products"], 1))
+    parts = [feature_product(s, x, i) for i, x in enumerate(f["products"], 1)]
+    items = "".join(h for h, _ in parts)
     grid = f'<div class="fp-list">{items}</div>' if items else ""
+    # ステマ規制。記事と同じく、アフィリエイトリンクがある特集はページ上部で示す。
+    disclosure = ""
+    if any(a for _, a in parts):
+        text = str((s.get("affiliate") or {}).get("disclosure") or "この記事にはアフィリエイト広告を含みます")
+        disclosure = f'<p class="ad-notice">{html.escape(text)}</p>'
+
 
     excluded = ""
     if f["excluded"]:
@@ -1242,6 +1266,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     <p class="hero-sub">{bold_em(str(f.get('lede') or ''))}</p>
     {upd_html}
   </section>
+  {disclosure}
   <div class="prose feature-intro">{f['body']}</div>
   {grid}
   {excluded}
