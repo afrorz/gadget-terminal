@@ -53,6 +53,9 @@ products:
 
       XREALは日本法人を持ち、日本語の公式ショップを運営しています。**国内で買えるARグラスとしては最も選択肢が揃ったメーカーです。** 上位モデルのXREAL One Pro（84,980円）は視野角が57度に広がります。ただ、初めての1台ならまず1Sで十分です。度付きのレンズを入れる専用フレームも公式で扱っています。
     url: https://jp.shop.xreal.com/products/xreal-1s
+    rakuten:
+      url: https://item.rakuten.co.jp/xreal/6976143801818/
+      shop: XREAL公式
     source: https://www.xreal.com/jp/1s
     availability: verified
   - name: OWNDAYS CONNECT

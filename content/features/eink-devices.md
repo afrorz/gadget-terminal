@@ -21,6 +21,9 @@ products:
 
       注意点は対応キャリアです。SKTの発売時の案内では、データ通信に対応するのは**ソフトバンク（ワイモバイル含む）のみ**でした。他社のSIMはAPNの変更機能を今後のアップデートで入れる予定とされています。ドコモ系・au系の回線で使うつもりなら、SKTが公開している対応SIMの情報を購入前に確認してください。スタイラス（InkSense Plus）は別売りです。
     url: https://sktnetshop.com/products/boox-palma2pro
+    rakuten:
+      url: https://item.rakuten.co.jp/sktn/boox-palma2pro-blk/
+      shop: SKTネットショップ
     source: https://prtimes.jp/main/html/rd/p/000000059.000033556.html
     availability: caution
   - name: BOOX Note Air6C
@@ -37,6 +40,9 @@ products:
 
       このあと紹介するKindle Scribe Colorsoftとは、ほぼ同じ用途を奪い合う関係です。違いは開かれ方にあります。Note Air6Cは**Androidでアプリを自由に入れられる**のに対し、Kindle Scribeは Amazonの仕組みの中で完結します。価格はNote Air6Cのほうが1万円ほど安い計算になります。
     url: https://sktgroup.co.jp/noteair6c/
+    rakuten:
+      url: https://item.rakuten.co.jp/sktn/boox-na6c/
+      shop: SKTネットショップ
     source: https://prtimes.jp/main/html/rd/p/000000065.000033556.html
     availability: verified
   - name: Kobo Libra Colour
@@ -85,6 +91,9 @@ products:
 
       この特集で唯一、**技適の心配が要らない製品**です。SKTの仕様表に載っている接続はType-C、Mini-HDMI、DC電源、3.5mmイヤホンジャックだけで、無線機能の記載がありません。電源は付属のDCアダプターから取り、同梱のアダプターは日本仕様でPSEを取得済みとSKTが明記しています。E Inkの画面は動画やスクロールの多い作業には向かないので、今のモニターを置き換えるのではなく、2枚目として足す使い方が現実的です。
     url: https://store.shopping.yahoo.co.jp/skt/dasung13k.html
+    rakuten:
+      url: https://item.rakuten.co.jp/sktn/dasung133/
+      shop: SKTネットショップ
     source: https://prtimes.jp/main/html/rd/p/000000064.000033556.html
     availability: verified
 excluded:

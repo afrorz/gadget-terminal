@@ -69,6 +69,9 @@ products:
 
       価格帯もこの特集のなかでは最も手を出しやすい部類です。**まず1つレトロなものをデスクに置いてみたい**という入口としても向いています。正規代理店はキーボードと同じONO貿易で、技適も国内正規流通品として通っています。
     url: https://8bitdo-jp.com/
+    rakuten:
+      url: https://item.rakuten.co.jp/r-kojima/6922621503583/
+      shop: コジマ
     source: https://prtimes.jp/main/html/rd/p/000000008.000084333.html
     availability: verified
 excluded:

@@ -37,6 +37,9 @@ products:
 
       購入はNothing公式の日本ストア(jp.nothing.tech)から直接でき、価格はセールで9,800円、通常12,800円(掲載時点)。ホワイトのほかイエロー・ブラックの展開があります。
     url: https://jp.nothing.tech/products/ear-a
+    rakuten:
+      url: https://item.rakuten.co.jp/nothingagent/nothing_ear_a/
+      shop: Nothing Japan公式
     source: https://support.nothing.tech/hc/ja
     availability: verified
   - name: ScreenBar Pro Silver
@@ -69,6 +72,9 @@ products:
 
       日本正規代理店の株式会社リンクスインターナショナルが自社ECサイト「リンクスダイレクト」で直接販売しており、価格は33,470円(税込、掲載時点)。
     url: https://www.links-direct.jp/view/item/000000012488
+    rakuten:
+      url: https://item.rakuten.co.jp/shoptsukumo/1545102013/
+      shop: ツクモ
     source: https://www.links.co.jp/item/hyte-y60-snow-white/
     availability: verified
   - name: iLoud Micro Monitor White
@@ -85,6 +91,9 @@ products:
 
       日本正規代理店のHookup, Inc.が取り扱い、サウンドハウスなど国内の楽器店でも購入できます。価格は60,500円(税込、価格.com調べ、掲載時点)。
     url: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
+    rakuten:
+      url: https://item.rakuten.co.jp/key/10040583/
+      shop: ミュージックランドKEY
     source: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
     availability: verified
   - name: K3 Max White
@@ -101,6 +110,9 @@ products:
 
       日本正規代理店のKOPEK JAPAN(SUPER KOPEK)が「国内正規代理店のKeychron製品は技適を取得した製品となる」と公式に明記しており、価格は19,360円(掲載時点)。
     url: https://superkopek.jp/products/keychron-k3max-white
+    rakuten:
+      url: https://item.rakuten.co.jp/keychron/kc-4894979044891/
+      shop: Keychron Japan公式
     source: https://superkopek.jp/products/keychron-k3max-white
     availability: verified
   - name: Soundcore Select 4 Go White
@@ -117,6 +129,9 @@ products:
 
       日本ではAnker Japan公式オンラインストア(ankerjapan.com)から直接購入でき、Amazon.co.jpでもAnker公式(AnkerDirect)が発送元として扱っています。価格は3,990円(税込、掲載時点)。
     url: https://www.ankerjapan.com/products/a31x1
+    rakuten:
+      url: https://item.rakuten.co.jp/anker/a31x1/
+      shop: アンカー・ダイレクト
     source: https://www.ankerjapan.com/products/a31x1
     availability: verified
 excluded:

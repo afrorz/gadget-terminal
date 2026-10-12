@@ -181,6 +181,26 @@ def main(argv: list[str]) -> int:
                     continue
             print(f"OK  {label}  (直販 {merchant or '素のリンク'} / 技適{giteki})")
 
+        # 特集(content/features)の製品に付けた楽天の購入先。
+        for x in (meta.get("products") or []):
+            rk = str((x.get("rakuten") or {}).get("url") or "").strip()
+            if not rk:
+                continue
+            label = f"{name}: {x.get('name')}（楽天）"
+            host = urlparse(rk).netloc.lower()
+            if not (host == "rakuten.co.jp" or host.endswith(".rakuten.co.jp")):
+                mismatch.append(label)
+                print(f"NG  {label}\n      rakuten の URL が {host}")
+                continue
+            if check_alive:
+                ok, why = alive(rk)
+                if ok is False:
+                    gone.append(label)
+                    print(f"NG  {label}\n      {why}\n      {rk}")
+                    continue
+            money_links += 1
+            print(f"OK  {label}")
+
         alts = [x for x in (meta.get("alternatives") or []) if x.get("name") and x.get("url")]
         if not alts:
             continue

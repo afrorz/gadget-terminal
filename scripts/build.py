@@ -1191,6 +1191,17 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
     rel = "nofollow sponsored noopener" if is_aff else "noopener nofollow"
     buy = (f'<a class="fp-buy" href="{html.escape(url)}" target="_blank" '
            f'rel="{rel}">購入ページを開く</a>') if url else ""
+    # 楽天にもメーカー公式店・大手販売店がある製品は、2つ目の購入先として出す。
+    # 特集は正規流通を勧めるページなので、転売価格の店や別型番のページは書かない。
+    rk = item.get("rakuten") or {}
+    rk_url = str(rk.get("url") or "").strip()
+    if rk_url:
+        rk_url, rk_aff = affiliate_url(s, rk_url, "rakuten")
+        is_aff = is_aff or rk_aff
+        shop = str(rk.get("shop") or "").strip()
+        label = f"楽天市場（{html.escape(shop)}）で見る" if shop else "楽天市場で見る"
+        buy += (f'<a class="fp-buy" href="{html.escape(rk_url)}" target="_blank" '
+                f'rel="{"nofollow sponsored noopener" if rk_aff else "noopener nofollow"}">{label}</a>')
     src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
                 f'rel="noopener">確認したソース</a>') if src else ""
 

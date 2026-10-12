@@ -37,6 +37,9 @@ products:
 
       6,000円台で買えるのに、技適も**機種そのものの名前で工事設計認証**が出ています。前の世代（Cardputer）も別の番号で認証済みです。
     url: https://www.switch-science.com/products/10737
+    rakuten:
+      url: https://item.rakuten.co.jp/marutsuelec/3652770/
+      shop: マルツオンライン
     source: https://docs.m5stack.com/ja/certification
     availability: verified
   - name: HHKB Studio
@@ -53,6 +56,9 @@ products:
 
       配列は日本語と英語、色は墨と雪。電源は単3電池4本かUSB給電です。キーボードの上で操作がほぼ完結するので、**マウスを置く場所がない机**で効いてきます。
     url: https://happyhackingkb.com/jp/products/studio/
+    rakuten:
+      url: https://item.rakuten.co.jp/pfudirect/pd-id120b/
+      shop: PFUダイレクト
     source: https://www.pfu.ricoh.com/news/2023/news231025.html
     availability: verified
   - name: Keyball44
@@ -101,6 +107,9 @@ products:
 
       この特集で見た目がいちばん「置物」寄りの1台ですが、技適は**型番OE918で工事設計認証が出ています**。国内の公式ストアから円建てで買えます。
     url: https://lofree.co.jp/products/lofree-block-wireless-mechanical-keyboard
+    rakuten:
+      url: https://item.rakuten.co.jp/jism/4570001395079-44-14770-n/
+      shop: Joshin web
     source: https://lofree.co.jp/products/lofree-block-wireless-mechanical-keyboard
     availability: verified
   - name: Voyager
@@ -133,6 +142,9 @@ products:
 
       上位のTourBox EliteはBluetooth対応ですが、技適の取得を確認できませんでした（下に理由を書いています）。**USB接続だけのNEOなら技適は関係ない**ため、こちらを載せています。
     url: https://www.tourboxtech.com/jp/tourbox-neo/
+    rakuten:
+      url: https://item.rakuten.co.jp/tourbox/10000004/
+      shop: TourBox公式
     source: https://www.tourboxtech.com/jp/tourbox-neo/
     availability: verified
 excluded:
