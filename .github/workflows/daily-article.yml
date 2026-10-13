@@ -35,7 +35,7 @@ concurrency:
 jobs:
   write:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 50
     permissions:
       contents: write
       id-token: write
@@ -79,8 +79,9 @@ jobs:
           # 1枚ずつ目視 → checkimages）で1記事あたりのターン数が大きく増えた。
           # 実測: 記事3本 + 画像で150ターン（120では足りず失敗扱いになった）。
           # 記事は書けているのに上限超過で落ちるので、超えたらここを上げる。
+          # gear（一緒に使うもの）の商品探しが加わったので 250 → 300（2026-10-13）。
           claude_args: |
-            --max-turns 250
+            --max-turns 300
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
           prompt: |
             あなたは合同会社スタープラチナが運営する海外ガジェットメディア「Gadget Terminal」
@@ -280,7 +281,7 @@ jobs:
 
                必須の項目: title / seo_title / x_hook / slug / keyword / category / date / kicker /
                            tags / images / credit / sources / faq
-               任意の項目: embeds / alternatives / buy / origin / deadline / status
+               任意の項目: embeds / alternatives / gear / buy / origin / deadline / status
                            （キュー・手動指定から書いた記事のみ pick / pick_note）
                - keyword はアイキャッチに入る短い語（製品名など全角10文字程度まで）
                - category は smartphone / pc / weird のどれか
@@ -367,6 +368,26 @@ jobs:
                  alternatives:
                    - name: 製品名
                      why: 技適取得済みで国内在庫あり。同じ用途を今日から使える。
+                     url: https://www.amazon.co.jp/dp/XXXXXXXXXX
+                     merchant: amazon
+                     image: "https://.../製品写真.jpg"
+
+               【gear】（任意。その製品を使う人が**実際に一緒に買う**周辺機器・消耗品を2〜3件）
+               alternatives（同じ用途の別の製品）とは別物。製品そのものも、alternatives と同じ物も入れない。
+               例: ミニPCならメモリ・SSD・キーボード、ゲームコントローラーならケース・充電器、
+               キーボードならキーキャップ、カメラならmicroSD・予備バッテリー・マウント。
+               **記事の製品に実際に合う物だけ。** 人気だが無関係な物（なんでも売れ筋）は入れない。
+               探し方: WebSearch で `site:amazon.co.jp <付属品の種類> <製品のカテゴリや規格>` を検索し、
+               出てきた商品ページが実在することを WebFetch で確かめる。**ASIN を記憶や推測で作らない。**
+               Amazon で確かめられないときだけ `python3 scripts/rakuten_search.py` で楽天を探す。
+                 - why に「なぜこの製品と合うか」を1行で書く（規格が合う、記事の弱点を補う、など）
+                 - url / merchant（amazon 優先、確かめられなければ rakuten）は alternatives と同じ決まり。
+                   image の扱いは alternatives と同じ（必須。メーカー公式の製品写真を目で確かめる）
+                 - 合うものが無ければ省く。gear が無いことは記事を見送る理由にしない
+               書式:
+                 gear:
+                   - name: 製品名
+                     why: 増設用のM.2スロットと同じ規格のSSDで、速度を余さず使える。
                      url: https://www.amazon.co.jp/dp/XXXXXXXXXX
                      merchant: amazon
                      image: "https://.../製品写真.jpg"

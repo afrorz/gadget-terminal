@@ -228,15 +228,9 @@ def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
     return tmpl.replace("{url}", quote(url, safe="")), True
 
 
-def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
-    """「今すぐ買えるオススメガジェット」セクション。
-
-    クラファン案件は出荷が先で技適も未取得のことが多い。読者が実際に取れる行動を
-    示すのが本来の目的で、アフィリエイトはその副産物として置く。
-    リンクが無効でもセクション自体は出す（編集上の価値はリンクと無関係のため）。
-    戻り値: (HTML, アフィリエイトリンクを含むか)
-    """
-    items = [x for x in (p.get("alternatives") or []) if x.get("name") and x.get("url")]
+def _alt_items_section(s: dict, items: list, heading: str, cls: str) -> tuple[str, bool]:
+    """alternatives と gear が共有する、サムネ付きの商品リスト。"""
+    items = [x for x in items if x.get("name") and x.get("url")]
     if not items:
         return "", False
     has_aff = False
@@ -256,8 +250,30 @@ def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
             f'<a href="{html.escape(link)}" rel="nofollow sponsored noopener" '
             f'target="_blank">{html.escape(str(x["name"]))}</a>{why}</div></li>')
     label = ('<span class="alt-ad">広告</span>' if has_aff else "")
-    return (f'<section class="alts"><h2>今すぐ買えるオススメガジェット{label}</h2>'
+    return (f'<section class="{cls}"><h2>{heading}{label}</h2>'
             f'<ul>{"".join(rows)}</ul></section>', has_aff)
+
+
+def alternatives_section(s: dict, p: dict) -> tuple[str, bool]:
+    """「今すぐ買えるオススメガジェット」セクション。
+
+    クラファン案件は出荷が先で技適も未取得のことが多い。読者が実際に取れる行動を
+    示すのが本来の目的で、アフィリエイトはその副産物として置く。
+    リンクが無効でもセクション自体は出す（編集上の価値はリンクと無関係のため）。
+    戻り値: (HTML, アフィリエイトリンクを含むか)
+    """
+    return _alt_items_section(s, p.get("alternatives") or [],
+                              "今すぐ買えるオススメガジェット", "alts")
+
+
+def gear_section(s: dict, p: dict) -> tuple[str, bool]:
+    """「一緒に使えるもの」セクション（front matter の gear）。
+
+    その製品を使う人が実際に一緒に買う周辺機器・消耗品。alternatives（別の製品）とは
+    役割が違い、製品そのものも alternatives と同じものも入れない。
+    戻り値: (HTML, アフィリエイトリンクを含むか)
+    """
+    return _alt_items_section(s, p.get("gear") or [], "一緒に使えるもの", "alts gear")
 
 
 def direct_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
@@ -1614,7 +1630,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     jp_html, jp_aff = japan_section(s, p)
     buy_html, buy_aff = buy_section(s, p)
     alts_html, alts_aff = alternatives_section(s, p)
-    has_aff = jp_aff or buy_aff or alts_aff
+    gear_html, gear_aff = gear_section(s, p)
+    has_aff = jp_aff or buy_aff or alts_aff or gear_aff
     modified = p.get("modified") or ""
     upd_meta = (f'<span class="dot"></span><span class="meta-updated">更新 {modified.replace("-", ".")}</span>'
                 if modified and modified > p["date"] else "")
@@ -1657,6 +1674,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {embeds_html}
     {buy_html}
     {alts_html}
+    {gear_html}
   {faq_html}
   {sources}
   </article>
@@ -2342,6 +2360,7 @@ img{max-width:100%}
   color:var(--ink-2);margin:0 0 16px;display:flex;align-items:center;gap:8px}
 .alt-ad{background:var(--rule-2);color:var(--ink-2);padding:2px 6px;border-radius:2px;letter-spacing:.1em}
 .alts ul{list-style:none;padding:0;margin:0}
+.alts.gear{margin-top:32px}
 .alt-item{margin:0 0 16px;display:flex;gap:14px;align-items:flex-start}
 .alt-thumb{flex:none;display:block;width:64px;height:64px;border-radius:4px;overflow:hidden;
   background:var(--surface);border:1px solid var(--rule)}

@@ -19,6 +19,22 @@ alternatives:
   url: https://item.rakuten.co.jp/murauchi-denki/4529327899082/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/murauchi-denki/cabinet/m2/01239/4529327899082.jpg"
+gear:
+- name: "Transcend ノートPC用メモリ DDR5-4800 16GB JM4800ASE-16G"
+  why: "メモリは最大32GB（DDR5-4800）のSO-DIMM。キット版は付属が無いので、同じ規格の16GBをそのまま挿せる"
+  url: https://www.amazon.co.jp/dp/B0B7NSMJ5G
+  merchant: amazon
+  image: "https://www.transcend-info.com/products/images/ModelPic/1258/DRAM_C_DDR5.png"
+- name: "Transcend M.2 NVMe SSD 1TB TS1TMTE115S"
+  why: "増設用のM.2 2280スロットはPCIe 3.0 x4。同じGen3 x4のSSDなら速度を余さず使える"
+  url: https://www.amazon.co.jp/dp/B0C5Y5K2K3
+  merchant: amazon
+  image: "https://www.transcend-info.com/products/images/ModelPic/1303/List_MTE115S.png"
+- name: "ロジクール MK295GP 静音ワイヤレスキーボード・マウスセット"
+  why: "USBレシーバー式で、OSの導入やBIOS設定の初回セットアップから使える。机の上に置くファンレス機と合わせても音が出ない"
+  url: https://www.amazon.co.jp/dp/B08K2RGTHY
+  merchant: amazon
+  image: "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/ja/products/combos/mk295-keyboard-mouse-combo/gallery/mk295-graphite-gallery-01-new.png"
 faq:
 - q: NUC 14 Essential Fanlessの価格はいくらですか
   a: ASUS公式ページには価格の記載がなく、掲載時点で価格は確認できていません。

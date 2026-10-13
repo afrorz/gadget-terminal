@@ -201,54 +201,57 @@ def main(argv: list[str]) -> int:
             money_links += 1
             print(f"OK  {label}")
 
-        alts = [x for x in (meta.get("alternatives") or []) if x.get("name") and x.get("url")]
-        if not alts:
-            continue
-
-        earning = 0
-        for x in alts:
-            url = str(x["url"]).strip()
-            merchant = str(x.get("merchant") or "").strip()
-            label = f"{name}: {x['name']}"
-
-            # 画像の無いおすすめは、並んだときに明らかに見劣りして押されない。
-            # 毎朝の記事生成に画像を付ける手順が無く、2026-09-28/29 の記事で
-            # 5件抜けていた(本人の指摘で発覚)。公開前にここで止める。
-            if not str(x.get("image") or "").strip():
-                no_image.append(label)
-                print(f"NG  {label}\n      image がありません → "
-                      f"python3 scripts/find_alt_images.py --apply で楽天から探すか、"
-                      f"メーカー公式ページの製品画像URLを書く(型番違い・付属品でないか目で確かめる)")
-
-            if not merchant:
-                # merchant なしは「対応ストアではない」の意思表示。事故ではない。
-                plain_links += 1
-                print(f"--  {label}\n      merchant なし（素のリンク）")
+        # alternatives（別の製品）と gear（一緒に使うもの）は同じ基準で検査する。
+        for field, jp_name in (("alternatives", "代替品"), ("gear", "一緒に使えるもの")):
+            alts = [x for x in (meta.get(field) or []) if x.get("name") and x.get("url")]
+            if not alts:
                 continue
-            if merchant not in live:
-                dead_merchant.append(label)
-                print(f"NG  {label}\n      merchant={merchant} は未提携。"
-                      f"報酬が発生しません → merchant を消すか {'/'.join(sorted(live))} に差し替える")
-                continue
-            host = urlparse(url).netloc.lower()
-            hosts = MERCHANT_HOSTS[merchant]
-            if not any(host == h or host.endswith("." + h) for h in hosts):
-                mismatch.append(label)
-                print(f"NG  {label}\n      merchant={merchant} だが URL は {host}")
-                continue
-            if check_alive:
-                ok, why = alive(url)
-                if ok is False:
-                    gone.append(label)
-                    print(f"NG  {label}\n      {why}\n      {url}")
+
+            earning = 0
+            for x in alts:
+                url = str(x["url"]).strip()
+                merchant = str(x.get("merchant") or "").strip()
+                label = (f"{name}: {x['name']}" if field == "alternatives"
+                         else f"{name}: [gear] {x['name']}")
+
+                # 画像の無いおすすめは、並んだときに明らかに見劣りして押されない。
+                # 毎朝の記事生成に画像を付ける手順が無く、2026-09-28/29 の記事で
+                # 5件抜けていた(本人の指摘で発覚)。公開前にここで止める。
+                if not str(x.get("image") or "").strip():
+                    no_image.append(label)
+                    print(f"NG  {label}\n      image がありません → "
+                          f"python3 scripts/find_alt_images.py --apply で楽天から探すか、"
+                          f"メーカー公式ページの製品画像URLを書く(型番違い・付属品でないか目で確かめる)")
+
+                if not merchant:
+                    # merchant なしは「対応ストアではない」の意思表示。事故ではない。
+                    plain_links += 1
+                    print(f"--  {label}\n      merchant なし（素のリンク）")
                     continue
-            earning += 1
-            money_links += 1
-            print(f"OK  {label}  ({merchant})")
+                if merchant not in live:
+                    dead_merchant.append(label)
+                    print(f"NG  {label}\n      merchant={merchant} は未提携。"
+                          f"報酬が発生しません → merchant を消すか {'/'.join(sorted(live))} に差し替える")
+                    continue
+                host = urlparse(url).netloc.lower()
+                hosts = MERCHANT_HOSTS[merchant]
+                if not any(host == h or host.endswith("." + h) for h in hosts):
+                    mismatch.append(label)
+                    print(f"NG  {label}\n      merchant={merchant} だが URL は {host}")
+                    continue
+                if check_alive:
+                    ok, why = alive(url)
+                    if ok is False:
+                        gone.append(label)
+                        print(f"NG  {label}\n      {why}\n      {url}")
+                        continue
+                earning += 1
+                money_links += 1
+                print(f"OK  {label}  ({merchant})")
 
-        if earning == 0:
-            no_money.append(name)
-            print(f"△   {name}: 代替品が {len(alts)}件あるが、報酬になるリンクは0本")
+            if earning == 0:
+                no_money.append(name)
+                print(f"△   {name}: {jp_name}が {len(alts)}件あるが、報酬になるリンクは0本")
 
     print(f"\n記事 {len(files)}本 / 収益リンク {money_links}本 / 素のリンク {plain_links}本"
           f" / 未提携 merchant {len(dead_merchant)}本 / ドメイン不一致 {len(mismatch)}本"
@@ -256,7 +259,7 @@ def main(argv: list[str]) -> int:
           f" / 画像なしのおすすめ {len(no_image)}件")
 
     if no_image:
-        print("\n公開できません。おすすめ欄(alternatives)の画像が無いものがあります。")
+        print("\n公開できません。おすすめ欄(alternatives / gear)の画像が無いものがあります。")
         return 1
     if dead_merchant or mismatch or gone:
         print("\n公開できません。代替品を "
