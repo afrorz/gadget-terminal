@@ -1,0 +1,841 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T06:57:20.550179+09:00",
+  "stats": {
+    "fetched": 709,
+    "unique": 667,
+    "new": 436,
+    "clusters": 416,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "0ecf719465641bd3",
+      "title": "Apple launches Home Collection featuring smart cameras, video doorbells, UWB locks & thermostats",
+      "url": "https://www.gizmochina.com/2026/10/13/apple-home-collection-smart-cameras-doorbells-locks-thermostats-launched/",
+      "canonical": "https://www.gizmochina.com/2026/10/13/apple-home-collection-smart-cameras-doorbells-locks-thermostats-launched",
+      "summary": "Apple is officially getting into the smart home hardware business. Today, the company announced the Apple Home Collection, a new line of accessories developed alongside LG Electronics and Schneider Electric. The lineup covers the standard basics of home automation: security cameras, a video doorbell, a smart lock, and smart thermostats. Specifications &#38; Pricing These devices [&#8230;] The post",
+      "published": "2026-10-13T21:28:35+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/apple_home_collection_launches_with_lg_and_schneider_cameras_thermostats_and_sensors-news-75026.php",
+        "https://9to5mac.com/2026/10/13/apple-unveils-apple-home-collection-smart-home-accessories-developed-with-lg-and-schneider/"
+      ]
+    },
+    {
+      "title": "Makuake｜車内で伸びる、くびれ形状。電動ポンプ内蔵エアマット「GABIRO」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/gabiro/",
+      "summary": "リターン品の配送が完了するまで、INA企画はTAESAN LEISUREの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。GABIROとは車中泊を、もっと簡単に。快適に。GABIROは、車内で手軽に快適な寝床をつくるための、電動ポンプ内蔵エアマットです。車内に広げてダイヤルを回すと、マットが伸びながら膨らみます。空気注入は約60秒。厚さ",
+      "image": "https://static.makuake.com/upload/project/53932/main_53932.png?version=1791267440&amp;width=690&amp;height=388",
+      "published": "2026-10-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "7be2a29d32b00e3c",
+      "canonical": "https://www.makuake.com/project/gabiro",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 電動",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【感動する視界を】自然の美しさを体感するためのガラス偏光サングラス｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/try-angle_glasses141/",
+      "summary": "「見やすいのはあたりまえ。　よりクリアで澄んだ視界をお届けします」偏光レンズは、ドライブやアウトドア、フィッシングなど、さまざまなシーンで乱反射を抑え、クリアな視界を実現することから、多くの方に支持されています。現在、サングラスレンズの主流は軽量で加工性やデザイン性に優れたプラスチック素材ですが、もともと眼鏡レンズの主流は全面均一光学研磨ガラスレンズでした。プラスチックレンズは軽さや豊富なカラーバ",
+      "image": "https://static.makuake.com/upload/project/53967/main_53967.jpg?version=1791410708&amp;width=690&amp;height=388",
+      "published": "2026-10-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "5e9d463e1e42b322",
+      "canonical": "https://www.makuake.com/project/try-angle_glasses141",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2b743eaf19f6dbe9",
+      "title": "Apple's Get Ready service is now available for iPhone Duo pre-orders",
+      "url": "https://www.gsmarena.com/apples_get_ready_service_is_now_available_for_iphone_duo_preorders-news-75012.php",
+      "canonical": "https://www.gsmarena.com/apples_get_ready_service_is_now_available_for_iphone_duo_preorders-news-75012.php",
+      "summary": "Apple unveiled the iPhone Duo, its first foldable smartphone, at its September launch event alongside the iPhone 18 Pro and iPhone 18 Pro Max. The company will start taking pre-orders for the iPhone Duo on October 16, which is this coming Friday. Shipping will then start on October 23, exactly one week later. Since the iPhone Duo is expected to be available in rather limited quantities at first, i",
+      "published": "2026-10-13T21:31:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【アンコール】ヒゲ愛好家の新常識！充電消耗品不要転がすだけのグルーミングトリマー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/manmower-1/",
+      "summary": "【本プロジェクトはアンコールプロジェクト※です】\r\n※アンコールプロジェクトとは、過去実施したプロジェクトが好評だった場合において、プロジェクト終了後から一般販売までに再び実施するプロジェクトを言います。リターン品の配送が完了するまで、Bridge＆BloomはtheIPbusinessの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。",
+      "image": "https://static.makuake.com/upload/project/53872/main_53872.png?version=1790846854&amp;width=690&amp;height=388",
+      "published": "2026-10-15T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "848c3fb9263b288a",
+      "canonical": "https://www.makuake.com/project/manmower-1",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【第２弾】１分で約18度温まる。キズ・ネツ・ミズにコミットの撥水・蓄熱タフベスト｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/carestar28/",
+      "summary": "モデル着用 [L-XL] 身長168cmモデル着用 [S-M]　身長175cm収納やジッパーなども充実し、シンプルな使いやすさを追求。様々な使いみちの大きな内ポケットが両サイドに。サングラスなども収納できる深め胸ポケット。スマホもらくらく入るファスナー付きサイドポケット。ファスナーもスライダーをスムーズに滑らせることが可能。電源不要「1分で＋18℃のあたたかさ」体温をリサイクルする機能性タフベスト",
+      "image": "https://static.makuake.com/upload/project/53961/main_53961.jpg?version=1791364742&amp;width=690&amp;height=388",
+      "published": "2026-10-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "5999d715779d39b1",
+      "canonical": "https://www.makuake.com/project/carestar28",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【山梨の秋を食べ比べ】赤・黒・緑の3色ぶどう ＆ 希少なレッドキウイ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/aki_mikaku_yumnosh/",
+      "summary": "早期発送（10/22（木）16:00締切）はプロジェクト終了前に、いち早くお届け！※一部画像は、生成AIテクノロジーを使用して作成しています。秋に出会える、山梨の特別な果実赤・黒・緑、個性豊かな3色のぶどう。 そして、古くから山梨で親しまれてきた甲州ぶどう。小粒ながらも濃厚な甘さが魅力の、希少なレッドキウイ。 さらに、夏の桃を瓶に閉じ込めた、2026年新作の桃コンポートもご用意しました。山梨の秋の",
+      "image": "https://static.makuake.com/upload/project/54021/main_54021.png?version=1791886015&amp;width=690&amp;height=388",
+      "published": "2026-10-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "b92535de3af55e59",
+      "canonical": "https://www.makuake.com/project/aki_mikaku_yumnosh",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ce93c0ec6415f34f",
+      "title": "Timex launches Pan Am Waterbury GMT with a striking two-tone dial and quartz movement",
+      "url": "https://www.gizmochina.com/2026/10/13/timex-pan-am-waterbury-gmt-launched-in-the-us-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/13/timex-pan-am-waterbury-gmt-launched-in-the-us-specs-price",
+      "summary": "Alongside the Pan Am Automatic GMT, Timex has launched a new non-automatic GMT watch in the US in collaboration with the historic airline Pan Am. The Pan Am x Timex Waterbury GMT is priced at $349 and is currently available for pre-order through the company&#8217;s official US website. Design Details The watch features a 41mm [&#8230;] The post Timex launches Pan Am Waterbury GMT with a striking t",
+      "published": "2026-10-13T01:02:04+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3bccc4db507c7784",
+      "title": "8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons",
+      "url": "https://www.techpowerup.com/353677/8bitdo-launches-ultimate-3c-wireless-controller-with-thumb-stick-tension-adjustment-and-extra-buttons",
+      "canonical": "https://www.techpowerup.com/353677/8bitdo-launches-ultimate-3c-wireless-controller-with-thumb-stick-tension-adjustment-and-extra-buttons",
+      "summary": "8BitDo has officially launched the latest version of its Ultimate Wireless controller, the Ultimate 3C+, which is, for an intents and purposes, a more affordable version of the recently revealed special edition Ultimate 3 Wireless controllers . The Ultimate 3C comes in at a pre-order price of $39.99 on Amazon , and it will officially be launched for regular purchase on October 30. The controller i",
+      "published": "2026-10-13T17:00:53+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "42fdae68f54091c9",
+      "title": "Apple launches HomeView, a smart display with a camera and a wall-mounted version",
+      "url": "https://www.gizmochina.com/2026/10/13/apple-launches-homeview-a-smart-display-with-a-camera-and-a-wall-mounted-version/",
+      "canonical": "https://www.gizmochina.com/2026/10/13/apple-launches-homeview-a-smart-display-with-a-camera-and-a-wall-mounted-version",
+      "summary": "Apple has announced its new smart home display, the Apple HomeView, revealing its price, features, and release date. The device was announced at the company’s Welcome Home event. It costs $299, comes with a 7-inch display, and will begin shipping on November 13. The Apple HomeView has a domed speaker base with the display attached [&#8230;] The post Apple launches HomeView, a smart display with a ",
+      "published": "2026-10-13T14:33:01+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 release date",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1b947ae654fd4150",
+      "title": "Apple's HomePod mini 2 is here with Siri AI, new colors and improved sound",
+      "url": "https://www.gsmarena.com/apples_homepod_mini_2_is_here_with_siri_ai_new_colors_and_improved_sound-news-75028.php",
+      "canonical": "https://www.gsmarena.com/apples_homepod_mini_2_is_here_with_siri_ai_new_colors_and_improved_sound-news-75028.php",
+      "summary": "Alongside the new Apple HomeView, upgraded Apple TV 4K, and Apple Home Collection, the company also unveiled the HomePod mini 2. The updated smart speaker brings Siri AI, a new Sound Glow feature, support for pairing up to 4 speakers, and new color options. The HomePod mini 2 is powered by the company’s S10 chip, which enables its new Siri AI features. Apple says that Siri AI will require the spea",
+      "published": "2026-10-13T18:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+        "https://www.ithome.com/1/012/568.htm"
+      ]
+    },
+    {
+      "id": "97ec375d421914bc",
+      "title": "Apple announces HomeView with a 7-inch touchscreen and Siri with Apple Intelligence",
+      "url": "https://www.gsmarena.com/apple_announces_homeview_with_a_7inch_touchscreen_and_siri_with_apple_intelligence-news-75027.php",
+      "canonical": "https://www.gsmarena.com/apple_announces_homeview_with_a_7inch_touchscreen_and_siri_with_apple_intelligence-news-75027.php",
+      "summary": "Apple today announced the HomeView, the company's upcoming smart home hub powered by the new Siri. It will be available in desktop and wall-mounted designs and will be available next month. The standard HomeView model features a floating display design with a rounded aluminum base. The display is hinged and is tilt-adjustable. It will be available in four colors: silver, starlight, rose pink, and ",
+      "published": "2026-10-13T15:01:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gadget Flow",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Apple-HomeView-arrives-with-a-7-inch-display-and-Siri-AI-but-European-buyers-are-out-of-luck.1423130.0.html",
+        "https://thegadgetflow.com/product/apple-homeview-smart-display/"
+      ]
+    },
+    {
+      "id": "1fb834f14457d310",
+      "title": "Xgimi launches Horizon 30 series projectors with up to 6,000 ISO lumens and 4K/120Hz",
+      "url": "https://www.notebookcheck.net/Xgimi-launches-Horizon-30-series-projectors-with-up-to-6-000-ISO-lumens-and-4K-120Hz.1422795.0.html",
+      "canonical": "https://www.notebookcheck.net/Xgimi-launches-Horizon-30-series-projectors-with-up-to-6-000-ISO-lumens-and-4K-120Hz.1422795.0.html",
+      "summary": "Xgimi has launched the Horizon 30 Pro, Horizon 30 Max and Horizon 30 Ultra Max, three RGB triple-laser 4K projectors with a 120Hz refresh rate and brightness ranging from 4,800 to 6,000 ISO lumens. US pre-orders run until October 31 from $1,899, with list prices of $2,499 to $3,499 and open sales starting on November 1.",
+      "published": "2026-10-13T16:35:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 pre-order",
+        "+3 projector",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dd589483a2df7561",
+      "title": "The new Apple TV 4K uses the A19 chipset and supports Siri AI, but the price tag is killer",
+      "url": "https://www.gsmarena.com/the_new_apple_tv_4k_uses_the_a19_chipset_and_supports_siri_ai_but_the_price_tag_is_killer-news-75025.php",
+      "canonical": "https://www.gsmarena.com/the_new_apple_tv_4k_uses_the_a19_chipset_and_supports_siri_ai_but_the_price_tag_is_killer-news-75025.php",
+      "summary": "Apple’s big smart home event is in full swing and among all the new gadgets is the Apple TV 4K (4th gen). We’ll start by ripping off the band-aid – the new model costs double the launch price of the 3rd gen model from 2022 (and that’s if you look at the 128GB model with Ethernet!). There is some good news, at least – the new model is massively more capable than the one it replaces. It is powered b",
+      "published": "2026-10-13T14:14:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/012/569.htm"
+      ]
+    },
+    {
+      "id": "70bcd4d38f113592",
+      "title": "Galaxy Tab S12+ gets a free $200 Amazon gift card at its $1,199 launch price",
+      "url": "https://www.gizmochina.com/2026/10/13/galaxy-tab-s12-gets-free-200-amazon-gift-card-at-1199/",
+      "canonical": "https://www.gizmochina.com/2026/10/13/galaxy-tab-s12-gets-free-200-amazon-gift-card-at-1199",
+      "summary": "Galaxy Tab S12+ 256GB is $1,199.99 on Amazon with a free $200 gift card until 21 October. For Amazon shoppers, it's the best way to buy one right now. The post Galaxy Tab S12+ gets a free $200 Amazon gift card at its $1,199 launch price appeared first on Gizmochina .",
+      "published": "2026-10-13T15:05:07+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/galaxy-tab-s12-plus-gift-card-deal-3722213/"
+      ]
+    },
+    {
+      "id": "0d1eee6acce5d3d4",
+      "title": "NVIDIA RTX Spark Game Ready for Dozens of AAA Titles at Launch, Including DLSS 5 and Anti-Cheat Support",
+      "url": "https://www.techpowerup.com/353681/nvidia-rtx-spark-game-ready-for-dozens-of-aaa-titles-at-launch-including-dlss-5-and-anti-cheat-support",
+      "canonical": "https://www.techpowerup.com/353681/nvidia-rtx-spark-game-ready-for-dozens-of-aaa-titles-at-launch-including-dlss-5-and-anti-cheat-support",
+      "summary": "NVIDIA today announced that its new RTX Spark superchip that will power the next-generation of AI-native PCs, will be Game Ready for dozens of AAA games at launch on Windows 11, providing an uncompromising gaming experience that's maxed out for 1440p. The RTX Spark superchip features a 20-core Grace CPU and a GeForce RTX Blackwell iGPU featuring 6,144 CUDA cores. NVIDIA is closely collaborating wi",
+      "published": "2026-10-13T17:20:02+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/nvidia-rtx-spark-100s-games-anti-cheat-support-ahead-of-launch-full-dlss-technologies/"
+      ]
+    },
+    {
+      "id": "57143a66a6c2ef9a",
+      "title": "Lenovo Legion Go 2 Price Hike Puts Ryzen Z2 Extreme Handheld Price Over $3,000",
+      "url": "https://www.techpowerup.com/353682/lenovo-legion-go-2-price-hike-puts-ryzen-z2-extreme-handheld-price-over-usd-3-000",
+      "canonical": "https://www.techpowerup.com/353682/lenovo-legion-go-2-price-hike-puts-ryzen-z2-extreme-handheld-price-over-usd-3-000",
+      "summary": "The second-generation Lenovo Legion Go handheld devices have already received a substantial price increase after their initial launch, with the entry-level Legion Go S jumping from $899.99 and $649.99 to $1,579.99 and $989.99, for the Z1 Extreme and Z2 Go models, respectively. This was after Lenovo already increased the price on the AMD Ryzen Z2 Extreme-powered Legion Go 2 from $1,349.99 to $1,999",
+      "published": "2026-10-13T18:09:54+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a212fd8677734b66",
+      "title": "HomeView isn’t launching in the EU, here’s why",
+      "url": "https://9to5mac.com/2026/10/13/homeview-isnt-launching-in-the-eu-heres-why/",
+      "canonical": "https://9to5mac.com/2026/10/13/homeview-isnt-launching-in-the-eu-heres-why",
+      "summary": "Apple unveiled its new HomeView product today, and it’s available for pre-order now. But unfortunately HomeView isn’t coming to the EU, at least for now. Here’s why. more…",
+      "published": "2026-10-13T17:24:27+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8fd77bb1a8180a44",
+      "title": "OnePlus 16R tipped to bring back telephoto camera, feature Snapdragon 8 Elite Gen 5, 165Hz display",
+      "url": "https://www.gizmochina.com/2026/10/13/oneplus-16r-tipped-to-bring-back-telephoto-camera-feature-snapdragon-8-elite-gen-5-165hz-display/",
+      "canonical": "https://www.gizmochina.com/2026/10/13/oneplus-16r-tipped-to-bring-back-telephoto-camera-feature-snapdragon-8-elite-gen-5-165hz-display",
+      "summary": "OnePlus just launched its newest flagship in China, but a different model is already getting more attention for Indian buyers (and a few other markets). Fresh leaks suggest the OnePlus 16R is moving closer to production and could pack a solid mix of performance, battery life, and camera specs. The OnePlus 16 dropped in China [&#8230;] The post OnePlus 16R tipped to bring back telephoto camera, fea",
+      "published": "2026-10-13T08:12:27+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2b58f5fcfe4306b1",
+      "title": "爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低",
+      "url": "https://www.ithome.com/1/012/551.htm",
+      "canonical": "https://www.ithome.com/1/012/551.htm",
+      "summary": "IT之家 10 月 13 日消息，爱芯元智今日在 2026 中国国际工业博览会上正式发布 AX8860 系列大算力 AI 芯片，定位为专为大模型在边缘和端侧落地打造的算力底座。 AX8860 搭载 16 核 Arm Cortex-A55 CPU 与自研 NPU，提供 256 TOPS 混合精度算力（原生 FP4，无稀疏性），配备最高 128GB LPDDR5X 内存，256-bit 位宽下带宽达 273 GB/s，芯片采用 6nm 制程并支持 PCIe 5.0 互联。 在设备形态层面，AX8860 覆盖多种产品设计，包括额定功耗 40W 的专用模块、采用 Gen5x4 连接器的单槽 PCIe 卡（配备辅助风扇）。此外，爱芯元智还有单槽四芯方案，搭载四风扇和大尺寸散热片，由标准 8-pin 电源接口供电。 爱芯元智同时规划了基于该芯片的 Mini PC 和口袋 PC 产品。多芯级联方面，芯片",
+      "published": "2026-10-13T12:02:15+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/axera-ax8860-ai-chip-beat-dgx-spark-ai-llms-128-gb-memory-40w-less-cost/"
+      ]
+    },
+    {
+      "id": "b83c3fcf50fbda68",
+      "title": "Honor Win RT 2 to pack 12,070mAh battery, Snapdragon 8 Elite Gen 5, and built-in cooling fan",
+      "url": "https://www.gizmochina.com/2026/10/13/honor-win-rt-2-key-specs-tippedd/",
+      "canonical": "https://www.gizmochina.com/2026/10/13/honor-win-rt-2-key-specs-tippedd",
+      "summary": "The Honor Win 2 series of performance-driven flagship phones is set to go official on Oct. 21 in China. Ahead of the launch, the Win 2, Win RT 2, and Win Turbo 2 are all listed on Honor’s online store in China, revealing their official images and configurations. At the same time, a leak from [&#8230;] The post Honor Win RT 2 to pack 12,070mAh battery, Snapdragon 8 Elite Gen 5, and built-in cooling",
+      "published": "2026-10-13T12:22:55+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0961f4597ea8e756",
+      "title": "NVIDIA Unveils \"Preset C \"DLSS Frame Generation with up to 35% Faster Generation",
+      "url": "https://www.techpowerup.com/353670/nvidia-unveils-preset-c-dlss-frame-generation-with-up-to-35-faster-generation",
+      "canonical": "https://www.techpowerup.com/353670/nvidia-unveils-preset-c-dlss-frame-generation-with-up-to-35-faster-generation",
+      "summary": "NVIDIA has updated its DLSS Frame Generation algorithm to be faster and more efficient. In the latest NVIDIA App beta update, rolling out today, the company introduced Preset C, the fastest Performance Mode for DLSS Frame Generation. NVIDIA demonstrates that this mode can make frame generation up to 35% faster on the GeForce RTX 5060, with minimal trade-offs in image quality. This improvement appl",
+      "published": "2026-10-13T13:06:16+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/universal-mfg-unlocker-1-5-0-brings-faster-dlss-preset-c-to-rtx-40-30-gpus-adds-xess-multi-frame-generation-support-for-amd-intel-gpus/"
+      ]
+    },
+    {
+      "id": "e0af9d8b99d4151f",
+      "title": "Casio brings its tactical Mudmaster GWG-B1000-1A3 to the US",
+      "url": "https://www.gizmochina.com/2026/10/12/casio-mudmaster-gwg-b1000-1a3-launched-in-the-us-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/12/casio-mudmaster-gwg-b1000-1a3-launched-in-the-us-specs-price",
+      "summary": "Casio has brought the GWG-B1000-1A3, the newest model in its Master of G Mudmaster series, to the US market. After initially launching in Japan last month, the watch is now available directly through Casio&#8217;s US website for $880. Design Details The watch has a straightforward, tactical-inspired design. It skips flashy colors in favor of a [&#8230;] The post Casio brings its tactical Mudmaster",
+      "published": "2026-10-12T23:44:38+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ac8730c7d16dd7cf",
+      "title": "Google's new Fitbit Edge fitness tracker offers a screen and up to 7 days of usage",
+      "url": "https://www.gsmarena.com/googles_new_fitbit_edge_fitness_tracker_offers_a_screen_and_up_to_7_days_of_usage-news-75011.php",
+      "canonical": "https://www.gsmarena.com/googles_new_fitbit_edge_fitness_tracker_offers_a_screen_and_up_to_7_days_of_usage-news-75011.php",
+      "summary": "Google has unveiled its latest fitness tracker, the Fitbit Edge. Positioned between the Pixel Watch 5 and the Fitbit Air, the new tracker offers a more affordable and lighter alternative to the smartwatch while adding a display over the screenless Fitbit Air. The Fitbit Edge sports a 1.34-inch AMOLED display with always-on functionality. The tracker measures 11.5mm in thickness and features an alu",
+      "published": "2026-10-13T04:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "17345e4056ab21a1",
+      "title": "Watch the ColorOS 17 launch event livestream",
+      "url": "https://www.gsmarena.com/watch_the_coloros_17_launch_event_livestream-news-75017.php",
+      "canonical": "https://www.gsmarena.com/watch_the_coloros_17_launch_event_livestream-news-75017.php",
+      "summary": "Oppo's Android 17-based ColorOS 17 is scheduled to be unveiled globally today. The latest mobile operating system will be available for Oppo and OnePlus devices. If you’re interested in watching the launch event live, you can do so via the embedded YouTube player below. The ColorOS 17 update will bring several UI changes with updated visuals and smoother animation. It is also teased to include gla",
+      "published": "2026-10-13T07:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8b830764bb06360e",
+      "title": "(PR) Sapphire Officially Unveils NITRO+ AMD Radeon RX 9070 XT Valor Mortis Edition",
+      "url": "https://www.techpowerup.com/353667/sapphire-officially-unveils-nitro-amd-radeon-rx-9070-xt-valor-mortis-edition",
+      "canonical": "https://www.techpowerup.com/353667/sapphire-officially-unveils-nitro-amd-radeon-rx-9070-xt-valor-mortis-edition",
+      "summary": "SAPPHIRE Technology, in collaboration with AMD and One More Level S.A., the acclaimed developer of first-person action-platformer and hardcore slasher Ghostrunner, formally unveils the SAPPHIRE NITRO+ AMD Radeon RX 9070 XT Valor Mortis Edition graphics card. Adrian Thompson, VP of Marketing, SAPPHIRE The NITRO+ Valor Mortis Edition is exactly what our community asked us for; flagship Radeon perfor",
+      "published": "2026-10-13T12:11:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f29d6e0deba902d8",
+      "title": "AnTuTu September ranking is out, Xiaomi leads in flagships and tablets categories",
+      "url": "https://www.gsmarena.com/antutu_v12_september_2026_results-news-75019.php",
+      "canonical": "https://www.gsmarena.com/antutu_v12_september_2026_results-news-75019.php",
+      "summary": "Continuing its tradition, AnTuTu has published data that shows which devices topped its performance charts in the flagship, mid-range, and tablet categories. The numbers are for September and are based on data collected in China. Moreover, the AnTuTu 12 benchmark scores included in its charts are averages of those devices, not peak scores. In the flagship category, Xiaomi topped the chart with the",
+      "published": "2026-10-13T13:09:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 benchmark",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8270fb744af80360",
+      "title": "Samsung’s Intelligent Eyewear glasses: More styles and specs leaked",
+      "url": "https://www.sammobile.com/news/samsung-intelligent-eyewear-glasses-more-styles-details-leak/",
+      "canonical": "https://www.sammobile.com/news/samsung-intelligent-eyewear-glasses-more-styles-details-leak",
+      "summary": "Samsung's first smart glasses, called Intelligent Eyewear, were first teased last year and announced earlier this year. A few months ago, the company revealed additional information about the device and confirmed a launch for later this year. Now, ahead of a possible November release, further details have leaked alongside new styles and images. The Intelligent [ ]",
+      "published": "2026-10-13T13:21:38+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8462c65a8e4b3e25",
+      "title": "Xiaomi Poco X8s confirmed to receive global release with Qualcomm Snapdragon 7 Gen 4 and 12 GB RAM",
+      "url": "https://www.notebookcheck.net/Xiaomi-Poco-X8s-confirmed-to-receive-global-release-with-Qualcomm-Snapdragon-7-Gen-4-and-12-GB-RAM.1423031.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-Poco-X8s-confirmed-to-receive-global-release-with-Qualcomm-Snapdragon-7-Gen-4-and-12-GB-RAM.1423031.0.html",
+      "summary": "Xiaomi will soon be expanding its Poco smartphone series with a cheaper Poco X8 variant. Launching globally, the Xiaomi Poco X8s has already revealed itself in an early benchmarking leak with 12 GB of RAM and a recent Qualcomm Snapdragon chipset.",
+      "published": "2026-10-13T14:22:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 benchmark",
+        "+3 launch",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "622b65c32e7556ab",
+      "title": "(PR) Corsair Enters Fast Growing Mobile Recording Market with New Elgato Wireless Microphone",
+      "url": "https://www.techpowerup.com/353675/corsair-enters-fast-growing-mobile-recording-market-with-new-elgato-wireless-microphone",
+      "canonical": "https://www.techpowerup.com/353675/corsair-enters-fast-growing-mobile-recording-market-with-new-elgato-wireless-microphone",
+      "summary": "Elgato, a Corsair brand, today introduced Wave Go, its first wireless microphone, extending its Wave audio lineup beyond the desktop to the fast growing mobile recording segment with a clip-on microphone and a handheld interview mic in one portable system. The global launch brings Elgato into a new growth category while connecting mobile creators to its existing audio software and Stream Deck cont",
+      "published": "2026-10-13T15:20:49+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "なごみプロデュースのコスメブランド「GENTY（ジェンティー）」から美容液成分約80%配合※1のUV美容液下地が新発売！“メイクする日もしない日も”365日使いたくなる下地が10月28日（水）より登場",
+      "url": "https://prtimes.jp/main/html/rd/p/000000337.000084518.html",
+      "summary": "[株式会社Rainmakers] [画像1: https://prcdn.freetls.fastly.net/release_image/84518/337/84518-337-032f6c7cd175dc2d1df7b5333e48cd52-2093x1350.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&...",
+      "published": "2026-10-13T14:15:19+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "2056158f849cf322"
+    },
+    {
+      "title": "【Amazon初登場】細部の研磨作業をもっと手軽に！手のひらサイズの精密電動サンダー「HOZO NeoSander」が10月13日より販売開始！発売記念の特別価格も",
+      "url": "https://prtimes.jp/main/html/rd/p/000000013.000171296.html",
+      "summary": "",
+      "published": "2026-10-13T10:05:16+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "e534dfca3595b850"
+    },
+    {
+      "title": "Flashforge製フルカラー3Dプリンター「CJ270」10月13日より予約販売開始【APPLE TREE株式会社】",
+      "url": "https://prtimes.jp/main/html/rd/p/000000272.000030909.html",
+      "summary": "[APPLE TREE 株式会社] [画像1: https://prcdn.freetls.fastly.net/release_image/30909/272/30909-272-669d3d126232ded49478e71795a5be23-1200x630.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&a...",
+      "published": "2026-10-13T07:45:43+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "cd7ec376490e0dd7"
+    },
+    {
+      "title": "【40インチで最大200Hz！】大画面も、スピードも妥協しない。INNOCN、新型ウルトラワイドモニター「40C1R Max」を日本発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000392.000090223.html",
+      "summary": "",
+      "published": "2026-10-13T05:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "329741326cc5ac3a"
+    },
+    {
+      "title": "16.3mm・約205gの薄型軽量ボディで持ち運びも快適BoostCharge Qi2 薄型 マグネット式モバイルバッテリー 10,000mAh　大容量と使いやすさを兼ね備えた新モデルが発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000355.000017218.html",
+      "summary": "",
+      "published": "2026-10-13T03:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "5bdce1f4f86606d8"
+    },
+    {
+      "title": "BLUETTI（ブルーティ）、16％以上の軽量化を実現した2000Whクラスの新モデル「AORA 200 V2」を予約販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000125.000089616.html",
+      "summary": "",
+      "published": "2026-10-13T02:34:55+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "dd0e82d31165f6ee"
+    },
+    {
+      "title": "SHEGLAMの人気チークに、きらめくシマータイプが新登場！「Squeeze & Dot Shimmer Blush Paint」が10月10日（土）より発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000116.000155846.html",
+      "summary": "",
+      "published": "2026-10-13T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "87fcef24f5f3d7aa"
+    },
+    {
+      "title": "「Nrec」シリーズより監視カメラ映像システム向け録画サーバー「Nrec6200」「Nrec4200」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000138.000029473.html",
+      "summary": "",
+      "published": "2026-10-13T01:00:06+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "08f342d10c240a1c"
+    },
+    {
+      "title": "国産ヴィーガンコスメのAINOKIから、血色感でカバーする、コンシーラー感覚のフェイスカラーが新登場。12月1日［火］よりAINOKI公式オンラインショップにて発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000039.000099995.html",
+      "summary": "",
+      "published": "2026-10-13T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "ef25b68b1fdb0ffc"
+    },
+    {
+      "title": "樹林AI、日本初の AI 意思決定モデル群「JJ-1」を発表",
+      "url": "https://prtimes.jp/main/html/rd/p/000000033.000172424.html",
+      "summary": "",
+      "published": "2026-10-13T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "48d94de9156f4ef0"
+    }
+  ]
+}
