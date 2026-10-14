@@ -26,6 +26,12 @@ sources:
   - title: ModRetro Officially Reveals Transparent Chromatics Dropping This Week
     url: https://retrododo.com/modretro-officially-reveals-transparent-chromatics-dropping-this-week/
     publisher: Retro Dodo
+gear:
+- name: "Panasonic エネループ 単3形充電池4本付き 急速充電器セット K-KJ85MCD40"
+  why: "Chromaticの電源は単3電池。充電池と急速充電器のセットなら、電池を買い足さずに繰り返し使える"
+  url: https://www.amazon.co.jp/dp/B0BY8WB2W7
+  merchant: amazon
+  image: "https://panasonicjp.scene7.com/is/image/panasonicjp/K-KJ85MCD40%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8?wid=1200&hei=630"
 faq:
   - q: 透明版のChromaticはいくらですか
     a: 公式ストアの掲載時点で、4色とも149.99ドルです。透明のTetrisカートリッジが付属します。

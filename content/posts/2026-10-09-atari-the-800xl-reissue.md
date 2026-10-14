@@ -36,6 +36,17 @@ alternatives:
   url: https://item.rakuten.co.jp/jism/4580717791171-54-47029-n/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0013/4580717791171.jpg"
+gear:
+- name: "エレコム USB充電器 12W(5V/2.4A) 2ポート USB-A EC-AC3912WH"
+  why: "電源は付属のUSB-A to USB-Cケーブルから取るが、ACアダプターが付くかは未発表。USB-A出力の充電器があれば、コンセントから給電できる"
+  url: https://item.rakuten.co.jp/elecom/4549550284592/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/elecom/cabinet/s500_22/ec-ac3912wh_03r.jpg"
+- name: "KIOXIA TransMemory U202 32GB USB2.0 KUC-2A032GL"
+  why: "本体のUSB-Aポートに挿したUSBメモリから、カートリッジやディスク、カセットのイメージを読み込める。ソフトの入れ物として使える"
+  url: https://item.rakuten.co.jp/biccamera/4582563850361/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/5516/00000008092933_a01.jpg"
 faq:
 - q: THE 800XLはいくらですか
   a: 予約価格は米国で219.99ドル、英国で199.99ポンド、欧州で219.99ユーロ、豪州で349ドル（豪ドル）です。掲載時点の発表値です。

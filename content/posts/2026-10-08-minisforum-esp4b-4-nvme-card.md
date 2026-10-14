@@ -19,6 +19,22 @@ alternatives:
   url: https://item.rakuten.co.jp/synnexstore/zu20379/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/synnexstore/cabinet/ds_helper/zu203_012345678/zu20379.jpg"
+gear:
+- name: "Samsung 990 EVO Plus 2TB MZ-V9S2T0B-IT"
+  why: "ESP4BのM.2スロットのうちSSD1・SSD2はPCIe 4.0 x4まで。Gen4 x4対応のNVMe SSDなら、2枚挿しでも速度を余さず使える"
+  url: https://item.rakuten.co.jp/biccamera/4560441099729/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11103/00000013587022_a01.jpg"
+- name: "Seagate IronWolf 4TB ST4000VN006"
+  why: "OCuLinkポートの専用ケーブルで、SATA 3.0のHDDを最大4台つなげられる。容量を優先する増設に向く3.5インチのNAS向けHDD"
+  url: https://item.rakuten.co.jp/shoptsukumo/1543701010/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/shoptsukumo/cabinet/pc6/0763649090985_1.jpg"
+- name: "サンワサプライ シリアルATA電源分岐ケーブル 4分岐・上L型・40cm TK-PWSATA12"
+  why: "SATA HDDの電源ケーブルは別途用意する必要がある、と公式仕様にある。1本の電源から最大4台のHDDに給電できる"
+  url: https://item.rakuten.co.jp/biccamera/4969887899045/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/4806/00000007342572_a01.jpg"
 faq:
 - q: ESP4Bはいくらですか
   a: Minisforumの米国公式ストアでは、掲載時点でセール価格135.90ドル、通常価格169ドルです。

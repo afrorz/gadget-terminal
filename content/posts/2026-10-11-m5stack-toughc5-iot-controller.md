@@ -34,6 +34,17 @@ alternatives:
   url: https://item.rakuten.co.jp/marutsuelec/2229251/
   merchant: rakuten
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/marutsuelec/cabinet/04881820/230620/2229251_2.jpg
+gear:
+- name: "Transcend 高耐久 microSD 32GB TS32GUSD350V"
+  why: "ToughC5はmicroSDスロットを備える。屋外でセンサー値を長く記録する使い方には、書き込みに強い高耐久タイプが向く"
+  url: https://www.amazon.co.jp/dp/B095SGLNT8
+  merchant: amazon
+  image: "https://www.transcend-info.com/products/images/ModelPic/993/Pp_USD350V-1_1T.png"
+- name: "M5Stack 温湿度気圧センサユニット ENV III（M5STACK-U001-C）"
+  why: "ToughC5にはHY2.0-4PでI2Cを使える端子が付く。同じHY2.0-4PコネクタのENV IIIをつなげば、屋外の温湿度と気圧を測れる"
+  url: https://www.amazon.co.jp/dp/B0D77WRPJL
+  merchant: amazon
+  image: "https://shop.m5stack.com/cdn/shop/products/1_c0de294c-761b-45d0-9098-fe75effe7f49_1200x1200.jpg?v=1627863922"
 sources:
 - title: M5Stack ToughC5 IoT Dev Kit (ESP32-C5)（公式ストア）
   url: https://shop.m5stack.com/products/m5stack-toughc5-iot-dev-kit-esp32-c5

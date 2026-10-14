@@ -38,6 +38,22 @@ alternatives:
   url: https://item.rakuten.co.jp/minisforum-minipc/ma-s1max/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/minisforum-minipc/cabinet/13903623/imgrc0102308617.jpg"
+gear:
+- name: "Samsung 990 EVO Plus 2TB MZ-V9S2T0B-IT"
+  why: "M.2スロットはPCIe 5.0/4.0対応が2基ある。Gen4 x4のSSDを足せば、大きなAIモデルのファイルを置く場所にも困らない"
+  url: https://item.rakuten.co.jp/biccamera/4560441099729/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11103/00000013587022_a01.jpg"
+- name: "エレコム LANケーブル CAT6A 3m 爪折れ防止 LD-GPAT/BK3/RS"
+  why: "背面に10GbEポートがある。10Gbpsに対応するCAT6A以上のLANケーブルなら、ネットワーク側の帯域を使い切れる"
+  url: https://item.rakuten.co.jp/elecom/4549550278591/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/elecom/cabinet/s500_25/ld-gpatbk3rs_03r.jpg"
+- name: "UGREEN HDMI 2.1 ケーブル 8K 48Gbps 1m"
+  why: "背面のHDMI 2.1で高解像度のモニターをつなぐ。48Gbps対応のケーブルなら、帯域が足りなくなる心配がない"
+  url: https://item.rakuten.co.jp/ugreen-gear/40178/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/11871349/40178-all-new.jpg"
 faq:
 - q: ProArt GR1Xの価格はいくらですか
   a: 掲載時点でASUSは価格を発表していません。64GBと128GBの2構成を、一部の販売店で売るとしています。

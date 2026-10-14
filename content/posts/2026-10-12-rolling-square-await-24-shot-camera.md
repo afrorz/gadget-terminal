@@ -43,6 +43,17 @@ alternatives:
   url: https://item.rakuten.co.jp/ikurun/281253/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ikurun/cabinet/2025/2025_8/281253.jpg"
+gear:
+- name: "マンフロット PIXI ミニ三脚 ブラック MTPIXIMII-B"
+  why: "Awaitには三脚用のネジ穴がある。重さ92.7gのカメラなら、耐荷重1kgのミニ三脚で卓上に据えて、夜景や集合写真を撮れる"
+  url: https://www.amazon.co.jp/dp/B09GKLCP95
+  merchant: amazon
+  image: "https://www.manfrotto.com/media/catalog/product/cache/5a5985fdfae405413b7f5ef4d3952566/t/r/tripod-manfrotto-pixi-mtpiximii-b.png"
+- name: "ナカバヤシ 超透明ポケットアルバム KG判 88枚 CTPKG-80-BK"
+  why: "プリントは6×4インチ（150×100mm）で届く。ほぼ同寸のKG判なら、本体に溜められる3本ぶん72枚を1冊に収められる"
+  url: https://www.amazon.co.jp/dp/B00GU4U9TC
+  merchant: amazon
+  image: "https://www.nakabayashi.co.jp/product_files/40432/40432_4902205367161.jpg"
 faq:
 - q: Awaitはいくらですか
   a: 公式プレオーダーページの掲載時点の価格は、カメラ単品の「Solo」が89ユーロ（想定価格129ユーロ）、2台の「Duo」が169ユーロ、前面プレート3枚と長いストラップが付く「Full Kit」が99ユーロです。送料は単品で8ユーロ、Duoで12ユーロと書かれています。プリントは別料金で、米国向けの表示では1本9.99ドルです。

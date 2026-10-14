@@ -41,6 +41,12 @@ alternatives:
   url: https://item.rakuten.co.jp/jism/4948872417938-54-62526-n/
   merchant: rakuten
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0122/4948872417938.jpg
+gear:
+- name: "Anker USB-C ＆ USB-A ケーブル (Flow) 1.8m"
+  why: "P5はBluetoothのほかUSB-Cの有線接続にも対応する。電池（1,500mAh、約8時間）が切れたら、1.8mのケーブルで有線に切り替えて遊べる"
+  url: https://www.amazon.co.jp/dp/B0CWGWV7Q4
+  merchant: amazon
+  image: "https://www.ankerjapan.com/cdn/shop/files/4571411219542_1_1200x1200.jpg?v=1716366224"
 sources:
 - title: P5 Wireless Controller for PS5 with Adaptive Triggers（公式）
   url: https://www.abxylute.com/products/p5-wireless-controller

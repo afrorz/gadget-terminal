@@ -40,6 +40,12 @@ alternatives:
     url: https://item.rakuten.co.jp/onostore/ono00600/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/onostore/cabinet/12983761/5.jpg"
+gear:
+- name: "HyperX Wrist Rest リストレスト コンパクト 4Z7X0AA"
+  why: "HE60は幅298.5mmの60%サイズ。60%・65%向けの幅318mmのリストレストなら、本体より少し広く手首を預けられる"
+  url: https://www.amazon.co.jp/dp/B09SGVXKTV
+  merchant: amazon
+  image: "https://hyperx.com/cdn/shop/files/hyperx_wrist_rest_compact_1_main_1024x1024.jpg"
 faq:
   - q: HE60はいくらですか
     a: 公式ストアの掲載時点で59.99ドルです。ブラックとホワイトの2色があり、スイッチはEpomaker Creamy Jade Magnetic Switchの1種類です。

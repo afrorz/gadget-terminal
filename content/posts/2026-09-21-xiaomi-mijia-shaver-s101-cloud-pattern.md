@@ -29,10 +29,10 @@ buy:
   note: 今回の衆籌は小米有品(Xiaomi Youpin)という中国国内向けプラットフォームでの実施で、日本への発送に対応するかは掲載時点で確認できていない。USB Type-C充電のみで駆動する製品だが、無線通信機能の有無や技適の取得状況は公式発表に記載が無く未確認のため、未取得として扱う。
 alternatives:
 - name: パナソニック ラムダッシュ 3枚刃 ES-L322W-K(国内正規品)
-  why: 国内正規品として今日から購入でき、メーカー保証と国内でのアフターサービスが付く。3枚刃でお風呂剃りに対応し、手頃な価格帯という点でS101雲紋刀頭版と方向性が近い。Amazon.co.jpが販売している。
-  image: "https://m.media-amazon.com/images/I/51y8T5OUzLL._AC_SL1500_.jpg"
-  url: https://www.amazon.co.jp/dp/B0H5BX9VLP
-  merchant: amazon
+  why: 国内正規品として今日から購入でき、メーカー保証と国内でのアフターサービスが付く。3枚刃でお風呂剃りに対応し、手頃な価格帯という点でS101雲紋刀頭版と方向性が近い。ビックカメラの楽天市場店が販売している。
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/18090/00000015313207_a01.jpg"
+  url: https://item.rakuten.co.jp/biccamera/4550719178300/
+  merchant: rakuten
 faq:
 - q: 日本で買えますか
   a: 掲載時点で日本向けの正規販売や代理店の告知は確認できていません。今回の衆籌は中国国内向けの小米有品(Xiaomi Youpin)というプラットフォームで実施されており、日本への発送に対応するかも確認できていません。

@@ -51,6 +51,12 @@ alternatives:
   url: https://item.rakuten.co.jp/marutsuelec/99620/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/marutsuelec/cabinet/04881820/85_1/99620.jpg"
+gear:
+- name: "UGREEN USB-C ケーブル 240W USB 3.2 Gen2 10Gbps 1m"
+  why: "公式クイックスタートは、5Gbps以下の接続では速度が大きく落ちるとしている。PCがType-C端子なら、10Gbps対応のケーブルで接続を揃えられる"
+  url: https://item.rakuten.co.jp/ugreen-gear/80150/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/10122288/80150.jpg"
 faq:
 - q: SLogic32U3は何チャンネルで、どこまで速いですか
   a: 32チャンネルです。サンプリングレートは4チャンネルで1400MS/s、8チャンネルで800MS/s、16チャンネルで400MS/s、32チャンネルで200MS/sです。

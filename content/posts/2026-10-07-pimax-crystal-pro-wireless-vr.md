@@ -19,6 +19,12 @@ alternatives:
   url: https://item.rakuten.co.jp/meta/9089224147192/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg"
+gear:
+- name: "バッファロー Wi-Fi 6E ルーター WSR-5400XE6"
+  why: "本体にはWi-Fi 6Eの専用アダプターが付き、60G AirLinkなしでもWi-Fiで使える。6GHz帯に対応したルーターがあれば、その経路でケーブル無しのPC VRを組める"
+  url: https://www.amazon.co.jp/dp/B0C9PVNJCL
+  merchant: amazon
+  image: "https://www.buffalo.jp/webpim/product/image/W/WSR-5400XE6/WSR-5400XE6/WSR-5400XE6__0100.jpg"
 faq:
 - q: Pimax Crystal Proはいくらですか
   a: 発表時の価格は、本体のみが1,399ドル、60G AirLinkキットとのセットが1,899ドル、キット単体が599ドルです。1ドルで予約できます。

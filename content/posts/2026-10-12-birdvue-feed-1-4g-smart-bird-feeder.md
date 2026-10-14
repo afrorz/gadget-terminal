@@ -36,6 +36,17 @@ alternatives:
   url: https://item.rakuten.co.jp/rashinipurasu/gtr7898/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/rashinipurasu/cabinet/23/gtr7898.jpg"
+gear:
+- name: "NPF 黒ひまわり 500g（野鳥用）"
+  why: "FEED 1は2種類のエサを入れられる。片側にヒマワリの種を入れておけば、シジュウカラなどの小鳥が来る餌台になる"
+  url: https://item.rakuten.co.jp/auc-ulmax/4932804306759/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-ulmax/cabinet/zg008/51x3hcgcrhl.jpg"
+- name: "エクセル 野鳥のまき餌 小型 1.6kg"
+  why: "もう片側には雑穀ミックスを入れられる。スズメやヒヨドリなど身近な小型の野鳥向けで、ヒマワリの種と食べ分けを見比べられる"
+  url: https://item.rakuten.co.jp/chanet/281989/
+  merchant: rakuten
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/chanet/cabinet/2823/281989-1.jpg"
 faq:
 - q: BirdVue FEED 1はいくらですか
   a: 公式サイトは、Kickstarterの「Super Early Price」を179ドルとして案内しています。公式の画像には取り消し線つきで299ドルが表示されています。いずれも掲載時点の価格で、出資は購入ではありません。

@@ -44,10 +44,10 @@ buy:
   note: ACEMAGIC公式ストアは日本を含むアジア地域への配送に対応していない。転送サービスを使って個人輸入した場合も、技適未確認のWi-Fi 6E/Bluetooth 5.2を使うのは避け、有線LANでの運用を前提にしたほうがよい。2年保証(2025年8月以前の購入は3年)も国内では実質的に受けられない。
 alternatives:
 - name: MINISFORUM G1 Pro(Ryzen 9 8945HX/RTX 5060)
-  why: 同じ「高性能CPU+専用GPUのミニPC」という用途を国内で満たす。Amazon.co.jpのMINISFORUM JP直営店が販売している。GPUはゲーミング向けのRTX 5060で、G3Aのワークステーション向けRTX 2000 Adaとは性格が違う。
-  image: "https://m.media-amazon.com/images/I/71iW+ZAdlFL._AC_SL1500_.jpg"
-  url: https://www.amazon.co.jp/dp/B0GFSSQMLQ
-  merchant: amazon
+  why: 同じ「高性能CPU+専用GPUのミニPC」という用途を国内で満たす。MINISFORUM JAPANの楽天市場店(直営)が販売している。GPUはゲーミング向けのRTX 5060で、G3Aのワークステーション向けRTX 2000 Adaとは性格が違う。
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/minisforum-minipc/cabinet/13903623/imgrc0102303365.jpg"
+  url: https://item.rakuten.co.jp/minisforum-minipc/g1pro/
+  merchant: rakuten
 ---
 
 ACEMAGICが、3.5リットル筐体に据え置き級のCPUと専用GPUを詰め込んだミニワークステーション「G3A」を発売した。CPUはデスクトップ向けのCore i9-13900F(24コア/32スレッド、最大5.6GHz)、GPUはワークステーション向けの「NVIDIA RTX 2000 Ada」(16GB GDDR6)を搭載する。メモリは標準32GB(DDR5-5600、16GB×2のデュアルチャンネル)で、最大96GBまで増設できる。

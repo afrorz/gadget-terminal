@@ -15,6 +15,12 @@ tags:
 - オープンソース
 origin: SJC クパチーノ
 deadline: 2026-11-19
+gear:
+- name: "XTAR VC2SL 2スロット充電器（14500対応）"
+  why: "Q8botOneのバッテリーは14500のリチウムイオン2本。2スロット式なら2本を同時に充電でき、電圧や内部抵抗も確認できる"
+  url: https://www.amazon.co.jp/dp/B08TQH465N
+  merchant: amazon
+  image: "https://www.xtar.cc/wp-content/uploads/2024/01/e377fc13-81be-4ca3-ae0a-f77f40e25fa5.jpg_7Bi7Dxaf.jpg"
 faq:
 - q: Q8botOneはいくらですか
   a: Crowd Supplyの掲載時点で、選択肢の価格帯は199〜599ドルです。完成品の価格は599ドルと比較表に書かれています。キット版は8個のDYNAMIXELアクチュエーターを別に買う必要があります。

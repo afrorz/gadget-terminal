@@ -222,6 +222,14 @@ def main(argv: list[str]) -> int:
                     print(f"NG  {label}\n      image がありません → "
                           f"python3 scripts/find_alt_images.py --apply で楽天から探すか、"
                           f"メーカー公式ページの製品画像URLを書く(型番違い・付属品でないか目で確かめる)")
+                # Amazon の商品画像は、アソシエイトの規約で認められた方法(PA-API など)以外では
+                # 使えない。提携は3回目の申請でやっと通ったので、規約違反の危険は取らない。
+                # 2026-10-13 の gear の付け足しで12件混ざったのを受けて、ここで止める。
+                elif re.search(r"(^|\.)(media-amazon|images-amazon|ssl-images-amazon)\.com$",
+                               urlparse(str(x["image"])).netloc.lower()):
+                    no_image.append(label)
+                    print(f"NG  {label}\n      image が Amazon の商品画像です(規約で使えない) → "
+                          f"メーカー公式ページの製品画像URLか、楽天の商品画像に差し替える")
 
                 if not merchant:
                     # merchant なしは「対応ストアではない」の意思表示。事故ではない。
