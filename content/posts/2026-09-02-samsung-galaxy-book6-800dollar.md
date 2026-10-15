@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-09-02
+  checked: 2026-10-15
   radio: "Wi-Fi 6E / Bluetooth 5.4"
 x_hook: Windows機の値上がりが続くなか、Samsungが800ドルの新型ノートを投入した。ただし日本での発売は今のところ未定。
 images:

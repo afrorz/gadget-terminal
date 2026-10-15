@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-07
+  checked: 2026-10-15
   radio: 無線接続(方式の記載なし)
   note: Razerの登録は型番ごとで本機を特定できず
 alternatives:

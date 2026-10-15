@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-01
+  checked: 2026-10-15
   radio: 2.4GHz / Bluetooth 5.2
 faq:
 - q: K8 HE All-Wood Special Editionはいくらですか

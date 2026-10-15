@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-04
+  checked: 2026-10-15
   radio: Wi-Fi / Bluetooth
   note: NVIDIAの別型式の登録のみ、現行機は未特定
 faq:

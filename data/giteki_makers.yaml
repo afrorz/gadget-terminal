@@ -29,6 +29,14 @@ brands:
     note: 表記は Co., Ltd. と Co.,Ltd. が混在。総務省DB上で B6 / B7 / B13 / HiBreak 系の登録を確認(2026-10-15)
     registrants:
     - Bigme Cloud Literacy Technology
+  Bose:
+    note: 登録者名がブランド名そのもの。型式欄は 231L など部品番号(2026-10-15確認)
+    registrants:
+    - Bose Corporation
+  Creality:
+    note: 登録者名がブランド名そのもの(3D Technology / Ecosystem Technology の2法人)。2026-10-15確認
+    registrants:
+    - Shenzhen Creality
   Elgato:
     note: Elgato の適合宣言書(Wave XLR/Wave DX)の発行者が Corsair Memory, Inc.。型式欄は 20MAH9901 のような部品番号が多い
     registrants:
@@ -38,21 +46,53 @@ brands:
       など Epomaker 機種の登録を確認
     registrants:
     - Shenzhen ChangYun Technology
+  Google:
+    note: 登録者名がブランド名そのもの。型式欄は GZDQ6 等の符号(2026-10-15確認)
+    registrants:
+    - Google LLC
+  Keychron:
+    note: 登録者名がブランド名そのもの。型式欄は Wireless Keyboard + シリーズ記号の一括列挙(2026-10-15確認)
+    registrants:
+    - Keychron Technology (Shenzhen)
+  Lenovo:
+    note: 登録者名がブランド名そのもの。ほかに Lenovo (Shanghai) Electronics Technology も登録あり(2026-10-15確認)
+    registrants:
+    - Lenovo (Beijing)
   M5Stack:
     note: Technology Co., Ltd と Co.,Ltd の表記ゆれあり
     registrants:
     - M5Stack Technology
+  Meta:
+    note: 登録者名がブランド名そのもの。型式欄は G4QM 等の符号(2026-10-15確認)
+    registrants:
+    - Meta Platforms Technologies
   Microsoft:
     note: Xbox 系の登録者。型式欄は HWB-Q93 のような型番で製品名では引けない
     registrants:
     - Microsoft Corporation
+  NVIDIA:
+    note: 登録者名がブランド名そのもの。2026-10-15確認
+    registrants:
+    - NVIDIA CORPORATION
+  Razer:
+    note: 登録者名がブランド名そのもの(Razer Inc.)。DBで RZ01-/RZ03- 等の部品番号型式を確認(2026-10-15)
+    registrants:
+    - Razer Inc
   Rolling Square:
     registrants:
     - Rolling Square SA
+  Samsung:
+    note: 登録者名がブランド名そのもの。型式欄は SM-F976C 等の型番(2026-10-15確認)
+    registrants:
+    - Samsung Electronics
   Sennheiser:
     note: Sennheiser コンシューマー製品(MOMENTUM True Wireless 5 など)の登録者。2026-10-15 に総務省DBで MTW5 = 201-250883 を確認
     registrants:
     - Sonova Consumer Hearing GmbH
+  Valve:
+    note: 登録者名がブランド名そのもの。型式欄は 1015/1016 など数字(2026-10-15確認)
+    registrants:
+    - Valve Corporation
   XGIMI:
     note: 型式欄は B942C のような型番で製品名では引けないことが多い
     registrants:
