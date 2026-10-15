@@ -76,6 +76,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | 01:40 | `followup.yml` 過去記事の日本上陸を見回る | **消費する** |
 | 02:30 | `collect.yml` 収集 | 使わない |
 | 収集の直後 | `daily-article.yml` 記事3本 → ビルド → 公開（cron を持たず、収集の完了で走る） | **消費する** |
+| 水 03:00 | `giteki-recheck.yml` 技適が「確認できない」の記事を総務省DBで引き直す(週1) | **消費する** |
 | 17:30 | `japan-launch.yml` PR TIMES の日本発売を `data/japan_launch.json` に貯める | 使わない |
 
 **GitHub の定時実行は毎日2〜3.5時間遅れる**（2026-09 下旬の実測）。指定時刻は遅れを見込んで

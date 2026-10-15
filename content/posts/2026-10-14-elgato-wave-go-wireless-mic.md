@@ -17,7 +17,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-14
+  checked: 2026-10-15
   radio: 2.4GHz(Bluetoothは設定用)
   note: 国内公式販売だが型番10MAP9901は未確認
 images:

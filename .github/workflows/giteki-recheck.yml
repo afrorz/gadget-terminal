@@ -1,0 +1,104 @@
+name: 技適の週次再確認
+
+on:
+  schedule:
+    # 火曜 18:00 UTC = 水曜 03:00 JST。GitHub の定時実行は2〜3.5時間遅れるので、
+    # 実際には水曜の朝(05:00〜06:30ごろ)に走る。毎朝の収集(02:30)・記事生成・
+    # 日本上陸の見回り(01:40)とは concurrency の content-push で直列にする。
+    # 技適の登録は製品の発表より数週間〜数か月遅れるので、週1回で足りる。
+    - cron: "0 18 * * 2"
+  workflow_dispatch:
+
+# 記事生成・日本上陸の見回りと同時に走って push が衝突しないよう、同じグループで直列にする
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 依存をインストール
+        run: pip install -r requirements.txt --break-system-packages -q
+
+      - name: 総務省のデータベースに届くか確かめる
+        # GitHub のランナーの IP から弾かれていないかを先に見る(Web-API は403だった実績がある)。
+        # ここで落ちたら、Claude の利用枠を使う前に止まる。
+        # 実在する登録(Sennheiser MTW5 = 201-250883)が引けなければ失敗にする。
+        # 弾かれると検索フォームが返って「0件」になるだけで、エラーにならないため。
+        run: python3 scripts/giteki.py --model MTW5 --since 2026-02-01 | grep -q 201-250883
+
+      - name: Claude Code CLI を明示的にインストール
+        # daily-article.yml と同じ理由(claude-code-action 内蔵インストールの既知の不具合)
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - uses: anthropics/claude-code-action@v1
+        # prompt の中に ${{ }} を書かないこと(daily-article.yml の注意書きを参照)。
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          claude_args: |
+            --max-turns 120
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
+          prompt: |
+            あなたは海外ガジェットメディア「Gadget Terminal」(https://gadgetterminal.com/) の
+            編集担当です。今日は新しい記事は書きません。**公開時点で技適が「確認できない」だった
+            記事を、総務省のデータベースで引き直し**、登録が見つかっていれば記事に反映します。
+            技適の登録は製品の発表より遅れることが多く、後から取得済みになります。
+            背景は docs/PLAYBOOK.md の 2.10 にあります。
+
+            ## 手順
+            1. `python3 scripts/giteki_recheck.py candidates --json-out /tmp/cand.json` を実行して
+               出力を読む。「対応表あり」は登録者名が分かっているブランドで、DB から引いた
+               候補(hits=型番の手がかりが全部合う登録 / partial_hits=一部だけ合う登録)が付く。
+               「対応表なし」は登録者名が未確認のブランド。
+            2. 対応表なしのブランドを、**新しい記事のものから最大10ブランドまで**調べる。
+               総務省DBは製品のブランド名ではなく**登録者名**で引く(例: Sennheiser の MTW5 は
+               「Sonova Consumer Hearing GmbH」、Bigme は「Bigme Cloud Literacy Technology」)。
+               - 記事の sources とメーカー公式サイトの特商法・会社概要・利用規約・保証ページ、
+                 FCC などの認証情報(WebSearch / WebFetch)で、運営する法人の正式名を探す
+                 (英語名、中国の法人名、日本法人名など)。
+               - 見つけた名前で `python3 scripts/giteki.py --name "<名前>" --since <1年前>` を引き、
+                 **DB にその名前の登録があり、かつ法人とブランドの関係に一次の根拠がある**ときだけ
+                 `python3 scripts/giteki_recheck.py add-maker "<ブランド>" "<DB上の登録者名>" --note "<根拠>"`
+                 で data/giteki_makers.yaml に足す。ブランドは記事の題名に現れる表記にする。
+               - 特定できなかったブランドは
+                 `python3 scripts/giteki_recheck.py add-unresolved "<ブランド>" --note "<試したこと>"`
+                 で記録する(60日は再調査されなくなる)。
+               - 足した後に `candidates` をもう一度実行し、新しく対応したブランドの候補を見る。
+            3. hits / partial_hits のある製品ごとに、**その製品の登録か**を判断する。
+               記事の本文・keyword・出典と、メーカー公式の仕様ページで、型番(型式)・無線の種類・
+               販売地域を突き合わせる。DB の型式欄に記事の製品名か型番がそのまま載っていて、
+               登録者もそのブランドの法人なら明確な一致。**明確な一致だけ**反映する:
+               `python3 scripts/giteki_recheck.py apply <記事のファイル名> --number <番号> --model "<DB上の型式>"`
+               (複数番号なら --number に並べる。status=取得済み・number・checked・found・note が入る)。
+               迷うものは何もせず、最終出力に「保留」として理由と一緒に書く。
+            4. `python3 scripts/giteki_recheck.py mark-checked` で、引けた製品の確認日を今日にする。
+               その後 `python3 scripts/build.py` が通ることを確かめる。
+               変更があれば content/posts/ と data/giteki_makers.yaml をコミットして main に push する。
+               コミットメッセージは「技適の再確認 <今日の日付>」(`TZ=Asia/Tokyo date +%Y-%m-%d`)。
+               public/ はコミットしない。変更が無ければコミットしない。
+
+            ## 絶対に守ること
+            - **技適番号を創作しない。** DB に出た番号だけを使う。番号は DB の表記のまま(例: 201-260642)。
+            - **モジュールの認証は製品の認証ではない。** ESP32 などのモジュールが取っていても、
+              その製品が取得済みとは言えない。登録者は製品を売るブランドの法人であること。
+            - **地域違いの型番は別物。** 国・地域ごとに型番が違う製品は、日本向けの型番の登録だけを採る。
+            - 同じシリーズの別機種(Plus と Pro、Lite など)の登録を、その記事の製品のものにしない。
+            - 迷ったら「確認できない」のまま残す。記事の本文は書き換えない
+              (続報は build.py が giteki.found から「技適の続報」枠として出す)。
+            - 登録者名が確認できないブランドの名前を、推測で対応表に入れない。
+            - DB が応答しない・遅いときは無理に繰り返さず、取れた範囲で終える。
+            - 最後に、(a) 新しく対応表に足したブランドと根拠、(b) 取得済みにした記事と番号と
+              一致の理由、(c) 保留にした候補と理由、(d) 特定できなかったブランドを一覧で出力する。

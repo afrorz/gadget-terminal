@@ -11,7 +11,7 @@ tags: [E Ink, デュアルスクリーン, Bigme, Android, 電子ペーパー]
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-05
+  checked: 2026-10-15
   radio: 5G / 4G / Wi-Fi / Bluetooth 5.3
   note: 同社の別機種は2026年7月に登録済み
 origin: SZX 深圳

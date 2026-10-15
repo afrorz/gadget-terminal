@@ -17,11 +17,12 @@ tags:
   - ゲーミングキーボード
   - 磁気スイッチ
 giteki:
-  status: 確認できない
-  number: []
-  checked: 2026-10-10
+  status: 取得済み
+  number: ["222-251279"]
+  checked: 2026-10-15
   radio: Bluetooth / 2.4GHz
-  note: 有線(USB-C)運用なら不要
+  note: "型番HE60を含む一括登録(Shenzhen Changyun Technology。2026-10-15 再確認)"
+  found: 2026-10-15
 images:
   - url: "https://cdn.shopify.com/s/files/1/0280/3931/5529/files/EPOMAKER_HE60_Black_01.webp"
     caption: ブラックを真上から見た図。61キーの60%配列で、左端にストラップ用の切り欠きがある

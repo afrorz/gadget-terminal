@@ -13,11 +13,12 @@ tags:
 - ゲーミングルーター
 - ネットワーク機器
 giteki:
-  status: 確認できない
-  number: []
-  checked: 2026-09-06
+  status: 取得済み
+  number: ["201-260642"]
+  checked: 2026-10-15
   radio: "Wi-Fi 8 (Draft)"
-  note: "規格が草案段階。国内取得は不透明"
+  note: "型番GT-BN98で登録(2026-10-15 再確認)"
+  found: 2026-10-15
 x_hook: Wi-Fi 8はまだIEEEの正式承認すら得ていない規格。それを先取りした940ドル相当のルーターがカナダでひっそり売られ始めた。承認は2028年5月の見込みで、買った人は「未確定の規格」に賭けることになる。
 images:
 - url: "https://dlcdnwebimgs.asus.com/gain/9B8AD5A0-BC4C-4040-9D56-A5972099F104"

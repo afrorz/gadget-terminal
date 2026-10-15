@@ -1,0 +1,78 @@
+# ブランド → 総務省DB上の登録者名(giteki.py --name で引ける名前)の対応表。
+# scripts/giteki_recheck.py が読む。DB に載っている表記のまま、部分一致で引ける短さで書く
+# (例: 「Bigme Cloud Literacy Technology」。末尾の Co., Ltd. は不要)。
+#
+# brands:
+#   <記事の題名・keyword に現れるブランド名>:      # 大文字小文字は区別しない
+#     registrants: [登録者名, ...]                  # 確認済みのものだけ。推測で書かない
+#     aliases: [別名, ...]                          # 任意。記事側の別表記(製品シリーズ名など)
+#     note: 任意のメモ(根拠・注意)
+# unresolved:    調べたが登録者名を特定できなかったブランド。60日は再調査しない
+#   <ブランド>: {tried: YYYY-MM-DD, note: ...}
+
+brands:
+  8BitDo:
+    note: DB上は SHENZHEN 8BITDO TECH CO., LTD.
+    registrants:
+    - 8BITDO TECH
+  ASUS:
+    note: ASUSTeK COMPUTER INC. / ASUSTEK / ASUSTeK Computer Inc. の表記ゆれ。型式欄は GT-BN98 など型番
+    registrants:
+    - ASUSTeK Computer
+  AWOL:
+    aliases:
+    - AWOL Vision
+    note: AWOL Vision 公式の保証ページが販売主体を Elevation Technology Partners (AWOL Vision) と明記。総務省DBでは VGTV-RC02〜06(リモコン)の登録のみ確認(2026-10-15)。本体の登録名は別かもしれない
+    registrants:
+    - Elevation Technology Partners
+  Bigme:
+    note: 表記は Co., Ltd. と Co.,Ltd. が混在。総務省DB上で B6 / B7 / B13 / HiBreak 系の登録を確認(2026-10-15)
+    registrants:
+    - Bigme Cloud Literacy Technology
+  Elgato:
+    note: Elgato の適合宣言書(Wave XLR/Wave DX)の発行者が Corsair Memory, Inc.。型式欄は 20MAH9901 のような部品番号が多い
+    registrants:
+    - Corsair Memory
+  Epomaker:
+    note: Epomaker の取扱説明書・Walmart 出店者情報が Shenzhen Changyun Technology Co., Ltd を示す。DBで RT82/Luma84/RT100
+      など Epomaker 機種の登録を確認
+    registrants:
+    - Shenzhen ChangYun Technology
+  M5Stack:
+    note: Technology Co., Ltd と Co.,Ltd の表記ゆれあり
+    registrants:
+    - M5Stack Technology
+  Microsoft:
+    note: Xbox 系の登録者。型式欄は HWB-Q93 のような型番で製品名では引けない
+    registrants:
+    - Microsoft Corporation
+  Rolling Square:
+    registrants:
+    - Rolling Square SA
+  Sennheiser:
+    note: Sennheiser コンシューマー製品(MOMENTUM True Wireless 5 など)の登録者。2026-10-15 に総務省DBで MTW5 = 201-250883 を確認
+    registrants:
+    - Sonova Consumer Hearing GmbH
+  XGIMI:
+    note: 型式欄は B942C のような型番で製品名では引けないことが多い
+    registrants:
+    - XGIMI Technology
+unresolved:
+  BirdVue:
+    note: 米国ワイオミング州の新興ブランド。運営会社の法人名を特定できず、DBにブランド名の登録なし
+    tried: '2026-10-15'
+  Fosi:
+    note: 候補は Shenzhen Foresight Technology(DBに S3/S5 系の登録あり)だが、Fosi の運営会社である一次根拠が無く未採用
+    tried: '2026-10-15'
+  Pebble:
+    note: 運営は Core Devices だが DB に Pebble / Core Devices の登録なし
+    tried: '2026-10-15'
+  Q8botOne:
+    note: ブランド名でDBに登録なし。ESP32 モジュールの認証は製品の認証ではない
+    tried: '2026-10-15'
+  Spark:
+    note: Spark Ring。ブランド名でDBに登録なし、法人名未特定
+    tried: '2026-10-15'
+  abxylute:
+    note: 法人名を特定できず、DBにブランド名の登録なし
+    tried: '2026-10-15'

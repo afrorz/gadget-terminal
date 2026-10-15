@@ -132,7 +132,12 @@ def norm_giteki(raw, fname: str = "") -> dict | None:
     return {"status": status, "number": nums,
             "checked": str(raw.get("checked") or "").strip(),
             "radio": str(raw.get("radio") or "").strip(),
-            "note": str(raw.get("note") or "").strip()}
+            "note": str(raw.get("note") or "").strip(),
+            # found: 公開後の再確認(scripts/giteki_recheck.py)で取得を見つけた日。
+            #        「公開時点では確認できなかったが、後から登録された」ことの印。
+            # maker: 総務省DBの登録者名を引くときのブランド名(任意。giteki_makers.yaml のキー)
+            "found": str(raw.get("found") or "").strip(),
+            "maker": str(raw.get("maker") or "").strip()}
 
 
 def parse_post(path: Path) -> dict | None:
@@ -153,8 +158,10 @@ def parse_post(path: Path) -> dict | None:
     meta["date"] = str(meta.get("date", datetime.now(JST).strftime("%Y-%m-%d")))
     # 更新日。日本上陸の続報を書き足したら、その確認日を更新日として扱う
     # （構造化データの dateModified と sitemap の lastmod に効き、再クロールを促す）。
+    _gk_found = str(meta["giteki"].get("found") or "") if isinstance(meta.get("giteki"), dict) else ""
     meta["modified"] = max(str(meta.get("modified") or ""),
-                           str((meta.get("japan") or {}).get("checked") or "")) or ""
+                           str((meta.get("japan") or {}).get("checked") or ""),
+                           _gk_found) or ""
     meta["reading_min"] = max(1, round(len(body_md) / 500))
     meta["path"] = f"posts/{meta['slug']}.html"
     meta.setdefault("tags", [])
@@ -484,6 +491,24 @@ def japan_section(s: dict, p: dict) -> tuple[str, bool]:
             f'{list_html}{src_html}'
             f'<p class="jp-note">この枠は公開後の続報です。本文は公開時点の情報のまま残しています。</p>'
             f'</aside>', has_aff)
+
+
+def giteki_followup_section(p: dict) -> str:
+    """「技適の続報」枠。公開後の再確認で技適番号の登録を見つけた記事にだけ出す。
+
+    japan_section と同じ見た目(.jp-update)。本文は公開時点の記録なので書き換えず、
+    後から分かったことはこの枠に分けて出す。"""
+    g = p.get("giteki") or {}
+    found = g.get("found") or ""
+    if not found or g.get("status") != "取得済み" or not g.get("number"):
+        return ""
+    nums = "、".join(html.escape(n) for n in g["number"])
+    return (f'<aside class="jp-update"><p class="jp-head"><span class="jp-badge">技適の続報</span>'
+            f'<time datetime="{html.escape(found)}">{found.replace("-", ".")} 確認</time></p>'
+            f'<p class="jp-summary">{html.escape(found)} の再確認で、総務省のデータベースに技適番号 {nums} の'
+            f'登録を確認しました。本文は公開時点の情報のままです。</p>'
+            f'<p class="jp-note"><a href="{u(GITEKI_PATH)}">技適チェック一覧</a>で他の製品の状況も見られます。</p>'
+            f'</aside>')
 
 
 def analytics(s: dict) -> str:
@@ -1662,6 +1687,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         faq_html = f'<section class="faq"><h2>よくある質問</h2>{rows}</section>'
 
     jp_html, jp_aff = japan_section(s, p)
+    jp_html += giteki_followup_section(p)
     buy_html, buy_aff = buy_section(s, p)
     alts_html, alts_aff = alternatives_section(s, p)
     gear_html, gear_aff = gear_section(s, p)
@@ -2027,7 +2053,7 @@ MIC_RAD = (
 GITEKI_PATH = "giteki/"
 GITEKI_TITLE = "海外ガジェットの技適チェック一覧"
 GITEKI_DESC = ("当メディアが記事にした海外ガジェットの技適の状況を、製品ごとに一覧にしました。"
-               "総務省のデータベースで確認した結果を、取得済み・確認できない・対象外の3つで示します。")
+               "総務省のデータベースで確認した結果を、取得済み・確認できない・対象外の3つで示し、毎週更新します。")
 GITEKI_STATUS_CLS = {"取得済み": "gk-ok", "確認できない": "gi-warn", "対象外": "gk-na"}
 
 
@@ -2053,6 +2079,7 @@ def giteki_records(site: dict, posts: list[dict]) -> list[dict]:
             "numbers": g["number"],
             "checked": g["checked"],
             "note": g["note"],
+            "found": g["found"],
             "published": p["date"],
         })
     return out
@@ -2063,6 +2090,8 @@ def giteki_counts(posts: list[dict]) -> dict:
     for p in posts:
         if p.get("giteki"):
             c[p["giteki"]["status"]] += 1
+    c["公開後に取得"] = sum(1 for p in posts if p.get("giteki") and p["giteki"]["found"]
+                      and p["giteki"]["status"] == "取得済み")
     c["未記入"] = sum(1 for p in posts if not p.get("giteki"))
     c["記録"] = len(posts) - c["未記入"]
     return c
@@ -2084,6 +2113,10 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
             f'target="_blank" rel="noopener" title="総務省のデータベースで開く">{html.escape(n)}</a>'
             for n in r["numbers"])
         note = f'<span class="gk-note">{html.escape(r["note"])}</span>' if r["note"] else ""
+        is_found = bool(r["found"]) and st == "取得済み"
+        found_mark = (f'<span class="gk-found" title="{html.escape(r["found"])} の再確認で登録を確認">'
+                      f'発表後に取得</span>' if is_found else "")
+        found_attr = ' data-found="1"' if is_found else ""
 
         def cell(label: str, val: str, cls_: str = "") -> str:
             if val:
@@ -2091,12 +2124,12 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
             return f'<td data-l="{label}" class="gk-empty"><span aria-hidden="true">&mdash;</span></td>'
 
         return (
-            f'<tr data-status="{html.escape(st)}" data-cat="{html.escape(r["category"])}">'
+            f'<tr data-status="{html.escape(st)}" data-cat="{html.escape(r["category"])}"{found_attr}>'
             f'<td class="gk-prod"><a href="{u(r["path"])}" title="{html.escape(r["title"])}">'
             f'{html.escape(r["name"])}</a></td>'
             + cell("カテゴリ", html.escape(r["category_label"]))
             + cell("無線", html.escape(r["radio"]))
-            + f'<td data-l="判定"><span class="buy-giteki {cls}">{html.escape(st)}</span>{note}</td>'
+            + f'<td data-l="判定"><span class="buy-giteki {cls}">{html.escape(st)}</span>{found_mark}{note}</td>'
             + cell("技適番号", nums, ' class="gk-nums"')
             + cell("確認日", f'<time datetime="{r["checked"]}">{r["checked"].replace("-", ".")}</time>'
                    if r["checked"] else "")
@@ -2110,6 +2143,10 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
             ("取得済み", "取得済み", cnt["取得済み"], "gk-ok"),
             ("確認できない", "確認できない", cnt["確認できない"], "gi-warn"),
             ("対象外", "対象外", cnt["対象外"], "gk-na")))
+    found_line = (f'<p class="gk-foundline" data-gk-foundline><a href="#gk-list" data-status="found">'
+                  f'公開後に取得を確認: <b>{cnt["公開後に取得"]}</b></a>'
+                  f'<span>記事の公開時点では確認できず、あとから登録が見つかった製品</span></p>'
+                  if cnt["公開後に取得"] else "")
     opts = '<option value="">すべてのカテゴリ</option>' + "".join(
         f'<option value="{html.escape(k)}">{html.escape(c["label"])}</option>'
         for k, c in site["categories"].items())
@@ -2156,6 +2193,8 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
             {"@type": "PropertyValue", "name": "無線", "description": "記事に書かれた無線の種類"},
             {"@type": "PropertyValue", "name": "技適番号", "description": "総務省のデータベースで確認できた番号"},
             {"@type": "PropertyValue", "name": "確認日", "description": "判定を確認した日"},
+            {"@type": "PropertyValue", "name": "公開後に取得を確認した日",
+             "description": "記事の公開時点では確認できず、その後の再確認で登録が見つかった日"},
         ],
     }
     ld_crumb = {
@@ -2190,14 +2229,14 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
   <section class="hero hero-sm">
     <p class="eyebrow">FEATURE / 技適</p>
     <h1 class="hero-title">{GITEKI_TITLE}</h1>
-    <p class="hero-sub">当メディアが記事にした海外ガジェットについて、技適の状況を確認した時点の記録を一覧にしました。
-    編集部が総務省の「技術基準適合証明等を受けた機器の検索」で、メーカー名と型番から引いた結果です。</p>
+    <p class="hero-sub">当メディアが記事にした海外ガジェットについて、技適の状況を確認した時点の記録を一覧にしました。編集部が総務省の「技術基準適合証明等を受けた機器の検索」で、メーカー名と型番から引いた結果です。判定が「確認できない」の製品は毎週、総務省のデータベースで引き直し、新しく登録が見つかれば更新します。</p>
   </section>
   <div class="gk" id="gk">
     {legend}
     <p class="gk-lead">判定は確認した日の時点のもので、あとから取得されて変わることがあります。
     技適の考え方そのものは<a href="{feat}">技適マークのない海外ガジェットを日本で使うとどうなるか</a>にまとめています。</p>
     <div class="gk-tiles" data-gk-tiles>{tiles}</div>
+    {found_line}
     {table}
     <p class="gk-foot">掲載時点の確認です。購入前に総務省のデータベースで型番を確かめてください。
     <a href="{MIC_FORM}" target="_blank" rel="noopener">総務省の検索ページ</a>
@@ -2213,7 +2252,7 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
 GITEKI_JS = """<script>(function(){
 var root=document.getElementById("gk");if(!root)return;
 var rows=[].slice.call(root.querySelectorAll("tbody tr"));
-var tiles=[].slice.call(root.querySelectorAll("[data-gk-tiles] a"));
+var tiles=[].slice.call(root.querySelectorAll("[data-gk-tiles] a,[data-gk-foundline] a"));
 var bar=root.querySelector("[data-gk-filter]");
 var sel=root.querySelector("[data-gk-cat]");
 var cnt=root.querySelector("[data-gk-count]");
@@ -2222,7 +2261,7 @@ var st="",ct="";
 function apply(){
   var n=0;
   rows.forEach(function(r){
-    var ok=(!st||r.getAttribute("data-status")===st)&&(!ct||r.getAttribute("data-cat")===ct);
+    var ok=(!st||(st==="found"?r.getAttribute("data-found")==="1":r.getAttribute("data-status")===st))&&(!ct||r.getAttribute("data-cat")===ct);
     r.hidden=!ok;if(ok)n++;
   });
   if(cnt)cnt.textContent=n+"件を表示";
@@ -2258,10 +2297,10 @@ def write_giteki_data(site: dict, posts: list[dict]) -> None:
 
     with open(out_dir / "giteki.csv", "w", encoding="utf-8-sig", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["製品", "記事URL", "カテゴリ", "無線", "判定", "技適番号", "確認日"])
+        w.writerow(["製品", "記事URL", "カテゴリ", "無線", "判定", "技適番号", "確認日", "公開後に取得を確認した日"])
         for r in recs:
             w.writerow([safe(r["name"]), r["url"], r["category_label"], safe(r["radio"]),
-                        r["status"], ";".join(r["numbers"]), r["checked"]])
+                        r["status"], ";".join(r["numbers"]), r["checked"], r["found"]])
     latest = max((r["checked"] for r in recs if r["checked"]), default="")
     data = {
         "title": GITEKI_TITLE,
@@ -2272,7 +2311,7 @@ def write_giteki_data(site: dict, posts: list[dict]) -> None:
         "items": [{"name": r["name"], "title": r["title"], "url": r["url"],
                    "category": r["category_label"], "radio": r["radio"], "status": r["status"],
                    "numbers": r["numbers"], "checked": r["checked"], "note": r["note"],
-                   "published": r["published"]} for r in recs],
+                   "found": r["found"], "published": r["published"]} for r in recs],
     }
     (out_dir / "giteki.json").write_text(
         json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -2912,6 +2951,12 @@ img{max-width:100%}
 .gk-prod a:hover{border-bottom-color:var(--accent);color:var(--accent)}
 .gk-note{display:block;margin-top:3px;font-size:12px;font-weight:400;line-height:1.7;color:var(--ink-3)}
 .gk-empty{color:var(--ink-3)}
+.gk-found{display:inline-block;margin-left:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;
+  padding:1px 6px;border-radius:2px;background:var(--accent);color:#fff;vertical-align:1px}
+.gk-foundline{margin:-6px 0 18px;font-size:12.5px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.gk-foundline a{color:var(--ink);border-bottom:1px solid var(--rule-2)}
+.gk-foundline a[aria-pressed="true"]{border-bottom-color:var(--accent);color:var(--accent)}
+.gk-foundline b{font-variant-numeric:tabular-nums}
 .gk-nums{font-family:var(--mono);font-size:12px;line-height:1.9}
 .gk-num{display:inline-block;margin-right:10px;color:var(--ink);border-bottom:1px dotted var(--ink-3)}
 .gk-num:hover{color:var(--accent);border-bottom-color:var(--accent)}

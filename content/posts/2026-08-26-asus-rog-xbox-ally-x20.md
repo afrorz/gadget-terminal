@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-08
+  checked: 2026-10-15
   radio: "Wi-Fi / Bluetooth"
   note: "10/8時点でDBに該当登録なし"
 x_hook: 中身はほぼ同じなのに300ドル高い。理由はOLED画面と磁気式スティック、そして日本には10月に来る。

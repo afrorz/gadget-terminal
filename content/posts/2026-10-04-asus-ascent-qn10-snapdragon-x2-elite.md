@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-04
+  checked: 2026-10-15
   radio: Wi-Fi 7 / Bluetooth 6.0
   note: 型式QN10は別メーカー品のみ
 faq:

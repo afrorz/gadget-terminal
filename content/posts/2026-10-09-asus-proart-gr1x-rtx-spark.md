@@ -20,7 +20,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-09
+  checked: 2026-10-15
   radio: Wi-Fi 7 / Bluetooth 5.4
 images:
 - url: "https://dlcdnwebimgs.asus.com/files/media/202605/c3379200-8584-4929-b246-ac81e169d1ce/V3/img/design-main-dark.png"
