@@ -12,6 +12,11 @@ tags:
 - クラウドファンディング
 - ESP32
 - LEDディスプレイ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-04
+  radio: "Wi-Fi / Bluetooth LE"
 x_hook: LEDの電光掲示板を自室の壁に据え置く。スコアも天気もSNSの数字も、スマホを見ずに流しっぱなしにできるという。
 deadline: 2026-10-01
 embeds: []

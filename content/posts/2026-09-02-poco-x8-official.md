@@ -12,6 +12,11 @@ tags:
 - Xiaomi
 - Snapdragon
 - スマートフォン
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-02
+  radio: ""
 x_hook: 8,340mAhのバッテリーを1,600回充電しても8割の容量が残るという新型スマホ。日本での発売は今のところ未定。
 origin: PEK 北京
 images:

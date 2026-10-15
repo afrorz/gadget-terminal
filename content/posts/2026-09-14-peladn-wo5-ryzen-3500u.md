@@ -12,6 +12,12 @@ tags:
   - ミニPC
   - AMD Ryzen
   - 自作PC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-14
+  radio: Wi-Fi 6 / Bluetooth 5.0
+  note: 公式サイトに技適の記載なし
 x_hook: 4コアのRyzen 5 3500Uは2019年発売のノート向けチップ。それを積んだミニPCが中国で1,549元、約230ドル相当で売られている。WiFi 6とBluetoothも積むが、技適が取れているかは公式サイトに記載がない。
 images:
   - url: "https://peladn.us/cdn/shop/files/1_9379e6b3-579a-4692-abef-40bd743838a8.jpg"

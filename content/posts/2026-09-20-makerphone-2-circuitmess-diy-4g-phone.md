@@ -11,6 +11,12 @@ tags:
 - ESP32-S3
 - 4G
 - Kickstarter
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-20
+  radio: 4G LTE Cat-1 / Wi-Fi / Bluetooth
+  note: 対応バンドも公開資料に明記なし
 x_hook: LEGOのように部品をはめていくと、本物の4G回線で通話できるスマホが組み上がる。ドライバー1本で約2時間、コードはAIに書かせて改造もできるが、日本のSIMで電話網につながるかどうかは対応バンドが公開されておらず確認できていない
 deadline: "2026-10-10"
 origin: ZAG ザグレブ

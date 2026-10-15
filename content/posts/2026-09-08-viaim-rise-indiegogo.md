@@ -12,6 +12,11 @@ tags:
 - AIイヤホン
 - Indiegogo
 - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-08
+  radio: "Bluetooth 6.1"
 x_hook: 会話を録りながら、耳につけたままChatGPTやClaudeにタスクを投げられるイヤホンが本日始動する。78言語・145アクセントの音声認識に対応し、早期価格は259ドル、正式価格は399ドル。
 status: SCHEDULED
 status_note: 9/8 22:00(JST)開始予定

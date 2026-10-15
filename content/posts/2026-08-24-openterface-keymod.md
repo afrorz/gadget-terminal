@@ -6,6 +6,12 @@ category: pc
 date: 2026-08-24
 kicker: Mini-KVMやKVM-GOを手がけてきたTechxArtisanが、スマホをUSB/Bluetooth経由のキーボード・マウス・SSHクライアントに変える「Openterface KeyMod」をCrowd Supplyで公開した。42ドルからで、CE・UKCA認証は「出荷までに取得予定」の段階にある。
 tags: [Openterface, KeyMod, Crowd Supply, KVM, クラウドファンディング]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-24
+  radio: "Bluetooth 5.3"
+  note: "有線のKeyMod Plusは無線なし"
 seo_title: Openterface KeyModが42ドルから開始
 x_hook: スマホがUSBキーボードになる42ドルの道具、認証はまだ「出荷までに取る」段階。
 faq:

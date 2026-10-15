@@ -12,6 +12,11 @@ tags:
 - プロジェクター
 - Kickstarter
 - IFA2026
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-04
+  radio: "Wi-Fi / Bluetooth"
 x_hook: 壁から約20cmで100インチ超の映像を出すプロジェクターが、4Kで120Hz出力に対応した。ゲーム機をつなぐ前提の仕様だという。
 status: SCHEDULED
 status_note: Kickstarter本発売は10/20予定、現在は予約デポジットのみ受付中

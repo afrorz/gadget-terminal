@@ -13,6 +13,12 @@ tags:
 - 電子ペーパー
 - スマートウォッチ
 - Core Devices
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-08
+  radio: Bluetooth
+  note: 公式ブログの認証はFCC・CE・ICのみ
 alternatives:
 - name: ガーミン Instinct E 40mm
   why: Pebbleと同じく、見やすいモノクロ表示の丸型で電池持ちを重視した腕時計。ガーミンの国内正規品で、今日から国内で買える。

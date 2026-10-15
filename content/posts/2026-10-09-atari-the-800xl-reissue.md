@@ -17,6 +17,12 @@ tags:
 - レトロPC
 - Retro Games
 - PLAION REPLAI
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-09
+  radio: ""
+  note: 無線の記載なし
 images:
 - url: "https://retrogames.biz/images/the800xl/the800xl-og-1200.jpg"
   caption: THE 800XLの外観。ベージュの上面にカートリッジスロット、黒いキーボード、右側に6つのコンソールキー

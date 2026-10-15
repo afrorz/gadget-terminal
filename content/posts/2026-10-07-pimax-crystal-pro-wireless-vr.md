@@ -13,6 +13,12 @@ tags:
 - PC VR
 - ワイヤレスVR
 - 60GHz
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-07
+  radio: Wi-Fi 6E / 60GHz
+  note: Crystal Superの登録のみで本機は未確認
 alternatives:
 - name: "Meta Quest 3 512GB"
   why: "ケーブル無しで遊べるVRヘッドセット。Meta公式ストアで販売される国内正規品"

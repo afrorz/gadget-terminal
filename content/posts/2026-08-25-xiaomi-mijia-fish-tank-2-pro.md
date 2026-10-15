@@ -12,6 +12,11 @@ tags:
 - スマート水槽
 - Xiaomi Youpin
 - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-25
+  radio: "Wi-Fi"
 x_hook: 水槽が自分でエサをやり、水も勝手にろ過する。ただし今のところ中国国内限定の話。
 faq:
 - q: 日本で買えますか

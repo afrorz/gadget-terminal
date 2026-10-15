@@ -11,6 +11,11 @@ tags:
 - SANYTRON
 - デスクアクセサリー
 - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-10
+  radio: "Wi-Fi / Bluetooth"
 pick: true
 x_hook: モジュールを近づけるだけで0.3秒で磁石接続され、工具無しで最大15個まで積み替えられるデスクパネルが登場した。Wi-FiとBluetoothを積むが、支援ページには技適についての記載が見当たらない。
 images:

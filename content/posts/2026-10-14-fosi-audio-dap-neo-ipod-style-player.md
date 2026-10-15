@@ -14,6 +14,12 @@ tags:
 - デジタルオーディオプレーヤー
 - iPod
 - ロスレス
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-14
+  radio: Bluetooth(SBC)
+  note: 有線イヤホンのみなら電波は出ない
 images:
 - url: "https://fosiaudio.com/cdn/shop/files/1-1_6b97a85a-c807-49f6-aa36-8182d7b53edc.jpg"
   caption: DAP Neoの斜め前から。2.4インチの画面の下に白いクリックホイール、左側面にボタンが並び、下面に3.5mm端子とUSB-Cがある

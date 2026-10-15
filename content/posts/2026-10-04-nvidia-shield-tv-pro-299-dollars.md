@@ -13,6 +13,12 @@ tags:
 - ストリーミング
 - Android TV
 - 値上げ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-04
+  radio: Wi-Fi / Bluetooth
+  note: NVIDIAの別型式の登録のみ、現行機は未特定
 faq:
 - q: SHIELD TV Proはいくらになりましたか
   a: 米国では10月2日から299.99ドルです（掲載時点）。従来は2019年の発売から199.99ドルのままでした。オランダとベルギーでは100ユーロ上がって299ユーロになったと報じられています。

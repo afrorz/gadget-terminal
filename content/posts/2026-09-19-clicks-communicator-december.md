@@ -11,6 +11,12 @@ tags:
 - 物理キーボード
 - Android
 - QWERTY
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-19
+  radio: セルラー(eSIM)
+  note: 日本への発送も未確認
 x_hook: iPhone用キーボードケースの会社が作る初の自社スマホが、出荷2カ月前にRAMを8GBから12GBへ積み増した。価格は月末までの予約なら499ドル、10月に入ると650ドルに上がる
 images:
 - url: "https://cdn.prod.website-files.com/66f575e72f06b9820f448d43/6957c2f239a9f8b7c2518950_communicator-opengraph.jpg"

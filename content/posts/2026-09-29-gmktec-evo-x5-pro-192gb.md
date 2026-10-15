@@ -12,6 +12,12 @@ tags:
   - ミニPC
   - Ryzen AI Max+
   - ローカルLLM
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-02
+  radio: Wi-Fi 7
+  note: 国内発売済みだが技適は確認できず
 origin: SZX 深圳
 embeds:
   - type: youtube

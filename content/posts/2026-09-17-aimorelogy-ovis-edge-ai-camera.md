@@ -14,6 +14,12 @@ tags:
   - Kickstarter
   - エッジAI
   - カメラモジュール
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-17
+  radio: ""
+  note: Wi-Fi拡張を追加する場合は別途確認が必要
 x_hook: 暗所でもモノクロにならない防犯カメラ用チップを、20×20mmの基板に載せた。Kickstarterの目標はHK$30,000だが、掲載時点の支援はHK$4,928(16%)、支援者はまだ8人にとどまる。
 faq:
   - q: 日本で買えますか

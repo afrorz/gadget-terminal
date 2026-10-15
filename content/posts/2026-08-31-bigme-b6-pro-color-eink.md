@@ -12,6 +12,11 @@ tags:
 - E Ink
 - 電子書籍リーダー
 - Android
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-31
+  radio: "4G LTE / Wi-Fi / Bluetooth 5.3"
 x_hook: ページめくりが75fpsの電子ペーパー。4G回線を積んで、Wi-Fiが無くても本が届く。
 embeds:
 - type: youtube

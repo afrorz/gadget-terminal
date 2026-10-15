@@ -7,6 +7,12 @@ category: weird
 date: 2026-08-18
 kicker: 2,600mAhバッテリーとローラー式のWater-Dust Circulation技術で、水道ホースなしに1回350mlの水で洗車できるという携帯型デバイスがKickstarterで支援受付中。
 tags: [Kickstarter, カー用品, 洗車, 変わり種]
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-08-18
+  radio: ""
+  note: "無線の記載なし"
 embeds:
   - type: youtube
     id: gz-0fC0wIWk

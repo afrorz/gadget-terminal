@@ -13,6 +13,12 @@ tags:
 - スクリーンレス
 - ECG
 - ウェアラブル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-04
+  radio: Bluetooth 5.3
+  note: 事業者名Rogbid・型式Loop Wで該当なし
 faq:
 - q: Rogbid Loop Wはいくらですか
   a: 掲載時点で公式ストアの価格は59.99ドルです。色はTech BlackとMoonlight Silverの2色で、どちらも同額です。送料は国と地域によって異なり、チェックアウトで表示されます。

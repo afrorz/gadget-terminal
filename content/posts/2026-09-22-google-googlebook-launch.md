@@ -12,6 +12,12 @@ tags:
   - ChromeOS
   - Android
   - ノートPC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-22
+  radio: Wi-Fi / Bluetooth
+  note: 日本は発売対象外(掲載時点)
 images:
   - url: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CapCut_from_Ram.width-1200.format-webp.webp"
     caption: Googlebook実機での作業画面。CapCutなどAndroidアプリがそのまま動く

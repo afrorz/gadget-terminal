@@ -13,6 +13,12 @@ tags:
 - EDC
 - クラウドファンディング
 - Kickstarter
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-18
+  radio: ""
+  note: 無線通信機能のない手動工具
 x_hook: 折りたたみ7cmのキーフォブ型ツールに、六角レンチからボトルオープナー、モールス信号の早見表まで36機能を詰めた。替刃はホームセンターで買える汎用のStanley規格、価格はアルミ版70ポンドから
 deadline: "2026-10-18"
 origin: LHR ロンドン

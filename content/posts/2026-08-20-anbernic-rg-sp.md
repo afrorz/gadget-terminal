@@ -11,6 +11,11 @@ tags:
 - エミュレーター
 - クラムシェル
 - 中華ガジェット
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-20
+  radio: "Wi-Fi / Bluetooth"
 seo_title: ANBERNIC RG SPは64.99ドル、PS1世代まで対応
 embeds:
 - type: youtube

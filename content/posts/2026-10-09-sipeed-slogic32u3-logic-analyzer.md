@@ -19,6 +19,12 @@ tags:
 - ロジックアナライザ
 - Kickstarter
 - 電子工作
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-09
+  radio: ""
+  note: USB-C給電の有線計測機器
 images:
 - url: "https://wiki.sipeed.com/hardware/zh/logic_analyzer/slogic32u3/assets/DCIM/SLogic32U3-hero.jpg"
   caption: Raspberry Pi系のボードにプローブをつなぎ、USB-CでノートPCに接続した使用例。画面にはデコード結果が並ぶ

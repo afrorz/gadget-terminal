@@ -7,6 +7,12 @@ category: smartphone
 date: 2026-08-17
 kicker: E Ink画面のスマートフォンに、必要なときだけ5インチのフルカラーLCDを背面へ磁石で装着する。Hisenseが2022年のA9以来となるE Ink機を中国で出す。
 tags: [E Ink, スマートフォン, Hisense, 中国, 電子ペーパー]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-17
+  radio: "NFC"
+  note: "中国向け製品。取得情報なし"
 embeds:
   - type: youtube
     id: CSbVIOKqRfk

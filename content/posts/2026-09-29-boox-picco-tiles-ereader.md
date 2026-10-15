@@ -11,6 +11,11 @@ tags:
   - Picco
   - 電子書籍リーダー
   - E Ink
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-29
+  radio: Wi-Fi / Bluetooth
 origin:
 status: SCHEDULED
 status_note: 予約受付中、11月出荷予定

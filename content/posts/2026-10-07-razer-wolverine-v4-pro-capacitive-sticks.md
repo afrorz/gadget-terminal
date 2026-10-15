@@ -13,6 +13,12 @@ tags:
 - ゲームコントローラー
 - Xbox
 - 静電容量式
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-07
+  radio: 無線接続(方式の記載なし)
+  note: Razerの登録は型番ごとで本機を特定できず
 alternatives:
 - name: "Xbox Elite ワイヤレス コントローラー シリーズ 2"
   why: "Xbox/PC向けの背面パドル付きプロ向けコントローラー。マイクロソフト純正の国内正規品"

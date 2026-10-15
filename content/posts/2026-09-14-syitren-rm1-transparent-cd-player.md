@@ -12,6 +12,12 @@ tags:
   - クラウドファンディング
   - CDプレーヤー
   - Kickstarter
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-27
+  radio: Bluetooth 5.3
+  note: 3.5mm有線出力だけなら技適は関係しない
 x_hook: 目標3,000ドルのKickstarterが540,000ドル超まで積み上がった。透明フレームの中でCDと基板がむき出しのまま回る壁掛けプレーヤーで、価格は109ドル。Bluetooth出力もできるが、技適が取れているかは確認できていない。
 origin: SHE 瀋陽
 images:

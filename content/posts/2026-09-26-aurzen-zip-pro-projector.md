@@ -11,6 +11,11 @@ tags:
   - ZIP Pro
   - モバイルプロジェクター
   - IFA 2026
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-26
+  radio: Google Cast / Bluetooth
 x_hook: 名刺入れほどのサイズに折りたためる箱が、ネイティブ1920×1080で最大115インチまで映す。ただし予約受付は米国・英国・EUのみで、日本への発送は掲載時点で確認できていない
 origin: SZX 深圳
 status: SCHEDULED

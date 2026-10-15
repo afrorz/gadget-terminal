@@ -13,6 +13,12 @@ tags:
 - RX 9060 XT
 - Ryzen 9 8945HX
 - ゲーミングPC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-01
+  radio: Wi-Fi 7 / Bluetooth 5.4
+  note: 国内正規販売だが総務省DBで型番を特定できず
 alternatives:
 - name: "ZOTAC ZBOX MAGNUS EN275060TC"
   why: "RTX 5060 Ti搭載の超小型ゲーミングベアボーン。国内向け型番（-J）の販売品"

@@ -13,6 +13,12 @@ tags:
 - 電動シューズ
 - ウェアラブル
 - 歩行補助
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-02
+  radio: ""
+  note: 事業者名Shift Roboticsで該当0件
 faq:
 - q: Moonwalkers Duskはいくらですか
   a: Shift Robotics公式ストアの掲載時点で1,199ドルです。S・M・Lの全サイズ、3色とも同じ価格です。

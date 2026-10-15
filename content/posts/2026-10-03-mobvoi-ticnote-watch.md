@@ -13,6 +13,12 @@ tags:
 - スマートウォッチ
 - AI文字起こし
 - ウェアラブル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-03
+  radio: Bluetooth 5.3 / Wi-Fi 2.4・5GHz / GPS
+  note: 事業者名Mobvoiの登録は別機種のみ
 alternatives:
 - name: "Plaud NotePin S"
   why: "身に着けて録音し、文字起こしと要約までこなすウェアラブルAIボイスレコーダー。Plaud公式店が販売"

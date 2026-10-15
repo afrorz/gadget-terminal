@@ -12,6 +12,11 @@ tags:
   - Pocket Block
   - レトロゲーム機
   - Android
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-29
+  radio: Wi-Fi / Bluetooth
 origin: SZX 深圳
 status: SCHEDULED
 status_note: 海外向けは10月末出荷予定

@@ -8,6 +8,12 @@ date: 2026-08-16
 kicker: BlackBerry の子孫のような見た目だが電話ではない。LoRa と MeshCore で、携帯圏外どうしを直接つなぐメッシュ通信端末。
 x_hook: 基地局が無くても文字は届く。ただし日本の電波法上、そのままでは使えない。
 tags: [LoRa, MeshCore, Meshtastic, ESP32, 変わり種]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-16
+  radio: "LoRa / Wi-Fi 4 / Bluetooth 5.0"
+  note: "日本向け920MHz帯モデルの有無が不明"
 embeds:
   - type: youtube
     id: l7ITJTsp9CY

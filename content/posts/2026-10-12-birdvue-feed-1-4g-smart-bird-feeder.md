@@ -13,6 +13,12 @@ tags:
 - スマートバードフィーダー
 - 野鳥観察
 - Kickstarter
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-12
+  radio: 4G LTE / Wi-Fi 2.4・5GHz / eSIM
+  note: 公式仕様に技適の記載なし
 deadline: 2026-11-07
 images:
 - url: "https://www.birdvue.com/cdn/shop/files/birdvue-feeder-hanging-on-tree.jpg?v=1785824077&width=1500"

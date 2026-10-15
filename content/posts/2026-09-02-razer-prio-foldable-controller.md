@@ -12,6 +12,11 @@ tags:
 - ゲームコントローラー
 - iPhone
 - Android
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-27
+  radio: ""
 x_hook: 折りたたむとクレジットカードサイズになるコントローラーが登場した。電池不要、スマホから直接給電する。
 images:
 - url: "https://assets2.razerzone.com/images/pnx.assets/ad2fb799146ba544fd089c7bc58e6b84/razer-prio-hero-1920x700.webp"

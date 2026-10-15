@@ -11,6 +11,12 @@ tags:
 - Panther Lake
 - Core Ultra
 - Arc B390
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-09
+  radio: "Wi-Fi 7 / Bluetooth 6.0"
+  note: "総務省DBで事業者名から該当なし"
 seo_title: Minisforum M2 Pro-358Hが発売、国内は税込25万1,999円で受注中
 x_hook: 発表時は96GBメモリだったミニPCが、実際の発売では32GBに減っていた。
 faq:

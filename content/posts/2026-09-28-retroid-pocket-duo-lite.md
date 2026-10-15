@@ -11,6 +11,12 @@ tags:
   - 携帯ゲーム機
   - レトロゲーム
   - Android
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-28
+  radio: Wi-Fi 5 / Bluetooth 5.0
+  note: 国内の並行輸入店のページにも記載なし
 origin: SZX 深圳
 embeds:
   - type: youtube

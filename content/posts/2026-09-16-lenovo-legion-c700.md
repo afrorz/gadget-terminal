@@ -11,6 +11,12 @@ tags:
   - Legion C700
   - クラウドゲーミング
   - 携帯ゲーム機
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-16
+  radio: Wi-Fi 6E / Bluetooth 5.3
+  note: 冒頭は未取得と記載、本文は情報なし
 x_hook: 重さ556gの携帯機に8,000mAhのバッテリーとWi-Fi 6Eを積みながら、中国の正規価格は2,199元、海外の並行輸入店では399ドルという値付けになった。技適は取得しておらず、日本国内で無線をオンにすれば電波法違反になる。
 embeds:
   - type: youtube

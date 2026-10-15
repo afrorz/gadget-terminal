@@ -13,6 +13,12 @@ tags:
 - Android TV
 - クラウドファンディング
 - ミニPC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-24
+  radio: "Bluetooth / ワイヤレス投影"
+  note: "記載がないだけで未取得とは限らない"
 seo_title: CaloR C1がMakuake開始、35,980円から
 x_hook: レトロなブラウン管風ミニAndroid TVが国内代理店経由で買える。ただしプロジェクトページに技適の記載が見つからない。
 embeds:

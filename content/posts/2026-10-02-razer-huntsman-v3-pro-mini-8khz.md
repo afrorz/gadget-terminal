@@ -13,6 +13,12 @@ tags:
 - 60%キーボード
 - ラピッドトリガー
 - 8KHz
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-02
+  radio: ""
+  note: 有線(USB-C)接続のみ
 alternatives:
 - name: "Logicool G PRO X 60 LIGHTSPEED"
   why: "60%サイズのゲーミングキーボード。ロジクール公式ストアが販売する日本語配列の国内正規品"

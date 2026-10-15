@@ -14,6 +14,12 @@ tags:
 - AI音声メモ
 - Kickstarter
 - ウェアラブル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-11
+  radio: BLE 5.0 / NFC
+  note: 事業者名Spark Ringで該当なし
 deadline: 2026-10-22
 embeds:
 - type: youtube

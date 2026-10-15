@@ -13,6 +13,12 @@ tags:
 - 音楽プレーヤー
 - クリックホイール
 - 予約受付中
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-03
+  radio: Wi-Fi / Bluetooth
+  note: 事業者名New Matterで該当0件
 alternatives:
 - name: "ソニー ウォークマン NW-A307 64GB"
   why: "音楽再生に特化したソニーの携帯プレーヤー。国内正規品で、ソニー特約店が販売"

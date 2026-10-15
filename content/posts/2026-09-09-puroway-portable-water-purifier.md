@@ -11,6 +11,12 @@ tags:
 - 携帯浄水器
 - Kickstarter
 - アウトドア
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-09
+  radio: ""
+  note: "無線の記載なし。断定できない"
 x_hook: USB-Cで充電し、電動ポンプで川や湖の水をその場で飲めるようにする浄水器がKickstarterに登場、目標額の4倍超を集めている。6段階ろ過をうたうが、性能を裏付ける第三者認証はまだ確認できていない。早期価格は69ドルから。
 images:
 - url: "https://i.kickstarter.com/assets/054/992/653/7a8de75abfbf19444cd6cd2d2c7f160e_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1788456921&width=1552&sig=CZ5ErBwMGTv5ljB0QFSRMrQygkCt0drxkGuTM1ZHd%2B0%3D"

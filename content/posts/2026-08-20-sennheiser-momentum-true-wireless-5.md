@@ -11,6 +11,12 @@ tags:
 - バッテリー交換
 - Bluetooth 6.0
 - aptX Lossless
+giteki:
+  status: 取得済み
+  number: ["201-250883"]
+  checked: 2026-10-10
+  radio: "Bluetooth 6.0"
+  note: "型番MTW5。販売ページとの突き合わせは未確認"
 seo_title: MOMENTUM TW5はバッテリー交換式、国内でも9/3発売
 x_hook: ユーザー自身でバッテリーを交換できる完全ワイヤレスイヤホン「MOMENTUM True Wireless 5」が、ゼンハイザーから国内でも発売された。9月3日発売、オープン価格で店頭想定は税込4万9,940円前後。
 japan:

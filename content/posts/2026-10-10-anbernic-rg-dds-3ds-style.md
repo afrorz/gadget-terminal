@@ -17,6 +17,12 @@ tags:
   - レトロゲーム機
   - 3DS
   - 2画面
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-10
+  radio: ""
+  note: Wi-Fi/Bluetoothを積むかが不明
 images:
   - url: "https://img.youtube.com/vi/YfnYDISeZIE/maxresdefault.jpg"
     caption: 公式紹介動画のサムネイル。白いクラムシェル型で、上画面は横長、下画面は4:3。左右にアナログスティック、右側にABXYボタンを置く

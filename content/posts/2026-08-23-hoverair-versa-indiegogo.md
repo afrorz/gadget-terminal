@@ -12,6 +12,12 @@ tags:
 - ジンバルカメラ
 - Indiegogo
 - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-27
+  radio: "Wi-Fi"
+  note: "Makuakeページ公開前で未確認"
 seo_title: HOVERAir VERSAは9月29日Makuake、12万7900円から
 x_hook: 230gのカメラが、勝手に飛ぶ。ただし日本で飛ばすには国への機体登録が要る。
 embeds:

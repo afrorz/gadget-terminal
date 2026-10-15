@@ -7,6 +7,12 @@ category: weird
 date: 2026-08-26
 kicker: Computer Equipment Groupが、Raspberry Pi 5やRadxa ROCK 2Fなど対応SBC向けにFireWire（IEEE 1394／i.LINK）経由でDV・HDV映像を直接キャプチャできるオープンソースHAT「Firehat」をCrowd Supplyで公開した。目標7,500ドルに対し、開始から141%にあたる1万621ドルを集めている。価格は79ドルから。
 tags: [Firehat, Raspberry Pi, FireWire, クラウドファンディング, Crowd Supply, オープンソースハードウェア]
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-08-26
+  radio: ""
+  note: "ホスト機側の無線は別問題"
 x_hook: MiniDVカメラの映像を、Raspberry Piがそのまま録画する。基板1枚で調達目標の141%。
 embeds:
   - type: youtube

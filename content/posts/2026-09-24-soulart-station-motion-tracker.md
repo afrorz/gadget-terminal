@@ -12,6 +12,12 @@ tags:
   - VTuber
   - Kickstarter
   - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-24
+  radio: ""
+  note: 無線機能の有無が未確認
 x_hook: 体に何も装着せず、部屋の隅に置いた箱1台がNPUで骨格を読み取る。23関節分の動きを10ミリ秒未満で処理し、目標額30万ドルに対しすでに158%を集めた。出荷は2027年6月の予定。
 origin: ICN ソウル
 deadline: 2026-11-09

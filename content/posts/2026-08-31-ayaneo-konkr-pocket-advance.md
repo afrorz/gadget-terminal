@@ -12,6 +12,11 @@ tags:
 - Pocket Advance
 - レトロゲーム機
 - ハンドヘルド
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-31
+  radio: "Wi-Fi 5 / Bluetooth 5.0"
 x_hook: ゲームボーイアドバンスそっくりの筐体が、早期予約なら89ドル。ただし発売時期も価格も「今のところ」の話。
 status: SCHEDULED
 status_note: 8月末までに順次出荷予定

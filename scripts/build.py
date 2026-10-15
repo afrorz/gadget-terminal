@@ -104,6 +104,37 @@ def link_giteki(body_html: str) -> str:
     return "".join(parts)
 
 
+GITEKI_STATUSES = ("取得済み", "確認できない", "対象外")
+
+
+def norm_giteki(raw, fname: str = "") -> dict | None:
+    """front matter の giteki を正規化する。未記入・不正な値は None（一覧に載せない）。
+
+    status は取得済み / 確認できない / 対象外 の3つだけ。「確認できない」は
+    「取得していない」とは別物（型番が非公開・申請時の表記と違う等で引けない場合を含む）。
+    number は文字列のリストに揃える。checked は YAML の日付型でも文字列に直す。
+    """
+    if raw in (None, "", {}):
+        return None
+    if not isinstance(raw, dict):
+        print(f"  ! giteki の形式が不正（無視します）: {fname}")
+        return None
+    status = str(raw.get("status") or "").strip()
+    if status not in GITEKI_STATUSES:
+        print(f"  ! giteki.status が不正「{status}」（無視します）: {fname}")
+        return None
+    nums = raw.get("number")
+    if nums is None or nums == "":
+        nums = []
+    elif not isinstance(nums, (list, tuple)):
+        nums = [nums]
+    nums = [str(n).strip() for n in nums if str(n).strip()]
+    return {"status": status, "number": nums,
+            "checked": str(raw.get("checked") or "").strip(),
+            "radio": str(raw.get("radio") or "").strip(),
+            "note": str(raw.get("note") or "").strip()}
+
+
 def parse_post(path: Path) -> dict | None:
     text = path.read_text(encoding="utf-8")
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
@@ -127,6 +158,8 @@ def parse_post(path: Path) -> dict | None:
     meta["reading_min"] = max(1, round(len(body_md) / 500))
     meta["path"] = f"posts/{meta['slug']}.html"
     meta.setdefault("tags", [])
+    meta["name_short"] = str(meta.get("keyword") or "").strip()   # 技適一覧の製品名。tags 由来の代用はしない
+    meta["giteki"] = norm_giteki(meta.get("giteki"), path.name)
     meta["keyword"] = meta.get("keyword") or (meta["tags"][0] if meta.get("tags") else "")
     meta.setdefault("sources", [])
     # 編集部ピックアップ: 運営者が自分で選んだ記事。自動選定と区別する。
@@ -642,7 +675,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -1343,7 +1376,8 @@ def render_features_index(site: dict, features: list[dict]) -> str:
     <h1 class="hero-title">特集</h1>
     <p class="hero-sub">ひとつのテーマで複数のガジェットをまとめています。
     日々のニュースと違い、<strong>日本で実際に買えるものだけ</strong>を並べ、
-    製品ごとに入手先と技適の状況を書いています。</p>
+    製品ごとに入手先と技適の状況を書いています。
+    記事にした全製品の技適の状況は<a href="{u(GITEKI_PATH)}">技適チェック一覧</a>で見られます。</p>
   </section>
   {body}
 </main>"""
@@ -1940,6 +1974,311 @@ def render_media(site: dict, posts: list[dict]) -> str:
             + header(site) + body + footer(site))
 
 
+# ────────────────────────────── 技適チェック一覧 ──────────────────────────────
+# 総務省の検索画面(giteki.py と同じ SearchServlet)に技適番号を渡して開くための種別コード。
+# この画面は RAD(特定無線設備の種別)が1つも無いと結果ではなく検索フォームを返す。
+# 全種別を付けると4.5KBのURLになるので、リンクは href に検索フォームを置き、
+# 一覧ページの JS が番号ごとに本物のURLへ組み替える(JS が無ければ検索フォームが開く)。
+# 取得: python scripts/giteki.py の rad_codes()。2026-10-14 時点。制度改正で増えたら取り直す。
+MIC_FORM = "https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=js01"
+MIC_RAD = (
+    "00-00-00-00 02-01-04-00 02-01-07-00 02-01-08-00 02-01-09-00 02-01-10-00 02-01-11-00 "
+    "02-01-12-00 02-01-12-02 02-01-13-00 02-01-14-00 02-01-15-00 02-02-00-00 02-02-02-00 "
+    "02-03-00-00 02-03-02-00 02-04-02-00 02-04-03-00 02-04-05-00 02-04-06-00 02-04-06-02 "
+    "02-04-06-03 02-04-06-04 02-04-07-00 02-05-00-00 02-06-00-00 02-06-02-00 02-06-02-02 "
+    "02-06-03-00 02-06-04-00 02-07-00-00 02-08-00-00 02-09-00-00 02-09-02-00 02-09-03-00 "
+    "02-09-04-00 02-09-05-00 02-10-00-00 02-10-02-00 02-10-03-00 02-11-00-00 02-11-02-00 "
+    "02-11-02-02 02-11-03-00 02-11-03-07 02-11-04-00 02-11-05-00 02-11-06-00 02-11-06-02 "
+    "02-11-06-03 02-11-06-04 02-11-06-05 02-11-07-00 02-11-08-00 02-11-08-02 02-11-09-00 "
+    "02-11-10-00 02-11-10-02 02-11-10-03 02-11-10-04 02-11-10-05 02-11-11-00 02-11-12-00 "
+    "02-11-13-00 02-11-17-00 02-11-19-00 02-11-19-02 02-11-19-03 02-11-20-00 02-11-20-02 "
+    "02-11-20-03 02-11-20-04 02-11-21-00 02-11-22-00 02-11-29-00 02-11-29-03 02-11-29-04 "
+    "02-11-30-00 02-11-30-02 02-11-30-03 02-11-31-00 02-11-31-04 02-11-32-00 02-11-32-02 "
+    "02-11-33-00 02-11-33-03 02-11-34-00 02-11-34-02 02-12-00-00 02-13-00-00 02-14-00-00 "
+    "02-14-02-00 02-15-00-00 02-15-02-00 02-15-03-00 02-16-00-00 02-17-00-00 02-17-02-00 "
+    "02-18-00-00 02-19-00-00 02-19-02-00 02-19-02-02 02-19-02-03 02-19-03-00 02-19-03-02 "
+    "02-19-03-03 02-19-04-00 02-19-04-02 02-19-04-03 02-19-05-00 02-19-06-00 02-19-07-00 "
+    "02-19-07-02 02-19-08-00 02-19-09-00 02-19-10-00 02-19-11-00 02-19-12-00 02-19-13-00 "
+    "02-20-00-00 02-20-02-00 02-20-03-00 02-20-04-00 02-21-00-00 02-21-02-00 02-21-03-00 "
+    "02-22-00-00 02-23-00-00 02-23-02-00 02-25-00-00 02-25-02-00 02-25-04-00 02-25-05-00 "
+    "02-25-06-00 02-27-00-00 02-28-00-00 02-28-02-00 02-28-02-02 02-28-02-03 02-28-02-04 "
+    "02-28-02-05 02-28-02-06 02-28-03-00 02-28-04-00 02-29-00-00 02-29-03-00 02-30-00-00 "
+    "02-30-02-00 02-30-03-00 02-30-04-00 02-31-00-00 02-31-02-00 02-31-04-00 02-31-05-00 "
+    "02-32-00-00 02-33-00-00 02-33-02-00 02-38-00-00 02-39-00-00 02-40-00-00 02-41-00-00 "
+    "02-42-00-00 02-44-00-00 02-45-00-00 02-46-00-00 02-47-00-00 02-47-02-00 02-47-03-00 "
+    "02-47-04-00 02-49-00-00 02-51-00-00 02-52-03-00 02-53-00-00 02-54-00-00 02-54-02-00 "
+    "02-54-03-00 02-54-05-00 02-54-06-00 02-54-06-03 02-57-00-00 02-57-02-00 02-57-03-00 "
+    "02-57-04-00 02-58-00-00 02-59-00-00 02-60-00-00 02-62-00-00 02-62-02-00 02-63-00-00 "
+    "02-64-00-00 02-65-00-00 02-66-00-00 02-67-00-00 02-68-00-00 02-70-00-00 02-71-00-00 "
+    "02-72-00-00 02-73-00-00 02-74-00-00 02-78-00-00 02-79-00-00 02-80-00-00 02-81-00-00 "
+    "02-82-00-00 02-83-00-00 02-84-00-00 02-87-00-00 08-02-00-00 08-03-02-00 08-03-03-00 "
+    "08-03-07-00 08-04-00-00 08-04-02-00 08-05-00-00 08-05-02-00 08-05-03-00 08-05-04-00 "
+    "08-05-05-00 08-06-00-00 08-06-02-00 08-07-00-00 08-07-02-00 08-08-00-00 08-08-02-00 "
+    "08-08-03-00 08-09-00-00 08-10-00-00 08-11-00-00 08-12-00-00 08-13-00-00 08-14-00-00 "
+    "08-14-02-00 08-14-03-00 08-15-00-00 08-15-02-00 08-15-03-00 08-15-04-00 08-15-05-00 "
+    "08-15-07-00 08-16-00-00 08-17-00-00 08-18-00-00 08-18-02-00 08-19-00-00 08-19-02-00 "
+    "08-19-03-00 08-20-00-00 08-21-00-00 08-22-00-00 08-23-00-00 08-23-02-00 08-23-03-00 "
+    "08-24-00-00 08-25-00-00 08-26-00-00 08-27-00-00 08-27-02-00 08-27-03-00 08-29-00-00 "
+    "08-29-04-00 08-29-06-00 08-31-00-00 08-32-00-00 08-32-02-00 08-32-03-00 08-33-00-00 "
+    "08-34-00-00 08-35-00-00 08-35-04-00 08-36-00-00 08-37-00-00 08-37-02-00 08-38-00-00 "
+    "08-39-00-00 08-40-00-00 08-41-00-00 08-42-00-00"
+).split()
+
+GITEKI_PATH = "giteki/"
+GITEKI_TITLE = "海外ガジェットの技適チェック一覧"
+GITEKI_DESC = ("当メディアが記事にした海外ガジェットの技適の状況を、製品ごとに一覧にしました。"
+               "総務省のデータベースで確認した結果を、取得済み・確認できない・対象外の3つで示します。")
+GITEKI_STATUS_CLS = {"取得済み": "gk-ok", "確認できない": "gi-warn", "対象外": "gk-na"}
+
+
+def giteki_records(site: dict, posts: list[dict]) -> list[dict]:
+    """giteki を持つ記事を、新しい順の記録に直す。一覧・CSV・JSON が同じ元を使う。"""
+    base = site["site"]["base_url"].rstrip("/")
+    out = []
+    for p in posts:
+        g = p.get("giteki")
+        if not g:
+            continue
+        cat = site["categories"].get(p.get("category"), {})
+        out.append({
+            "slug": p["slug"],
+            "name": p.get("name_short") or p.get("seo_title") or p["title"],
+            "title": p["title"],
+            "url": f"{base}/{p['path']}",
+            "path": p["path"],
+            "category": p.get("category") or "",
+            "category_label": cat.get("label", ""),
+            "radio": g["radio"],
+            "status": g["status"],
+            "numbers": g["number"],
+            "checked": g["checked"],
+            "note": g["note"],
+            "published": p["date"],
+        })
+    return out
+
+
+def giteki_counts(posts: list[dict]) -> dict:
+    c = {s_: 0 for s_ in GITEKI_STATUSES}
+    for p in posts:
+        if p.get("giteki"):
+            c[p["giteki"]["status"]] += 1
+    c["未記入"] = sum(1 for p in posts if not p.get("giteki"))
+    c["記録"] = len(posts) - c["未記入"]
+    return c
+
+
+def render_giteki(site: dict, posts: list[dict]) -> str:
+    s = site["site"]
+    base = s["base_url"].rstrip("/")
+    page_url = f"{base}/{GITEKI_PATH}"
+    recs = giteki_records(site, posts)
+    cnt = giteki_counts(posts)
+    latest = max((r["checked"] for r in recs if r["checked"]), default="")
+
+    def row(r: dict) -> str:
+        st = r["status"]
+        cls = GITEKI_STATUS_CLS[st]
+        nums = " ".join(
+            f'<a class="gk-num" href="{MIC_FORM}" data-num="{html.escape(n)}" '
+            f'target="_blank" rel="noopener" title="総務省のデータベースで開く">{html.escape(n)}</a>'
+            for n in r["numbers"])
+        note = f'<span class="gk-note">{html.escape(r["note"])}</span>' if r["note"] else ""
+
+        def cell(label: str, val: str, cls_: str = "") -> str:
+            if val:
+                return f'<td data-l="{label}"{cls_}>{val}</td>'
+            return f'<td data-l="{label}" class="gk-empty"><span aria-hidden="true">&mdash;</span></td>'
+
+        return (
+            f'<tr data-status="{html.escape(st)}" data-cat="{html.escape(r["category"])}">'
+            f'<td class="gk-prod"><a href="{u(r["path"])}" title="{html.escape(r["title"])}">'
+            f'{html.escape(r["name"])}</a></td>'
+            + cell("カテゴリ", html.escape(r["category_label"]))
+            + cell("無線", html.escape(r["radio"]))
+            + f'<td data-l="判定"><span class="buy-giteki {cls}">{html.escape(st)}</span>{note}</td>'
+            + cell("技適番号", nums, ' class="gk-nums"')
+            + cell("確認日", f'<time datetime="{r["checked"]}">{r["checked"].replace("-", ".")}</time>'
+                   if r["checked"] else "")
+            + "</tr>")
+
+    tiles = "".join(
+        f'<a class="gk-tile {cls}" href="#gk-list" data-status="{html.escape(key)}">'
+        f'<b>{cnt_}</b><span>{html.escape(label)}</span></a>'
+        for key, label, cnt_, cls in (
+            ("", "記録した製品", cnt["記録"], "gk-all"),
+            ("取得済み", "取得済み", cnt["取得済み"], "gk-ok"),
+            ("確認できない", "確認できない", cnt["確認できない"], "gi-warn"),
+            ("対象外", "対象外", cnt["対象外"], "gk-na")))
+    opts = '<option value="">すべてのカテゴリ</option>' + "".join(
+        f'<option value="{html.escape(k)}">{html.escape(c["label"])}</option>'
+        for k, c in site["categories"].items())
+    if recs:
+        table = f"""
+    <div class="gk-filter" data-gk-filter hidden>
+      <label class="gk-sel">カテゴリ <select data-gk-cat>{opts}</select></label>
+      <p class="gk-count" data-gk-count aria-live="polite"></p>
+    </div>
+    <table class="gk-table" id="gk-list">
+      <thead><tr><th>製品</th><th>カテゴリ</th><th>無線</th><th>判定</th><th>技適番号</th><th>確認日</th></tr></thead>
+      <tbody>{"".join(row(r) for r in recs)}</tbody>
+    </table>
+    <p class="gk-none" data-gk-none hidden>この条件に合う製品はありません。</p>"""
+    else:
+        table = '<p class="empty">技適の記録はまだありません。</p>'
+
+    # 構造化データ。Dataset は「この表そのものがデータである」ことを宣言する。
+    # license は権利関係が決まっていないので書かない。
+    ld_data = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": GITEKI_TITLE,
+        "description": GITEKI_DESC + "各行に判定、無線の種類、技適番号、確認日を付けています。"
+                       "判定は確認した日の時点のものです。",
+        "url": page_url,
+        "inLanguage": "ja",
+        "isAccessibleForFree": True,
+        "keywords": ["技適", "技術基準適合証明", "海外ガジェット", "電波法", "総務省"],
+        "creator": {"@type": "Organization", "@id": f"{base}/#org", "name": s["title"], "url": base + "/"},
+        "isBasedOn": MIC_FORM,
+        **({"dateModified": latest} if latest else {}),
+        "distribution": [
+            {"@type": "DataDownload", "encodingFormat": "text/csv",
+             "contentUrl": f"{base}/{GITEKI_PATH}giteki.csv"},
+            {"@type": "DataDownload", "encodingFormat": "application/json",
+             "contentUrl": f"{base}/{GITEKI_PATH}giteki.json"},
+        ],
+        "variableMeasured": [
+            {"@type": "PropertyValue", "name": "製品", "description": "記事で扱った製品名"},
+            {"@type": "PropertyValue", "name": "判定",
+             "description": "取得済み（総務省のデータベースで技適番号を確認）/ 確認できない（見つからない、"
+                            "または型番が特定できない。取得していない、とは限らない）/ 対象外（無線機能がない）"},
+            {"@type": "PropertyValue", "name": "無線", "description": "記事に書かれた無線の種類"},
+            {"@type": "PropertyValue", "name": "技適番号", "description": "総務省のデータベースで確認できた番号"},
+            {"@type": "PropertyValue", "name": "確認日", "description": "判定を確認した日"},
+        ],
+    }
+    ld_crumb = {
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": s["title"], "item": base + "/"},
+            {"@type": "ListItem", "position": 2, "name": "特集", "item": f"{base}/features.html"},
+            {"@type": "ListItem", "position": 3, "name": GITEKI_TITLE, "item": page_url},
+        ],
+    }
+    ld = "".join(
+        f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False, separators=(",", ":"))}</script>'
+        for d in (ld_data, ld_crumb))
+    feat = u(f"features/{GITEKI_FEATURE_SLUG}.html")
+    legend = """
+    <dl class="gk-legend">
+      <div><dt><span class="buy-giteki gk-ok">取得済み</span></dt>
+        <dd>総務省のデータベースで技適番号を確認できたもの。</dd></div>
+      <div><dt><span class="buy-giteki gi-warn">確認できない</span></dt>
+        <dd>データベースで見つけられない、または型番が公表されていなくて特定できなかったもの。
+        <strong>「取得していない」と同じ意味ではありません。</strong>型番が非公開だったり、
+        申請時の型番と販売時の表記が違ったりして、引けないことがあるためです。</dd></div>
+      <div><dt><span class="buy-giteki gk-na">対象外</span></dt>
+        <dd>無線機能がなく、技適が関係しないもの。</dd></div>
+    </dl>"""
+    js = GITEKI_JS.replace("@@RAD@@", " ".join(MIC_RAD))
+    return (
+        head(site, f"{GITEKI_TITLE} — {s['title']}", GITEKI_DESC, GITEKI_PATH, ld)
+        + header(site)
+        + f"""
+<main class="wrap">
+  <section class="hero hero-sm">
+    <p class="eyebrow">FEATURE / 技適</p>
+    <h1 class="hero-title">{GITEKI_TITLE}</h1>
+    <p class="hero-sub">当メディアが記事にした海外ガジェットについて、技適の状況を確認した時点の記録を一覧にしました。
+    編集部が総務省の「技術基準適合証明等を受けた機器の検索」で、メーカー名と型番から引いた結果です。</p>
+  </section>
+  <div class="gk" id="gk">
+    {legend}
+    <p class="gk-lead">判定は確認した日の時点のもので、あとから取得されて変わることがあります。
+    技適の考え方そのものは<a href="{feat}">技適マークのない海外ガジェットを日本で使うとどうなるか</a>にまとめています。</p>
+    <div class="gk-tiles" data-gk-tiles>{tiles}</div>
+    {table}
+    <p class="gk-foot">掲載時点の確認です。購入前に総務省のデータベースで型番を確かめてください。
+    <a href="{MIC_FORM}" target="_blank" rel="noopener">総務省の検索ページ</a>
+    ／ 表のデータ： <a href="{u(GITEKI_PATH + "giteki.csv")}" download>CSV</a>
+    <a href="{u(GITEKI_PATH + "giteki.json")}">JSON</a></p>
+  </div>
+</main>
+{js}"""
+        + footer(site)
+    )
+
+
+GITEKI_JS = """<script>(function(){
+var root=document.getElementById("gk");if(!root)return;
+var rows=[].slice.call(root.querySelectorAll("tbody tr"));
+var tiles=[].slice.call(root.querySelectorAll("[data-gk-tiles] a"));
+var bar=root.querySelector("[data-gk-filter]");
+var sel=root.querySelector("[data-gk-cat]");
+var cnt=root.querySelector("[data-gk-count]");
+var none=root.querySelector("[data-gk-none]");
+var st="",ct="";
+function apply(){
+  var n=0;
+  rows.forEach(function(r){
+    var ok=(!st||r.getAttribute("data-status")===st)&&(!ct||r.getAttribute("data-cat")===ct);
+    r.hidden=!ok;if(ok)n++;
+  });
+  if(cnt)cnt.textContent=n+"件を表示";
+  if(none)none.hidden=n>0;
+  tiles.forEach(function(t){t.setAttribute("aria-pressed",String(t.getAttribute("data-status")===st));});
+}
+if(bar&&rows.length){
+  bar.hidden=false;
+  tiles.forEach(function(t){
+    t.addEventListener("click",function(e){e.preventDefault();st=t.getAttribute("data-status");apply();});
+  });
+  if(sel)sel.addEventListener("change",function(){ct=sel.value;apply();});
+  apply();
+}
+var q=[];
+"@@RAD@@".split(" ").forEach(function(c){q.push("RAD="+c);});
+for(var i=1;i<=7;i++)q.push("TEC="+i);
+[].forEach.call(root.querySelectorAll("a.gk-num"),function(a){
+  a.href="https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jk01&NUM_TYPE=1&NUM="+encodeURIComponent(a.getAttribute("data-num"))+"&SC=1&"+q.join("&");
+});
+})();</script>"""
+
+
+def write_giteki_data(site: dict, posts: list[dict]) -> None:
+    """一覧と同じ元データを CSV（Excel 用に BOM 付き UTF-8）と JSON で出す。"""
+    import csv
+    recs = giteki_records(site, posts)
+    out_dir = PUBLIC / GITEKI_PATH.strip("/")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    def safe(v: str) -> str:   # Excel が数式として解釈しないように
+        return "'" + v if v[:1] in ("=", "+", "@") else v
+
+    with open(out_dir / "giteki.csv", "w", encoding="utf-8-sig", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(["製品", "記事URL", "カテゴリ", "無線", "判定", "技適番号", "確認日"])
+        for r in recs:
+            w.writerow([safe(r["name"]), r["url"], r["category_label"], safe(r["radio"]),
+                        r["status"], ";".join(r["numbers"]), r["checked"]])
+    latest = max((r["checked"] for r in recs if r["checked"]), default="")
+    data = {
+        "title": GITEKI_TITLE,
+        "page": f"{site['site']['base_url'].rstrip('/')}/{GITEKI_PATH}",
+        "source": "総務省「技術基準適合証明等を受けた機器の検索」",
+        "updated": latest,
+        "note": "判定は確認日時点のもの。「確認できない」は「取得していない」と同じ意味ではない。",
+        "items": [{"name": r["name"], "title": r["title"], "url": r["url"],
+                   "category": r["category_label"], "radio": r["radio"], "status": r["status"],
+                   "numbers": r["numbers"], "checked": r["checked"], "note": r["note"],
+                   "published": r["published"]} for r in recs],
+    }
+    (out_dir / "giteki.json").write_text(
+        json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+
 def _json_str(v: str) -> str:
     import json
     return json.dumps(v, ensure_ascii=False)
@@ -1972,7 +2311,7 @@ def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = 
     base = site["site"]["base_url"].rstrip("/")
     # jpn.html は 2026-09 まで漏れていた。増えた固定ページはここに足すこと。
     urls = [f"{base}/", f"{base}/about.html", f"{base}/media.html", f"{base}/privacy.html",
-            f"{base}/jpn.html", f"{base}/features.html"]
+            f"{base}/jpn.html", f"{base}/features.html", f"{base}/{GITEKI_PATH}"]
     urls += [f"{base}/{f['path']}" for f in (features or [])]
     per_page = int(site["site"].get("posts_per_page") or 20)
     total_pages = max(1, -(-len(posts) // per_page))
@@ -1983,6 +2322,9 @@ def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = 
     # 記事は自身の日付、一覧系は最新記事の日付を使う。
     latest = max((p["date"] for p in posts), default="")
     by_url = {f"{base}/{p['path']}": max(p["date"], p.get("modified") or "") for p in posts}
+    _gk = max((p["giteki"]["checked"] for p in posts if p.get("giteki")), default="")
+    if _gk:
+        by_url[f"{base}/{GITEKI_PATH}"] = _gk   # 技適一覧は最新の確認日
     def entry(loc: str) -> str:
         d = by_url.get(loc, latest)
         return f"<url><loc>{loc}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>"
@@ -2528,6 +2870,72 @@ img{max-width:100%}
 @media(max-width:520px){
   .fi-grid{grid-template-columns:1fr}
 }
+
+/* ── 技適チェック一覧 ─────────────────────────────────────── */
+[hidden]{display:none!important}
+.gk{padding:26px 0 56px}
+.gk-legend{margin:0 0 18px;display:grid;gap:10px;max-width:46em}
+.gk-legend>div{display:grid;grid-template-columns:7.5em 1fr;gap:4px 14px;align-items:start}
+.gk-legend dt{margin:0}
+.gk-legend dd{margin:0;font-size:13px;line-height:1.8;color:var(--ink-2)}
+.gk-legend dd strong{color:var(--ink);font-weight:700}
+.gk-lead{margin:0 0 24px;max-width:46em;font-size:13px;line-height:1.8;color:var(--ink-2)}
+.gk-lead a{color:var(--accent);border-bottom:1px solid color-mix(in srgb,var(--accent) 40%,transparent)}
+/* 判定バッジ。.buy-giteki の見た目を借り、取得済みと対象外だけ色を足す */
+.buy-giteki{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;
+  line-height:1.6;white-space:nowrap}
+.buy-giteki.gk-ok{border-color:#3f9e6a;color:#2f7d54}
+[data-theme="dark"] .buy-giteki.gk-ok{color:#6cc492}
+.buy-giteki.gk-na{border-color:var(--rule-2);color:var(--ink-3)}
+.gk-tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 18px}
+.gk-tile{display:flex;flex-direction:column;gap:2px;padding:12px 14px;background:var(--surface);
+  border:1px solid var(--rule);border-left:3px solid var(--rule-2);border-radius:3px;color:var(--ink)}
+.gk-tile b{font-family:var(--disp);font-size:22px;line-height:1.2;font-weight:700;font-variant-numeric:tabular-nums}
+.gk-tile span{font-size:12px;color:var(--ink-2)}
+.gk-tile.gk-ok{border-left-color:#3f9e6a}
+.gk-tile.gi-warn{border-left-color:var(--warn)}
+.gk-tile.gk-all{border-left-color:var(--accent)}
+.gk-tile:hover,.gk-tile[aria-pressed="true"]{border-color:var(--ink-3)}
+.gk-tile[aria-pressed="true"]{background:var(--raised)}
+.gk-filter{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:0 0 12px}
+.gk-sel{font-size:12.5px;color:var(--ink-2);display:flex;align-items:center;gap:8px}
+.gk-sel select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--rule-2);border-radius:3px;padding:6px 10px;max-width:100%}
+.gk-count{margin:0;font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--ink-3)}
+.gk-table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+.gk-table th,.gk-table td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+.gk-table thead th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--ink-3);
+  font-weight:600;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+.gk-table tbody tr:hover{background:var(--raised)}
+.gk-prod{min-width:11em;font-weight:600}
+.gk-prod a{color:var(--ink);border-bottom:1px solid var(--rule-2)}
+.gk-prod a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.gk-note{display:block;margin-top:3px;font-size:12px;font-weight:400;line-height:1.7;color:var(--ink-3)}
+.gk-empty{color:var(--ink-3)}
+.gk-nums{font-family:var(--mono);font-size:12px;line-height:1.9}
+.gk-num{display:inline-block;margin-right:10px;color:var(--ink);border-bottom:1px dotted var(--ink-3)}
+.gk-num:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.gk-table time{font-family:var(--mono);font-size:12px;color:var(--ink-2);white-space:nowrap}
+.gk-none{margin:20px 0;color:var(--ink-3);font-size:13.5px}
+.gk-foot{margin:22px 0 0;font-size:12.5px;line-height:1.9;color:var(--ink-3)}
+.gk-foot a{color:var(--ink-2);border-bottom:1px solid var(--rule-2);margin-left:.4em}
+@media(max-width:620px){
+  .gk{padding-top:20px}
+  .gk-legend>div{grid-template-columns:1fr}
+  .gk-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .gk-table,.gk-table tbody,.gk-table tr{display:block}
+  .gk-table thead{display:none}
+  .gk-table tr{padding:14px 0;border-bottom:1px solid var(--rule)}
+  .gk-table tbody tr:hover{background:transparent}
+  .gk-table td{display:block;position:relative;padding:2px 0 2px 5.6em;border:0;min-width:0}
+  .gk-table td::before{content:attr(data-l);position:absolute;left:0;top:2px;
+    font-size:11.5px;color:var(--ink-3);line-height:1.9}
+  .gk-table .gk-prod{padding:0 0 8px;font-size:15px;line-height:1.5}
+  .gk-table .gk-prod::before{content:none}
+  .gk-table td.gk-empty{display:none}
+  .gk-nums{line-height:1.8}
+  .gk-num{overflow-wrap:anywhere}
+}
 """
 
 
@@ -2678,6 +3086,18 @@ def main() -> int:
         for slug, name, why in bad:
             print(f"  ! {why}: {slug} / {name}")
     (PUBLIC / "privacy.html").write_text(render_privacy(site), encoding="utf-8")
+    (PUBLIC / GITEKI_PATH).mkdir(parents=True, exist_ok=True)
+    (PUBLIC / GITEKI_PATH / "index.html").write_text(render_giteki(site, posts), encoding="utf-8")
+    write_giteki_data(site, posts)
+    gc = giteki_counts(posts)
+    print(f"■ 技適の記録 {gc['記録']}本 / 取得済み {gc['取得済み']} / 確認できない {gc['確認できない']} "
+          f"/ 対象外 {gc['対象外']} / 未記入 {gc['未記入']}")
+    no_num = [p["slug"] for p in posts
+              if p.get("giteki") and p["giteki"]["status"] == "取得済み" and not p["giteki"]["number"]]
+    if no_num:
+        print(f"  ! 取得済みなのに技適番号が空: {len(no_num)}本（番号を確認できたときだけ「取得済み」にする）")
+        for slug in no_num[:5]:
+            print(f"    {slug}")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")
     for key, cat in site["categories"].items():

@@ -13,6 +13,12 @@ tags:
   - ゲーミングマウス
   - UWB
   - 技適
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-03
+  radio: UWB(6.4〜9.056GHz)
+  note: UWBは国内で使える周波数に制限あり
 embeds:
   - type: youtube
     id: QuJZC8pQ08A

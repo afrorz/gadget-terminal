@@ -13,6 +13,12 @@ tags:
 - ScreenBar Max
 - モニターライト
 - iMac
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-27
+  radio: "24GHzミリ波レーダー"
+  note: "DBで該当型番を特定できず"
 x_hook: iMacの背面にマグネットで吸い付くだけの新型ライトが登場。ウェブカメラを塞がない設計は、既存のクリップ式では解決できなかった問題だ。
 japan:
   status: 発売済み

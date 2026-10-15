@@ -10,6 +10,12 @@ category: weird
 date: 2026-08-21
 kicker: 消費者向けAR（拡張現実）グラス大手RayNeoが、日常使いを想定した軽量スマートグラス「RayNeo iO」と、映画館クラスの映像体験を狙う「RayNeo GTシリーズ」（GT／GT Max）を発表した。iOは479ドル（発売時449ドル）、両製品とも2026年9月4日発売。GTシリーズの価格は同日改めて発表される。
 tags: [RayNeo, ARグラス, スマートグラス, AI, ウェアラブル]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-09
+  radio: "Bluetooth 5.4"
+  note: "DBにARGF30の掲載あり。国内版との対応は未確認"
 seo_title: "RayNeo iOが日本で予約販売中、国内価格は8万9,000円"
 faq:
   - q: 日本で買えますか

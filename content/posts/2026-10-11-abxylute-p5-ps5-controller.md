@@ -13,6 +13,12 @@ tags:
 - ゲームコントローラー
 - ホール効果
 - Bluetooth
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-11
+  radio: Bluetooth
+  note: 事業者名abxyluteで該当0件
 faq:
 - q: abxylute P5はいくらですか
   a: 公式ストアの掲載時点で、早期価格が75.99ドル、通常価格が89.99ドルです。早期価格は10月15日までと表示されています。送料と税は別です。

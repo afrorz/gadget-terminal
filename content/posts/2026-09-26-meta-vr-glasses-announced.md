@@ -12,6 +12,12 @@ tags:
   - VRグラス
   - Meta Connect
   - ウェアラブル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-29
+  radio: Wi-Fi / Bluetooth
+  note: 総務省DBで型番を特定できず
 x_hook: Quest 3のおよそ5分の1の重さ(約100g)のVRグラスをMetaが発表した。本体には処理チップを積まず、ケーブルでつないだ300gの外部パックにバッテリーとプロセッサを逃がす設計。視野角はQuest 3より狭い70°×66°だが、解像度と視度(PPD)は上回る。価格1,299.99ドルで2027年春発売。
 images:
   - url: "https://lookaside.fbsbx.com/elementpath/media/?media_id=1043112282055510&version=1789761587&transcode_extension=webp"

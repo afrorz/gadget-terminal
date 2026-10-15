@@ -7,6 +7,11 @@ category: smartphone
 date: 2026-08-18
 kicker: 表がカラーE Ink、裏がLCDという両面ディスプレイのAndroidスマートフォンがKickstarterで支援受付中。前モデルHiBreak Dualの実績を持つBigmeによる後継機。
 tags: [E Ink, デュアルスクリーン, Kickstarter, Bigme, Android]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-18
+  radio: "5G / Wi-Fi / Bluetooth"
 embeds:
   - type: youtube
     id: 9ku21poiSdM

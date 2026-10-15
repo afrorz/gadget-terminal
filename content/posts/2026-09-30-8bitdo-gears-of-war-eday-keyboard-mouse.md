@@ -13,6 +13,12 @@ tags:
   - ゲーミングマウス
   - Xbox
   - 技適
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-30
+  radio: Bluetooth 5.3 LE / 2.4GHz
+  note: Gears版の型番は技適DBで特定できず
 origin: SZX 深圳
 x_hook: "数字キーの1〜4には、ランサー、ギャナー、ボルトック、フラググレネードの絵が入る。8BitDoの「Gears of War: E-Day」版Retro 87は、黒と深紅の筐体に亀裂の模様。キーボード119.99ドル、マウス59.99ドルで、10月30日に発売される"
 images:

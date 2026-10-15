@@ -11,6 +11,11 @@ category: pc
 date: 2026-08-18
 kicker: Claude Code・Codex CLI・Antigravity CLIのトークン消費量を、常設の4インチタッチディスプレイでリアルタイムに表示するESP32-S3デバイスがKickstarterで支援受付中。
 tags: [ESP32, Kickstarter, Claude Code, 自作ガジェット, オープンソース]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-18
+  radio: "Wi-Fi 4 / Bluetooth LE 5"
 faq:
 - q: いくらですか
   a: Super Early Birdが99ユーロ（約115ドル）、Early Birdが120ユーロです。目標金額は25,000ユーロで、初回出荷は2026年11月予定とされています。

@@ -13,6 +13,12 @@ tags:
 - ミニPC
 - Snapdragon X2 Elite
 - Windows on Arm
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-04
+  radio: Wi-Fi 7 / Bluetooth 6.0
+  note: 型式QN10は別メーカー品のみ
 faq:
 - q: ASUS Ascent QN10はいくらですか
   a: 米国では16GB/512GB版が1,349ドルです（掲載時点）。レビューではBest Buyでの1,349.99ドルとされています。32GB/512GB版は1,699ドルと報じられています。いずれも米国価格で、日本の価格は確認できていません。

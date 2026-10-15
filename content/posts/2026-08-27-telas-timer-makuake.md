@@ -7,6 +7,12 @@ category: weird
 date: 2026-08-27
 kicker: 株式会社GDTが手がけるブランド「sology」から、音を鳴らさず光だけで作業と休憩の切り替えを知らせる集中タイマー「TELAS TIMER」が登場する。Makuakeでの応援購入受付は2026年8月31日9時開始予定で、価格は掲載時点で非公開。
 tags: [TELAS TIMER, sology, Makuake, クラウドファンディング, ポモドーロ, 集中タイマー]
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-08-27
+  radio: ""
+  note: "無線の記載なし"
 x_hook: 音を完全に消せる集中タイマーが、8月31日にMakuakeで応援購入開始。価格はまだ公開されていない。
 faq:
   - q: 日本で買えますか

@@ -13,6 +13,12 @@ tags:
 - NVMe
 - OCuLink
 - 拡張カード
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-08
+  radio: ""
+  note: 無線機能のないPCIe拡張カード
 alternatives:
 - name: "StarTech.com QUAD-M2-PCIE-CARD-B"
   why: "PCIe 4.0 x16接続でM.2 NVMe SSDを4枚挿せる拡張カード。同じ用途の国内流通品"

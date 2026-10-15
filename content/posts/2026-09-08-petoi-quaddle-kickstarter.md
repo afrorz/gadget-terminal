@@ -13,6 +13,12 @@ tags:
 - Kickstarter
 - クラウドファンディング
 - STEM教育
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-08
+  radio: "Wi-Fi / Bluetooth"
+  note: "有線(UART)接続なら対象外"
 x_hook: 手のひらに乗るロボット犬が、ボーダーコリーに吠えられて逃げ惑う動画とともにKickstarterに登場した。目標額5万ドルは開始後まもなく達成、価格は組み立て要の入門モデルが99ドルから。
 deadline: 2026-10-08
 embeds:

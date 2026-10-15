@@ -14,6 +14,11 @@ tags:
 - AIOクーラー
 - Gamescom
 - 自作PC
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-08-28
+  radio: ""
 faq:
 - q: いくらですか
   a: 黒（NEX L360 ARGB BK）が74.99ドル、白（NEX L360 ARGB WH）が79.99ドルの推奨小売価格です（2026年8月27日時点、TechPowerUp報道）。

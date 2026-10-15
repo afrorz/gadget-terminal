@@ -8,6 +8,12 @@ category: weird
 date: 2026-10-05
 kicker: Google Japanが2026年10月1日に公開した「Gboard Conveyor Belt Version」（日本語名はくるくるバージョン）は、4本のコンベアベルトに計116個のキーを載せ、キーのほうが指へ動いてくるキーボード。販売はせず、3Dプリント用STL・基板・ファームウェアをGitHubで公開している。
 tags: [Google, Gboard, キーボード, 3Dプリント, 自作, 変わり種]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-05
+  radio: Bluetooth(接続版は未公開)
+  note: 完成品でないDIYキットで無線版は未公開
 origin: NRT 東京
 images:
   - url: "https://raw.githubusercontent.com/google/mozc-devices/main/mozc-conveyorbelt/images/conveyorbelt.webp"

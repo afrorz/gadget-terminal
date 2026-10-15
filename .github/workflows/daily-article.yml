@@ -280,7 +280,7 @@ jobs:
                既存記事（content/posts/ の .md）を1本読んで、front matter の書式と文体を合わせる。
 
                必須の項目: title / seo_title / x_hook / slug / keyword / category / date / kicker /
-                           tags / images / credit / sources / faq
+                           tags / images / credit / sources / faq / giteki
                任意の項目: embeds / alternatives / gear / buy / origin / deadline / status
                            （キュー・手動指定から書いた記事のみ pick / pick_note）
                - keyword はアイキャッチに入る短い語（製品名など全角10文字程度まで）
@@ -295,6 +295,14 @@ jobs:
                  **「日本では発売されていない」と書く前に、日本語で必ず検索する。**
                  WebSearch で「<製品名> 国内 発売」と「<製品名> Makuake」の2回。
                  国内の発表があれば本文に書き、docs/PLAYBOOK.md の japan（日本上陸の続報）も付ける
+               - **giteki（front matter 直下。buy 内の giteki とは別物）に、上の技適確認の結果を構造化して書く。**
+                 status は「取得済み」「確認できない」「対象外」の3つだけ。
+                 取得済み = 今回 scripts/giteki.py で総務省DBに載っているのを確認できた（number に技適番号。
+                 番号を書けないなら取得済みにしない）。確認できない = 見つからない・型番が分からない・
+                 記事に書かれていない（「取得していない」の意味ではない）。対象外 = 無線機能が無い。
+                 checked は今日の日付。radio は記事にある無線の種類（Wi-Fi 6E / Bluetooth 5.3 など。
+                 無ければ空）。note は任意で短く（例: 型番が非公開で特定できない）。
+                 例: giteki: {status: 確認できない, number: [], checked: 2026-10-15, radio: Bluetooth 5.3}
 
                【見出し・要約・投稿文】title / seo_title / kicker / x_hook
                - **4つとも否定の結論を書かない。**「日本未発売」「日本の価格と発売日は未発表」

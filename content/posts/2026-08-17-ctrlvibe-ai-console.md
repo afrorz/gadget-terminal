@@ -11,6 +11,12 @@ category: pc
 date: 2026-08-17
 kicker: AIコーディングツールの「実行」「停止」「モデル切り替え」を物理キーに割り当てる専用キーパッド。CtrlVibeがKickstarterで公開したAI Consoleは、品切れが続くOpenAIのCodex Microより安い代替を狙う。ただし出荷は2026年11月予定で、まだ製品ではない。
 tags: [Kickstarter, キーパッド, クラウドファンディング, AIコーディング, 自作キーボード]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-17
+  radio: "Bluetooth / 2.4GHzワイヤレス"
+  note: "無線を切ったUSB有線運用の可否が不明"
 deadline: 2026-09-13
 faq:
 - q: いくらですか

@@ -11,6 +11,12 @@ tags:
   - 電子ペーパー
   - E Ink
   - Android
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-01
+  radio: ""
+  note: 国内代理店の商品ページに技適の記載なし
 origin: CAN 広州
 x_hook: スマホの形をした電子ペーパー端末「BOOX Palma 3」が、シリーズで初めてペン入力に対応した。フレームはアルミに刷新され、日本でもSKT株式会社が10月末に54,800円で発売すると予告している
 images:

@@ -12,6 +12,12 @@ tags:
 - 携帯ゲーム機
 - Kickstarter
 - 変わり種ガジェット
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-06
+  radio: ""
+  note: "正式発売時に仕様が変わる可能性"
 x_hook: 基板もボタンの内部構造も全部透けて見える携帯ゲーム機。重さはたった50g、ゲーム400本を内蔵。しかもWi-Fiが無いので技適の心配なく日本に持ち込める。
 images:
 - url: "https://cdn.shopify.com/s/files/1/0650/9445/1285/files/transparency_ef9c9e58-8b42-4870-8f4e-a2935e5b3065.jpg"

@@ -14,6 +14,12 @@ tags:
 - Kickstarter
 - クラウドファンディング
 - 写真・映像
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-03
+  radio: Wi-Fi / Bluetooth
+  note: 事業者名UnifyDriveで該当0件
 alternatives:
 - name: UGREEN NASync DH2300（2ベイNAS）
   why: HDDを2台入れて常用するファイルサーバー用途の2ベイNASキットで、Joshin webの楽天店で国内販売されている。据え置き型で、携帯はできない。

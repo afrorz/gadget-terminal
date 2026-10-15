@@ -12,6 +12,12 @@ tags:
 - ワークステーション
 - RTX 2000 Ada
 - Intel Core i9
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-07
+  radio: "Wi-Fi 6E / Bluetooth 5.2"
+  note: "有線LAN運用が無難"
 x_hook: デスクトップ用の24コアCPUとワークステーション向けGPUを3.5リットルの箱に詰めて2,799ドル、セールなら1,999ドル。ただしACEMAGICは日本を含むアジアへの発送に対応していない。
 images:
 - url: "https://acemagic.com/cdn/shop/files/G3A-mainimage_4.jpg?v=1781524016"

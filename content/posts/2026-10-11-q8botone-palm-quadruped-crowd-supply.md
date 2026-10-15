@@ -13,6 +13,12 @@ tags:
 - 四足歩行
 - Crowd Supply
 - オープンソース
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-11
+  radio: ESP32-C3による無線
+  note: 搭載モジュールの登録はあるが製品は未確認
 origin: SJC クパチーノ
 deadline: 2026-11-19
 gear:

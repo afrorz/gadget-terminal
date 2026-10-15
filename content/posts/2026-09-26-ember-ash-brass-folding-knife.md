@@ -12,6 +12,12 @@ tags:
   - Makuake
   - Kickstarter
   - EDC
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-26
+  radio: ""
+  note: 無線機能のない刃物
 x_hook: 東京のナイフブランドが先に海外Kickstarterで結果を出してから日本に「逆上陸」する。110gの真鍮ナイフは目標の1,363%を集めたが、刃渡りは掲載時点で公開されていない
 origin: JPN 国内
 status: SCHEDULED

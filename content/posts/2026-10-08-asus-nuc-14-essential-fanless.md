@@ -13,6 +13,12 @@ tags:
 - ファンレス
 - Intel N150
 - ミニPC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-08
+  radio: Wi-Fi 6E / Bluetooth 5.3
+  note: 搭載のAX211は登録あるがNUC本体は未確認
 alternatives:
 - name: "HiMeLE Quieter 4C N150"
   why: "Intel N150搭載のファンレスミニPC。ムラウチ取り扱いで国内で買える"

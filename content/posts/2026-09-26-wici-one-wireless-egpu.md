@@ -12,6 +12,11 @@ tags:
   - Wi-Fi 7
   - RTX 5090
   - RTX 5060 Ti
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-26
+  radio: Wi-Fi 7
 x_hook: ケーブルを1本も挿さずにRTX 5090がまるごと共有できるという箱が出た。ただしWi-Fi 7の理論値46.1Gbpsのうち実際に出るのは11.5Gbpsで、遅延の数値は公表されていない
 origin: SJC サンノゼ
 status: SCHEDULED

@@ -15,6 +15,12 @@ tags:
 - ゲーミングキーボード
 - 光学スイッチ
 - Kickstarter
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-01
+  radio: ""
+  note: "無線の記載なし"
 x_hook: 磁気スイッチ全盛のいま、あえて光でキーの押し込みを検知する新型キーボードが出てくる。
 embeds:
 - type: youtube

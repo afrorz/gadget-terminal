@@ -17,6 +17,11 @@ tags:
 - GR1X
 - RTX Spark
 - ミニPC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-09
+  radio: Wi-Fi 7 / Bluetooth 5.4
 images:
 - url: "https://dlcdnwebimgs.asus.com/files/media/202605/c3379200-8584-4929-b246-ac81e169d1ce/V3/img/design-main-dark.png"
   caption: ブラックモデル。前面は格子状の通気口で、右上に電源ボタン、上面にProArtのロゴ

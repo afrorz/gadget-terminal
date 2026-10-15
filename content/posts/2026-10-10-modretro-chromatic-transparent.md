@@ -13,6 +13,12 @@ tags:
   - Chromatic
   - ゲームボーイ
   - レトロゲーム機
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-10
+  radio: ""
+  note: 無線の記載なし
 images:
   - url: "https://cdn.shopify.com/s/files/1/0829/2034/1806/files/01_HNHD-PLA-SMKE-Hero.webp"
     caption: スモーク。黒い透明ボディ越しに基板が見える。画面はTetrisを表示

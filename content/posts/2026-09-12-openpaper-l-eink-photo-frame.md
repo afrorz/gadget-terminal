@@ -12,6 +12,11 @@ tags:
 - E Ink
 - 電子ペーパー
 - オープンソース
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-12
+  radio: "Wi-Fi 6 / Bluetooth LE"
 x_hook: 電源を切っても表示が消えない額縁が、メーカーのクラウドに一切接続しなくても動くように作られている。単3電池4本で半年持つ13.3インチのカラー電子ペーパーに天気やGoogleカレンダーも映せるオープンソース仕様で、価格は339ユーロから。
 images:
 - url: "https://paperlesspaper.de/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FIMG_5966-Bearbeitet-12b.ed282640.jpg&w=3840&q=75"

@@ -12,6 +12,12 @@ tags:
 - ワイヤレスヘッドホン
 - Qualcomm
 - ノイズキャンセリング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-05
+  radio: "Bluetooth 6.0"
+  note: "DBで型番を特定できず。10/13国内発売予定"
 x_hook: 40mmと10mmのドライバーを同軸に重ねた最大90時間再生のヘッドホン「EarFun Wave Pro X」が、国内では10月13日に16,990円で発売される。9月29日から10月12日までは25%オフの12,743円で先行予約を受け付けている。
 embeds: []
 images:

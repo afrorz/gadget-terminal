@@ -12,6 +12,11 @@ tags:
 - ゲーミングマウス
 - 超軽量マウス
 - PC周辺機器
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-08-29
+  radio: ""
 x_hook: 25gのマウスが、日本にも直接届く。ただし500台限定、価格は169ドルから。
 status: SCHEDULED
 status_note: 予約開始は9月22日、初回500台限定

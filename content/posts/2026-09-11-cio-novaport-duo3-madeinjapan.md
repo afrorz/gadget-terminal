@@ -12,6 +12,11 @@ tags:
 - 充電器
 - クラウドファンディング
 - Made in Japan
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-11
+  radio: ""
 pick: true
 x_hook: 充電器の世界はほぼ中国製一色の中、CIOが部品点数ベースで53.3%まで国産化した65W充電器をMakuakeに出した。開始時0%からの積み上げで、最終組立は福島県の工場が担う。
 embeds:

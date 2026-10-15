@@ -14,6 +14,12 @@ tags:
 - ワイヤレスマイク
 - Corsair
 - USB-C
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-14
+  radio: 2.4GHz(Bluetoothは設定用)
+  note: 国内公式販売だが型番10MAP9901は未確認
 images:
 - url: "https://elgato-assets.imgix.net/image/upload/c_fill,h_968,w_1738/f_auto/q_auto/v1/Products/10MAP9901%20(Wave%20Go)/In%20The%20Box/Wave_Go-In_The_Box-Web-Standard?_a=DATAiZfiZAA0"
   caption: 同梱物一式。ケースの中に送信機・Smart Handle・USB-C受信機が収まり、右にふわふわの風防が2種類、手前にUSB-Cケーブル

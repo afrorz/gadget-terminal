@@ -12,6 +12,12 @@ tags:
 - 睡眠テック
 - イヤホン
 - IFA2026
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-07
+  radio: "Bluetooth"
+  note: "対象市場に日本が含まれない"
 x_hook: 心拍とHRVを測るだけでなく、枕元のケースが寝室の温度・湿度・騒音まで監視する。ノイズキャンセリングはBoseが音響協力、価格349.99ドルで発売は10月予定だが、対象国に日本は入っていない。
 images:
 - url: "https://duva.com/assets/duva/home/forest-scene-desktop.webp"

@@ -14,6 +14,12 @@ tags:
 - サブディスプレイ
 - Kickstarter
 - システムモニター
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-07
+  radio: ""
+  note: 無線の記載なし
 deadline: 2026-10-14
 origin: HKG 香港
 faq:

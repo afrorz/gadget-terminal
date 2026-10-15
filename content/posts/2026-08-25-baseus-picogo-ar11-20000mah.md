@@ -12,6 +12,12 @@ tags:
 - モバイルバッテリー
 - 周辺機器
 - 中国
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-25
+  radio: ""
+  note: "無線・技適の記載なし"
 x_hook: ケーブルを忘れても困らない。バッテリー本体にケーブルが生えているから。
 embeds:
   - type: youtube

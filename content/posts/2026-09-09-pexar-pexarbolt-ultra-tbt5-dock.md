@@ -12,6 +12,12 @@ tags:
 - Thunderbolt 5
 - ドッキングステーション
 - Kickstarter
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-09
+  radio: ""
+  note: "無線の記載なし"
 x_hook: ドックに5インチのタッチ画面が付いていて、繋いだ機器の転送速度・温度・給電状況がひと目で見える。AIコーディングエージェントの実行承認まで、この画面から行える。Thunderbolt 5で最大120Gbps、早期価格479ドルからKickstarterで募集中。
 images:
 - url: "https://i.kickstarter.com/assets/055/045/925/84d2c1a0100cda95f87490cc10dac63e_original.jpg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1788882979&width=1552&sig=Xms5GjFo0ZEy%2FHdyLZMR52867BmMuiLq8hN5YcuAhRI%3D"

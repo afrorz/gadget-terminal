@@ -12,6 +12,11 @@ tags:
 - カメラアクセサリー
 - 動画制作
 - Vマウント
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-10-04
+  radio: ""
 x_hook: カメラリグに直接ネジ止めできる内蔵ケーブル付きモバイルバッテリー「SmallRig Nano36／Nano72」を、SmallRig Japanが国内で予約受付中。10,000mAhのNano36が1万590円、20,000mAhのNano72が1万4,390円（税込）。
 japan:
   status: 予約受付中

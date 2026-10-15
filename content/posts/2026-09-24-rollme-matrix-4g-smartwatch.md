@@ -12,6 +12,12 @@ tags:
   - スマートウォッチ
   - スタンドアロン4G
   - ウェアラブル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-24
+  radio: 4G LTE / GPS / Bluetooth
+  note: 公式サイトに技適の言及なし
 x_hook: スマホを持たずに電話・GPS・ビデオ通話までこなす89.99ドルの腕時計に、竜頭からせり出すカメラが仕込まれている。発売初日で在庫は2色とも完売、次回入荷は未定。
 origin: SZX 深圳
 status: FULLY BOOKED

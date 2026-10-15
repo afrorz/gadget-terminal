@@ -13,6 +13,11 @@ tags:
 - AMD Ryzen AI 9
 - クラウドファンディング
 - Bazzite
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-30
+  radio: "Wi-Fi 7 / Bluetooth 5.3"
 x_hook: 会社名も分からないミニPCが、Kickstarterで799ドルの支援を募っている。
 embeds:
 - type: youtube

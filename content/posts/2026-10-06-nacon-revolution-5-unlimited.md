@@ -8,6 +8,12 @@ category: pc
 date: 2026-10-06
 kicker: フランスのNaconが、本体上部にコマンド画面を載せたPS5公式ライセンスのコントローラー「Revolution 5 Unlimited」を発表した。TMR磁気スティックと充電ドックが付き、公式ストアで予約受付中、発売は10月21日。
 tags: [コントローラー, PS5, TMR, Nacon, ゲーミング]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-06
+  radio: 2.4GHzドングル
+  note: 過去機種の登録はあるが本機の型番と照合できず
 origin: CDG パリ
 images:
   - url: "https://media.nacongaming.com/media/catalog/product/p/s/ps5rev5u_w01.webp?width=1082&height=926&store=nacon_us&image-type=image"

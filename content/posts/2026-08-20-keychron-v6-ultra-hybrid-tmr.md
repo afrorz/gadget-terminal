@@ -11,6 +11,12 @@ tags:
 - Kickstarter
 - クラウドファンディング
 - 自作キーボード
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-20
+  radio: "2.4GHzワイヤレス / Bluetooth 5.3"
+  note: "有線USBなら技適を気にせず使える"
 seo_title: Keychron V6 Hybridが早割149ドルで登場
 faq:
 - q: 日本で買えますか

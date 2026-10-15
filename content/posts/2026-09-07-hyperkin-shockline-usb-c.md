@@ -12,6 +12,11 @@ tags:
 - レトロゲーム
 - ファミコン
 - USB-C
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-07
+  radio: ""
 x_hook: 生産終了した純正ACアダプターの代わりに、手持ちのUSB-C充電器でファミコンやゲームキューブに電源を供給できるようになる。価格は19.99〜24.99ドルで9月16日発売、ただし米国内限定販売。
 images:
 - url: "https://www.hyperkinstore.com/cdn/shop/files/SNES.jpg?v=1787939730"

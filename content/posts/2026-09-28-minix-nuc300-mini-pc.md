@@ -10,6 +10,12 @@ tags:
   - NUC300
   - ミニPC
   - Intel N300
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-28
+  radio: Wi-Fi 6 / Bluetooth 5.2
+  note: 有線Ethernetのみなら問題なし
 origin: HKG 香港
 x_hook: テレビの電源と連動して入力が切り替わるHDMI CECを、ミニPCが備えた。MINIX「NUC300」は2.5Gb Ethernetと3画面出力を持ち、16GBメモリ・512GB SSDで650ドル。リビングに置いて存在を忘れられる使い勝手を狙った1台
 images:

@@ -11,6 +11,12 @@ tags:
 - ハッカブルカメラ
 - クラウドファンディング
 - Kickstarter
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-19
+  radio: Wi-Fi
+  note: Raspberry Pi 5内蔵Wi-Fiで入手経路次第
 x_hook: Raspberry Pi 5を積んだカメラが、1/1.2インチからマイクロフォーサーズまでセンサーごと交換できる。ソフトはPythonで書き換え自由、本体は3Dプリント製で目標額はすでに370%に到達した
 deadline: "2026-10-02"
 images:

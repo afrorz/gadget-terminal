@@ -11,6 +11,12 @@ tags:
 - ゲーミングハンドヘルド
 - Snapdragon
 - インド
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-21
+  radio: Wi-Fi 6E / Bluetooth 5.4
+  note: 日本への発送も未確認
 x_hook: インド発の新興ブランドが、9,300mAhのバッテリーと独自OS「OwlOS」を積んだゲーミングハンドヘルドを発表した。早期予約価格は29,500ルピー、日本円換算はしないが日本での技適取得は掲載時点で確認できていない
 origin: BLR ベンガルール
 images:

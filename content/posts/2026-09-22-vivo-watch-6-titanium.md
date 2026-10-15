@@ -12,6 +12,12 @@ tags:
   - スマートウォッチ
   - チタニウム
   - ウェアラブル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-22
+  radio: Bluetooth 5.4 / NFC / GPS / eSIM
+  note: 日本発売も未定
 images:
   - url: "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/product/1790000566956/zip/img/kv-kv.jpg"
     caption: vivo WATCH 6のチタニウムモデル。ベゼルに「TITANIUM」の刻印が見える

@@ -13,6 +13,11 @@ tags:
 - 磁気スイッチ
 - ラピッドトリガー
 - 木製
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-01
+  radio: 2.4GHz / Bluetooth 5.2
 faq:
 - q: K8 HE All-Wood Special Editionはいくらですか
   a: Keychron公式の米国向け価格は199.99ドルです（掲載時点）。

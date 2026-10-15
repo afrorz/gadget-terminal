@@ -11,6 +11,11 @@ date: 2026-08-23
 pick: true
 kicker: フルカーボンファイバー一体成型のアコースティックギター「Neo Acoustic A1」が、フレットボードを光らせて運指を教える機能を掲げてKickstarterに登場した。目標1万ドルに対し、7月末時点で目標の12倍を超える支援を集めている。
 tags: [LiteJam, ギター, LED, Kickstarter, クラウドファンディング, 楽器]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-23
+  radio: "Bluetooth"
 seo_title: LiteJam Neo A1が299ドルでKickstarter
 x_hook: フレットボードに132個のLEDが仕込まれ、押さえる指の色まで教えてくれる。日本で使う前提の技適確認はまだできていない。
 faq:

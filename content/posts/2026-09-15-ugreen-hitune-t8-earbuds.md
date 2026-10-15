@@ -11,6 +11,12 @@ tags:
   - HiTune T8
   - ワイヤレスイヤホン
   - 中国ガジェット
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-15
+  radio: Bluetooth 6.0
+  note: 日本向け発売・技適取得の発表なし
 x_hook: 179元(約26ドル)のイヤホンが-55dBのノイズキャンセリングとLDACハイレゾ対応を積んできた。6マイクアレイでの通話ノイズ処理や、サブスク不要のAI文字起こし・翻訳機能まで入るが、掲載時点で買えるのは中国のJD.comのみ。
 images:
   - url: "https://images.lulian.cn/upload/202605/WS222/WS222-06.webp"

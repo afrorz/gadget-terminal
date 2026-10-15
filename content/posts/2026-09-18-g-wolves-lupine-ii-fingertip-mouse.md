@@ -12,6 +12,12 @@ tags:
 - ゲーミングマウス
 - フィンガーチップ
 - ワイヤレス
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-18
+  radio: 2.4GHz専用レシーバー
+  note: 有線(USB-C)運用なら不要
 x_hook: 22.7gのゲーミングマウスが、有線でも無線でも8,000Hzでポーリングする。なのに発表時点で公開されているのは上から見たシルエットだけ。価格は1時間限定の109ドルから、通常予約は134ドル
 images:
 - url: "https://shop.g-wolves.com/cdn/shop/files/Lupine_II_spec_EN_ff12242d-1c63-4828-95d6-9ab97c5ec662_1200x1200_crop_center.png"

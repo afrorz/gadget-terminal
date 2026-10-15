@@ -12,6 +12,11 @@ tags:
 - 三つ折りスマートフォン
 - HarmonyOS
 - 折りたたみスマホ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-01
+  radio: ""
 x_hook: 3つ折りスマホの折り方向を、Huaweiが自ら逆転させた。ただし日本ではGoogleアプリが動かない。
 images:
 - url: "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_2C9259162F5DFAE857F884EDABCF522E.png"

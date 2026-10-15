@@ -12,6 +12,11 @@ tags:
   - Intrepid Control Systems
   - ハッキングツール
   - セキュリティ研究
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-23
+  radio: Wi-Fi / Bluetooth LE / LoRa / NFC・RFID
 x_hook: RP2350を2基、FPGA、Wi-Fi/Bluetoothチップ、そしてLinuxが動くRaspberry Pi CM0まで、5種類のプロセッサを手のひらサイズの端末1台に詰め込んだ。CAN FDやLoRa、125kHz RFIDにも対応し、価格は400ドルから。
 origin: DTW デトロイト
 embeds:

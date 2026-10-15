@@ -11,6 +11,11 @@ tags:
 - ワイヤレスイヤホン
 - ANC
 - インド
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-21
+  radio: "Bluetooth 6.0"
 seo_title: CMF Buds Neoは1999ルピー、ANC35dB対応
 faq:
 - q: 日本で買えますか

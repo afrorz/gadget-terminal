@@ -11,6 +11,12 @@ tags:
 - ESP32-P4X
 - リモート管理
 - オープンソース
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-21
+  radio: Wi-Fi 6 / Bluetooth LE(Mini W)
+  note: 有線版Miniは無線なしで対象外
 x_hook: 遠隔からPCのBIOS画面まで操作できるKVM機器が、マッチ箱サイズで42ドルまで下がった。無線版はWi-Fi 6を積むが、技適の取得状況は公式サイトに記載が無く未確認だ
 images:
 - url: "https://jetkvm.com/assets/jetkvm_mini_w_angle-Jauzu1Hr.webp"

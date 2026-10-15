@@ -16,6 +16,12 @@ tags:
   - ラピッドトリガー
   - ゲーミングキーボード
   - 磁気スイッチ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-10
+  radio: Bluetooth / 2.4GHz
+  note: 有線(USB-C)運用なら不要
 images:
   - url: "https://cdn.shopify.com/s/files/1/0280/3931/5529/files/EPOMAKER_HE60_Black_01.webp"
     caption: ブラックを真上から見た図。61キーの60%配列で、左端にストラップ用の切り欠きがある

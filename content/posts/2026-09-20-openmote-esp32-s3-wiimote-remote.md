@@ -11,6 +11,12 @@ tags:
 - Wiiリモコン
 - Home Assistant
 - Crowd Supply
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-20
+  radio: Wi-Fi 802.11 b/g/n / Bluetooth 5 LE / ESP-NOW
+  note: EU/UKの適合表明のみで日本は言及なし
 x_hook: 懐かしのWiiリモコンの中身が、ESP32-S3搭載のスマートホームリモコンに置き換わった。ボタン11個は自由に割り当て可能で、赤外線・Wi-Fi・Bluetoothを1台に詰め込みながら基板とファームウェアは出荷前にすべてオープンソース化される予定
 deadline: "2026-10-30"
 origin: LAX ロサンゼルス

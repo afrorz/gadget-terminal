@@ -26,6 +26,12 @@ tags:
 - ゲーミングハンドヘルド
 - Intel Arc G3 Extreme
 - One-Netbook
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-07
+  radio: "Wi-Fi / Bluetooth"
+  note: "国内版は技適番号を本体刻印とあるが番号不明"
 x_hook: 1kg超えのゲーミングハンドヘルドが、着脱式バッテリーと引き換えに重さを背負った。
 origin: SZX 深圳
 images:

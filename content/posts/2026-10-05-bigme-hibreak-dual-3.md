@@ -8,6 +8,12 @@ category: smartphone
 date: 2026-10-05
 kicker: BigmeのE Inkスマホ「HiBreak Dual 3」が公式ストアで予約受付中。背面の5インチLCDは磁石で着脱でき、本体だけなら569ドル、LCD付きは629ドルから。出荷は11月上旬から中旬の予定。
 tags: [E Ink, デュアルスクリーン, Bigme, Android, 電子ペーパー]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-05
+  radio: 5G / 4G / Wi-Fi / Bluetooth 5.3
+  note: 同社の別機種は2026年7月に登録済み
 origin: SZX 深圳
 embeds:
   - type: youtube

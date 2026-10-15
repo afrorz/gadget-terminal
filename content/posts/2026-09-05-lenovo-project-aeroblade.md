@@ -13,6 +13,12 @@ tags:
 - ファンレス
 - IFA 2026
 - ノートPC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-05
+  radio: "Wi-Fi 7"
+  note: "コンセプト機で未発売"
 x_hook: ファンを一切使わずに冷やすノートPCコンセプトが、厚さ10mm未満・重さ830g未満で登場。Frore Systemsと共同開発した固体冷却で、価格・発売時期は未定。
 images:
 - url: "https://media.lenovonews.fiestic.com/2028/08/AeroBlade-Specialty-04.png"

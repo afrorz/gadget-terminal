@@ -12,6 +12,11 @@ tags:
 - スマートウォッチ
 - 腕時計
 - クラウドファンディング
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-27
+  radio: ""
 x_hook: 腕時計を2本同時に着けるための専用金具が、Kickstarterで目標額の5倍以上を集めて製品化された。ラグ幅18〜24mmの機械式時計とApple Watchなどを工具無しで着せ替えでき、価格はステンレス299ユーロからチタン549ユーロまで3種類ある。
 images:
 - url: "http://smartlet.io/cdn/shop/files/smartlet-one-titanium-3190805.png?v=1788931571"

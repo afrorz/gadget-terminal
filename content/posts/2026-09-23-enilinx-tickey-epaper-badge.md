@@ -13,6 +13,11 @@ tags:
   - 電子ペーパー
   - Kickstarter
   - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-23
+  radio: Wi-Fi / Bluetooth / NFC
 x_hook: 目標額はわずか香港ドル1万ドル。それに対して集まったのは591倍となる香港ドル591万ドル超で、支援者はすでに7,000人を突破した。名札型のカラー電子ペーパーの募集は、あと2日で締め切られる。
 deadline: "2026-09-25"
 embeds:

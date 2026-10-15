@@ -11,6 +11,12 @@ tags:
   - 大眼橙
   - プロジェクター
   - 中国ガジェット
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-14
+  radio: Wi-Fi 6 / Bluetooth 5.2
+  note: 技適取得の情報が見当たらない
 x_hook: 天井投写もこなすZ字型ジンバルに、25Wサブウーファー入りの2.1chスピーカーまで内蔵。1080Pながら4K入力にも対応するプロジェクターが中国で3,999元。Wi-Fi 6とBluetoothを積むが、日本での技適取得は確認できていない。
 images:
   - url: "https://img14.360buyimg.com/pop/jfs/t1/408207/31/14100/31559/69c5fc61F9095d520/0083320320c0c1b2.png"

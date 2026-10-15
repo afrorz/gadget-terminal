@@ -7,6 +7,11 @@ category: weird
 date: 2026-08-19
 kicker: Xiaomiが小米有品（Xiaomi Youpin）で、磁石でスマートフォン背面に貼り付くBluetoothスピーカー「Xiaomi Bluetooth Speaker 磁吸版」のクラウドファンディングを開始した。価格はクラウドファンディング価格132元、正式価格199元、本体重量は約95g。
 tags: [Xiaomi, Bluetoothスピーカー, クラウドファンディング, 小米有品, 中華ガジェット]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-19
+  radio: "Bluetooth"
 thumbnail: "https://img.youpin.mi-img.com/youpin_gms/095d254b_c200_465c_a42f_3e808b20867b.jpeg@base@tag=imgScale&F=webp&h=1080&w=1080"
 thumbnail_credit: 小米有品 公式製品ページ
 faq:

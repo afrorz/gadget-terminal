@@ -14,6 +14,12 @@ tags:
 - Kickstarter
 - カメラ
 - 野鳥撮影
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-01
+  radio: "Wi-Fi / Bluetooth(推定)"
+  note: "無線仕様の記載なし"
 x_hook: 400gのカメラが、鳥を自分で追いかけて撮る。ただし調達額の単位は香港ドルで、ドル表示とは4倍近く違う。
 embeds:
 - type: youtube

@@ -12,6 +12,11 @@ tags:
 - ESP32
 - 電子ペーパー
 - 変わり種
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-11
+  radio: "Wi-Fi 4 / Bluetooth 5.0"
 x_hook: 本体価格49.90ドルの電子ペーパー端末に、天気表示・電卓・カードゲームのライフカウンターなど有志製のファームウェアを自由に書き込める。Wi-FiとBluetoothを積むが、技適に関する記載はどこにも見当たらない。
 images:
 - url: "https://www.seeedstudio.com/sticky/playground-registry/sticky-voice-companion/assets/preview.webp"

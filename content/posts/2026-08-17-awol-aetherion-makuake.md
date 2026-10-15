@@ -8,6 +8,12 @@ date: 2026-08-17
 priority: 30
 kicker: 海外ではKickstarterで1,800万ドル超を集めて出荷とレビューまで終わった超短焦点プロジェクターが、8月18日から日本のクラウドファンディングに出てくる。
 tags: [プロジェクター, 超短焦点, RGBレーザー, クラウドファンディング, Makuake, AWOL Vision]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-17
+  radio: "Wi-Fi 7 / Bluetooth 5.4"
+  note: "Makuakeページに技適の記載なし"
 embeds:
   - type: youtube
     id: xFOfg703xN8

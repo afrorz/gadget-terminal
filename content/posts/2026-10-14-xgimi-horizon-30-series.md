@@ -16,6 +16,11 @@ tags:
 - プロジェクター
 - 4K
 - 3色レーザー
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-14
+  radio: Wi-Fi 6 / Bluetooth 5.2
 images:
 - url: "https://us.xgimi.com/cdn/shop/files/HORIZON30Pro.png?v=1790755418&width=2000"
   caption: HORIZON 30 Proの前面。右にレンズ、左にIMAX Enhancedと「IRIS」のロゴ、中央にHarman Kardonのスピーカーグリル。本体は金属のスタンドで角度を変えられる

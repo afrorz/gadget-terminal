@@ -12,6 +12,12 @@ tags:
   - AIハードウェア
   - Kickstarter
   - クラウドファンディング
+giteki:
+  status: 対象外
+  number: []
+  checked: 2026-09-25
+  radio: ""
+  note: 無線の記載なし
 x_hook: パソコンの前に置くと、画面を読み取ってキーボードとマウスを勝手に動かす箱が現れた。Kickstarterで目標額の173倍、支援者3,151人を集めたが、出荷対象地域のリストに日本は入っていない。
 origin: HKG 香港
 deadline: 2026-10-30

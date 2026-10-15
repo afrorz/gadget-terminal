@@ -12,6 +12,12 @@ tags:
   - メカニカルキーボード
   - QMK
   - VIA
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-25
+  radio: 2.4GHz / Bluetooth 5.0
+  note: 有線(USB-C)運用なら不要
 x_hook: キーボードの右肩に、時計やGIFを映せる小さな画面が付いた。価格は84.99ドルだが、技適の取得は確認できず、日本では有線接続でのみ合法に使える。
 images:
   - url: "https://www.yunzii.com/cdn/shop/files/if75-main-1.jpg"

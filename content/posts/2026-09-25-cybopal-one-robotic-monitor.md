@@ -12,6 +12,12 @@ tags:
   - AI
   - Kickstarter
   - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-25
+  radio: ""
+  note: 無線仕様が未確認
 x_hook: モニターがロボットアームで自分から姿勢を追いかけてくる。Kickstarterで目標額の43倍、268人の支援を集めたが、出荷は12月予定でまだ製品ではない。
 origin: HKG 香港
 deadline: 2026-11-21

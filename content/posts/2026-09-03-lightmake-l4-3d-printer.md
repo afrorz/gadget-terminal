@@ -12,6 +12,12 @@ tags:
 - 3Dプリンタ
 - Kickstarter
 - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-03
+  radio: ""
+  note: "Wi-Fi搭載の有無が不明"
 x_hook: 3Dプリンタのヘッドが4本、それぞれ独立して同時に動く。色替えの廃棄もほぼ無くなるという。
 origin: SZX 深圳
 embeds:

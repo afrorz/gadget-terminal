@@ -16,6 +16,12 @@ tags:
 - ホログラム
 - AIペット
 - Kickstarter
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-28
+  radio: ""
+  note: "通信方式が未公開"
 faq:
 - q: 今すぐ買えますか
   a: 買えません。Kicktraqの記録によるとKickstarterキャンペーンは運営側によりキャンセルされており、現在は公式サイトでウェイトリスト登録のみ受け付けています。

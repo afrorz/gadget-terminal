@@ -13,6 +13,12 @@ tags:
 - 3Dプリンター
 - マルチカラー
 - ノズル交換
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-12
+  radio: ""
+  note: 公式FAQは無線機能の有無に触れず
 images:
 - url: "https://compress-file.creality.com/images/default/d4cff1f0-c573-4ee7-ae45-e27521cc61f9.webp"
   caption: K3本体。前面が透明な扉つきの筐体で、側面に4本のスプールを掛け、上部から4本のフィラメントが伸びる

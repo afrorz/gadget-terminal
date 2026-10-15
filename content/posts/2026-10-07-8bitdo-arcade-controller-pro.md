@@ -13,6 +13,11 @@ tags:
 - レバーレス
 - 格闘ゲーム
 - Switch 2
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-07
+  radio: Bluetooth / 2.4G
 alternatives:
 - name: "FightBox F10-EX-PC-V2"
   why: "16ボタンの全ボタン式レバーレスコントローラー。日本語マニュアル付きで国内ショップが販売"

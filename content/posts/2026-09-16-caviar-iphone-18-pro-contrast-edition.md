@@ -11,6 +11,12 @@ tags:
   - iPhone 18 Pro
   - iPhoneカスタム
   - 限定モデル
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-16
+  radio: ""
+  note: 土台のiPhoneの仕向地が不明
 x_hook: 普通のiPhone 18 Proが、背面パネルを24Kゴールドや鍛造カーボンに張り替えるだけで7,130ドルになる。中身の通信モジュールはApple純正のまま変えず、各色世界50台限定。注文は電話かメール、TelegramやWhatsAppで直接という昔ながらのやり方だ。
 images:
   - url: "https://caviar.global/uploads/id767/gold-wine-main.webp"

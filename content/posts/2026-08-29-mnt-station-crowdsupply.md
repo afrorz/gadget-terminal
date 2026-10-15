@@ -13,6 +13,12 @@ tags:
 - Crowd Supply
 - ミニPC
 - 自作PC
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-29
+  radio: "Wi-Fi / Bluetooth"
+  note: "有線のみなら論点にならない"
 x_hook: CPUボードを丸ごと差し替えられるPC。名目上の目標額はわずか1ドル、実質フレキシブル方式の調達。
 origin: BER ベルリン
 deadline: 2026-09-25

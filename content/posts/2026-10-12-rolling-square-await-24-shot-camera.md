@@ -13,6 +13,12 @@ tags:
 - デジタルカメラ
 - Kickstarter
 - トイカメラ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-12
+  radio: Bluetooth 5.2 LE / Wi-Fi 2.4GHz
+  note: 公式の認証はFCC・CE・UKCAのみ
 deadline: 2026-11-08
 embeds:
 - type: youtube

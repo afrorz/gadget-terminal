@@ -7,6 +7,11 @@ category: smartphone
 date: 2026-08-19
 kicker: 修理性を前面に押し出すオランダFairphoneが、上位モデル「Fairphone 6+」を米国で正式発売した。Fairphoneが米国で公式販売するのは今回が初めて。価格は米国649ドル、欧州649ユーロ。着脱式バッテリーを持ち、iFixitの修理性スコアで満点10/10を獲得している。
 tags: [Fairphone, 修理可能, 着脱式バッテリー, iFixit, サステナブル]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-19
+  radio: "LTE / 5G / Wi-Fi / Bluetooth"
 embeds:
   - type: youtube
     id: bRI03bLeLIA

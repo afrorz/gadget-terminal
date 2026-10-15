@@ -12,6 +12,12 @@ tags:
   - ゲーミングマウス
   - 軽量マウス
   - 技適
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-30
+  radio: 2.4GHz
+  note: 同社の別機種は認証あり、本機は特定できず
 origin: SZX 深圳
 embeds:
   - type: youtube

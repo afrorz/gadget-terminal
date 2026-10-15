@@ -12,6 +12,12 @@ tags:
 - スマートフォン
 - Snapdragon
 - ミッドレンジ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-08
+  radio: ""
+  note: "10/8時点でDBから型番を特定できず"
 x_hook: 中身はほぼ前作のまま、画面の明るさだけ50%上がった。価格は599ユーロ、日本発売は9月中旬から。
 embeds:
 - type: youtube

@@ -12,6 +12,12 @@ tags:
   - Linuxハンドヘルド
   - モジュラー
   - オープンソースハードウェア
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-24
+  radio: Wi-Fi 6 / Bluetooth 5.4 / LTE(オプション)
+  note: オプションLTEモデムの国内周波数帯も未確認
 x_hook: 本体下部を丸ごと磁石で付け替えると、同じ画面がキーボード付きミニPCにもゲーム機にもなる。CPUは4コアと6コアの2択、価格は239ドルから、出荷は2027年1月予定。
 origin: STL セントルイス近郊
 status: SCHEDULED

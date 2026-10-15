@@ -12,6 +12,11 @@ tags:
   - AIイヤホン
   - Indiegogo
   - クラウドファンディング
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-23
+  radio: Bluetooth 5.4
 x_hook: 充電ケースだけでも3本のマイクで会議を録音でき、イヤホンを装着していなくても発言をテキスト化できるという。IFA 2026でBest in Audioを受賞したAIイヤホンの早期価格は259ドルで、Indiegogoで支援を受付中。
 origin: HKG 香港
 embeds:

@@ -13,6 +13,12 @@ tags:
 - スマホゲーム
 - MagSafe
 - Kickstarter
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-02
+  radio: Bluetooth 5.3(M6のみ)
+  note: M5は有線で対象外、M6は取得未確認
 origin: PVG 上海
 status: SCHEDULED
 status_note: 10月6日に募集開始

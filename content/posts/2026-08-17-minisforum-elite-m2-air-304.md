@@ -7,6 +7,12 @@ category: pc
 date: 2026-08-17
 kicker: MinisforumがIntelの新型省電力チップ「Core 3 304」を積んだ超小型ミニPC「Elite Mini M2 Air-304」を発売した。デュアル2.5GbEを備えながら0.47リットルに収めている。
 tags: [ミニPC, Minisforum, Intel, Wildcat Lake, 2.5GbE]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-17
+  radio: "Wi-Fi 6E / Bluetooth 5.4"
+  note: "有線LAN運用なら無線は不要"
 embeds:
   - type: youtube
     id: 6MsSliuG9mk

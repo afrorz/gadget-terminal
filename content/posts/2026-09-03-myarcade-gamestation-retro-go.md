@@ -13,6 +13,12 @@ tags:
 - 携帯ゲーム機
 - Capcom
 - バンダイナムコ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-03
+  radio: ""
+  note: "Bluetoothの有無が不明"
 x_hook: 画面が7インチから8インチになった代わりに、トラックボールとテンキーが消えた。
 origin: LAX ロサンゼルス
 embeds:

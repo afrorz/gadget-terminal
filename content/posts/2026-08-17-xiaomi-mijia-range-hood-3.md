@@ -7,6 +7,12 @@ category: weird
 date: 2026-08-17
 kicker: Mijia Smart Range Hood 3（欧州スタイル）が中国で発売。手を振って操作でき、洗剤も水も使わずファンの遠心力だけで油汚れを飛ばす。
 tags: [Xiaomi, Mijia, スマート家電, キッチン, 中国]
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-08-17
+  radio: ""
+  note: "Xiaomi Home連携。無線規格の記載なし"
 faq:
 - q: 日本で買えますか
   a: 中国国内向けの製品で、日本での販売予定は示されていません。設置規格・電源電圧・アプリのいずれも国内環境と噛み合わないため、輸入を検討する価値はほぼないというのが率直なところです。

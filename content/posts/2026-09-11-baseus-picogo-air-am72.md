@@ -12,6 +12,11 @@ tags:
 - iPhone Duo
 - モバイルバッテリー
 - MagSafe
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-09-11
+  radio: "NFC / Qi2ワイヤレス充電"
 x_hook: 折りたたみのiPhone Duoに合わせて幅を広げながら、最薄部はわずか7.9mm。マグネットで密着させたままQi2ワイヤレス15Wと有線25Wの両方に対応するバッテリーが11月に出るが、価格はまだ明らかになっていない。
 images:
 - url: "https://mmx.prnewswire.com/media/MS1985065/20260909135938EDT_image_1.jpg?id=OA2939276&w=500"
