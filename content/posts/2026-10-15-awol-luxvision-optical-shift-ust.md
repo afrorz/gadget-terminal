@@ -16,6 +16,11 @@ tags:
 - プロジェクター
 - 超短焦点
 - 4K 120Hz
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-15
+  radio: "Wi-Fi 7 / Bluetooth 5.4"
 images:
 - url: "https://awolvision.com/cdn/shop/files/luxvision-product-detail-primary-2-2.webp?v=1789042980&width=1600"
   caption: LuxVision本体を正面やや上から見た製品写真。金色の縦ルーバーのグリルが前面を覆い、上面に投写窓が開いている

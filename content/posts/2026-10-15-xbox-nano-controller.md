@@ -16,6 +16,11 @@ tags:
 - ゲームコントローラー
 - Bluetooth
 - ポケットサイズ
+giteki:
+  status: 確認できない
+  number: []
+  checked: 2026-10-15
+  radio: "Xbox Wireless / Bluetooth"
 images:
 - url: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/10/XBOX-Nano-Controller-textless-full-image-resize-163b4cf933e25ff565e2.jpg"
   caption: パーカーのポケットに差し込まれる白いXbox Nano Controller。左スティック、十字キー、右スティックが一列に並ぶ横長の形で、中央にXboxロゴがある

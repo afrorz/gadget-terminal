@@ -16,6 +16,12 @@ tags:
 - E Ink
 - モバイルモニター
 - カラー電子ペーパー
+giteki:
+  status: 取得済み
+  number: ["222-258039"]
+  checked: 2026-10-15
+  radio: "Wi-Fi"
+  note: "2025年登録。60FPS版と同じ機器かは未確認"
 images:
 - url: "https://store.bigme.vip/cdn/shop/files/02_dbe5886c-5618-4c26-b52a-072d17c16df7.png?v=1791812848&width=750"
   caption: 3台並べた13.3インチのB13 Pro。画面は山の風景、建築の図面、紙面レイアウトを表示し、下に3200×2400、60FPS、USB-C1本接続、ワイヤレスキャスト、フロントライトなどの特徴が並ぶ
