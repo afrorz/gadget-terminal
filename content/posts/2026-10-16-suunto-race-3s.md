@@ -3,9 +3,10 @@ title: Suunto Race 3Sは599ドル、先代Race Sの349ドルから大幅値上�
 slug: suunto-race-3s
 seo_title: Suunto Race 3Sは599ドル、国内の価格は？
 x_hook: |
-  Suuntoの新ウォッチ「Race 3S」は599ドル（約9万円）。先代Race Sの349ドルから大きく上がった。チタンベゼルとサファイアガラスで56g、GPSは最大45時間。
-  ・輝度2,000ニト、メモリ64GB
-  ・DC Rainmakerは「399ドルなら」と評価
+  腕時計なのに、ストレージは64GB。
+  Suuntoの新ウォッチ「Race 3S」。チタンベゼルとサファイアガラスで、重さは56g。
+  ・GPSは最大45時間
+  ・画面の輝度は2,000ニト
 keyword: Race 3S
 category: smartphone
 date: 2026-10-16

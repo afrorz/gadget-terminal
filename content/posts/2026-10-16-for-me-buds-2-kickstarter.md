@@ -3,8 +3,9 @@ title: 睡眠用イヤホン「For Me Buds 2」がKickstarterに。厚さ10.4mm�
 slug: for-me-buds-2-kickstarter
 seo_title: For Me Buds 2は99ドルから、日本は？
 x_hook: |
-  横向きで寝ても耳が痛くならない睡眠用イヤホン「For Me Buds 2」が、Kickstarterで99ドル（約1.5万円）から。厚さ10.4mm、片耳4g未満、ANCは最大35dB。
-  ・心拍センサーで音を自動調整
+  このイヤホンは、眠るために作られた。
+  横向きで寝ても耳が痛くならない「For Me Buds 2」。厚さ10.4mm、片耳4g未満。
+  ・心拍に合わせて音を自動で調整
   ・生体データは端末内で処理
 keyword: For Me Buds 2
 category: weird
