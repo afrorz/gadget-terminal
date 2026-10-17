@@ -1,9 +1,9 @@
 ---
 title: Microsoft「Xbox Nano Controller」は全長5インチ強、重さ3.5オンスのポケットサイズで49.99ドル、日本を含む36市場で11月発売
 slug: xbox-nano-controller
-seo_title: Xbox Nano Controllerは49.99ドル、日本は？
+seo_title: Xbox Nano Controller、日本は11月発売で参考価格8,000円
 x_hook: |
-  Xboxコントローラーが、全長5インチ強・重さ3.5オンスのポケットサイズになった。「Xbox Nano Controller」は49.99ドル（約7,000円）、発売地には日本も入っている。
+  Xboxコントローラーが、全長5インチ強・重さ3.5オンスのポケットサイズになった。「Xbox Nano Controller」は日本でも11月に発売される。Xbox公式の日本語サイトでの参考価格は8,000円で、予約は10月15日に始まっている。
   ・ボタンは標準の18入力
   ・Xbox Wireless / Bluetooth対応
 keyword: Xbox Nano
@@ -16,6 +16,13 @@ tags:
 - ゲームコントローラー
 - Bluetooth
 - ポケットサイズ
+japan:
+  status: 予約受付中
+  checked: 2026-10-18
+  summary: 日本マイクロソフトがXbox公式の日本語ニュースで、11月に日本を含む市場で発売すると案内している。参考価格は8,000円で、予約は10月15日に始まった。具体的な発売日は公式の日本語記事では「11月」とだけあり、11月4日とする報道がある。販売店名は公式記事に無く、公式製品ページで確認する形。技適は、総務省のデータベースで本製品の型番を特定できておらず、確認できていない。
+  source:
+    title: XBOX Nano コントローラーのご紹介（Xbox公式日本語ニュース）
+    url: https://news.xbox.com/ja-jp/?p=10714
 giteki:
   status: 確認できない
   number: []
@@ -40,9 +47,9 @@ alternatives:
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/microsoft-store/cabinet/12051196/imgrc0097883600.jpg"
 faq:
 - q: Xbox Nano Controllerはいくらですか
-  a: 米国の予約価格は49.99ドル、英国は44.99ポンドです。掲載時点で、日本の価格は確認できていません。
+  a: 米国の予約価格は49.99ドル、英国は44.99ポンドです。日本はXbox公式の日本語ニュースで参考価格8,000円と案内されています（2026年10月18日確認）。
 - q: 日本で買えますか
-  a: Microsoftの発表では、発売先の36市場に日本が含まれています。発売は11月で、TechPowerUpは11月4日と報じています。国内の価格と販売店は、掲載時点で確認できていません。
+  a: 買えます。Xbox公式の日本語ニュースによると、11月に日本で発売され、予約は10月15日に始まっています。TechPowerUpは発売日を11月4日と報じています。販売店は公式製品ページで案内されています。
 - q: 何に使えますか
   a: Xbox本体、Windows PC、iOS・Androidのスマホやタブレット、対応するスマートTVにつなげられます。接続はXbox WirelessとBluetoothです。
 - q: 技適は取得していますか
