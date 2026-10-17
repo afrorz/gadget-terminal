@@ -2054,6 +2054,7 @@ GITEKI_PATH = "giteki/"
 GITEKI_TITLE = "海外ガジェットの技適チェック一覧"
 GITEKI_DESC = ("当メディアが記事にした海外ガジェットの技適の状況を、製品ごとに一覧にしました。"
                "総務省のデータベースで確認した結果を、取得済み・確認できない・対象外の3つで示し、毎週更新します。")
+GITEKI_LICENSE = "https://creativecommons.org/licenses/by/4.0/deed.ja"
 GITEKI_STATUS_CLS = {"取得済み": "gk-ok", "確認できない": "gi-warn", "対象外": "gk-na"}
 
 
@@ -2165,8 +2166,10 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
         table = '<p class="empty">技適の記録はまだありません。</p>'
 
     # 構造化データ。Dataset は「この表そのものがデータである」ことを宣言する。
-    # license は権利関係が決まっていないので書かない。
+    # 引用してもらうことが狙いの一覧なので、出典を書けば自由に使える CC BY 4.0 にする
+    # (2026-10-17。Search Console が license 欠落を指摘)。ページにも同じ条件を書く。
     ld_data = {
+        "license": GITEKI_LICENSE,
         "@context": "https://schema.org",
         "@type": "Dataset",
         "name": GITEKI_TITLE,
@@ -2242,6 +2245,7 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
     <a href="{MIC_FORM}" target="_blank" rel="noopener">総務省の検索ページ</a>
     ／ 表のデータ： <a href="{u(GITEKI_PATH + "giteki.csv")}" download>CSV</a>
     <a href="{u(GITEKI_PATH + "giteki.json")}">JSON</a></p>
+    <p class="gk-foot">この一覧のデータは<a href="{GITEKI_LICENSE}" target="_blank" rel="noopener license">CC BY 4.0</a>で公開しています。出典として「Gadget Terminal」とこのページのURLを書けば、自由に使えます。</p>
   </div>
 </main>
 {js}"""
