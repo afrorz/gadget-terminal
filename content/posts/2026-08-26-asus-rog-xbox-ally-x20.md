@@ -15,31 +15,41 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-17
   radio: "Wi-Fi / Bluetooth"
-  note: "10/8時点でDBに該当登録なし"
+  note: "国内正規品。本体型番RC74XAの登録は見当たらない"
 x_hook: 中身はほぼ同じなのに300ドル高い。理由はOLED画面と磁気式スティック、そして日本には10月に来る。
 embeds:
 - type: youtube
   id: 2ETXv-KrC6I
   caption: ETA PRIMEによるROG Xbox Ally X20のハンズオン動画
 japan:
-  status: 発売予定
-  checked: 2026-10-08
-  summary: ASUS JAPANが9月17日に国内価格と予約受付を発表した。発売は10月16日で、単体版は税込25万8,800円、ROG XREAL R1 Edition 20 ARグラスなどが付くバンドルは税込44万2,800円。ASUS Store、Amazon.co.jp、家電量販店などで予約を受け付けている。技適は10月8日時点で総務省の技適データベースに該当する登録が見当たらず、確認できていない。
-  x_hook: 7.4型OLEDを載せたROG20周年記念のハンドヘルドPC「ROG Xbox Ally X20」が、国内でも10月16日に発売される。予約受付中で25万8,800円。
+  status: 発売済み
+  checked: 2026-10-17
+  summary: ASUS JAPANが10月16日に国内で発売した。型番はRC74XA-RZ2R24G1Tで、単体版は税込25万8,800円、ROG XREAL R1 Edition 20 ARグラスなどが付くバンドルは税込44万2,800円。ASUS StoreとAmazon.co.jpで扱っている。国内保証は購入日から12か月。ASUS JAPANが国内向けに販売する正規品だが、10月17日時点で総務省の技適データベースに本体型番RC74XAの登録は見当たらず、技適の番号は確認できていない。
+  x_hook: 7.4型OLEDを載せたROG20周年記念のハンドヘルドPC「ROG Xbox Ally X20」が、10月16日に国内で発売された。単体版は25万8,800円。
+  buy:
+  - name: Amazon.co.jp
+    url: https://www.amazon.co.jp/dp/B0HH8TC4TK
+    merchant: amazon
+    price: 25万8,800円(税込、掲載時点)
+    giteki: 国内正規
+  - name: ASUS Store(公式)
+    url: https://store.asus.com/jp/rog/rog-xbox-ally-x20-rc74xa-rz2r24g1t-gaming-handheld.html
+    price: 25万8,800円(税込、掲載時点)
+    giteki: 国内正規
   source:
-    title: ASUS JAPAN、ROG XBOX Ally X20の国内価格と予約受付を発表(PC Watch)
-    url: https://pc.watch.impress.co.jp/docs/news/2141511.html
+    title: ROG XBOX Ally X20 (2026)(ASUS JAPAN 公式製品ページ)
+    url: https://rog.asus.com/jp/gaming-handhelds/rog-ally/rog-xbox-ally-x20-2026/
 faq:
 - q: 日本で買えますか
-  a: ASUS JAPANが2026年9月17日に国内価格と予約受付を発表した。発売は10月16日で、ASUS Store、Amazon.co.jp、家電量販店などで予約を受け付けている(2026年10月8日確認)。
+  a: 買える。ASUS JAPANが2026年10月16日に国内で発売し、ASUS StoreとAmazon.co.jpで扱っている(2026年10月17日確認)。
 - q: いくらですか
-  a: 国内価格は単体版が税込25万8,800円、ARグラス付きバンドルが税込44万2,800円(2026年10月8日確認)。米国では単体版が1,299.99ドル、バンドルが2,499.99ドル(2026年8月25日時点)。
+  a: 国内価格は単体版が税込25万8,800円、ARグラス付きバンドルが税込44万2,800円(2026年10月17日確認)。米国では単体版が1,299.99ドル、バンドルが2,499.99ドル(2026年8月25日時点)。
 - q: 通常のROG Xbox Ally Xと何が違いますか
   a: プロセッサ（AMD Ryzen AI Z2 Extreme）、メモリ（24GB）、ストレージ（1TB SSD）は共通。X20は7.4型・120Hz・ピーク輝度1,400ニトのOLEDディスプレイ、TMR（トンネル磁気抵抗）方式のジョイスティック、4方向/8方向を切り替えられるD-padなど、外装と入力系だけを強化した限定モデル。
 - q: いつ発売されますか
-  a: 日本は2026年10月16日に発売される。米国は2026年10月15日。
+  a: 日本では2026年10月16日に発売された。米国は2026年10月15日。
 alternatives:
 - name: ASUS ROG Ally X（現行モデル・国内正規品）
   why: X20と同じRyzen AI Z2 Extreme・24GB RAM・1TB SSD構成の前モデルを、国内正規品として今すぐ購入できる。OLED化前の液晶パネルだが、処理性能自体はX20と共通。
