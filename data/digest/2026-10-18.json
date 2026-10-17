@@ -1,0 +1,722 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T04:39:51.436198+09:00",
+  "stats": {
+    "fetched": 684,
+    "unique": 644,
+    "new": 237,
+    "clusters": 230,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "8392ced58f0c2cb3",
+      "title": "Xiaomi’s new hair dryer brings temperature control and dual ion system in mini size",
+      "url": "https://www.gizmochina.com/2026/10/17/xiaomi-mijia-high-speed-hair-dryer-mini-launched-china-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/17/xiaomi-mijia-high-speed-hair-dryer-mini-launched-china-specs-price",
+      "summary": "Xiaomi has launched the Mijia High-Speed Hair Dryer Mini in China. It is priced at 299 yuan, or about $45, and will open for pre-orders on October 20 via Xiaomi Youpin. The Mijia High-Speed Hair Dryer Mini weighs 270g without the power cord. Xiaomi says that makes it 30% smaller and 20% lighter than the [&#8230;] The post Xiaomi&#8217;s new hair dryer brings temperature control and dual ion system",
+      "published": "2026-10-17T06:57:37+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b5c0a9a204bb6bc4",
+      "title": "Apple's official silicone case for the iPhone Duo requires adhesive",
+      "url": "https://www.gsmarena.com/apples_official_silicone_case_for_the_iphone_duo_requires_adhesive-news-75099.php",
+      "canonical": "https://www.gsmarena.com/apples_official_silicone_case_for_the_iphone_duo_requires_adhesive-news-75099.php",
+      "summary": "If you are eyeing the iPhone Duo as your next, or even first, foldable, you might also be looking into Apple's official accessories like the $79 silicone case or the $129 folio one. Well, there's something you need to know about the cheaper case, as it comes with a caveat. @DylanMcD8 both sides too https://t.co/t9aWxm8B8A— Parker Ortolani (@ParkerOrtolani) October 16, 2026 According to users who a",
+      "published": "2026-10-17T17:44:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/10/17/iphone-duo-silicone-case-adhesive-psa/"
+      ]
+    },
+    {
+      "id": "7a6c85540f65216d",
+      "title": "Japanese brand launches mini PC with Ryzen AI 7 and fingerprint reader",
+      "url": "https://www.notebookcheck.net/Japanese-brand-launches-mini-PC-with-Ryzen-AI-7-and-fingerprint-reader.1425982.0.html",
+      "canonical": "https://www.notebookcheck.net/Japanese-brand-launches-mini-PC-with-Ryzen-AI-7-and-fingerprint-reader.1425982.0.html",
+      "summary": "iiyama has launched a compact Style-I1MA-RA45-EZDX mini PC with AMD's Ryzen AI 7 450 processor, dual Ethernet and USB4 connectivity. The system also features a fingerprint reader and configurable memory and storage.",
+      "published": "2026-10-17T04:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+4 mini pc",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "13dd31cbe15ea119",
+      "title": "Honor Win2 runs AnTuTu too, its cooling fan helps it achieve a top score",
+      "url": "https://www.gsmarena.com/honor_win2_runs_antutu_too_its_cooling_fan_helps_it_achieve_a_top_score-news-75095.php",
+      "canonical": "https://www.gsmarena.com/honor_win2_runs_antutu_too_its_cooling_fan_helps_it_achieve_a_top_score-news-75095.php",
+      "summary": "Honor is launching the Win2 in China on October 21, and not long ago it was purportedly spotted in the Geekbench online database, confirming the fact that it will be powered by the Snapdragon 8 Elite Extreme Gen 6 SoC. Now a prototype device with the same BRM-AN00 model number has also run AnTuTu v12, managing to score 5,702,964, as the image below attests. The phone has a 1,502,737 CPU score, a 2",
+      "published": "2026-10-17T12:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 prototype",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "79f21d3b633759d2",
+      "title": "GameSir reveals it's making a keyboard and new special edition controllers",
+      "url": "https://www.notebookcheck.net/GameSir-reveals-it-s-making-a-keyboard-and-new-special-edition-controllers.1426204.0.html",
+      "canonical": "https://www.notebookcheck.net/GameSir-reveals-it-s-making-a-keyboard-and-new-special-edition-controllers.1426204.0.html",
+      "summary": "GameSir has unveiled its new global brand ambassador, and has confirmed the launch of special edition products made in collaboration with the professional eSports player. Among the upcoming products is GameSir's first keyboard.",
+      "published": "2026-10-17T15:03:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "37a77c74f858d173",
+      "title": "If you haven't pre-ordered an iPhone Duo yet, you're in for a long, long wait",
+      "url": "https://www.gsmarena.com/if_you_havent_preordered_an_iphone_duo_yet_but_want_one_youre_in_for_a_long_long_wait-news-75091.php",
+      "canonical": "https://www.gsmarena.com/if_you_havent_preordered_an_iphone_duo_yet_but_want_one_youre_in_for_a_long_long_wait-news-75091.php",
+      "summary": "The Apple iPhone Duo is available for pre-order starting today – or rather we should say that it was available. The very limited supply became painfully apparent when mere hours after launching, Apple’s online store was already showing a shipping date of January 22. The original plan was for the iPhone Duo to start shipping on October 23 after a week of pre-orders. And some people will surely get ",
+      "published": "2026-10-16T20:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "92cef45c2181c612",
+      "title": "Unreleased Casio G-Shock 'CasioNaut' gets early hands-on review showing magnetic hands in action",
+      "url": "https://www.notebookcheck.net/Unreleased-Casio-G-Shock-CasioNaut-gets-early-hands-on-review-showing-magnetic-hands-in-action.1426427.0.html",
+      "canonical": "https://www.notebookcheck.net/Unreleased-Casio-G-Shock-CasioNaut-gets-early-hands-on-review-showing-magnetic-hands-in-action.1426427.0.html",
+      "summary": "Casio's upcoming G-Shock GMC-2500D has appeared in an early hands-on video, weeks before its scheduled November release. The footage offers a closer look at the watch's stainless-steel construction and unusual magnetic hand-retention mechanism.",
+      "published": "2026-10-17T01:53:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fad007e46ae1b5f5",
+      "title": "OnePlus Ace 7 Pro first look leaks with a two-tone design",
+      "url": "https://www.gizmochina.com/2026/10/17/oneplus-ace-7-pro-first-look/",
+      "canonical": "https://www.gizmochina.com/2026/10/17/oneplus-ace-7-pro-first-look",
+      "summary": "We now have our first look at OnePlus&#8216; next performance phones, a few days before they launch in China later this month. A leaked image doing the rounds on Weibo shows what is most likely the Ace 7 Pro in two finishes. It also shows how far the series has moved away from the OnePlus [&#8230;] The post OnePlus Ace 7 Pro first look leaks with a two-tone design appeared first on Gizmochina .",
+      "published": "2026-10-17T11:28:10+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e0eb7ae473ea74de",
+      "title": "NVIDIA Denies RTX 5090 Discontinuation Rumors, Admits Supply Is Tight",
+      "url": "https://www.techpowerup.com/353823/nvidia-denies-rtx-5090-discontinuation-rumors-admits-supply-is-tight",
+      "canonical": "https://www.techpowerup.com/353823/nvidia-denies-rtx-5090-discontinuation-rumors-admits-supply-is-tight",
+      "summary": "NVIDIA has finally responded to reports that the GeForce RTX 5090 is being discontinued . Jeff Fisher, senior vice president of NVIDIA's personal computing business, told Taiwanese media after the RTX Spark launch party in Taipei on October 16 that the rumors aren't true, as reported by 4Gamers and the Central News Agency (CNA). The whole thing kicked off last week when leakers claimed NVIDIA had ",
+      "published": "2026-10-17T14:27:30+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/nvidia-denies-rtx-5090-discontinuation-reports/"
+      ]
+    },
+    {
+      "id": "207636b52d87af58",
+      "title": "Honor Win2 teased once again with world's first 2K 185Hz display",
+      "url": "https://www.gsmarena.com/honor_win2_teased_once_again_with_worlds_first_2k_185hz_display-news-75098.php",
+      "canonical": "https://www.gsmarena.com/honor_win2_teased_once_again_with_worlds_first_2k_185hz_display-news-75098.php",
+      "summary": "Honor is preparing to launch the Win2 series that consists of the Win2 itself, the Win2 RT and the Win2 Turbo. The Win2 series shapes up to be an interesting tech showcase since it's defined by an active cooling fan and massive batteries - the standard Win2 is said to offer a 10,100 mAh battery, while the Win2 RT will run on an even bigger 12,070 mAh battery. Honor Win2 series teaser posters But w",
+      "published": "2026-10-17T15:12:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/10/17/honor-win-2-series-to-feature-worlds-first-2k-185hz-visionox-display/"
+      ]
+    },
+    {
+      "id": "0151a63e0274c9b7",
+      "title": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
+      "url": "https://www.techpowerup.com/353825/intel-razor-lake-ax-to-pack-700-tops-of-ai-compute",
+      "canonical": "https://www.techpowerup.com/353825/intel-razor-lake-ax-to-pack-700-tops-of-ai-compute",
+      "summary": "Intel's senior vice president, Cho Min-sung, announced at the Semiconductors Powering Humanoids summit in South Korea that the next-generation Razor Lake-AX platform will be a computing powerhouse, featuring 700 TOPS of AI compute on die. This means that at INT8/FP8 precision, Razor Lake-AX will outperform the current Panther Lake mobile chips by 3.88 times, which have a total compute power of 180",
+      "published": "2026-10-17T16:53:17+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/intel-confirms-razor-lake-ax-700-tops-launch-in-2028/"
+      ]
+    },
+    {
+      "id": "8c964c416ffb28ef",
+      "title": "Moto G47 Power is coming with a much larger battery than the G47",
+      "url": "https://www.gsmarena.com/moto_g47_power_is_coming_with_a_much_larger_battery_than_the_g47-news-75089.php",
+      "canonical": "https://www.gsmarena.com/moto_g47_power_is_coming_with_a_much_larger_battery_than_the_g47-news-75089.php",
+      "summary": "Motorola launched the Moto G47 in April, and interestingly, the company is now readying not a successor, but a new member of the Moto G47 family - the Moto G47 Power. [#InlinePriceWidget,14645,1#] Motorola has published its European Energy Label documentation, and this reveals that the phone comes with a battery rated at 6,790 mAh. That will most likely be advertised by Motorola as a typical capac",
+      "published": "2026-10-16T21:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0854a16c2ee1741c",
+      "title": "Qualcomm denies Snapdragon 8 Elite Extreme Gen 6 overheating allegations on Galaxy S27 Ultra, but there’s a catch",
+      "url": "https://www.gizmochina.com/2026/10/17/qualcomm-denies-snapdragon-8-elite-extreme-gen-6-overheating-allegations-on-galaxy-s27-ultra/",
+      "canonical": "https://www.gizmochina.com/2026/10/17/qualcomm-denies-snapdragon-8-elite-extreme-gen-6-overheating-allegations-on-galaxy-s27-ultra",
+      "summary": "This week, a report emerged from South Korean media, citing industry sources, that said the Snapdragon 8 Elite Extreme Gen 6 caused overheating issues on the Galaxy S27 Ultra during internal testing, and the processor speed also dropped while performing high-load tasks. A Qualcomm’s representative has declined these rumors entirely saying these are “100% NOT [&#8230;] The post Qualcomm denies Snap",
+      "published": "2026-10-17T09:18:56+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/10/17/qualcomm-says-rumors-about-snapdragon-8-elite-extreme-gen-6-overheating-are-inaccurate/"
+      ]
+    },
+    {
+      "id": "27337a690ba61fce",
+      "title": "Samsung’s 2027 foldables tipped to include six models, including Galaxy Z Slide and Z Fold 9 Pro",
+      "url": "https://www.gizmochina.com/2026/10/17/samsungs-2027-foldables-tipped-to-include-six-models-including-galaxy-z-slide-and-z-fold-9-pro/",
+      "canonical": "https://www.gizmochina.com/2026/10/17/samsungs-2027-foldables-tipped-to-include-six-models-including-galaxy-z-slide-and-z-fold-9-pro",
+      "summary": "Samsung might be planning its most aggressive foldable year yet in 2027. According to tipster TheGalox, the company could launch as many as six Galaxy Z devices next year, more than double what it usually puts out. The rumored lineup includes the Galaxy Z Slide, Galaxy Z TriFold 2, Galaxy Z Fold 9 Ultra, Galaxy [&#8230;] The post Samsung&#8217;s 2027 foldables tipped to include six models, includi",
+      "published": "2026-10-17T11:19:48+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d59c7440efb3b4b2",
+      "title": "Huawei’s new smartphone sub-brand could follow Honor’s old strategy",
+      "url": "https://www.gizmochina.com/2026/10/17/huawei-starlight-sub-brand-online-mid-range-phones/",
+      "canonical": "https://www.gizmochina.com/2026/10/17/huawei-starlight-sub-brand-online-mid-range-phones",
+      "summary": "Huawei is reportedly preparing to launch a new smartphone sub-brand called Starlight, or Xingmang in Chinese. According to tipster Digital Chat Station, the brand will sell its phones mainly online and be priced as a cost-effective option. Per the leak, several models are already in the pipeline, including one with an active cooling fan. The [&#8230;] The post Huawei&#8217;s new smartphone sub-bra",
+      "published": "2026-10-17T15:24:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5d210303b7aae9a1",
+      "title": "Tokyo-based brand unveils lightweight laptop with 12-core CPU and up to 32 GB RAM",
+      "url": "https://www.notebookcheck.net/Tokyo-based-brand-unveils-lightweight-laptop-with-12-core-CPU-and-up-to-32-GB-RAM.1426091.0.html",
+      "canonical": "https://www.notebookcheck.net/Tokyo-based-brand-unveils-lightweight-laptop-with-12-core-CPU-and-up-to-32-GB-RAM.1426091.0.html",
+      "summary": "Well-known Japanese brand Galleria has unveiled the NSC5L laptop equipped with up to 32 GB of RAM and a 12-core Intel CPU. The lightweight laptop weighs in at just around 2.2 lbs, and features upgradable M.2 storage.",
+      "published": "2026-10-17T18:57:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 unveil",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6e4d729b446c15e9",
+      "title": "Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price",
+      "url": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+      "canonical": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+      "summary": "El Reg digs its claws into HP's N1X-powered OmniBook Ultra 16",
+      "published": "2026-10-16T20:31:00+00:00",
+      "source_id": "theregister",
+      "source": "The Register",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 benchmark",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a8c7e19eaa960eb8",
+      "title": "Zelda: Ocarina of Time remake gives Dark Link a crested shield and a sharper look",
+      "url": "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-remake-gives-Dark-Link-a-crested-shield-and-a-sharper-look.1426605.0.html",
+      "canonical": "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-remake-gives-Dark-Link-a-crested-shield-and-a-sharper-look.1426605.0.html",
+      "summary": "A 30-second Japanese television commercial for The Legend of Zelda: Ocarina of Time on Nintendo Switch 2 shows Dark Link balancing on Link’s sword in the Water Temple, two days after Nintendo revealed timed boss rematches in a new Hall of Fallen Foes. The remake launches on November 5, 2026, at $59.99 digital and $69.99 physical.",
+      "published": "2026-10-17T07:04:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3fc995340cd3ca13",
+      "title": "Panasonic brings its Japan-made ThinkPad rival to Europe",
+      "url": "https://www.notebookcheck.net/New-ultralight-Made-in-Japan-business-laptop-launches-in-Europe.1426606.0.html",
+      "canonical": "https://www.notebookcheck.net/New-ultralight-Made-in-Japan-business-laptop-launches-in-Europe.1426606.0.html",
+      "summary": "A formerly Japanese-exclusive laptop line is coming to Europe: Panasonic is launching the Let's Note laptop brand for the European market. The new \"Made in Japan\" Panasonic Let's Note FC7 is a 14-inch business laptop that weighs just north of 1 kg and includes a user-replaceable battery, as well as Intel's Panther Lake platform.",
+      "published": "2026-10-17T07:27:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2051c65df31bf1ef",
+      "title": "Global / Indian OnePlus 16 variant under testing with three model numbers",
+      "url": "https://www.gizmochina.com/2026/10/17/oneplus-16-global-india-variant-testing/",
+      "canonical": "https://www.gizmochina.com/2026/10/17/oneplus-16-global-india-variant-testing",
+      "summary": "OnePlus launched the OnePlus 16 in China earlier this week, and it looks like a gem of a phone with an 185 Hz OLED display, the Snapdragon 8 Elite Extreme Gen 6 chip, a 9,000mAh battery with 100W charging and 200-megapixel triple cameras. With the brand having pulled out of the US and Europe, those [&#8230;] The post Global / Indian OnePlus 16 variant under testing with three model numbers appeare",
+      "published": "2026-10-17T12:25:23+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3febafa1a312277d",
+      "title": "EE announces iPhone Handoff pricing details for UK customers",
+      "url": "https://9to5mac.com/2026/10/17/iphone-handoff-pricing-details-ee-uk/",
+      "canonical": "https://9to5mac.com/2026/10/17/iphone-handoff-pricing-details-ee-uk",
+      "summary": "As part of its iPhone Duo preorder announcement, UK carrier EE has announced pricing details for iPhone Handoff – making it the first carrier in the UK to do so. Here are the details. more…",
+      "published": "2026-10-17T15:54:02+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 announced",
+        "+4 preorder",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e2d2cd414a569563",
+      "title": "Microsoft Surface Laptop Ultra 128GB Review",
+      "url": "https://www.servethehome.com/microsoft-surface-laptop-ultra-review-rtx-spark-n1x/",
+      "canonical": "https://www.servethehome.com/microsoft-surface-laptop-ultra-review-rtx-spark-n1x",
+      "summary": "We review the Microsoft Surface Ultra to see how the NVIDIA RTX Spark powered laptop fares and try to answer who the platform is for The post Microsoft Surface Laptop Ultra 128GB Review appeared first on ServeTheHome .",
+      "published": "2026-10-16T17:00:27+00:00",
+      "source_id": "servethehome",
+      "source": "ServeTheHome",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d8400e50c6b1ac47",
+      "title": "Honor reveals which global devices are getting MagicOS 11",
+      "url": "https://www.gsmarena.com/honor_reveals_which_global_devices_are_getting_magicos_11-news-75093.php",
+      "canonical": "https://www.gsmarena.com/honor_reveals_which_global_devices_are_getting_magicos_11-news-75093.php",
+      "summary": "Honor unveiled MagicOS 11 based on Android 17 last month, and today the company has finally revealed when the stable update will reach existing devices. Don't expect anything too clear, though. As you can see below, the company's arm in the UK has just dumped a huge list of supported devices into a post on X, saying it would update all of them to MagicOS 11 between this month and March next year. ",
+      "published": "2026-10-17T00:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2a0038afd58dfecb",
+      "title": "HWiNFO Lists PTL-080, a Smaller Panther Lake Chip for Arc G-Series Handhelds",
+      "url": "https://www.techpowerup.com/353815/hwinfo-lists-ptl-080-a-smaller-panther-lake-chip-for-arc-g-series-handhelds",
+      "canonical": "https://www.techpowerup.com/353815/hwinfo-lists-ptl-080-a-smaller-panther-lake-chip-for-arc-g-series-handhelds",
+      "summary": "Intel seems to be preparing a smaller chip for its Arc G-series handheld lineup, and the first trace of it has appeared in HWiNFO. The monitoring tool's list of upcoming changes now includes support for Panter Lake-H 080, typo and all. Leaker Jaykihn spotted the entry on X and says the chip, PTL-080, is an Arc G-series part with a 0+8+0+4 configuration. If that follows the same P-core, E-core, LPE",
+      "published": "2026-10-17T00:32:18+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "aa287b8ad910a764",
+      "title": "Citizen’s new titanium Promaster Air automatics launch in the UK, priced lower than the US",
+      "url": "https://www.notebookcheck.net/Citizen-s-new-titanium-Promaster-Air-automatics-launch-in-the-UK-priced-lower-than-the-US.1426106.0.html",
+      "canonical": "https://www.notebookcheck.net/Citizen-s-new-titanium-Promaster-Air-automatics-launch-in-the-UK-priced-lower-than-the-US.1426106.0.html",
+      "summary": "Citizen has finally listed the Promaster Air Automatic in the UK at £599 for the blue NK0040-58L and the champagne NK0040-58P. Stripped of VAT that comes to roughly $666, about a quarter below the $895 Citizen charges for the same watch in the United States.",
+      "published": "2026-10-17T03:54:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3fb4efd7059bfbc4",
+      "title": "The Luckiest Groom In The World Was Brought To Tears After Being Gifted An ASUS’ ROG Astral RTX 5090 By His Wife On His Wedding, A GPU Worth $12,000",
+      "url": "https://wccftech.com/groom-brought-to-tears-asus-rog-astral-rtx-5090-wedding-gift/",
+      "canonical": "https://wccftech.com/groom-brought-to-tears-asus-rog-astral-rtx-5090-wedding-gift",
+      "summary": "NVIDIA’s RTX 5090 was already one of the most valuable pieces of technology in modern computing because not only was it difficult to get a hold of, but the sheer demand for graphics cards and AI forced the GPU to spike in price and disappear from the company’s marketplace. Fortunately, that didn’t stop a groom’s wife from being incredibly resourceful as she gifted her husband an ultra-premium ASUS",
+      "published": "2026-10-17T07:16:49+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 price",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "TechEBlog"
+      ],
+      "related_urls": [
+        "https://www.techeblog.com/chinese-bride-gifts-asus-rog-astral-rtx-5090-groom/"
+      ]
+    },
+    {
+      "id": "3ad60e444f508bea",
+      "title": "Deals: iPhone Duo pre-orders begin as Galaxy Z Fold8 gets a price cut",
+      "url": "https://www.gsmarena.com/deals_iphone_duo_preorders_begin_as_galaxy_z_fold8_gets_a_price_cut-news-75096.php",
+      "canonical": "https://www.gsmarena.com/deals_iphone_duo_preorders_begin_as_galaxy_z_fold8_gets_a_price_cut-news-75096.php",
+      "summary": "Apple’s first foldable iPhone is now available for pre-order, but the iPhone Duo sold out quickly in most regions. Delivery estimates for the foldable have already slipped to late January. Instead, you could get yourself the Samsung Galaxy Z Fold8, which also has the wide-screen aspect ratio as the iPhone Duo. Meanwhile, the Galaxy S26 series and the Pixel 11 lineup are also on sale. The Apple iPh",
+      "published": "2026-10-17T09:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 price",
+        "+4 pre-order",
+        "+3 foldable",
+        "-6 deal",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5193a2fa045073c1",
+      "title": "AOC launches new gaming monitor with 425Hz QD-Mini LED display",
+      "url": "https://www.notebookcheck.net/AOC-launches-new-gaming-monitor-with-425Hz-QD-Mini-LED-display.1426596.0.html",
+      "canonical": "https://www.notebookcheck.net/AOC-launches-new-gaming-monitor-with-425Hz-QD-Mini-LED-display.1426596.0.html",
+      "summary": "The AOC AGP277QKM has been launched in China. It's a 2K gaming monitor with a 27-inch QD-Mini LED display. There's support for Adaptive-Sync, with a maximum refresh rate of 425 Hz. The launch price is CNY 3,254, about $486.",
+      "published": "2026-10-17T09:17:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b6bd1248420395e2",
+      "title": "New $80 Street Fighter II gaming watch brings arcade battles, gold detailing and retro collectables",
+      "url": "https://www.notebookcheck.net/New-80-Street-Fighter-II-gaming-watch-brings-arcade-battles-gold-detailing-and-retro-collectables.1426020.0.html",
+      "canonical": "https://www.notebookcheck.net/New-80-Street-Fighter-II-gaming-watch-brings-arcade-battles-gold-detailing-and-retro-collectables.1426020.0.html",
+      "summary": "Street Fighter II is making its way onto a wristwatch, with a new gaming wearable that combines arcade-inspired fighting gameplay with fitness tracking and collectible detailing. Priced at $79.99, the officially licensed watch features eight original fighters, touchscreen controls and two interchangeable straps, with shipping expected in December 2026.",
+      "published": "2026-10-17T10:51:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 official",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1bebddfc75ef2c01",
+      "title": "Baseus launches new 14-in-1 dock with dual 4K output, 120W fast charging, and display",
+      "url": "https://www.notebookcheck.net/Baseus-launches-new-14-in-1-dock-with-dual-4K-output-120W-fast-charging-and-display.1426835.0.html",
+      "canonical": "https://www.notebookcheck.net/Baseus-launches-new-14-in-1-dock-with-dual-4K-output-120W-fast-charging-and-display.1426835.0.html",
+      "summary": "The Baseus Spacemate RD1 Plus is a new 14-in-1 dock that comes with a built-in display and an integrated GaN power supply. It can offer dual 4K display output, and it supports 120W fast charging. The launch price is $259.99.",
+      "published": "2026-10-17T14:55:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "【購入をご検討中の方へ】ENNE ZERO先行販売分のホワイト・ブルー完売御礼！人気カラーのサンドロックも残りわずかで通常販売（値上げ）へ。フォトコンテスト開催決定、上位5名様に予備バッテリー進呈！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000268.000078121.html",
+      "summary": "",
+      "published": "2026-10-17T01:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "266458238a82e149"
+    },
+    {
+      "title": "眼鏡や腕時計の表面処理の技術を、ピーラーの刃に。燕三条の刃付け×鯖江のチタン加工でつくった千切りスライサー、Makuakeで先行販売を開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000011.000171841.html",
+      "summary": "",
+      "published": "2026-10-17T01:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "35155fb268f8023d"
+    }
+  ]
+}
