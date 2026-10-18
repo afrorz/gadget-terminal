@@ -29,6 +29,19 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 
 
+BARE_URL = re.compile(r"(?<![(<\"'])https?://[^\s<>()\"']+")
+
+
+def autolink(md: str) -> str:
+    """本文中の素の URL を <URL> にして、HTML でリンクになるようにする。
+
+    Markdown の変換は素の URL をリンクにしないので、note に貼ると文字のままで、
+    本人が毎週1本ずつ手でリンクを付けていた(2026-10-18 指摘)。
+    写真の ![..](URL) や [..](URL) の中の URL は「(」の直後なので触らない。
+    """
+    return BARE_URL.sub(lambda m: f"<{m.group(0)}>", md)
+
+
 def header_base(stem: str) -> str:
     """build.py が作った public/note/<日付>.png を base64 で返す。無ければその場で作る。"""
     png = ROOT / "public" / "note" / f"{stem}.png"
@@ -64,7 +77,7 @@ def main() -> int:
         "label": fm.get("label") or "",
         "hashtags": [str(h).lstrip("#") for h in (fm.get("hashtags") or [])],
         "markdown": body,
-        "html": markdown.markdown(body, extensions=["sane_lists"]),
+        "html": markdown.markdown(autolink(body), extensions=["sane_lists"]),
         # 製品の写真(1製品1枚)。note に本文を貼って写真が落ちたとき、GT タブから
         # 保存して差し込めるように、節の見出し・出典と組で送る。
         "images": [{"section": s, "url": u, "credit": c} for s, u, c in re.findall(
