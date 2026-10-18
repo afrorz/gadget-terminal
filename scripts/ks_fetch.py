@@ -308,16 +308,21 @@ def short(s: str | None, n: int) -> str | None:
 
 def base_fields(p: dict, creator: str, slug: str, canon: str) -> dict:
     """current_project の dict から基本項目を作る(リターン等は含めない)。"""
+    def name_of(v, key="name"):
+        # 案件によって location / creator / category が dict ではなく文字列で入っている
+        # (2026-10-18 dinooh の location が文字列で止まった)
+        return v.get(key) if isinstance(v, dict) else (v or None)
+
     cur = p.get("currency")
     goal, pledged = num(p.get("goal")), num(p.get("pledged"))
     out = {
         "url": canon, "creator_slug": creator, "slug": slug,
         "name": p.get("name"), "blurb": p.get("blurb"),
-        "creator_name": (p.get("creator") or {}).get("name"),
-        "location": (p.get("location") or {}).get("displayable_name"),
+        "creator_name": name_of(p.get("creator")),
+        "location": name_of(p.get("location"), "displayable_name"),
         "country": p.get("country"),
-        "category": (p.get("category") or {}).get("name"),
-        "category_slug": (p.get("category") or {}).get("slug"),
+        "category": name_of(p.get("category")),
+        "category_slug": name_of(p.get("category"), "slug"),
         "staff_pick": p.get("staff_pick"),
         "currency": cur, "goal": goal, "pledged": pledged,
         "usd_pledged": num(p.get("usd_pledged")),
@@ -326,9 +331,9 @@ def base_fields(p: dict, creator: str, slug: str, canon: str) -> dict:
         "state": p.get("state"),
         "launched_at": iso(p.get("launched_at")), "deadline": iso(p.get("deadline")),
         "comments_count": p.get("comments_count"), "updates_count": p.get("updates_count"),
-        "photo": ((p.get("photo") or {}).get("full") or "").split("?")[0] or None,
+        "photo": (name_of(p.get("photo"), "full") or "").split("?")[0] or None,
     }
-    sites = ((p.get("creator") or {}).get("websites") or [])
+    sites = (name_of(p.get("creator"), "websites") or []) if isinstance(p.get("creator"), dict) else []
     if sites:
         out["creator_websites"] = [w.get("url") for w in sites if w.get("url")]
     return out
