@@ -106,6 +106,17 @@ python3 scripts/collect.py --top 30
 | 09:00 | `0 0 * * *` |
 | 07:00 と 19:00 | `0 22,10 * * *` |
 
+### Kickstarter の先読み（自宅PC・毎晩 02:00）
+
+GitHub のランナーからは Kickstarter のプロジェクトページ・`/rewards`・`/faqs`・`/graph`・oEmbed・`/discover` が Cloudflare の 403 で読めない（2026-10-18 実測）。自宅PCからは読めるので、夜のうちに読んで `data/kscache/` に貯め、push してランナーへ渡す。
+
+- タスク名 **「GadgetTerminal Kickstarter先読み」**（タスクスケジューラ）。毎日 02:00 に `scripts/ks_prefetch.py` を実行。Claude の利用枠は使わない。ログは `logs/ks_prefetch.log`（gitignore）
+- 対象は `data/queue.md` の未処理・最新ダイジェスト・キャッシュ済みの募集中・Kickstarter の Technology 一覧の上位15件。1晩に全文取得は最大25件。締切後30日を過ぎたキャッシュは消す
+- 作り直し: `powershell -ExecutionPolicy Bypass -File scripts\ks_prefetch_task.ps1`（時刻変更は `-Time 03:00`、削除は `-Remove`）
+- **PC は電源オフではなくスリープにしておく。** WakeToRun でスリープから起こすので、電源オプションの「スリープ解除タイマーを許可」を有効にしておくこと。起き損ねた日は、次に起動してログオンしたときに実行される（StartWhenAvailable）
+- 記事生成側は `python3 scripts/ks_fetch.py <URL>` で読む。キャッシュが72時間以内ならそれを使い、無ければランナーから届くエンドポイント（`<project>/stats.json?v=1`・`<project>/widget/card.html?v=2`・`<project>/posts.atom`・`i.kickstarter.com` の画像・Kicktraq）だけの縮退版（`partial: true`、本文・リターン・FAQ は無し）になる
+- 手元で試す: `python scripts/ks_fetch.py <URL> --no-cache --runner`（ランナー相当の縮退版を再現）、`python scripts/ks_prefetch.py --no-git --limit 3`
+
 ### ネタを指定して書かせる
 
 自動選定に任せず、こちらから製品を指定する経路が2つある。

@@ -212,8 +212,8 @@ jobs:
             6. 元記事を必ず読む。見出しだけで書かない。スペック・価格・日付・調達額を正確に抜き出す。
 
                まず WebFetch を使う。**403 が返る、または本文が取れない場合は Bash の curl に
-               切り替える。** WebFetch の UA を弾くサイトがある（Kickstarter は実測で403、
-               curl に一般的なブラウザの UA を付ければ 200 で取れる）:
+               切り替える。** WebFetch の UA を弾くサイトがある（curl に一般的なブラウザの UA を
+               付ければ 200 で取れることがある。Kickstarter は下の専用手順を使う）:
 
                  curl -4 -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36" "<URL>" -o /tmp/p.html
 
@@ -223,13 +223,16 @@ jobs:
                元記事が読めないときは、メーカー公式ページやほかの報道（ダイジェストの「他媒体」）で
                同じ事実を確かめられれば書いてよい。
 
-               Kickstarter の場合、HTML 内に埋め込まれた JSON（実体参照 `&quot;` で
-               エスケープされている）に正確な値がある。使えるキー:
-                 goal / pledged / backers_count / state / deadline / currency / country
-               - **`currency` を必ず読む。USD とは限らない**（実測例: Nimbo X1 は HKD 建て）
-               - deadline は UNIX 時刻（秒）。JST に直して「◯月◯日まで」と書く
-               - state が "live" でなければ募集は終了している。その事実を記事に必ず書く
-               - 達成率は pledged ÷ goal。**取得時点の値であることを明記する**
+               **Kickstarter は curl / WebFetch で直接読まない**（このランナーからは Cloudflare が 403 を返す）。
+               次のコマンドを使う:
+
+                 python3 scripts/ks_fetch.py <Kickstarter のURL>
+
+               夜間に自宅PCが貯めたキャッシュ（data/kscache）があればそれを読み、無ければランナーから
+               届くエンドポイントで取る。出力の「source」「取得」時刻を「◯月◯日時点」の根拠にする。
+               **`通貨` を必ず読む（USD とは限らない）。** state が live でなければ募集終了と記事に書く。
+               出力に `partial: true` があり、本文・リターン（価格）が無いときは、スペックと価格を
+               メーカー公式サイト・プレスリリース・他の報道で確かめる。価格が確認できなければ候補から外す。
 
                **Indiegogo は curl でも数値が取れない**（JSで描画するため）。HTML内の
                `window.__INITIAL_STATE__ = {...}` に JSON があるので、そこから読む:

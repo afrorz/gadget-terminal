@@ -12,3 +12,6 @@ public/
 
 # 楽天APIのアクセスキーなど、公開してはいけない値。config/site.yaml とは別に置く
 config/secrets.local.yaml
+
+# 自宅PCの定時ジョブのログ
+logs/
