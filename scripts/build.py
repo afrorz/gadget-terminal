@@ -3082,7 +3082,8 @@ def main() -> int:
             m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", f.read_text(encoding="utf-8"), re.S)
             fm = (yaml.safe_load(m.group(1)) or {}) if m else {}
             if fm.get("title") and ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
-                                               site["site"]["title"], PUBLIC / "note" / f"{f.stem}.png"):
+                                               site["site"]["title"], PUBLIC / "note" / f"{f.stem}.png",
+                                               photo_credit="製品画像: 各メーカー公式サイト・クラウドファンディングページより"):
                 notes += 1
             # X 記事の表紙(横長 5:2)。note と同じ週まとめを X 記事にも出す(2026-10-11 開始)
             if fm.get("title"):

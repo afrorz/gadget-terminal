@@ -97,10 +97,13 @@ def _wrap(draw, text: str, font, max_width: int, max_lines: int) -> list[str]:
 
 
 def render(title: str, category_label: str, site_title: str, out_path: Path,
-           size: tuple[int, int] = (W, H)) -> bool:
+           size: tuple[int, int] = (W, H), photo_credit: str = "") -> bool:
     """OGP画像を1枚書き出す。成功したら True。
 
     size は X 記事の表紙(横長 5:2)用。note の見出し画像は既定の 1200×630。
+    photo_credit は note の見出し画像用。タイトルとロゴの間の帯に、TamakoStock
+    (x-poster の ingestNoteDraft)がその週の製品写真を並べて合成する。その出典を
+    帯の下に小さく入れておく(2026-10-18 本人判断で写真入りに)。
     """
     w, h = size
     if Image is None:
@@ -136,6 +139,10 @@ def render(title: str, category_label: str, site_title: str, out_path: Path,
     d.text((pad + 32, h - 80), site_title.upper(), font=f_brand, fill=INK)
     label = "海外ガジェットの、まだ日本語で読めない話"
     d.text((w - pad - d.textlength(label, font=f_small), h - 76), label, font=f_small, fill=INK_3)
+    if photo_credit:
+        f_credit = _font("regular", 16) or f_small
+        d.text((w - pad - d.textlength(photo_credit, font=f_credit), h - 132), photo_credit,
+               font=f_credit, fill=INK_3)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, "PNG", optimize=True)

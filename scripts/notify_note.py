@@ -15,6 +15,7 @@ weekly-note.yml が下書きを push したあとに呼ぶ。TamakoStock の GT 
 (notify_x.py と同じ考え方)。
 """
 
+import base64
 import json
 import re
 import sys
@@ -26,6 +27,21 @@ import markdown
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def header_base(stem: str) -> str:
+    """build.py が作った public/note/<日付>.png を base64 で返す。無ければその場で作る。"""
+    png = ROOT / "public" / "note" / f"{stem}.png"
+    if not png.exists():
+        # ビルド全体は重いので、見出し画像だけ作る
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import ogp
+        md = (ROOT / "data" / "note" / f"{stem}.md").read_text(encoding="utf-8")
+        fm = yaml.safe_load(re.match(r"^---\r?\n(.*?)\r?\n---", md, re.S).group(1)) or {}
+        site = yaml.safe_load((ROOT / "config" / "site.yaml").read_text(encoding="utf-8"))
+        ogp.render(str(fm.get("title") or ""), str(fm.get("label") or "WEEKLY"), site["site"]["title"], png,
+                   photo_credit="製品画像: 各メーカー公式サイト・クラウドファンディングページより")
+    return base64.b64encode(png.read_bytes()).decode("ascii") if png.exists() else ""
 
 
 def main() -> int:
@@ -55,6 +71,9 @@ def main() -> int:
             r"(?m)^## (\d+\.[^\n]*)\n+!\[[^\]]*\]\(([^)\s]+)\)\n画像[:：]\s*([^\n]+)", body)],
         # build.py が public/note/<日付>.png に作る見出し画像
         "headerImage": f"{base}/note/{path.stem}.png",
+        # 見出し画像の元(文字だけ)。TamakoStock がここに製品写真を合成する(2026-10-18)。
+        # 下書きを送る時点ではサイトの公開がまだなので、URL ではなく中身を送る。
+        "headerBase": header_base(path.stem),
     }
     xfile = path.with_name(f"{path.stem}-x.txt")
     if xfile.is_file():
