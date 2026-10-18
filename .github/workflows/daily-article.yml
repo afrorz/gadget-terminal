@@ -35,7 +35,8 @@ concurrency:
 jobs:
   write:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    # 3本に届かない日は同じジョブで最大2回やり直すので、1回分(4〜10分)の数倍を見込む
+    timeout-minutes: 90
     permissions:
       contents: write
       id-token: write
@@ -67,12 +68,13 @@ jobs:
         # 評価され、GitHub Actions の式の上限 21,000字にぶつかって
         # 「Invalid workflow file / Exceeded max expression length」で落ちる。
         # 値はここで env に渡し、プロンプト側は環境変数として読む。
-        env:
+        # env と with はアンカー(&claude_env / &claude_with)にして、下のやり直しで使い回す。
+        env: &claude_env
           MANUAL_URL: ${{ github.event.inputs.url }}
           EVENT_NAME: ${{ github.event_name }}
           # 代替品を探す scripts/rakuten_search.py が使う(無いと代替品を毎回省いていた)
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
-        with:
+        with: &claude_with
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
           # --max-turns は余裕を持たせる。画像収集（imagepick → ダウンロード →
@@ -470,9 +472,47 @@ jobs:
             - 事実の捏造は絶対にしない。動画IDも必ず存在確認してから使う。
             - 情報が取れないソースがあっても止まらず、取れたもので進める。
 
+      # ── 3本に届かなかった日のやり直し(2026-10-18 追加) ──
+      # 10/18 は候補30件のうち9件ほどを見ただけで、1本で終えた(300手の上限に対し46手)。
+      # 10/5 も1本で止まり、手動で2回回して3本にそろった。プロンプトは変えず(10/7 の版を
+      # 維持)、同じプロンプトをもう一度走らせる。2回目以降は手順3の「今日の本数が3本未満
+      # → 3本になるまで書く」で、足りない分だけ書く。最大2回。
+      # 別の実行を呼ぶ(gh workflow run)形にしないのは、concurrency(content-push)で
+      # 待っている noteの週まとめ等を GitHub が取り消してしまうため。同じジョブの中で続ける。
+      # URL を指定した手動実行は、指定分だけ書けば終わりなのでやり直さない。
+      - name: 今日の公開本数を数える(1回目のあと)
+        id: count1
+        if: ${{ !cancelled() && !github.event.inputs.url }}
+        run: &count_posts |
+          git pull --ff-only -q origin main || true
+          git fetch -q origin main
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          n=$(git ls-tree --name-only origin/main content/posts/ | grep -c "^content/posts/${TODAY}-" || true)
+          echo "今日(${TODAY})公開済みの記事: ${n}本"
+          if [ "$n" -lt 3 ]; then echo "short=true" >> "$GITHUB_OUTPUT"; else echo "short=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: 3本に届かなければ、もう一度書く(やり直し1回目)
+        if: ${{ !cancelled() && steps.count1.outputs.short == 'true' }}
+        uses: anthropics/claude-code-action@v1
+        env: *claude_env
+        with: *claude_with
+
+      - name: 今日の公開本数を数える(やり直し1回目のあと)
+        id: count2
+        if: ${{ !cancelled() && steps.count1.outputs.short == 'true' }}
+        run: *count_posts
+
+      - name: まだ届かなければ、もう一度書く(やり直し2回目)
+        if: ${{ !cancelled() && steps.count2.outputs.short == 'true' }}
+        uses: anthropics/claude-code-action@v1
+        env: *claude_env
+        with: *claude_with
+
       - name: X 自動投稿アプリへ新着記事を通知
         # このステップが失敗しても記事の公開自体は既に成功しているので、
         # ジョブ全体を失敗扱いにはしない(X連携だけの問題として切り離す)。
+        # 1回目が失敗してもやり直しで書けた記事は通知したいので、取り消し以外では必ず走らせる。
+        if: ${{ !cancelled() }}
         continue-on-error: true
         env:
           GADGET_INGEST_TOKEN: ${{ secrets.GADGET_INGEST_TOKEN }}

@@ -76,7 +76,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | 01:40 | `followup.yml` 過去記事の日本上陸を見回る | **消費する** |
 | 02:00 | 自宅PCのタスクスケジューラ「GadgetTerminal Kickstarter先読み」 `ks_prefetch.py` が Kickstarter の案件を読んで `data/kscache` に貯めて push（ランナーは Kickstarter が 403 のため） | 使わない |
 | 02:30 | `collect.yml` 収集 | 使わない |
-| 収集の直後 | `daily-article.yml` 記事3本 → ビルド → 公開（cron を持たず、収集の完了で走る） | **消費する** |
+| 収集の直後 | `daily-article.yml` 記事3本 → ビルド → 公開（cron を持たず、収集の完了で走る。3本に届かなければ同じ実行の中で最大2回やり直す） | **消費する** |
 | 水 03:00 | `giteki-recheck.yml` 技適が「確認できない」の記事を総務省DBで引き直す(週1) | **消費する** |
 | 17:30 | `japan-launch.yml` PR TIMES の日本発売を `data/japan_launch.json` に貯める | 使わない |
 
