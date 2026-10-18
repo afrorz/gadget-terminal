@@ -36,7 +36,13 @@ jobs:
           probe "KS 更新の配信(atom)" "$KS/posts.atom" ua
           probe "KS 画像(i.kickstarter.com)" "https://i.kickstarter.com/assets/055/250/517/568fae43b7e3e4a9788706774b8d6c5c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790243129&width=680&sig=jmvncY4ZQcmF9GR9zWHSi95hYvMrL1R5cU4iFM1P4VU%3D" ua
           probe "KS 新着一覧(discover)" "https://www.kickstarter.com/discover/advanced?category_id=16&sort=newest" ua
-          probe "Kicktraq" "https://www.kicktraq.com/projects/sparkring/spark-ring-the-smart-ring-built-to-capture-ideas-instantly/" ua
+          probe "KS 支援プラン(rewards)" "$KS/rewards" ua
+          probe "KS 本文(description)" "$KS/description" ua
+          probe "KS 動画カード" "$KS/widget/video.html" ua
+          out=$(curl -s -o /tmp/body -w "%{http_code} %{size_download}" --max-time 25 -A "$UA" -H "Content-Type: application/json" -X POST "https://www.kickstarter.com/graph" --data '{"query":"{ project(slug: \"sparkring/spark-ring-the-smart-ring-built-to-capture-ideas-instantly\") { name } }"}' || echo "ERR 0")
+          echo "| KS GraphQL | ua | $out | $(head -c 80 /tmp/body | tr -d '\n') |"
+          probe "Wayback 最新の保存があるか" "https://archive.org/wayback/available?url=$KS" ua
+          probe "Kicktraq""https://www.kicktraq.com/projects/sparkring/spark-ring-the-smart-ring-built-to-capture-ideas-instantly/" ua
           probe "Indiegogo トップ" "https://www.indiegogo.com/" ua
           probe "Crowd Supply" "https://www.crowdsupply.com/" ua
           probe "cnx-software" "https://www.cnx-software.com/" ua
