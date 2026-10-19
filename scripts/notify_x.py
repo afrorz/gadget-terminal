@@ -184,9 +184,13 @@ def giteki_line(fm: dict) -> str:
         numbers = [str(n).strip() for n in (g.get("number") or []) if str(n).strip()]
         if numbers:
             joined = "、".join(numbers)
+            # 取得済みでも「同じ機器かは未確認」などの但し書きがある。落とすと言い過ぎになる
+            # (2026-10-19 Bigme B13 Pro で、60FPS版と同じ機器かの注記が消えていた)
+            note = _one_line(g.get("note") or "")
+            caveat = f"。{note}" if note and not g.get("found") else ""
             if g.get("found"):
                 return f"公開後の再確認で、総務省のデータベースに技適番号 {joined} を確認{when}"
-            return f"総務省のデータベースで技適番号 {joined} を確認{when}"
+            return f"総務省のデータベースで技適番号 {joined} を確認{when}{caveat}"
     elif status == "対象外":
         if "無線の記載なし" in str(g.get("note") or ""):
             return f"無線の記載が無く、対象外の見込み{when}"
