@@ -442,3 +442,10 @@ python scripts/xpost.py --dry-run
 GitHub の Secrets に `X_API_KEY` / `X_API_SECRET` / `X_ACCESS_TOKEN` /
 `X_ACCESS_TOKEN_SECRET` を入れれば、次の公開から動きだす。
 **認証情報が無いあいだは何もせず終了する**ので、今は無害。
+
+### Threads の本文（threadsText、2026-10-19）
+
+Threads には X の `x_hook` ではなく、`scripts/notify_x.py` の `threads_text()` が記事の front matter（giteki / japan / faq / alternatives）から決まった形で組み立てた本文を送る（LLM は使わず、新しい事実は足さない。500字以内、末尾は固定の誘導文）。x-poster の `ingestGadgetPosts` が `gadgetShares/<記事ID>.threadsText` に保存し、`postGadgetThreads*` が `threadsText || hook` を使う。
+- X の投稿済み（sharedAt あり）でも、Threads が未投稿（threadsPostedAt が null）なら、再送で threadsText だけ差し替わる。投稿済みの記録は触らない
+- 文面の確認は、送らずに `python scripts/notify_x.py --preview 8`（新しい順に8本）
+- 誘導文は x-poster `functions/index.js` の `THREADS_LINK_LEAD` と `notify_x.py` の `THREADS_LINK_LEAD` の2か所にある。変えるときは両方（gadget-shorts の post.md も同じ文）

@@ -115,13 +115,171 @@ def site_base_url() -> str:
     return site["site"]["base_url"].rstrip("/")
 
 
+# ── Threads 用の本文(2026-10-19) ──
+# Threads のアカウントは「海外ガジェットの技適と日本での買い方を、確認できた事実で
+# 答える」立場。X の x_hook をそのまま流さず、記事の front matter(giteki / japan /
+# faq / alternatives)から決まった形で組み立てる。LLM は使わず、新しい事実も足さない。
+THREADS_MAX_CHARS = 500
+THREADS_LINK_LEAD = "日本から見るとどうか、国内で買える代わりの製品は記事にまとめています。"
+
+
+def _one_line(text) -> str:
+    return " ".join(str(text or "").split())
+
+
+def _plain_ok(text: str) -> bool:
+    """感嘆符と絵文字(BMP 外の文字)を含まない文だけを使う。"""
+    return "！" not in text and "!" not in text and all(ord(c) <= 0xFFFF for c in text)
+
+
+def first_sentence(text, limit: int) -> str:
+    """最初の「。」までを1文として返す。limit を超える・使えない文は空文字。
+
+    文の途中では切らない(読点で切ると意味が変わるため)。
+    """
+    t = _one_line(text)
+    if not t:
+        return ""
+    end = t.find("。")
+    sentence = t[: end + 1] if end >= 0 else t
+    if len(sentence) > limit or not _plain_ok(sentence):
+        return ""
+    return sentence
+
+
+def _md(value) -> str:
+    """date / 'YYYY-MM-DD' を「M/D」にする。読めなければ空文字。"""
+    if hasattr(value, "month") and hasattr(value, "day"):
+        return f"{value.month}/{value.day}"
+    m = re.match(r"^\d{4}-(\d{1,2})-(\d{1,2})", str(value or ""))
+    return f"{int(m.group(1))}/{int(m.group(2))}" if m else ""
+
+
+def threads_name(fm: dict) -> str:
+    name = _one_line(fm.get("keyword"))
+    if name:
+        return name
+    title = _one_line(fm.get("title"))
+    cut = [i for i in (title.find("は"), title.find("、")) if i > 0]
+    return title[: min(cut)] if cut else title
+
+
+def _faq_answer(fm: dict, needles: tuple[str, ...]) -> str:
+    for item in fm.get("faq") or []:
+        q = str((item or {}).get("q") or "")
+        if any(n in q for n in needles):
+            return str((item or {}).get("a") or "")
+    return ""
+
+
+def giteki_line(fm: dict) -> str:
+    g = fm.get("giteki")
+    if not isinstance(g, dict) or not g.get("status"):
+        s = first_sentence(_faq_answer(fm, ("技適",)), 80)
+        return s
+    status = str(g.get("status"))
+    day = _md(g.get("checked"))
+    when = f"（{day}時点）" if day else ""
+    if status == "取得済み":
+        numbers = [str(n).strip() for n in (g.get("number") or []) if str(n).strip()]
+        if numbers:
+            joined = "、".join(numbers)
+            if g.get("found"):
+                return f"公開後の再確認で、総務省のデータベースに技適番号 {joined} を確認{when}"
+            return f"総務省のデータベースで技適番号 {joined} を確認{when}"
+    elif status == "対象外":
+        if "無線の記載なし" in str(g.get("note") or ""):
+            return f"無線の記載が無く、対象外の見込み{when}"
+        return f"無線を使わない製品で、技適の対象外{when}"
+    elif status == "確認できない":
+        return f"総務省のデータベースでは確認できていない{when}"
+    return first_sentence(_faq_answer(fm, ("技適",)), 80)
+
+
+def buy_line(fm: dict) -> str:
+    j = fm.get("japan")
+    if isinstance(j, dict) and j.get("status"):
+        status = _one_line(j.get("status"))
+        sentence = first_sentence(j.get("summary"), 90)
+        return f"{status}。{sentence}" if sentence else status
+    return first_sentence(_faq_answer(fm, ("日本で買え", "買えますか")), 90)
+
+
+def clean_alternative_name(name) -> str:
+    """代わりの製品名。楽天の商品名のように宣伝文句(【…】や「！」)や長い羅列が
+    入っているものは使わず、空文字を返す(先頭の候補が使えなければ次の候補を見る)。"""
+    t = _one_line(re.sub(r"【.*?】", " ", str(name or "")))
+    if not t or len(t) > 60 or not _plain_ok(t):
+        return ""
+    return t
+
+
+def threads_text(fm: dict, url: str = "") -> str:
+    """Threads 用の本文(500字以内)。末尾は固定の誘導文。URL は呼び出し側が付ける。"""
+    name = threads_name(fm)
+    alt = ""
+    for a in fm.get("alternatives") or []:
+        alt = clean_alternative_name((a or {}).get("name") if isinstance(a, dict) else "")
+        if alt:
+            break
+
+    def build(giteki: str, buy: str, alt_name: str) -> str:
+        lines = [f"{name}は、日本で使える？", ""]
+        if giteki:
+            lines.append(f"技適：{giteki}")
+        if buy:
+            lines.append(f"日本で買う：{buy}")
+        if alt_name:
+            lines.append(f"今日買える代わり：{alt_name}")
+        lines += ["", THREADS_LINK_LEAD]
+        return "\n".join(lines)
+
+    giteki = giteki_line(fm)
+    buy = buy_line(fm)
+    text = build(giteki, buy, alt)
+    if len(text) > THREADS_MAX_CHARS and alt:
+        # 代わりの製品名の補足(括弧書き)を落とす
+        text = build(giteki, buy, re.sub(r"[（(].*?[）)]", "", alt).strip())
+    if len(text) > THREADS_MAX_CHARS and "：" in buy.replace("。", "：", 1):
+        # 日本の状況は文を落とし、状況だけにする
+        status_only = buy.split("。")[0]
+        text = build(giteki, status_only, alt)
+    if len(text) > THREADS_MAX_CHARS:
+        text = build(giteki, "", alt)
+    return text
+
+
+def preview(count: int) -> int:
+    """送信せずに、新しい順に count 本ぶんの Threads 用本文を表示する(確認用)。"""
+    base_url = site_base_url()
+    files = sorted((ROOT / "content" / "posts").glob("*.md"), reverse=True)[:count]
+    bad = 0
+    for path in files:
+        fm = load_front_matter(path)
+        text = threads_text(fm, f"{base_url}/posts/{fm.get('slug')}.html")
+        flags = []
+        if len(text) > THREADS_MAX_CHARS:
+            flags.append("500字超過")
+        if "！" in text or "!" in text:
+            flags.append("感嘆符あり")
+        bad += bool(flags)
+        print(f"===== {path.name}  ({len(text)}字) {' '.join(flags)}")
+        print(text)
+        print()
+    print(f"{len(files)}本中、問題あり {bad}本")
+    return 0
+
+
 def main() -> int:
+    if len(sys.argv) > 1 and sys.argv[1] == "--preview":
+        return preview(int(sys.argv[2]) if len(sys.argv) > 2 else 8)
+
     base_sha = sys.argv[1] if len(sys.argv) > 1 else None
     ingest_url = sys.argv[2] if len(sys.argv) > 2 else None
     token = sys.argv[3] if len(sys.argv) > 3 else None
 
     if not base_sha or not ingest_url or not token:
-        print("使い方: notify_x.py <base_sha> <ingest_url> <token>")
+        print("使い方: notify_x.py <base_sha> <ingest_url> <token>  /  notify_x.py --preview [本数]")
         return 0
 
     files = changed_post_files(base_sha, "A")
@@ -156,6 +314,7 @@ def main() -> int:
             "id": f"{path.stem}-jp-{JAPAN_STATUS_ID.get(j['status'], 'update')}",
             "title": f"【日本上陸・{j['status']}】{fm.get('title') or ''}",
             "hook": hook,
+            "threadsText": threads_text(fm, f"{base_url}/posts/{slug}.html"),
             "hashtags": build_hashtags(fm.get("tags")),
             "url": f"{base_url}/posts/{slug}.html",
             "images": image_urls(fm),
@@ -176,6 +335,7 @@ def main() -> int:
             "id": path.stem,
             "title": fm.get("title") or "",
             "hook": hook,
+            "threadsText": threads_text(fm, f"{base_url}/posts/{slug}.html"),
             "hashtags": build_hashtags(fm.get("tags")),
             "url": f"{base_url}/posts/{slug}.html",
             "images": image_urls(fm),
