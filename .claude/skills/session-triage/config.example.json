@@ -1,0 +1,37 @@
+{
+  "owner": "あなた",
+  "language": "ja",
+  "data_dir": "~/.claude/session-triage",
+  "report_path": "~/.claude/session-triage/latest.md",
+  "timezone": "Asia/Tokyo",
+  "max_sessions": 100,
+
+  "emoji": {
+    "working": "⏳",
+    "verifying": "👀",
+    "ready_to_send": "📤",
+    "needs_you": "🔴",
+    "done": "✅"
+  },
+  "legacy_emoji": ["🟡", "🔄", "🔵", "🔍", "🟢"],
+
+  "folder_rules": [
+    { "regex": "[\\\\/]GadgetTerminal[\\\\/]content[\\\\/]features", "label": "GT特集" },
+    { "regex": "[\\\\/]GadgetTerminal[\\\\/]content", "label": "GT記事" },
+    { "regex": "[\\\\/]GadgetTerminal", "label": "GT" },
+    { "regex": "[\\\\/]gadget-terminal", "label": "GT" }
+  ],
+  "folder_fallback_strip_prefixes": [],
+
+  "skip_title_prefixes": ["【毎日】", "【平日】", "【毎週】", "【30分ごと】"],
+  "self_title_marker": "セッション整理",
+
+  "nightly_archive": {
+    "enabled": true,
+    "start": "23:30",
+    "end": "23:59",
+    "min_idle_minutes": 60
+  },
+
+  "notify": false
+}
