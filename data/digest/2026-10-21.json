@@ -1,0 +1,880 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T05:48:51.662464+09:00",
+  "stats": {
+    "fetched": 707,
+    "unique": 667,
+    "new": 386,
+    "clusters": 369,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "8ecc510df592460e",
+      "title": "A modular smartphone with a de-Googled OS, a $25 E Ink Dev Kit, and a Cyberdeck that runs on power tool batteries: Liliputing News Roundup",
+      "url": "https://liliputing.com/a-modular-smartphone-with-a-de-googled-os-a-25-e-ink-dev-kit-and-a-cyberdeck-that-runs-on-power-tool-batteries-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/a-modular-smartphone-with-a-de-googled-os-a-25-e-ink-dev-kit-and-a-cyberdeck-that-runs-on-power-tool-batteries-liliputing-news-roundup",
+      "summary": "The new AYN Odin3 Portal is a 1 pound (450 gram) Android gaming handheld with a Qualcomm Dragonwing Q8 processor, 9,000 mAh battery, active cooling, hall-effect joysticks • The Arduino VENTUNO Q launched for a $299 promo price in August, but it's getting a price hike to $399 for its retail price • This custom cyberdeck takes the guts of a mini PC and stuffs them into a 3D printed case with a custo",
+      "published": "2026-10-20T19:26:05+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 24,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 mini pc",
+        "+4 handheld",
+        "+4 e ink",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜北海道産天然黒曜石使用！2027年干支である羊をモチーフにしたご当地ジュエリー｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/jlhokkaido-hitsuji/",
+      "summary": "「北海道の旅の思い出をカタチに」そんな思いから生まれたブランドJL HOKKAIDO。北海道名物『ジンギスカン』より着想を得た今回のジュエリーは、顔の黒いサフォーク種をモチーフにデザインしております。ブラック×シルバーのシックな装いの中にひつじの愛らしさを盛り込んだ、地元企業ならではのご当地ジュエリーが誕生しました。北海道産の天然黒曜石は別名『十勝石』（とかちいし）と呼ばれています。天",
+      "image": "https://static.makuake.com/upload/project/54047/main_54047.png?version=1792046360&amp;width=690&amp;height=388",
+      "published": "2026-10-23T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "36c1a3113a01e003",
+      "canonical": "https://www.makuake.com/project/jlhokkaido-hitsuji",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 誕生",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜本物のニキシー管を腕に。オレンジの光が目を惹く腕時計UltraNixie｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/ultranixie/",
+      "summary": "リターン品の配送が完了するまで、株式会社ノエルコーポレーションはShenzhen Huiguang Technology Co., Ltd.の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。ニキシー管の光を眺める、あの愉しさを、もっと日常へ。今回のULTRANIXIEは、使い続けやすさと、眺める愉しみに磨きをかけました。ふと腕元を見る。",
+      "image": "https://static.makuake.com/upload/project/54043/main_54043.png?version=1791970139&amp;width=690&amp;height=388",
+      "published": "2026-10-23T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "a391ef895ffc6b8c",
+      "canonical": "https://www.makuake.com/project/ultranixie",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜Lightning専用｜最大2TB外部保存＋Type-C充電を実現 iRe5 X｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/ire5x-lightning/",
+      "summary": "リターン品の配送が完了するまで、株式会社PlayWingsはGWD Intelligence Technology Co., Ltd.の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。iRe5 Xは、Lightning端子を搭載したiPhone・iPadに接続して使用する外付けストレージ拡張モジュールです。MicroSDカードを利用して",
+      "image": "https://static.makuake.com/upload/project/53983/main_53983.jpg?version=1791451506&amp;width=690&amp;height=388",
+      "published": "2026-10-23T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "9141d5faa998b3c8",
+      "canonical": "https://www.makuake.com/project/ire5x-lightning",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4798516372440781",
+      "title": "Apple October 28 event: Touchscreen MacBook Pro, OLED iPad mini and more expected",
+      "url": "https://www.gizmochina.com/2026/10/20/apple-october-28-event-macbook-pro-ipad-mini/",
+      "canonical": "https://www.gizmochina.com/2026/10/20/apple-october-28-event-macbook-pro-ipad-mini",
+      "summary": "Apple is preparing another hardware announcement as it continues its busy October release schedule. The upcoming showcase is expected to focus on Mac computers and tablets, with several product upgrades rumored. The company has invited members of the media to Los Angeles for a hands-on experience. Apple could unveil new MacBook Pro models Apple&#8217;s October [&#8230;] The post Apple October 28 e",
+      "published": "2026-10-20T06:16:12+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+5 hands-on",
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/apple_to_unveil_new_macbook_pro_models_on_october_28-news-75122.php"
+      ]
+    },
+    {
+      "id": "ce3c9df6d6f5974a",
+      "title": "TypAir wearable keyboard turns finger gestures into text",
+      "url": "https://www.notebookcheck.net/TypAir-wearable-keyboard-turns-finger-gestures-into-text.1428917.0.html",
+      "canonical": "https://www.notebookcheck.net/TypAir-wearable-keyboard-turns-finger-gestures-into-text.1428917.0.html",
+      "summary": "MindRove's TypAir takes an unusual approach to typing, replacing physical keys with finger movements on a device attached to your clothing. The Bluetooth accessory is designed for compatible smart glasses, phones, and other devices, allowing users to write without speaking aloud. It's currently a functional prototype, with preorder prices starting at $99.",
+      "published": "2026-10-20T15:31:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 price",
+        "+4 preorder",
+        "+3 prototype",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "24f14223f769a454",
+      "title": "(PR) Turtle Beach Announces the Stealth Ultra II Game Controller",
+      "url": "https://www.techpowerup.com/353920/turtle-beach-announces-the-stealth-ultra-ii-game-controller",
+      "canonical": "https://www.techpowerup.com/353920/turtle-beach-announces-the-stealth-ultra-ii-game-controller",
+      "summary": "Turtle Beach revealed its new flagship controller, the Turtle Beach Stealth Ultra II High-Performance Wireless Controller with Rapid Charge Dock. Now available for pre-order ahead of its November 12, 2026, global launch, the Stealth Ultra II delivers ultra-responsive gameplay with up to 8 kHz wired polling rate or up to 1 kHz wireless polling rate for exceptional responsiveness on PC. This control",
+      "published": "2026-10-20T15:44:49+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Turtle-Beach-releases-Stealth-Ultra-II-controller-with-TMR-sticks-8K-polling-and-GateShift.1429469.0.html"
+      ]
+    },
+    {
+      "id": "c54e0eeed82fcb90",
+      "title": "Coolpad announces Cool X Wide with 16:10 screen and a budget MediaTek chip",
+      "url": "https://www.gizmochina.com/2026/10/20/coolpad-announces-cool-x-wide-with-1610-screen-and-a-budget-mediatek-chip/",
+      "canonical": "https://www.gizmochina.com/2026/10/20/coolpad-announces-cool-x-wide-with-1610-screen-and-a-budget-mediatek-chip",
+      "summary": "Coolpad has announced the Cool X Wide, its first wide-screen smartphone. The device is up for pre-order starting today; however, the company has not revealed the price yet. What’s new about the Cool X Wide is its form factor. It has a 6.38-inch TFT display with HD resolution, a 90Hz refresh rate, and a 16:10 [&#8230;] The post Coolpad announces Cool X Wide with 16:10 screen and a budget MediaTek c",
+      "published": "2026-10-20T11:12:20+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3c6d2a8c87537317",
+      "title": "Huawei Mate X8 specs leak",
+      "url": "https://www.gsmarena.com/huawei_mate_x8_specs_leak-news-75120.php",
+      "canonical": "https://www.gsmarena.com/huawei_mate_x8_specs_leak-news-75120.php",
+      "summary": "Huawei launched the Mate X7 in November of last year, and according to a new rumor from China, its successor, the Mate X8, is scheduled to become official next month. It will allegedly sport a 6.5-inch cover display, an 8.15-inch inner folding screen, a 50MP main camera using a 1/1.28\" type sensor with variable aperture, a 50MP periscope telephoto camera, and a battery with a capacity of at least ",
+      "published": "2026-10-20T06:00:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "017ee8190c73ad1c",
+      "title": "Xiaomi launches Mijia Heated Posture Cushion with 3 heating levels, ventilation holes, prolonged sitting reminders",
+      "url": "https://www.gizmochina.com/2026/10/20/xiaomi-launches-mijia-heated-posture-cushion-with-3-heating-levels-ventilation-holes-prolonged-sitting-reminders/",
+      "canonical": "https://www.gizmochina.com/2026/10/20/xiaomi-launches-mijia-heated-posture-cushion-with-3-heating-levels-ventilation-holes-prolonged-sitting-reminders",
+      "summary": "Xiaomi is adding another wellness product to its lineup, a heated posture cushion meant to help with better sitting habits and give some soothing warmth during long work or study sessions. The Mijia Heated Posture Cushion (also called the Mijia Heated Seat Cushion) is now listed on Xiaomi Youpin, with crowdfunding starting on October 21. [&#8230;] The post Xiaomi launches Mijia Heated Posture Cush",
+      "published": "2026-10-20T07:32:57+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "51e85d70a8c602c7",
+      "title": "Snapdragon 4 Gen 4 vs 6s Gen 3: Benchmark scores, spec sheet, and more",
+      "url": "https://www.gizmochina.com/2026/10/20/snapdragon-4-gen-4-vs-snapdragon-6s-gen-3/",
+      "canonical": "https://www.gizmochina.com/2026/10/20/snapdragon-4-gen-4-vs-snapdragon-6s-gen-3",
+      "summary": "The Snapdragon 4 Gen 4 has quietly become a popular chipset in the lower mid-range segment because of skyrocketing chip prices. Built using a 4nm process, the chipset delivers reliable performance, modern connectivity stack, and strong power efficiency. On the other hand, the Snapdragon 6s Gen 3 is built using an older 6nm node, but [&#8230;] The post Snapdragon 4 Gen 4 vs 6s Gen 3: Benchmark scor",
+      "published": "2026-10-20T11:40:58+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 benchmark",
+        "+3 price",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c99c602d3ea19f5e",
+      "title": "(PR) GameSir Announces Official Fortnite Mobile Controller Collection",
+      "url": "https://www.techpowerup.com/353921/gamesir-announces-official-fortnite-mobile-controller-collection",
+      "canonical": "https://www.techpowerup.com/353921/gamesir-announces-official-fortnite-mobile-controller-collection",
+      "summary": "GameSir, a global leader in gaming peripherals, today announced its collaboration with Fortnite, introducing an all-new collection of officially licensed mobile controllers that combine GameSir's award-winning technology with one of the world's most iconic games. Launching with the GameSir G8 Plus Fortnite Edition and GameSir X5 Lite for Xbox Fortnite Edition, the collection is designed for mobile",
+      "published": "2026-10-20T15:49:11+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c4c0ae0bb1037699",
+      "title": "Magnetic power bank for iPhone Duo goes on sale early, measures just 7.9mm",
+      "url": "https://www.gizmochina.com/2026/10/20/magnetic-power-bank-for-iphone-duo-goes-on-sale-early-measures-just-7-9mm/",
+      "canonical": "https://www.gizmochina.com/2026/10/20/magnetic-power-bank-for-iphone-duo-goes-on-sale-early-measures-just-7-9mm",
+      "summary": "A surprisingly slim magnetic power bank made for Apple’s foldable iPhone Duo is already showing up for sale, weeks ahead of its planned launch. Baseus first showed off the PicoGo Air AM72 back in September as a companion for the passport-style iPhone Duo. It was supposed to hit retailers in late November, but the power [&#8230;] The post Magnetic power bank for iPhone Duo goes on sale early, measu",
+      "published": "2026-10-20T16:49:09+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 foldable",
+        "+3 power bank",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0b6a5bd71046c9c6",
+      "title": "Seiko's new retro quartz clock promises just 30 seconds of drift per year and three-year battery life",
+      "url": "https://www.notebookcheck.net/Seiko-s-new-retro-quartz-clock-promises-just-30-seconds-of-drift-per-year-and-three-year-battery-life.1429068.0.html",
+      "canonical": "https://www.notebookcheck.net/Seiko-s-new-retro-quartz-clock-promises-just-30-seconds-of-drift-per-year-and-three-year-battery-life.1429068.0.html",
+      "summary": "Seiko has unveiled the KX701S, a new quartz wall clock inspired by its pioneering 1968 SPX-961. Featuring a newly developed movement rated at ±30 seconds per year, a three-year battery life and a silent sweeping seconds hand, the retro-inspired model is scheduled to launch in Japan on November 20 for ¥27,500.",
+      "published": "2026-10-20T17:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "aee76951ba1ba2bb",
+      "title": "Some Google Home Speakers are downloading hundreds of gigs of data for no reason",
+      "url": "https://www.androidauthority.com/google-home-speakers-downloading-data-no-reason-3725343/",
+      "canonical": "https://www.androidauthority.com/google-home-speakers-downloading-data-no-reason-3725343",
+      "summary": "You may want to check how much data your Google Home Speaker is downloading.",
+      "published": "2026-10-20T07:36:48+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/google-home-speakers-are-downloading-gbs-of-data/",
+        "https://9to5google.com/2026/10/19/google-home-speaker-downloads/"
+      ]
+    },
+    {
+      "id": "5c142086aa7d3e74",
+      "title": "GTA 6 Digital Preorders Already Topped 6 Million and $594 Million, With PlayStation Accounting for 74%, Sensor Tower Estimates",
+      "url": "https://wccftech.com/gta-6-digital-preorders-6-million-594-million-playstation-74-percent-sensor-tower/",
+      "canonical": "https://wccftech.com/gta-6-digital-preorders-6-million-594-million-playstation-74-percent-sensor-tower",
+      "summary": "To the surprise of absolutely nobody, Rockstar's GTA 6 is already putting up huge pre-order sales ahead of launch. According to Sensor Tower's latest estimates (reported by GamesIndustry), the massively anticipated open world game has already surpassed 6 million digital preorders worldwide as of October 13, generating around $594 million in revenue. Both figures are net of returns, and Sony's Play",
+      "published": "2026-10-20T14:00:00+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+4 preorder",
+        "+4 pre-order",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a3186ed87772e7e4",
+      "title": "AMD’s Leaked Zen 6 APU Packs 6 Cores And 24 GB LPDDR5 At 9600 MT/s; Could Possibly Power Next-Gen Steam Deck",
+      "url": "https://wccftech.com/amd-zen-6-apu-with-24-gb-lpddr5-memory-appears-in-benchmarks/",
+      "canonical": "https://wccftech.com/amd-zen-6-apu-with-24-gb-lpddr5-memory-appears-in-benchmarks",
+      "summary": "An unreleased AMD engineering sample just surfaced online, which reportedly features 6 cores, 12 threads, and 24 GB LPDDR5 memory. Zen 6-Based 6-Core/12-Thread APU appears on OpenBenchmarking; Runs at 2.4 GHz and Could Likely End Up in Next-Gen Steam Deck A mysterious AMD APU has surfaced in benchmark results, hinting at a possible next-gen SoC for upcoming gaming handhelds. This early engineering",
+      "published": "2026-10-20T16:04:44+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 benchmark",
+        "+4 handheld",
+        "+3 steam deck",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a7c6aabe023d4a8d",
+      "title": "Iron Man himself now officially endorses Snap’s latest smart glasses",
+      "url": "https://9to5google.com/2026/10/20/iron-man-now-officially-endorses-snap-specs/",
+      "canonical": "https://9to5google.com/2026/10/20/iron-man-now-officially-endorses-snap-specs",
+      "summary": "Snap Specs are available for pre-order now, and actor Robert Downey Jr. is joining the team after he said he “was absolutely sold on Specs within 40 seconds.” more…",
+      "published": "2026-10-20T16:05:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 official",
+        "+4 pre-order",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f8a7119c06705709",
+      "title": "Project Helix price leaks as high as $1800 with 2028 release date for Xbox console",
+      "url": "https://www.notebookcheck.net/Project-Helix-price-leaks-as-high-as-1800-with-2028-release-date-for-Xbox-console.1429479.0.html",
+      "canonical": "https://www.notebookcheck.net/Project-Helix-price-leaks-as-high-as-1800-with-2028-release-date-for-Xbox-console.1429479.0.html",
+      "summary": "Both the Project Helix price and release date could disappoint gamers. Fortune magazine talked with CEO Asha Sharma about her plans for new Xbox consoles. A handheld may launch first in late 2027, followed a year later by an expensive at-home system.",
+      "published": "2026-10-20T19:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 release date",
+        "+4 handheld",
+        "-3 ceo",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "96ebeca1569eeaae",
+      "title": "Redmi K100 officially confirmed to pack a 10,000mAh unit, largest ever on a Xiaomi phone",
+      "url": "https://www.gizmochina.com/2026/10/20/redmi-k100-10000mah-battery-confirmed/",
+      "canonical": "https://www.gizmochina.com/2026/10/20/redmi-k100-10000mah-battery-confirmed",
+      "summary": "The Redmi K100 is gearing up to make a strong impression in the performance smartphone segment. Xiaomi has started revealing key details ahead of the phone&#8217;s official unveiling. The latest teaser reveals that the K100 packs the largest battery ever seen on a Xiaomi phone. Redmi K100 brings a 10,000mAh battery and 100W charging The [&#8230;] The post Redmi K100 officially confirmed to pack a ",
+      "published": "2026-10-20T06:00:06+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "121923ab79fd1ac1",
+      "title": "Samsung fighting iPhone Duo by launching six foldable phones next year",
+      "url": "https://9to5mac.com/2026/10/20/samsung-fighting-iphone-duo-by-launching-six-foldable-phones-next-year/",
+      "canonical": "https://9to5mac.com/2026/10/20/samsung-fighting-iphone-duo-by-launching-six-foldable-phones-next-year",
+      "summary": "Even before Apple launched the iPhone Duo , it was already clear that Samsung was worried. Now that the device has been announced and is heavily backordered , the company seemingly feels that launching no fewer than six different foldable phones next year is its best way to fight back … more…",
+      "published": "2026-10-20T12:00:22+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4f7ef295714e0d89",
+      "title": "Serato DJ 5.0 launches alongside new iPhone and iPad app",
+      "url": "https://www.notebookcheck.net/Serato-DJ-5-0-launches-alongside-new-iPhone-and-iPad-app.1429147.0.html",
+      "canonical": "https://www.notebookcheck.net/Serato-DJ-5-0-launches-alongside-new-iPhone-and-iPad-app.1429147.0.html",
+      "summary": "Serato DJ 5.0 has officially left beta, bringing its improved beatgrids and new mixing tools to the stable release. The bigger surprise is Serato's first DJ app for iPhone and iPad, complete with controller support and desktop library transfers. It's free to try, although the full mobile experience comes at a price.",
+      "published": "2026-10-20T14:27:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8ffb9a2090336a79",
+      "title": "Samsung Galaxy A36's One UI 9 update lands in Europe",
+      "url": "https://www.gsmarena.com/samsung_galaxy_a36s_one_ui_9_update_lands_in_europe-news-75129.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_a36s_one_ui_9_update_lands_in_europe-news-75129.php",
+      "summary": "Samsung started rolling out the update to Android 17 with One UI 9 on top to the Galaxy A36 last week, but it's only been available in South Korea. That has now thankfully changed, as the update is also rolling out in Europe. [#InlinePriceWidget,13497,1#] It arrives over-the-air as a 2.38GB download, so make sure you grab it over a fast enough network. After you install it, your Galaxy A36 will be",
+      "published": "2026-10-20T14:29:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/galaxy-a36-one-ui-9-0-update-released-usa/"
+      ]
+    },
+    {
+      "id": "4e468951188da37f",
+      "title": "AMD Announces FSR 4.1 for Radeon RX 6000 Series, APUs, and Xbox",
+      "url": "https://www.techpowerup.com/353919/amd-announces-fsr-4-1-for-radeon-rx-6000-series-apus-and-xbox",
+      "canonical": "https://www.techpowerup.com/353919/amd-announces-fsr-4-1-for-radeon-rx-6000-series-apus-and-xbox",
+      "summary": "AMD is bringing FSR 4.1 to even more graphics cards and gaming platforms; in a major announcement today by Jack Huynh, SVP GM, Computing Graphics, the company announced that it is bringing FSR 4.1 to Radeon RX 6000 series graphics cards powered by the RDNA 2 graphics architecture, which date back to 2020. AMD has developed and optimized FSR 4.1 for the entire range of RX 6000 series GPUs, from the",
+      "published": "2026-10-20T15:39:04+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost"
+      ]
+    },
+    {
+      "id": "e9638249f8d8ccf1",
+      "title": "AMD and Microsoft Bring FSR 4.1 to Xbox Series X|S, FSR Diamond Teased for Project Helix",
+      "url": "https://www.techpowerup.com/353922/amd-and-microsoft-bring-fsr-4-1-to-xbox-series-x-s-fsr-diamond-teased-for-project-helix",
+      "canonical": "https://www.techpowerup.com/353922/amd-and-microsoft-bring-fsr-4-1-to-xbox-series-x-s-fsr-diamond-teased-for-project-helix",
+      "summary": "AMD and Microsoft have confirmed that FSR Upscaling 4.1 is coming to the Xbox Series X and Series S. The news came in an AMD video presentation led by Jack Huynh, joined by Xbox CTO Scott Van Vliet and ASUS. The ROG Xbox Ally handhelds are getting it too, and it looks like they will be first in line, while the consoles are only listed as coming soon. Neither company has shared a release date or a ",
+      "published": "2026-10-20T16:10:13+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 release date",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d837346171571966",
+      "title": "Samsung’s Galaxy S27 lineup takes shape in new leak",
+      "url": "https://www.androidauthority.com/galaxy-s27-screen-protectors-leak-3725552/",
+      "canonical": "https://www.androidauthority.com/galaxy-s27-screen-protectors-leak-3725552",
+      "summary": "New images offer a glimpse of Samsung's next flagships, with a notable omission.",
+      "published": "2026-10-20T16:14:29+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-Galaxy-S27-Screen-protector-leak-compares-S27-with-S27-and-S27-Ultra.1429397.0.html"
+      ]
+    },
+    {
+      "id": "e613aae6f98e1bae",
+      "title": "Corsair Updates Sabre V3 Pro Line-Up With New PureVector Ergo, Carbon Fiber, and Magnesium Gaming Mice",
+      "url": "https://www.techpowerup.com/353914/corsair-updates-sabre-v3-pro-line-up-with-new-purevector-ergo-carbon-fiber-and-magnesium-gaming-mice",
+      "canonical": "https://www.techpowerup.com/353914/corsair-updates-sabre-v3-pro-line-up-with-new-purevector-ergo-carbon-fiber-and-magnesium-gaming-mice",
+      "summary": "Corsair has officially updated its Sabre V3 Pro mouse line-up with the PureVector series, a new partnership with Aimlabs that the brand claims can reduce aiming and correction time by as much as 33%. The PureVector nomenclature denotes a new tech developed by Corsair and Aimlabs that helps gamers optimize directional DPI to tune their mouse sensor for their own aiming style. The idea is that playe",
+      "published": "2026-10-20T16:21:38+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/015/592.htm"
+      ]
+    },
+    {
+      "id": "aac956edf5651899",
+      "title": "This is the upcoming Moto G47 Power",
+      "url": "https://www.gsmarena.com/this_is_the_upcoming_moto_g47_power-news-75115.php",
+      "canonical": "https://www.gsmarena.com/this_is_the_upcoming_moto_g47_power-news-75115.php",
+      "summary": "Last week we came across an EPREL listing for the upcoming Motorola Moto G47 Power, revealing its battery capacity, and we now have official-looking renders of the device alongside more of its key specs. Unsurprisingly, the Moto G47 Power looks a lot like the regular Moto G47, though at least one of its colorways is new, with a turquoise green color. The second one is the same black shade as befor",
+      "published": "2026-10-19T22:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 official",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9a13f26281db9612",
+      "title": "Colorful iGame X870E Ultra-S V14 Gaming and OC Motherboard Launches for $284",
+      "url": "https://www.techpowerup.com/353899/colorful-igame-x870e-ultra-s-v14-gaming-and-oc-motherboard-launches-for-usd-284",
+      "canonical": "https://www.techpowerup.com/353899/colorful-igame-x870e-ultra-s-v14-gaming-and-oc-motherboard-launches-for-usd-284",
+      "summary": "Colorful has just released its latest overclocking motherboard, the X870E Ultra-S V14, a new E-ATX unit with 16+2+1 power phases, five M.2 slots, and plenty of high-speed I/O. The new motherboard, as shared by IT Home, is priced at 1,899 CNY, which comes out to around $284 at the time of writing, although it only seems to be available in China for the time being. The iGame X870E Ultra-S V14 is exp",
+      "published": "2026-10-19T23:37:39+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7eda9d8df6e6d9a3",
+      "title": "New Realme phone gets listed before launch, here are its specs and price",
+      "url": "https://www.gsmarena.com/new_realme_phone_gets_listed_before_launch_here_are_its_specs_and_price-news-75118.php",
+      "canonical": "https://www.gsmarena.com/new_realme_phone_gets_listed_before_launch_here_are_its_specs_and_price-news-75118.php",
+      "summary": "The upcoming Realme C01 - not to be confused with the Realme C1 from 2018 - was recently spotted on certification platforms in Malaysia and the UAE with the model number RMX5399, and now a premature listing by a Vietnamese retailer reveals its official specs, images, and pricing, even though it's not available to buy yet. The phone comes with a 6.8-inch LCD screen with 720x1520 resolution, a 120Hz",
+      "published": "2026-10-20T02:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 specs",
+        "-6 in malaysia",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "AIが組織の一員として業務をこなします。セキュリティ診断や不正アクセス解析もできる手のひらサイズのAIサーバー「miraiGen.(TM)Cube」先行販売を開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193015.html",
+      "summary": "",
+      "published": "2026-10-20T15:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a04bd91ceec51a3a"
+    },
+    {
+      "title": "Antigravity A1、より安心な追跡撮影を実現する「Follow Me」と「リモコン」を新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000180.000052813.html",
+      "summary": "",
+      "published": "2026-10-20T13:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "3ab71ec04b21e05c"
+    },
+    {
+      "title": "『HelloBoss』、日本初*の仕事探しに特化したパーソナルAIエージェントのβ版を無料提供開始！音声でヒアリングを行い、70万件超の求人提案から応募準備までAIが伴走",
+      "url": "https://prtimes.jp/main/html/rd/p/000000053.000083628.html",
+      "summary": "",
+      "published": "2026-10-20T02:56:32+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "5ed3e399fe34e77b"
+    },
+    {
+      "title": "Pコートなのに、わずか331g。秋田の縫製工場発「aiile」のMakuake第二弾は、羽毛のように暖かい日本製Pコート。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000005.000169940.html",
+      "summary": "",
+      "published": "2026-10-20T02:10:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "db9f873e747476de"
+    },
+    {
+      "title": "楽天モバイル、英国発のテクノロジーブランドNothing製スマートフォン「Phone (4b)」を10月20日（火）より予約受付開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000002713.000005889.html",
+      "summary": "",
+      "published": "2026-10-20T02:07:48+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "946f5a4a5a0979bb"
+    },
+    {
+      "title": "エッジAIモデル保護ソリューション「FalconVault」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000326.000010609.html",
+      "summary": "",
+      "published": "2026-10-20T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a6be8beadd17c079"
+    },
+    {
+      "title": "今季大活躍の高橋遥人投手＆伏見寅威捕手の名コンビ　「はるとらモバイルバッテリー」登場　「サンスポde通販」で予約受付中！　11月25日から順次発送予定",
+      "url": "https://prtimes.jp/main/html/rd/p/000002132.000022608.html",
+      "summary": "",
+      "published": "2026-10-20T01:40:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "da05b4598324352a"
+    },
+    {
+      "title": "明るさ調整も消し忘れも、ライトにおまかせ！2つのセンサー搭載で便利な「LED センサーデスクライト(L10)」を新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000001746.000073913.html",
+      "summary": "",
+      "published": "2026-10-20T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "9d47464a4ff46f4a"
+    },
+    {
+      "title": "大きなダイヤル＆見やすいディスプレイ！コンパクトで使いやすい『CDラジオ』新発売！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000234.000016333.html",
+      "summary": "",
+      "published": "2026-10-20T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "b6b3d6b1cd53749b"
+    },
+    {
+      "title": "モダニティ株式会社、正規代理店として米国発オーディオブランド『SAN Sound』の日本国内での取り扱いを開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000110.000054408.html",
+      "summary": "",
+      "published": "2026-10-20T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "bce1af71bae51baf"
+    },
+    {
+      "title": "XGIMI、日本初※1 の4K/120Hz対応スマートプロジェクター「HORIZON 30」シリーズを発表　2モデルを10月20日（火）より予約販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000104.000075566.html",
+      "summary": "",
+      "published": "2026-10-20T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "b839682ff9bd0e92"
+    },
+    {
+      "title": "【新機能】猫用スマートトイレ「トレッタ」にLEDライトの明るさ調整機能を搭載～2026年11月20日より販売価格を改定し、新価格にて販売開始～",
+      "url": "https://prtimes.jp/main/html/rd/p/000000089.000021881.html",
+      "summary": "",
+      "published": "2026-10-20T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "ca90a3a63e5c953f"
+    },
+    {
+      "title": "教育用ドローン「CoDrone EDU」、販売開始から4年足らずで全国150校以上に導入",
+      "url": "https://prtimes.jp/main/html/rd/p/000000014.000095839.html",
+      "summary": "",
+      "published": "2026-10-20T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "84b5daee494e3a61"
+    },
+    {
+      "title": "【もう長傘はいらない】直径120cmなのに、綺麗に畳める!? 超特大折りたたみ傘「totonoi MAX」が10月20日よりMakuakeで先行販売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000025.000091150.html",
+      "summary": "",
+      "published": "2026-10-19T23:10:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "442d6aabf84aeac0"
+    },
+    {
+      "title": "「DeepSeek V4.1 Flash 1017」を国内初提供※、プロンプトを保存しない円建てOpenAI互換API「HAI」",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000109179.html",
+      "summary": "",
+      "published": "2026-10-19T22:50:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "0455f687e9641407"
+    }
+  ]
+}
