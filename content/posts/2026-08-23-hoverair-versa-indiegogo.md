@@ -15,9 +15,9 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-09-27
+  checked: 2026-10-21
   radio: "Wi-Fi"
-  note: "Makuakeページ公開前で未確認"
+  note: "同社名義の認証は2件あるがVERSAの型番との一致は未確認"
 seo_title: HOVERAir VERSAは9月29日Makuake、12万7900円から
 x_hook: 230gのカメラが、勝手に飛ぶ。ただし日本で飛ばすには国への機体登録が要る。
 embeds:
@@ -25,9 +25,9 @@ embeds:
   id: eWNhu7JzLRM
   caption: HOVERAir公式チャンネルによるVERSAの製品紹介動画
 japan:
-  status: 発売予定
-  checked: 2026-09-27
-  summary: 日本では9月29日から11月13日までMakuakeで先行販売される。Makuake限定価格はスターターセット12万7,900円、オールインワンセット16万2,600円(通常価格は13万9,800円/17万7,800円)。一般販売は11月中旬〜下旬の予定。飛行時の重量は100gを超えるため、屋外で飛ばすには機体登録が必要になる。技適は、Makuakeのページ公開前のため9月27日時点で確認できていない。
+  status: クラウドファンディング中
+  checked: 2026-10-21
+  summary: 日本では9月29日から11月13日までMakuakeで先行販売中(10月21日時点で期間内)。Makuake限定価格はスターターセット12万7,900円、オールインワンセット16万2,600円(通常価格は13万9,800円/17万7,800円)。一般販売は11月中旬〜下旬の予定。飛行時の重量は100gを超えるため、屋外で飛ばすには機体登録が必要になる。技適は、総務省データベースに Shenzhen Zero Zero Infinity Technology 名義の認証(2026年9月登録の ZZ-H-1-006F、ZZ-H-2-003)があるが、VERSAの型番と一致するかは確認できていないため、判定は「確認できない」のまま。
   x_hook: 手持ちカメラに羽根を付けると飛ぶ「HOVERAir VERSA」が日本に来る。9月29日からMakuakeで先行販売、12万7,900円から。
   source:
     title: 手持ちのジンバルカメラが67gの羽根で飛ぶ HOVERAir「VERSA」国内発表(ITmedia Mobile)
