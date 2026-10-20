@@ -25,6 +25,10 @@ brands:
     note: AWOL Vision 公式の保証ページが販売主体を Elevation Technology Partners (AWOL Vision) と明記。総務省DBでは VGTV-RC02〜06(リモコン)の登録のみ確認(2026-10-15)。本体の登録名は別かもしれない
     registrants:
     - Elevation Technology Partners
+  Baseus:
+    note: 登録者名がブランド名そのもの。型式欄に Baseus ... [A0102C] 等(2026-10-21確認)
+    registrants:
+    - Shenzhen Baseus Technology
   Bigme:
     note: 表記は Co., Ltd. と Co.,Ltd. が混在。総務省DB上で B6 / B7 / B13 / HiBreak 系の登録を確認(2026-10-15)
     registrants:
@@ -46,6 +50,10 @@ brands:
       など Epomaker 機種の登録を確認
     registrants:
     - Shenzhen ChangYun Technology
+  GPD:
+    note: 登録者名がブランド名そのもの(GPD)。型式 G1618-05 等(2026-10-21確認)
+    registrants:
+    - Shenzhen GPD Technology
   Google:
     note: 登録者名がブランド名そのもの。型式欄は GZDQ6 等の符号(2026-10-15確認)
     registrants:
@@ -89,6 +97,10 @@ brands:
     note: Sennheiser コンシューマー製品(MOMENTUM True Wireless 5 など)の登録者。2026-10-15 に総務省DBで MTW5 = 201-250883 を確認
     registrants:
     - Sonova Consumer Hearing GmbH
+  Ugreen:
+    note: 登録者名がブランド名そのもの。UGREEN Studio Max5s 等の登録あり(2026-10-21確認)
+    registrants:
+    - Ugreen Group Limited
   Valve:
     note: 登録者名がブランド名そのもの。型式欄は 1015/1016 など数字(2026-10-15確認)
     registrants:
@@ -97,16 +109,41 @@ brands:
     note: 型式欄は B942C のような型番で製品名では引けないことが多い
     registrants:
     - XGIMI Technology
+  Xiaomi:
+    note: 登録者名がブランド名そのもの。Beijing Xiaomi Electronics も別法人で登録あり(2026-10-21確認)
+    registrants:
+    - Xiaomi Communications
 unresolved:
+  ANBERNIC:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
+  AYANEO:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
   BirdVue:
     note: 米国ワイオミング州の新興ブランド。運営会社の法人名を特定できず、DBにブランド名の登録なし
     tried: '2026-10-15'
+  Fairphone:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
   Fosi:
     note: 候補は Shenzhen Foresight Technology(DBに S3/S5 系の登録あり)だが、Fosi の運営会社である一次根拠が無く未採用
     tried: '2026-10-15'
+  Honor:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
+  Minisforum:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
+  ONEXPLAYER:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
   Pebble:
     note: 運営は Core Devices だが DB に Pebble / Core Devices の登録なし
     tried: '2026-10-15'
+  Pimax:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'
   Q8botOne:
     note: ブランド名でDBに登録なし。ESP32 モジュールの認証は製品の認証ではない
     tried: '2026-10-15'
@@ -116,3 +153,6 @@ unresolved:
   abxylute:
     note: 法人名を特定できず、DBにブランド名の登録なし
     tried: '2026-10-15'
+  vivo:
+    note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
+    tried: '2026-10-21'

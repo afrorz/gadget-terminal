@@ -19,7 +19,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Wi-Fi 6 / Bluetooth 5.2
 images:
 - url: "https://us.xgimi.com/cdn/shop/files/HORIZON30Pro.png?v=1790755418&width=2000"

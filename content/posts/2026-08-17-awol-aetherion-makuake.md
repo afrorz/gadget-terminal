@@ -11,7 +11,7 @@ tags: [プロジェクター, 超短焦点, RGBレーザー, クラウドファ�
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: "Wi-Fi 7 / Bluetooth 5.4"
   note: "Makuakeページに技適の記載なし"
 embeds:

@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-17
+  checked: 2026-10-21
   radio: "Wi-Fi / Bluetooth"
   note: "国内正規品。本体型番RC74XAの登録は見当たらない"
 x_hook: 中身はほぼ同じなのに300ドル高い。理由はOLED画面と磁気式スティック、そして日本には10月に来る。

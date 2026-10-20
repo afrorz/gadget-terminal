@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Wi-Fi(遠隔監視機能)
 images:
   - url: "https://cdn.images.indiegogo.com/richtextimage/richtext/cef027ce-e98c-48cd-be4e-8aa308143b5d.jpg"

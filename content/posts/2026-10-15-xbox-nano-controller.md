@@ -26,7 +26,7 @@ japan:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: "Xbox Wireless / Bluetooth"
 images:
 - url: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/10/XBOX-Nano-Controller-textless-full-image-resize-163b4cf933e25ff565e2.jpg"

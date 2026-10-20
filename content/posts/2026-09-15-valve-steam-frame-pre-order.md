@@ -14,7 +14,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Wi-Fi / Bluetooth
   note: 国内販売は始まったが技適は未確認
 x_hook: "PCに繋がなくても単体で動くVRヘッドセット「Steam Frame」が、日本でもKOMODOから9月15日に発売された。256GB版は199,980円、1TB版は244,980円(税込)。"

@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Bluetooth 5.3 LE / 2.4GHz
   note: Gears版の型番は技適DBで特定できず
 origin: SZX 深圳

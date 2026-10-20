@@ -11,7 +11,7 @@ tags: [Google, Gboard, キーボード, 3Dプリント, 自作, 変わり種]
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Bluetooth(接続版は未公開)
   note: 完成品でないDIYキットで無線版は未公開
 origin: NRT 東京

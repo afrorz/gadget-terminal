@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Wi-Fi 6E / Bluetooth 5.3
   note: 搭載のAX211は登録あるがNUC本体は未確認
 alternatives:

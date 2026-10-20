@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-21
   radio: Wi-Fi 6(2.4/5GHz) / BLE 5 / Zigbee・Thread
   note: 旧M5Toughは登録あり、本機は未確認
 faq:
