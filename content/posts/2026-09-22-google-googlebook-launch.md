@@ -74,7 +74,7 @@ Googlebookの核はChromeOSとAndroidの統合にある。ChromeOSが培って�
 
 CPUは搭載モデルによってIntel Core Ultra系とSnapdragon X Elite系に分かれるが、RAM・ストレージ・NPU性能の最低ラインはGoogleが5社共通の基準として揃えている。
 
-## 日本から見るとどうか
+## 日本で買える？使える？
 
 **掲載時点で日本は発売対象に入っていない。** 確認できているのは米国・英国・アイルランド・フランス・ドイツ・オーストラリアの6か国のみで、9to5GoogleとAndroid Authorityのいずれの記事にも日本展開への言及は無い。
 

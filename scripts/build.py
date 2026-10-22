@@ -1049,7 +1049,7 @@ rows.forEach(function(row,i){
 });
 
 /* 実物の案内板は、しばらく静止したあとも思い出したようにどこかの行が
-   パタパタと回る。4秒に1回、ランダムに1行だけ再生して、生きた掲示板に見せる。
+   パタパタと回る。2秒に1回(2026-10-22 本人の指定。以前は4秒)、ランダムに1行だけ再生して、生きた掲示板に見せる。
    全行同時に回すと五月蝿いので1行ずつ。 */
 if(!reduced&&rows.length){
   setInterval(function(){
@@ -1057,7 +1057,7 @@ if(!reduced&&rows.length){
     row.querySelectorAll("[data-flap]").forEach(flap);
     var st=row.querySelector("[data-flap-status]");
     if(st)flapStatus(st);
-  },4000);
+  },2000);
 }
 })();
 </script>"""

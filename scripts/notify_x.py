@@ -120,7 +120,7 @@ def site_base_url() -> str:
 # 答える」立場。X の x_hook をそのまま流さず、記事の front matter(giteki / japan /
 # faq / alternatives)から決まった形で組み立てる。LLM は使わず、新しい事実も足さない。
 THREADS_MAX_CHARS = 500
-THREADS_LINK_LEAD = "日本から見るとどうか、国内で買える代わりの製品は記事にまとめています。"
+THREADS_LINK_LEAD = "日本で買えるか・使えるかと、国内の代わりの製品は記事にまとめています。"
 
 
 def _one_line(text) -> str:

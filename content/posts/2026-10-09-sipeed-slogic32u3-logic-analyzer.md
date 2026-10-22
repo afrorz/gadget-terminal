@@ -117,7 +117,7 @@ Wikiは、SD UHS-I、eMMC HS200、Octal-SPIなどの高速バスの観測に足�
 
 標準はSLogicViewで、ngscopeclientとsigrok-cliも使える。Webアプリ「SLogicWeb」はインストール不要で、ブラウザからキャプチャでき、Android端末でも動くとされている。ファームウェアは無線ではなく、オンラインで更新できる。
 
-## 日本から見るとどうか
+## 日本で買える？使える？
 
 技適：SLogic32U3は有線のUSB機器で、公式仕様に無線機能の記載はない。技適の対象外と判断してよい。
 

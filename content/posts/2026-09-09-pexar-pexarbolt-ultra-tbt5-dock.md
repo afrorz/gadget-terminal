@@ -69,7 +69,7 @@ Lexarが展開するスマートデバイスブランドPexarが、Thunderbolt 5
 
 Thunderbolt 5ケーブル1本で、ノートPCやデスクトップからディスプレイ・ストレージ・ネットワーク・周辺機器までまとめて接続できる構成だ。この製品は2026年のIFA Innovation Awardsで、Content Creation Technology部門のHonoreeに選ばれている。
 
-## 日本から見るとどうか
+## 日本で買える？使える？
 
 PexarBolt Ultra TBT5 Dockは有線接続のドッキングステーションで、Wi-FiやBluetoothといった無線通信機能についての記載は確認できていない。無線機能を持たない前提であれば技適の対象にはならないが、国内での正規販売や代理店についての告知は掲載時点で確認できていない。
 

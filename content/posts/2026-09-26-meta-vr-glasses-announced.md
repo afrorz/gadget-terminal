@@ -100,7 +100,7 @@ Metaは製品ページでディスプレイを「5K Infinite Display」と呼ん
 
 OSはQuest 3と共通で、Beat Saber・Tetris Effect: Mixed Realities・逆転裁判5 VRなどQuest向けの既存タイトルがそのまま動く。Disney+・YouTube・Prime Videoでの映像視聴に加え、USB-C DisplayPort入力でスマートフォンやノートPC、携帯ゲーム機の画面を仮想スクリーンとして表示する機能も備える。顔追跡ベースのアバター機能「Hologram」も2027年春の発売にあわせて利用可能になる予定だ。
 
-## 日本から見るとどうか
+## 日本で買える？使える？
 
 **価格はドル建てのみで、日本円での価格や国内発売の有無は掲載時点で確認できていない。** Meta公式ブログ・UploadVRのいずれも、対応地域についての明記がない。
 
