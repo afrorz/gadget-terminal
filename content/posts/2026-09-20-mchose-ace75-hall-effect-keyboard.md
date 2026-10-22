@@ -39,6 +39,12 @@ alternatives:
     url: https://www.amazon.co.jp/dp/B0DSG2XW3G
     merchant: amazon
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kitcut/cabinet/item/181/p-475787.jpg?_ex=400x400"
+gear:
+- name: "HyperX Wrist Rest テンキーレス用 4Z7X1AA"
+  why: "75%配列はテンキーレスより幅が狭いので、テンキーレス用(幅362mm)なら手前に収まる。低反発クッションで打鍵中の手首を支える"
+  url: https://www.amazon.co.jp/dp/B09SGS3X7W
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/7030/00000010096243_a01.jpg"
 faq:
   - q: 日本で買えますか
     a: 掲載時点ではKickstarterでの支援のみで、日本への発送可否は確認できていません。

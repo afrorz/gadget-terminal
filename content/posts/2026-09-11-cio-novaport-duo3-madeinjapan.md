@@ -45,6 +45,12 @@ alternatives:
   image: "https://prtimes.jp/i/16775/332/resize/d16775-332-76b6c89cdbbf82ed89a3-1.jpg"
   url: https://www.amazon.co.jp/dp/B095W99H1C
   merchant: amazon
+gear:
+- name: "CIO 柔らかいシリコンケーブル USB-C to C 240W 1m"
+  why: "NovaPort DUO3 は2ポートとも USB-C。同じ CIO の C to C ケーブルで、最大240W対応なので65W出力をそのまま流せる"
+  url: https://www.amazon.co.jp/dp/B0B2PR2QD4
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/machinoomise/cabinet/item/item02/240cc.jpg"
 faq:
 - q: 日本で買えますか
   a: 掲載時点ではMakuakeでのクラウドファンディング支援のみです。募集は2026年11月29日まで、配送は2026年12月末を予定していますが、確定した日程ではありません。

@@ -22,6 +22,12 @@ images:
     caption: Sparkx i8のホットエンド部。緑色のラインは81点オートレベリングのスキャン、ビルドプレートに260x260x255mmの表記が見える
     credit: Creality Sparkx i8 Indiegogoプロジェクトページ
 x_hook: 3Dプリンターのマルチカラー印刷は、色替えのたびにパージで大量のフィラメントを捨てるのが弱点だった。Crealityの新システムはホットエンド内で4色を切り替え、1秒未満のスワップと従来比500%速い色替えをうたう。早期価格は289ドルでIndiegogo実施中、39日残して目標額はすでに達成済み。
+gear:
+- name: "Creality Space Pi フィラメントドライヤー(1ロール用)"
+  why: "最大4色のフィラメントを本体のロッドに掛けて使う機種。湿気を吸ったフィラメントは糸引きや詰まりのもとになるので、使う前に45〜70℃で乾かせる同じメーカーの乾燥機"
+  url: https://www.amazon.co.jp/dp/B0CVZYXCGT
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/utakatazakka/cabinet/11549454/50095792_4.jpg"
 faq:
   - q: 日本で買えますか
     a: Indiegogoでの支援という形になりますが、日本への発送に対応するかは掲載時点の記事に明記が無く、確認できていません。

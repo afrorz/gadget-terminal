@@ -41,6 +41,12 @@ japan:
   source:
     title: ROG XBOX Ally X20 (2026)(ASUS JAPAN 公式製品ページ)
     url: https://rog.asus.com/jp/gaming-handhelds/rog-ally/rog-xbox-ally-x20-2026/
+gear:
+- name: "SanDisk Extreme microSDXC 512GB SDSQXAV-512G-GH3MA(Amazon.co.jp限定パッケージ)"
+  why: "ROG Xbox Ally X は本体の 1TB SSD に加えて microSDXC カードが使える(ASUS 公式の仕様)。ゲームの置き場を増やせる"
+  url: https://www.amazon.co.jp/dp/B0B219HC22
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/shop-amanotori/cabinet/item39/020221118043125.jpg"
 faq:
 - q: 日本で買えますか
   a: 買える。ASUS JAPANが2026年10月16日に国内で発売し、ASUS StoreとAmazon.co.jpで扱っている(2026年10月17日確認)。

@@ -31,6 +31,12 @@ japan:
   source:
     title: ソニー「Xperia 10 VIII」、直販9.9万円で10月8日発売(ファイルウェブ)
     url: https://www.phileweb.com/news/mobile_pc/202610/01/3786.html
+gear:
+- name: "SanDisk Extreme microSDXC 256GB SDSQXAV-256G-GH3MA(Amazon.co.jp限定パッケージ)"
+  why: "Xperia 10 VIII は microSDXC(最大2TB)に対応。写真や音楽の置き場を増やせる"
+  url: https://www.amazon.co.jp/dp/B0B21D79BW
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/mmstore/cabinet/amayahoo/13099002/0167-013659.jpg"
 faq:
 - q: 日本で買えますか
   a: 2026年10月8日に国内で発売された。ソニーストアのSIMフリーモデルのほか、NTTドコモ・au・ソフトバンクからも発売される(2026年10月8日確認)。

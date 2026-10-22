@@ -19,6 +19,17 @@ giteki:
   note: "総務省DBで事業者名から該当なし"
 seo_title: Minisforum M2 Pro-358Hが発売、国内は税込25万1,999円で受注中
 x_hook: 発表時は96GBメモリだったミニPCが、実際の発売では32GBに減っていた。
+gear:
+- name: "Samsung SSD 990 PRO 1TB MZ-V9P1T0B-IT(国内正規保証品)"
+  why: "M.2 2280 スロットが3基あり、1基あたり最大8TBまで載る。空いたスロットに足せる 2280 サイズの NVMe SSD"
+  url: https://www.amazon.co.jp/dp/B0BPXQ9BDV
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/1931/4560441097961.jpg"
+- name: "エレコム LANケーブル CAT6A 2m ECLD-GPATBK20"
+  why: "10GbE ポートを10Gbpsで使うには CAT6A 以上のケーブルが要る"
+  url: https://www.amazon.co.jp/dp/B0D7PJZP76
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/smilemix/cabinet/onesell018/sm45227ce4ba.jpg"
 faq:
 - q: 日本で買えますか
   a: 2026年8月24日からMinisforumの日本向け直販サイトで受注しています。販売元は香港の法人で、国内代理店の取り扱いは確認できていません（2026年10月9日確認）。

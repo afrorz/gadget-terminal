@@ -27,6 +27,12 @@ images:
 - url: "https://eu.xgimi.com/cdn/shop/articles/AURA3_IFA_748fac1f-ba9b-48b9-a3c1-d25728329683_1200x1200.png"
   caption: IFA会場のブースに展示された「AURA 3 Max」本体。手前にリモコンが置かれている
 credit: XGIMI公式(プレスリリース・公式サイト)
+gear:
+- name: "エレコム HDMI 2.1 ケーブル ウルトラハイスピード 2m CAC-HD21ES20BK"
+  why: "4K/120Hz・VRR などのゲーム機能は HDMI 2.1 入力で使う。その信号(最大48Gbps)を通せる Ultra High Speed HDMI 認証のケーブル"
+  url: https://www.amazon.co.jp/dp/B094CW6HPK
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/6572/00000009330196_a01.jpg"
 faq:
 - q: 日本で買えますか
   a: 掲載時点でXGIMIの予約デポジットは米国・英国・EU向けの公式サイトのみで案内されており、日本向けの発売時期・価格は発表されていません。
