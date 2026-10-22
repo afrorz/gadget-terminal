@@ -69,3 +69,5 @@ sources:
 **技適も未確認。** Sparkx i8は遠隔監視機能を備えており、これがWi-Fi経由である場合、国内で使うには技適の取得が前提になる。掲載時点でCreality側からの技適取得の案内は見当たらない。
 
 **同じCrealityのマルチカラー機なら、今日買える選択肢がある。** 「Creality Hi」はCFSユニット方式のマルチカラー3Dプリンターとして国内のAmazon.co.jpから購入できる。QuarTeksのようなホットエンド内蔵の高速スワップではないが、パージ量を抑えたマルチカラー印刷という用途は今日から満たせる。
+
+同じく色替えの廃棄を減らす3機種(Creality Sparkx i8・K3、LightMake L4)の方式と価格は、[3機種をまとめて比べた記事](/posts/multicolor-3d-printers-roundup.html)に並べた。
