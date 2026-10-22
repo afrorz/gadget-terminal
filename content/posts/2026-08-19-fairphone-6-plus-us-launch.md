@@ -25,6 +25,17 @@ faq:
   a: 技適を取得しているという情報は元記事になく、現時点で確認できていません。個人輸入して国内で使う場合の対応バンドや技適上の扱いも、参照した記事だけでは判断できません。
 - q: 本当に自分で修理できるのですか
   a: iFixitが分解して修理性スコアで満点の10/10を付けています。バッテリーだけでなく、画面・カメラ・USB-Cポート・スピーカーなど計12点のパーツをユーザー自身の手で交換できる設計です。7年間のソフトウェアアップデート（うちAndroidメジャーアップグレード6回）と5年保証も付きます。
+gear:
+- name: "SanDisk microSDXC 128GB Extreme(SDSQXH9-128G-GHQMA)"
+  why: "Fairphone 6+は本体の256GBに加えて、microSDで最大2TBまで増やせる"
+  url: https://www.amazon.co.jp/dp/B0H4YXRJ53
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kazamidori/cabinet/thum_sd/0619659188467.jpg"
+- name: "Anker 511 Charger (Nano 3, 30W)"
+  why: "Fairphone 6+の充電は最大30W。その出力に合わせた小型のUSB-C充電器"
+  url: https://www.amazon.co.jp/dp/B0B2QQDKR8
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a2/a2147_normal.jpg"
 sources:
   - title: "Fairphone 6+ brings 12GB of RAM and a removable battery to the US"
     url: https://www.gizmochina.com/2026/08/18/fairphone-6-plus-launch-price-specs-12gb-ram-removable-battery/

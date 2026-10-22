@@ -41,6 +41,17 @@ alternatives:
     url: https://www.amazon.co.jp/dp/B07NVMFQW5
     merchant: amazon
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/chack0605/cabinet/r_2024081841/20241030182106_96_1.jpg?_ex=400x400"
+gear:
+- name: "KIOXIA microSDHC 32GB EXCERIA(KLMEA032G)"
+  why: "MAKERphone 2.0はmicroSDスロットを備える。組み立てたあとのデータの保存先に使える"
+  url: https://www.amazon.co.jp/dp/B08PTNWQ6P
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/onewhlalehome/cabinet/goq006/4582563852853-01.jpg"
+- name: "Anker USB-C & USB-C ケーブル(高耐久ナイロン)0.9m"
+  why: "1000mAhの電池はUSB-Cで充電する。編み込みの丈夫なC to Cケーブル"
+  url: https://www.amazon.co.jp/dp/B0CD9NT4ZQ
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a8/a81c5_normal.jpg"
 faq:
   - q: 日本で買えますか
     a: CircuitMessは100か国以上への出荷実績があり、Kickstarterの支援自体は日本からも可能とみられます。ただし技適は掲載時点で未取得です。

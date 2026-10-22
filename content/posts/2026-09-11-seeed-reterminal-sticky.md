@@ -32,6 +32,17 @@ alternatives:
   url: https://www.amazon.co.jp/dp/B0DBLDKVDW
   merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/switchbot/cabinet/09377790/12988198/12988202/imgrc0100120623.jpg?_ex=400x400"
+gear:
+- name: "KIOXIA microSDHC 32GB EXCERIA(KLMEA032G)"
+  why: "reTerminal StickyはmicroSDカードに対応する。電子書籍リーダーのようにデータを多く使うファームウェアで、保存先になる"
+  url: https://www.amazon.co.jp/dp/B08PTNWQ6P
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/onewhlalehome/cabinet/goq006/4582563852853-01.jpg"
+- name: "Anker USB-C & USB-C ケーブル(高耐久ナイロン)0.9m"
+  why: "750mAhの電池はUSB-Cで充電する。編み込みの丈夫なC to Cケーブル"
+  url: https://www.amazon.co.jp/dp/B0CD9NT4ZQ
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a8/a81c5_normal.jpg"
 faq:
 - q: 日本で買えますか
   a: Seeed Studioの公式サイトから予約注文できますが、発送元は中国倉庫で、日本への発送可否は商品ページに明記されていません。掲載時点で日本の代理店での取り扱いは確認できていません。
