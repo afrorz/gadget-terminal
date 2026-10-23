@@ -1,0 +1,915 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T05:37:11.572961+09:00",
+  "stats": {
+    "fetched": 707,
+    "unique": 666,
+    "new": 394,
+    "clusters": 377,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "0a02eb22506c740b",
+      "title": "This is Samsung's next foldable and it's launching in just a few days",
+      "url": "https://www.gsmarena.com/this_is_samsungs_next_foldable_and_its_launching_in_just_a_few_days-news-75178.php",
+      "canonical": "https://www.gsmarena.com/this_is_samsungs_next_foldable_and_its_launching_in_just_a_few_days-news-75178.php",
+      "summary": "Samsung is getting ready to launch the W27, its latest China-exclusive luxury foldable, and the device has now appeared in a leaked photo. According to a well-known tipster, it will be unveiled on October 29, and its specs are identical to those of the Galaxy Z Fold8 Ultra. As you can see below, the image shows the back of the W27. It's dark blue, with gold accents on the frame and the camera isla",
+      "published": "2026-10-23T02:11:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 specs",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/10/23/samsung-galaxy-w27-foldable-leak/"
+      ]
+    },
+    {
+      "id": "44fa5972a3c50c87",
+      "title": "Huawei Enjoy 100 series launch date confirmed, pre-orders open",
+      "url": "https://www.gsmarena.com/huawei_enjoy_100_series_launch_date_confirmed_preorders_open-news-75187.php",
+      "canonical": "https://www.gsmarena.com/huawei_enjoy_100_series_launch_date_confirmed_preorders_open-news-75187.php",
+      "summary": "The Huawei Enjoy 100 series now has a launch date. Huawei has announced that the lineup will be unveiled on October 28 at 14:30 local time in China, and pre-orders have already opened today through Huawei's online store, authorized e-commerce partners, and retail stores. The official teaser poster shows three phones in blue, white, and orange, each with a different camera design. The blue one has ",
+      "published": "2026-10-23T12:54:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5020b05817b51c1f",
+      "title": "Bazzite Linux Gets New Handheld PC Support With ASUS ROG Xbox Ally X20 and Acer Predator Atlas",
+      "url": "https://www.techpowerup.com/354071/bazzite-linux-gets-new-handheld-pc-support-with-asus-rog-xbox-ally-x20-and-acer-predator-atlas",
+      "canonical": "https://www.techpowerup.com/354071/bazzite-linux-gets-new-handheld-pc-support-with-asus-rog-xbox-ally-x20-and-acer-predator-atlas",
+      "summary": "The launch of Valve's Steam Deck ignited a renewed interest in both Linux gaming and handheld x86 gaming PCs, and that push has resulted in accelerated development for projects like Bazzite. In a recent post, Bazzite developer, Andy East, aka Andy10115 online, has announced preliminary hardware support for both the ASUS ROG Xbox Ally X20 and the Acer Predator Atlas handhelds in Bazzite. The develo",
+      "published": "2026-10-23T18:00:48+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 handheld",
+        "+3 steam deck",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/SteamOS-on-Xbox-handheld-Asus-ROG-Xbox-Ally-X20-can-game-for-up-to-8-hours.1431077.0.html"
+      ]
+    },
+    {
+      "title": "Makuake｜見たものを撮って、その場でAIに聞ける。カメラ搭載イヤホン「ARES」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/kretaares/",
+      "summary": "※リターン品の配送が完了するまで、香港行知優品は深圳市多多米文化有限公司の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。ARESは、耳元に8MP広角カメラを搭載。目線に近い位置から撮影することで、目の前の景色を自然な一人称視点で記録できます。動画は2112×1568・30fps、写真は3264×2448ピクセル",
+      "image": "https://static.makuake.com/upload/project/54064/main_54064.png?version=1792047335&amp;width=690&amp;height=388",
+      "published": "2026-10-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "c2896deba6bdfaaa",
+      "canonical": "https://www.makuake.com/project/kretaares",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 イヤホン",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜耳につけると音が流れ30分で自動OFF。スマホ不要のおやすみイヤホンSLEEBY｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/sleepy/",
+      "summary": "そこで生まれたのが、SLEEBY。就寝前の時間を、より自然で心地よく過ごすためのおやすみイヤホンです。※ 本製品は医療機器ではありませんBluetoothも、アプリもいりません。耳に装着したら、あとは操作不要。※この音声はサンプルです。実際のSLEEBYには、左右で異なる周波数の音を用いた1種類のサウンドが内蔵されています。サウンドの選択・変更はできません。スマートフォンやアプリ、Bluetoot",
+      "image": "https://static.makuake.com/upload/project/54108/main_54108.png?version=1792545703&amp;width=690&amp;height=388",
+      "published": "2026-10-28T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "16ef0794c3d05ca5",
+      "canonical": "https://www.makuake.com/project/sleepy",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 イヤホン",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "de908b51906e36e5",
+      "title": "Huawei Pura 90 Plus to launch next week, design and color options revealed",
+      "url": "https://www.gsmarena.com/huawei_pura_90_plus_to_launch_next_week_design_and_color_options_revealed-news-75181.php",
+      "canonical": "https://www.gsmarena.com/huawei_pura_90_plus_to_launch_next_week_design_and_color_options_revealed-news-75181.php",
+      "summary": "Huawei has officially confirmed the Pura 90 Plus and opened pre-orders for the phone in China. The company has also revealed its design, color options, and storage configurations. The Huawei Pura 90 Plus will go on sale in China on October 28. While the company has yet to reveal the phone’s specifications, it has given us a first look at its design. Based on images shared on Huawei’s official onli",
+      "published": "2026-10-23T08:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5d679217c57f3db0",
+      "title": "Samsung confirms Galaxy phones and tablets getting Android 17-based One UI 9",
+      "url": "https://www.gizmochina.com/2026/10/23/samsung-one-ui-9-android-17-update-list/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/samsung-one-ui-9-android-17-update-list",
+      "summary": "Samsung has officially named the Galaxy phones and tablets lined up for its Android 17-based One UI 9 update. It gives owners of older flagships and mid-range models a clear idea of what lies ahead. It also hints at how long the wider rollout could take across different markets. Samsung One UI 9 eligible devices [&#8230;] The post Samsung confirms Galaxy phones and tablets getting Android 17-based",
+      "published": "2026-10-23T19:23:33+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 official",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/10/23/samsung-galaxy-android-17-update-list-confirmed/",
+        "https://www.sammobile.com/news/samsung-releases-one-ui-9-0-android-17-update-galaxy-m47/"
+      ]
+    },
+    {
+      "title": "Makuake｜一日中PCの前で働く人へ。仕事を止めずに続ける光習慣｜SunBooster｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/sunbooster/",
+      "summary": "リターンの配送が完了するまでスマイルアップ株式会社がSunLED Life Science Research B.V.の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。SunBoosterは、パソコンやモニターの上に取り付けて使う近赤外線デバイス。メール対応、資料作成、デザイン、プログラミングなど、いつもの仕事を続けながら使用できます。",
+      "image": "https://static.makuake.com/upload/project/54042/main_54042.png?version=1791976486&amp;width=690&amp;height=388",
+      "published": "2026-10-29T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "bd1abdbef06fc140",
+      "canonical": "https://www.makuake.com/project/sunbooster",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3bbcd20e0cd9cdaf",
+      "title": "Huawei Enjoy 100 series launches October 28, and the first teaser shows three colors",
+      "url": "https://www.gizmochina.com/2026/10/23/huawei-enjoy-100-series-launches-october-28-and-the-first-teaser-shows-three-colors/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/huawei-enjoy-100-series-launches-october-28-and-the-first-teaser-shows-three-colors",
+      "summary": "Huawei has officially announced the Enjoy 100 series, and the launch is set for October 28. The phones will debut next week at the company’s Double Eleven Renewal Season All-Scenario New Product Launch Conference, where the Pura 90 Plus is also likely to launch.&#160; The phone goes on pre-order today through Huawei Mall, authorized e-commerce [&#8230;] The post Huawei Enjoy 100 series launches Oc",
+      "published": "2026-10-23T04:09:17+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "744838d872a32a33",
+      "title": "REDMI Clip Neo specs teased: 12mm drivers, two color options, 10-band custom equalizer",
+      "url": "https://www.gizmochina.com/2026/10/23/redmi-clip-neo-specs-teased-12mm-drivers-two-color-options-10-band-custom-equalizer/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/redmi-clip-neo-specs-teased-12mm-drivers-two-color-options-10-band-custom-equalizer",
+      "summary": "Xiaomi’s REDMI brand has just teased its first open-ear earphones, the Clip Neo. They’re launching on October 27 alongside the K100 smartphone. Official posters show a clean, open-ear design meant to keep you aware of your surroundings while still delivering solid sound. Pre-orders are already live in China, and they’ll come in two colors: Pearl [&#8230;] The post REDMI Clip Neo specs teased: 12mm",
+      "published": "2026-10-23T13:13:59+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f17e581eceac6a16",
+      "title": "vivo Y600 carrier listing reveals key specs ahead of launch",
+      "url": "https://www.gsmarena.com/vivo_y600_carrier_listing_reveals_key_specs_ahead_of_launch-news-75186.php",
+      "canonical": "https://www.gsmarena.com/vivo_y600_carrier_listing_reveals_key_specs_ahead_of_launch-news-75186.php",
+      "summary": "vivo has already confirmed that the Y600 will launch in China on October 30, with pre-orders opening on October 26. Now, the phone has shown up in China Telecom's terminal database with the model number V2607A, and the listing reveals most of its key specs. It also shows us the phone in official-looking images. According to the listing, the Y600 has a 6.83-inch screen, the Dimensity 7300e chipset ",
+      "published": "2026-10-23T13:56:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c11a385381badb32",
+      "title": "Xiaomi Mijia Water Purifier 3 1200G announced with 50 ton purification capacity, 13-stage filtration system",
+      "url": "https://www.gizmochina.com/2026/10/23/xiaomi-mijia-water-purifier-3-1200g-up-for-pre-order-with-50-ton-capacity-13-stage-filtration-system-3-74-l-min-flow-rate/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/xiaomi-mijia-water-purifier-3-1200g-up-for-pre-order-with-50-ton-capacity-13-stage-filtration-system-3-74-l-min-flow-rate",
+      "summary": "Xiaomi has started taking pre-orders for the Mijia Water Purifier 3 1200G. Official sales are set to begin on October 30, with the starting price set at 1,499 yuan, which roughly translates to $225. It’s aimed at families who want reliable, high-volume purified water without any chemical additives in the filter media. The unit sticks [&#8230;] The post Xiaomi Mijia Water Purifier 3 1200G announced",
+      "published": "2026-10-23T19:07:08+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1b12ed74f221f40d",
+      "title": "Huawei reveals Pura 90 Plus with 1 TB and 1-inch sensor shortly before launch",
+      "url": "https://www.notebookcheck.net/Huawei-reveals-Pura-90-Plus-with-1-TB-and-1-inch-sensor-shortly-before-launch.1432170.0.html",
+      "canonical": "https://www.notebookcheck.net/Huawei-reveals-Pura-90-Plus-with-1-TB-and-1-inch-sensor-shortly-before-launch.1432170.0.html",
+      "summary": "Huawei's latest premium mid-range smartphone will be officially unveiled in just a few days. Huawei is now previewing the Pura 90 Plus in four colors, confirming that the device will get a fresh look with a rounded frame.",
+      "published": "2026-10-23T11:35:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a7ba5fc5d7dbb0a0",
+      "title": "Apple is testing iPhone Duo 2 prototype with this key upgrade",
+      "url": "https://www.gsmarena.com/apple_is_testing_iphone_duo_2_prototype_with_this_key_upgrade-news-75176.php",
+      "canonical": "https://www.gsmarena.com/apple_is_testing_iphone_duo_2_prototype_with_this_key_upgrade-news-75176.php",
+      "summary": "The iPhone Duo is now slowly making its way to users who placed their pre-orders last week and the first round of reviews are already out. The consensus is that it suffers from typical first-gen product shortcomings and most reviewers are not too fond of the Touch ID sensor. Depending on the orientation that you’re holding the device, it can be hard to reach and it also requires you to hold your f",
+      "published": "2026-10-23T00:41:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 review",
+        "+4 pre-order",
+        "+3 prototype",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c3b50917c226e7b9",
+      "title": "Monster Hunter Outlanders Mobile: Release date, specs weapons",
+      "url": "https://www.notebookcheck.net/Monster-Hunter-Outlanders-hits-iOS-and-Android.1432116.0.html",
+      "canonical": "https://www.notebookcheck.net/Monster-Hunter-Outlanders-hits-iOS-and-Android.1432116.0.html",
+      "summary": "Monster Hunter Outlanders launches October 29 on iOS and Android. Review the seven-weapon roster, Charge Blade, 4-player co-op, and the hardware requirements first.",
+      "published": "2026-10-23T10:09:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 release date",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6bb23fc8bed3496d",
+      "title": "iPhone Duo is now shipping",
+      "url": "https://www.gsmarena.com/iphone_duo_is_now_shipping-news-75182.php",
+      "canonical": "https://www.gsmarena.com/iphone_duo_is_now_shipping-news-75182.php",
+      "summary": "After being on pre-order for a whole week, the iPhone Duo is now officially available across 70 countries and regions. Those who placed their pre-orders on time last week will hopefully be getting their devices today and Apple will have limited supplies of Duo units at its physical stores too. Users who are currently trying to secure a Duo online are in for a long wait, with shipments being pushed",
+      "published": "2026-10-23T10:19:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/delta-emulator-iphone-duo-nintendo-ds-3727110/"
+      ]
+    },
+    {
+      "id": "dd667461a3b17337",
+      "title": "Foldable iPad could be Apple’s version of Huawei MateBook Fold, suggests new leak",
+      "url": "https://www.gizmochina.com/2026/10/23/foldable-ipad-could-be-apples-version-of-huawei-matebook-fold-suggests-new-leak/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/foldable-ipad-could-be-apples-version-of-huawei-matebook-fold-suggests-new-leak",
+      "summary": "Chinese tipster @Kang recently claimed that Apple is testing a “foldable giant tablet,” and the overall design might take some cues from Huawei’s MateBook Fold. The report lines up with earlier predictions from analyst Ming-Chi Kuo that Apple is aiming for a foldable iPad around 2028. When unfolded, the device is expected to offer an [&#8230;] The post Foldable iPad could be Apple&#8217;s version ",
+      "published": "2026-10-23T18:34:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Apple-iPad-Duo-foldable-tablet-taking-design-cues-from-Huawei-MateBook-Fold.1432455.0.html",
+        "https://www.ithome.com/1/017/252.htm"
+      ]
+    },
+    {
+      "id": "c2986a617e4772ba",
+      "title": "Huawei announces Pura 90 Plus with curved frames and triangular camera module",
+      "url": "https://www.gizmochina.com/2026/10/23/huawei-announces-pura-90-plus-with-curved-frames-and-triangular-camera-module/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/huawei-announces-pura-90-plus-with-curved-frames-and-triangular-camera-module",
+      "summary": "Huawei opened pre-orders for the Huawei Pura 90 Plus in China today and released the phone&#8217;s first official teaser. It joins the family that Huawei launched in April with the Pura 90, Pura 90 Pro, and Pura 90 Pro Max, and it is the one model that skips the flat-edge look. Pre-orders begin at 10:08 [&#8230;] The post Huawei announces Pura 90 Plus with curved frames and triangular camera modul",
+      "published": "2026-10-23T03:49:51+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8e3900a4ce68b943",
+      "title": "Redmi K100 Roundup: Everything you need to know before launch",
+      "url": "https://www.gizmochina.com/2026/10/23/redmi-k100-roundup-everything-you-need-to-know-before-launch/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/redmi-k100-roundup-everything-you-need-to-know-before-launch",
+      "summary": "Redmi is set to launch the Redmi K100 smartphone in China on October 27, two months after the company announced the Redmi K100 and K100 Pro Max. The latter two phones got rebranded as the Poco F9 Pro and F9 Ultra globally. The Xiaomi sub-brand is finally ready to unveil the vanilla model, and in [&#8230;] The post Redmi K100 Roundup: Everything you need to know before launch appeared first on Gizm",
+      "published": "2026-10-23T07:53:40+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2b8ad21b8cd6979d",
+      "title": "Here's your first look at Samsung's upcoming Galaxy Fit4",
+      "url": "https://www.gsmarena.com/heres_your_first_look_at_samsungs_upcoming_galaxy_fit4-news-75183.php",
+      "canonical": "https://www.gsmarena.com/heres_your_first_look_at_samsungs_upcoming_galaxy_fit4-news-75183.php",
+      "summary": "Samsung is expected to launch a successor to its affordable Galaxy Fit3 fitness tracker soon. While we await an official announcement, leaked renders of the alleged Galaxy Fit4 have surfaced online, offering a first look at its design and color options. The leaked renders and videos suggest that the Galaxy Fit4 could look almost identical to its predecessor. The upcoming fitness tracker appears to",
+      "published": "2026-10-23T11:19:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c4c74b1a1738151f",
+      "title": "OnePlus Ace 7/Pro color options confirmed ahead of October 29 launch",
+      "url": "https://www.gizmochina.com/2026/10/23/oneplus-ace-7-pro-color-options-confirmed-ahead-of-october-29-launch/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/oneplus-ace-7-pro-color-options-confirmed-ahead-of-october-29-launch",
+      "summary": "OnePlus is getting ready to add to its Ace series with the Ace 7 and Ace 7 Pro. Both will officially debut in China on October 29. Pre-orders are already open, and the company has now shown the full colour options. The standard Ace 7 comes in Tempered, Midnight Black, and Glossy White (also called [&#8230;] The post OnePlus Ace 7/Pro color options confirmed ahead of October 29 launch appeared firs",
+      "published": "2026-10-23T16:01:57+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d52a9ef6ff135666",
+      "title": "Samsung brings Certified Re-Newed Galaxy S24 and S25 phones to Amazon at affordable prices",
+      "url": "https://www.gizmochina.com/2026/10/23/samsung-brings-certified-re-newed-galaxy-s24-and-s25-phones-to-amazon-at-affordable-prices/",
+      "canonical": "https://www.gizmochina.com/2026/10/23/samsung-brings-certified-re-newed-galaxy-s24-and-s25-phones-to-amazon-at-affordable-prices",
+      "summary": "If you’ve been eyeing a high-end Samsung phone but didn’t want to drop the full retail amount, there’s finally a solid new option. For the first time, Samsung is selling its official Certified Re-Newed Galaxy phones directly on Amazon. That means you can get a manufacturer-backed refurbished phone instead of gambling on some random third-party [&#8230;] The post Samsung brings Certified Re-Newed G",
+      "published": "2026-10-23T05:42:53+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 backed",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8a9e01e26523b6c5",
+      "title": "Fujitsu unveils 886g Godzilla laptop with AMD Ryzen AI 400 processors and exclusive design",
+      "url": "https://www.notebookcheck.net/Fujitsu-unveils-886g-Godzilla-laptop-with-AMD-Ryzen-AI-400-processors-and-exclusive-design.1432168.0.html",
+      "canonical": "https://www.notebookcheck.net/Fujitsu-unveils-886g-Godzilla-laptop-with-AMD-Ryzen-AI-400-processors-and-exclusive-design.1432168.0.html",
+      "summary": "Fujitsu has launched a Godzilla-themed version of its lightweight FMV Zero laptop in Japan. The 14-inch Copilot+ PC weighs approximately 886g, features AMD Ryzen AI 400 processors and starts at ¥265,100 (around $1,680 at the time of writing).",
+      "published": "2026-10-23T12:32:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c650abf6908143b9",
+      "title": "COROS Dura 2 Solar In-Depth Review: The Good, the Bad, and The Ugly",
+      "url": "https://www.dcrainmaker.com/2026/10/coros-dura-2-solar-in-depth-review.html",
+      "canonical": "https://www.dcrainmaker.com/2026/10/coros-dura-2-solar-in-depth-review.html",
+      "summary": "COROS has just announced the new COROS Dura 2, a unit that more than doubles the price of the existing and now discontinued Dura 1, while still maintaining it’s industry-leading battery life claims. Atop that there’s a handful of new &#8230; Read More Here &#8594;",
+      "published": "2026-10-22T13:00:34+00:00",
+      "source_id": "dcrainmaker",
+      "source": "DC Rainmaker",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a4aa2459a1cec154",
+      "title": "Greg Joswiak talks iPhone Duo in-store availability and demand ahead of launch",
+      "url": "https://9to5mac.com/2026/10/22/greg-joswiak-talks-iphone-duo-in-store-availability-and-demand-ahead-of-launch/",
+      "canonical": "https://9to5mac.com/2026/10/22/greg-joswiak-talks-iphone-duo-in-store-availability-and-demand-ahead-of-launch",
+      "summary": "Friday is iPhone Duo launch day, and there are a lot of eager customers hoping to walk into an Apple Store and get one after a messy pre-order launch . In a new interview with TechRadar , Apple marketing SVP Greg Joswiak offered insight into demand and in-store availability for the first foldable iPhone. more…",
+      "published": "2026-10-23T03:15:09+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "be684c5c7da1f436",
+      "title": "Samsung Galaxy S27 Ultra and S27 Pro batteries pictured in a new certification",
+      "url": "https://www.gsmarena.com/samsung_galaxy_s27_ultra_and_s27_pro_batteries_pictured_in_a_new_certification-news-75177.php",
+      "canonical": "https://www.gsmarena.com/samsung_galaxy_s27_ultra_and_s27_pro_batteries_pictured_in_a_new_certification-news-75177.php",
+      "summary": "The Galaxy S27 Pro and Galaxy S27 Ultra have been making the certification rounds for a while now, and their batteries have just shown up in the Safety Korea database, complete with photos. The batteries have the model numbers EB-BS957CBY and EB-BS958DBY, which line up with the S27 Pro's and S27 Ultra's SM-S957 and SM-S958 model numbers, and both are made by Zhuhai CosMX Power in China. Unfortunat",
+      "published": "2026-10-23T05:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police",
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/samsung-galaxy-s27-ultra-pro-battery-photos-first-time/",
+        "https://www.sammobile.com/news/galaxy-s27-pro-ultra-batteries-seen-first-time/"
+      ]
+    },
+    {
+      "id": "1515a47dbe252063",
+      "title": "Leica M12 said to launch soon with outdated full-frame sensor",
+      "url": "https://www.notebookcheck.net/Leica-M12-said-to-launch-soon-with-outdated-full-frame-sensor.1432165.0.html",
+      "canonical": "https://www.notebookcheck.net/Leica-M12-said-to-launch-soon-with-outdated-full-frame-sensor.1432165.0.html",
+      "summary": "The Leica M12 could be officially unveiled in just a few months. However, the full-frame rangefinder camera from Germany could disappoint many customers, as Leica is reportedly using an outdated sensor and changing the controls.",
+      "published": "2026-10-23T11:08:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e0cf6d8803023e4f",
+      "title": "ASUS Rolls Out FSR 4.1 Preview for ROG Xbox Ally Handhelds",
+      "url": "https://www.techpowerup.com/354078/asus-rolls-out-fsr-4-1-preview-for-rog-xbox-ally-handhelds",
+      "canonical": "https://www.techpowerup.com/354078/asus-rolls-out-fsr-4-1-preview-for-rog-xbox-ally-handhelds",
+      "summary": "ASUS has started rolling out a preview GPU driver that brings AMD FSR 4.1 upscaling to the ROG Xbox Ally X and ROG Xbox Ally X20. Owners can grab it through Armoury Crate SE under Update Center, then Preview Updates. This follows AMD's announcement earlier this week that FSR 4.1 is expanding to Radeon RX 6000 series GPUs, APUs, and Xbox. According to ASUS, the handheld version runs on a lighter mo",
+      "published": "2026-10-23T18:19:58+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2f2c5f2118b349e0",
+      "title": "Apple reportedly orders 44% more iPhone Duo units from its suppliers",
+      "url": "https://www.gsmarena.com/apple_reportedly_orders_44_more_iphone_duo_units_from_its_suppliers-news-75174.php",
+      "canonical": "https://www.gsmarena.com/apple_reportedly_orders_44_more_iphone_duo_units_from_its_suppliers-news-75174.php",
+      "summary": "The iPhone Duo has been in very high demand since pre-orders started last week, with shipping dates slipping all the way to January within hours. Now, a new report claims Apple has responded by raising its iPhone Duo shipment target by 44%. [#InlinePriceWidget,13804,1#] According to supply chain sources, Foxconn and component makers have received instructions reflecting an increase from 9.7 millio",
+      "published": "2026-10-22T21:37:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 price",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "108e88be55493c93",
+      "title": "Galaxy Studio headphones get one-step closer to launch",
+      "url": "https://www.sammobile.com/news/galaxy-studio-headphones-launch-closer/",
+      "canonical": "https://www.sammobile.com/news/galaxy-studio-headphones-launch-closer",
+      "summary": "Although Samsung has launched several wireless earbuds over the years, it has been over a decade since it released a pair of wireless over-ear headphones. A few months ago, we reported that the company is working on new Galaxy headphones, and they now seem to be getting closer to an official launch. The upcoming wireless [ ]",
+      "published": "2026-10-23T12:09:17+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 earbuds",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "あの頃、未来だった光を、いま腕元に。本物のニキシー管を搭載した腕時計「UltraNixie」10月23日（金）よりMakuakeで先行販売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000191581.html",
+      "summary": "[株式会社ノエルコーポレーション] 株式会社ノエルコーポレーション（所在地：大阪府大阪市西区）は、本物のIN-16ニキシー管を2本搭載した腕時計「UltraNixie（ウルトラニキシー）」を、2026年10月23日（金）9時より、応援購入サービス「Makuake」...",
+      "published": "2026-10-23T13:10:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "1d2852c32f3e74f6"
+    },
+    {
+      "title": "レンズ交換キット付き「DJI Osmo 360 II ゲット&セットコンボ」販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000001345.000016343.html",
+      "summary": "",
+      "published": "2026-10-23T12:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "40df61d36b2a958f"
+    },
+    {
+      "title": "長すぎたスペースバーに一石を投じる！14mmトラックボール搭載キーボード「Keychron C3 Pro Trackball 8K」が登場。ギズマートにて10月28日より先行販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000157.000144504.html",
+      "summary": "[株式会社TNLメディアジーン] 株式会社メディアジーン（本社：東京都渋谷区、代表取締役 CEO：今田素子）が運営する「GIZMART」（以下、ギズマート）は、世界的なキーボードブランド「Keychron（キークロン）」の14mmトラックボールを搭載した...",
+      "published": "2026-10-23T09:15:17+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "de2dc3b249cb1560"
+    },
+    {
+      "title": "「駅長おすすめのJQ MALL」限定特典付き！「2027 JR KYUSHU TRAINS CALENDAR」予約販売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000001439.000037933.html",
+      "summary": "",
+      "published": "2026-10-23T08:42:43+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "2991c611549a2443"
+    },
+    {
+      "title": "キャンプの夜、明かりも虫対策もスマートに。coody GLOWNA専用「蚊捕獲ライト」が一般販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000066.000102102.html",
+      "summary": "",
+      "published": "2026-10-23T08:08:54+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "46d801a9a51d60c2"
+    },
+    {
+      "title": "エクソスケルトン型ロボットスーツ「Keeogoメディカル」日本国内における「管理医療機器」認証を取得",
+      "url": "https://prtimes.jp/main/html/rd/p/000000049.000132758.html",
+      "summary": "",
+      "published": "2026-10-23T08:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "90b31744ef4440aa"
+    },
+    {
+      "title": "秋葉原・神田エリアに誕生！ファーウェイ日本初の直営アフターサービス拠点「HUAWEI公式サービスセンター」が本日10月23日（金）オープン！オープニングセレモニーを開催",
+      "url": "https://prtimes.jp/main/html/rd/p/000000641.000024671.html",
+      "summary": "[ファーウェイ・ジャパン（コンシューマ向け端末事業部）] [画像1: https://prcdn.freetls.fastly.net/release_image/24671/641/24671-641-2655a18b7b36edab7f755595ce6f5de6-2849x1899.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&...",
+      "published": "2026-10-23T07:15:22+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "e53fedd9eaa55ed8"
+    },
+    {
+      "title": "「CLIP STUDIO PAINT PRO」店舗販売向けカード版をリニューアル　10月23日（金）より全国の家電量販店で発売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000001180.000005223.html",
+      "summary": "[株式会社セルシス] セルシスは、イラスト・マンガ・Webtoon・アニメーション制作アプリ「CLIP STUDIO PAINT」のスタンダードモデルとして提供している「CLIP STUDIO PAINT PRO 1年ライセンス 店舗販売向けカード版」のデザインを刷...",
+      "published": "2026-10-23T07:15:22+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "0b481eb97890842d"
+    },
+    {
+      "title": "【新発売】約36gの超小型ボディにSONY CMOSセンサー採用で4K撮影が可能！SUNCONNECTIONの「ミニカメラ・トイカメラ」がAmazonで販売開始！ChibiGEARシリーズ第3弾",
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000170679.html",
+      "summary": "[株式会社サンコネクション] 株式会社サンコネクション（本社：［千代田区神田三崎町3-10-17 3F］、以下「サンコネクション」）は、自社ブランド「ChibiGEAR」より、コンパクトなサイズと多彩な撮影機能を備えた「ミニカメラ」を発売いたしま...",
+      "published": "2026-10-23T06:15:40+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "64b718c34a14bfcb"
+    },
+    {
+      "title": "Dangbei、最新スマートプロジェクター「N3 Max Sound」を日本で販売開始　量販店価格85,580円の高コスパモデル",
+      "url": "https://prtimes.jp/main/html/rd/p/000000052.000116057.html",
+      "summary": "[Hangzhou Dangbei Network Technology Co., Ltd] [画像1: https://prcdn.freetls.fastly.net/release_image/116057/52/116057-52-91a19c351fa75901ae9a6b0578d58d58-1636x1359.png?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&...",
+      "published": "2026-10-23T05:45:26+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "66a472416ae7d4b3"
+    },
+    {
+      "title": "高千穂交易、サイバー攻撃に悪用される脆弱性をAIで検証する「XBOW」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000121.000050833.html",
+      "summary": "",
+      "published": "2026-10-23T04:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "7cd0cd8841eb02e5"
+    },
+    {
+      "title": "国内初「SKZOOドローン&花火ショー」に2万人の来園者が熱狂「SKZOO in 富士急ハイランド Produced by GiGO」メインイベントが開催",
+      "url": "https://prtimes.jp/main/html/rd/p/000001217.000034930.html",
+      "summary": "",
+      "published": "2026-10-23T03:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "40dd88a9f71a018d"
+    },
+    {
+      "title": "大型エアテントの空気入れを自動化。WAQ「AIR VISTA」専用の電動ポンプを新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000093.000028853.html",
+      "summary": "",
+      "published": "2026-10-23T01:30:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "4724f1eaddecb0a3"
+    },
+    {
+      "title": "80年代レトロと現代のサウンド技術で甦るBluetoothスピーカー、PHILIPS Moving Sound The Roller / The TubeがGREEN FUNDINGにてスタート",
+      "url": "https://prtimes.jp/main/html/rd/p/000000736.000051534.html",
+      "summary": "",
+      "published": "2026-10-23T01:08:29+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "edc0596ed140f0a1"
+    },
+    {
+      "title": "【賃貸ポーカー】Amazonにて10月23日より先行販売開始――EdisonBrainの新作カードゲーム",
+      "url": "https://prtimes.jp/main/html/rd/p/000000087.000054796.html",
+      "summary": "",
+      "published": "2026-10-23T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "7ae4a383fb0cd2e6"
+    },
+    {
+      "title": "j5create、最新規格に対応した高機能ドッキングステーション・USBハブ・マグネット式ワイヤレス急速充電器の計3製品を10月23日より新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000043.000085889.html",
+      "summary": "",
+      "published": "2026-10-23T00:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "0841409a081a3440"
+    },
+    {
+      "title": "現代の技術で再構築されたクラシックな佇まい。日常に寄り添う軽量コンパクトな大口径レンズ。LEGACY（伝承）シリーズのAPS-C対応AF単焦点レンズ「SG-image AF 35mm F1.4」新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000153.000135883.html",
+      "summary": "",
+      "published": "2026-10-22T23:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "14b6ff5f13fd5055"
+    }
+  ]
+}
