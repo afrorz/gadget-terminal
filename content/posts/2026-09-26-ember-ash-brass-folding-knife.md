@@ -1,6 +1,6 @@
 ---
 title: 東京のナイフブランドEMBERがKickstarterで1,363%達成の「EMBER ASH」を国内Makuakeへ、9月29日に事前予約開始
-seo_title: EMBER ASHはMakuakeで9/29予約開始
+seo_title: EMBER ASHはMakuakeで募集中、11,800円から
 slug: ember-ash-brass-folding-knife
 keyword: EMBER ASH
 category: weird
@@ -18,7 +18,7 @@ giteki:
   checked: 2026-09-26
   radio: ""
   note: 無線機能のない刃物
-x_hook: 東京のナイフブランドが先に海外Kickstarterで結果を出してから日本に「逆上陸」する。110gの真鍮ナイフは目標の1,363%を集めたが、刃渡りは掲載時点で公開されていない
+x_hook: 黒いG10と無垢真鍮を組み合わせた110gの折りたたみナイフ「EMBER ASH」が、Makuakeで国内の応援購入を受け付けている。11,800円から、12月23日まで。
 origin: JPN 国内
 status: SCHEDULED
 status_note: Makuakeでの予約受付は9/29 11時開始予定
@@ -33,13 +33,25 @@ buy:
     ships_jp: true
     giteki: 対象外
     note: 掲載時点はMakuakeでの事前登録(147人登録、掲載時点)のみで、支援(購入)受付は2026年9月29日11時開始予定。刃渡りなど詳細寸法は掲載時点で公開されていない。無線機能を持たないため技適の対象外。
+japan:
+  status: クラウドファンディング中
+  checked: 2026-10-24
+  summary: 株式会社RE-IDEAがMakuakeで応援購入を募集中。終了は2026年12月23日、お届けは2027年3月末までの予定。一般販売予定価格は14,800円(税込)で、早割は受付終了、Makuake割(20%オフ)は11,800円(いずれも掲載時点)。無線機能のない刃物のため技適は対象外。刃渡りの数値はページから確認できていない。
+  buy:
+  - name: Makuake(株式会社RE-IDEA)
+    url: https://www.makuake.com/project/ember-ash/
+    price: 11,800円(Makuake割、掲載時点)
+    giteki: 対象外
+  source:
+    title: Makuake EMBER ASHプロジェクトページ
+    url: https://www.makuake.com/project/ember-ash/
 faq:
   - q: 日本で買えますか
-    a: Makuakeで2026年9月29日11時から国内向けの先行予約(支援)受付が始まる予定です。掲載時点はまだ事前登録の段階です。
+    a: Makuakeで国内向けの応援購入を受け付けています(2026年12月23日まで、お届けは2027年3月末までの予定、2026年10月24日確認)。
   - q: 技適は取得していますか
     a: 無線機能を持たない刃物のため、技適の対象外です。
   - q: いくらですか
-    a: 募集開始後の早期割引想定価格は7,900円からです(掲載時点、確定は9/29の募集開始後)。
+    a: Makuake割で11,800円、一般販売予定価格は14,800円(税込)です。7,900円などの早割は受付終了と表示されています(2026年10月24日確認)。
   - q: 日本国内で携帯できますか
     a: 刃渡りが掲載時点で公開されていないため断定できません。軽犯罪法では正当な理由なく刃体6cmを超える刃物を携帯すると罰則対象になり、銃刀法でも一定の刃物は所持自体が規制対象です。携帯目的での購入は刃渡りを確認してから判断してください。
 sources:
