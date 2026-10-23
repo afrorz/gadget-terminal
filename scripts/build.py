@@ -1550,6 +1550,35 @@ def render_embeds(p: dict) -> tuple[list[tuple[str, str]], bool]:
     return blocks, needs_x
 
 
+# 記事の末尾に、分野の合う特集への案内を1行出す(2026-10-23 AI 会議の提案 20261022-monetizer-2、本人採用)。
+# 特集には日本で買える製品の購入先が載っているのに、記事から特集へ行く道がナビの「特集」しかなかった。
+# 記事生成の指示は変えずにビルドで付ける(技適の本文リンクと同じ考え方。過去記事にも効く)。
+# 合うかどうかは、まず特集の related に入っている記事か、次に題名とタグの言葉で決める。
+# 技適の特集は本文の「技適」のリンクで足りるので出さない。白いガジェットは言葉では決めにくいので related だけ。
+# 固定の広告枠にしないため、合う特集が無い記事には何も出さない。
+FEATURE_HINT_WORDS = {
+    "eink-devices": ("電子ペーパー", "e ink", "eink", "e-ink"),
+    "odd-keyboards": ("キーボード", "keyboard"),
+    "retro-design": ("レトロ", "ゲームボーイ", "ファミコン", "retro", "anbernic"),
+    "smart-glasses": ("スマートグラス", "arグラス", "aiグラス", "ディスプレイグラス", "xreal", "rayneo", "ray-ban"),
+}
+FEATURES_FOR_HINT: list[dict] = []   # main() が特集を読んだあとに入れる
+
+
+def feature_hint(p: dict) -> str:
+    feats = [f for f in FEATURES_FOR_HINT if f.get("slug") != GITEKI_FEATURE_SLUG]
+    hit = next((f for f in feats if p["slug"] in (f.get("related") or [])), None)
+    if not hit:
+        text = " ".join([str(p.get("title") or "")] + [str(x) for x in (p.get("tags") or [])]).lower()
+        hit = next((f for f in feats
+                    if any(w in text for w in FEATURE_HINT_WORDS.get(f.get("slug"), ()))), None)
+    if not hit:
+        return ""
+    return (f'<p class="feature-hint"><span class="feature-hint-label">特集</span>'
+            f'この分野で、いま日本で買える物を製品ごとにまとめています。'
+            f'<a href="{u(hit["path"])}">{html.escape(str(hit.get("title") or ""))}</a></p>')
+
+
 def render_post(site: dict, p: dict, others: list[dict]) -> str:
     s = site["site"]
     cat = site["categories"].get(p.get("category"), {"label": "その他", "slug": "misc"})
@@ -1735,6 +1764,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {buy_html}
     {alts_html}
     {gear_html}
+    {feature_hint(p)}
   {faq_html}
   {sources}
   </article>
@@ -2746,6 +2776,9 @@ img{max-width:100%}
 .alt-ad{background:var(--rule-2);color:var(--ink-2);padding:2px 6px;border-radius:2px;letter-spacing:.1em}
 .alts ul{list-style:none;padding:0;margin:0}
 .alts.gear{margin-top:32px}
+.feature-hint{max-width:var(--measure);margin:28px 0 0;padding:14px 16px;border:1px solid var(--rule-2);border-radius:10px;background:var(--surface);color:var(--ink-2);font-size:14px;line-height:1.75}
+.feature-hint a{color:var(--ink);font-weight:700}
+.feature-hint-label{display:inline-block;margin-right:8px;padding:1px 8px;border-radius:999px;background:var(--accent);color:#fff;font-family:var(--mono);font-size:11px;letter-spacing:.12em}
 .alt-item{margin:0 0 16px;display:flex;gap:14px;align-items:flex-start}
 .alt-thumb{flex:none;display:block;width:64px;height:64px;border-radius:4px;overflow:hidden;
   background:var(--surface);border:1px solid var(--rule)}
@@ -3026,6 +3059,7 @@ def main() -> int:
         features = [f for f in (parse_feature(x)
                                 for x in sorted(FEATURES_DIR.glob("*.md"))) if f]
         features.sort(key=lambda f: str(f.get("updated") or ""), reverse=True)
+    FEATURES_FOR_HINT[:] = features
     # 日付 → priority（front matter で 1 以上を指定するとその日の先頭に来る）→ slug
     posts.sort(key=lambda p: (p["date"], p.get("priority", 0), p["slug"]), reverse=True)
     # 便名は掲載が古い順の通し番号。既存記事の番号がずれないよう昇順で振る。
