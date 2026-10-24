@@ -1,0 +1,32 @@
+ギターのアンプも録音も採譜も、250gの1台に入った。ロサンゼルスのNeko Engineeringの「Neko」は、Kickstarterで目標3万ドルを開始数日で10倍超まで伸ばした。449ドル（約7万円）から。今週の海外ガジェット5選です。
+
+1. Neko（449ドル、約7万円）
+ギターに挿す2本のワイヤレスジャックと3.5インチ画面で、音作り、録音、曲からギターだけを消す練習、採譜までこなす。
+日本向けの送料と技適は確認できていない。
+https://gadgetterminal.com/posts/neko-pocket-guitar-studio.html
+
+2. Amoeba One（94ドル、約1万円）
+キーホルダー大の4Gスマホ。通話、地図、配車、銀行アプリは使えるが、SNSのフィードは見られない作り。届くのは2027年10月予定。
+技適は確認できず、4Gの対応バンドも未公表で、日本の回線で使えるかは言えない。
+https://gadgetterminal.com/posts/amoeba-one-keychain-phone-kickstarter.html
+
+3. Dinooh（価格未発表）
+撮るたびに巻き上げレバーを引くデジタルカメラ。背面の小さな画面は再生ではなく、ゲームボーイ風のアニメを動かすためにある。
+募集はまだ始まっておらず、日本向けの販売は確認できていない。
+https://gadgetterminal.com/posts/dinooh-digital-film-camera-kickstarter.html
+
+4. AYN Odin 3 Portal（399ドル、約6万円）
+7型120Hzの有機ELに9,000mAhを積んだAndroid携帯ゲーム機。重さは約450g、出荷は11月上旬の予定。
+国内の正規取り扱いと技適は確認できておらず、買うなら個人輸入になる。
+https://gadgetterminal.com/posts/ayn-odin-3-portal.html
+
+5. GL.iNet Mango 2（39.90ドル、約6千円）
+100gの黄色い小型ルーター。初代は2.4GHzだけだったが、5GHzが最大866Mbpsになり、WireGuardやTailscaleも使える。
+技適は総務省のデータベースで確認できた（201-260546）。国内の販売店は見つかっていない。
+https://gadgetterminal.com/posts/glinet-mango-2.html
+
+クラウドファンディングの製品は、出資は購入ではありません。価格は掲載時点です。
+
+毎朝3本、日本で買えるか・使えるかまで調べています。
+https://gadgetterminal.com/
+#ガジェット #海外ガジェット
