@@ -9,6 +9,7 @@ x_hook: |
 keyword: SmallTV-Max
 category: pc
 date: 2026-10-24
+pick: true
 kicker: GeekMagicブランドのFUMANTUが、4.3インチの卓上ディスプレイ「SmallTV-Max」をKickstarterで募集している。天板の回転つまみで時計、天気、相場、タイマー、動く壁紙を切り替える。49ドルから、お届け予定は2027年1月。
 tags:
 - SmallTV-Max
