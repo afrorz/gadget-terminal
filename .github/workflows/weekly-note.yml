@@ -177,6 +177,10 @@ jobs:
           git pull -q
           D="${NOTE_DATE:-$(TZ=Asia/Tokyo date +%Y-%m-%d)}"
           if [ ! -f "data/note/$D.md" ]; then echo "data/note/$D.md がありません。送信をスキップします"; exit 0; fi
+          # 見出し画像の元(文字だけの画像)を作るのに日本語フォントが要る。無いと画像が作れず、
+          # TamakoStock が製品写真を合成できないまま文字だけで届いた(2026-10-25 本人の指摘、
+          # 10/18 に入れた合成が自動の流れでは一度も動いていなかった)。deploy.yml と同じものを入れる。
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
           pip install -r requirements.txt --break-system-packages -q
           python3 scripts/notify_note.py "data/note/$D.md" \
             "https://tamakostock.web.app/api/ingest-note" \

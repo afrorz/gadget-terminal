@@ -54,7 +54,12 @@ def header_base(stem: str) -> str:
         site = yaml.safe_load((ROOT / "config" / "site.yaml").read_text(encoding="utf-8"))
         ogp.render(str(fm.get("title") or ""), str(fm.get("label") or "WEEKLY"), site["site"]["title"], png,
                    photo_credit="製品画像: 各メーカー公式サイト・クラウドファンディングページより")
-    return base64.b64encode(png.read_bytes()).decode("ascii") if png.exists() else ""
+    if not png.exists():
+        # フォントが無い環境だと ogp.render が黙って何も作らない。写真の合成が飛ぶので目立たせる
+        print("⚠ 見出し画像の元を作れませんでした(日本語フォントが無い?)。"
+              "TamakoStock では製品写真を合成できず、文字だけの見出し画像になります")
+        return ""
+    return base64.b64encode(png.read_bytes()).decode("ascii")
 
 
 def main() -> int:
