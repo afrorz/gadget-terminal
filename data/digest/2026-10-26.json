@@ -1,0 +1,702 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T04:54:31.299761+09:00",
+  "stats": {
+    "fetched": 704,
+    "unique": 663,
+    "new": 220,
+    "clusters": 211,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "61873979116a0012",
+      "title": "Xgimi launches RS30 Pro High Brightness Edition with 4500 CVIA lumens and 4K 120Hz support",
+      "url": "https://www.gizmochina.com/2026/10/25/xgimi-rs30-pro-high-brightness-edition-projector-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/xgimi-rs30-pro-high-brightness-edition-projector-launched-specs-price",
+      "summary": "Xgimi has officially launched its RS30 Pro High Brightness Edition projector in China. The new projector is now available for purchase on JD.com, priced at 7,299 yuan ($1,092). Xgimi RS30 Pro High Brightness Edition Specs Also Read The Best Home Theater Projectors in 2026 The primary update over the standard RS30 Pro, which launched earlier [&#8230;] The post Xgimi launches RS30 Pro High Brightnes",
+      "published": "2026-10-25T17:47:43+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 25,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 specs",
+        "+3 projector",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/017/677.htm"
+      ]
+    },
+    {
+      "id": "a78cf487d6214205",
+      "title": "Huawei Pura 90 Plus appears in live images ahead of launch, chipset revealed",
+      "url": "https://www.gsmarena.com/huawei_pura_90_plus_appears_in_live_images_ahead_of_launch_chipset_revealed-news-75199.php",
+      "canonical": "https://www.gsmarena.com/huawei_pura_90_plus_appears_in_live_images_ahead_of_launch_chipset_revealed-news-75199.php",
+      "summary": "Huawei officially confirmed the Pura 90 Plus earlier today and opened pre-orders for it in China ahead of its October 28 launch. The company hasn't revealed any specs yet, but units of the phone are already on display in its retail stores, and the live images that have started showing up online answer one important question. The About phone screen of one of the display units lists the new Kirin 90",
+      "published": "2026-10-25T02:33:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3aa7b18a30f3da43",
+      "title": "Exynos 2700 scores 15-20% higher than Snapdragon 8EE Gen 6 inside a Xiaomi 18 Pro Max in Geekbench tests",
+      "url": "https://www.gizmochina.com/2026/10/25/exynos-2700-scores-15-20-higher-than-snapdragon-8ee-gen-6-inside-a-xiaomi-18-pro-max-in-geekbench-tests/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/exynos-2700-scores-15-20-higher-than-snapdragon-8ee-gen-6-inside-a-xiaomi-18-pro-max-in-geekbench-tests",
+      "summary": "Samsung is getting the Galaxy S27 series ready for an early 2027 launch, and the early numbers on its in-house Exynos 2700 are looking pretty interesting. According to a report from a South Korean outlet on October 25, Samsung ran some internal benchmarks that put the new chip up against Qualcomm’s Snapdragon 8 Elite Extreme [&#8230;] The post Exynos 2700 scores 15-20% higher than Snapdragon 8EE G",
+      "published": "2026-10-25T17:20:43+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 benchmark",
+        "+3 launch",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "87c782c07ed8f14c",
+      "title": "Phantom Blade Zero review leaks before release date, noting repetitive combat",
+      "url": "https://www.notebookcheck.net/Phantom-Blade-Zero-review-leaks-before-release-date-noting-repetitive-combat.1433675.0.html",
+      "canonical": "https://www.notebookcheck.net/Phantom-Blade-Zero-review-leaks-before-release-date-noting-repetitive-combat.1433675.0.html",
+      "summary": "A leaked Phantom Blade Zero review may justify healthy pre-order sales on PC and PS5. A deep combat system and thrilling boss fights are standouts of the action RPG. On the other hand, without enemies respawning, the semi-open world settings can seem barren.",
+      "published": "2026-10-25T18:09:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 review",
+        "+4 pre-order",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "901b5a04e25637b7",
+      "title": "Affordable AMD-powered Acemagic mini PC launches with port-rich chassis",
+      "url": "https://www.notebookcheck.net/Affordable-AMD-powered-Acemagic-mini-PC-launches-with-port-rich-chassis.1433428.0.html",
+      "canonical": "https://www.notebookcheck.net/Affordable-AMD-powered-Acemagic-mini-PC-launches-with-port-rich-chassis.1433428.0.html",
+      "summary": "Acemagic has launched the W1-5400U, an affordable mini PC powered by the AMD Ryzen 3 5400U. It's available with up to 16GB of LPDDR4 RAM, and there are two M.2 slots for SSDs. The starting launch price is CNY 1,599, about $234.",
+      "published": "2026-10-25T05:56:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2c04ad44273a5935",
+      "title": "Exynos 2700 has smoked the Snapdragon 8 Elite Extreme Gen 6 in tests, report says",
+      "url": "https://www.sammobile.com/news/exynos-2700-has-smoked-the-snapdragon-8-elite-extreme-gen-6-in-tests-report-says/",
+      "canonical": "https://www.sammobile.com/news/exynos-2700-has-smoked-the-snapdragon-8-elite-extreme-gen-6-in-tests-report-says",
+      "summary": "Samsung will reportedly use the Exynos 2700 in all models of the Galaxy S27 series except the Galaxy S27 Utra, which is expected to use the latest Snapdragon chip exclusively. A new report out of South Korea claims that the Exynos 2700 outperformed the Qualcomm Snapdragon 8 Elite Extreme Gen 6 in internal tests conducted [ ]",
+      "published": "2026-10-25T16:29:33+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/exynos-2700-outpaces-snapdragon-8-elite-extreme-gen-6-internal-tests/",
+        "https://www.notebookcheck.net/Samsung-Exynos-2700-reportedly-beats-flagship-Snapdragon-by-up-to-20-in-new-tests.1433421.0.html"
+      ]
+    },
+    {
+      "id": "b724e2db93eda84a",
+      "title": "Xiaomi launches Redmi G25 2027 gaming monitor with 300Hz refresh rate for just $120",
+      "url": "https://www.gizmochina.com/2026/10/25/xiaomi-redmi-g25-2027-gaming-monitor-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/xiaomi-redmi-g25-2027-gaming-monitor-launched-specs-price",
+      "summary": "Xiaomi has released a new budget gaming monitor in China. The Redmi G25 2027 is a 24.5-inch display that focuses on high refresh rates, offering a native 300Hz panel for 799 yuan (about $120). It is currently available for purchase on JD.com. Redmi G25 2027 Specifications The monitor features a 24.5-inch Fast IPS display with [&#8230;] The post Xiaomi launches Redmi G25 2027 gaming monitor with 30",
+      "published": "2026-10-25T00:19:40+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Xiaomi-launches-affordable-300Hz-gaming-monitor-with-AMD-FreeSync-Premium.1433430.0.html"
+      ]
+    },
+    {
+      "id": "e06948b033b8f161",
+      "title": "Vivo X500 Ultra’s global launch confirmed as model numbers emerge",
+      "url": "https://www.gizmochina.com/2026/10/25/vivo-x500-ultras-global-launch-confirmed-as-model-numbers-emerge/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/vivo-x500-ultras-global-launch-confirmed-as-model-numbers-emerge",
+      "summary": "Vivo&#8216;s rumored imaging flagship is no longer looking like a China-only plan. Fresh IMEI database listings point to a global Vivo X500 Ultra variant, alongside a Brazil-bound Jovi model, which strengthens the case for an international rollout after earlier chatter suggested the Ultra might stay domestic. X500 Ultra: Vivo and Jovi model numbers surface in [&#8230;] The post Vivo X500 Ultra&#82",
+      "published": "2026-10-25T13:37:06+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/017/687.htm"
+      ]
+    },
+    {
+      "id": "4898bc01c4e9f31d",
+      "title": "User Paid $800 Extra After Framework Downgrades Original RAM Capacity, Only To Receive A Faulty Laptop With “No RAM Installed” Error",
+      "url": "https://wccftech.com/user-paid-800-extra-after-framework-downgrades-original-ram-capacity/",
+      "canonical": "https://wccftech.com/user-paid-800-extra-after-framework-downgrades-original-ram-capacity",
+      "summary": "Despite paying several hundred dollars more after the company downgraded the original RAM capacity, the user still had to face difficulties getting the machine to work. Framework Delays, Downgrades, and Ships Faulty Laptop 13 Pro to User Who Paid an Additional $800 to Upgrade to Original RAM Months After Pre-Order Framework has announced maybe a couple of times that they have no choice but to incr",
+      "published": "2026-10-25T15:35:12+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 pre-order",
+        "+3 ships",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ae768f2f46c2a7d",
+      "title": "Timex launches two stunning Vontélle Marlin watches with bold designs and unique straps",
+      "url": "https://www.gizmochina.com/2026/10/24/timex-vontelle-marlin-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/24/timex-vontelle-marlin-watches-launched-specs-price",
+      "summary": "Timex has released a new collaboration with Vontélle, a US-based eyewear brand known for designing frames that accommodate a wider variety of facial structures. The partnership has resulted in two new variations of the Timex Marlin watch: a quartz chronograph gift set priced at $329, and a standard three-hand model available for $199. Both are [&#8230;] The post Timex launches two stunning Vontéll",
+      "published": "2026-10-24T19:43:27+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7cbfe89f97fc0aeb",
+      "title": "Honor Pad X10 Mini launched with 9.7-inch 90Hz display and 8000mAh battery",
+      "url": "https://www.gizmochina.com/2026/10/25/honor-pad-x10-mini-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/honor-pad-x10-mini-launched-specs-price",
+      "summary": "Honor has launched the Pad X10 Mini in China as a compact, family-friendly tablet. It packs a 9.7-inch 90Hz display, an all-metal body, and a large 8,000mAh battery, with prices starting at 1,099 yuan (~$165). Honor Pad X10 Mini specifications and features The Honor Pad X10 Mini sports a 9.7-inch LCD panel with a 2052×1152 [&#8230;] The post Honor Pad X10 Mini launched with 9.7-inch 90Hz display a",
+      "published": "2026-10-25T03:43:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b50196529c0e1a26",
+      "title": "Logitech launches Pebble Up mouse with a fold-up grip and 90-day battery",
+      "url": "https://www.gizmochina.com/2026/10/25/logitech-launches-pebble-up-mouse-with-a-fold-up-grip-and-90-day-battery/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/logitech-launches-pebble-up-mouse-with-a-fold-up-grip-and-90-day-battery",
+      "summary": "You can now get a slim wireless mouse from Logitech that changes shape. It’s called the Pebble Up, and it can either lie flat or raise the top shell for a more comfortable grip whenever you need it. It follows the Pebble Mouse 2 M350s, which Logitech introduced alongside the Pebble 2 keyboard in 2023. [&#8230;] The post Logitech launches Pebble Up mouse with a fold-up grip and 90-day battery appea",
+      "published": "2026-10-25T07:24:00+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "94a815bb5d95e0cc",
+      "title": "Nothing Ear (3) Pro teasers begin",
+      "url": "https://www.gizmochina.com/2026/10/25/nothing-ear-3-pro-teasers-begin/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/nothing-ear-3-pro-teasers-begin",
+      "summary": "Nothing is at it again with one of its classic cryptic teasers, and the community is already putting the pieces together. This one looks like it could be a pretty big step up for their earbuds lineup. The company posted on its official community forum with an image of Kingdra (the Water/Dragon Pokémon) rendered in [&#8230;] The post Nothing Ear (3) Pro teasers begin appeared first on Gizmochina .",
+      "published": "2026-10-25T11:46:03+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 official",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "17277b339a65cf53",
+      "title": "Galaxy T1 Ear-Hook earbuds bag certification in Korea",
+      "url": "https://www.gizmochina.com/2026/10/25/galaxy-t1-ear-hook-earbuds-bag-certification-in-korea/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/galaxy-t1-ear-hook-earbuds-bag-certification-in-korea",
+      "summary": "Samsung looks like it’s about to expand its audio lineup with a new form factor aimed at people who actually move around a lot. Recent regulatory filings suggest these specialized earbuds are getting closer to launch, and it seems Samsung wants a stronger presence in the fitness space beyond the usual Galaxy Buds. South Korea’s [&#8230;] The post Galaxy T1 Ear-Hook earbuds bag certification in Kor",
+      "published": "2026-10-25T12:46:29+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "55d557e6d1db7654",
+      "title": "iPhone Duo is already discounted in parts of China amid software and display issues",
+      "url": "https://www.gizmochina.com/2026/10/25/iphone-duo-is-already-discounted-in-parts-of-china-amid-software-and-display-issues/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/iphone-duo-is-already-discounted-in-parts-of-china-amid-software-and-display-issues",
+      "summary": "Apple’s first foldable, the iPhone Duo, went from launch-day hype and markups to actual discounts surprisingly fast in some Chinese channels. User reports and platform listings show the phone is now available below its official starting price in certain regions, mainly through big e-commerce subsidy programs. According to feedback across platforms, the iPhone Duo has [&#8230;] The post iPhone Duo ",
+      "published": "2026-10-25T19:14:41+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 foldable",
+        "-6 discount",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d3d72919052697b1",
+      "title": "CMF Speaker S unboxing and hands-on",
+      "url": "https://www.gsmarena.com/cmf_speaker_s_unboxing_and_handson-news-75117.php",
+      "canonical": "https://www.gsmarena.com/cmf_speaker_s_unboxing_and_handson-news-75117.php",
+      "summary": "Portable Bluetooth speakers are among the most diverse product groups nowadays. They come in all shapes and sizes, materials, colors, and pack different features. But CMF makes possibly the most interesting of them all. Meet the CMF Speaker S, a compact Bluetooth speaker that's just €69 and well worth it. Let's talk about it. First, though, here's an actual look at it over at our TikTok channel. T",
+      "published": "2026-10-24T21:59:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+5 hands-on",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8a4b189e5b5e2389",
+      "title": "Adam Audio unveils flagship H715 Reference open-back headphones for accurate monitoring",
+      "url": "https://www.notebookcheck.net/Adam-Audio-unveils-flagship-H715-Reference-open-back-headphones-for-accurate-monitoring.1433434.0.html",
+      "canonical": "https://www.notebookcheck.net/Adam-Audio-unveils-flagship-H715-Reference-open-back-headphones-for-accurate-monitoring.1433434.0.html",
+      "summary": "Adam Audio has launched the H715 Reference, its flagship open-back studio headphones featuring 40 mm titanium-plated drivers and a 9 Hz to 40 kHz frequency response for precise audio monitoring. Its Headphone Utility Plug-In enables speaker-like stereo imaging and accurate mix evaluation for music producers and audio engineers.",
+      "published": "2026-10-25T07:20:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4ec30158159c236a",
+      "title": "IQUNIX MQ80 low profile mechanical keyboard review",
+      "url": "https://www.tomshardware.com/peripherals/mechanical-keyboards/iqunix-mq80-low-profile-mechanical-keyboard-review",
+      "canonical": "https://www.tomshardware.com/peripherals/mechanical-keyboards/iqunix-mq80-low-profile-mechanical-keyboard-review",
+      "summary": "The IQUNIX MQ80 is well-made and super stylish, but it’s not quite the instant sell it used to be. Catch this one if you don’t like magnetic switches, but otherwise wait for a sale.",
+      "published": "2026-10-25T15:08:23+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7df72432dc7d7e80",
+      "title": "Garmin fixes map-related bug in update for new smartwatches",
+      "url": "https://www.notebookcheck.net/Garmin-fixes-map-related-bug-in-update-for-new-smartwatches.1433043.0.html",
+      "canonical": "https://www.notebookcheck.net/Garmin-fixes-map-related-bug-in-update-for-new-smartwatches.1433043.0.html",
+      "summary": "Garmin has announced a new stable update for the recently released Fenix 9 smartwatch. With system software version 6.73, the company has tackled a range of bugs with the wearable’s maps, alarms and a music app.",
+      "published": "2026-10-24T20:05:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 announced",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5e10d55bea3339fc",
+      "title": "OnePlus shows off Ace 7 and Ace 7 Pro colors ahead of launch",
+      "url": "https://www.notebookcheck.net/OnePlus-shows-off-Ace-7-and-Ace-7-Pro-colors-ahead-of-launch.1433049.0.html",
+      "canonical": "https://www.notebookcheck.net/OnePlus-shows-off-Ace-7-and-Ace-7-Pro-colors-ahead-of-launch.1433049.0.html",
+      "summary": "OnePlus has shared official images showing the colors of its upcoming Ace 7 series smartphones. The two phones will be available in three colors each when they launch on October 29.",
+      "published": "2026-10-25T11:37:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c666b1fd4f7d915f",
+      "title": "VW sub-brand Jetta launches M6 electric sedan in China from $11,950",
+      "url": "https://www.notebookcheck.net/VW-sub-brand-Jetta-launches-M6-electric-sedan-in-China-from-11-950.1433661.0.html",
+      "canonical": "https://www.notebookcheck.net/VW-sub-brand-Jetta-launches-M6-electric-sedan-in-China-from-11-950.1433661.0.html",
+      "summary": "Volkswagen is expanding the portfolio of its Chinese sub-brand Jetta with the fully electric M6 sedan, targeting budget-conscious buyers with an aggressive starting price of just $11,950.",
+      "published": "2026-10-25T14:25:10+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c9ba1ea4a3db5599",
+      "title": "Home Assistant 将新增 Live USB 安装选项，利好迷你主机用户",
+      "url": "https://www.ithome.com/1/017/715.htm",
+      "canonical": "https://www.ithome.com/1/017/715.htm",
+      "summary": "IT之家 10 月 25 日消息，开源智能家居平台 Home Assistant 现已在最新测试版安装程序 0.0.0-alpha.4 中，新增 x86-64 架构的 Live USB 安装选项。未来该功能实装后，有望简化迷你主机安装 Home Assistant OS 的流程。 IT之家了解到，Home Assistant OS 目前已经支持 x86-64 硬件，但现有安装流程要求用户先制作启动盘，再将系统镜像写入到目标磁盘。 而 Live USB 则是可以将系统直接运行在 U 盘上 ， 不需要安装到电脑硬盘 。 同时，本次更新还为 Live USB 带来了全屏界面，并新增校验功能，可验证系统镜像完整性。其他改进还包括更清晰地显示硬盘信息，以及在擦除存储设备之前显示更明确的警告。 不过，上述改进目前还处于概念验证阶段，我们需要等待一会才能看到这些特性正式推出。",
+      "published": "2026-10-25T14:52:18+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Home-Assistant-adds-new-USB-installer-that-could-make-setting-up-mini-PCs-easier.1433620.0.html"
+      ]
+    },
+    {
+      "id": "1fc99de92459e499",
+      "title": "古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air",
+      "url": "https://www.ithome.com/1/017/717.htm",
+      "canonical": "https://www.ithome.com/1/017/717.htm",
+      "summary": "IT之家 10 月 25 日消息，彭博社记者马克 · 古尔曼今天在最新一期《Power On》通讯中提到，苹果正在测试新款 iMac 和 MacBook Pro，这两款原型机均配备 OLED 屏幕，表明苹果计划将 OLED 技术引入公司旗下偏大众化的电脑产品， 但具体推出时间暂时还没有准信 。 古尔曼透露， 苹果将在未来几天内推出升级版 iMac ， 但不会搭载 OLED 面板 ；新款 MacBook Air 预计将在 2027 年初亮相，同样也没有采用 OLED。 IT之家注意到，这几年曾有多个传闻称，iMac 和 MacBook Air 产品线都将升级 OLED 面板。2025 年 12 月，一份供应链报告声称 OLED 款 24 英寸 iMac 将于 2027 年推出。到了今年则有消息称，OLED 版 iMac 被推迟至 2029 年。 而分析师郭明錤曾认为，OLED 版 MacBo",
+      "published": "2026-10-25T15:05:09+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Gurman-Apple-to-unveil-OLED-MacBook-Pro-with-touchscreen-in-days-alongside-M6-iMac.1433688.0.html"
+      ]
+    },
+    {
+      "id": "4bf4c47527c23be5",
+      "title": "New Linux Tool Brings Resizable BAR to Intel Arc GPUs on Old Motherboards",
+      "url": "https://www.techpowerup.com/354116/new-linux-tool-brings-resizable-bar-to-intel-arc-gpus-on-old-motherboards",
+      "canonical": "https://www.techpowerup.com/354116/new-linux-tool-brings-resizable-bar-to-intel-arc-gpus-on-old-motherboards",
+      "summary": "Intel Arc cards have always leaned heavily on Resizable BAR, to the point where Intel once told Alchemist buyers without it to stick with other vendors , and TechPowerUp's B580 review listed it as required for good performance. As spotted by Videocardz , developer Rod Burlamaqui has now released arc-rebar , a Linux tool that turns it on for Arc GPUs on motherboards that never got a ReBAR option. I",
+      "published": "2026-10-25T16:40:01+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ab7d5e88039d1695",
+      "title": "iPhone Duo fails durability test as just another first generation foldable",
+      "url": "https://www.gizmochina.com/2026/10/24/iphone-duo-fails-durability-test-as-just-another-first-generation-foldable/",
+      "canonical": "https://www.gizmochina.com/2026/10/24/iphone-duo-fails-durability-test-as-just-another-first-generation-foldable",
+      "summary": "Zack Nelson from JerryRigEverything has given Apple’s first foldable the usual rough treatment, and the results highlight a couple of weak spots that go beyond just forcing the phone to bend the wrong way. Apple&#8217;s IP68 dust and water rating needs a bit of real-world context. In the video, Nelson buried the Duo in sand, [&#8230;] The post iPhone Duo fails durability test as just another first",
+      "published": "2026-10-24T21:18:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6efead8dd6cf787d",
+      "title": "Hands-on: Belkin’s new semi solid state batteries make for a much lighter carry",
+      "url": "https://9to5mac.com/2026/10/24/belkin-new-semi-solid-state-battery-options-for-iphone/",
+      "canonical": "https://9to5mac.com/2026/10/24/belkin-new-semi-solid-state-battery-options-for-iphone",
+      "summary": "Belkin is now offering two new semi solid state batteries for your iPhone. There’s one 10,000mAh offering with a USB-C port for charging. The second is a 5,000mAh MagSafe offering , which offers 15W Qi2 charging. Both come in much lighter than you’d expect, and both offer premium aluminum builds that are cold to the touch. more…",
+      "published": "2026-10-24T21:46:33+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 hands-on",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8ad4058655837e0c",
+      "title": "Galaxy S27 Pro/Ultra TUV certifications reveal exact battery capacity",
+      "url": "https://www.gizmochina.com/2026/10/24/galaxy-s27-pro-ultra-tuv-certifications-reveal-exact-battery-capacity/",
+      "canonical": "https://www.gizmochina.com/2026/10/24/galaxy-s27-pro-ultra-tuv-certifications-reveal-exact-battery-capacity",
+      "summary": "Samsung’s next flagship phones look set for a solid battery bump. Regulatory documents have now spelled out the exact capacities for the Galaxy S27 Pro and S27 Ultra, which are expected sometime in early 2027. Samsung started using higher-capacity silicon-carbon anode batteries in its recent foldables like the Galaxy Z Fold 8 Ultra. That made [&#8230;] The post Galaxy S27 Pro/Ultra TUV certificati",
+      "published": "2026-10-24T21:53:03+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1a0fec5568871fa7",
+      "title": "OnePlus Ace 7, Ace 7 Pro battery size, charging speed, memory variants, and color options revealed",
+      "url": "https://www.gizmochina.com/2026/10/25/oneplus-ace-7-series-battery-configurations-colours/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/oneplus-ace-7-series-battery-configurations-colours",
+      "summary": "The OnePlus Ace 7 series will make its debut in China later this week, bringing two new smartphones aimed at performance-focused users. Ahead of the launch, the company has revealed key details about the upcoming devices. Their listings also provide a closer look at the available memory configurations and color options. Battery and charging capabilities [&#8230;] The post OnePlus Ace 7, Ace 7 Pro ",
+      "published": "2026-10-25T03:31:15+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c1e9cf21ba2c7fbe",
+      "title": "HP Star Book Air 14 launches with a 1.16 kg body and OLED touchscreen",
+      "url": "https://www.gizmochina.com/2026/10/25/hp-star-book-air-14-launches-with-a-1-16-kg-body-and-oled-touchscreen/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/hp-star-book-air-14-launches-with-a-1-16-kg-body-and-oled-touchscreen",
+      "summary": "HP has launched the Star Book Air 14 in China, and you can reserve it now for 5,299 yuan (about $740). It’s a 14-inch laptop with an Intel Core 5 320 processor, an OLED touchscreen, and a battery rated at up to 42.5 hours. Outside China, HP sells the same model as the OmniBook 5 [&#8230;] The post HP Star Book Air 14 launches with a 1.16 kg body and OLED touchscreen appeared first on Gizmochina .",
+      "published": "2026-10-25T04:01:44+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bd44bf7faaad0f4f",
+      "title": "Sigma launches FP2 full-frame camera with a partially stacked sensor, 6K video and a compact body",
+      "url": "https://www.gizmochina.com/2026/10/25/sigma-launches-fp2-full-frame-camera-partially-stacked-sensor-6k-video/",
+      "canonical": "https://www.gizmochina.com/2026/10/25/sigma-launches-fp2-full-frame-camera-partially-stacked-sensor-6k-video",
+      "summary": "Sigma has launched its second-generation L-mount full-frame camera, the Sigma FP2. The new model retains the compactness of the original FP, weighs 376 grams without a battery and card, 460 grams with both, and is about 4 cm thick. The FP2 uses a 24.5MP partially stacked back-illuminated sensor, which is to say, some of the [&#8230;] The post Sigma launches FP2 full-frame camera with a partially s",
+      "published": "2026-10-25T04:45:25+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": []
+}
