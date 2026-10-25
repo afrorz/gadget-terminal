@@ -25,6 +25,13 @@ giteki:
   checked: 2026-10-23
   radio: Bluetooth 6.0
   note: 総務省DBでCMF Speakerの型番を特定できず、Nothing Technology Limited名義の登録からも該当を断定できない
+japan:
+  status: 発売済み
+  checked: 2026-10-26
+  summary: Nothing Technology Japanが2026年10月12日に国内発売済み。税込でSが9,800円、Mが17,800円（掲載時点）で、Nothing公式サイトとAmazonで扱われると国内メディアが伝えている。公開時点で既に国内発売されていたのに、記事の冒頭で枠を付けていなかった。技適は、総務省のデータベースでCMF Speakerの型番を特定できておらず、確認できていない。
+  source:
+    title: Nothing、CMF初のポータブルスピーカー「Speaker S/M」（PHILE WEB）
+    url: https://www.phileweb.com/news/d-av/202610/14/66157.html
 images:
 - url: "https://cdn.sanity.io/images/gtd4w1cq/production/10b0a57944c68f4046125d45987962754bdd5b43-4000x2250.webp"
   caption: 交換用の前面パネル（ターコイズ・オレンジ・白・黒）と、同じ色のつまみ。右端は黒の本体
