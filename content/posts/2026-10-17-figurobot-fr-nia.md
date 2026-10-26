@@ -25,8 +25,8 @@ giteki:
   radio: Wi-Fi 2.4GHz/5GHz / Bluetooth 5.0
   note: 型番が非公開で総務省DBで特定できない
 images:
-- url: "https://greenfunding.jp/figurobot/assets/images/nia-front.webp"
-  caption: 正面。白い髪の頭部と上半身が台座に載る。胸の中央にカメラがある
+- url: "https://greenfunding.jp/figurobot/assets/images/photos-v36/nia-hero-1280.webp"
+  caption: 顔の正面のアップ。白い髪と青い目で、表情はモーターで動かす
 - url: "https://greenfunding.jp/figurobot/assets/images/nia-three-quarter.webp"
   caption: 斜め前から。顔は液体シリコーン製で、肩の外装の内側に歯車が見える
 credit: FIGUROBOT 公式プロジェクトページ（GREEN FUNDING）

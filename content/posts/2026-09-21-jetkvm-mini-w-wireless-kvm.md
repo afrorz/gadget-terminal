@@ -23,8 +23,6 @@ images:
   caption: JetKVM Mini Wの斜め上からの外観。天面のディスプレイにIPアドレスと接続中のWi-Fi名、USB・HDMIの接続状態が表示されている
 - url: "https://jetkvm.com/assets/jetkvm_mini_w_back-CyYmvkRp.webp"
   caption: 背面のポート部。USB-C(電源または映像取り込み用と思われる端子)が2つとHDMI入力を1つ備える
-- url: "https://jetkvm.com/assets/jetkvm_mini_w_front-DXNRbRZi.webp"
-  caption: 正面からの外観。手のひらに収まる立方体に近い筐体で、天面のディスプレイに稼働状況が表示される
 credit: JetKVM 公式サイト(jetkvm.com)
 buy:
 - name: JetKVM Mini W(無線版)

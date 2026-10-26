@@ -20,10 +20,10 @@ giteki:
   note: 公式サイトに技適の記載なし
 x_hook: 4コアのRyzen 5 3500Uは2019年発売のノート向けチップ。それを積んだミニPCが中国で1,549元、約230ドル相当で売られている。WiFi 6とBluetoothも積むが、技適が取れているかは公式サイトに記載がない。
 images:
-  - url: "https://peladn.us/cdn/shop/files/1_9379e6b3-579a-4692-abef-40bd743838a8.jpg"
-    caption: WO5シリーズ共通の筐体。前面にUSB 3.2ポートと電源ボタン、背面にHDMIやLANなどの端子が並ぶ(画像は同シリーズのグローバル向けRyzen 5 4300U構成のもの。外装はRyzen 5 3500U構成と共通)
-  - url: "https://peladn.us/cdn/shop/files/4300.jpg"
-    caption: 内部構成。DDR4 SO-DIMM×2スロットとM.2 SSDスロットを持つ(画像は同シリーズのグローバル向けRyzen 5 4300U構成のもの。基板レイアウトはRyzen 5 3500U構成と共通)
+  - url: "https://cdn.shopify.com/s/files/1/0860/6335/0077/files/peladn-wo5-ryzen-5-3500u-mini-pc.jpg"
+    caption: 本体の外観。黒い角の丸い箱型で、前面にUSB-Aポート2つと電源の差し込み口が並ぶ
+  - url: "https://cdn.shopify.com/s/files/1/0860/6335/0077/files/peladn-wo5-amd-ryzen-5-3500u-mini-pc.jpg"
+    caption: 主な仕様の図。Ryzen 5 3500U、16GB DDR4(最大32GB)、512GB SSD、Wi-Fi 6とBluetooth 5.0、4K画面3枚への出力
 credit: Peladn 公式ストア(peladn.us)
 alternatives:
   - name: GEEKOM A6(Ryzen 7 6800H)
