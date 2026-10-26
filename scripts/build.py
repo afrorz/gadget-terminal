@@ -2438,7 +2438,10 @@ CSS = """
 .cat-weird{--cat:#d9b45f}
 
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;color-scheme:light}
+/* 案内板の背景(.board::before)は 100vw で端まで伸ばしている。100vw は縦スクロールバーの幅を含むので、
+   そのままだと右に8pxほどはみ出し、横スクロールバーが出ていた(2026-10-27 本人の指摘)。
+   clip は hidden と違ってスクロール領域を作らないので、position:sticky のヘッダーは壊れない。 */
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;color-scheme:light;overflow-x:clip}
 html[data-theme="dark"]{color-scheme:dark}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
   font-size:15px;line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
