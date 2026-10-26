@@ -23,6 +23,7 @@ import glob
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
@@ -34,6 +35,9 @@ if sys.platform == "win32":
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
 SITE = "https://gadgetterminal.com/posts/"
+# GitHub のサーバーからの取得にだけ 404 を返すサイト。手元のパソコンからは見える(2026-10-27 実測:
+# Crowd Supply の写真が GitHub 上では 404、手元では 200)。ここは「消えた」と言い切らない。
+RUNNER_FALSE_404_HOSTS = ("crowdsupply.com",)
 
 
 def front_matter(path: str) -> dict:
@@ -58,6 +62,9 @@ def check(url: str) -> tuple[str, str]:
             head = r.read(4096)
     except urllib.error.HTTPError as e:
         if e.code in (404, 410):
+            host = urllib.parse.urlparse(url).netloc.lower()
+            if any(host == h or host.endswith("." + h) for h in RUNNER_FALSE_404_HOSTS):
+                return "unknown", f"HTTP {e.code}(このサイトは GitHub からだと見つからないと返す)"
             return "dead", f"見つからない(HTTP {e.code})"
         return "unknown", f"HTTP {e.code}"
     except Exception as e:  # 時間切れ・接続できない
