@@ -533,6 +533,29 @@ def analytics(s: dict) -> str:
     return "".join(tags)
 
 
+def click_beacon(s: dict) -> str:
+    """紹介リンク（rel に sponsored が付いた a）が押されたら、ページ・ストア・置き場所を送る。
+
+    もしもの報告は記事別に分からないので、記事ごとのクリックをここで数える（2026-10-27 開始）。
+    リンクの href は書き換えない（Amazon の規約で転送・偽装リンクを避けるため）。受け口は
+    x-poster の関数 gtClick で、数は Firestore の gtClicks に入り、司令塔が読む。
+    `click_beacon_url` が空なら何も出さない。
+    """
+    url = str(s.get("click_beacon_url") or "").strip()
+    if not url:
+        return ""
+    return ("<script>(function(){var U=" + json.dumps(url) + ";"
+            "function f(e){var a=e.target.closest&&e.target.closest('a[rel~=\"sponsored\"]');"
+            "if(!a||!navigator.sendBeacon)return;var h=a.href;try{h=decodeURIComponent(h)}catch(x){}"
+            "var st=/amazon\./.test(h)?'amazon':/rakuten\./.test(h)?'rakuten':/yahoo\./.test(h)?'yahoo':'other';"
+            "var w=a.closest('.buys')?'buy':a.closest('.gear')?'gear':a.closest('.alts')?'alternatives':"
+            "a.closest('.fp')?'feature':a.closest('.jp-update')?'jp-update':'body';"
+            "try{navigator.sendBeacon(U,JSON.stringify({p:location.pathname,s:st,w:w}))}catch(x){}}"
+            "document.addEventListener('click',f,true);"
+            "document.addEventListener('auxclick',function(e){if(e.button===1)f(e)},true);"
+            "})();</script>")
+
+
 def adsense(s: dict) -> str:
     """AdSense のコードスニペット。
 
@@ -707,6 +730,7 @@ def footer(site: dict) -> str:
   </div>
 </footer>
 {BOARD_JS}
+{click_beacon(s)}
 </body>
 </html>"""
 
@@ -1853,6 +1877,11 @@ def render_privacy(site: dict) -> str:
             "集計するために利用しています。<strong>Cookie を使用せず</strong>、"
             "ブラウザの指紋採取（フィンガープリンティング）も行いません。"
             "個人を特定できる情報は収集していません。</li>")
+    if str(s.get("click_beacon_url") or "").strip():
+        analytics.append(
+            "<li><strong>紹介リンクのクリック数</strong> — どの記事の紹介リンクが押されたかを"
+            "数えるため、押されたときにページの場所とストアの種類だけを送っています。"
+            "Cookie や個人を特定できる情報は使っていません。</li>")
     if str(s.get("analytics_id") or "").strip():
         analytics.append(
             "<li><strong>Google アナリティクス</strong> — Cookie を使用してアクセス状況を"

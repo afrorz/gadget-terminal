@@ -25,6 +25,8 @@ site:
   cf_analytics_token: "a114276e3ee147cc9bcdc2edf684b9fc"
   # GA4 を併用する場合のみ。G- で始まる測定ID
   analytics_id: ""
+  # 紹介リンクのクリックを記事ごとに数える受け口（x-poster の gtClick、2026-10-27〜）。空なら送らない
+  click_beacon_url: "https://asia-northeast1-tamakostock.cloudfunctions.net/gtClick"
   # Google Search Console の所有権確認。プロパティ追加 → 「HTMLタグ」を選ぶと
   # <meta name="google-site-verification" content="XXXX"> が出るので、
   # **content= の中身だけ**をここに入れて公開する。空なら何も出力しない。
