@@ -42,7 +42,7 @@ alternatives:
   why: HDMI入力とEthernetを備えるリモートKVMで、Tailscaleに対応し、4K@30Hzのパススルーをうたう。楽天市場で今すぐ購入できる。
   url: https://item.rakuten.co.jp/daily-store/gr-e9duis7x3e/
   merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/daily-store/cabinet/g/40/e9duis7x3e-5.jpg"
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/daily-store/cabinet/g/40/e9duis7x3e-6.jpg"
 faq:
 - q: 日本で買えますか
   a: 公式サイトから直接注文できますが、日本への国際発送に対応するかどうかは掲載時点でページ上に明記されておらず、確認できていません。発売は2026年10月26日の予定です。
