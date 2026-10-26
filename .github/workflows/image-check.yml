@@ -1,0 +1,57 @@
+name: 写真の週次点検
+
+# 全記事の写真(記事の写真・代わりの製品・一緒に使えるもの)が今も表示できるかを週1回点検する。
+# 作り手が写真を消したり名前を変えたりすると、記事の一番上の写真が出なくなる
+# (2026-10-27 Figurobot・PELADN WO5 で発覚)。Claude の利用枠は使わない。
+#
+# 消えた写真があれば Issue「写真が表示できない記事」を1件だけ立てて(あれば中身を更新して)
+# 本人にメールで知らせる。全部直ったら Issue を閉じる。直すのは本人の依頼で Claude がやる。
+on:
+  schedule:
+    # 日曜 19:30 UTC = 月曜 04:30 JST。GitHub の定時実行は2〜3.5時間遅れる
+    - cron: "30 19 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - name: 依存をインストール
+        run: pip install pyyaml -q
+      - name: 写真を点検する
+        run: python3 scripts/dead_images.py --out report.md
+      - name: Issue で知らせる
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          LABEL="写真切れ"
+          TITLE="写真が表示できない記事"
+          gh label create "$LABEL" --color D93F0B --description "写真の週次点検で見つかった、表示できない写真" --force >/dev/null
+          DEAD=$(grep -o 'DEAD=[0-9]*' report.md | cut -d= -f2)
+          NUM=$(gh issue list --label "$LABEL" --state open --json number -q '.[0].number')
+          {
+            echo "写真の週次点検の結果です($(TZ=Asia/Tokyo date +%Y-%m-%d))。"
+            echo
+            cat report.md
+            echo
+            echo "直すときは Claude に「写真切れの Issue を直して」と頼んでください。"
+          } > body.md
+          if [ "${DEAD:-0}" -gt 0 ]; then
+            if [ -n "$NUM" ]; then
+              gh issue edit "$NUM" --body-file body.md
+              gh issue comment "$NUM" --body "$(TZ=Asia/Tokyo date +%Y-%m-%d) の点検で、まだ ${DEAD} 枚が表示できません。本文を最新の結果に更新しました。"
+            else
+              gh issue create --title "$TITLE" --label "$LABEL" --body-file body.md
+            fi
+          elif [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --body "$(TZ=Asia/Tokyo date +%Y-%m-%d) の点検で、消えた写真は0枚でした。閉じます。"
+            gh issue close "$NUM"
+          fi
+          echo "消えた写真: ${DEAD:-0} 枚"
