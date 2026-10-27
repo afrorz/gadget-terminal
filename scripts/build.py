@@ -797,7 +797,7 @@ def header(site: dict) -> str:
     <a class="brand" href="{u("/")}">
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
-    <nav class="nav">{cats}<a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">国内クラファン</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <nav class="nav">{cats}<a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">日本上陸</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
     <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
       <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
     </button>
@@ -835,7 +835,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">国内クラファン</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -1274,34 +1274,55 @@ def domestic_cf_source(p: dict) -> dict | None:
     return None
 
 
-def render_domestic_cf(site: dict, posts: list[dict]) -> str:
-    """国内クラファンのコーナー。専用ページにする（トップには置かない）。
+JAPAN_LANDING_SECTIONS = (
+    # (見出しの id, 見出し, 短い名前, 説明)
+    ("now", "発売済み", "すぐ買える", "国内で発売され、日本の店や直販サイトで買えるもの。"),
+    ("reserve", "予約受付中", "予約できる", "国内で予約を受け付けているもの。"),
+    ("cf", "国内クラウドファンディング", "国内クラファン", "Makuake・CAMPFIRE・GREEN FUNDING など国内で支援できる(できた)もの。出資は購入ではありません。"),
+    ("soon", "発売予定", "もうすぐ", "国内での発売が発表され、まだ買えないもの。"),
+)
 
-    この媒体の顔は「海外の、まだ日本語になっていない話」。トップの中央に
-    国内クラファンを並べると、その顔と衝突する。かといって埋もれさせても
-    意味が無いので、独立ページを作って about.html と同格でナビから飛べる
-    ようにする。
+
+def render_domestic_cf(site: dict, posts: list[dict]) -> str:
+    """日本上陸のページ(jpn.html)。海外で先に記事にした製品のうち、日本で買える・買えそうなもの。
+
+    2026-10-27 本人の要望「日本に上陸したもの＝すぐ買えるものに、すぐたどり着けるように」で、
+    それまでの「国内クラファン」ページを広げた。判定は記事の japan.status(続報の枠と同じ)と、
+    sources の国内クラファンの URL。URL は検索に載っているのでそのまま使う。
     """
     s = site["site"]
-    items = [p for p in posts if domestic_cf_source(p)]
-    if items:
-        rows = "".join(card(site, p) for p in items)
-        body = f'<section class="grid">{rows}</section>'
-    else:
-        body = '<p class="empty">現在、国内クラウドファンディングの記事はまだありません。</p>'
+    groups: dict[str, list[dict]] = {k: [] for k, *_ in JAPAN_LANDING_SECTIONS}
+    by_status = {"発売済み": "now", "予約受付中": "reserve", "クラウドファンディング中": "cf", "発売予定": "soon"}
+    for p in posts:
+        st = str((p.get("japan") or {}).get("status") or "").strip()
+        if st in by_status:
+            groups[by_status[st]].append(p)
+        elif domestic_cf_source(p):
+            groups["cf"].append(p)
+    for k in groups:
+        groups[k].sort(key=lambda p: (str((p.get("japan") or {}).get("checked") or p["date"]), p["date"]),
+                       reverse=True)
+    tabs = "".join(
+        f'<a class="jl-tab" href="#jl-{k}"><b>{len(groups[k])}</b><span>{short}</span></a>'
+        for k, _, short, _ in JAPAN_LANDING_SECTIONS if groups[k])
+    secs = "".join(
+        f'<section class="jl-sec" id="jl-{k}"><h2 class="jl-h">{head_}<span>{len(groups[k])}件</span></h2>'
+        f'<p class="jl-desc">{desc}</p><div class="grid">{"".join(card(site, p) for p in groups[k])}</div></section>'
+        for k, head_, _, desc in JAPAN_LANDING_SECTIONS if groups[k])
+    body = (f'<nav class="jl-tabs" aria-label="状況で絞る">{tabs}</nav>{secs}' if secs
+            else '<p class="empty">日本に上陸した製品は、まだありません。</p>')
     return (
-        head(site, f"国内クラファン注目 — {s['title']}",
-             "Makuake・CAMPFIRE等、国内クラウドファンディングのガジェットをまとめて確認。",
+        head(site, f"日本上陸 — 日本で買える海外ガジェット — {s['title']}",
+             "海外で先に記事にしたガジェットのうち、日本で発売・予約・国内クラファンが始まったものの一覧。技適と国内の販売先は各記事に。",
              "jpn.html")
         + header(site)
         + f"""
 <main class="wrap">
   <section class="hero hero-sm">
-    <p class="eyebrow">JPN / DOMESTIC</p>
-    <h1 class="hero-title">国内クラファン注目</h1>
-    <p class="hero-sub">Makuake・CAMPFIRE など、国内クラウドファンディングで見つけたガジェットです。
-    海外発の記事と違い、すでに日本語で読める案件なので、当メディアでは
-    海外の類似品との比較や国内先行の背景など、独自の角度を添えて扱います。</p>
+    <p class="eyebrow">JPN / ✈ NRT 日本上陸</p>
+    <h1 class="hero-title">日本上陸</h1>
+    <p class="hero-sub">海外で先に記事にしたガジェットのうち、日本で発売・予約・国内クラファンが始まったものです。
+    記事の「日本上陸」の枠に、国内の価格・販売先・技適をまとめています。状況は確認した日の時点のものです。</p>
   </section>
   {body}
 </main>"""
@@ -2901,6 +2922,15 @@ img{max-width:100%}
 .sources a:hover{border-bottom-color:var(--cat)}
 .src-pub{font-family:var(--mono);color:var(--ink-3);font-size:11.5px;margin-left:9px}
 .sources-note{font-size:12.5px;color:var(--ink-3);line-height:1.85;margin:0}
+.jl-tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:0 0 28px}
+.jl-tab{display:flex;flex-direction:column;gap:2px;padding:12px 14px;background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:2px}
+.jl-tab b{font-family:var(--disp);font-size:22px;line-height:1.2;font-variant-numeric:tabular-nums}
+.jl-tab span{font-size:12px;color:var(--ink-2)}
+.jl-tab:hover{border-color:var(--ink-3)}
+.jl-sec{margin:0 0 40px;scroll-margin-top:80px}
+.jl-h{font-size:20px;margin:0 0 4px;display:flex;align-items:baseline;gap:10px}
+.jl-h span{font-family:var(--mono);font-size:12px;color:var(--ink-3);font-weight:400}
+.jl-desc{margin:0 0 16px;font-size:13px;color:var(--ink-2)}
 .fx-jpy{color:var(--ink-3);font-size:.92em;white-space:nowrap}
 .fx-note{font-size:12px;color:var(--ink-3);line-height:1.7;margin:-.6em 0 1.4em}
 
