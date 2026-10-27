@@ -3181,7 +3181,9 @@ def main() -> int:
     (PUBLIC / "about.html").write_text(render_about(site), encoding="utf-8")
     (PUBLIC / "media.html").write_text(render_media(site, posts), encoding="utf-8")
     (PUBLIC / "jpn.html").write_text(render_domestic_cf(site, posts), encoding="utf-8")
-    (PUBLIC / "features.html").write_text(render_features_index(site, features),
+    # 技適の解説は製品を並べる特集とは別物なので一覧には出さず、技適一覧から入る(2026-10-27 本人判断)
+    (PUBLIC / "features.html").write_text(render_features_index(
+        site, [f for f in features if f.get("slug") != GITEKI_FEATURE_SLUG]),
                                           encoding="utf-8")
     if features:
         (PUBLIC / "features").mkdir(parents=True, exist_ok=True)
