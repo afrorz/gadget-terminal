@@ -23,6 +23,7 @@ import json
 from urllib.parse import quote, urlparse
 import re
 import shutil
+import urllib.request
 import sys
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
@@ -140,6 +141,117 @@ def norm_giteki(raw, fname: str = "") -> dict | None:
             "maker": str(raw.get("maker") or "").strip()}
 
 
+# ────────────────────────────── 価格表の円の目安 ──────────────────────────────
+# 検索は「製品名 価格」が多い(2026-10-27 Search Console)ので、本文の表の価格に円の目安を添える
+# (本人判断)。記事には円を書かず、ビルドのたびにその日のレートで計算する。為替で古くならないように。
+# 取れなかったときは前回の data/fx.json を使い、それも無ければ何も足さない。
+FX_CACHE = ROOT / "data" / "fx.json"
+FX_URL = "https://open.er-api.com/v6/latest/JPY"
+FX_UNITS = {"米ドル": "USD", "ドル": "USD", "USD": "USD", "US$": "USD", "$": "USD",
+            "ユーロ": "EUR", "EUR": "EUR", "€": "EUR", "ポンド": "GBP", "GBP": "GBP", "£": "GBP",
+            "元": "CNY", "人民元": "CNY", "CNY": "CNY", "RMB": "CNY", "ルピー": "INR"}
+# 米ドル以外の「ドル」(香港ドル391ドル のように後ろが単に「ドル」になる)が混じる欄は、取り違えるので触らない
+FX_OTHER_DOLLAR = re.compile(r"(香港|HK|カナダ|台湾|NT|豪|オーストラリア|シンガポール|ニュージーランド)\s*ドル")
+FX_AMOUNT = re.compile(
+    r"(?P<pre>(?<![予節契集要制規条公])約\s*)?(?:"  # 「予約134ドル」の約は換算の約ではない
+    r"(?P<u1>US\$|\$|€|£|CNY|RMB|USD|EUR|GBP)\s?(?P<a1>\d{1,3}(?:,\d{3})+|\d+)(?:\.(?P<d1>\d+))?(?P<m1>万)?"
+    r"|(?P<a2>\d{1,3}(?:,\d{3})+|\d+)(?:\.(?P<d2>\d+))?(?P<m2>万)?\s*"
+    r"(?P<u2>米ドル|ドル|ユーロ|ポンド|人民元|元|ルピー|USD|EUR|GBP|CNY))")
+_FX: dict | None = None
+
+
+def fx_rates() -> dict:
+    """{'date': 'YYYY-MM-DD', 'jpy': {'USD': 1ドルあたりの円, ...}}。取れなければ {}"""
+    global _FX
+    if _FX is not None:
+        return _FX
+    try:
+        with urllib.request.urlopen(FX_URL, timeout=15) as r:
+            d = json.loads(r.read())
+        per_jpy = d["rates"]
+        day = datetime.fromtimestamp(int(d["time_last_update_unix"]), JST).strftime("%Y-%m-%d")
+        _FX = {"date": day, "jpy": {c: round(1 / per_jpy[c], 4) for c in set(FX_UNITS.values())}}
+        FX_CACHE.write_text(json.dumps(_FX, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    except Exception as e:
+        _FX = json.loads(FX_CACHE.read_text(encoding="utf-8")) if FX_CACHE.exists() else {}
+        print(f"  ! 為替レートを取れませんでした({type(e).__name__})。"
+              + (f"{_FX['date']} の値を使います" if _FX else "円の目安は出しません"))
+    return _FX
+
+
+def yen_label(v: float) -> str:
+    if v < 10000:
+        return f"約{round(v, -2):,.0f}円"
+    if v < 100000:
+        return f"約{v / 10000:.1f}万円".replace(".0万", "万")
+    return f"約{round(v / 10000):,}万円"
+
+
+def add_yen_cell(cell: str, jpy: dict) -> tuple[str, bool]:
+    if FX_OTHER_DOLLAR.search(cell):
+        return cell, False
+    done = False
+
+    def rep(m: re.Match) -> str:
+        nonlocal done
+        g = m.groupdict()
+        unit = g["u1"] or g["u2"]
+        n_int, n_dec, man = (g["a1"], g["d1"], g["m1"]) if g["u1"] else (g["a2"], g["d2"], g["m2"])
+        # 「CNY 9,999(約1,482ドル)」の後ろのような、すでに換算された「約」の金額には付けない
+        if done and g["pre"]:
+            return m.group(0)
+        v = float(n_int.replace(",", "") + (f".{n_dec}" if n_dec else "")) * (10000 if man else 1)
+        rate = jpy.get(FX_UNITS[unit])
+        if not rate or v <= 0:
+            return m.group(0)
+        done = True
+        return f'{m.group(0)}<span class="fx-jpy">（{yen_label(v * rate)}）</span>'
+
+    out = FX_AMOUNT.sub(rep, cell)
+    return out, done
+
+
+def add_yen_to_tables(body_html: str) -> str:
+    fx = fx_rates()
+    if not fx:
+        return body_html
+
+    def table(m: re.Match) -> str:
+        t = m.group(0)
+        heads = re.findall(r"<th[^>]*>(.*?)</th>", (re.search(r"<thead>.*?</thead>", t, re.S) or [""])[0], re.S)
+        price_cols = {i for i, h in enumerate(heads) if "価格" in h}
+        hit = False
+
+        def row(rm: re.Match) -> str:
+            nonlocal hit
+            cells = re.findall(r"(<td[^>]*>)(.*?)(</td>)", rm.group(0), re.S)
+            if not cells:
+                return rm.group(0)
+            label = re.sub(r"<[^>]+>", "", cells[0][1])
+            if "価格" in label and not re.search(r"調達|目標|支援額", label):
+                targets = set(range(1, len(cells)))
+            else:
+                targets = price_cols - {0}
+            if not targets:
+                return rm.group(0)
+            new = []
+            for i, (o, c, e) in enumerate(cells):
+                if i in targets:
+                    c, did = add_yen_cell(c, fx["jpy"])
+                    hit |= did
+                new.append(o + c + e)
+            return re.sub(r"<td.*</td>", lambda _: "".join(new), rm.group(0), count=1, flags=re.S)
+
+        t = re.sub(r"<tr>.*?</tr>", row, t, flags=re.S)
+        if hit:
+            y, mth, d = fx["date"].split("-")
+            t += (f'<p class="fx-note">円は{int(y)}年{int(mth)}月{int(d)}日の為替レートで計算した目安です。'
+                  '送料・関税・消費税は含みません。</p>')
+        return t
+
+    return re.sub(r"<table>.*?</table>", table, body_html, flags=re.S)
+
+
 def parse_post(path: Path) -> dict | None:
     text = path.read_text(encoding="utf-8")
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
@@ -153,7 +265,7 @@ def parse_post(path: Path) -> dict | None:
         return None
 
     MD.reset()
-    meta["body_html"] = link_giteki(MD.convert(body_md))
+    meta["body_html"] = add_yen_to_tables(link_giteki(MD.convert(body_md)))
     meta["slug"] = meta.get("slug") or path.stem
     meta["date"] = str(meta.get("date", datetime.now(JST).strftime("%Y-%m-%d")))
     # 更新日。日本上陸の続報を書き足したら、その確認日を更新日として扱う
@@ -2789,6 +2901,8 @@ img{max-width:100%}
 .sources a:hover{border-bottom-color:var(--cat)}
 .src-pub{font-family:var(--mono);color:var(--ink-3);font-size:11.5px;margin-left:9px}
 .sources-note{font-size:12.5px;color:var(--ink-3);line-height:1.85;margin:0}
+.fx-jpy{color:var(--ink-3);font-size:.92em;white-space:nowrap}
+.fx-note{font-size:12px;color:var(--ink-3);line-height:1.7;margin:-.6em 0 1.4em}
 
 .ad-notice{max-width:var(--measure);margin:0 0 18px;padding:7px 11px;border:1px solid var(--rule-2);
   border-radius:3px;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.03em}
