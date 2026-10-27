@@ -29,6 +29,14 @@ brands:
     note: 登録者名がブランド名そのもの。型式欄に Baseus ... [A0102C] 等(2026-10-21確認)
     registrants:
     - Shenzhen Baseus Technology
+  Belkin:
+    note: ブランド名と法人名が同一(Belkin公式)。DBに登録あり
+    registrants:
+    - Belkin International, Inc.
+  BenQ:
+    note: ブランド名と法人名が同一。DBに登録あり
+    registrants:
+    - BenQ Corporation
   Bigme:
     note: 表記は Co., Ltd. と Co.,Ltd. が混在。総務省DB上で B6 / B7 / B13 / HiBreak 系の登録を確認(2026-10-15)
     registrants:
@@ -37,6 +45,10 @@ brands:
     note: 登録者名がブランド名そのもの。型式欄は 231L など部品番号(2026-10-15確認)
     registrants:
     - Bose Corporation
+  CMF:
+    note: CMF by Nothingは Nothing Technology Limited のサブブランド(公式表記)。DBに登録あり
+    registrants:
+    - Nothing Technology Limited
   Creality:
     note: 登録者名がブランド名そのもの(3D Technology / Ecosystem Technology の2法人)。2026-10-15確認
     registrants:
@@ -97,6 +109,10 @@ brands:
     note: Sennheiser コンシューマー製品(MOMENTUM True Wireless 5 など)の登録者。2026-10-15 に総務省DBで MTW5 = 201-250883 を確認
     registrants:
     - Sonova Consumer Hearing GmbH
+  SteelSeries:
+    note: ブランド名と法人名が同一。DBに登録あり
+    registrants:
+    - SteelSeries ApS.
   Ugreen:
     note: 登録者名がブランド名そのもの。UGREEN Studio Max5s 等の登録あり(2026-10-21確認)
     registrants:

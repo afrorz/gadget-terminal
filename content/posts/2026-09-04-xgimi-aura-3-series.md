@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-21
+  checked: 2026-10-28
   radio: "Wi-Fi / Bluetooth"
 x_hook: 壁から約20cmで100インチ超の映像を出すプロジェクターが、4Kで120Hz出力に対応した。ゲーム機をつなぐ前提の仕様だという。
 deadline: 2026-12-04

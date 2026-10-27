@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-21
+  checked: 2026-10-28
   radio: Wi-Fi / Bluetooth
   note: 日本は発売対象外(掲載時点)
 images:

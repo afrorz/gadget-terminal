@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-21
+  checked: 2026-10-28
   radio: "Wi-Fi / Bluetooth"
   note: "9/27時点でDBに該当登録なし"
 x_hook: RAMを128GB積めるハンドヘルドPCが登場。中身はノートPC向け最上位APU「Ryzen AI Max+」、価格は最小構成1,750ドルから最上位3,499ドルまで。

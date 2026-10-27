@@ -19,7 +19,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-21
+  checked: 2026-10-28
   radio: "Wi-Fi 7 / Bluetooth 5.4"
 images:
 - url: "https://awolvision.com/cdn/shop/files/luxvision-product-detail-primary-2-2.webp?v=1789042980&width=1600"

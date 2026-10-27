@@ -20,7 +20,7 @@ origin: SZX 深圳
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-21
+  checked: 2026-10-28
   radio: Wi-Fi 2.4GHz
   note: "PaperDIYの型式は総務省DBに無い。搭載モジュールの同系ESP32-S3-WROOM-1は登録があるが、基板としての扱いは言えない"
 images:

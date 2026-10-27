@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-21
+  checked: 2026-10-28
   radio: "NFC / Qi2ワイヤレス充電"
 x_hook: 折りたたみのiPhone Duoに合わせて幅を広げながら、最薄部はわずか7.9mm。マグネットで密着させたままQi2ワイヤレス15Wと有線25Wの両方に対応するバッテリーが11月に出るが、価格はまだ明らかになっていない。
 images:

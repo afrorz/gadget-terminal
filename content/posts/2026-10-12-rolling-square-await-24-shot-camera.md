@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-15
+  checked: 2026-10-28
   radio: Bluetooth 5.2 LE / Wi-Fi 2.4GHz
   note: 公式の認証はFCC・CE・UKCAのみ
 deadline: 2026-11-08
