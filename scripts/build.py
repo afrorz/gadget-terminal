@@ -2297,6 +2297,17 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
     recs = giteki_records(site, posts)
     cnt = giteki_counts(posts)
     latest = max((r["checked"] for r in recs if r["checked"]), default="")
+    # 製品名の横に記事の写真を小さく出す(2026-10-27 本人の要望)。CSV・JSON には入れない
+    thumbs = {p["slug"]: card_image(p) for p in posts if p.get("giteki")}
+
+    def thumb(r: dict) -> str:
+        src, is_ext = thumbs.get(r["slug"], ("", False))
+        if not src:
+            return ""
+        fb = u("cards/" + r["slug"] + ".png")
+        return (f'<img class="gk-thumb" src="{html.escape(src)}" alt="" loading="lazy" decoding="async" '
+                f'width="64" height="48" referrerpolicy="no-referrer"'
+                + (f''' onerror="this.onerror=null;this.src='{fb}'"''' if is_ext else "") + ">")
 
     def row(r: dict) -> str:
         st = r["status"]
@@ -2319,7 +2330,7 @@ def render_giteki(site: dict, posts: list[dict]) -> str:
         return (
             f'<tr data-status="{html.escape(st)}" data-cat="{html.escape(r["category"])}"{found_attr}>'
             f'<td class="gk-prod"><a href="{u(r["path"])}" title="{html.escape(r["title"])}">'
-            f'{html.escape(r["name"])}</a></td>'
+            f'{thumb(r)}<span>{html.escape(r["name"])}</span></a></td>'
             + cell("カテゴリ", html.escape(r["category_label"]))
             + cell("無線", html.escape(r["radio"]))
             + f'<td data-l="判定"><span class="buy-giteki {cls}">{html.escape(st)}</span>{found_mark}{note}</td>'
@@ -3160,8 +3171,10 @@ img{max-width:100%}
   font-weight:600;border-bottom:1px solid var(--rule-2);white-space:nowrap}
 .gk-table tbody tr:hover{background:var(--raised)}
 .gk-prod{min-width:11em;font-weight:600}
-.gk-prod a{color:var(--ink);border-bottom:1px solid var(--rule-2)}
-.gk-prod a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.gk-prod a{display:flex;align-items:center;gap:12px;color:var(--ink)}
+.gk-prod a span{border-bottom:1px solid var(--rule-2)}
+.gk-prod a:hover span{border-bottom-color:var(--accent);color:var(--accent)}
+.gk-thumb{flex:none;width:64px;height:48px;object-fit:contain;background:#fff;border:1px solid var(--rule);border-radius:2px;padding:2px;box-sizing:border-box}
 .gk-note{display:block;margin-top:3px;font-size:12px;font-weight:400;line-height:1.7;color:var(--ink-3)}
 .gk-empty{color:var(--ink-3)}
 .gk-found{display:inline-block;margin-left:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;
