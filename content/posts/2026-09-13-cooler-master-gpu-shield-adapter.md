@@ -1,6 +1,6 @@
 ---
 title: "Cooler MasterのGPU Shield Adapter、12V-2x6コネクタの溶損をピン単位で監視するアダプターが米国で49.99ドルで正式発売"
-seo_title: GPU Shield Adapterが米国49.99ドルで発売
+seo_title: GPU Shield Adapter、国内は10月16日発売で税込4,980円
 slug: cooler-master-gpu-shield-adapter
 keyword: GPU Shield
 category: pc
@@ -17,7 +17,14 @@ giteki:
   number: []
   checked: 2026-09-13
   radio: ""
-x_hook: RTX 40/50シリーズで相次ぐ12V-2×6コネクタの溶損問題に、Cooler Masterが挟むだけの対策部品を49.99ドルで米国投入した。8月には中国で359元(約53ドル)先行販売されていたが、米国での価格と販売チャネルが判明したのは今回が初めて。
+japan:
+  status: 発売済み
+  checked: 2026-10-29
+  summary: Cooler Masterが2026年10月9日に国内発売を発表し、10月16日に市場想定売価税込4,980円で発売した(型番 CMA-CEPC16XXBK1-GL、保証1年)。米国の49.99ドルから約1か月遅れでの上陸。無線機能のない有線アクセサリーのため技適は対象外。国内販売元(代理店名)は発表文から確認できていない。
+  source:
+    title: Cooler Master「GPU SHIELD」国内発売の発表(10月9日)
+    url: https://www.gdm.or.jp/pressrelease/2026/1010/655785
+x_hook: 12V-2×6コネクタの溶損をピン単位の電流監視で防ぐアダプター「GPU Shield Adapter」を、Cooler Masterが日本で10月16日に発売した。市場想定売価は税込4,980円。異常を検知するとLEDと警告音で知らせ、重大な場合は消費電力を自動で下げる。
 origin: TPE 台北
 embeds:
   - type: youtube
@@ -37,7 +44,7 @@ alternatives:
     merchant: amazon
 faq:
   - q: 日本で買えますか
-    a: 掲載時点でCooler Master公式ストア(米国)での販売のみ確認できており、日本への発送可否は確認できていません。国内代理店からの取り扱い告知もありません。
+    a: 買えます。2026年10月16日に国内で発売され、市場想定売価は税込4,980円です(2026年10月29日確認。公開時点では米国公式ストアのみでした)。
   - q: 技適は必要ですか
     a: GPUとPSUの間に挟む有線の電源ケーブルで、無線通信機能を持たないため技適の対象外です。
   - q: いくらですか
