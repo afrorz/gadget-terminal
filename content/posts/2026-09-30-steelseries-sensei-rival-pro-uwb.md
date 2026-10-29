@@ -1,6 +1,6 @@
 ---
 title: "SteelSeries「Sensei Pro」「Rival Pro」は2.4GHzをやめてUWB接続、53gで8,000Hz、179.99ドル"
-seo_title: "SteelSeries Sensei Pro、日本発売は告知済み・詳細は10月末"
+seo_title: "SteelSeries Sensei Pro/Rival Pro、国内は11月20日発売・33,310円"
 slug: steelseries-sensei-rival-pro-uwb
 keyword: Sensei Pro
 category: pc
@@ -25,12 +25,18 @@ embeds:
     caption: "The Techneによる動画「Rival Pro & Sensei Pro Deep Dive Review / The SteelSeries Comeback?」"
 japan:
   status: 発売予定
-  checked: 2026-10-03
-  summary: SteelSeries Japanが2026年9月30日に「Sensei Pro」「Rival Pro」の日本発売を告知した。発売日と価格は未発表で、詳細は10月末頃に発表するとされる。国内の販売先はまだ無く、技適も総務省のデータベースで特定できておらず確認できていない。国内版の発表を待つのが安全。
+  checked: 2026-10-30
+  summary: SteelSeries Japanが2026年10月22日に国内発売を発表した。ブラックは11月20日から順次、ホワイトは12月中旬以降の予定で、参考価格は各33,310円(税込)。全国の家電量販店、Amazon.co.jp、楽天市場で販売する。国内版のUWBは7.25〜9GHz帯を使うと説明されている。技適は総務省のデータベースで特定できておらず確認できていない(SteelSeries ApSの認証は2026年6月8日付で2件あるが、このマウスとは結びつけられない)。国内正規品を待つのが安全で、海外版の並行輸入は勧めない。
+  buy:
+  - name: Amazon.co.jp(SteelSeries Japan告知の販売ページ・Sensei Pro ブラック)
+    url: https://www.amazon.co.jp/dp/B0HCSPQRQ5
+    merchant: amazon
+    price: 33,310円(参考価格・税込、掲載時点)
+    giteki: 国内正規
   source:
-    title: SteelSeriesのゲーミングマウス「Sensei Pro／Rival Pro」の日本発売がアナウンス 続報は10月末頃に発表予定(GAME Watch)
-    url: https://game.watch.impress.co.jp/docs/news/2144786.html
-x_hook: 53gのマウスが、2.4GHzを捨てて6.4〜9GHzのUWBでつながる。SteelSeries「Sensei Pro」「Rival Pro」は8,000Hz動作でも電池を1個ずつ交換して使い続けられ、海外価格は179.99ドル。10月13日に発売される
+    title: SteelSeries Japanのプレスリリース(PR TIMES配信、GameSpark掲載)
+    url: https://www.gamespark.jp/release/prtimes/20261022/323040.html
+x_hook: 2.4GHzをやめてUWBでつなぐ53gのゲーミングマウス「SteelSeries Sensei Pro」「Rival Pro」が、国内で11月20日に発売される。8,000Hz対応で、参考価格は各33,310円(税込)。全国の家電量販店とAmazon.co.jp、楽天市場で扱う。
 images:
   - url: "https://images.ctfassets.net/hmm5mo4qf4mf/7fwfXrpfNNmf63VYbmTqnJ/dab0dd7e6460a904019d1acad6fc341e/sensei_pro_black_pdp_img_buy_primary.png?fm=webp&q=90&fit=scale&w=1920"
     caption: Sensei Pro(黒)。左は充電ベースと丸形の交換バッテリー。ホイールはオレンジ色に光る
@@ -47,11 +53,11 @@ alternatives:
     merchant: amazon
 faq:
   - q: SteelSeries Sensei ProとRival Proは日本で買えますか
-    a: SteelSeries Japanが9月30日に日本発売を告知しましたが、発売日と価格は未発表で、詳細は10月末頃に発表される予定です(2026年10月3日確認)。海外では10月13日に発売される予定で、予約は9月29日に始まっています。
+    a: SteelSeries Japanが10月22日に国内発売を発表しました。ブラックは11月20日から順次、ホワイトは12月中旬以降の予定で、家電量販店、Amazon.co.jp、楽天市場で販売されます(2026年10月30日確認)。
   - q: 技適は取得していますか
-    a: 掲載時点で、この2機種の技適を総務省のデータベースで特定できていません。UWBは日本で使える周波数の範囲が限られるため、輸入して使う前に国内版の発表を待つのが安全です。
+    a: 掲載時点で、この2機種の技適を総務省のデータベースで特定できていません。国内版はUWBの7.25〜9GHz帯を使うと説明されていますが、海外版を並行輸入するのは避け、国内正規品を待つのが安全です。
   - q: いくらですか
-    a: 海外の希望小売価格は179.99ドルで、Sensei ProとRival Pro、通常版とMini版のすべて同額です。欧州は199.99ユーロと報じられています。
+    a: 国内の参考価格は各33,310円(税込)で、発表時点の価格です。海外の希望小売価格は179.99ドルでした。
   - q: 有線で使えますか
     a: 使えません。海外のレビューは、USBケーブルでの有線接続が無いと伝えています。
 sources:
