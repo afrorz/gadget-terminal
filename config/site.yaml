@@ -54,7 +54,8 @@ site:
     amazon_applicant: true
     moshimo_amazon: "https://af.moshimo.com/af/c/click?a_id=5765881&p_id=170&pc_id=185&pl_id=4062&url={url}"
     moshimo_rakuten: "https://af.moshimo.com/af/c/click?a_id=5765003&p_id=54&pc_id=54&pl_id=616&url={url}"
-    moshimo_yahoo: ""
+    # 2026-10-31 もしも経由で Yahoo!ショッピングと提携(審査なし、成果1.54%、本人の依頼で Claude が申請)
+    moshimo_yahoo: "https://af.moshimo.com/af/c/click?a_id=5873716&p_id=1225&pc_id=1925&pl_id=18502&url={url}"
     # 海外メーカー直販（front matter の buy）。もしもを経由せず各社の
     # プログラムに直接申し込むため、ここに merchant ごとのテンプレートを置く。
     # {url} が商品URLの位置。空のあいだは素のリンクとして出る（記事の
