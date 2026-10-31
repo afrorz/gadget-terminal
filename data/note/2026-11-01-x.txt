@@ -1,0 +1,32 @@
+電池を「半固体」にして軽くしたモバイルバッテリーが出た。Belkin「UltraCharge Pro」は10,000mAhで60W出力、重さ220g、89.99ドル（約1万4千円）。今週の海外ガジェット5選です。
+
+1. Belkin UltraCharge Pro（89.99ドル、約1万4千円）
+電池を半固体にして、同じ容量でも軽くしたモバイルバッテリー。5,000mAhのMagSafe系は厚さ8.4mmで69.99ドル。
+日本向けの発売や国内の取扱店は、掲載時点で確認できていない。
+https://gadgetterminal.com/posts/belkin-ultracharge-pro-boostsolid.html
+
+2. Azume One（109ユーロ、約1万8千円から）
+手持ちの腕時計の裏蓋に貼る、直径30mm・厚さ2.8mmの健康トラッカー。画面も通知もなく、心拍と睡眠をアプリに送る。Kickstarterで募集中。
+国内の販売店は確認できておらず、使うには技適の確認が要る。
+https://gadgetterminal.com/posts/azume-one-watch-health-tracker.html
+
+3. LattePanda Sigma 2（2,599ドル、約40万円）
+Core Ultra X7と64GBメモリを3.5インチの基板に載せたシングルボード。10GbEが2口で、狙いはローカルAIの実行。出荷時期は未確認。
+国内の代理店は確認できていない。
+https://gadgetterminal.com/posts/lattepanda-sigma-2-panther-lake-sbc.html
+
+4. Teenage Engineering EP-35 K.O.-AMP（399ドル、約6万円）
+ギターとマイクの両方に専用エフェクトを持つ電池式アンプ。声をベースシンセに変える効果まである。フル充電で約12時間。
+技適は登録があり、国内の取扱店は確認できていない。
+https://gadgetterminal.com/posts/teenage-engineering-ep-35-ko-amp.html
+
+5. iMicro XL15（84カナダドルから）
+スマホのカメラに吸着させる、重さ1.2gの顕微鏡レンズ。取り外せる照明が付き、お届けは2027年4月の予定。
+無線機能はなく技適は対象外と判断しているが、国内販売は確認できていない。
+https://gadgetterminal.com/posts/imicro-xl15-smartphone-microscope-kickstarter.html
+
+Azume OneとiMicro XL15はクラウドファンディングの案件で、出資は購入ではありません。
+
+毎朝3本、日本で買えるかまで調べて載せています。
+https://gadgetterminal.com/
+#ガジェット #海外ガジェット
