@@ -78,6 +78,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | 02:00 | 自宅PCのタスクスケジューラ「GadgetTerminal Kickstarter先読み」 `ks_prefetch.py` が Kickstarter の案件を読んで `data/kscache` に貯めて push（ランナーは Kickstarter が 403 のため） | 使わない |
 | 02:30 | `collect.yml` 収集 | 使わない |
 | 収集の直後 | `daily-article.yml` 記事3本 → ビルド → 公開（cron を持たず、収集の完了で走る。3本に届かなければ同じ実行の中で最大2回やり直す） | **消費する** |
+| 22:30(実際は深夜 0〜2 時) | `japan-rewrite.yml` 過去記事の「日本で買える？使える？」の節を、期待を残す言い方に書き直す(1晩20本・1回きり、2026-11-01〜。残り0本で自動で何もしなくなる。`scripts/japan_rewrite.py status` で残り) | **消費する** |
 | 火 21:30(実際は深夜〜水 01:00) | `giteki-recheck.yml` 技適が「確認できない」の記事を総務省DBで引き直す(週1) | **消費する** |
 | 月 04:30 | `image-check.yml` 全記事の写真が表示できるか点検。消えた写真があれば Issue「写真が表示できない記事」で本人に知らせる(週1) | 使わない |
 | 17:30 | `japan-launch.yml` PR TIMES の日本発売を `data/japan_launch.json` に貯める | 使わない |

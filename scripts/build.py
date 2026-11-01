@@ -533,6 +533,17 @@ def is_landed(p: dict) -> bool:
     return str((p.get("japan") or {}).get("status") or "").strip() in JAPAN_LANDED
 
 
+# 公開したあとで日本上陸が確認できた記事の数。main() が数えて、登録欄の1行に出す。
+# 「今は買えない」で終わらせず、先に書いた製品が実際に後から来ていることを自分の記録で示す
+# (2026-11-01 本人「将来の日本発売に期待が持てそうな表現に」)
+LANDED_AFTER = [0]
+
+
+def count_landed_after(posts: list[dict]) -> int:
+    return sum(1 for p in posts
+               if is_landed(p) and str((p.get("japan") or {}).get("checked") or "") > str(p["date"]))
+
+
 def alert_form(s: dict, p: dict) -> str:
     """「日本上陸アラート」の登録欄。まだ日本で買えない記事にだけ出す(2026-11-01 本人決定)。
 
@@ -549,7 +560,10 @@ def alert_form(s: dict, p: dict) -> str:
             f'<p class="jp-head"><span class="jp-badge">日本上陸アラート</span></p>'
             f'<p class="jp-alert-text">「{title}」が日本で買えるようになったら、メールで1通だけお知らせします。'
             f'それまでメールは送りません。</p>'
-            f'<form class="jp-alert-form" action="{html.escape(api)}/subscribe" method="post">'
+            + (f'<p class="jp-alert-track">Gadget Terminal が先に紹介した製品のうち <strong>{LANDED_AFTER[0]}本</strong>は、'
+               f'公開したあとで日本での発売・予約・国内クラウドファンディングが始まりました。'
+               f'<a href="{u("jpn.html")}">日本上陸した製品</a></p>' if LANDED_AFTER[0] else "")
+            + f'<form class="jp-alert-form" action="{html.escape(api)}/subscribe" method="post">'
             f'<input type="email" name="email" required placeholder="メールアドレス" autocomplete="email" aria-label="メールアドレス">'
             f'<input type="hidden" name="slug" value="{html.escape(p["slug"])}">'
             f'<input type="text" name="website" class="jp-alert-hp" tabindex="-1" autocomplete="off" aria-hidden="true">'
@@ -3322,6 +3336,8 @@ img{max-width:100%}
   background:var(--accent);color:#fff;border:0;border-radius:3px;cursor:pointer}
 .jp-alert-form button:disabled{opacity:.6;cursor:default}
 .jp-alert-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.jp-alert-track{margin:8px 0 0;font-size:13px;line-height:1.8;color:var(--ink-2,var(--ink))}
+.jp-alert-track a{margin-left:4px;white-space:nowrap}
 .jp-alert-note{margin:8px 0 0;font-size:12px;line-height:1.7;color:var(--ink-3)}
 .jp-alert-note a{color:var(--ink-3)}
 .jp-alert-msg{margin:6px 0 0;font-size:13px;line-height:1.7;color:var(--accent);min-height:0}
@@ -3368,6 +3384,7 @@ def main() -> int:
                                 for x in sorted(FEATURES_DIR.glob("*.md"))) if f]
         features.sort(key=lambda f: str(f.get("updated") or ""), reverse=True)
     FEATURES_FOR_HINT[:] = features
+    LANDED_AFTER[0] = count_landed_after(posts)
     # 日付 → priority（front matter で 1 以上を指定するとその日の先頭に来る）→ slug
     posts.sort(key=lambda p: (p["date"], p.get("priority", 0), p["slug"]), reverse=True)
     # 便名は掲載が古い順の通し番号。既存記事の番号がずれないよう昇順で振る。

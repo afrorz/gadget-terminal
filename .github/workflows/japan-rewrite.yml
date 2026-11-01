@@ -1,0 +1,114 @@
+name: 過去記事の「日本で買える？」を書き直す
+
+# 1回きりの作業(2026-11-01 本人了承)。約200本を1晩20本ずつ、10晩ほどで終える。
+# 残りが0本になったら pick が「もうありません」を出し、Claude を呼ばずに終わる。
+# 全部終わったらこのファイルを消してよい。
+on:
+  schedule:
+    # 13:30 UTC = 22:30 JST。GitHub の定時実行は2〜3.5時間遅れるので、実際は深夜 0〜2 時ごろ。
+    # 見回り(01:40)・収集(02:30)・記事生成とは concurrency の content-push で直列にする
+    - cron: "30 13 * * *"
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "書き直す記事の本数"
+        required: false
+        default: "20"
+
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 今夜書き直す記事を選ぶ
+        id: pick
+        env:
+          N: ${{ github.event.inputs.n || '20' }}
+        run: |
+          pip install -r requirements.txt --break-system-packages -q
+          python scripts/japan_rewrite.py pick --n "$N" | tee /tmp/pick.txt
+          {
+            echo "list<<EOF"
+            cat /tmp/pick.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Claude Code CLI を明示的にインストール
+        if: ${{ !contains(steps.pick.outputs.list, 'もうありません') }}
+        # daily-article.yml と同じ理由(claude-code-action 内蔵インストールの既知の不具合)
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - uses: anthropics/claude-code-action@v1
+        if: ${{ !contains(steps.pick.outputs.list, 'もうありません') }}
+        # prompt の中に ${{ }} を書かないこと(daily-article.yml の注意書きを参照)。
+        env:
+          PICKED: ${{ steps.pick.outputs.list }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          claude_args: |
+            --max-turns 150
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash"
+          prompt: |
+            あなたは海外ガジェットメディア「Gadget Terminal」の編集担当です。今夜は新しい記事は書きません。
+            公開済みの記事の **「## 日本で買える？使える？」の節だけ** を、言い方を変えて書き直します。
+            ネットで調べ直す必要はありません。記事の中にある事実だけを使います。
+
+            ## なぜ
+            記事の多くがこの節を「そのまま買って使うことはできない」「電波法違反となる」「唯一の道」で
+            締めていて、その製品が欲しくて来た読者の買う気を消していた(2026-11-01 本人の指摘)。
+            実際には、この媒体が先に書いた製品の何十本かが、後から日本で発売・予約・国内クラファンを始めている。
+            「今は無理」は事実として短く言い切り、そのあと「日本に来るには何が要るか」「今すぐ欲しい人の選択肢」へ
+            つなぐ。登録欄(日本上陸アラート)はビルドが節の末尾に自動で入れるので、書かなくてよい。
+
+            ## 今夜の記事
+            環境変数 PICKED に一覧がある(`echo "$PICKED"` で読む)。上から順に1本ずつ処理する。
+
+            ## 書き方(お手本: content/posts/2026-08-16-elecrow-thinknode-m9.md の同じ節を最初に読む)
+            1. 冒頭の太字1文で、今の状況を言い切る。否定はここ1回だけ。
+               例:「今の海外版は、日本ではそのまま使えない。日本向けが出るかどうかが鍵になる。」
+               無線が無い・技適が要らない製品なら「技適の心配は要らない。あとは日本で買えるかどうか」の形。
+            2. 理由(周波数・技適・電圧・日本語など)は事実のまま短く書く。法律の説明を繰り返さない。
+            3. 来る見込みにつなぐ一文。海外メーカーが日本発売に合わせて技適を取るのはよくあること、など
+               一般的に言えることだけ。**その製品について、日本発売の予定や技適の申請を勝手に書かない。**
+            4. 掲載時点で分かっていないことは「日本上陸を待つうえで、まだ分かっていないこと」として並べる。
+            5. 今すぐ欲しい人の選択肢(元の節や本文に代替品・国内で買える物があれば)と、
+               「日本向けが出たら追記する」で締める。
+            6. 元の節にあった事実(技適番号・型番・価格・国内の販売元・日本語対応・電圧・送料など)は落とさない。
+               **元の記事のどこにも無い数字を書かない。** 円換算を新しく書かない。
+            7. 使わない言い回し:「電波法違反となる」「唯一の道」「唯一の安全な道」「買って使うことはできない」の繰り返し。
+               感嘆符・絵文字・煽り(「朗報」「期待大」など)も使わない。です・ます調にしない(本文に合わせる)。
+            8. 節の外(front matter・ほかの見出し・FAQ・sources)は**一切触らない**。modified も変えない。
+               節の見出し「## 日本で買える？使える？」はそのまま残す。
+            9. 元の節がすでに前向きな書き方なら、無理に変えずに次へ進む(変えなかった記事も done にする)。
+
+            ## 確かめてから記録する
+            a. 書き直した記事を全部まとめて
+               `python3 scripts/japan_rewrite.py check content/posts/<ファイル名> ...`
+               これは節の外が変わっていたり、元に無い数字が出てきた記事を **自動で元に戻す**。
+               戻された記事は、理由を読んで1回だけ直してよい。直したら check をもう一度通す。
+            b. check で「✓」になった記事と、変える必要が無かった記事だけを
+               `python3 scripts/japan_rewrite.py done content/posts/<ファイル名> ...` で記録する。
+               ✗ のまま残った記事は done にしない(次の晩にまた選ばれる)。
+            c. `python3 scripts/build.py` が通ること。
+            d. content/posts/ と data/japan_rewrite.json をまとめてコミットし、main に push。
+               コミットメッセージは「日本で買える？の書き直し <今日の日付>(N本)」。public/ はコミットしない。
+            e. 最後に `python3 scripts/japan_rewrite.py status` の結果と、書き直した記事の一覧を出力する。
+
+            ## 注意
+            - 事実の捏造は絶対にしない。言い方を変えるだけ。
+            - 1本で行き詰まっても止まらず、次の記事へ進む。
