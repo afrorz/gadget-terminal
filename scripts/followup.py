@@ -66,7 +66,10 @@ def pending_slugs() -> set[str]:
     届かなければ空にして、通常の見回りだけにする(見回りを止めない)。
     """
     try:
-        with urllib.request.urlopen(f"{ALERT_URL}/pending", timeout=10) as r:
+        # Cloudflare は Python 既定の UA(Python-urllib)を 403 で弾くので、名乗りを付ける
+        req = urllib.request.Request(f"{ALERT_URL}/pending",
+                                     headers={"User-Agent": "GadgetTerminal-followup/1.0 (+https://gadgetterminal.com)"})
+        with urllib.request.urlopen(req, timeout=10) as r:
             return set(json.load(r).get("slugs") or [])
     except Exception as e:  # noqa: BLE001
         print(f"! 登録のある記事の一覧を取れませんでした({e})。通常の見回りだけにします", file=sys.stderr)
