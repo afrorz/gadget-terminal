@@ -1792,7 +1792,32 @@ FEATURE_HINT_WORDS = {
 FEATURES_FOR_HINT: list[dict] = []   # main() が特集を読んだあとに入れる
 
 
+def feature_buy_now(p: dict) -> str:
+    """「日本で買える？使える？」の節の中に、日本で今すぐ買える物の特集への入口を出す(2026-11-01 本人)。
+
+    特集は入口がメニューと記事末の1行しか無く、月に十数回しか開かれていなかった。読者はその製品が
+    欲しくて来ているが、まだ日本で買えないことが多い。そこで、上陸アラートの登録欄(待つ)の隣に
+    「今すぐ買うなら」の選択肢として特集を置く。対象は特集の related に入れた記事だけ(言葉の一致では
+    ずれた特集が出るため)。特集に japan_hint が無ければ出さない。日本上陸済みの記事には出さない。
+    リンクに ?from=japan を付けて、GA4 でこの入口から来た数を見分ける。
+    """
+    if is_landed(p):
+        return ""
+    hit = next((f for f in FEATURES_FOR_HINT
+                if f.get("japan_hint") and p["slug"] in (f.get("related") or [])), None)
+    if not hit:
+        return ""
+    n = len(hit.get("products") or [])
+    return (f'<aside class="jp-buynow"><p class="jp-head"><span class="jp-badge jp-badge-buy">今すぐ買うなら</span></p>'
+            f'<p class="jp-buynow-text">{html.escape(str(hit["japan_hint"]))}</p>'
+            f'<a class="jp-buynow-link" href="{u(hit["path"])}?from=japan">'
+            f'{html.escape(str(hit.get("title") or ""))}（{n}製品）</a></aside>')
+
+
 def feature_hint(p: dict) -> str:
+    # 節の中に「今すぐ買うなら」を出した記事では、末尾の1行は重ねて出さない
+    if feature_buy_now(p):
+        return ""
     feats = [f for f in FEATURES_FOR_HINT if f.get("slug") != GITEKI_FEATURE_SLUG]
     hit = next((f for f in feats if p["slug"] in (f.get("related") or [])), None)
     if not hit:
@@ -1803,7 +1828,7 @@ def feature_hint(p: dict) -> str:
         return ""
     return (f'<p class="feature-hint"><span class="feature-hint-label">特集</span>'
             f'この分野で、いま日本で買える物を製品ごとにまとめています。'
-            f'<a href="{u(hit["path"])}">{html.escape(str(hit.get("title") or ""))}</a></p>')
+            f'<a href="{u(hit["path"])}?from=hint">{html.escape(str(hit.get("title") or ""))}</a></p>')
 
 
 def videos_after_section(p: dict) -> str:
@@ -1884,7 +1909,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     media = inline_videos + [inline_photo(im, p["title"]) for im in imgs[1:]]
     body_with_media = insert_inline_media(p["body_html"], media)
     alert_html = alert_form(s, p)
-    body_with_media = insert_alert_form(body_with_media, alert_html)
+    body_with_media = insert_alert_form(body_with_media, feature_buy_now(p) + alert_html)
     embeds_html = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
                    + "".join(others) + '</section>') if others else ""
     sources = ""
@@ -3371,6 +3396,11 @@ img{max-width:100%}
 .videos-after .va-lead{margin:0 0 14px;font-size:13px;line-height:1.8;color:var(--ink-3)}
 .videos-after figcaption .va-note{display:block;color:var(--ink);font-size:14px;line-height:1.7}
 .videos-after figcaption .va-meta{display:block;font-size:12px;color:var(--ink-3);line-height:1.6;margin-top:2px}
+.jp-buynow{max-width:var(--measure);margin:22px 0 0;padding:14px 16px 12px;
+  background:var(--surface);border-left:3px solid var(--ink-3);border-radius:3px}
+.jp-badge-buy{background:var(--ink)}
+.jp-buynow-text{margin:10px 0 0;font-size:14.5px;line-height:1.85;color:var(--ink)}
+.jp-buynow-link{display:inline-block;margin:8px 0 0;font-weight:600;font-size:14.5px}
 .jp-alert-track{margin:8px 0 0;font-size:13px;line-height:1.8;color:var(--ink-2,var(--ink))}
 .jp-alert-track a{margin-left:4px;white-space:nowrap}
 .jp-alert-note{margin:8px 0 0;font-size:12px;line-height:1.7;color:var(--ink-3)}
