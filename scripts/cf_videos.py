@@ -18,6 +18,7 @@
 
 import argparse
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -94,8 +95,27 @@ def fetch(url: str) -> str:
         return r.read().decode("utf-8", "replace")
 
 
+def video_info_api(vid: str, key: str) -> dict:
+    """YouTube Data API(videos.list、1回1ユニット)。無い・非公開なら例外"""
+    url = ("https://www.googleapis.com/youtube/v3/videos?part=snippet&id="
+           + urllib.parse.quote(vid) + "&key=" + urllib.parse.quote(key))
+    items = json.loads(fetch(url)).get("items") or []
+    if not items:
+        raise ValueError("動画が見つからない(削除・非公開)")
+    sn = items[0]["snippet"]
+    return {"title": sn["title"], "channel": sn["channelTitle"], "published": sn["publishedAt"][:10]}
+
+
 def video_info(vid: str) -> dict:
-    """oEmbed で題名・チャンネル、動画のページで公開日。取れなければ例外"""
+    """題名・チャンネル・公開日。取れなければ例外
+
+    GitHub Actions の実行サーバーから動画ページを読むと、YouTube がロボット確認の
+    ページを返して公開日が読めない(2026-11-02 の初回の定時実行で全滅)。環境変数
+    YOUTUBE_API_KEY があれば公式 API で取る。無ければ(手元のパソコン)従来どおり
+    oEmbed で題名・チャンネル、動画のページで公開日。"""
+    key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    if key:
+        return video_info_api(vid, key)
     watch = f"https://www.youtube.com/watch?v={vid}"
     o = json.loads(fetch("https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote(watch, safe="")))
     page = fetch(watch)

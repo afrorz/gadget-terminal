@@ -45,6 +45,9 @@ jobs:
       - name: YouTube に届くか確かめる
         # ランナーの IP から YouTube の動画ページが読めないと add が全部失敗するので、先に見る
         if: ${{ !contains(steps.pick.outputs.list, '今日見る記事はありません') }}
+        # 実行サーバーからは動画ページがロボット確認で読めないので、公式 API の鍵で取る(2026-11-02)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python -c "import sys;sys.path.insert(0,'scripts');import cf_videos as c;print(c.video_info('l7ITJTsp9CY'))"
 
@@ -62,6 +65,7 @@ jobs:
         # prompt の中に ${{ }} を書かないこと(daily-article.yml の注意書きを参照)。
         env:
           PICKED: ${{ steps.pick.outputs.list }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
