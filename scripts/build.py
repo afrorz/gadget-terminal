@@ -1517,7 +1517,7 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
   <dl class="fp-meta">
     <dt>価格</dt><dd>{price or "&mdash;"}</dd>
     <dt>買えるところ</dt><dd>{where or "&mdash;"}</dd>
-    <dt>技適</dt><dd>{giteki or "&mdash;"}</dd>
+    <dt>{html.escape(str(item.get("cert_label") or "技適"))}</dt><dd>{giteki or "&mdash;"}</dd>
   </dl>
   <p class="fp-links">{buy}{src_link}</p>
 </section>""", is_aff
