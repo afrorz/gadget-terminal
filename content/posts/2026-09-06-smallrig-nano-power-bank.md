@@ -1,6 +1,6 @@
 ---
 title: SmallRigがカメラリグに直接ネジ止めできるモバイルバッテリー「Nano36」「Nano72」を発売
-seo_title: SmallRig Nano36/72は国内1万590円から、リグ直付けバッテリー
+seo_title: SmallRig Nano36/72は国内発売済み、1万590円から
 slug: smallrig-nano-power-bank
 keyword: SmallRig Nano
 category: pc
@@ -17,11 +17,11 @@ giteki:
   number: []
   checked: 2026-10-04
   radio: ""
-x_hook: カメラリグに直接ネジ止めできる内蔵ケーブル付きモバイルバッテリー「SmallRig Nano36／Nano72」を、SmallRig Japanが国内で予約受付中。10,000mAhのNano36が1万590円、20,000mAhのNano72が1万4,390円（税込）。
+x_hook: カメラリグに直接ネジ止めできる内蔵ケーブル付きモバイルバッテリー「SmallRig Nano36／Nano72」を、SmallRig Japanが国内で発売済み。10,000mAhのNano36が1万590円、20,000mAhのNano72が1万4,390円（税込）。
 japan:
-  status: 予約受付中
-  checked: 2026-10-04
-  summary: SmallRig Japan株式会社が2026年9月4日に予約受付を始めた。税込価格はNano36が1万590円、Nano72が1万4,390円。出荷時期と取扱店はプレスリリースに記載が無く確認できていない。USB-C有線のみで無線機能を持たないため技適の対象外。公開時点（9月6日）で既に国内のプレスリリースが出ていたのを見落としていた。
+  status: 発売済み
+  checked: 2026-11-02
+  summary: SmallRig Japan株式会社が2026年9月4日に発売した。価格はNano36が1万590円、Nano72が1万4,390円（プレスリリース記載、税込表記は未確認）。プレスリリースは題名が「予約受付開始」だが本文は「発売しました」で、Impress Watchも9月4日発売と報じている。取扱店はSmallRig公式サイトの商品ページ以外に記載が無く確認できていない。USB-C有線のみで無線機能を持たないため技適の対象外。公開時点（9月6日）で既に国内のプレスリリースが出ていたのを見落としていた。
   source:
     title: SmallRig、リグ対応バッテリーNano36/72予約受付開始（SmallRig Japan、PR TIMES）
     url: https://prtimes.jp/main/html/rd/p/000000163.000136208.html
@@ -33,7 +33,7 @@ images:
 credit: SmallRig 公式製品ページ
 faq:
 - q: 日本で買えますか
-  a: SmallRig Japan株式会社が国内で予約受付を始めています（2026年9月4日のプレスリリース）。出荷時期や取扱店はリリースに書かれておらず、確認できていません。
+  a: SmallRig Japan株式会社が2026年9月4日に国内で発売しています（プレスリリース、Impress Watch）。取扱店はSmallRig公式サイトの商品ページ以外は確認できていません。
 - q: 技適は取得していますか
   a: Nano36・Nano72はUSB-C有線接続のみのモバイルバッテリーで、Wi-FiやBluetoothなどの無線通信機能を持ちません。無線機能が無い前提であれば、技適の対象にはなりません。
 - q: いくらですか
