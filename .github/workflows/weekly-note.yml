@@ -74,6 +74,10 @@ jobs:
                - 日本で買える・買えそうなもの(日本上陸あり、国内代理店あり)を優先
                - image が null の記事は選ばない(写真のルールを参照)
                新着が5本に満たなければ、ある本数でよい。
+               **1本目には、5本の中で「今までにない機能・使い方・置き場所」がいちばん一言で伝わる製品を置く。**
+               見出し画像の主役になる(写真を大きく出し、header_hook の一言を添える)。開いて最初に
+               同じ製品が出るように、画像の主役と記事の1本目をそろえる(2026-11-01 本人決定)。
+               写真が製品の分かる1枚であることも条件にする
             4. 日本上陸の状況が変わった記事から、目立つものを最大3本選ぶ(無ければ枠ごと省く)。
             5. data/note/<DATE>.md に下書きを書く。形式は下の「書式」。
             6. 同じ5本で X の長文ポストを data/note/<DATE>-x.txt に書く。形式は下の
@@ -89,8 +93,10 @@ jobs:
             ## 書式
             ```
             ---
-            title: 今週の海外ガジェット5選｜10月第1週   # 32字前後まで。否定の結論を入れない
+            title: 今週の海外最新ガジェット5選｜10月第1週   # この形で固定。週だけ変える
             label: WEEKLY｜2026.09.27-10.03           # 見出し画像の上に小さく出る
+            header_hook: 腕時計の裏に貼るだけ         # 見出し画像の大きな一言。13字まで
+            header_sub: 手持ちの時計が、健康管理機になる  # 見出し画像の小さな一言。18字まで
             hashtags: [ガジェット, 海外ガジェット, クラウドファンディング, 新製品, 技適]
             ---
 
@@ -119,6 +125,14 @@ jobs:
             X: https://x.com/GadgetTerminal2
             Threads: https://www.threads.com/@gadgetterminal
             ```
+
+            ## 見出し画像の一言(header_hook / header_sub、2026-11-01 本人決定)
+            - header_hook は1本目の製品の「今までにない所」を言い切る。例「腕時計の裏に貼るだけ」
+              「VRが、メガネの形に」「指輪を2回叩いて話すだけ」「撮るたびにレバーを巻く」
+            - **数字を主役にしない**(「220g」「厚さ2.8mm」のような数値の一言は使わない)
+            - header_sub は何の製品かを短く。例「手持ちの時計が、健康管理機になる」「電子ペーパーのスマホ」
+            - どちらも記事に書いてある事実だけで書く。否定の結論・感嘆符・「すごい」は使わない
+            - 製品名は入れなくてよい(写真で見せる)
 
             ## X 長文ポストの書式(data/note/<DATE>-x.txt、2026-10-11 追加)
             アカウントは X Premium で、長文(25,000字まで)を1ポストで出せる。目的は、
@@ -180,7 +194,8 @@ jobs:
           # 見出し画像の元(文字だけの画像)を作るのに日本語フォントが要る。無いと画像が作れず、
           # TamakoStock が製品写真を合成できないまま文字だけで届いた(2026-10-25 本人の指摘、
           # 10/18 に入れた合成が自動の流れでは一度も動いていなかった)。deploy.yml と同じものを入れる。
-          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+          # 見出し画像の太い字(Black)は fonts-noto-cjk-extra に入っている(2026-11-01 の形)
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra
           pip install -r requirements.txt --break-system-packages -q
           python3 scripts/notify_note.py "data/note/$D.md" \
             "https://tamakostock.web.app/api/ingest-note" \

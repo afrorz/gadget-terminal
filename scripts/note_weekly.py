@@ -179,6 +179,18 @@ def cmd_check(args) -> int:
     title = str(fm.get("title") or "")
     if NEGATIVE_IN_TITLE.search(title):
         errors.append(f"タイトルに否定の結論があります: {title}")
+    # 見出し画像の一言(2026-11-01 本人決定の形)。主役は「## 1.」の製品
+    hook, sub = str(fm.get("header_hook") or "").strip(), str(fm.get("header_sub") or "").strip()
+    if not hook or not sub:
+        errors.append("front matter に header_hook / header_sub がありません(見出し画像の一言)")
+    if len(hook) > 13:
+        errors.append(f"header_hook が長すぎます({len(hook)}字、13字まで): {hook}")
+    if len(sub) > 18:
+        errors.append(f"header_sub が長すぎます({len(sub)}字、18字まで): {sub}")
+    if NEGATIVE_IN_TITLE.search(hook + sub):
+        errors.append(f"見出し画像の一言に否定の結論があります: {hook} / {sub}")
+    if not title.startswith("今週の海外最新ガジェット"):
+        errors.append(f"タイトルは「今週の海外最新ガジェット5選｜10月第1週」の形にします: {title}")
     if len(body) < 1200:
         errors.append(f"本文が短すぎます({len(body)}字)。各製品の紹介が薄くなっていないか")
     for pat, label in BANNED:

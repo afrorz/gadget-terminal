@@ -228,3 +228,84 @@ def render_card(keyword: str, category_label: str, category_key: str,
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, "PNG", optimize=True)
     return True
+
+
+# ── note の週まとめの見出し画像(2026-11-01 本人決定の形) ──
+# 「今週の海外最新ガジェット5選」を大きく出し、左に主役(記事の1本目)の写真と「今までにない所」の一言、
+# 右に残り4本の写真を 2×2 で並べる。番号は付けない。数字を主役にしない。
+# 文字はここで描き、写真は TamakoStock(x-poster の ingestNoteDraft)が NOTE_SLOTS の位置に重ねる
+# (クラウドの関数には日本語の書体が無いため。写真はそちらで JPEG に変換済みのものを使う)。
+NOTE_SIZE = (1280, 670)
+_NH_TOP, _NH_X0, _NH_HW, _NH_HH, _NH_PH = 214, 60, 580, 426, 262
+_NH_CW, _NH_CH, _NH_GAP = 272, 205, 16
+NOTE_SLOTS = [{"left": _NH_X0, "top": _NH_TOP, "width": _NH_HW, "height": _NH_PH, "radius": 14, "corners": "top"}] + [
+    {"left": _NH_X0 + _NH_HW + 18 + (k % 2) * (_NH_CW + _NH_GAP), "top": _NH_TOP + (k // 2) * (_NH_CH + _NH_GAP),
+     "width": _NH_CW, "height": _NH_CH, "radius": 14, "corners": "all"} for k in range(4)]
+
+_HEAVY = {  # いちばん太い字(Black)。無ければ Bold で代わりにする
+    900: ["/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc", "C:/Windows/Fonts/NotoSansJP-VF.ttf"],
+    700: ["/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc", "C:/Windows/Fonts/NotoSansJP-VF.ttf"],
+    500: ["/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc", "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "C:/Windows/Fonts/NotoSansJP-VF.ttf"],
+}
+
+
+def _heavy(weight: int, size: int):
+    for path in _HEAVY[weight]:
+        if not Path(path).exists():
+            continue
+        try:
+            f = ImageFont.truetype(path, size)
+            if path.endswith("-VF.ttf"):
+                f.set_variation_by_axes([weight])
+            return f
+        except (OSError, ValueError):
+            continue
+    return _font("bold" if weight >= 700 else "regular", size)
+
+
+def _fit(draw, text: str, max_width: int, big: int, small: int, weight: int):
+    for s in range(big, small - 1, -2):
+        f = _heavy(weight, s)
+        if f and draw.textlength(text, font=f) <= max_width:
+            return f
+    return _heavy(weight, small)
+
+
+def render_note_header(title: str, label: str, hook: str, sub: str, site_title: str, out_path: Path) -> bool:
+    """note の週まとめの見出し画像の文字の部分を書き出す。写真の場所は白い枠のまま。成功したら True。
+
+    title は「今週の海外最新ガジェット5選｜10月第1週」、label は「WEEKLY｜2026.09.27-10.03」の形。
+    hook は主役の「今までにない所」(大きく)、sub は何の製品か(小さく)。
+    """
+    if Image is None:
+        return False
+    import re
+    w, h = NOTE_SIZE
+    head, _, week = title.partition("｜")
+    m = re.match(r"^(.*?)(\d+選)$", head.strip())
+    lead, count = (m.group(1), m.group(2)) if m else (head.strip(), "")
+    span = label.partition("｜")[2].replace("2026.", "").strip() or label
+    f_lead, f_count = _heavy(900, 58), _heavy(900, 112)
+    if not (f_lead and f_count):
+        return False
+    img = Image.new("RGB", (w, h), BG)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, w, 8], fill=ACCENT)
+    x0 = _NH_X0
+    d.ellipse([x0, 40, x0 + 14, 54], fill=ACCENT)
+    d.text((x0 + 24, 28), site_title.upper(), font=_heavy(700, 22), fill=INK)
+    d.text((x0 + 262, 28), f"WEEKLY｜{week.strip()}（{span}）" if week else label, font=_heavy(500, 22), fill=INK_2)
+    d.text((x0, 86), lead, font=f_lead, fill=INK)
+    if count:
+        d.text((x0 + d.textlength(lead, font=f_lead) + 8, 40), count, font=f_count, fill=ACCENT)
+    # 主役の枠(上が写真、下が一言)と、残り4本の枠。写真は TamakoStock が重ねる
+    d.rounded_rectangle([x0, _NH_TOP, x0 + _NH_HW, _NH_TOP + _NH_HH], 14, fill=(255, 255, 255))
+    ty = _NH_TOP + _NH_PH
+    d.text((x0 + 26, ty + 22), hook, font=_fit(d, hook, _NH_HW - 52, 46, 34, 900), fill=(17, 19, 23))
+    d.text((x0 + 28, ty + 96), sub, font=_fit(d, sub, _NH_HW - 56, 28, 22, 700), fill=(80, 86, 94))
+    for s in NOTE_SLOTS[1:]:
+        d.rounded_rectangle([s["left"], s["top"], s["left"] + s["width"], s["top"] + s["height"]], 14, fill=SURFACE)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, "PNG", optimize=True)
+    return True

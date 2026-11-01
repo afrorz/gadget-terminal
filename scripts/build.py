@@ -3536,7 +3536,13 @@ def main() -> int:
         for f in sorted((ROOT / "data" / "note").glob("*.md")):
             m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", f.read_text(encoding="utf-8"), re.S)
             fm = (yaml.safe_load(m.group(1)) or {}) if m else {}
-            if fm.get("title") and ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
+            if fm.get("title") and fm.get("header_hook"):
+                # 2026-11-01 からの形(5選を大きく＋主役の一言)。写真は TamakoStock が重ねる
+                if ogp.render_note_header(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
+                                          str(fm["header_hook"]), str(fm.get("header_sub") or ""),
+                                          site["site"]["title"], PUBLIC / "note" / f"{f.stem}.png"):
+                    notes += 1
+            elif fm.get("title") and ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
                                                site["site"]["title"], PUBLIC / "note" / f"{f.stem}.png",
                                                photo_credit="製品画像: 各メーカー公式サイト・クラウドファンディングページより"):
                 notes += 1

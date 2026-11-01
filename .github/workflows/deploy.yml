@@ -36,7 +36,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - name: 日本語フォントを入れる（OGP画像生成に必要）
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra
       - run: pip install -r requirements.txt
       - run: python3 scripts/build.py
       - uses: actions/configure-pages@v5

@@ -43,8 +43,20 @@ def autolink(md: str) -> str:
 
 
 def header_base(stem: str) -> str:
-    """build.py が作った public/note/<日付>.png を base64 で返す。無ければその場で作る。"""
+    """build.py が作った public/note/<日付>.png を base64 で返す。無ければその場で作る。
+
+    header_hook のある下書き(2026-11-01 からの形)は、送る手順で入れた太い書体で毎回描き直す。
+    """
     png = ROOT / "public" / "note" / f"{stem}.png"
+    md = (ROOT / "data" / "note" / f"{stem}.md").read_text(encoding="utf-8")
+    fm = yaml.safe_load(re.match(r"^---\r?\n(.*?)\r?\n---", md, re.S).group(1)) or {}
+    if fm.get("header_hook"):
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import ogp
+        site = yaml.safe_load((ROOT / "config" / "site.yaml").read_text(encoding="utf-8"))
+        ogp.render_note_header(str(fm.get("title") or ""), str(fm.get("label") or "WEEKLY"),
+                               str(fm["header_hook"]), str(fm.get("header_sub") or ""),
+                               site["site"]["title"], png)
     if not png.exists():
         # ビルド全体は重いので、見出し画像だけ作る
         sys.path.insert(0, str(ROOT / "scripts"))
@@ -93,6 +105,11 @@ def main() -> int:
         # 下書きを送る時点ではサイトの公開がまだなので、URL ではなく中身を送る。
         "headerBase": header_base(path.stem),
     }
+    if fm.get("header_hook"):
+        # 写真を重ねる場所(1つ目が主役=「## 1.」の製品)。TamakoStock がこの位置に記事の順で入れる
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import ogp
+        payload["headerSlots"] = ogp.NOTE_SLOTS
     xfile = path.with_name(f"{path.stem}-x.txt")
     if xfile.is_file():
         x_text = xfile.read_text(encoding="utf-8").strip()
