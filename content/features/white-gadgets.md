@@ -11,6 +11,11 @@ products:
     brand: teenage engineering
     image: "https://musiclandkey.fs-storage.jp/fs2cabinet/te-/te-ob-4-white/te-ob-4-white-m-01-dl.jpg"
     credit: MUSIC LAND KEY 製品ページ
+    images:
+      - url: "https://assets.teenage.engineering/_img/store/7c939f66c2a50dc4ec338add689088bee83d9425d7a9c5157182cfd6c7b817f7.webp"
+        credit: "teenage engineering公式ストア"
+      - url: "https://assets.teenage.engineering/_img/670689e4aed38b531cb685f4_2048.webp"
+        credit: "teenage engineering公式サイト"
     price: 121,000円(税別、掲載時点)
     where: Media Integration(MIオンラインストア)が日本正規輸入代理店。イケベ楽器・サウンドハウス・島村楽器・ミュージックランドKEYなど国内の楽器店でも扱いがある
     giteki: 取得済みとみなせる。Bluetooth機器の正規輸入代理店経由での国内販売は、技適を通っていることが前提になる
@@ -27,6 +32,11 @@ products:
     brand: Nothing
     image: "https://cdn.shopify.com/s/files/1/0582/6242/1665/files/0000s_0026_Ear-a-white.png?v=1753694936"
     credit: Nothing Japan公式サイト(jp.nothing.tech)
+    images:
+      - url: "https://cdn.sanity.io/images/gtd4w1cq/production/644f3078cdf586cc6b6d70a1805fde8e241bf4ee-4096x2304.jpg?w=1600"
+        credit: "Nothing Japan公式サイト(jp.nothing.tech)"
+      - url: "https://cdn.shopify.com/s/files/1/0582/6242/1665/files/BA_360_CLEFFA_010.1001.png"
+        credit: "Nothing Japan公式サイト(jp.nothing.tech)"
     price: 通常12,800円、セール時9,800円(掲載時点)
     where: Nothing Japan公式サイト(jp.nothing.tech)から直接購入できる
     giteki: 前モデルNothing ear(1)ではパッケージ側面に技適マークの掲載が確認されている。日本仕様として展開されており、Ear (a)も同様とみなせる
@@ -62,6 +72,13 @@ products:
     brand: HYTE
     image: "https://makeshop-multi-images.akamaized.net/linksoutlet/itemimages/000000012488_dTbBLKu.jpg"
     credit: リンクスダイレクト(株式会社リンクスインターナショナル)
+    images:
+      - url: "https://www.links.co.jp/wp-content/uploads/2023/02/HYTE-Y60-Snow-White-4.jpg"
+        credit: "リンクスインターナショナル(日本の正規代理店)製品ページ"
+      - url: "https://www.links.co.jp/wp-content/uploads/2023/02/HYTE-Y60-Snow-White-5.jpg"
+        credit: "リンクスインターナショナル(日本の正規代理店)製品ページ"
+      - url: "https://www.links.co.jp/wp-content/uploads/2023/02/HYTE-Y60-Snow-White-6.jpg"
+        credit: "リンクスインターナショナル(日本の正規代理店)製品ページ"
     price: 33,470円(税込、掲載時点)
     where: 日本正規代理店の株式会社リンクスインターナショナル(リンクスダイレクト)から購入できる
     giteki: 対象外とみなせる。PCケース本体は電源(電源ユニットは別売)も無線機能も持たないため、技適・PSEいずれの対象にもならない
@@ -79,8 +96,13 @@ products:
     availability: verified
   - name: iLoud Micro Monitor White
     brand: IK Multimedia
-    image: "https://www.ikmultimedia.com/products/iloudmm/images/1.0/iloudmm_white_U6A1505_v3_rz_1500.jpg"
+    image: "https://ikmultimedia.com/cdn/shop/files/1_iLoudMM_white_front.jpg?width=1600"
     credit: IK Multimedia公式サイト
+    images:
+      - url: "https://ikmultimedia.com/cdn/shop/files/3_iLoudMM_white_sx34.jpg?width=1600"
+        credit: "IK Multimedia公式サイト"
+      - url: "https://ikmultimedia.com/cdn/shop/files/2_iLoudMM_white_back.jpg?width=1600"
+        credit: "IK Multimedia公式サイト"
     price: 60,500円(税込、価格.com調べ、掲載時点)
     where: 日本正規代理店のHookup, Inc.、サウンドハウスなど国内の楽器店から購入できる
     giteki: 取得済みとみなせる。Bluetooth(A2DP)を積む機器で、日本正規代理店経由での国内販売は技適を通っていることが前提になる
@@ -100,6 +122,11 @@ products:
     brand: Keychron
     image: "https://superkopek.jp/cdn/shop/files/k3max-O1-JIS_1024x1024.jpg?v=1732674021"
     credit: SUPER KOPEK(KOPEK JAPAN)製品ページ
+    images:
+      - url: "https://superkopek.jp/cdn/shop/files/k3max-retro-jis2.jpg?v=1732676116"
+        credit: "SUPER KOPEK(KOPEK JAPAN)商品ページ"
+      - url: "https://superkopek.jp/cdn/shop/files/k3max-retro-us2.jpg?v=1732676172"
+        credit: "SUPER KOPEK(KOPEK JAPAN)商品ページ"
     price: 19,360円(掲載時点)
     where: KOPEK JAPAN(SUPER KOPEK)が日本正規輸入代理店。公式サイトから直接購入できる
     giteki: 取得済み。KOPEK JAPANが「国内正規代理店のKeychron製品は技適を取得した製品となる」と公式に明記している
@@ -119,6 +146,11 @@ products:
     brand: Anker
     image: "https://www.ankerjapan.com/cdn/shop/files/A31X1-WHITE.jpg?crop=center&height=1200&v=1763477952&width=1200"
     credit: Anker Japan公式オンラインストア
+    images:
+      - url: "https://cdn.shopify.com/s/files/1/0516/3761/6830/files/A31X1021_TD_05_US_V1.jpg"
+        credit: "soundcore公式サイト(Anker)"
+      - url: "https://cdn.shopify.com/s/files/1/0516/3761/6830/files/A31x1_white_02d83354-0ce8-421c-979c-cef8956e87a4.png"
+        credit: "soundcore公式サイト(Anker)"
     price: 3,990円(税込、掲載時点)
     where: Anker Japan公式オンラインストア(ankerjapan.com)、Amazon.co.jp(AnkerDirect発送)から購入できる
     giteki: 取得済みとみなせる。Bluetooth機器をAnker公式の日本向けストアが直接販売している時点で、技適を通っていることが前提になる

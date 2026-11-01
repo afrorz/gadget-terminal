@@ -11,6 +11,13 @@ products:
     brand: Panic
     image: https://play.date/static/images/playdate-turned.bd5ee5b6e5be.png
     credit: Panic 公式サイト
+    images:
+      - url: "https://play.date/static/images/Playdate-in-hand1.70225f47634a.png"
+        credit: "Panic公式サイト"
+      - url: "https://play.date/static/images/products/playdate-cover-aqua.1f6e3419c7ad.png"
+        credit: "Panic公式サイト"
+      - url: "https://play.date/static/images/gallery-01.20c7faab3099.jpg"
+        credit: "Panic公式サイト"
     price: 229ドル（公式直販、掲載時点）
     where: Panic公式サイトから日本へ国際発送。カリフォルニアの倉庫から出荷される
     giteki: 取得済み。公式ヘルプが「日本での使用に必要な電波認証のすべてを取得しています」と明記している
@@ -27,6 +34,13 @@ products:
     brand: AYANEO
     image: https://cdn.ayaneo.com/ayaneo/article/2026/07/31/3eb04202607311734101322.jpeg
     credit: AYANEO 公式サイト
+    images:
+      - url: "https://ayaneo-1305909189.cos.accelerate.myqcloud.com/ayaneo_com/image/product/2026/AYANEO_Pocket_Advance/en/10.webp?imageMogr2/cut/1920x1090x0x0"
+        credit: "AYANEO公式サイト"
+      - url: "https://ayaneo-1305909189.cos.accelerate.myqcloud.com/ayaneo_com/image/product/2026/AYANEO_Pocket_Advance/en/10.webp?imageMogr2/cut/1920x1094x0x2187"
+        credit: "AYANEO公式サイト"
+      - url: "https://ayaneo-1305909189.cos.accelerate.myqcloud.com/ayaneo_com/image/product/2026/AYANEO_Pocket_Advance/en/03.webp?imageMogr2/cut/1920x1080x0x2160"
+        credit: "AYANEO公式サイト"
     price: 国内価格は代理店の販売ページを確認
     where: ハイビーム（AYANEO日本正規代理店）。high-beam-online.com のほか Amazon.co.jp やビックカメラでも扱いがある
     giteki: 取得済み。日本正規代理店版・クラウドファンディング版ともに技適を通っている
@@ -43,6 +57,13 @@ products:
     brand: 8BitDo
     image: https://www.8bitdo.com/images/2023/keyboard/09-l.jpg
     credit: 8BitDo 公式製品ページ
+    images:
+      - url: "https://www.8bitdo.com/images/2023/keyboard/03-l.jpg"
+        credit: "8BitDo公式サイト"
+      - url: "https://www.8bitdo.com/images/2023/keyboard/slide-l.jpg"
+        credit: "8BitDo公式サイト"
+      - url: "https://www.8bitdo.com/images/2023/keyboard/retro-mechanical-keyboard-ClearBlue-l.jpg"
+        credit: "8BitDo公式サイト"
     price: 製品により異なる。国内の販売ページを確認
     where: ONO貿易が日本正規代理店。楽天市場ほか国内の量販店で流通している
     giteki: 取得済み。国内正規流通品として販売されている
@@ -59,6 +80,13 @@ products:
     brand: 8BitDo
     image: https://8bitdo-jp.com/wp-content/uploads/2026/03/8bitdo-ゲームコントローラー-2.jpg
     credit: 8BitDo 日本公式サイト
+    images:
+      - url: "https://www.8bitdo.com/images/2023/micro/01-l.jpg"
+        credit: "8BitDo公式サイト"
+      - url: "https://www.8bitdo.com/images/2023/micro/03-l.jpg"
+        credit: "8BitDo公式サイト"
+      - url: "https://www.8bitdo.com/images/2023/micro/06-l.jpg"
+        credit: "8BitDo公式サイト"
     price: 製品により異なる。国内の販売ページを確認
     where: ONO貿易が日本正規代理店。楽天市場ほか国内の量販店で流通している
     giteki: 取得済み。国内正規流通品として販売されている

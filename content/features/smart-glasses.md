@@ -11,6 +11,13 @@ products:
     brand: Ray-Ban × Meta
     image: https://prcdn.freetls.fastly.net/release_image/5515/82/5515-82-06f47f1f5f002ee58406bc54ecfc7440-2048x2048.png?format=jpeg&width=1200
     credit: ルックスオティカジャパン プレスリリース（PR TIMES）
+    images:
+      - url: "https://prcdn.freetls.fastly.net/release_image/5515/82/5515-82-9b2a119bb0ce0c39d9145f3f381e4121-3900x3900.png?format=jpeg&width=1200"
+        credit: "ルックスオティカジャパン プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/5515/82/5515-82-21d50f858574cd318318ceb81e666956-3768x1884.png?format=jpeg&width=1200"
+        credit: "ルックスオティカジャパン プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/5515/82/5515-82-5ee795a50e4036e4ea800a7ddf06c492-3768x1884.png?format=jpeg&width=1200"
+        credit: "ルックスオティカジャパン プレスリリース(PR TIMES)"
     price: 73,700円から（税込、直営チャネルの参考価格、発表時点）
     where: レイバン直営店・公式オンラインストア、全国の正規取扱店、Meta.com、Metaの認定小売店。ソフトバンクも取り扱いを始めている
     giteki: 国内正規販売品。2026年5月21日にMetaとルックスオティカジャパンが日本での販売開始を発表している
@@ -27,6 +34,13 @@ products:
     brand: Even Realities
     image: https://prcdn.freetls.fastly.net/release_image/140298/139/140298-139-54f7fa6393757903ebb6e4f9cb15146e-2500x2500.jpg?format=jpeg&width=1200
     credit: 株式会社Acalie プレスリリース（PR TIMES）
+    images:
+      - url: "https://cdn.sanity.io/images/wfyhg2qw/production/0eb67d1d43a12adf62e42fabb560c535ca373780-2022x2000.jpg?w=1600"
+        credit: "Even Realities公式サイト"
+      - url: "https://cdn.sanity.io/images/wfyhg2qw/production/323ffb7ee7c3e06b49e76cd8adfa014b8bb7631d-2022x2000.jpg?w=1600"
+        credit: "Even Realities公式サイト"
+      - url: "https://prcdn.freetls.fastly.net/release_image/140298/139/140298-139-495f4d1752da0d230c08ab9ac74d3de6-2500x2500.jpg?format=jpeg&width=1200"
+        credit: "Acalie プレスリリース(PR TIMES、日本の正規代理店)"
     price: 99,800円（税込、発表時点）
     where: 株式会社Acalie（Even Realitiesの日本のディストリビューター）経由で、ビックカメラ・ヨドバシカメラの店頭とオンラインで販売
     giteki: 国内正規流通品。2026年4月16日から国内の家電量販店で一般販売されている
@@ -43,6 +57,13 @@ products:
     brand: XREAL
     image: https://resource.xreal.com/www-xreal-com/images/1s/XREAL_1S_ID_1.webp
     credit: XREAL 公式サイト
+    images:
+      - url: "https://cdn.shopify.com/s/files/1/0832/0486/6336/files/3-1.jpg?v=1764142678"
+        credit: "XREAL日本公式ストア"
+      - url: "https://cdn.shopify.com/s/files/1/0832/0486/6336/files/1-2.jpg?v=1764142678"
+        credit: "XREAL日本公式ストア"
+      - url: "https://cdn.shopify.com/s/files/1/0832/0486/6336/files/2-1_9001af65-c566-45c2-9485-897404886ffe.jpg?v=1764142678"
+        credit: "XREAL日本公式ストア"
     price: 67,980円（税込、XREAL公式ショップ、掲載時点）
     where: XREAL公式ショップ（jp.shop.xreal.com）ほか、Amazon.co.jpなど国内の販売店
     giteki: 国内正規販売品。スマートフォンやゲーム機とはUSB-Cケーブル1本の有線でつなぐ
@@ -62,6 +83,11 @@ products:
     brand: OWNDAYS
     image: https://prcdn.freetls.fastly.net/release_image/5214/240/5214-240-0d19f2db47e453d895f08d5c640b13af-931x731.jpg
     credit: OWNDAYS プレスリリース（PR TIMES）
+    images:
+      - url: "https://prcdn.freetls.fastly.net/release_image/5214/240/5214-240-30441f73c90ed2c940280e7b7c8ccf3d-931x731.jpg"
+        credit: "OWNDAYS プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/5214/240/5214-240-d50dcebd591fa8060f968dfc1becca4e-931x731.jpg"
+        credit: "OWNDAYS プレスリリース(PR TIMES)"
     price: 16,000円（税込、度付き薄型非球面レンズ代込み、発表時点）
     where: OWNDAYSの取り扱い店舗とオンラインストア
     giteki: 国内メーカーの製品として国内で販売されている。Bluetooth 5.3を搭載する

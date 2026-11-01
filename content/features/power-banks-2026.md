@@ -12,6 +12,13 @@ products:
     brand: ELECOM
     image: "https://www.elecom.co.jp/photo/p01/DE-C86-10000BK_01.jpg"
     credit: エレコム公式サイト
+    images:
+      - url: "https://www.elecom.co.jp/photo/p41/DE-C86-10000BK_41.jpg"
+        credit: "エレコム公式サイト"
+      - url: "https://www.elecom.co.jp/photo/p45/DE-C86-10000BK_45.jpg"
+        credit: "エレコム公式サイト"
+      - url: "https://www.elecom.co.jp/photo/p100/DE-C86-10000BK_100.jpg"
+        credit: "エレコム公式サイト"
     price: 8,480円(税込、エレコムダイレクトショップ、掲載時点)
     where: エレコムダイレクトショップ、エレコム公式の楽天市場店。ブラック・ブルー・ピンク・ホワイトの4色
     cert_label: PSE
@@ -32,6 +39,13 @@ products:
     brand: ELECOM
     image: "https://www.elecom.co.jp/photo/p01/DE-C85-5000BK_01.jpg"
     credit: エレコム公式サイト
+    images:
+      - url: "https://www.elecom.co.jp/photo/p41/DE-C85-5000BK_41.jpg"
+        credit: "エレコム公式サイト"
+      - url: "https://www.elecom.co.jp/photo/p42/DE-C85-5000BK_42.jpg"
+        credit: "エレコム公式サイト"
+      - url: "https://www.elecom.co.jp/photo/p58/DE-C85-5000BK_58.jpg"
+        credit: "エレコム公式サイト"
     price: 6,280円(税込、エレコムダイレクトショップ、掲載時点)
     where: エレコムダイレクトショップ、エレコム公式の楽天市場店。ブラック・ホワイトの2色
     cert_label: PSE
@@ -52,6 +66,13 @@ products:
     brand: BUFFALO
     image: "https://www.buffalo.jp/webpim/product/image/B/BMPBSA10000X/BMPBSA10000BKX/BMPBSA10000BKX__0100.jpg"
     credit: バッファロー公式サイト
+    images:
+      - url: "https://www.buffalo.jp/webpim/product/image/B/BMPBSA10000X/BMPBSA10000BKX/BMPBSA10000BKX__0107.jpg"
+        credit: "バッファロー公式サイト"
+      - url: "https://www.buffalo.jp/webpim/product/image/B/BMPBSA10000X/BMPBSA10000BKX/BMPBSA10000BKX__0101.jpg"
+        credit: "バッファロー公式サイト"
+      - url: "https://www.buffalo.jp/webpim/product/image/B/BMPBSA10000X/BMPBSA10000BKX/BMPBSA10000BKX__0108.jpg"
+        credit: "バッファロー公式サイト"
     price: 5,990円(楽天市場バッファロー公式ストア、掲載時点。メーカーはオープン価格)
     where: Amazon・楽天市場のバッファロー公式ストア限定のモデル。量販店向けには型番違いのBMPBSA10000BK/WH(2026年8月発売)がある
     cert_label: PSE
@@ -72,6 +93,9 @@ products:
     brand: CIO
     image: "https://connectinternationalone.co.jp/wp/wp-content/uploads/2026/04/5762da241b080516a04075ec4d1a66ad-1536x1536.jpg"
     credit: CIO公式サイト
+    images:
+      - url: "https://connectinternationalone.co.jp/wp/wp-content/uploads/2026/04/579534a64867a2f7fc577b6ed6ab5788.jpg"
+        credit: "CIO公式サイト"
     price: 8,580円(税込、メーカー希望小売価格、掲載時点)
     where: CIO公式サイト、CIO楽天市場店。ブラック・シルバーの2色
     cert_label: PSE
@@ -92,6 +116,13 @@ products:
     brand: ELECOM
     image: "https://www.elecom.co.jp/photo/p01/DE-C55L-9000LGY_01.jpg"
     credit: エレコム公式サイト
+    images:
+      - url: "https://www.elecom.co.jp/photo/p49/DE-C55L-9000LGY_49.jpg"
+        credit: "エレコム公式サイト"
+      - url: "https://www.elecom.co.jp/photo/p38/DE-C55L-9000LGY_38.jpg"
+        credit: "エレコム公式サイト"
+      - url: "https://www.elecom.co.jp/photo/p32/DE-C55L-9000LGY_32.jpg"
+        credit: "エレコム公式サイト"
     price: 9,980円(税込、エレコムダイレクトショップ、掲載時点)
     where: エレコムダイレクトショップ、エレコム公式の楽天市場店。ブラック・ライトグレーの2色
     cert_label: PSE
@@ -112,6 +143,9 @@ products:
     brand: Anker
     image: "https://www.ankerjapan.com/cdn/shop/files/A110AH11.png"
     credit: Anker Japan公式サイト
+    images:
+      - url: "https://www.ankerjapan.com/cdn/shop/files/A110AH11_RPC_TD01_pc.jpg"
+        credit: "Anker Japan"
     price: 27,990円(税込、Anker Japan公式オンラインストア、掲載時点)
     where: Anker Japan公式オンラインストア、アンカー・ダイレクト楽天市場店
     cert_label: PSE

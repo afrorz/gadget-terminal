@@ -11,6 +11,13 @@ products:
     brand: Raspberry Pi
     image: https://www.switch-science.com/cdn/shop/files/ff5f5159-269c-406d-8c29-339d23af32f4_1200x1200.jpg
     credit: スイッチサイエンス 販売ページ
+    images:
+      - url: "https://assets.raspberrypi.com/static/31f92a0f4bf14286e25c2b115564fd65/db40e/hero.png"
+        credit: "Raspberry Pi 公式サイト"
+      - url: "https://assets.raspberrypi.com/static/25912715ba437c32c56757dd7395322d/bb1f1/exploded.png"
+        credit: "Raspberry Pi 公式サイト"
+      - url: "https://assets.raspberrypi.com/static/b54ad0b371f7de4806b13e007abaf4f5/60d31/clicky.jpg"
+        credit: "Raspberry Pi 公式サイト"
     price: 83,380円（日本語配列・本体のみ、スイッチサイエンス、掲載時点）。電源やマウスが付くキットは87,450円
     where: スイッチサイエンスが日本語配列モデルを販売している
     giteki: 取得済み。工事設計認証番号 020-250058（2025年9月26日の登録で500+が対象に加わった）
@@ -27,6 +34,13 @@ products:
     brand: M5Stack
     image: https://shop.m5stack.com/cdn/shop/files/1_9b624809-c4b1-4031-b149-54709e72bd53_1200x1200.webp
     credit: M5Stack 公式ストア
+    images:
+      - url: "https://shop.m5stack.com/cdn/shop/files/4_b49dc0d0-3bbd-4373-9424-594e06052cd0_1200x1200.webp"
+        credit: "M5Stack 公式ストア"
+      - url: "https://shop.m5stack.com/cdn/shop/files/9_e979ae23-d47f-4037-9da6-5c3bc25e0362_1200x1200.webp"
+        credit: "M5Stack 公式ストア"
+      - url: "https://shop.m5stack.com/cdn/shop/files/K132-ADV_M5Stack_Cardputer_Adv_Version_ESP32-S3_2_1200x1200.webp"
+        credit: "M5Stack 公式ストア"
     price: 6,061円（スイッチサイエンス、掲載時点）
     where: スイッチサイエンスが販売している
     giteki: 取得済み。工事設計認証番号 219-259647（Cardputer Adv、2025年11月5日）
@@ -46,6 +60,13 @@ products:
     brand: PFU
     image: https://happyhackingkb.com/jp/products/studio/image/img_01.webp
     credit: PFU 公式サイト
+    images:
+      - url: "https://happyhackingkb.com/jp/products/studio/image/gallery03.jpg"
+        credit: "PFU (happyhackingkb.com)"
+      - url: "https://happyhackingkb.com/jp/products/studio/image/gallery05.jpg"
+        credit: "PFU (happyhackingkb.com)"
+      - url: "https://happyhackingkb.com/jp/products/studio/image/gallery10.webp"
+        credit: "PFU (happyhackingkb.com)"
     price: 44,000円（発売時の標準価格）
     where: PFU直販ほか国内の量販店・通販サイト
     giteki: 国内メーカーのPFUが国内向けに販売している製品
@@ -65,6 +86,13 @@ products:
     brand: Yowkees
     image: https://cdn.shopify.com/s/files/1/0532/0880/9633/files/image1_Keyball44.jpg
     credit: 遊舎工房 販売ページ
+    images:
+      - url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/files/image2_Keyball44.jpg"
+        credit: "遊舎工房 販売ページ"
+      - url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/files/MG_7617.jpg"
+        credit: "遊舎工房 販売ページ"
+      - url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/files/image3_Keyball44.jpg"
+        credit: "遊舎工房 販売ページ"
     price: 24,800円（キット、遊舎工房、掲載時点）。34mmのトラックボールは別売
     where: 遊舎工房が設計者からの委託で販売している
     giteki: 有線接続のみで無線を持たないため対象外
@@ -81,6 +109,13 @@ products:
     brand: Clicks Technology
     image: https://cdn.prod.website-files.com/66f575e72f06b9820f448d43/68dc1424a7487a6e9e9d2bcb_17-opengraph.jpg
     credit: Clicks 公式サイト
+    images:
+      - url: "https://cdn.prod.website-files.com/66f575e72f06b9820f448d43/68dc0ab2ebf9182d8715d5a8_closer-look-onyx.avif"
+        credit: "Clicks 公式サイト"
+      - url: "https://cdn.prod.website-files.com/66f575e72f06b9820f448d43/68dc0ab2ebf9182d8715d5ab_closer-look-smoke.avif"
+        credit: "Clicks 公式サイト"
+      - url: "https://cdn.prod.website-files.com/66f575e72f06b9820f448d43/68dc03fd4687769b89e5af55_premium-typing4.avif"
+        credit: "Clicks 公式サイト"
     price: iPhone 17用は139ドル（公式直販、掲載時点）
     where: 公式サイト（日本語ページあり）。国内ではAmazon.co.jpの公式ストアがiPhone 16世代向けを扱う
     giteki: iPhoneの端子に直接つながり、Bluetoothなどの無線を使わないため対象外
@@ -97,6 +132,13 @@ products:
     brand: Lofree
     image: https://cdn.shopify.com/s/files/1/2779/9046/files/BlockP101.webp
     credit: Lofree 公式ストア
+    images:
+      - url: "https://lofree.co.jp/cdn/shop/files/Block_hero06.webp"
+        credit: "Lofree 日本公式ストア"
+      - url: "https://lofree.co.jp/cdn/shop/files/Block_hero07_082e43cc-cc2b-4583-bd0a-e0258733e408.jpg"
+        credit: "Lofree 日本公式ストア"
+      - url: "https://lofree.co.jp/cdn/shop/files/Block_button06_cbf5d844-d462-4829-bbc9-3116d5d4c764.webp"
+        credit: "Lofree 日本公式ストア"
     price: 29,700円（Lofree Japan公式ストア、キーボードのみ、掲載時点）
     where: Lofree Japan公式ストア（運営は三陽合同会社）
     giteki: 取得済み。工事設計認証番号 020-230432（型番OE918、2024年1月29日）
@@ -116,6 +158,13 @@ products:
     brand: ZSA
     image: https://assets.zsa.io/cdn-cgi/image/width=1600,quality=95,format=auto/images/@voyager/board/b-us-2.webp
     credit: ZSA 公式サイト
+    images:
+      - url: "https://assets.zsa.io/cdn-cgi/image/width=1600,quality=95,format=auto/images/@voyager/home/lifestyle-3.webp"
+        credit: "ZSA 公式サイト"
+      - url: "https://assets.zsa.io/cdn-cgi/image/width=1600,quality=95,format=auto/images/@voyager/home/it_s-comfy-legs-2.webp"
+        credit: "ZSA 公式サイト"
+      - url: "https://assets.zsa.io/cdn-cgi/image/width=1600,quality=95,format=auto/images/@voyager/home/it_s-comfy-tripod-kit.webp"
+        credit: "ZSA 公式サイト"
     price: 365ドル（送料込み、公式直販、掲載時点）。関税・消費税は到着時に別途
     where: ZSA公式サイトから直販。UPS・DHL・FedExで世界のほとんどの国へ発送している
     giteki: 有線接続のみで無線を持たないため対象外
@@ -132,6 +181,13 @@ products:
     brand: TourBox
     image: https://r.tourboxtech.com/file/202402/NEO_5.jpg
     credit: TourBox 公式サイト
+    images:
+      - url: "https://cdn.tourboxtech.com/static4frontend/tourbox-neo/jp/pc/pic_src/20231114-213100.jpg"
+        credit: "TourBox 公式サイト"
+      - url: "https://cdn.tourboxtech.com/static4frontend/tourbox-neo/jp/pc/pic_src/2_2.webp"
+        credit: "TourBox 公式サイト"
+      - url: "https://cdn.tourboxtech.com/static4frontend/tourbox-neo/jp/pc/pic_src/2_1.webp"
+        credit: "TourBox 公式サイト"
     price: 24,980円（日本公式ストア、掲載時点）
     where: TourBox日本公式ストア
     giteki: USB接続のみで無線を持たないため対象外

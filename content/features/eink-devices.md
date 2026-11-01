@@ -9,8 +9,13 @@ updated: 2026-09-27
 products:
   - name: BOOX Palma 2 Pro
     brand: ONYX
-    image: https://sktgroup.co.jp/wp-content/uploads/2025/11/palma2pro-black-4-768x768.jpg
-    credit: SKT株式会社 製品ページ
+    image: "https://prcdn.freetls.fastly.net/release_image/33556/59/33556-59-1130d66d85b429c9d46be345a9fd60d4-1200x900.png"
+    credit: "SKT株式会社 プレスリリース(PR TIMES)"
+    images:
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/59/33556-59-a78e70d5924aa0b4f11756c0be543259-1200x900.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/59/33556-59-f5ff53f0d4f7cba3e13a9f3a9ea26dc0-1200x900.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
     price: 69,800円（税込、SKTNETSHOP、掲載時点）
     where: SKT株式会社（ONYX Internationalの日本正規代理店）。SKTNETSHOPと、楽天市場・Yahoo!ショッピング・Amazon.co.jpのSKT店舗
     giteki: 国内正規代理店の販売品。ただしモバイル通信は、発売時点の案内で対応キャリアがソフトバンク（ワイモバイル含む）のみ
@@ -28,8 +33,13 @@ products:
     availability: caution
   - name: BOOX Note Air6C
     brand: ONYX
-    image: https://sktgroup.co.jp/wp-content/uploads/2026/09/01-1-768x768.jpg
-    credit: SKT株式会社 製品ページ
+    image: "https://prcdn.freetls.fastly.net/release_image/33556/65/33556-65-22d584bce71d9e7892a0a8edff2058b2-1200x800.png"
+    credit: "SKT株式会社 プレスリリース(PR TIMES)"
+    images:
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/65/33556-65-6d741bb7671db3d8e0593a071bf99092-1200x800.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/65/33556-65-8df3e2b2bf98a6c98a39f6d5c219019c-1200x800.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
     price: 96,800円（税込、掲載時点）
     where: SKT株式会社（ONYX Internationalの日本正規代理店）。SKTNETSHOPと、楽天市場・Yahoo!ショッピング・Amazon.co.jpのSKT店舗
     giteki: 国内正規代理店の販売品。Wi-FiとBluetooth 6.0を搭載する
@@ -49,6 +59,13 @@ products:
     brand: 楽天Kobo
     image: https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/main_libracolour_device_black.png
     credit: 楽天ブックス 製品ページ
+    images:
+      - url: "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/img_sec02_02.png"
+        credit: "楽天ブックス Kobo公式商品ページ"
+      - url: "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/img_sec02_04.png"
+        credit: "楽天ブックス Kobo公式商品ページ"
+      - url: "https://image.books.rakuten.co.jp/books/img/e-book/ereaders/kobolibracolour/img/img_sec04_01.png"
+        credit: "楽天ブックス Kobo公式商品ページ"
     price: 41,800円（税込、楽天ブックス、掲載時点）
     where: 楽天ブックスほか国内の量販店。楽天グループの製品として国内で正規販売されている
     giteki: 国内メーカー直販の製品。Wi-Fiを搭載する
@@ -65,6 +82,13 @@ products:
     brand: Amazon
     image: "https://assets.aboutamazon.com/dims4/default/b1c16db/2147483647/strip/true/crop/12500x5302+0+0/resize/1320x560!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Ffb%2Fad%2F951369a743a5bd4ef5f5820a1c2e%2Fmain-image-3000.jpg"
     credit: Amazon Press Center
+    images:
+      - url: "https://assets.aboutamazon.com/dims4/default/b8e5987/2147483647/strip/true/crop/1600x897+0+2/resize/1920x1076!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F58%2F28%2F8b2e66204834ac555c9a6bef7c27%2Funtitled-8.png"
+        credit: "Amazon (aboutamazon.com)"
+      - url: "https://assets.aboutamazon.com/dims4/default/7965ee6/2147483647/strip/true/crop/2000x1121+0+2/resize/1920x1076!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fc2%2Fa6%2F95644052408cbf84125dccea2d3a%2Fkindle-scribe-notetaking.png"
+        credit: "Amazon (aboutamazon.com)"
+      - url: "https://assets.aboutamazon.com/dims4/default/a9ad898/2147483647/strip/true/crop/1206x676+0+1/resize/1920x1076!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fc8%2F8e%2Fe1efd6a14d369d555ac9f238359e%2Fcalvados-new-home-screen-2.jpg"
+        credit: "Amazon (aboutamazon.com)"
     price: 32GB 106,980円／64GB 115,980円（税込、発表時点）
     where: Amazon.co.jp（Amazon直販）
     giteki: 国内メーカー直販の製品。Amazonが日本向けに発表・販売している
@@ -81,6 +105,13 @@ products:
     brand: DASUNG
     image: https://prcdn.freetls.fastly.net/release_image/33556/64/33556-64-204f01e85c43115f980fe1fe5421b740-1600x1200.png
     credit: SKT株式会社 プレスリリース（PR TIMES）
+    images:
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/64/33556-64-3f729e55e1bb6357aae14e350bf838c2-1600x1200.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/64/33556-64-fd8eb50fef3319cedc436f6a4b45c7c7-1600x1200.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
+      - url: "https://prcdn.freetls.fastly.net/release_image/33556/64/33556-64-2095f03d19d5e9ba90c1ca200da0c2be-1600x1200.png"
+        credit: "SKT株式会社 プレスリリース(PR TIMES)"
     price: カラー版 162,800円前後／モノクロ版 148,500円前後（市場想定価格、発表時点）
     where: SKT株式会社（DASUNGの日本正規代理店）。SKTNETSHOPと、楽天市場・Yahoo!ショッピング・Amazon.co.jpのSKT店舗
     giteki: 対象外。SKTの仕様表に無線機能の記載が無く、映像はUSB Type-CとMini-HDMIの有線で入力する

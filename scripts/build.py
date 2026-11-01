@@ -1481,6 +1481,27 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
         cap = (f'<figcaption class="fp-credit">出典: {html.escape(credit)}</figcaption>'
                if credit else "")
         shot = f'<figure class="fp-shot">{ext_img(img, name)}{cap}</figure>'
+        # 2枚目以降(images:)があれば、下に小さい写真を並べ、押すと上の大きい写真が切り替わる。
+        # 写真1枚ではガジェットの形が伝わらない(2026-11-01 本人指摘)。出典は写真ごとに出す。
+        extra = [x for x in (item.get("images") or []) if str(x.get("url") or "").strip()]
+        if extra:
+            shots = [{"url": img, "credit": credit}] + extra
+            if not credit:
+                shot = shot.replace("</figure>", '<figcaption class="fp-credit"></figcaption></figure>')
+            swap = ("var g=this.closest('.fp-gallery'),i=g.querySelector('.fp-shot img'),"
+                    "c=g.querySelector('.fp-credit');i.src=this.dataset.src;"
+                    "c.textContent=this.dataset.credit?'出典: '+this.dataset.credit:'';"
+                    "g.querySelectorAll('.fp-thumb').forEach(function(b){b.classList.remove('on')});"
+                    "this.classList.add('on')")
+            thumbs = "".join(
+                f'<button type="button" class="fp-thumb{" on" if n == 0 else ""}" '
+                f'data-src="{html.escape(str(x["url"]).strip())}" '
+                f'data-credit="{html.escape(str(x.get("credit") or "").strip())}" '
+                f'aria-label="{name}の写真 {n + 1}" onclick="{html.escape(swap)}">'
+                f'<img src="{html.escape(str(x["url"]).strip())}" alt="" loading="lazy" decoding="async" '
+                f'referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"></button>'
+                for n, x in enumerate(shots))
+            shot = f'<div class="fp-gallery">{shot}<div class="fp-thumbs">{thumbs}</div></div>'
 
     # 特集の製品は merchant を書かせず、URL のドメインで決める（楽天・Amazon の
     # 店舗ページをそのまま貼る運用のため）。2026-10-12 まで変換を通しておらず、
@@ -3260,6 +3281,15 @@ img{max-width:100%}
 .fp-badge-bad{background:rgba(200,80,60,.14);color:#e0806c;border:1px solid rgba(200,80,60,.35)}
 .fp-shot{margin:0 0 22px;position:relative;border-radius:3px;overflow:hidden;background:var(--raised)}
 .fp-shot img{width:100%;height:auto;display:block}
+.fp-gallery{margin:0 0 22px}
+.fp-gallery .fp-shot{margin:0 0 8px;background:#ecebe7}
+.fp-gallery .fp-shot img{aspect-ratio:3/2;object-fit:contain}
+.fp-gallery .fp-credit:empty{display:none}
+.fp-thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.fp-thumb{flex:0 0 auto;width:84px;height:64px;padding:0;border:1px solid var(--line,rgba(255,255,255,.12));
+  border-radius:3px;background:#ecebe7;cursor:pointer;overflow:hidden;opacity:.6}
+.fp-thumb img{width:100%;height:100%;object-fit:contain;display:block}
+.fp-thumb.on,.fp-thumb:hover{opacity:1;border-color:var(--ink-2)}
 .fp-credit{position:absolute;right:0;bottom:0;font-size:.64rem;color:var(--ink-2);
   background:rgba(11,13,16,.82);padding:4px 9px;letter-spacing:.02em}
 .fp-body{margin-bottom:24px}
