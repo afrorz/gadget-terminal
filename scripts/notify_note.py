@@ -110,6 +110,14 @@ def main() -> int:
         sys.path.insert(0, str(ROOT / "scripts"))
         import ogp
         payload["headerSlots"] = ogp.NOTE_SLOTS
+        # X 記事の表紙(5:2)も同じ形で。文字だけの元を送り、TamakoStock が X_SLOTS に写真を重ねる
+        xpng = ROOT / "public" / "note" / f"{path.stem}-x.png"
+        site_title = yaml.safe_load((ROOT / "config" / "site.yaml").read_text(encoding="utf-8"))["site"]["title"]
+        if ogp.render_note_header(str(fm.get("title") or ""), str(fm.get("label") or "WEEKLY"),
+                                  str(fm["header_hook"]), str(fm.get("header_sub") or ""),
+                                  site_title, xpng, layout="x"):
+            payload["xCoverBase"] = base64.b64encode(xpng.read_bytes()).decode("ascii")
+            payload["xCoverSlots"] = ogp.X_SLOTS
     xfile = path.with_name(f"{path.stem}-x.txt")
     if xfile.is_file():
         x_text = xfile.read_text(encoding="utf-8").strip()

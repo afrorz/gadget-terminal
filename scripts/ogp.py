@@ -236,11 +236,27 @@ def render_card(keyword: str, category_label: str, category_key: str,
 # 文字はここで描き、写真は TamakoStock(x-poster の ingestNoteDraft)が NOTE_SLOTS の位置に重ねる
 # (クラウドの関数には日本語の書体が無いため。写真はそちらで JPEG に変換済みのものを使う)。
 NOTE_SIZE = (1280, 670)
-_NH_TOP, _NH_X0, _NH_HW, _NH_HH, _NH_PH = 214, 60, 580, 426, 262
-_NH_CW, _NH_CH, _NH_GAP = 272, 205, 16
-NOTE_SLOTS = [{"left": _NH_X0, "top": _NH_TOP, "width": _NH_HW, "height": _NH_PH, "radius": 14, "corners": "top"}] + [
-    {"left": _NH_X0 + _NH_HW + 18 + (k % 2) * (_NH_CW + _NH_GAP), "top": _NH_TOP + (k // 2) * (_NH_CH + _NH_GAP),
-     "width": _NH_CW, "height": _NH_CH, "radius": 14, "corners": "all"} for k in range(4)]
+# 形ごとの寸法。x は X 記事の表紙(横長 5:2、2026-11-01 から同じ形で作る)
+_NH = {
+    "note": {"size": NOTE_SIZE, "top": 214, "x0": 60, "hw": 580, "hh": 426, "ph": 262, "gap": 16,
+             "head_y": 28, "lead_y": 86, "count_y": 40, "lead": 58, "count": 112, "hook_dy": (22, 96), "sub": (28, 22)},
+    "x": {"size": (1500, 600), "top": 196, "x0": 60, "hw": 660, "hh": 364, "ph": 232, "gap": 16,
+          "head_y": 24, "lead_y": 76, "count_y": 32, "lead": 56, "count": 104, "hook_dy": (14, 82), "sub": (26, 22)},
+}
+
+
+def _slots(layout: str) -> list[dict]:
+    L = _NH[layout]
+    gx = L["x0"] + L["hw"] + 18
+    cw = (L["size"][0] - L["x0"] - gx - L["gap"]) // 2
+    ch = (L["hh"] - L["gap"]) // 2
+    return [{"left": L["x0"], "top": L["top"], "width": L["hw"], "height": L["ph"], "radius": 14, "corners": "top"}] + [
+        {"left": gx + (k % 2) * (cw + L["gap"]), "top": L["top"] + (k // 2) * (ch + L["gap"]),
+         "width": cw, "height": ch, "radius": 14, "corners": "all"} for k in range(4)]
+
+
+NOTE_SLOTS = _slots("note")
+X_SLOTS = _slots("x")
 
 _HEAVY = {  # いちばん太い字(Black)。無ければ Bold で代わりにする
     900: ["/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc", "C:/Windows/Fonts/NotoSansJP-VF.ttf"],
@@ -272,39 +288,43 @@ def _fit(draw, text: str, max_width: int, big: int, small: int, weight: int):
     return _heavy(weight, small)
 
 
-def render_note_header(title: str, label: str, hook: str, sub: str, site_title: str, out_path: Path) -> bool:
+def render_note_header(title: str, label: str, hook: str, sub: str, site_title: str, out_path: Path,
+                       layout: str = "note") -> bool:
     """note の週まとめの見出し画像の文字の部分を書き出す。写真の場所は白い枠のまま。成功したら True。
 
     title は「今週の海外最新ガジェット5選｜10月第1週」、label は「WEEKLY｜2026.09.27-10.03」の形。
     hook は主役の「今までにない所」(大きく)、sub は何の製品か(小さく)。
+    layout="x" で X 記事の表紙(1500×600)。写真の場所は X_SLOTS。
     """
     if Image is None:
         return False
     import re
-    w, h = NOTE_SIZE
+    L = _NH[layout]
+    w, h = L["size"]
     head, _, week = title.partition("｜")
     m = re.match(r"^(.*?)(\d+選)$", head.strip())
     lead, count = (m.group(1), m.group(2)) if m else (head.strip(), "")
     span = label.partition("｜")[2].replace("2026.", "").strip() or label
-    f_lead, f_count = _heavy(900, 58), _heavy(900, 112)
+    f_lead, f_count = _heavy(900, L["lead"]), _heavy(900, L["count"])
     if not (f_lead and f_count):
         return False
     img = Image.new("RGB", (w, h), BG)
     d = ImageDraw.Draw(img)
     d.rectangle([0, 0, w, 8], fill=ACCENT)
-    x0 = _NH_X0
-    d.ellipse([x0, 40, x0 + 14, 54], fill=ACCENT)
-    d.text((x0 + 24, 28), site_title.upper(), font=_heavy(700, 22), fill=INK)
-    d.text((x0 + 262, 28), f"WEEKLY｜{week.strip()}（{span}）" if week else label, font=_heavy(500, 22), fill=INK_2)
-    d.text((x0, 86), lead, font=f_lead, fill=INK)
+    x0, hy = L["x0"], L["head_y"]
+    d.ellipse([x0, hy + 12, x0 + 14, hy + 26], fill=ACCENT)
+    d.text((x0 + 24, hy), site_title.upper(), font=_heavy(700, 22), fill=INK)
+    d.text((x0 + 262, hy), f"WEEKLY｜{week.strip()}（{span}）" if week else label, font=_heavy(500, 22), fill=INK_2)
+    d.text((x0, L["lead_y"]), lead, font=f_lead, fill=INK)
     if count:
-        d.text((x0 + d.textlength(lead, font=f_lead) + 8, 40), count, font=f_count, fill=ACCENT)
+        d.text((x0 + d.textlength(lead, font=f_lead) + 8, L["count_y"]), count, font=f_count, fill=ACCENT)
     # 主役の枠(上が写真、下が一言)と、残り4本の枠。写真は TamakoStock が重ねる
-    d.rounded_rectangle([x0, _NH_TOP, x0 + _NH_HW, _NH_TOP + _NH_HH], 14, fill=(255, 255, 255))
-    ty = _NH_TOP + _NH_PH
-    d.text((x0 + 26, ty + 22), hook, font=_fit(d, hook, _NH_HW - 52, 46, 34, 900), fill=(17, 19, 23))
-    d.text((x0 + 28, ty + 96), sub, font=_fit(d, sub, _NH_HW - 56, 28, 22, 700), fill=(80, 86, 94))
-    for s in NOTE_SLOTS[1:]:
+    d.rounded_rectangle([x0, L["top"], x0 + L["hw"], L["top"] + L["hh"]], 14, fill=(255, 255, 255))
+    ty = L["top"] + L["ph"]
+    d.text((x0 + 26, ty + L["hook_dy"][0]), hook, font=_fit(d, hook, L["hw"] - 52, 46, 34, 900), fill=(17, 19, 23))
+    d.text((x0 + 28, ty + L["hook_dy"][1]), sub, font=_fit(d, sub, L["hw"] - 56, L["sub"][0], L["sub"][1], 700),
+           fill=(80, 86, 94))
+    for s in _slots(layout)[1:]:
         d.rounded_rectangle([s["left"], s["top"], s["left"] + s["width"], s["top"] + s["height"]], 14, fill=SURFACE)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, "PNG", optimize=True)

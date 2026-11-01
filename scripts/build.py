@@ -3547,7 +3547,12 @@ def main() -> int:
                                                photo_credit="製品画像: 各メーカー公式サイト・クラウドファンディングページより"):
                 notes += 1
             # X 記事の表紙(横長 5:2)。note と同じ週まとめを X 記事にも出す(2026-10-11 開始)
-            if fm.get("title"):
+            # header_hook のある週は note と同じ形(写真は TamakoStock が X_SLOTS に重ねる。2026-11-01〜)
+            if fm.get("header_hook"):
+                ogp.render_note_header(str(fm["title"]), str(fm.get("label") or "WEEKLY"),
+                                       str(fm["header_hook"]), str(fm.get("header_sub") or ""),
+                                       site["site"]["title"], PUBLIC / "note" / f"{f.stem}-x.png", layout="x")
+            elif fm.get("title"):
                 ogp.render(str(fm["title"]), str(fm.get("label") or "WEEKLY"), site["site"]["title"],
                            PUBLIC / "note" / f"{f.stem}-x.png", size=(1500, 600))
         if notes:
