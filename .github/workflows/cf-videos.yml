@@ -1,0 +1,110 @@
+name: クラファン記事にあとから出た実機の動画を足す
+
+# 2026-11-01 本人の提案。Kickstarter などは出資から出荷まで数か月かかり、その間に YouTube に
+# 実機のレビュー・開封・出資者への到着報告が出る。公開から14日〜1年のクラファン記事を、14日おきに見回る。
+# 動画の実在・題名・チャンネル・公開日は scripts/cf_videos.py add が YouTube から取って確かめる。
+on:
+  schedule:
+    # 14:30 UTC = 23:30 JST。GitHub の定時実行は2〜3.5時間遅れるので、実際は深夜 1〜3 時ごろ。
+    # ほかの深夜の作業とは concurrency の content-push で直列にする
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "見る記事の本数"
+        required: false
+        default: "6"
+
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 今日見る記事を選ぶ
+        id: pick
+        env:
+          N: ${{ github.event.inputs.n || '6' }}
+        run: |
+          pip install -r requirements.txt --break-system-packages -q
+          python scripts/cf_videos.py pick --n "$N" | tee /tmp/pick.txt
+          {
+            echo "list<<EOF"
+            cat /tmp/pick.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: YouTube に届くか確かめる
+        # ランナーの IP から YouTube の動画ページが読めないと add が全部失敗するので、先に見る
+        if: ${{ !contains(steps.pick.outputs.list, '今日見る記事はありません') }}
+        run: |
+          python -c "import sys;sys.path.insert(0,'scripts');import cf_videos as c;print(c.video_info('l7ITJTsp9CY'))"
+
+      - name: Claude Code CLI を明示的にインストール
+        if: ${{ !contains(steps.pick.outputs.list, '今日見る記事はありません') }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - uses: anthropics/claude-code-action@v1
+        if: ${{ !contains(steps.pick.outputs.list, '今日見る記事はありません') }}
+        # prompt の中に ${{ }} を書かないこと(daily-article.yml の注意書きを参照)。
+        env:
+          PICKED: ${{ steps.pick.outputs.list }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          claude_args: |
+            --max-turns 100
+            --allowedTools "WebSearch,WebFetch,Read,Glob,Grep,Bash"
+          prompt: |
+            あなたは海外ガジェットメディア「Gadget Terminal」の編集担当です。今日は新しい記事は書きません。
+            クラウドファンディングの製品を扱った記事に、**あとから YouTube に出た実機の動画**を足します。
+            出資から出荷まで数か月かかる間に、実機のレビュー・開封・出資者への到着報告が出るので、
+            「本当に届くのか・実物はどうか」を知りたい読者に見せるためです。
+
+            ## 今日の記事
+            環境変数 PICKED に一覧がある(`echo "$PICKED"` で読む)。製品名・クラファンの URL・入っている動画の ID が付いている。
+
+            ## 手順(1本ずつ)
+            1. WebSearch で YouTube を探す(allowed_domains に youtube.com)。「<製品名> review」「<製品名> unboxing」
+               「<製品名> hands-on」「<ブランド> <製品名>」など2〜3回。日本語の動画も探してよい。
+            2. 足してよい動画:
+               - 量産品・試作品の**実物**を手に取って見せるレビュー・開封・使ってみた・分解・出資者に届いた報告
+               - メーカーの動画なら、実物の動作を見せる実演だけ(CG・宣伝のキャンペーン動画は足さない)
+               足さない動画: 別の製品・同じブランドの前の版・名前が似ているだけの物・再アップロード・
+               内容の無いまとめ動画・すでに入っている ID
+               **題名やチャンネルから、その製品そのものだと確信できない動画は足さない。**
+            3. 足すときは次のコマンドを使う(front matter を手で書き換えない):
+               `python3 scripts/cf_videos.py add content/posts/<ファイル名> --id <11文字の動画ID> --note "<一言>"`
+               add が YouTube から題名・チャンネル・公開日を取り、実在しない・古すぎる・重複している動画は弾く。
+               ✗ が出たら、その動画はあきらめる。
+               note は 80 文字以内の日本語で、**題名と検索結果の説明から言えることだけ**を書く。
+               動画を見ていないので、中で何をしているか・評価がどうかを想像で書かない。
+               例:「個人の YouTuber による実機のレビュー（英語）」「出資者に届いた量産品の開封（英語）」
+                  「メーカー公開。別売りの ADC モジュールを付けた動作の実演（英語）」
+            4. 1記事に今日足すのは 2 本まで(良い順)。見つからなければ足さない。それで正常。
+            5. 見終わった記事を、足したかどうかに関係なくすべて記録する:
+               `python3 scripts/cf_videos.py done content/posts/<ファイル名> ...`
+
+            ## 検証してから push する
+            a. `python3 scripts/build.py` が通ること。
+            b. content/posts/ と data/cf_videos.json をまとめてコミットし、main に push。
+               コミットメッセージは「クラファン記事に実機の動画 <今日の日付>(N本)」。public/ はコミットしない。
+               動画が0本でも data/cf_videos.json の記録はコミットする。
+            c. 最後に、足した動画(記事・題名・チャンネル)の一覧を出力する。
+
+            ## 注意
+            - 本文・FAQ・ほかの front matter は触らない(add が modified と videos_after だけを書く)。
+            - 1本で行き詰まっても止まらず、次の記事へ進む。

@@ -1805,6 +1805,36 @@ def feature_hint(p: dict) -> str:
             f'<a href="{u(hit["path"])}">{html.escape(str(hit.get("title") or ""))}</a></p>')
 
 
+def videos_after_section(p: dict) -> str:
+    """クラファン記事に、公開後に出た YouTube の実機動画を出す(scripts/cf_videos.py が足す)。
+
+    出資から出荷まで数か月かかる間に、実機レビューや出資者への到着報告が YouTube に出る。
+    公開時点の記事はキャンペーンの宣伝動画しか無いので、「本当に届くのか・実物はどうか」を
+    後から出た動画で見せる(2026-11-01 本人の提案)。題名・チャンネル・公開日は add が YouTube から取った値。
+    """
+    items = [v for v in (p.get("videos_after") or []) if re.match(r"^[A-Za-z0-9_-]{11}$", str(v.get("id") or ""))]
+    if not items:
+        return ""
+    figs = []
+    for v in items:
+        vid = html.escape(str(v["id"]))
+        title = html.escape(str(v.get("title") or "YouTube"))
+        meta = html.escape(str(v.get("channel") or ""))
+        if v.get("published"):
+            meta += f' / {str(v["published"]).replace("-", ".")} 公開'
+        note = f'<span class="va-note">{html.escape(str(v["note"]))}</span>' if v.get("note") else ""
+        figs.append(
+            f'<figure class="embed embed-video">'
+            f'<iframe src="https://www.youtube-nocookie.com/embed/{vid}" title="{title}" loading="lazy" '
+            f'allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>'
+            f'<figcaption>{note}<span class="va-meta">{title}（{meta}）</span></figcaption></figure>')
+    added = max(str(v.get("added") or "") for v in items)
+    return (f'<section class="embeds videos-after"><h2>あとから追加した実機の動画</h2>'
+            f'<p class="va-lead">記事の公開後に見つけた、実機のレビューや開封・動作の動画です。'
+            f'クラウドファンディングは出荷まで時間がかかるので、その間に出た動画を足しています（最終追加 {added.replace("-", ".")}）。</p>'
+            + "".join(figs) + '</section>')
+
+
 def render_post(site: dict, p: dict, others: list[dict]) -> str:
     s = site["site"]
     cat = site["categories"].get(p.get("category"), {"label": "その他", "slug": "misc"})
@@ -1988,6 +2018,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {jp_html}
     {hero_block}
     <div class="prose">{body_with_media}</div>
+    {videos_after_section(p)}
     {embeds_html}
     {buy_html}
     {alts_html}
@@ -3336,6 +3367,9 @@ img{max-width:100%}
   background:var(--accent);color:#fff;border:0;border-radius:3px;cursor:pointer}
 .jp-alert-form button:disabled{opacity:.6;cursor:default}
 .jp-alert-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.videos-after .va-lead{margin:0 0 14px;font-size:13px;line-height:1.8;color:var(--ink-3)}
+.videos-after figcaption .va-note{display:block;color:var(--ink);font-size:14px;line-height:1.7}
+.videos-after figcaption .va-meta{display:block;font-size:12px;color:var(--ink-3);line-height:1.6;margin-top:2px}
 .jp-alert-track{margin:8px 0 0;font-size:13px;line-height:1.8;color:var(--ink-2,var(--ink))}
 .jp-alert-track a{margin-left:4px;white-space:nowrap}
 .jp-alert-note{margin:8px 0 0;font-size:12px;line-height:1.7;color:var(--ink-3)}

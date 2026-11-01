@@ -9,7 +9,6 @@ x_hook: |
 keyword: SLogic32U3
 category: pc
 date: 2026-10-09
-modified: 2026-10-10
 origin: HKG 香港
 deadline: 2026-11-07
 kicker: Sipeedが、USB 3.2 Gen2（10Gbps）で接続する32チャンネルのロジックアナライザ「SLogic32U3」をKickstarterで募集している。4チャンネルなら1400MS/s、32チャンネル同時でも200MS/sで、波形はPCのメモリやディスクにストリーミングする。
@@ -76,6 +75,14 @@ faq:
   a: 公式仕様に無線機能の記載はなく、USB-Cのバスパワーで動く有線の計測機器です。技適の対象外と判断できます。
 - q: 日本で買えますか
   a: 国内の取扱いは掲載時点で確認できていません。Kickstarterのリワードは発送先が「世界のどこでも」で、日本からも支援できます。募集は日本時間2026年11月7日22時3分まで、お届けは2026年11月の予定です。日本向けの送料は支援時に表示されます。
+modified: 2026-11-01
+videos_after:
+  - id: LKLH_HEQKxA
+    title: "SLogic32U3 ADC Module Oscilloscope Function Demonstration"
+    channel: "Sipeed Lab"
+    published: 2026-10-19
+    added: 2026-11-01
+    note: "メーカー公開。別売りの ADC モジュールを付けて、オシロスコープとして使う動作の実演（英語）"
 ---
 
 Sipeedが、世界初のUSB 3.2 Gen2対応ロジックアナライザとうたう「SLogic32U3」のクラウドファンディングを始めた。2025年に出た3.2Gbps接続の「SLogic16U3」の後継機で、32チャンネル、最大1400MS/s、デジタル信号帯域350MHzという仕様だ。クラウドファンディングは製品の購入ではなく、出資である。
