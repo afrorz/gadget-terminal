@@ -162,6 +162,10 @@ def check_x_long(text: str) -> list[str]:
     m = X_NEGATIVE_IN_HOOK.search(text.strip()[:140])
     if m:
         errs.append(f"X長文: 冒頭140字に否定の結論があります: {m.group(0)}")
+    # 冒頭は5本を「・」で並べるダイジェスト(2026-11-01 本人の指示)。「1.」の前に5行あるか
+    head = re.split(r"(?m)^1\. ", text, maxsplit=1)[0]
+    if len(re.findall(r"(?m)^・", head)) != 5:
+        errs.append("X長文: 冒頭に5本を「・」で1行ずつ並べたダイジェストがありません")
     if not re.search(r"https://gadgetterminal\.com/posts/[\w.-]+\.html", text):
         errs.append("X長文: サイトの記事URL(https://gadgetterminal.com/posts/…)がありません")
     return errs
