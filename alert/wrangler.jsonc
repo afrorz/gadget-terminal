@@ -1,0 +1,26 @@
+// 日本上陸アラートの受け口(Cloudflare Worker)。
+//   npx wrangler deploy                       # 公開
+//   npx wrangler d1 execute gt-alert --remote --file schema.sql   # 表を作る(初回)
+//   npx wrangler secret put RESEND_API_KEY    # メール送信のキー(Resend、送信のみ・gadgetterminal.com 限定)
+// 仕組みは src/index.js の先頭に書いてある。
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gt-alert",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "routes": [{ "pattern": "alert.gadgetterminal.com", "custom_domain": true }],
+  "d1_databases": [
+    { "binding": "DB", "database_name": "gt-alert", "database_id": "2af02d10-683a-457a-9d4f-31ed01b8cced" }
+  ],
+  "triggers": {
+    // 毎朝 09:10 JST(00:10 UTC)。サイトのビルドは記事生成のあと 5〜8 時ごろに終わるので、その後に見る
+    "crons": ["10 0 * * *"]
+  },
+  "vars": {
+    "SITE": "https://gadgetterminal.com",
+    "ALERT_ORIGIN": "https://alert.gadgetterminal.com",
+    "FROM": "Gadget Terminal <press@gadgetterminal.com>",
+    "ALLOW_ORIGINS": "https://gadgetterminal.com,http://localhost:8000"
+  },
+  "observability": { "enabled": true }
+}

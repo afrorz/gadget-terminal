@@ -27,6 +27,9 @@ site:
   analytics_id: ""
   # 紹介リンクのクリックを記事ごとに数える受け口（x-poster の gtClick、2026-10-27〜）。空なら送らない
   click_beacon_url: "https://asia-northeast1-tamakostock.cloudfunctions.net/gtClick"
+  # 日本上陸アラート(まだ日本で買えない記事に出すメール登録欄)の受け口。alert/ の Worker。
+  # 空なら欄もプライバシーの項も出ない(2026-11-01〜)
+  alert_api_url: "https://alert.gadgetterminal.com"
   # Google Search Console の所有権確認。プロパティ追加 → 「HTMLタグ」を選ぶと
   # <meta name="google-site-verification" content="XXXX"> が出るので、
   # **content= の中身だけ**をここに入れて公開する。空なら何も出力しない。

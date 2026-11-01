@@ -524,6 +524,61 @@ JAPAN_STORES = (
 # 状況は選択式。自由記述にすると「発売」「販売開始」「上陸」が混ざり、
 # 読者にも自動の見回り(scripts/followup.py)にも読めなくなる。
 JAPAN_STATUS = ("発売済み", "予約受付中", "クラウドファンディング中", "発売予定")
+# このうち「お金を払える」状態。日本上陸アラート(alert/)はここに入った時に1通送る。
+# 「発売予定」は発表だけなので送らない(買えるようになった時に送る)
+JAPAN_LANDED = ("発売済み", "予約受付中", "クラウドファンディング中")
+
+
+def is_landed(p: dict) -> bool:
+    return str((p.get("japan") or {}).get("status") or "").strip() in JAPAN_LANDED
+
+
+def alert_form(s: dict, p: dict) -> str:
+    """「日本上陸アラート」の登録欄。まだ日本で買えない記事にだけ出す(2026-11-01 本人決定)。
+
+    読者はその製品が欲しくて来るのに、記事は「技適が確認できない=今は無理」で終わることが多く、
+    買う気が消えていた。代わりの品を勧めても「ふーん」で終わる。そこで、買えるようになった時に
+    1通だけ知らせる登録で買う気を預かる。受け口は alert/ の Worker。`alert_api_url` が空なら出さない。
+    JS が無くても form の POST で動く(Worker が HTML で返す)。
+    """
+    api = str(s.get("alert_api_url") or "").strip().rstrip("/")
+    if not api or is_landed(p):
+        return ""
+    title = html.escape(p["title"])
+    return (f'<aside class="jp-alert" data-api="{html.escape(api)}">'
+            f'<p class="jp-head"><span class="jp-badge">日本上陸アラート</span></p>'
+            f'<p class="jp-alert-text">「{title}」が日本で買えるようになったら、メールで1通だけお知らせします。'
+            f'それまでメールは送りません。</p>'
+            f'<form class="jp-alert-form" action="{html.escape(api)}/subscribe" method="post">'
+            f'<input type="email" name="email" required placeholder="メールアドレス" autocomplete="email" aria-label="メールアドレス">'
+            f'<input type="hidden" name="slug" value="{html.escape(p["slug"])}">'
+            f'<input type="text" name="website" class="jp-alert-hp" tabindex="-1" autocomplete="off" aria-hidden="true">'
+            f'<button type="submit">登録する</button></form>'
+            f'<p class="jp-alert-note">確認メールが届きます。解除はいつでもできます。'
+            f'<a href="{u("privacy.html")}#alert">メールの扱いについて</a></p>'
+            f'<p class="jp-alert-msg" role="status" aria-live="polite"></p></aside>')
+
+
+ALERT_JS = """<script>(function(){var f=document.querySelector('.jp-alert-form');if(!f)return;
+var box=f.closest('.jp-alert'),msg=box.querySelector('.jp-alert-msg'),btn=f.querySelector('button');
+f.addEventListener('submit',function(e){e.preventDefault();btn.disabled=true;msg.textContent='送信中…';
+var d={};new FormData(f).forEach(function(v,k){d[k]=v});
+fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(d)})
+.then(function(r){return r.json()}).then(function(j){msg.textContent=j.message||j.error||(j.ok?'確認メールを送りました':'登録できませんでした');
+if(j.ok){f.querySelector('input[type=email]').value='';}btn.disabled=false;})
+.catch(function(){msg.textContent='送れませんでした。時間をおいてもう一度お試しください';btn.disabled=false;});});})();</script>"""
+
+
+def insert_alert_form(body_html: str, form_html: str) -> str:
+    """登録欄を「日本で買える？使える？」の節の末尾(次の h2 の手前)に入れる。節が無ければ本文の末尾。"""
+    if not form_html:
+        return body_html
+    m = re.search(r"<h2[^>]*>\s*日本で買える？使える？\s*</h2>", body_html)
+    if not m:
+        return body_html + form_html
+    nxt = re.search(r"<h2[\s>]", body_html[m.end():])
+    pos = m.end() + nxt.start() if nxt else len(body_html)
+    return body_html[:pos] + form_html + body_html[pos:]
 
 
 # 日本上陸の続報でだけ使える技適の判定(2026-09-27 本人判断)。
@@ -1783,6 +1838,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     # 本文中に差し込むメディア。動くものが最も価値が高いので動画を先に、写真(2枚目以降)を続ける。
     media = inline_videos + [inline_photo(im, p["title"]) for im in imgs[1:]]
     body_with_media = insert_inline_media(p["body_html"], media)
+    alert_html = alert_form(s, p)
+    body_with_media = insert_alert_form(body_with_media, alert_html)
     embeds_html = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
                    + "".join(others) + '</section>') if others else ""
     sources = ""
@@ -1927,7 +1984,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
   </article>
   {ad_unit(s, "article_end")}
   {rel_html}
-</main>"""
+</main>{ALERT_JS if alert_html else ""}"""
         + footer(site)
     )
 
@@ -2022,6 +2079,25 @@ def render_privacy(site: dict) -> str:
     analytics_block = ("<ul>" + "".join(analytics) + "</ul>") if analytics else (
         "<p>アクセス解析ツールは利用していません。</p>")
 
+    # 日本上陸アラート。メールアドレスを預かるので、何に使い・どこに置き・どう消すかを書く。
+    # alert_api_url が空なら欄そのものが出ないので、ここも出さない
+    alert_block = ""
+    if str(s.get("alert_api_url") or "").strip():
+        alert_block = """
+      <h2 id="alert">日本上陸アラート（メール通知）</h2>
+      <p>記事の「日本で買える？使える？」の欄から登録いただいたメールアドレスは、
+      <strong>その製品が日本で買えるようになったことを1通お知らせする目的にのみ</strong>使用します。
+      確認メールのリンクを開いた時点で登録が完了し、それまでお知らせは送りません。
+      ニュースレターや広告のメールは送りません。</p>
+      <p>メールアドレスと登録した記事の組み合わせは、Cloudflare, Inc. のデータベース（Cloudflare D1）に
+      保存し、メールの送信には Resend, Inc. のサービスを利用します。いずれも送信とその記録に
+      必要な範囲でのみ使用し、ご本人の同意なく第三者に提供することはありません。
+      登録時の迷惑登録対策として、接続元のネットワークアドレスを復元できない形（ハッシュ）で
+      1時間だけ数えています。</p>
+      <p>登録は、お知らせのメールおよび確認完了ページにある「登録を解除する」のリンクから
+      いつでも解除できます。解除後はそのアドレスにお知らせを送りません。
+      データの削除をご希望の場合は、下記のお問い合わせ窓口までご連絡ください。</p>"""
+
     body = f"""
 <main class="wrap article-wrap">
   <article class="article">
@@ -2037,6 +2113,7 @@ def render_privacy(site: dict) -> str:
       会員登録の仕組みもありません。</p>
       <p>お問い合わせをいただいた場合に限り、返信のためにメールアドレスと本文をお預かりします。
       これらは回答の目的にのみ使用し、ご本人の同意なく第三者に提供することはありません。</p>
+{alert_block}
 
       <h2>アクセス解析</h2>
       {analytics_block}
@@ -2490,6 +2567,31 @@ for(var i=1;i<=7;i++)q.push("TEC="+i);
   a.href="https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jk01&NUM_TYPE=1&NUM="+encodeURIComponent(a.getAttribute("data-num"))+"&SC=1&"+q.join("&");
 });
 })();</script>"""
+
+
+def write_landing_data(site: dict, posts: list[dict]) -> None:
+    """日本上陸アラート(alert/)が毎朝読む landing.json。全記事の slug と上陸状態。
+
+    Worker はこれを読んで、landed が true になった記事の登録者に1通送る(記事ごとに1回)。
+    登録時にも slug の実在確認と製品名の取得に使う。紹介リンクは入れない(メールに出さないため)。
+    """
+    base = site["site"]["base_url"].rstrip("/")
+    items = []
+    for p in posts:
+        j = p.get("japan") or {}
+        items.append({
+            "slug": p["slug"],
+            "title": p["title"],
+            "url": f"{base}/{p['path']}",
+            "status": str(j.get("status") or "").strip() or "未上陸",
+            "landed": is_landed(p),
+            "summary": str(j.get("summary") or "").strip(),
+            "checked": str(j.get("checked") or ""),
+        })
+    data = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "items": items}
+    (PUBLIC / "landing.json").write_text(
+        json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"■ landing.json: {len(items)}本 / 日本で買える {sum(1 for x in items if x['landed'])}本")
 
 
 def write_giteki_data(site: dict, posts: list[dict]) -> None:
@@ -3207,6 +3309,23 @@ img{max-width:100%}
   .gk-nums{line-height:1.8}
   .gk-num{overflow-wrap:anywhere}
 }
+
+/* ── 日本上陸アラート(記事の「日本で買える？使える？」の節の末尾) ── */
+.jp-alert{max-width:var(--measure);margin:22px 0 26px;padding:14px 16px 12px;
+  background:var(--surface);border-left:3px solid var(--accent);border-radius:3px}
+.jp-alert-text{margin:10px 0 0;font-size:14.5px;line-height:1.85;color:var(--ink)}
+.jp-alert-form{display:flex;gap:8px;margin:12px 0 0;flex-wrap:wrap}
+.jp-alert-form input[type=email]{flex:1 1 220px;min-width:0;padding:9px 11px;font-size:15px;
+  border:1px solid var(--rule);border-radius:3px;background:var(--bg);color:var(--ink)}
+.jp-alert-form input[type=email]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.jp-alert-form button{flex:none;padding:9px 16px;font-size:14px;font-weight:600;
+  background:var(--accent);color:#fff;border:0;border-radius:3px;cursor:pointer}
+.jp-alert-form button:disabled{opacity:.6;cursor:default}
+.jp-alert-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.jp-alert-note{margin:8px 0 0;font-size:12px;line-height:1.7;color:var(--ink-3)}
+.jp-alert-note a{color:var(--ink-3)}
+.jp-alert-msg{margin:6px 0 0;font-size:13px;line-height:1.7;color:var(--accent);min-height:0}
+.jp-alert-msg:empty{display:none}
 """
 
 
@@ -3364,6 +3483,7 @@ def main() -> int:
     (PUBLIC / GITEKI_PATH).mkdir(parents=True, exist_ok=True)
     (PUBLIC / GITEKI_PATH / "index.html").write_text(render_giteki(site, posts), encoding="utf-8")
     write_giteki_data(site, posts)
+    write_landing_data(site, posts)
     gc = giteki_counts(posts)
     print(f"■ 技適の記録 {gc['記録']}本 / 取得済み {gc['取得済み']} / 確認できない {gc['確認できない']} "
           f"/ 対象外 {gc['対象外']} / 未記入 {gc['未記入']}")
