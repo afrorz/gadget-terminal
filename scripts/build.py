@@ -2675,6 +2675,7 @@ def write_landing_data(site: dict, posts: list[dict]) -> None:
             "slug": p["slug"],
             "title": p["title"],
             "url": f"{base}/{p['path']}",
+            "category": p.get("category") or "",   # YouTube の再生リスト分け(x-poster)に使う
             "status": str(j.get("status") or "").strip() or "未上陸",
             "landed": is_landed(p),
             "summary": str(j.get("summary") or "").strip(),
