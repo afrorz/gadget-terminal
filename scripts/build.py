@@ -1499,9 +1499,10 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
         rk_url, rk_aff = affiliate_url(s, rk_url, "rakuten")
         is_aff = is_aff or rk_aff
         shop = str(rk.get("shop") or "").strip()
-        label = f"楽天市場（{html.escape(shop)}）で見る" if shop else "楽天市場で見る"
+        # 判定バッジの label と別の名前にする(同じ名前で上書きし、バッジが「楽天市場で見る」になっていた。2026-11-01 修正)
+        rk_label = f"楽天市場（{html.escape(shop)}）で見る" if shop else "楽天市場で見る"
         buy += (f'<a class="fp-buy" href="{html.escape(rk_url)}" target="_blank" '
-                f'rel="{"nofollow sponsored noopener" if rk_aff else "noopener nofollow"}">{label}</a>')
+                f'rel="{"nofollow sponsored noopener" if rk_aff else "noopener nofollow"}">{rk_label}</a>')
     src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
                 f'rel="noopener">確認したソース</a>') if src else ""
 
