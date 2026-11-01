@@ -74,13 +74,14 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 
 | JST(指定) | 何が動くか | Claude の利用枠 |
 |---|---|---|
-| 01:40 | `followup.yml` 過去記事の日本上陸を見回る | **消費する** |
+| 01:40 | `followup.yml` 過去記事の日本上陸を見回る(1日8本、7日おき。日本上陸アラートに登録者がいる記事は枠の外で毎日見る) | **消費する** |
 | 02:00 | 自宅PCのタスクスケジューラ「GadgetTerminal Kickstarter先読み」 `ks_prefetch.py` が Kickstarter の案件を読んで `data/kscache` に貯めて push（ランナーは Kickstarter が 403 のため） | 使わない |
 | 02:30 | `collect.yml` 収集 | 使わない |
 | 収集の直後 | `daily-article.yml` 記事3本 → ビルド → 公開（cron を持たず、収集の完了で走る。3本に届かなければ同じ実行の中で最大2回やり直す） | **消費する** |
-| 水 03:00 | `giteki-recheck.yml` 技適が「確認できない」の記事を総務省DBで引き直す(週1) | **消費する** |
+| 火 21:30(実際は深夜〜水 01:00) | `giteki-recheck.yml` 技適が「確認できない」の記事を総務省DBで引き直す(週1) | **消費する** |
 | 月 04:30 | `image-check.yml` 全記事の写真が表示できるか点検。消えた写真があれば Issue「写真が表示できない記事」で本人に知らせる(週1) | 使わない |
 | 17:30 | `japan-launch.yml` PR TIMES の日本発売を `data/japan_launch.json` に貯める | 使わない |
+| 09:10 | Cloudflare Worker `gt-alert`(`alert/`)が `landing.json` を読み、日本で買えるようになった記事の登録者に「日本上陸アラート」のメールを1通送る(記事ごとに1回) | 使わない |
 
 **GitHub の定時実行は毎日2〜3.5時間遅れる**（2026-09 下旬の実測）。指定時刻は遅れを見込んで
 早めに置いてあり、実際に記事が出るのは 05:00〜06:30 ごろ。記事生成を収集の完了につなげて
@@ -104,6 +105,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | `data/digest/` | 日次ダイジェスト（.md と .json） |
 | `data/queue.md` | **書きたいネタの置き場。**定期実行がダイジェストより先に消化する |
 | `public/` | ビルド成果物。**手で編集しない** |
+| `alert/` | 日本上陸アラート(Cloudflare Worker `gt-alert`、alert.gadgetterminal.com)。まだ買えない記事のメール登録欄の受け口。公開は本人がターミナルで `npx.cmd wrangler deploy`(本番デプロイのため Claude は実行できない) |
 | `docs/PLAYBOOK.md` | 編集方針・記事の型・絶対ルール |
 | `docs/RUNBOOK.md` | 公開設定・トラブル対応 |
 

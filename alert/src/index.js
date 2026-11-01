@@ -35,6 +35,7 @@ export default {
       if (url.pathname === "/subscribe" && request.method === "POST") return await subscribe(request, env, cors);
       if (url.pathname === "/confirm" && request.method === "GET") return await confirm(url, env);
       if (url.pathname === "/unsubscribe" && request.method === "GET") return await unsubscribe(url, env);
+      if (url.pathname === "/pending" && request.method === "GET") return await pending(env);
       if (url.pathname === "/" || url.pathname === "/health") return new Response("gt-alert ok", { headers: { "content-type": "text/plain; charset=utf-8" } });
       return new Response("not found", { status: 404 });
     } catch (e) {
@@ -210,6 +211,21 @@ async function unsubscribe(url, env) {
   if (!row) return page("解除済みです", "<p>この登録はすでに無いか、解除済みです。</p>", env, 200);
   await env.DB.prepare("UPDATE subscriptions SET unsubscribed_at = ? WHERE token = ?").bind(now(), t).run();
   return page("解除しました", "<p>この製品の上陸アラートを解除しました。今後このメールアドレスにはお知らせを送りません。</p>", env, 200);
+}
+
+/**
+ * 登録者が待っている記事の slug 一覧(メールは出さない)。
+ * 過去記事の見回り(scripts/followup.py)が毎日これを読み、登録のある記事は 7 日おきでなく
+ * 毎日見る(2026-11-01 本人決定)。1日8本の枠とは別に足すので Claude の利用枠はほぼ増えない。
+ */
+async function pending(env) {
+  const rows = (await env.DB.prepare(
+    "SELECT DISTINCT s.slug FROM subscriptions s LEFT JOIN notified n ON n.slug = s.slug " +
+    "WHERE s.confirmed_at IS NOT NULL AND s.unsubscribed_at IS NULL AND s.notified_at IS NULL AND n.slug IS NULL ORDER BY s.slug"
+  ).all()).results;
+  return new Response(JSON.stringify({ slugs: rows.map((r) => r.slug) }), {
+    headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=300" },
+  });
 }
 
 /** 毎朝: landed になった記事の登録者に1通ずつ送る(記事ごとに1回だけ) */

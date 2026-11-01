@@ -22,8 +22,10 @@
 
 import argparse
 import json
+import os
 import re
 import sys
+import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -54,20 +56,43 @@ def load_state() -> dict:
     return json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
 
 
+ALERT_URL = os.environ.get("ALERT_URL", "https://alert.gadgetterminal.com")
+
+
+def pending_slugs() -> set[str]:
+    """日本上陸アラートに登録者がいる記事の slug(alert/ の Worker の /pending)。
+
+    登録のある記事は読者が待っているので、7日おきでなく毎日見る(2026-11-01 本人決定)。
+    届かなければ空にして、通常の見回りだけにする(見回りを止めない)。
+    """
+    try:
+        with urllib.request.urlopen(f"{ALERT_URL}/pending", timeout=10) as r:
+            return set(json.load(r).get("slugs") or [])
+    except Exception as e:  # noqa: BLE001
+        print(f"! 登録のある記事の一覧を取れませんでした({e})。通常の見回りだけにします", file=sys.stderr)
+        return set()
+
+
 def pick(n: int) -> list[tuple[Path, dict]]:
     state = load_state()
     t = today()
-    cands = []
+    waiting = pending_slugs()
+    cands, priority = [], []
     for p in sorted(POSTS.glob("*.md")):
         fm = front_matter(p)
         try:
             d = date.fromisoformat(str(fm.get("date")))
         except ValueError:
             continue
+        if str((fm.get("japan") or {}).get("status") or "") == FINAL_STATUS:
+            continue
+        # 登録者が待っている記事は、公開からの日数や前回の確認日に関係なく毎日見る(n の枠の外)
+        if (fm.get("slug") or p.stem) in waiting:
+            fm["_waiting"] = True
+            priority.append((p, fm))
+            continue
         age = (t - d).days
         if not (MIN_AGE_DAYS <= age <= MAX_AGE_DAYS):
-            continue
-        if str((fm.get("japan") or {}).get("status") or "") == FINAL_STATUS:
             continue
         last = state.get(p.name)
         if last and (t - date.fromisoformat(last)).days < REVISIT_DAYS:
@@ -75,7 +100,7 @@ def pick(n: int) -> list[tuple[Path, dict]]:
         # 未確認を先に、次に確認が古い順、同順なら新しい記事から
         cands.append(((last is not None, last or "", -d.toordinal()), p, fm))
     cands.sort(key=lambda x: x[0])
-    return [(p, fm) for _, p, fm in cands[:n]]
+    return priority + [(p, fm) for _, p, fm in cands[:n]]
 
 
 def main(argv: list[str]) -> int:
@@ -94,7 +119,8 @@ def main(argv: list[str]) -> int:
         for p, fm in rows:
             j = fm.get("japan") or {}
             now = f'{j.get("status")}({j.get("checked")}確認)' if j else "続報なし"
-            print(f"- {p.relative_to(ROOT).as_posix()}")
+            mark = "  ★登録者が待っている(毎日見る)" if fm.get("_waiting") else ""
+            print(f"- {p.relative_to(ROOT).as_posix()}{mark}")
             print(f"    製品: {fm.get('keyword') or ''} / 公開: {fm.get('date')} / 現在: {now}")
             print(f"    タイトル: {fm.get('title')}")
         return 0
