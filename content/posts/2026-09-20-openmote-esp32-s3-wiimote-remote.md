@@ -58,6 +58,14 @@ sources:
   - title: "OpenMote"
     url: https://www.crowdsupply.com/hat-and-hammer/openmote
     publisher: Crowd Supply
+modified: 2026-11-03
+videos_after:
+  - id: Mc05pe_E71U
+    title: "The World's First Programmable Wiimote: OpenMote"
+    channel: "Ezra B"
+    published: 2026-10-27
+    added: 2026-11-03
+    note: "OpenMote を紹介する動画（英語）"
 ---
 
 ロサンゼルスのHat & Hammerが、Nintendo Wiiリモコンの筐体をそのまま流用したプログラマブル汎用リモコン「OpenMote」をCrowd Supplyで公開した。Crowd Supplyのプロジェクトページによれば、資金調達はすでに達成済みで、掲載時点で支援者686人からUS$94,980を集めている。募集は現地時間2026年10月29日午後5時(太平洋夏時間、日本時間換算で10月30日午前9時ごろ)まで続く。**クラウドファンディングであり、まだ製品ではない。**なお、キャンペーン終了後もCrowd Supplyのストアで継続販売される予定だという。

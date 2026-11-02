@@ -74,6 +74,14 @@ sources:
   - title: "Makerphone 2.0 | Build a Mobile Phone"
     url: https://circuitmess.com/products/makerphone-2-0
     publisher: CircuitMess公式ストア
+modified: 2026-11-03
+videos_after:
+  - id: nlTuBxmkBjI
+    title: "MakerPhone 2.0 by. Circuitmess - DIY 4G Cell Phone"
+    channel: "Valleytech Custom Solutions"
+    published: 2026-09-29
+    added: 2026-11-03
+    note: "CircuitMess の MAKERphone 2.0 を紹介する動画（英語）"
 ---
 
 クロアチア・ザグレブの教育系ハードウェア企業CircuitMessが、はんだ付け不要で組み立てられる4G対応DIYスマートフォン「MAKERphone 2.0」をKickstarterで公開した。Kicktraqの追跡データによれば、キャンペーンは2026年9月10日に開始し、掲載時点で目標額US$30,000に対しUS$309,446を支援者1,759人から集め、達成率は約1031%に達している。募集は2026年10月10日ごろまで続く見込み。**クラウドファンディングであり、まだ製品ではない。**

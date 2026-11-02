@@ -50,6 +50,20 @@ sources:
   - title: "AI assistant watches you work to learn and automate tasks"
     url: https://newatlas.com/computers/violoop-plug-in-ai-computer-assistant
     publisher: New Atlas
+modified: 2026-11-03
+videos_after:
+  - id: f_61OpB2zu4
+    title: "VIOLOOP: I Let AI Take Over My Computer for a Week"
+    channel: "ManShed"
+    published: 2026-08-24
+    added: 2026-11-03
+    note: "Violoop に PC を1週間任せたという個人の YouTuber のレビュー動画（英語）"
+  - id: m7C-lBV6CWM
+    title: "I Gave This AI Box Control of My Mac (Violoop Review)"
+    channel: "Luke Byrne (AI Luke)"
+    published: 2026-10-08
+    added: 2026-11-03
+    note: "Violoop を Mac につないだ個人の YouTuber のレビュー動画（英語）"
 ---
 
 **まだ製品ではない。** 香港のAIハードウェア企業BVIO Technologyが、既存のパソコンに外付けするだけでAIが「もう一人のユーザー」として画面を操作する機器「Violoop」をKickstarterで公開した。目標額を大きく超える支援を集めて資金調達中だが、現時点で案内されている出荷対象地域に日本は入っていない。
