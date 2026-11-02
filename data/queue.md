@@ -58,6 +58,8 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
+- https://www.kickstarter.com/projects/tryx/vestra-vision-magnetic-keyboard-with-under-switch-oled
+
 
 ## 処理済み
 
