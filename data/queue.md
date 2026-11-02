@@ -58,11 +58,11 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
-- https://www.kickstarter.com/projects/tryx/vestra-vision-magnetic-keyboard-with-under-switch-oled
 
 
 ## 処理済み
 
+- 2026-11-03 https://www.kickstarter.com/projects/tryx/vestra-vision-magnetic-keyboard-with-under-switch-oled → content/posts/2026-11-03-tryx-vestra-vision-oled-magnetic-keyboard.md
 - 2026-10-23 https://9to5google.com/?p=733157 → content/posts/2026-10-23-cmf-speaker-s-m.md
 
 - 2026-09-11 https://www.makuake.com/project/cio-madeinjapan/ → content/posts/2026-09-11-cio-novaport-duo3-madeinjapan.md
