@@ -13,7 +13,7 @@ tags: [RayNeo, ARグラス, スマートグラス, AI, ウェアラブル]
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-09
+  checked: 2026-11-04
   radio: "Bluetooth 5.4"
   note: "DBにARGF30の掲載あり。国内版との対応は未確認"
 seo_title: "RayNeo iOが日本で予約販売中、国内価格は8万9,000円"

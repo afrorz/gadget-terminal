@@ -10,7 +10,7 @@ tags: [E Ink, スマートフォン, Hisense, 中国, 電子ペーパー]
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-08-17
+  checked: 2026-11-04
   radio: "NFC"
   note: "中国向け製品。取得情報なし"
 embeds:

@@ -14,7 +14,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-08-21
+  checked: 2026-11-04
   radio: "Bluetooth 6.0"
 seo_title: CMF Buds Neoは1999ルピー、ANC35dB対応
 faq:

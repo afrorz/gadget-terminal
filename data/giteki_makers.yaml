@@ -70,6 +70,14 @@ brands:
     note: 登録者名がブランド名そのもの。型式欄は GZDQ6 等の符号(2026-10-15確認)
     registrants:
     - Google LLC
+  Hisense:
+    note: Hisenseのスマホ部門法人。DBに登録あり
+    registrants:
+    - Qingdao Hisense Communication Co., Ltd.
+  Huawei:
+    note: ブランド名そのものの法人。DBに同名の登録あり
+    registrants:
+    - Huawei Technologies Co., Ltd.
   Keychron:
     note: 登録者名がブランド名そのもの。型式欄は Wireless Keyboard + シリーズ記号の一括列挙(2026-10-15確認)
     registrants:
@@ -94,6 +102,18 @@ brands:
     note: 登録者名がブランド名そのもの。2026-10-15確認
     registrants:
     - NVIDIA CORPORATION
+  OPPO:
+    note: OPPO本体法人。DBに登録あり
+    registrants:
+    - Guangdong OPPO Mobile Telecommunications Corp., Ltd.
+  Plaud:
+    note: Plaudブランドの運営法人名。DBに登録あり
+    registrants:
+    - Plaud Inc.
+  RayNeo:
+    note: ブランド名そのものの法人。DBに登録あり
+    registrants:
+    - RayNeo Co., Ltd.
   Razer:
     note: 登録者名がブランド名そのもの(Razer Inc.)。DBで RZ01-/RZ03- 等の部品番号型式を確認(2026-10-15)
     registrants:
@@ -105,6 +125,10 @@ brands:
     note: 登録者名がブランド名そのもの。型式欄は SM-F976C 等の型番(2026-10-15確認)
     registrants:
     - Samsung Electronics
+  Seeed:
+    note: Seeed Studio運営法人。DBに登録あり
+    registrants:
+    - Seeed Technology Co., Ltd.
   Sennheiser:
     note: Sennheiser コンシューマー製品(MOMENTUM True Wireless 5 など)の登録者。2026-10-15 に総務省DBで MTW5 = 201-250883 を確認
     registrants:

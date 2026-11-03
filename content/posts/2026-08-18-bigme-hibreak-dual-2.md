@@ -10,7 +10,7 @@ tags: [E Ink, デュアルスクリーン, Kickstarter, Bigme, Android]
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-28
+  checked: 2026-11-04
   radio: "5G / Wi-Fi / Bluetooth"
 embeds:
   - type: youtube

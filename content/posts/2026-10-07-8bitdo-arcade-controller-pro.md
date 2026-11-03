@@ -16,7 +16,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-28
+  checked: 2026-11-04
   radio: Bluetooth / 2.4G
 alternatives:
 - name: "FightBox F10-EX-PC-V2"

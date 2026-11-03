@@ -10,7 +10,7 @@ tags: [Xiaomi, Bluetoothスピーカー, クラウドファンディング, 小�
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-08-19
+  checked: 2026-11-04
   radio: "Bluetooth"
 thumbnail: "https://img.youpin.mi-img.com/youpin_gms/095d254b_c200_465c_a42f_3e808b20867b.jpeg@base@tag=imgScale&F=webp&h=1080&w=1080"
 thumbnail_credit: 小米有品 公式製品ページ
