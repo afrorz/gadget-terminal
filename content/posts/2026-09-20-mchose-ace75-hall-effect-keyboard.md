@@ -67,6 +67,20 @@ sources:
   - title: "MCHOSE ACE 75 Hall Effect Gaming Keyboard"
     url: https://www.mchose.store/pages/mchose-ace75
     publisher: MCHOSE公式ストア
+modified: 2026-11-04
+videos_after:
+  - id: POCI39ECKPA
+    title: "The MCHOSE Ace75 Does Exactly What A $100 Hall Effect Gaming Keyboard Should"
+    channel: "Merkeebs"
+    published: 2026-10-07
+    added: 2026-11-04
+    note: "個人の YouTuber による MCHOSE Ace75 のレビュー（英語）"
+  - id: CvY3LTotVrw
+    title: "MCHOSE ACE75 Review | 8000Hz Hall Effect Keyboard + VALORANT POV ASMR"
+    channel: "Otter  ASMR "
+    published: 2026-10-23
+    added: 2026-11-04
+    note: "MCHOSE ACE75 のレビュー動画（英語）"
 ---
 
 深センのゲーミング周辺機器ブランドMCHOSEが、75%レイアウトのホールエフェクト(磁気式)キーボード「ACE75」をKickstarterで公開した。PR Newswireによれば、キャンペーンは現地時間2026年9月17日午前10時(米国東部時間、日本時間同日23時)に開始。Kicktraqの追跡データでは、掲載時点で目標額HK$39,216(香港ドル)に対しHK$783,948、達成率にして約1999%を支援者919人から集めている。募集は現地時間2026年10月17日ごろまで続く見込み。**クラウドファンディングであり、まだ製品ではない。**なお、Kickstarterのプロジェクト自体は香港ドル建てで運営されており、製造は深センで行われる。
