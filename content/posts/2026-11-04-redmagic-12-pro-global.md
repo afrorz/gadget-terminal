@@ -34,8 +34,12 @@ faq:
 - q: 中国版12 Pro+との違いは何ですか
   a: Gizmochinaによると、主な違いは有線充電が120Wから80Wに、肩ボタンの応答が700Hzから520Hzに下がった点です。バッテリー8,400mAhとSoCは同じで、24GB RAMの構成は無くなりました。
 images:
-- url: "https://global.redmagic.gg/cdn/shop/files/PC-en_5fa7712a-26f3-4d5a-a814-2f903471458a.png?v=1791881407"
-  caption: 公式の告知ページ。Nightfreezeと Subzeroの2色の本体と、早期予約価格の表
+- url: "https://global.redmagic.gg/cdn/shop/files/2048_1000_2x_934a406e-5e35-496a-84f7-934c155950dc.jpg"
+  caption: 公式の告知ページの写真。銀のSubzeroと黒のNightfreezeの2色の背面。中央の円い部分が青く光る
+- url: "https://global.redmagic.gg/cdn/shop/files/Nav-12PRO.png"
+  caption: 黒と銀の背面と、正面の画面。画面にカメラの穴が無い（画面下カメラ）
+- url: "https://global.redmagic.gg/cdn/shop/files/EN-GL-_-PC_9855a60d-7126-40ca-8c90-9bf801feb6e7.png"
+  caption: 公式の告知ページの早期予約価格の表。NightfreezeとSubzeroの構成ごとの価格と、特典の80W充電器・クロスのキーホルダー
 credit: REDMAGIC（Global）公式ページ
 sources:
 - title: REDMAGIC 12 Pro（グローバル向け告知ページ）
