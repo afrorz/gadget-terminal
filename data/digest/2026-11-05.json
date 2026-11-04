@@ -1,0 +1,886 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T07:48:54.074997+09:00",
+  "stats": {
+    "fetched": 726,
+    "unique": 686,
+    "new": 438,
+    "clusters": 415,
+    "selected": 30
+  },
+  "items": [
+    {
+      "title": "Makuake｜音に沈む、新たなリスニング体験。独自の3振動板構成が生むハイエンドイヤホン｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/neonote01/",
+      "summary": "中域と高域を、2基のダイナミックドライバーで分けて再生。ひとつのドライバーですべてを鳴らすのではなく、それぞれが得意な音域を担当することで、中域の厚みと高域のクリアさを両立しました。さらに2基を同じ軸上に配置することでで、音のまとまりにも配慮。AbyssNote-01デュアルダイナミック構成です。2基のダイナミックドライバーに加え、AbyssNote-01にはパッシブ振動板を搭載。ドライバーが生み",
+      "image": "https://static.makuake.com/upload/project/54331/main_54331.jpg?version=1793598345&amp;width=690&amp;height=388",
+      "published": "2026-11-07T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "0fe8879a99d1f074",
+      "canonical": "https://www.makuake.com/project/neonote01",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 イヤホン",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【研磨革命】プロも使う、3M社製研磨材トライザクト搭載「電動ナイフシャープナー」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/qualia-sharpener/",
+      "summary": "Q. どんな包丁に使えますか？ 左利きでも使えますか？一般的な両刃の金属製包丁（ステンレス・鋼・ダマスカス・VG10など）に対応しています。左右対称の設計のため、左利きの方もそのままお使いいただけます。※出刃・柳刃などの片刃、パン切り包丁などの波刃、セラミック製包丁、ハサミには使用できません。Q. 切れ味が落ちたら、毎回「粗研ぎ」が必要ですか？いいえ。少し切れ味が落ちた程度であれば、「2 FINE",
+      "image": "https://static.makuake.com/upload/project/54361/main_54361.jpg?version=1793786324&amp;width=690&amp;height=388",
+      "published": "2026-11-07T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "7d3c61b56b64b272",
+      "canonical": "https://www.makuake.com/project/qualia-sharpener",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 電動",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "60db71b3b4021de2",
+      "title": "(PR) Lofree Unveils Flow Lite 2 Low-Profile Mechanical Keyboard",
+      "url": "https://www.techpowerup.com/354480/lofree-unveils-flow-lite-2-low-profile-mechanical-keyboard",
+      "canonical": "https://www.techpowerup.com/354480/lofree-unveils-flow-lite-2-low-profile-mechanical-keyboard",
+      "summary": "Lofree, a brand known for its design-forward keyboards and workspace accessories, today announced the launch of the Flow Lite 2 low-profile mechanical keyboard. Building on the success of the original Flow Lite, which has sold over 250,000 units worldwide, Flow Lite 2 introduces more defined keypress feedback, more consistent typing acoustics, and practical everyday features, priced at $109 for th",
+      "published": "2026-11-04T20:52:53+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fcd9092990964b74",
+      "title": "God of War Laufey Delayed to May",
+      "url": "https://www.techpowerup.com/354471/god-of-war-laufey-delayed-to-may",
+      "canonical": "https://www.techpowerup.com/354471/god-of-war-laufey-delayed-to-may",
+      "summary": "Santa Monica Studio has delayed God of War Laufey by roughly three months, moving the PS5 exclusive from February 16 to May 20, 2027. The studio announced the change on X earlier today, and the only explanation it gave is that it needs extra time for finishing touches. It's a bit of a surprise, since the game was only around three months out and pre-orders opened back in late September. The Standa",
+      "published": "2026-11-04T18:33:59+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+3 announced",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/god-of-war-laufey-delayed-may-2027-release-date/",
+        "https://www.notebookcheck.net/God-of-War-Laufey-delayed-by-three-months.1442342.0.html"
+      ]
+    },
+    {
+      "id": "bd274a5082700a13",
+      "title": "Casio launches premium titanium watches with mother of pearl dials and solar charging",
+      "url": "https://www.gizmochina.com/2026/11/04/casio-oceanus-ocw-s40pw-7a-and-ocw-s7000pw-7a-watches-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/04/casio-oceanus-ocw-s40pw-7a-and-ocw-s7000pw-7a-watches-launched-specs-price",
+      "summary": "Casio has announced two new watches in its Oceanus Manta series for the Japanese market. The OCW-S40PW-7A and OCW-S7000PW-7A are available for pre-order now and will begin shipping later in November 2026. Pricing and Design Details Both watches share the same basic design, built around a white mother-of-pearl dial. Because mother-of-pearl is a natural material, [&#8230;] The post Casio launches pr",
+      "published": "2026-11-04T22:06:09+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 pre-order",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1286b06b62fc8859",
+      "title": "Casio launches new G-Shock GBM-2100LXB-1A2 watch with blacked-out steel bezel & solar charging",
+      "url": "https://www.gizmochina.com/2026/11/04/casio-g-shock-gbm-2100lxb-1a2-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/04/casio-g-shock-gbm-2100lxb-1a2-launched-specs-price",
+      "summary": "Casio is adding a new model to its 2100 series of watches in Japan. The GBM-2100LXB-1A2, scheduled for release later this November, is currently available for pre-order at ¥42,900 ($270). The watch maintains the familiar octagonal shape of the 2100 line but incorporates a metal bezel, solar charging, and Bluetooth connectivity. Design Details For the [&#8230;] The post Casio launches new G-Shock G",
+      "published": "2026-11-04T14:03:16+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ece51fe5feeecb1f",
+      "title": "This popular Baseus 45W power bank with built-in cable is $40 off",
+      "url": "https://www.androidauthority.com/baseus-picogo-ar11-45w-10000mah-deal-3731716/",
+      "canonical": "https://www.androidauthority.com/baseus-picogo-ar11-45w-10000mah-deal-3731716",
+      "summary": "Baseus PicoGo AR11 hits a new record-low price of $29.99 on Amazon with 45W charging and a built-in USB-C cable.",
+      "published": "2026-11-04T15:34:00+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 price",
+        "+3 power bank",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Compact-Baseus-power-bank-launches-globally-with-long-retractable-cable-and-45W-fast-charging.1442028.0.html"
+      ]
+    },
+    {
+      "id": "c907fc30a63e0c66",
+      "title": "Another mini-laptop for distraction-free writing, Fedora Asahi Remix 45 released, and Microsoft improves Windows 11 performance for PCs with 8GB: Liliputing News Roundup",
+      "url": "https://liliputing.com/another-mini-laptop-for-distraction-free-writing-fedora-asahi-remix-45-released-and-microsoft-improves-windows-11-performance-for-pcs-with-8gb-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/another-mini-laptop-for-distraction-free-writing-fedora-asahi-remix-45-released-and-microsoft-improves-windows-11-performance-for-pcs-with-8gb-liliputing-news-roundup",
+      "summary": "With the RAM shortage driving up prices for memory, Microsoft has announced steps taken to make Windows 11 run better on PCs with 8GB of RAM, and now says the OS is 20% more responsive and multitasking is 40% faster. blogs.windows.com/windowsexper • The enough phone is a smartphone with a 5.3 inch screen, a MTK 7500 chip, 8GB RAM, 128GB storage, a single camera, Android or a minimal \"Pydssey OS\" e",
+      "published": "2026-11-04T21:18:08+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "The Register"
+      ],
+      "related_urls": [
+        "https://www.theregister.com/software/2026/11/03/microsoft-improves-windows-11-performance-on-8-gb-pcs-as-ram-prices-keep-climbing/5307382"
+      ]
+    },
+    {
+      "id": "d22b9a2ffdd449e6",
+      "title": "GTA 6 Will Need Up to 212 GB of Storage, Pre-Load Now Starts November 10",
+      "url": "https://www.techpowerup.com/354448/gta-6-will-need-up-to-212-gb-of-storage-pre-load-now-starts-november-10",
+      "canonical": "https://www.techpowerup.com/354448/gta-6-will-need-up-to-212-gb-of-storage-pre-load-now-starts-november-10",
+      "summary": "Rockstar has moved GTA 6's pre-load up by two days. According to an updated Newswire post and support page, digital pre-orders can now start downloading on November 10, instead of the November 12 date announced back in June . The exact timing depends on the console. On PlayStation 5, the pre-load unlocks at midnight local time in the user's respective time zone. Xbox Series X|S gets a single globa",
+      "published": "2026-11-04T00:05:05+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b33bf6db00896262",
+      "title": "(PR) ASUS Republic of Gamers Announces ROG XG Station 3 With Thunderbolt 5",
+      "url": "https://www.techpowerup.com/354456/asus-republic-of-gamers-announces-rog-xg-station-3-with-thunderbolt-5",
+      "canonical": "https://www.techpowerup.com/354456/asus-republic-of-gamers-announces-rog-xg-station-3-with-thunderbolt-5",
+      "summary": "ASUS Republic of Gamers (ROG) today announced the ROG XG Station 3 external graphics card dock, featuring a Thunderbolt 5 connection capable of up to 80 Gbps of bidirectional bandwidth or up to 120 Gbps with Thunderbolt 5 Bandwidth Boost for high-volume video traffic. This level of performance enables incredible visual fidelity at a detailed resolution with ultrafluid frame rates, even for everyda",
+      "published": "2026-11-04T10:11:55+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/asus-debuts-rog-xg-station-3-dock-with-thunderbolt-5-interface/"
+      ]
+    },
+    {
+      "id": "0a59ca9691576c0d",
+      "title": "Nothing teases a mysterious ‘AI-native product’ launch for next month",
+      "url": "https://www.androidauthority.com/nothing-ai-hardware-3731724/",
+      "canonical": "https://www.androidauthority.com/nothing-ai-hardware-3731724",
+      "summary": "The company's about to launch new AI hardware that \"couldn’t have been an app.\"",
+      "published": "2026-11-04T17:47:32+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/11/04/nothing-teaser-new-ai-screen-less-product-launch/"
+      ]
+    },
+    {
+      "id": "d9fa9d6124328eb9",
+      "title": "‘Enough Phone’ is an Android phone roughly the size of iPhone 13 Mini, launching in 2027",
+      "url": "https://9to5google.com/2026/11/04/enough-phone-small-android-phone-2027/",
+      "canonical": "https://9to5google.com/2026/11/04/enough-phone-small-android-phone-2027",
+      "summary": "Everyone says they want small Android phones back, and 2027 might be your chance to actually buy one. The “Enough Phone” has a mere 5.3-inch display, decent specs, and a price of $599 and less. more…",
+      "published": "2026-11-04T18:00:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "427901455202df54",
+      "title": "Steam Wants Devs to Play Their Games For At Least 5 Minutes First",
+      "url": "https://www.techpowerup.com/354474/steam-wants-devs-to-play-their-games-for-at-least-5-minutes-first",
+      "canonical": "https://www.techpowerup.com/354474/steam-wants-devs-to-play-their-games-for-at-least-5-minutes-first",
+      "summary": "Valve now requires developers to launch their game through the Steam client and run it for at least five minutes before submitting it for review, as part of several new additions to Steam's pre-release checklist. It doesn't have to be the developer playing, since anyone's playtime counts, as long as it was logged within the past seven days, or since the last build upload if that's older. Apparentl",
+      "published": "2026-11-04T19:05:22+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1419244ec8b5cc8f",
+      "title": "Android and iOS apps will be able to bypass the share sheet next year",
+      "url": "https://www.gsmarena.com/android_and_ios_apps_will_be_able_to_bypass_the_share_sheet_next_year-news-75328.php",
+      "canonical": "https://www.gsmarena.com/android_and_ios_apps_will_be_able_to_bypass_the_share_sheet_next_year-news-75328.php",
+      "summary": "Quick Share has come a long way over the past year. It started working with Apple's AirDrop on Pixels, then that support began spreading to other Android phones, and in August Google launched Tap to Share. Now, the company is going to let developers build Quick Share directly into their own apps - and not just on Android. At its Android Dev Summit, Google announced a Quick Share SDK that will be r",
+      "published": "2026-11-03T23:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e54a7608597c612a",
+      "title": "New Motorola One's design revealed as it gets Qi certified, Geekbench reveals key specs",
+      "url": "https://www.gsmarena.com/motorola_one_key_specs_wireless_charging_speed-news-75338.php",
+      "canonical": "https://www.gsmarena.com/motorola_one_key_specs_wireless_charging_speed-news-75338.php",
+      "summary": "Motorola has launched multiple smartphones under the One lineup before, and we now know it's preparing to launch a new smartphone under the One series, as it has been Qi-certified by the Wireless Power Consortium (WPC). The WPC listing mentions this smartphone as \"moto one\" bearing model code XT2771-1. It confirms the Moto One supports 15W Qi wireless charging, and the image in the listing also re",
+      "published": "2026-11-04T09:04:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d821e25d9a13c247",
+      "title": "Samsung’s mysterious Galaxy T1 fitness earbuds are getting ready for a US launch",
+      "url": "https://www.androidauthority.com/samsung-galaxy-t1-earbuds-fcc-certification-3731590/",
+      "canonical": "https://www.androidauthority.com/samsung-galaxy-t1-earbuds-fcc-certification-3731590",
+      "summary": "New FCC certification documents offer a closer look at what's coming.",
+      "published": "2026-11-04T11:50:13+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9d92b46de972833b",
+      "title": "Timex launches Peanuts Weekender watch with Snoopy in a winter coat and Indiglo backlight surprise",
+      "url": "https://www.gizmochina.com/2026/11/04/timex-peanuts-weekender-puffy-coat-watch-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/04/timex-peanuts-weekender-puffy-coat-watch-launched-specs-price",
+      "summary": "Following the recent launch of the Peanuts Snoopy Ski T80 digital watches, Timex has further expanded its collaboration with the Peanuts franchise with the new Peanuts x Timex Weekender Puffy Coat watch. It is available now in the US for $189 through the company&#8217;s official website. Design Details The watch is built on the standard [&#8230;] The post Timex launches Peanuts Weekender watch wit",
+      "published": "2026-11-04T15:58:12+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "256c3dfd38febfb3",
+      "title": "Oppo Find N7 officially confirmed to arrive in Europe",
+      "url": "https://www.gsmarena.com/oppo_find_n7_officially_confirmed_to_arrive_in_europe-news-75346.php",
+      "canonical": "https://www.gsmarena.com/oppo_find_n7_officially_confirmed_to_arrive_in_europe-news-75346.php",
+      "summary": "Some good news for foldable fans came from an interview with one of Oppo's regional Product Managers. Speaking to local publication Nixanbal he revealed that Oppo is planning to release the Oppo Find N7 in Europe, after the N6 missed the Old Continent entirely. The Oppo Find N6 is easily among the best foldable phones around and while it did go international it never officially made it to Europe. ",
+      "published": "2026-11-04T17:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "824a94074a7e4acf",
+      "title": "Beyond benchmark scores: We put the new Xiaomi XRing O3 through a real-world gaming test",
+      "url": "https://www.notebookcheck.net/Beyond-benchmark-scores-We-put-the-new-Xiaomi-XRing-O3-through-a-real-world-gaming-test.1438219.0.html",
+      "canonical": "https://www.notebookcheck.net/Beyond-benchmark-scores-We-put-the-new-Xiaomi-XRing-O3-through-a-real-world-gaming-test.1438219.0.html",
+      "summary": "To assess graphics performance beyond GPU benchmarks, we tested current Android games on the Xiaomi tablet using GameBench. This lets us measure exact frame rates and frame rate stability for the XRing O3. Read our review to find out whether the new Pad 9 Pro Max is a good choice for gamers.",
+      "published": "2026-11-04T19:48:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+4 review",
+        "+4 benchmark",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bb089bd5c272831b",
+      "title": "WendyQuest: Free fast-food RPG gets surprising reviews",
+      "url": "https://www.notebookcheck.net/WendyQuest-Free-fast-food-RPG-gets-surprising-reviews.1442216.0.html",
+      "canonical": "https://www.notebookcheck.net/WendyQuest-Free-fast-food-RPG-gets-surprising-reviews.1442216.0.html",
+      "summary": "You can finally play with your food. A free RPG with a charming retro style that can also be played on the Steam Deck, uses no AI-generated content, and is even well received by players – WendyQuest is a real surprise, because the game comes from the fast-food chain Wendy's.",
+      "published": "2026-11-04T14:42:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 steam deck",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a79b97b4aac75f4d",
+      "title": "Sanwa's new jet blower tackles dust and water with 55 m/s airflow",
+      "url": "https://www.notebookcheck.net/Sanwa-s-new-jet-blower-tackles-dust-and-water-with-55-m-s-airflow.1442007.0.html",
+      "canonical": "https://www.notebookcheck.net/Sanwa-s-new-jet-blower-tackles-dust-and-water-with-55-m-s-airflow.1442007.0.html",
+      "summary": "Japanese manufacturer Sanwa Supply has introduced a rechargeable jet blower with 10 airflow settings, three interchangeable nozzles and enough advertised power to clear stubborn dust, water droplets and fallen leaves. Your keyboard crumbs may finally have met their match.",
+      "published": "2026-11-04T15:20:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 keyboard",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4d303060fd53b9f0",
+      "title": "I came for this new Linux distro’s aesthetic looks and stayed for its window tiling",
+      "url": "https://blog.adafruit.com/2026/11/04/i-came-for-this-new-linux-distros-aesthetic-looks-and-stayed-for-its-window-tiling/",
+      "canonical": "https://blog.adafruit.com/2026/11/04/i-came-for-this-new-linux-distros-aesthetic-looks-and-stayed-for-its-window-tiling",
+      "summary": "Sourav Rudra took a first look at Pond for It&#8217;s FOSS, a new rolling-release Linux distribution built on Arch Linux by Butterfly Interaction Inc. It&#8217;s labeled an early preview. The desktop runs Niri, a Wayland compositor known for scrollable tiling, where app windows sit in columns along a strip that grows as you add more. [&#8230;]",
+      "published": "2026-11-04T16:35:21+00:00",
+      "source_id": "adafruit",
+      "source": "Adafruit Blog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+4 first look",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e27168e2fbd6373b",
+      "title": "Why Google Pixel Buds Pro 2 Remain a Worthy Buy in 2026",
+      "url": "https://www.techeblog.com/google-pixel-buds-pro-2-specs-review-price-2026/",
+      "canonical": "https://www.techeblog.com/google-pixel-buds-pro-2-specs-review-price-2026",
+      "summary": "Google&#8217;s Pixel Buds Pro 2, priced at $169 (was $229), are smaller and lighter than their predecessors, weighing only 4.7 grams each and including a twist-to-lock stabilizer that keeps them in place during runs or long days on the go, eliminating the need to fumble with them all day to keep them comfortable. Reviewers have [...]",
+      "published": "2026-11-03T23:30:49+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 review",
+        "+3 price",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0d513e9d9ad0db49",
+      "title": "Apple Watch Series 12 and Ultra 4's controversial AI features are going live",
+      "url": "https://www.gsmarena.com/apple_watch_series_12_and_ultra_4s_controversial_ai_features_are_going_live-news-75336.php",
+      "canonical": "https://www.gsmarena.com/apple_watch_series_12_and_ultra_4s_controversial_ai_features_are_going_live-news-75336.php",
+      "summary": "Apple unveiled the Apple Watch Series 12 and Watch Ultra 4 back in September, along with a set of microphone-based features it calls Audio Intelligence. Two of them, Sound Recognition and Music Recognition with Shazam, were available from the start, but the more controversial pair had to wait. Now, Live Rewind and Siri Recap are arriving as part of the first watchOS 27.3 developer beta. [#InlinePr",
+      "published": "2026-11-04T08:04:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7e5deb20d4974b0f",
+      "title": "(PR) Thermal Grizzly Releases New PhaseSheet PTM Pro With Improved Thermal Conductivity",
+      "url": "https://www.techpowerup.com/354457/thermal-grizzly-releases-new-phasesheet-ptm-pro-with-improved-thermal-conductivity",
+      "canonical": "https://www.techpowerup.com/354457/thermal-grizzly-releases-new-phasesheet-ptm-pro-with-improved-thermal-conductivity",
+      "summary": "With PhaseSheet PTM Pro, Thermal Grizzly introduces a further development of PhaseSheet PTM with increased thermal conductivity. A composition optimized for improved thermal conductivity, combined with a new carrier film, also makes PhaseSheet PTM Pro easier to handle. The carrier film can be removed very easily from both sides of the PhaseSheet PTM Pro, significantly reducing the risk of tearing ",
+      "published": "2026-11-04T10:55:41+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/pc-components/thermal-paste/thermal-grizzly-launches-phasesheet-ptm-pro-with-improved-thermal-conductivity-new-thermal-pad-promises-easier-installation-and-better-cooling-performance"
+      ]
+    },
+    {
+      "id": "83a081cc85cce82c",
+      "title": "Xiaomi unveils the HyperOS 4 update rollout schedule",
+      "url": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
+      "summary": "Xiaomi’s HyperOS 4 has a deeper integration with iOS – this includes easier sharing of photos, files, contacts and web pages with iPhone users. There are a lot of visual and performance improvements too. You can read more about HyperOS 4 here. Right now, only the Xiaomi 18 series trio runs v4, but soon older Xiaomi phones will get it too. Here is the detailed HyperOS 4 rollout schedule. The flagsh",
+      "published": "2026-11-04T11:13:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ebdce11bb7a2b72",
+      "title": "Here’s your first look at Google Photos’ upcoming Overnight backups feature",
+      "url": "https://www.androidauthority.com/google-photos-overnight-backup-preview-apk-teardown-3731603/",
+      "canonical": "https://www.androidauthority.com/google-photos-overnight-backup-preview-apk-teardown-3731603",
+      "summary": "These images show Google Photos' upcoming backup option that holds off on uploads until night.",
+      "published": "2026-11-04T13:10:40+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 first look",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4af001f749fec96e",
+      "title": "Snapped a photo of an event poster? Google Photos could soon add it to your calendar",
+      "url": "https://www.androidauthority.com/google-photos-ask-photos-calendar-apk-teardown-3731650/",
+      "canonical": "https://www.androidauthority.com/google-photos-ask-photos-calendar-apk-teardown-3731650",
+      "summary": "Ask Photos could pull event details from photos, but watch out for classic AI mistakes.",
+      "published": "2026-11-04T14:02:26+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/google-photos-could-soon-make-casual-snaps-calendar-events/",
+        "https://www.androidauthority.com/google-photos-ask-photos-complex-tasks-apk-teardown-3731558/"
+      ]
+    },
+    {
+      "id": "feb9fc3a272ca75c",
+      "title": "NVIDIA GeForce 621.14 WHQL Game Ready Drivers Released",
+      "url": "https://www.techpowerup.com/354465/nvidia-geforce-621-14-whql-game-ready-drivers-released",
+      "canonical": "https://www.techpowerup.com/354465/nvidia-geforce-621-14-whql-game-ready-drivers-released",
+      "summary": "NVIDIA today released the latest version of GeForce Game Ready drivers. Version 621.14 WHQL comes with optimization for World of Warcraft: Forever, and the new Slaughter Mode of DOOM: The Dark Ages Revelations. The drivers also introduce support for DLSS 5 with 3D-guided Neural Rendering for Hogwarts Legacy and War Thunder on GeForce RTX 50-series GPUs. Among the gaming bugs fixed with this releas",
+      "published": "2026-11-04T15:29:54+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/022/438.htm"
+      ]
+    },
+    {
+      "id": "860027261a2258bd",
+      "title": "Galaxy Buds Canal 5 earbuds uncovered this past summer visit the FCC ahead of US launch",
+      "url": "https://www.sammobile.com/news/galaxy-buds-canal-5-earbuds-visit-fcc-ahead-of-usa-launch/",
+      "canonical": "https://www.sammobile.com/news/galaxy-buds-canal-5-earbuds-visit-fcc-ahead-of-usa-launch",
+      "summary": "Samsung seems to be preparing to launch a new pair of Galaxy Buds, following FCC approval. The company recently released the U-shaped Galaxy Buds On in Korea, but those don't match the new model spotted at the FCC. Instead, the mystery earbuds seem to fit the model we exclusively uncovered earlier this summer. Internally, Samsung [ ]",
+      "published": "2026-11-04T16:59:04+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "4Kの映像美を、もっと自由に。JMGO「IRIS Ultra Max」「IRIS Ultra」を11月4日よりMakuakeにて先行販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000193944.html",
+      "summary": "[明京株式会社] 明京株式会社（所在地：神奈川県横浜市）は、グローバルプロジェクターブランド「JMGO（ジェイエムゴー）」の最新フラッグシップ「IRIS Ultra Max」「IRIS Ultra」を、11月4日（水）より、応援購入サービス「Maku...",
+      "published": "2026-11-04T15:40:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "ed3a786003863d8f"
+    },
+    {
+      "title": "PCケースに“探せる安心”を。amadanaスリーブ＋Find Myカードセットを販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000780.000047737.html",
+      "summary": "",
+      "published": "2026-11-04T12:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "f389b7ffe862b87d"
+    },
+    {
+      "title": "【コイル数No.1※】Quiet Luxury Lifestyle Brand「Maison L'Aube（メゾンローブ）」がローンチ、12月1日よりMakuakeで先行発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000193965.html",
+      "summary": "",
+      "published": "2026-11-04T09:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "0df7f96d756e9c26"
+    },
+    {
+      "title": "SK本舗、Formlabs製品84商品の予約受付を開始。Form Studio 1は税込160,710円から",
+      "url": "https://prtimes.jp/main/html/rd/p/000000037.000076458.html",
+      "summary": "[フェリデンシア・キャピタル株式会社] 3Dプリンター専門店「SK本舗」を運営するフェリデンシア・キャピタル株式会社（代表取締役：遅沢 翔）は、2026年11月4日、Formlabs（フォームラブズ）製品84商品の予約受付を開始しました。光造形3Dプリンター「F...",
+      "published": "2026-11-04T08:40:50+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "513615d1a7b16d1c"
+    },
+    {
+      "title": "SK本舗、9つの造形ツールを搭載した「Bambu Lab H3C Combo」の予約受付を開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000036.000076458.html",
+      "summary": "[フェリデンシア・キャピタル株式会社] フェリデンシア・キャピタル株式会社（代表：遅沢翔）が運営する3Dプリンター専門店「SK本舗」は、2026年11月4日、Bambu Labの新型3Dプリンター「H3C Combo」の予約受付を開始しました。H3C本体にフィラメント管...",
+      "published": "2026-11-04T07:41:58+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "fa9ed1e39b905d81"
+    },
+    {
+      "title": "軽さも、吸引力も、ゆずらない　Shark史上最軽量(※1) 1.28kgのコードレススティック掃除機  「Shark(R) GlideClean」新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000069.000041047.html",
+      "summary": "",
+      "published": "2026-11-04T05:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "6088764ff791e404"
+    },
+    {
+      "title": "好きなキャラクターと同じ空間で暮らす── 55cmロボットドール「轟雷」、11月4日より予約開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000012.000127494.html",
+      "summary": "",
+      "published": "2026-11-04T04:00:27+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "045bfc85e9f4a58b"
+    },
+    {
+      "title": "『コードギアス 反逆のルルーシュ』より、「C.C.」が超特大ぬいぐるみ「どきゅーと」になって登場！TAITO GEAR&GOODSにて2026年11月6日(金)11:00より予約受付開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000837.000041970.html",
+      "summary": "",
+      "published": "2026-11-04T03:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a1c6ab786336707e"
+    },
+    {
+      "title": "継ぎ目が少なく洗練されたフォルムのシームレスデザイン！USB充電式で持ち運びにも便利なメンズシェーバーなど全5アイテム新発売！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000246.000016333.html",
+      "summary": "",
+      "published": "2026-11-04T02:40:08+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "11980f4a8dc8a36b"
+    },
+    {
+      "title": "KOSSの新作ヘッドホン『KPH40 Retro』、ティアック公式オンラインストアで販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000608.000021574.html",
+      "summary": "",
+      "published": "2026-11-04T02:24:27+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "94d2193d6531e282"
+    },
+    {
+      "title": "耳にやさしいフィット感と高い遮音性で、朝までぐっすり!エアークッション構造を採用した睡眠用耳栓“ECLEAR Earplug Air”を新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000001594.000026881.html",
+      "summary": "",
+      "published": "2026-11-04T02:02:53+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "d1f9b9f6d608f932"
+    },
+    {
+      "title": "最新規格“HDMI 2.2”対応で16Kの高精細映像を再現！安定した映像・音声を届ける高機能仕様、国内初認証※1を取得したUltra96 HDMIケーブルを新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000001595.000026881.html",
+      "summary": "",
+      "published": "2026-11-04T02:00:27+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "6f62fb7af2aca535"
+    },
+    {
+      "title": "しろちゃんの表情で充電状況がひと目でわかる!傷に強いナイロンメッシュで、最大100Wの充電にも対応したしろちゃんディスプレイ付きUSB Type-Cケーブルを新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000001597.000026881.html",
+      "summary": "",
+      "published": "2026-11-04T02:00:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "99f08922fabf20c8"
+    },
+    {
+      "title": "ＪＲ東海 TOICA　20周年 ＆ ぴよりん 15周年を記念して20周年記念 限定100個 懐中時計、ぴよりん TOICAの限定グッズを11月4日（水）正午から予約販売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000180.000027598.html",
+      "summary": "",
+      "published": "2026-11-04T01:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "b32eb25452b7a1db"
+    },
+    {
+      "title": "AI時代の新NASサーバー、「AI Locker」を販売開始。文書を社外に出さず、ローカルAIで整理・検索・要約が可能。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000052.000137954.html",
+      "summary": "",
+      "published": "2026-11-04T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "80597eeb6e275e11"
+    },
+    {
+      "title": "完全ワイヤレスで現場の測定を革新。550gの軽量高精度3Dスキャナー「FreeScan Combo+ Wireless」を11月4日に販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000037.000139187.html",
+      "summary": "",
+      "published": "2026-11-04T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "c7575cf94195d165"
+    },
+    {
+      "title": "TORRAS、人気の「Ostand」シリーズから折りたたみスマホの「立てづらい」「傷が心配」に応える「iPhone Duo」対応ケース2モデルを新発売！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000028.000178598.html",
+      "summary": "",
+      "published": "2026-11-04T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "e697a8560d21afe3"
+    }
+  ]
+}
