@@ -47,6 +47,20 @@ sources:
 - title: Mondo Robotics 公式サイト
   url: https://www.mondorobotics.com/
   publisher: Mondo Robotics
+modified: 2026-11-05
+videos_after:
+  - id: Vgn5s1XaRc8
+    title: "BENI the Camera Robot Filmer FULL Review! (PROS & CONS)"
+    channel: "Eric’s Tech World"
+    published: 2026-08-08
+    added: 2026-11-05
+    note: "題名が「Beni のフルレビュー（長所と短所）」とする動画（英語）"
+  - id: ThCreZYs-QU
+    title: "We Tested Beni the Camera Robot. Here's What Happened."
+    channel: "Dad Verb"
+    published: 2026-07-17
+    added: 2026-11-05
+    note: "題名が「Beni を試した」とする動画（英語）"
 ---
 
 Mondo Roboticsが開発した「Beni」は、飼い主について歩く犬のように持ち主を自動追尾し、4K映像を撮影する四輪の小型ロボットだ。2026年7月8日にKickstarterで募集を始め、9月6日に目標額5万ドルの約93倍にあたる467万1752ドル、支援者7420人を集めて募集期間を終えた。

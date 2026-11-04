@@ -47,6 +47,20 @@ sources:
 - title: "PexarBolt: The Thunderbolt 5 Dock That Shows Your Workflow"
   url: https://www.kickstarter.com/projects/1293510277/pexarbolt-the-thunderbolt-5-dock-that-shows-your-workflow
   publisher: Kickstarter
+modified: 2026-11-05
+videos_after:
+  - id: duWCNfW9lLg
+    title: "This Thunderbolt 5 Dock Has a Touchscreen — PexarBolt Ultra Review"
+    channel: "HansTechTalk"
+    published: 2026-09-09
+    added: 2026-11-05
+    note: "題名が「PexarBolt Ultra のレビュー」とする動画（英語）"
+  - id: kEr4caX_ATQ
+    title: "I Tested the World's First Touchscreen TB5 Dock for Apple - PexarBolt Ultra TBT5"
+    channel: "Morgonaut"
+    published: 2026-09-15
+    added: 2026-11-05
+    note: "題名が「PexarBolt Ultra を試した」とする動画（英語）"
 ---
 
 Lexarが展開するスマートデバイスブランドPexarが、Thunderbolt 5対応のドッキングステーション「PexarBolt Ultra TBT5 Dock」をKickstarterで発表した。9月8日の募集開始から30分で10万ドル相当を集めたとしており、11月8日まで支援を受け付けている。
