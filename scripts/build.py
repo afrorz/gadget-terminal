@@ -45,6 +45,7 @@ ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "content" / "posts"
 FEATURES_DIR = ROOT / "content" / "features"
 PUBLIC = ROOT / "public"
+CLIPS = ROOT / "content" / "clips"  # 記事の動く映像(add_clips.py が置く)。public/clips に写す
 SITE_CFG = ROOT / "config" / "site.yaml"
 JST = timezone(timedelta(hours=9))
 
@@ -304,6 +305,19 @@ def parse_post(path: Path) -> dict | None:
     meta["images"] = imgs
     meta["thumbnail"] = imgs[0]["url"] if imgs else ""
     meta["thumbnail_credit"] = imgs[0]["credit"] if imgs else ""
+    # 動く映像(2026-11-04 本人了承)。メーカー公式 YouTube 動画の3秒・音なしの切り出しだけを
+    # content/clips/<slug>/ に置き、写真の位置で自動再生・くり返しで見せる。足すのは scripts/add_clips.py。
+    # 「画像を自社サーバーに置かない」の唯一の例外。ファイルが無い行は黙って飛ばす
+    clips = []
+    for it in (meta.get("clips") or []):
+        f = str((it or {}).get("file") or "").strip()
+        if f and (CLIPS / f).exists():
+            clips.append({"file": f,
+                          "poster": f[:-4] + ".jpg" if (CLIPS / (f[:-4] + ".jpg")).exists() else "",
+                          "caption": str(it.get("caption") or "").strip(),
+                          "credit": str(it.get("credit") or "").strip(),
+                          "source": str(it.get("source") or "").strip()})
+    meta["clips"] = clips
     # 検索結果の説明文・RSS・構造化データに使う。本文の書き出しは「日本から見ると」の
     # 注意書きを含みやすいので、要点を書いた kicker を優先する(2026-09-30)。
     meta.setdefault("excerpt", str(meta.get("kicker") or "").strip()
@@ -1726,6 +1740,34 @@ def inline_photo(im: dict, title: str) -> str:
     return f'<figure class="inline-shot">{ext_img(im["url"], cap or title)}{figcap}</figure>'
 
 
+def inline_clip(c: dict, title: str) -> str:
+    """本文中に差し込む動く映像1つ(音なし・くり返し)。画面に入ってから読み込み、外れたら止める(CLIP_JS)。
+
+    写真と同じ枠に入れるので、読者には動く写真に見える。出典はメーカー公式の YouTube 動画へのリンク。
+    """
+    cap = html.escape(c["caption"]) if c["caption"] else ""
+    credit = html.escape(c["credit"] or "メーカー公式 YouTube")
+    if c["source"]:
+        credit = f'<a href="{html.escape(c["source"])}" rel="nofollow noopener" target="_blank">{credit}</a>'
+    figcap = f'<figcaption>{cap}<span class="inline-credit">映像の出典: {credit}</span></figcaption>'
+    poster = f' poster="{u("clips/" + c["poster"])}"' if c["poster"] else ""
+    return (f'<figure class="inline-shot inline-clip">'
+            f'<video muted loop playsinline preload="none" width="960" height="540"{poster} '
+            f'data-clip="{u("clips/" + c["file"])}" aria-label="{html.escape(c["caption"] or title)}"></video>'
+            f'{figcap}</figure>')
+
+
+# 映像は画面に入ったときだけ読み込んで再生し、外れたら止める(ページの重さと通信量を抑える)。
+# 動きを減らす設定の人には自動再生せず、止めた絵に再生ボタンだけ出す
+CLIP_JS = """<script>(function(){var vs=document.querySelectorAll('video[data-clip]');if(!vs.length)return;
+var calm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function load(v){if(!v.src){v.src=v.dataset.clip;}}
+if(calm||!('IntersectionObserver' in window)){vs.forEach(function(v){load(v);v.controls=true;});return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;
+if(e.isIntersecting){load(v);var p=v.play();if(p&&p.catch)p.catch(function(){v.controls=true;});}else{v.pause();}});},{rootMargin:'200px 0px'});
+vs.forEach(function(v){io.observe(v);});})();</script>"""
+
+
 def insert_inline_media(body_html: str, media: list[str]) -> str:
     """本文の各 <h2 の直前にメディアを1つずつ割り当てて差し込む（上から順）。
 
@@ -1927,8 +1969,11 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
                       f'<img src="{fallback}" '
                       f'alt="{html.escape(p["title"])}" width="1200" height="675"></figure>')
     # 本文中に差し込むメディア。動くものが最も価値が高いので動画を先に、写真(2枚目以降)を続ける。
-    media = inline_videos + [inline_photo(im, p["title"]) for im in imgs[1:]]
+    clip_html = [inline_clip(c, p["title"]) for c in p.get("clips") or []]
+    media = inline_videos + clip_html + [inline_photo(im, p["title"]) for im in imgs[1:]]
     body_with_media = insert_inline_media(p["body_html"], media)
+    if clip_html:
+        body_with_media += CLIP_JS
     alert_html = alert_form(s, p)
     body_with_media = insert_alert_form(body_with_media, feature_buy_now(p) + alert_html)
     embeds_html = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
@@ -3008,6 +3053,8 @@ img{max-width:100%}
 .inline-shot img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
 .inline-shot figcaption{padding:9px 12px 10px;font-size:12.5px;line-height:1.7;color:var(--ink-3)}
 .inline-credit{display:block;margin-top:2px;font-size:11px;letter-spacing:.02em}
+.inline-clip video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#000}
+.inline-credit a{color:inherit}
 @media (max-width:520px){.inline-media-grid{grid-template-columns:1fr}}
 .pick-callout-bare span{font-family:inherit;font-size:12.5px;letter-spacing:0;text-transform:none}
 @media(max-width:520px){.pick{grid-template-columns:72px 1fr}.pick-thumb img{height:48px}}
@@ -3507,6 +3554,8 @@ def main() -> int:
     hero_plane_src = ROOT / "assets" / "hero-plane.png"
     if hero_plane_src.exists():
         shutil.copy2(hero_plane_src, PUBLIC / "assets" / "hero-plane.png")
+    if CLIPS.exists():
+        shutil.copytree(CLIPS, PUBLIC / "clips")
 
     # OGP画像（フォントが無い環境では静かにスキップ）
     if ogp is not None:

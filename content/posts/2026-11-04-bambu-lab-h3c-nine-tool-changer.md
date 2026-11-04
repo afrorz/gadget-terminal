@@ -52,6 +52,19 @@ images:
 - url: "https://portal.bblmw.com/h3c/ys2urs57x1r/gallery/card-watch-pc.jpg?v=ys2urs57x1r"
   caption: 公式ページの作例。文字盤・ケース・ベルトのTPUを一体で造形した腕時計
 credit: Bambu Lab 公式製品ページ・公式ストア
+clips:
+- file: bambu-lab-h3c-nine-tool-changer/tools.mp4
+  caption: "9本が並ぶツールラック（交換3.4秒、切り替え最短6秒）"
+  credit: "Bambu Lab 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=reLXvBtyxRQ"
+- file: bambu-lab-h3c-nine-tool-changer/paths.mp4
+  caption: "1本ずつ専用の経路とヒーター（再装填の手間がない）"
+  credit: "Bambu Lab 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=reLXvBtyxRQ"
+- file: bambu-lab-h3c-nine-tool-changer/spools.mp4
+  caption: "9スロットのAMS 3H（2スロットに85℃の乾燥機）"
+  credit: "Bambu Lab 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=reLXvBtyxRQ"
 sources:
 - title: Bambu Lab H3C（公式製品ページ）
   url: https://bambulab.com/en/h3c

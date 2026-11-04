@@ -29,6 +29,7 @@
 - **リークは必ずリークと書き、確度に言及する**
 - **翻訳ではなく再構成。** 元記事の文をそのまま訳して並べない
 - **画像をダウンロードして自社サーバーに置かない。** メーカー公式ページ・クラファンのプロジェクトページの画像は、`thumbnail` にURLを書いてホットリンク引用してよい（`thumbnail_credit` に出典必須）。他のニュースサイトの画像は使わない
+  - **唯一の例外: メーカー公式 YouTube 動画の短い切り出し**（2026-11-04 本人了承）。メーカー自身の公式チャンネルの動画を、1カット3秒まで・音なし・1記事3カットまで、`content/clips/<slug>/` に置いて front matter の `clips` で写真の位置に出す（自動再生・くり返し、画面に入ってから読み込む）。出典のチャンネルと元の動画へのリンクを必ず出す。足すのは `scripts/add_clips.py`（毎朝の動画づくりが切った映像を使う）だけ。ほかの人の動画・画像は置かない
 - **円換算を書かない。** 為替で陳腐化する。ドル/ユーロのまま（例外: X投稿文 x_hook だけは「約◯万円」を括弧で添えてよい。2026-10-08 本人判断。記事に残らないため）
   - 本文の表の「価格」には、`build.py` がビルドのたびにその日のレートで「（約◯万円）」を自動で添える（2026-10-27 本人判断。「製品名 価格」の検索が多いため）。記事を書く側は円を書かない
 - **一社しか報じていない話は、その旨を書く**
@@ -60,7 +61,7 @@
 
 ## コマンド（Windows）
 
-このPCは Python 3.10 / Windows。`python3` ではなく **`python`** を使う。
+このPCは Python 3.14 / Windows。`python3` ではなく **`python`** を使う。
 PowerShell では `&&` が使えないので `;` で繋ぐ。npm 系は `npm.cmd` / `npx.cmd`。
 
 ```bash
@@ -103,6 +104,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | `scripts/collect.py` | RSS収集 → 重複排除 → クラスタリング → スコアリング |
 | `scripts/build.py` | Markdown → 静的HTML（RSS/sitemap/OGP/構造化データ込み） |
 | `content/posts/*.md` | 記事本体。front matter + Markdown |
+| `content/clips/<slug>/` | **記事の動く映像**（メーカー公式 YouTube の3秒の切り出し・音なし）。`scripts/add_clips.py` が置く。1カット100〜200KB、GitHub Pages の上限 1GB に注意 |
 | `content/features/*.md` | **特集ページ。**ニュースと違い国内で買える製品も載せる。詳細は PLAYBOOK 2.9 |
 | `data/digest/` | 日次ダイジェスト（.md と .json） |
 | `data/queue.md` | **書きたいネタの置き場。**定期実行がダイジェストより先に消化する |
