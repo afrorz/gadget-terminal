@@ -34,6 +34,15 @@ images:
 - url: "https://www.lofree.co/cdn/shop/files/Flow_Lite_2_84_White_PI03.webp?v=1793168341&width=2000"
   caption: 前面より少し低い角度から。薄い筐体と角度のついたキー列
 credit: Lofree 公式サイト
+clips:
+- file: lofree-flow-lite-2-low-profile-keyboard/switch.mp4
+  caption: "新しいリニア軸は45gf（前作の40gfから重く）"
+  credit: "Lofree 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=r4L_Fk4cymg"
+- file: lofree-flow-lite-2-low-profile-keyboard/typing.mp4
+  caption: "3モードでつなげる（有線・2.4GHz・Bluetooth）"
+  credit: "Lofree 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=r4L_Fk4cymg"
 sources:
 - title: Flow Lite 2 84 Low-Profile Mechanical Keyboard（公式ストア。価格は2026年11月5日時点）
   url: https://www.lofree.co/products/flow-lite-2-84-low-profile-mechanical-keyboard
