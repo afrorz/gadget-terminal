@@ -1363,7 +1363,6 @@ function thumbs(panel){if(!small.matches||!panel)return;
 thumbs(document.getElementById("bp-dep"));
 small.addEventListener&&small.addEventListener("change",function(){
   document.querySelectorAll(".board-panel:not([hidden])").forEach(thumbs);});
-.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 /* 出発・到着のタブ。左右の矢印キーでも動く */
 var tabs=[].slice.call(document.querySelectorAll(".board-tab"));
 function pick(t){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on?"true":"false");
@@ -3168,6 +3167,7 @@ img{max-width:100%}
 .b-arrow{color:var(--ink-3);text-align:right;transition:transform .2s,color .2s}
 .board-row:hover .b-arrow{color:var(--cat);transform:translateX(3px)}
 .board-row:hover .b-title{color:var(--ink)}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 /* 出発・到着のタブ。選んでいる方だけ明るく、下線はアクセント色 */
 .board-title{gap:4px}
 .board-tab{display:flex;align-items:center;gap:9px;background:none;border:0;cursor:pointer;
