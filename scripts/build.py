@@ -1180,7 +1180,7 @@ def board_row(site: dict, p: dict, i: int, arrival: bool = False) -> str:
     alt = " board-row-alt" if i % 2 == 0 else ""
     img, _ = card_image(p)
     return f"""<a class="board-row cat-{key}{alt}" href="{u(p['path'])}">
-  <span class="b-thumb" aria-hidden="true"><img src="{img}" alt="" loading="lazy" decoding="async"
+  <span class="b-thumb" aria-hidden="true"><img data-thumb="{html.escape(img)}" alt="" decoding="async"
     referrerpolicy="no-referrer" width="96" height="96"
     onerror="this.onerror=null;this.src='{u("cards/" + p['slug'] + ".png")}'"></span>
   <span class="b-flt" data-flap>{p['flight']}</span>
@@ -1348,6 +1348,27 @@ function flapStatus(el){
     if(++n>=9){clearInterval(t);node.nodeValue=fin;return;}
     node.nodeValue=rnd(fin,26);},40);
 }
+/* 案内板の写真はスマホの3列のときだけ使う。src を最初から書くと、パソコンでも
+   見えない写真(元は数千ピクセルの公式画像)を全部取りに行き、記事一覧の写真が
+   後回しになって出なくなった(2026-11-05)。見えている板の分だけ、スマホでだけ読む */
+var small=window.matchMedia("(max-width:620px)");
+function thumbs(panel){if(!small.matches||!panel)return;
+  panel.querySelectorAll("img[data-thumb]").forEach(function(im){im.src=im.getAttribute("data-thumb");
+    im.removeAttribute("data-thumb");});}
+thumbs(document.getElementById("bp-dep"));
+small.addEventListener&&small.addEventListener("change",function(){
+  document.querySelectorAll(".board-panel:not([hidden])").forEach(thumbs);});
+/* 出発・到着のタブ。左右の矢印キーでも動く */
+var tabs=[].slice.call(document.querySelectorAll(".board-tab"));
+function pick(t){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on?"true":"false");
+  x.tabIndex=on?0:-1;var p=document.getElementById(x.getAttribute("aria-controls"));if(p)p.hidden=!on;});
+  var p=document.getElementById(t.getAttribute("aria-controls"));thumbs(p);
+  if(p)p.querySelectorAll(".board-row").forEach(function(row,i){setTimeout(function(){
+    row.querySelectorAll("[data-flap]").forEach(flap);var st=row.querySelector("[data-flap-status]");
+    if(st)flapStatus(st);},reduced?0:i*55);});}
+tabs.forEach(function(t,i){t.addEventListener("click",function(){pick(t);});
+  t.addEventListener("keydown",function(e){var d=e.key==="ArrowRight"?1:e.key==="ArrowLeft"?-1:0;
+    if(d){var n=tabs[(i+d+tabs.length)%tabs.length];pick(n);n.focus();e.preventDefault();}});});
 var rows=document.querySelectorAll(".board-row");
 rows.forEach(function(row,i){
   setTimeout(function(){
@@ -1391,34 +1412,34 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     <span>FLIGHT</span><span>FROM</span><span>CAT</span><span>KEY</span><span>ENTRY</span><span>STATUS</span><span></span>
   </div>"""
         # 見出しの飛行機は ISO 7001 の出発(機首を上げる)と到着(機首を下げる)のピクトグラム
-        arr_board = f"""
-<section class="board board-arr">
-  <h2 class="board-title">
-    <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <g transform="rotate(22 12 11)">{plane}</g>
-      <rect x="2.5" y="20" width="19" height="1.5" rx=".75"/>
-    </svg>
-    <span class="board-title-en">ARRIVALS</span>
-    <span class="board-title-ja">到着案内 — 日本に上陸した海外ガジェット</span>
-    <a class="board-more" href="{u('jpn.html')}">一覧 →</a>
-  </h2>
-  {f'<p class="board-lede">先に海外の話として紹介した製品のうち <b>{LANDED_AFTER[0]}件</b>が、あとから日本で買えるようになりました。</p>' if LANDED_AFTER[0] else ''}
-  {head_row}
-  {arr}
-</section>""" if arr_posts else ""
+        # 2枚の板はタブで切り替える(2026-11-05 本人「案内板の存在感がでかすぎる」。縦に2枚並べたのはボツ)。
+        # 最初は出発。到着の中身は HTML に入れておき hidden で隠す(JS が切り替える)
+        lede = (f'<p class="board-lede">先に海外の話として紹介した製品のうち <b>{LANDED_AFTER[0]}件</b>が、'
+                f'あとから日本で買えるようになりました。<a href="{u("jpn.html")}">日本上陸の一覧 →</a></p>'
+                if LANDED_AFTER[0] else f'<p class="board-lede"><a href="{u("jpn.html")}">日本上陸の一覧 →</a></p>')
+        arr_tab = ('<button class="board-tab" role="tab" id="bt-arr" aria-controls="bp-arr" aria-selected="false"'
+                   ' tabindex="-1" type="button"><svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+                   f'<g transform="rotate(22 12 11)">{plane}</g><rect x="2.5" y="20" width="19" height="1.5" rx=".75"/></svg>'
+                   '<span class="board-title-en">ARRIVALS</span><span class="board-tab-ja">日本に上陸</span></button>'
+                   if arr_posts else "")
+        arr_panel = (f'<div class="board-panel" role="tabpanel" id="bp-arr" aria-labelledby="bt-arr" hidden>'
+                     f'{lede}{head_row}{arr}</div>' if arr_posts else "")
         body = f"""
-<section class="board board-dep">
-  <h2 class="board-title">
-    <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <g transform="rotate(-22 12 11)">{plane}</g>
-      <rect x="2.5" y="20" width="19" height="1.5" rx=".75"/>
-    </svg>
-    <span class="board-title-en">DEPARTURES</span>
-    <span class="board-title-ja">出発案内 — 締め切りが近い海外クラファンと新着</span>
+<section class="board">
+  <h2 class="board-title" role="tablist" aria-label="案内板">
+    <button class="board-tab" role="tab" id="bt-dep" aria-controls="bp-dep" aria-selected="true" type="button">
+      <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <g transform="rotate(-22 12 11)">{plane}</g>
+        <rect x="2.5" y="20" width="19" height="1.5" rx=".75"/>
+      </svg>
+      <span class="board-title-en">DEPARTURES</span><span class="board-tab-ja">締め切り間近</span>
+    </button>{arr_tab}
   </h2>
+  <div class="board-panel" role="tabpanel" id="bp-dep" aria-labelledby="bt-dep">
   {head_row}
   {dep}
-</section>{arr_board}
+  </div>{arr_panel}
+</section>
 <section class="lead">
   {card(site, lead, featured=True)}
 </section>
@@ -3120,15 +3141,22 @@ img{max-width:100%}
 .b-arrow{color:var(--ink-3);text-align:right;transition:transform .2s,color .2s}
 .board-row:hover .b-arrow{color:var(--cat);transform:translateX(3px)}
 .board-row:hover .b-title{color:var(--ink)}
-/* 2枚の板(出発・到着)は続けて1枚のパネルに見せる。間に明るい帯を挟むと別物に見える */
-.board-dep:has(+ .board-arr){margin-bottom:0}
-.board-arr{padding-top:6px}
-.board-arr .board-title{border-top:1px solid var(--rule-2)}
-.board-more{margin-left:auto;flex:none;font-family:var(--sans);font-size:11.5px;font-weight:500;
-  letter-spacing:0;color:var(--ink-2);text-decoration:none}
-.board-more:hover{color:var(--ink)}
+/* 出発・到着のタブ。選んでいる方だけ明るく、下線はアクセント色 */
+.board-title{gap:4px}
+.board-tab{display:flex;align-items:center;gap:9px;background:none;border:0;cursor:pointer;
+  padding:4px 14px 4px 0;margin-right:10px;font:inherit;letter-spacing:inherit;color:var(--ink-3);
+  border-bottom:2px solid transparent;margin-bottom:-15px;padding-bottom:12px}
+.board-tab .board-title-en{color:inherit}
+.board-tab .pict-arr{fill:currentColor}
+.board-tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.board-tab[aria-selected="true"] .pict-arr{fill:var(--accent)}
+.board-tab:hover{color:var(--ink-2)}
+.board-tab[aria-selected="true"]:hover{color:var(--ink)}
+.board-tab-ja{font-family:var(--sans);font-size:11px;font-weight:400;letter-spacing:0}
 .board-lede{margin:10px 0 10px;font-family:var(--sans);font-size:12.5px;color:var(--ink-2)}
 .board-lede b{color:#5ad19a;font-weight:600}
+.board-lede a{color:var(--ink);margin-left:8px;white-space:nowrap}
+@media (max-width:620px){.board-tab-ja{display:none}.board-tab{padding-right:4px;margin-right:6px}}
 /* 製品名の下の「何の製品か」。広い画面は題名の列(ENTRY)があるので出さない */
 .b-key b{font-weight:600;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .b-what{display:none;font-weight:400;font-size:11px;color:var(--ink-2);line-height:1.45;
