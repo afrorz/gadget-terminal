@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
@@ -89,17 +89,17 @@
    "views": 20
   },
   {
+   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
+   "visits": 10,
+   "views": 20
+  },
+  {
    "path": "/posts/tryx-vestra-vision-oled-magnetic-keyboard.html",
    "visits": 10,
    "views": 20
   },
   {
    "path": "/posts/romu-usb-rp2354a-board.html",
-   "visits": 10,
-   "views": 10
-  },
-  {
-   "path": "/posts/xgimi-horizon-30-series.html",
    "visits": 10,
    "views": 10
   }
