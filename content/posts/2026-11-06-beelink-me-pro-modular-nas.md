@@ -33,6 +33,15 @@ images:
 - url: "https://www.bee-link.com/cdn/shop/files/1_97ed3fcb-0a98-476e-8082-d6426e17143f.png"
   caption: 構成と価格の一覧。Home NAS・Creator NAS・Local AI NASの3系統があり、2ベイと4ベイの早割価格が並ぶ
 credit: Beelink 公式サイト（ME Pro 予告ページ）
+clips:
+- file: beelink-me-pro-modular-nas/pull.mp4
+  caption: "引き出し式のマザーボード（2ベイと4ベイで使い回せる）"
+  credit: "Beelink 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=RXFMKX5A1iY"
+- file: beelink-me-pro-modular-nas/spin.mp4
+  caption: "上位構成はAIも最大86TOPS（LLMをNAS上で動かす想定）"
+  credit: "Beelink 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=atCRZvbuhvs"
 sources:
 - title: "Beelink ME Pro: Modular AI NAS With Upgradeable Performance（Kickstarter。金額・支援者数は2026年11月6日7時49分時点）"
   url: https://www.kickstarter.com/projects/1086667996/beelink-me-pro-nas
