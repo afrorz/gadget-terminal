@@ -9,6 +9,7 @@ x_hook: |
 keyword: LuxVision
 category: pc
 date: 2026-10-15
+modified: 2026-11-06
 kicker: AWOL Visionが、IFA 2026で発表した超短焦点プロジェクター「LuxVision」の予約を始めた。超短焦点では初となる垂直方向の光学レンズシフトを備え、4K/120Hz、6,000 ISOルーメン。希望小売価格は5,999ドルで、出荷は11月下旬の予定。
 tags:
 - AWOL Vision
@@ -21,6 +22,10 @@ giteki:
   number: []
   checked: 2026-11-04
   radio: "Wi-Fi 7 / Bluetooth 5.4"
+embeds:
+  - type: youtube
+    id: MdQqSlljfsE
+    caption: "AWOL Vision公式のLuxVision紹介動画（AWOL Vision）"
 images:
 - url: "https://awolvision.com/cdn/shop/files/luxvision-product-detail-primary-2-2.webp?v=1789042980&width=1600"
   caption: LuxVision本体を正面やや上から見た製品写真。金色の縦ルーバーのグリルが前面を覆い、上面に投写窓が開いている
@@ -29,6 +34,19 @@ images:
 - url: "https://awolvision.com/cdn/shop/files/luxvision-product-detail-primary-2-3.webp?v=1789042996&width=1600"
   caption: 本体の側面。縦ルーバー、電源ボタン、底面の調整脚が見える
 credit: AWOL Vision 公式製品ページ
+clips:
+- file: awol-luxvision-optical-shift-ust/body.mp4
+  caption: "LuxVisionの本体"
+  credit: "AWOL Vision 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=MdQqSlljfsE"
+- file: awol-luxvision-optical-shift-ust/shift.mp4
+  caption: "光学レンズシフトで、映す位置を上下に動かせる"
+  credit: "AWOL Vision 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=MdQqSlljfsE"
+- file: awol-luxvision-optical-shift-ust/multi.mp4
+  caption: "公式映像では、1つの画面に4つの映像を並べて映している"
+  credit: "AWOL Vision 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=MdQqSlljfsE"
 sources:
 - title: AWOL LuxVision 4K 120Hz UST Projector（AWOL Vision公式）
   url: https://awolvision.com/products/luxvision-4k-120hz-ust-projector

@@ -10,6 +10,7 @@ x_hook: |
 keyword: FR-NIA
 category: weird
 date: 2026-10-17
+modified: 2026-11-06
 kicker: 中国・杭州のFigurobotが、卓上型AIロボット「FR-NIA」を11月中旬にクラウドファンディングへ出す。高さ約28cmの本体に顔7・首3の計10自由度のマイクロモーターを積み、LLMとの会話に合わせて1,000通り以上の表情を作る。
 pick: true
 tags:
@@ -24,12 +25,29 @@ giteki:
   checked: 2026-10-17
   radio: Wi-Fi 2.4GHz/5GHz / Bluetooth 5.0
   note: 型番が非公開で総務省DBで特定できない
+embeds:
+  - type: youtube
+    id: rDEx4LEjnv4
+    caption: "Figurobot公式の開封・セットアップ動画。表情の動きや、顔の向きを追う様子が分かる（Figurobot）"
 images:
 - url: "https://greenfunding.jp/figurobot/assets/images/photos-v36/nia-hero-1280.webp"
   caption: 顔の正面のアップ。白い髪と青い目で、表情はモーターで動かす
 - url: "https://greenfunding.jp/figurobot/assets/images/nia-three-quarter.webp"
   caption: 斜め前から。顔は液体シリコーン製で、肩の外装の内側に歯車が見える
 credit: FIGUROBOT 公式プロジェクトページ（GREEN FUNDING）
+clips:
+- file: figurobot-fr-nia/reveal.mp4
+  caption: "箱から取り出したFR-NIA"
+  credit: "Figurobot 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=rDEx4LEjnv4"
+- file: figurobot-fr-nia/follow.mp4
+  caption: "向かいに座った人の頭の動きに合わせて、顔の向きを変える"
+  credit: "Figurobot 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=rDEx4LEjnv4"
+- file: figurobot-fr-nia/hair.mp4
+  caption: "髪のパーツを付け替えるところ"
+  credit: "Figurobot 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=GegxIvq5p60"
 sources:
 - title: NIA — こんなに、気持ちが通じ合う、AIパートナー｜FIGUROBOT
   url: https://greenfunding.jp/figurobot

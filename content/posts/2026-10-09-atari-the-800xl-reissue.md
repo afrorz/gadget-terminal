@@ -10,6 +10,7 @@ x_hook: |
 keyword: THE 800XL
 category: weird
 date: 2026-10-09
+modified: 2026-11-06
 kicker: Atariが、1983年発売の8ビットコンピュータ「800XL」の復刻版「THE 800XL」の予約を始めた。キーボード一体型の筐体、カートリッジスロット、Atari BASICを残したままHDMI出力を足し、価格は219.99ドル、出荷は2027年4月23日の予定。
 tags:
 - Atari
@@ -23,12 +24,29 @@ giteki:
   checked: 2026-10-09
   radio: ""
   note: 無線の記載なし
+embeds:
+  - type: youtube
+    id: fkDpn11tvyw
+    caption: "Retro Games公式のTHE 800XL発表トレーラー（Retro Games）"
 images:
 - url: "https://retrogames.biz/images/the800xl/the800xl-og-1200.jpg"
   caption: THE 800XLの外観。ベージュの上面にカートリッジスロット、黒いキーボード、右側に6つのコンソールキー
 - url: "https://retrogames.biz/images/the800xl/solo-top-01.webp"
   caption: 真上から見た本体。英字配列のキーボードと、右側のRESET / OPTION / SELECT / START / HELPのキー
 credit: Retro Games Ltd. 公式製品ページ
+clips:
+- file: atari-the-800xl-reissue/body.mp4
+  caption: "THE 800XLの本体。キーボード一体型の筐体"
+  credit: "Retro Games 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=fkDpn11tvyw"
+- file: atari-the-800xl-reissue/cart.mp4
+  caption: "上面のカートリッジスロットに挿すところ"
+  credit: "Retro Games 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=fkDpn11tvyw"
+- file: atari-the-800xl-reissue/stick.mp4
+  caption: "公式映像に出てくるジョイスティック"
+  credit: "Retro Games 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=fkDpn11tvyw"
 sources:
 - title: Atari 800XL Home Computer Relaunched, Pre-Orders Open Today, Ships April 2027
   url: https://www.techpowerup.com/353515/atari-800xl-home-computer-relaunched-pre-orders-open-today-ships-april-2027

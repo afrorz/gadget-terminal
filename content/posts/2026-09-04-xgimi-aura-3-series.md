@@ -19,7 +19,10 @@ giteki:
   radio: "Wi-Fi / Bluetooth"
 x_hook: 壁から約20cmで100インチ超の映像を出すプロジェクターが、4Kで120Hz出力に対応した。ゲーム機をつなぐ前提の仕様だという。
 deadline: 2026-12-04
-embeds: []
+embeds:
+  - type: youtube
+    id: q9sQhBtBtXo
+    caption: "XGIMI公式のAURA 3シリーズ紹介動画（XGIMI）"
 images:
 - url: "https://mmx.prnewswire.com/media/MS1980224/20260902025652EDT_image_1.jpg?id=OA2925258&p=twitter"
   caption: 上位機「AURA 3 Max」の設置例。壁面に120インチ超のスクリーンを投影している(投影用スクリーンは別売)
@@ -47,6 +50,19 @@ alternatives:
   url: https://www.amazon.co.jp/dp/B095CF4LKV
   merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/xgimi-store/cabinet/10953583/13834345/imgrc0108649458.jpg?_ex=400x400"
+clips:
+- file: xgimi-aura-3-series/top.mp4
+  caption: "本体の天面に触れると、投写部がせり上がる"
+  credit: "XGIMI 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=q9sQhBtBtXo"
+- file: xgimi-aura-3-series/wall.mp4
+  caption: "壁際に置いた本体から、大きな画面を映したところ"
+  credit: "XGIMI 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=q9sQhBtBtXo"
+- file: xgimi-aura-3-series/audio.mp4
+  caption: "木目の筐体。Harman Kardonのスピーカーを内蔵する"
+  credit: "XGIMI 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=q9sQhBtBtXo"
 sources:
 - title: The XGIMI Aura 3 lineup brings Google TV to 4K 120Hz capable short-throw laser projectors
   url: https://9to5google.com/2026/09/03/the-xgimi-aura-3-lineup-brings-google-tv-to-4k-120hz-capable-short-throw-laser-projectors/

@@ -9,6 +9,9 @@ content/clips/<slug>/ に置き、記事の front matter に clips を書く。�
 ほかの人の動画・画像は今までどおり置かない。
 
 使い方: python scripts/add_clips.py <記事の slug> [--shorts <gadget-shorts の slug>]
+       python scripts/add_clips.py <記事の slug> --spec <一覧.json>   (過去記事用、2026-11-06〜)
+  一覧.json: {"credit": "◯◯ 公式 YouTube", "clips": [{"src": "<切った mp4>", "url": "<元の動画>", "caption": "…"}]}
+  切った mp4 は gadget-shorts の scripts/get_clip.py で作る(公式チャンネルかの確認・3秒・音なしはそちらが守る)。
   gadget-shorts の videos\\<slug>\\wide.json で photo が .mp4 の場面を拾う(文字はその場面の見出し)。
   もう clips がある記事は何もしない(やり直すときは front matter の clips を消してから)。
 """
@@ -45,6 +48,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
     ap.add_argument("--shorts", help="gadget-shorts 側の slug(記事と同じなら省略)")
+    ap.add_argument("--spec", help="過去記事用。切った映像の一覧(JSON)")
     a = ap.parse_args()
     post = next(POSTS.glob(f"*-{a.slug}.md"), None)
     if not post:
@@ -56,6 +60,12 @@ def main() -> None:
         print(f"もう映像があります: {post.name}")
         return
     sslug = a.shorts or a.slug
+    if a.spec:
+        spec = json.loads(Path(a.spec).read_text(encoding="utf-8"))
+        credit = spec["credit"]
+        picks = [(c["src"], Path(c["src"]).name, c["url"], c["caption"]) for c in spec["clips"]
+                 if "youtube.com" in c["url"] or "youtu.be" in c["url"]][:MAX_CLIPS]
+        return write(a.slug, post, text, fm, fm_end, credit, picks, lambda photo: Path(photo))
     w = json.loads((SHORTS / "videos" / sslug / "wide.json").read_text(encoding="utf-8"))
     credit_m = re.search(r"映像：([^／/]+)", w.get("imageCredit") or "")
     credit = credit_m.group(1).strip() if credit_m else "メーカー公式 YouTube"
@@ -80,12 +90,20 @@ def main() -> None:
         print(f"映像の場面がありません: videos\\{sslug}\\wide.json")
         return
 
-    out_dir = CLIPS / a.slug
+    return write(a.slug, post, text, fm, fm_end, credit, picks,
+                 lambda photo: SHORTS / "public" / "videos" / sslug / photo)
+
+
+def write(slug, post, text, fm, fm_end, credit, picks, src_of) -> None:
+    if not picks:
+        print("足す映像がありません")
+        return
+    out_dir = CLIPS / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     ff = ffmpeg()
     lines = ["clips:"]
     for photo, name, url, caption in picks:
-        src = SHORTS / "public" / "videos" / sslug / photo
+        src = src_of(photo)
         dst = out_dir / name
         # 記事の幅には 960px で足りる。1カット 100〜200KB(写真1枚と同じくらい)
         subprocess.run([ff, "-y", "-loglevel", "error", "-i", str(src), "-an", "-vf", "scale=960:-2",
@@ -95,7 +113,7 @@ def main() -> None:
         subprocess.run([ff, "-y", "-loglevel", "error", "-i", str(dst), "-frames:v", "1", "-q:v", "5",
                         str(dst.with_suffix(".jpg"))], check=True)
         print(f"置きました: {dst.relative_to(ROOT)}({dst.stat().st_size // 1024}KB)")
-        lines += [f"- file: {a.slug}/{name}", f"  caption: {q(caption)}", f"  credit: {q(credit)}",
+        lines += [f"- file: {slug}/{name}", f"  caption: {q(caption)}", f"  credit: {q(credit)}",
                   f"  source: {q(url)}"]
     # clips は sources の前に置く(videos_after は末尾に置く決まりなので、そこを避ける)
     m = re.search(r"^sources:", fm, re.M)
