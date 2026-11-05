@@ -76,7 +76,7 @@ python scripts/build.py --serve         # http://localhost:8000 で確認
 | JST(指定) | 何が動くか | Claude の利用枠 |
 |---|---|---|
 | 01:40 | `followup.yml` 過去記事の日本上陸を見回る(1日8本、7日おき。日本上陸アラートに登録者がいる記事は枠の外で毎日見る) | **消費する** |
-| 02:00 | 自宅PCのタスクスケジューラ「GadgetTerminal Kickstarter先読み」 `ks_prefetch.py` が Kickstarter の案件を読んで `data/kscache` に貯めて push（ランナーは Kickstarter が 403 のため） | 使わない |
+| 02:00 | 自宅PCのタスクスケジューラ「GadgetTerminal Kickstarter先読み」 `ks_prefetch.py` が Kickstarter の案件を読んで `data/kscache` に貯めて push（ランナーは Kickstarter が 403 のため）。ついでに `scripts/popular.py` で Cloudflare の閲覧記録から TOP の「よく読まれている記事」の元 `data/popular.json` を書いて一緒に push（2026-11-05〜、鍵は司令塔の secrets） | 使わない |
 | 02:30 | `collect.yml` 収集 | 使わない |
 | 収集の直後 | `daily-article.yml` 記事3本 → ビルド → 公開（cron を持たず、収集の完了で走る。3本に届かなければ同じ実行の中で最大2回やり直す） | **消費する** |
 | 22:30(実際は深夜 0〜2 時) | `japan-rewrite.yml` 過去記事の「日本で買える？使える？」の節を、期待を残す言い方に書き直す(1晩20本・1回きり、2026-11-01〜。残り0本で自動で何もしなくなる。`scripts/japan_rewrite.py status` で残り) | **消費する** |

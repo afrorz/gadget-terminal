@@ -1099,16 +1099,18 @@ def flight_no(p: dict, order: dict) -> str:
 
 
 def board_posts(site: dict, posts: list[dict], limit: int = 6) -> list[dict]:
-    """案内板に出す記事を選ぶ。
+    """出発案内板(DEPARTURES)に出す記事を選ぶ。
 
-    空港の到着案内板は「これから着く便」を上に出す。それに倣って、
-    **まだ出資できるクラウドファンディング案件を締切が近い順に上へ置く。**
+    **まだ出資できる海外のクラウドファンディング案件を締切が近い順に上へ置く。**
     掲載日順にすると、読者が今日行動できる案件が下に沈んで案内板の意味が無くなる。
-    残りは新着順で埋める。
+    残りは新着順で埋める。日本に上陸した記事は到着案内板(arrival_posts)に回す。
+    (2026-11-05 本人了承で板を2枚に分けた。それまではこの1枚を ARRIVALS と呼んでいた)
     """
     today = datetime.now(JST).strftime("%Y-%m-%d")
     live, rest = [], []
     for p in posts:
+        if is_landed(p):
+            continue
         label, _ = post_status(p, today)
         if label in ("FINAL CALL", "NOW BOARDING"):
             live.append(p)
@@ -1118,23 +1120,111 @@ def board_posts(site: dict, posts: list[dict], limit: int = 6) -> list[dict]:
     return (live + rest)[:limit]
 
 
-def board_row(site: dict, p: dict, i: int) -> str:
+def arrival_posts(posts: list[dict], limit: int = 6) -> list[dict]:
+    """到着案内板(ARRIVALS)に出す記事。先に海外の話として書き、あとで日本で
+    発売・予約・国内クラファンが始まった製品を、上陸を確かめた日が新しい順に出す。
+    「発売予定」は発表だけなので載せない(日本上陸アラートと同じ線引き)。"""
+    landed = [p for p in posts if is_landed(p)]
+    landed.sort(key=lambda p: (str((p.get("japan") or {}).get("checked") or p["date"]), p["date"]),
+                reverse=True)
+    return landed[:limit]
+
+
+ARRIVAL_NOTE = {"発売済み": "発売中", "予約受付中": "予約受付中", "クラウドファンディング中": "国内クラファン"}
+
+
+def board_what(p: dict) -> str:
+    """案内板の製品名の下に出す「何の製品か」の一言。記事の題名から製品名の部分を
+    外した、最初の文をそのまま使う(新しく文を作らない。推測で書くと事実を外すため)。
+    例: 「Arrowspace S1、カメラでネジを見分けて…AI電動ドライバー。Kickstarterで…」
+        → 「カメラでネジを見分けて…AI電動ドライバー」"""
+    full = re.sub(r"\s+", " ", str(p.get("title") or "")).strip()
+    sentence = full.split("。")[0].strip("、, ")
+    kw = str(p.get("keyword") or "").strip().lower()
+    t = full
+    m = re.search(r"」(?:は|が|、|,|の|を|で|も)?", t)
+    if m and m.start() < 45:
+        t = t[m.end():]
+    else:
+        i = t.find("、")
+        first = t[:i]
+        if 0 < i <= 40 and ((kw and kw in first.lower()) or re.fullmatch(r"[\x00-\x7f]+", first)):
+            t = t[i + 1:]
+    t = t.split("。")[0].strip("、, ")
+    # 「発売、…」の「発売」のような短い頭は落とす
+    head, sep, tail = t.partition("、")
+    if sep and len(head) <= 4 and len(tail) >= 12:
+        t = tail
+    # 切りすぎて短い・カッコで始まる(「Nano36」「Nano72」を発売 など)ときは、最初の文をそのまま
+    if len(t) < 12 or t.startswith("「"):
+        t = sentence
+    return t
+
+
+def board_row(site: dict, p: dict, i: int, arrival: bool = False) -> str:
     key = p.get("category", "misc")
     cat = site["categories"].get(key, {"code": "---", "label": "その他"})
-    today = datetime.now(JST).strftime("%Y-%m-%d")
-    label, note = post_status(p, today)
-    style = STATUS_STYLE.get(label, "done")
+    if arrival:
+        j = p.get("japan") or {}
+        label, style = "LANDED", "live"
+        note = ARRIVAL_NOTE.get(str(j.get("status") or "").strip(), "")
+        price = str(((j.get("buy") or [{}])[0] or {}).get("price") or "")
+        price = re.split(r"[（(]", price)[0].strip()
+        what = f"国内 {price}" if price else board_what(p)
+    else:
+        today = datetime.now(JST).strftime("%Y-%m-%d")
+        label, note = post_status(p, today)
+        style = STATUS_STYLE.get(label, "done")
+        what = board_what(p)
     code, city = post_origin(site, p)
     alt = " board-row-alt" if i % 2 == 0 else ""
+    img, _ = card_image(p)
     return f"""<a class="board-row cat-{key}{alt}" href="{u(p['path'])}">
+  <span class="b-thumb" aria-hidden="true"><img src="{img}" alt="" loading="lazy" decoding="async"
+    referrerpolicy="no-referrer" width="96" height="96"
+    onerror="this.onerror=null;this.src='{u("cards/" + p['slug'] + ".png")}'"></span>
   <span class="b-flt" data-flap>{p['flight']}</span>
   <span class="b-from"><b data-flap>{html.escape(code)}</b>{f'<span>{html.escape(city)}</span>' if city else ''}</span>
   <span class="b-code" data-flap>{cat.get('code','---')}</span>
-  <span class="b-key">{html.escape(p.get('keyword') or '')}</span>
+  <span class="b-key"><b>{html.escape(p.get('keyword') or '')}</b><small class="b-what">{html.escape(what)}</small></span>
   <span class="b-title">{html.escape(p['title'])}</span>
   <span class="st st-{style}" data-flap-status>{html.escape(label)}{f'<em>{html.escape(note)}</em>' if note else ''}</span>
   <span class="b-arrow" aria-hidden="true">→</span>
 </a>"""
+
+
+# よく読まれている記事。Cloudflare の閲覧の記録(抜き取りなので数字は粗い)を、自宅PCの
+# ks_prefetch.py が毎晩 data/popular.json に書く。ここは並び順だけ使い、数は出さない。
+POPULAR = ROOT / "data" / "popular.json"
+
+
+def popular_section(posts: list[dict], limit: int = 5) -> str:
+    try:
+        data = json.loads(POPULAR.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return ""
+    by_path = {"/" + p["path"].lstrip("/"): p for p in posts}
+    picked = []
+    for row in data.get("paths") or []:
+        p = by_path.get(str(row.get("path") or ""))
+        if p and p not in picked:
+            picked.append(p)
+        if len(picked) >= limit:
+            break
+    if len(picked) < 3:
+        return ""
+    items = []
+    for n, p in enumerate(picked, 1):
+        img, _ = card_image(p)
+        items.append(
+            f'<li class="pop-item cat-{p.get("category", "misc")}"><a href="{u(p["path"])}">'
+            f'<span class="pop-n">{n:02d}</span>'
+            f'<img class="pop-img" src="{img}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"'
+            f' width="120" height="68" onerror="this.onerror=null;this.src=\'{u("cards/" + p["slug"] + ".png")}\'">'
+            f'<span class="pop-title">{html.escape(p["title"])}</span></a></li>')
+    days = int(data.get("days") or 30)
+    return (f'<section class="popular"><h2 class="picks-head">よく読まれている記事'
+            f'<span class="picks-sub">過去{days}日</span></h2><ol class="pop-list">{"".join(items)}</ol></section>')
 
 
 def page_path(n: int) -> str:
@@ -1290,27 +1380,49 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     elif page <= 1:
         # 1ページ目だけ、案内板と大きい先頭記事を出す。
         lead, rest = posts[0], posts[1:]
-        rows = "".join(board_row(site, p, i + 1)
-                       for i, p in enumerate(board_posts(site, all_posts or posts)))
-        body = f"""
-<section class="board">
+        everything = all_posts or posts
+        dep = "".join(board_row(site, p, i + 1)
+                      for i, p in enumerate(board_posts(site, everything)))
+        arr_posts = arrival_posts(everything)
+        arr = "".join(board_row(site, p, i + 1, arrival=True) for i, p in enumerate(arr_posts))
+        plane = """<path d="M21 11 L14.5 11.8 L10 17 L7.5 17 L9.8 11.9
+        L4.5 12 L3 14 L1.5 14 L2.6 11 L1.5 8 L3 8 L4.5 10 L9.8 10.1 L7.5 5 L10 5 L14.5 10.2 Z"/>"""
+        head_row = """<div class="board-head">
+    <span>FLIGHT</span><span>FROM</span><span>CAT</span><span>KEY</span><span>ENTRY</span><span>STATUS</span><span></span>
+  </div>"""
+        # 見出しの飛行機は ISO 7001 の出発(機首を上げる)と到着(機首を下げる)のピクトグラム
+        arr_board = f"""
+<section class="board board-arr">
   <h2 class="board-title">
     <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <g transform="rotate(22 12 11)"><path d="M21 11 L14.5 11.8 L10 17 L7.5 17 L9.8 11.9
-        L4.5 12 L3 14 L1.5 14 L2.6 11 L1.5 8 L3 8 L4.5 10 L9.8 10.1 L7.5 5 L10 5 L14.5 10.2 Z"/></g>
+      <g transform="rotate(22 12 11)">{plane}</g>
       <rect x="2.5" y="20" width="19" height="1.5" rx=".75"/>
     </svg>
     <span class="board-title-en">ARRIVALS</span>
-    <span class="board-title-ja">到着案内 — 海外発ガジェットの入荷状況</span>
+    <span class="board-title-ja">到着案内 — 日本に上陸した海外ガジェット</span>
+    <a class="board-more" href="{u('jpn.html')}">一覧 →</a>
   </h2>
-  <div class="board-head">
-    <span>FLIGHT</span><span>FROM</span><span>CAT</span><span>KEY</span><span>ENTRY</span><span>STATUS</span><span></span>
-  </div>
-  {rows}
-</section>
+  {f'<p class="board-lede">先に海外の話として紹介した製品のうち <b>{LANDED_AFTER[0]}件</b>が、あとから日本で買えるようになりました。</p>' if LANDED_AFTER[0] else ''}
+  {head_row}
+  {arr}
+</section>""" if arr_posts else ""
+        body = f"""
+<section class="board board-dep">
+  <h2 class="board-title">
+    <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <g transform="rotate(-22 12 11)">{plane}</g>
+      <rect x="2.5" y="20" width="19" height="1.5" rx=".75"/>
+    </svg>
+    <span class="board-title-en">DEPARTURES</span>
+    <span class="board-title-ja">出発案内 — 締め切りが近い海外クラファンと新着</span>
+  </h2>
+  {head_row}
+  {dep}
+</section>{arr_board}
 <section class="lead">
   {card(site, lead, featured=True)}
 </section>
+{popular_section(everything)}
 <section class="grid">
   {''.join(card(site, p) for p in rest)}{next_page_tile(page, total_pages)}
 </section>
@@ -1330,7 +1442,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
         + f"""
 <main class="wrap">
   <section class="hero{'' if page <= 1 else ' hero-sm'}">
-    <p class="eyebrow">{'DEPARTURES / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
+    <p class="eyebrow">{'INTERNATIONAL / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
     <h1 class="hero-title">{jp(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
     <p class="hero-sub">{html.escape(s['description']) if page <= 1 else ''}</p>
     {hero_route_img() if page <= 1 else ''}
@@ -3008,6 +3120,31 @@ img{max-width:100%}
 .b-arrow{color:var(--ink-3);text-align:right;transition:transform .2s,color .2s}
 .board-row:hover .b-arrow{color:var(--cat);transform:translateX(3px)}
 .board-row:hover .b-title{color:var(--ink)}
+/* 2枚の板(出発・到着)は続けて1枚のパネルに見せる。間に明るい帯を挟むと別物に見える */
+.board-dep:has(+ .board-arr){margin-bottom:0}
+.board-arr{padding-top:6px}
+.board-arr .board-title{border-top:1px solid var(--rule-2)}
+.board-more{margin-left:auto;flex:none;font-family:var(--sans);font-size:11.5px;font-weight:500;
+  letter-spacing:0;color:var(--ink-2);text-decoration:none}
+.board-more:hover{color:var(--ink)}
+.board-lede{margin:10px 0 10px;font-family:var(--sans);font-size:12.5px;color:var(--ink-2)}
+.board-lede b{color:#5ad19a;font-weight:600}
+/* 製品名の下の「何の製品か」。広い画面は題名の列(ENTRY)があるので出さない */
+.b-key b{font-weight:600;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.b-what{display:none;font-weight:400;font-size:11px;color:var(--ink-2);line-height:1.45;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.b-thumb{display:none}
+/* よく読まれている記事 */
+.popular{margin:8px 0 44px}
+.pop-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:0 28px;border-top:1px solid var(--rule)}
+.pop-item a{display:grid;grid-template-columns:28px 96px minmax(0,1fr);gap:12px;align-items:center;
+  padding:12px 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none}
+.pop-n{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--cat)}
+.pop-img{width:96px;height:54px;object-fit:cover;border-radius:3px;background:var(--surface)}
+.pop-title{font-size:13.5px;line-height:1.5;font-weight:600;display:-webkit-box;-webkit-line-clamp:3;
+  -webkit-box-orient:vertical;overflow:hidden}
+.pop-item a:hover .pop-title{color:var(--accent)}
 
 /* ── ページ送り ─────────────────────────────── */
 .pager{display:flex;align-items:center;justify-content:space-between;gap:16px;
@@ -3280,16 +3417,29 @@ img{max-width:100%}
 @media (max-width:1100px){
   .board-head,.board-row{grid-template-columns:64px 74px 44px minmax(0,1fr) 182px 20px}
   .b-title,.board-head span:nth-child(5){display:none}
+  .b-what{display:block}
 }
 @media (max-width:900px){
   .nav-label{display:none}
   .board-head,.board-row{grid-template-columns:74px 44px minmax(0,1fr) 182px 20px}
   .b-flt,.board-head span:nth-child(1){display:none}
 }
+/* スマホ: 写真・製品名と一言・状態の3列にする(2026-11-05 本人了承)。
+   それまでは記号の列だけで写真が1枚も無く、名前も「残りN日」も切れていた */
 @media (max-width:620px){
-  .board-head,.board-row{grid-template-columns:46px 40px minmax(0,1fr) 104px 16px;gap:10px}
-  .b-from span,.st em{display:none}
-  .st{letter-spacing:.04em;font-size:10.5px;gap:5px}
+  .board-head{display:none}
+  .board-row{grid-template-columns:52px minmax(0,1fr) 92px;gap:11px;padding:9px 0}
+  .b-flt,.b-from,.b-code,.b-arrow{display:none}
+  .b-thumb{display:block;width:52px;height:52px;border-radius:4px;overflow:hidden;background:var(--raised)}
+  .b-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .b-key{white-space:normal}
+  .b-what{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .st{letter-spacing:.04em;font-size:10px;gap:5px;flex-wrap:wrap;white-space:normal}
+  .st em{margin-left:11px;padding-left:0;width:100%;font-size:11px}
+  .board-lede{font-size:12px}
+  .pop-list{grid-template-columns:1fr}
+  .pop-item a{grid-template-columns:24px 84px minmax(0,1fr);gap:10px}
+  .pop-img{width:84px;height:48px}
 }
 @media (max-width:820px){
   .card-featured{grid-template-columns:1fr;gap:14px}
@@ -3297,7 +3447,7 @@ img{max-width:100%}
 }
 @media (max-width:640px){
   .wrap{padding:0 18px}
-  .hero{padding:52px 0 34px}
+  .hero{padding:30px 0 22px}
   .board{margin-bottom:48px}
   .article-wrap{padding-top:38px}
   .grid{grid-template-columns:1fr}

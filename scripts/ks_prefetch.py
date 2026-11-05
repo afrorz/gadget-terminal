@@ -206,13 +206,14 @@ def git_publish() -> None:
     if em.strip() != EMAIL:
         log(f"中止: リポジトリのgit user.email が想定と違う({em.strip()!r})。commit/push しない")
         return
-    git("add", "-A", "data/kscache")
-    rc, _ = git("diff", "--cached", "--quiet", "--", "data/kscache")
+    paths = ["data/kscache"] + (["data/popular.json"] if (ROOT / "data" / "popular.json").exists() else [])
+    git("add", "-A", *paths)
+    rc, _ = git("diff", "--cached", "--quiet", "--", *paths)
     if rc == 0:
         log("キャッシュに変更なし。commit しない")
         return
     msg = f"Kickstarter先読み {K.now_jst().strftime('%Y-%m-%d')}"
-    rc, out = git("commit", "-m", msg, "--", "data/kscache")
+    rc, out = git("commit", "-m", msg, "--", *paths)
     log(f"git commit: rc={rc} {out.splitlines()[0] if out else ''}")
     if rc != 0:
         return
@@ -319,6 +320,14 @@ def main() -> int:
         log(f"結果: 全文OK={stats['full_ok']} NG={stats['full_ng']} 取得済みskip={stats['skipped_fresh']} "
             f"数値のみ更新={stats['numbers']} 削除={stats['deleted']} / キャッシュ合計 "
             f"{len(list(K.CACHE_DIR.glob('*.json')))}件 {size // 1024}KB")
+
+        # TOP の「よく読まれている記事」の元データ(2026-11-05〜)。失敗しても先読みは続ける
+        try:
+            import popular
+            popular.main()
+            log("popular.json を更新")
+        except Exception as e:  # noqa: BLE001
+            log(f"popular.json の更新に失敗: {e}")
 
         if not a.no_git:
             git_publish()

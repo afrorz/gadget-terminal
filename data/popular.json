@@ -1,0 +1,107 @@
+{
+ "updated": "2026-11-05",
+ "days": 30,
+ "source": "Cloudflare Web Analytics",
+ "paths": [
+  {
+   "path": "/posts/figurobot-fr-nia.html",
+   "visits": 150,
+   "views": 150
+  },
+  {
+   "path": "/posts/redmagic-12-pro-global.html",
+   "visits": 40,
+   "views": 40
+  },
+  {
+   "path": "/posts/asus-nuc-14-essential-fanless.html",
+   "visits": 30,
+   "views": 30
+  },
+  {
+   "path": "/posts/atari-the-800xl-reissue.html",
+   "visits": 30,
+   "views": 30
+  },
+  {
+   "path": "/posts/awol-luxvision-optical-shift-ust.html",
+   "visits": 30,
+   "views": 30
+  },
+  {
+   "path": "/posts/home-small-robots-roundup.html",
+   "visits": 30,
+   "views": 30
+  },
+  {
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/glinet-mango-2.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/rayneo-io-gt-series.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/xbox-nano-controller.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/cmf-speaker-s-m.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/pebble-round-2-starts-shipping.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/sony-xperia-10-viii.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/minisforum-m2-pro-358h.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/anbernic-rg-dds-3ds-style.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/bambu-lab-h3c-nine-tool-changer.html",
+   "visits": 10,
+   "views": 20
+  },
+  {
+   "path": "/posts/tryx-vestra-vision-oled-magnetic-keyboard.html",
+   "visits": 10,
+   "views": 20
+  },
+  {
+   "path": "/posts/romu-usb-rp2354a-board.html",
+   "visits": 10,
+   "views": 10
+  },
+  {
+   "path": "/posts/xgimi-horizon-30-series.html",
+   "visits": 10,
+   "views": 10
+  }
+ ]
+}
