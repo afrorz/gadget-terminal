@@ -840,7 +840,8 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <link rel="alternate" type="application/rss+xml" title="{html.escape(s['title'])}" href="{u('feed.xml')}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="{u('assets/style.css')}">
 {adsense(s)}
 {analytics(s)}
@@ -1002,10 +1003,13 @@ def card(site: dict, p: dict, featured: bool = False) -> str:
     cls = ("card card-featured" if featured else "card") + f" cat-{key}"
     blurb = p.get("kicker") or p["excerpt"]
     img, is_ext = card_image(p)
+    img = sized(img, 1100 if featured else 720)
+    # 先頭の大きな記事の写真はスマホで最初に見える一番大きい要素なので、後回しにせず先に読む
+    load = 'fetchpriority="high"' if featured else 'loading="lazy"'
     return f"""
 <article class="{cls}">
   <a class="card-thumb{' card-thumb-real' if is_ext else ''}" href="{u(p['path'])}" aria-hidden="true" tabindex="-1">
-    <img src="{img}" alt="" loading="lazy" width="1200" height="675"
+    <img src="{html.escape(img)}" alt="" {load} width="1200" height="675"
          decoding="async" referrerpolicy="no-referrer"
          onerror="this.onerror=null;this.src='{u("cards/" + p['slug'] + ".png")}'">
   </a>
@@ -1178,7 +1182,7 @@ def board_row(site: dict, p: dict, i: int, arrival: bool = False) -> str:
         what = board_what(p)
     code, city = post_origin(site, p)
     alt = " board-row-alt" if i % 2 == 0 else ""
-    img, _ = card_image(p)
+    img = sized(card_image(p)[0], 160)
     return f"""<a class="board-row cat-{key}{alt}" href="{u(p['path'])}">
   <span class="b-thumb" aria-hidden="true"><img data-thumb="{html.escape(img)}" alt="" decoding="async"
     referrerpolicy="no-referrer" width="96" height="96"
@@ -1215,7 +1219,7 @@ def popular_section(posts: list[dict], limit: int = 5) -> str:
         return ""
     items = []
     for n, p in enumerate(picked, 1):
-        img, _ = card_image(p)
+        img = html.escape(sized(card_image(p)[0], 240))
         items.append(
             f'<li class="pop-item cat-{p.get("category", "misc")}"><a href="{u(p["path"])}">'
             f'<span class="pop-n">{n:02d}</span>'
@@ -1278,6 +1282,7 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
     rows = []
     for p in picked:
         img, is_ext = card_image(p)
+        img = html.escape(sized(img, 480))
         note = p.get("pick_note") or p.get("kicker") or p["excerpt"]
         own = bool(p.get("pick_note"))
         rows.append(f"""
@@ -1358,6 +1363,7 @@ function thumbs(panel){if(!small.matches||!panel)return;
 thumbs(document.getElementById("bp-dep"));
 small.addEventListener&&small.addEventListener("change",function(){
   document.querySelectorAll(".board-panel:not([hidden])").forEach(thumbs);});
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 /* 出発・到着のタブ。左右の矢印キーでも動く */
 var tabs=[].slice.call(document.querySelectorAll(".board-tab"));
 function pick(t){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on?"true":"false");
@@ -1426,7 +1432,8 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
                      f'{lede}{head_row}{arr}</div>' if arr_posts else "")
         body = f"""
 <section class="board">
-  <h2 class="board-title" role="tablist" aria-label="案内板">
+  <h2 class="visually-hidden">発着案内</h2>
+  <div class="board-title" role="tablist" aria-label="案内板">
     <button class="board-tab" role="tab" id="bt-dep" aria-controls="bp-dep" aria-selected="true" type="button">
       <svg class="pict-arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <g transform="rotate(-22 12 11)">{plane}</g>
@@ -1434,7 +1441,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
       </svg>
       <span class="board-title-en">DEPARTURES</span><span class="board-tab-ja">締め切り間近</span>
     </button>{arr_tab}
-  </h2>
+  </div>
   <div class="board-panel" role="tabpanel" id="bp-dep" aria-labelledby="bt-dep">
   {head_row}
   {dep}
@@ -1823,6 +1830,26 @@ def render_category(site: dict, key: str, cat: dict, posts: list[dict]) -> str:
 </main>"""
         + footer(site)
     )
+
+
+def sized(url: str, w: int) -> str:
+    """一覧の小さな枠に出す写真を、メーカーの配信元に縮めて出してもらう(2026-11-05)。
+    公式ページの元画像は1枚で数百KB〜1MBあり、TOP の重さの大半だった。
+    URL で幅を指定できると分かっている配信元(Shopify・Sanity)だけ書き換える。
+    Kickstarter などは URL に署名があり、書き換えると表示できなくなるので触らない。"""
+    if not url.startswith("http"):
+        return url
+    pu = urlparse(url)
+    host = pu.netloc.lower()
+    if "/cdn/shop/" in pu.path or host == "cdn.shopify.com":
+        key = "width"
+    elif host == "cdn.sanity.io":
+        key = "w"
+    else:
+        return url
+    q = [kv for kv in pu.query.split("&") if kv and not re.match(rf"(?:{key}|height|h|crop)=", kv)]
+    q.append(f"{key}={w}")
+    return pu._replace(query="&".join(q)).geturl()
 
 
 def card_image(p: dict) -> tuple[str, bool]:
