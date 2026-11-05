@@ -19,7 +19,6 @@ giteki:
   radio: "Wi-Fi / Bluetooth"
 x_hook: 壁から約20cmで100インチ超の映像を出すプロジェクターが、4Kで120Hz出力に対応した。ゲーム機をつなぐ前提の仕様だという。
 deadline: 2026-12-04
-modified: 2026-10-23
 embeds: []
 images:
 - url: "https://mmx.prnewswire.com/media/MS1980224/20260902025652EDT_image_1.jpg?id=OA2925258&p=twitter"
@@ -67,6 +66,14 @@ sources:
 - title: 'XGIMI AURA 3 Series: The Ultimate 4K RGB Laser TV'
   url: https://www.kickstarter.com/projects/xgimititannoir/xgimi-aura-3-series-the-ultimate-laser-tv-for-every-moment
   publisher: Kickstarter(XGIMIのキャンペーンページ)
+modified: 2026-11-06
+videos_after:
+  - id: uJzDGE_sB5E
+    title: "XGIMI Aura 3 MAX Review! The Mini TITAN"
+    channel: "Shane Lee"
+    published: 2026-10-23
+    added: 2026-11-06
+    note: "AURA 3 Max の実機レビュー動画（英語）"
 ---
 
 XGIMIがIFA 2026(会期9月4〜8日、ベルリン)で、超短焦点(UST)レーザーTV「AURA 3」シリーズを発表した。上位機「AURA 3 Max」と標準機「AURA 3 Pro」の2機種構成で、XGIMIは「世界初の4K・120Hz出力対応UST機」とうたう。正式発売はKickstarterを通じて2026年10月20日から、価格はAURA 3 Proが2,199ドルから、AURA 3 Maxが2,399ドルからとされる。現在は公式サイトで50ドルの返金可能なデポジットを受け付けており、支払うと追加で200ドル引きの権利などが得られるという。

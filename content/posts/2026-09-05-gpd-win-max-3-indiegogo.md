@@ -72,6 +72,14 @@ sources:
 - title: The GPD Win Max 3 handheld has monster specs and an eye-watering price to match
   url: https://www.pockettactics.com/gpd-win-max-3-price-reveal
   publisher: Pocket Tactics
+modified: 2026-11-06
+videos_after:
+  - id: otHXE14zSNk
+    title: "GPD Win Max 3 + SteamOS: Ryzen AI Max 388 Gaming Test!"
+    channel: "ETA PRIME"
+    published: 2026-09-28
+    added: 2026-11-06
+    note: "SteamOS を入れたゲーム動作の検証動画（英語）"
 ---
 
 ハンドヘルドゲーミングPCで知られる深圳のGPDが、新モデル「GPD Win Max 3」をIndiegogoで9月2日に発売した。目玉はAMDのノートPC向け最上位APU「Ryzen AI Max+」シリーズの採用で、価格はエントリー構成の1,750ドルから、Ryzen AI Max+ 395と128GB RAMを積む最上位構成の3,499ドルまで、3段階で用意される。GPDはこの価格について「我々が提供できる最善の価格」だとし、Strix Halo世代のAPUとLPDDR5xメモリ、大容量バッテリーのコストが上昇していることを理由に挙げている。
