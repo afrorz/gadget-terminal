@@ -58,6 +58,7 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
+- https://9to5toys.com/2026/11/05/sony-revives-80s-style-new-wired-mdr-3r-usb-retro-headphones/ Sony「MDR-3R」。1979年の初代ウォークマン付属ヘッドホン MDR-3 の復刻で、USB-C の有線・59.99ドル(Stranger Things 版は約80ドル)。元の報道は Bloomberg(https://www.bloomberg.com/news/articles/2026-11-05/sony-debuts-retro-60-wired-headphones-in-tribute-to-1979-walkman 、有料)。ほかに https://thenextweb.com/news/sony-mdr-3r-wired-headphones-walkman-usb-c と https://www.stuff.tv/hot-stuff/audio/these-ultra-light-retro-inspired-wired-headphones-are-sonys-love-letter-to-the-original-walkman/ 。日本でも 11/6 9時に発表の見込みとの記事あり(https://hashout.jp/?p=13500)。ソニー公式(sony.jp・electronics.sony.com)の製品ページで日本の発売・価格・型番を確かめ、海外版との違いと、3.5mm ではなく USB-C なので初代ウォークマンやイヤホン端子の機器ではそのまま使えない点を厚めに
 
 
 ## 処理済み
