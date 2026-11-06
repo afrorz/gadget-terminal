@@ -27,6 +27,19 @@ images:
 - url: "https://press.razer.com/wp-content/uploads/2026/11/Main-KV-scaled.png"
   caption: 片側の外側が緑に光るRazerのロゴ。ケーブルは蛍光グリーンで、インラインリモコンにボタンが1つある
 credit: Razer 公式ニュースルーム
+clips:
+- file: razer-hammerhead-v3-chroma/anc.mp4
+  caption: "ノイズを打ち消すANC（給電は端末から）"
+  credit: "Razer 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=Oy2MlJ6cZJc"
+- file: razer-hammerhead-v3-chroma/rgb.mp4
+  caption: "両耳が1,680万色で光る（Razer Chroma RGB）"
+  credit: "Razer 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=Oy2MlJ6cZJc"
+- file: razer-hammerhead-v3-chroma/conn.mp4
+  caption: "90度に曲がったUSB-Cプラグ（端末の側面に沿う）"
+  credit: "Razer 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=Oy2MlJ6cZJc"
 sources:
 - title: Immersive Sound. Bold Style. – Razer Unveils the Hammerhead V3 Chroma（公式）
   url: https://www.razer.com/newsroom/product-news/hammerhead-v3-chroma
