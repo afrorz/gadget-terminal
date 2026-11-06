@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
@@ -11,6 +11,16 @@
   {
    "path": "/posts/redmagic-12-pro-global.html",
    "visits": 40,
+   "views": 40
+  },
+  {
+   "path": "/posts/home-small-robots-roundup.html",
+   "visits": 40,
+   "views": 40
+  },
+  {
+   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
+   "visits": 30,
    "views": 40
   },
   {
@@ -29,22 +39,17 @@
    "views": 30
   },
   {
-   "path": "/posts/home-small-robots-roundup.html",
-   "visits": 30,
-   "views": 30
-  },
-  {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/glinet-mango-2.html",
+   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
    "visits": 20,
    "views": 20
   },
   {
    "path": "/posts/rayneo-io-gt-series.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/glinet-mango-2.html",
    "visits": 20,
    "views": 20
   },
@@ -69,17 +74,17 @@
    "views": 20
   },
   {
-   "path": "/posts/minisforum-m2-pro-358h.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/anbernic-rg-dds-3ds-style.html",
    "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
+   "path": "/posts/minisforum-m2-pro-358h.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
    "visits": 20,
    "views": 20
   },
@@ -89,19 +94,14 @@
    "views": 20
   },
   {
-   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 10,
-   "views": 20
-  },
-  {
    "path": "/posts/tryx-vestra-vision-oled-magnetic-keyboard.html",
    "visits": 10,
    "views": 20
   },
   {
-   "path": "/posts/romu-usb-rp2354a-board.html",
+   "path": "/posts/abxylute-p5-ps5-controller.html",
    "visits": 10,
-   "views": 10
+   "views": 20
   }
  ]
 }
