@@ -3692,10 +3692,10 @@ img{max-width:100%}
 .feature-hint-label{display:inline-block;margin-right:8px;padding:1px 8px;border-radius:999px;background:var(--accent);color:#fff;font-family:var(--mono);font-size:11px;letter-spacing:.12em}
 .alt-item{margin:0 0 20px;display:flex;gap:16px;align-items:flex-start}
 /* 写真は 11/7 に 64px→108px(本人「小さい」)。商品写真は白地が多いので白で受ける */
-.alt-thumb{flex:none;display:block;width:108px;height:108px;border-radius:4px;overflow:hidden;
+.alt-thumb{flex:none;display:block;width:140px;height:140px;border-radius:4px;overflow:hidden;
   background:#fff;border:1px solid var(--rule)}
 .alt-thumb img{width:100%;height:100%;object-fit:contain;display:block;padding:4px;box-sizing:border-box}
-@media (max-width:620px){.alt-thumb{width:92px;height:92px}}
+@media (max-width:620px){.alt-thumb{width:112px;height:112px}}
 /* 押す先のボタン(11/7 本人決定: 目立ちすぎない細い枠、サイトの等幅の字) */
 .alt-cta{display:inline-flex;align-items:center;gap:6px;margin:10px 0 0;padding:7px 12px;border:1px solid var(--rule-2);
   border-radius:4px;font:500 12.5px/1 var(--mono);letter-spacing:.02em;color:var(--ink);text-decoration:none;
