@@ -31,6 +31,19 @@ images:
 - url: "https://sony.scene7.com/is/image/sonyglobalsolutions/y_MDR-3R_003?$jpLargeStaticMainImage$"
   caption: 本棚の脇に掛けた状態。細いヘッドバンドとオレンジのイヤーパッドで、コードは細い
 credit: ソニー 公式製品ページ（sony.jp）
+clips:
+- file: sony-mdr-3r-usb-c-walkman-headphones/walkman1979.mp4
+  caption: "初代ウォークマン付属品の復刻"
+  credit: "Sony (Japan) 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=csxjLD0JTxA"
+- file: sony-mdr-3r-usb-c-walkman-headphones/light.mp4
+  caption: "質量は約38g（ドライバーは当時と同じ23mm）"
+  credit: "Sony (Japan) 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=csxjLD0JTxA"
+- file: sony-mdr-3r-usb-c-walkman-headphones/usbc.mp4
+  caption: "プラグはUSB-C（スマホやPCに直接挿す）"
+  credit: "Sony (Japan) 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=csxjLD0JTxA"
 sources:
 - title: USB Type-C ステレオヘッドホン MDR-3R（公式・日本）
   url: https://www.sony.jp/headphone/products/MDR-3R/
