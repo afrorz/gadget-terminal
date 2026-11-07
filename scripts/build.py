@@ -417,6 +417,15 @@ def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
     return tmpl.replace("{url}", quote(url, safe="")), True
 
 
+def alt_store(url: str, merchant: str) -> str:
+    """おすすめ欄のボタンに出す店の名前。国内の大手は JAPAN_STORES、A8 のメーカー直販は「公式ストア」。"""
+    name = japan_store(url)
+    if name != "販売ページ":
+        return name
+    # 残りはメーカーの公式サイト・公式ストア(Apple・Google・Keychron など)
+    return "公式ストア" if merchant.startswith("a8_") else "公式サイト"
+
+
 def _alt_items_section(s: dict, items: list, heading: str, cls: str) -> tuple[str, bool]:
     """alternatives と gear が共有する、サムネ付きの商品リスト。"""
     items = [x for x in items if x.get("name") and x.get("url")]
@@ -434,10 +443,14 @@ def _alt_items_section(s: dict, items: list, heading: str, cls: str) -> tuple[st
         img = (f'<a href="{html.escape(link)}" class="alt-thumb" rel="nofollow sponsored noopener" '
                f'target="_blank"><img src="{html.escape(str(x["image"]))}" alt="{html.escape(str(x["name"]))}" loading="lazy"></a>'
                if x.get("image") else "")
+        # 押す先のボタン。店の名前は URL から決める(書き手に書かせると揺れる)
+        cta = (f'<a class="alt-cta" href="{html.escape(link)}" rel="nofollow sponsored noopener" '
+               f'target="_blank">{html.escape(alt_store(str(x["url"]), str(x.get("merchant") or "")))}で見る '
+               f'<span aria-hidden="true">↗</span></a>')
         rows.append(
             f'<li class="alt-item">{img}<div class="alt-text">'
             f'<a href="{html.escape(link)}" rel="nofollow sponsored noopener" '
-            f'target="_blank">{html.escape(str(x["name"]))}</a>{why}</div></li>')
+            f'target="_blank">{html.escape(str(x["name"]))}</a>{why}{cta}</div></li>')
     label = ('<span class="alt-ad">広告</span>' if has_aff else "")
     return (f'<section class="{cls}"><h2>{heading}{label}</h2>'
             f'<ul>{"".join(rows)}</ul></section>', has_aff)
@@ -3677,10 +3690,18 @@ img{max-width:100%}
 .feature-hint{max-width:var(--measure);margin:28px 0 0;padding:14px 16px;border:1px solid var(--rule-2);border-radius:10px;background:var(--surface);color:var(--ink-2);font-size:14px;line-height:1.75}
 .feature-hint a{color:var(--ink);font-weight:700}
 .feature-hint-label{display:inline-block;margin-right:8px;padding:1px 8px;border-radius:999px;background:var(--accent);color:#fff;font-family:var(--mono);font-size:11px;letter-spacing:.12em}
-.alt-item{margin:0 0 16px;display:flex;gap:14px;align-items:flex-start}
-.alt-thumb{flex:none;display:block;width:64px;height:64px;border-radius:4px;overflow:hidden;
-  background:var(--surface);border:1px solid var(--rule)}
-.alt-thumb img{width:100%;height:100%;object-fit:contain;display:block}
+.alt-item{margin:0 0 20px;display:flex;gap:16px;align-items:flex-start}
+/* 写真は 11/7 に 64px→108px(本人「小さい」)。商品写真は白地が多いので白で受ける */
+.alt-thumb{flex:none;display:block;width:108px;height:108px;border-radius:4px;overflow:hidden;
+  background:#fff;border:1px solid var(--rule)}
+.alt-thumb img{width:100%;height:100%;object-fit:contain;display:block;padding:4px;box-sizing:border-box}
+@media (max-width:620px){.alt-thumb{width:92px;height:92px}}
+/* 押す先のボタン(11/7 本人決定: 目立ちすぎない細い枠、サイトの等幅の字) */
+.alt-cta{display:inline-flex;align-items:center;gap:6px;margin:10px 0 0;padding:7px 12px;border:1px solid var(--rule-2);
+  border-radius:4px;font:500 12.5px/1 var(--mono);letter-spacing:.02em;color:var(--ink);text-decoration:none;
+  transition:border-color .15s,color .15s}
+.alt-cta:hover{border-color:var(--accent);color:var(--accent)}
+.alt-cta span{color:var(--accent)}
 .alt-text{min-width:0}
 .alt-item>a{font-size:15px;line-height:1.6}
 .alt-why{margin:4px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
