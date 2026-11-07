@@ -41,6 +41,14 @@ sources:
   - title: "LITEJAM UNVEILS NEO ACOUSTIC A1: THE WORLD'S FIRST RGB CARBON-FIBRE ACOUSTIC GUITAR BUILT TO MASTER FINGERPICKING"
     url: https://www.businesslondonpress.com/music/litejam-unveils-neo-acoustic-a1-the-worlds-first-rgb-carbon-fibre-acoustic-guitar-built-to-master-fingerpicking/
     publisher: Business London Press
+modified: 2026-11-08
+videos_after:
+  - id: 8gFFS0q2AFM
+    title: "LITEJAM NEO ACOUSTIC A1 - Full Demo - Everything It Can Do In August 2026"
+    channel: "Litejam"
+    published: 2026-08-10
+    added: 2026-11-08
+    note: "LiteJam Neo Acoustic A1 の機能を見せるデモ動画（英語）"
 ---
 
 米LiteJamが、フレットボード全体をLEDで光らせて運指を教える機能を持つアコースティックギター「Neo Acoustic A1」をKickstarterで発表した。ボディ・ネック・指板を一体成型したフルカーボンファイバー製で、重量は約1.8kg。VIP早期価格は299ドル（通常予定価格499ドルから200ドル引き）で、0.99ドルの予約金で確保できる。目標金額は1万ドルとかなり低く設定されており、音楽業界メディアMusically Allyによれば7月29日時点ですでに12万8000ドルを超え、目標の12倍以上に達していた。

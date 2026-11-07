@@ -34,6 +34,14 @@ embeds:
   - type: youtube
     id: x35Qs89WP_g
     caption: Openterface KeyModのベータ版を試すハンズオン動画（Valleytech Custom Solutions）
+modified: 2026-11-08
+videos_after:
+  - id: MydkuIGCO3o
+    title: "Openterface KeyMod: Full Keyboard and Mouse in Your Pocket"
+    channel: "Sam's eXperiments logs"
+    published: 2026-08-19
+    added: 2026-11-08
+    note: "Openterface KeyMod を紹介する動画（英語）"
 ---
 
 Openterface Mini-KVMとKVM-GOを手がけてきたTechxArtisanが、スマートフォンをUSB・Bluetooth経由のキーボード／マウス／SSHクライアントに変えるポケットサイズの道具「Openterface KeyMod」をCrowd Supplyで公開した。PC・サーバー・キオスク端末・Raspberry PiなどのUSBホストに挿すだけで、手元にキーボードが無い状況でもスマホから直接文字入力や操作ができる。価格は42ドルから、目標額15,000ドルに対して掲載時点で8,820ドル・133人の支援を集めている（59%達成）。締切は2026年10月2日。

@@ -63,6 +63,20 @@ sources:
 - title: HOVERAir VERSA Clears FCC For US Sale While DJI Stays Blocked
   url: https://dronexl.co/2026/08/18/hoverair-versa-fcc-clearance-indiegogo-launch/
   publisher: DroneXL
+modified: 2026-11-08
+videos_after:
+  - id: VVRhx2Tr4mM
+    title: "HoverAir VERSA: A Pocket Camera That Can FLY?!"
+    channel: "Tech Court"
+    published: 2026-07-30
+    added: 2026-11-08
+    note: "HOVERAir VERSA の実機を扱う動画（英語）"
+  - id: helWpWdltgs
+    title: "Voller Körpereinsatz: Der HoverAir Versa Footage-Test - Vom Boden in die Luft alle Vor & Nachteile"
+    channel: "Reveal Rabbit"
+    published: 2026-10-25
+    added: 2026-11-08
+    note: "HOVERAir VERSA の映像を試した動画（ドイツ語）"
 ---
 
 香港拠点のHOVERAir（Zero Zero Robotics系列）が、手持ちのジンバルカメラとしても、翼を付ければ自律飛行ドローンとしても使える「VERSA」をIndiegogoで発表した。8月18日の開始から24時間足らずで23万ドルを超える支援を集めたと複数の海外メディアが報じている。早期支援価格はカメラ単体449ドルから、飛行キット付きのFly More Comboが629ドル、アクセサリー込みのCreator Comboが799ドル（2026年8月19日時点）。

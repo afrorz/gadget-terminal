@@ -51,6 +51,20 @@ sources:
 - title: 'Keychron V6 Ultra Hybrid 8K: Magnetic & Mechanical Keyboard'
   url: https://www.kickstarter.com/projects/keytron/keychron-v6-ultra-hybrid-8k-magnetic-and-mechanical-keyboard
   publisher: Kickstarter
+modified: 2026-11-08
+videos_after:
+  - id: UWjzlg-wiJA
+    title: "Keychron V6 Ultra hybrid 8K Review - Worth The Hype?"
+    channel: "Tech Check"
+    published: 2026-08-31
+    added: 2026-11-08
+    note: "Keychron V6 Ultra Hybrid 8K のレビュー動画（英語）"
+  - id: GEBY58vzMEs
+    title: "The First Full Size Magnetic And Mechanical Keyboard (Keychron V6 Ultra Hybrid)"
+    channel: "AngelPGC"
+    published: 2026-08-19
+    added: 2026-11-08
+    note: "V6 Ultra Hybrid を紹介する動画（英語）"
 ---
 
 自作キーボードで知られるKeychronが、フルサイズ（100%レイアウト）キーボード「V6 Ultra Hybrid」をKickstarterで正式ローンチした。最大の特徴は、TMR（Tunnel Magnetoresistance＝トンネル磁気抵抗）方式のセンシング技術を使ったハイブリッド基板で、同じソケットに一般的な3ピン／5ピンのメカニカルスイッチを挿しても、ゲーミング向けの磁気（ホール効果）スイッチを挿しても、キーボード側が自動で判別してモードを切り替える。早割価格は磁気スイッチ（Ultra-Fast Lime／Banana）モデルで149ドルから。Kickstarterの目標額は3万ドルで、開始からわずか1日で16万6000ドル以上・支援者926人を集めている（本記事掲載時点の値）。
