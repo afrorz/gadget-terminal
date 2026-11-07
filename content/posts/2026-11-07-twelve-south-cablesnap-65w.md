@@ -10,6 +10,7 @@ x_hook: |
 keyword: Cablesnap 65W
 category: pc
 date: 2026-11-07
+modified: 2026-11-07
 kicker: Apple周辺機器で知られるTwelve Southが、29インチ（約75cm）のUSB-Cケーブルを本体に巻き取れる65W充電器「Cablesnap 65W」を発表した。英国用・欧州用のプラグアダプターが付き、価格は49.99ドル。
 tags:
 - Twelve South
@@ -24,10 +25,14 @@ giteki:
   radio: ""
   note: 充電器で無線機能は無い
 images:
+- url: "https://www.twelvesouth.com/cdn/shop/files/cablesnap-pdp-highlight-card-2_ac2879ec-cec4-4ee3-a4c7-aa488167979c.jpg?width=1200"
+  caption: 内蔵のUSB-Cケーブルを引き出して、MacBookにつないだ様子。上のポートからはiPhoneとAirPodsも充電でき、手前には英国用・欧州用のプラグが並ぶ
+- url: "https://www.twelvesouth.com/cdn/shop/files/cablesnap-slate-media-gallery-3.jpg?v=1793746062&width=1024"
+  caption: 正面。左の溝にケーブルの端が収まり、右にUSB-CとUSB-Aのポートが並ぶ
 - url: "https://www.twelvesouth.com/cdn/shop/files/cablesnap-slate-media-gallery-1.jpg?v=1793746062&width=1200"
   caption: 側面。「65w」の刻印があり、USB-Cケーブルの端が本体の左側に収まっている
 - url: "https://www.twelvesouth.com/cdn/shop/files/cablesnap-slate-media-gallery-2.jpg?v=1793746062&width=1024"
-  caption: ケーブルを引き出した状態。本体側面にUSB-CポートとUSB-Aポートが並び、折りたたみ式の2本足プラグが付く
+  caption: ケーブルの先を少し引き出した状態。本体側面にUSB-CポートとUSB-Aポートが並び、折りたたみ式の2本足プラグが付く
 credit: Twelve South 公式製品ページ
 sources:
 - title: Twelve South Cablesnap 65W Retractable Travel Charger（公式）
