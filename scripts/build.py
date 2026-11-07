@@ -3298,6 +3298,9 @@ img{max-width:100%}
    案内板と役割が被らないよう、狭い画面では出さない。 */
 .hero-route{position:absolute;top:6px;right:8px;width:300px;height:auto;
   opacity:.85;pointer-events:none}
+/* 開いたときに1回だけ、右上から滑り込んで着陸する(2026-11-07 本人、モックの2だけ採用) */
+@keyframes hero-land{0%{transform:translate(120px,-70px) rotate(-8deg);opacity:0}60%{opacity:.85}100%{transform:none;opacity:.85}}
+@media (prefers-reduced-motion:no-preference){.hero-route{animation:hero-land 1.6s cubic-bezier(.16,1,.3,1) both}}
 @media(max-width:1100px){.hero-route{display:none}}
 .eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--cat);margin:0 0 10px;font-weight:600}
