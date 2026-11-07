@@ -570,7 +570,7 @@ def alert_form(s: dict, p: dict) -> str:
     if not api or is_landed(p):
         return ""
     title = html.escape(p["title"])
-    return (f'<aside class="jp-alert" data-api="{html.escape(api)}">'
+    return (f'<aside class="jp-alert" id="jp-alert" data-api="{html.escape(api)}">'
             f'<p class="jp-head"><span class="jp-badge">日本上陸アラート</span></p>'
             f'<p class="jp-alert-text">「{title}」が日本で買えるようになったら、メールで1通だけお知らせします。'
             f'それまでメールは送りません。</p>'
@@ -595,6 +595,80 @@ fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json','Accept
 .then(function(r){return r.json()}).then(function(j){msg.textContent=j.message||j.error||(j.ok?'確認メールを送りました':'登録できませんでした');
 if(j.ok){f.querySelector('input[type=email]').value='';}btn.disabled=false;})
 .catch(function(){msg.textContent='送れませんでした。時間をおいてもう一度お試しください';btn.disabled=false;});});})();</script>"""
+
+
+JP_FACT_LI = re.compile(r"<li>\s*<strong>(.{1,40}?)[：:]\s*</strong>\s*(.*?)</li>", re.S)
+JP_NEXT_WORDS = re.compile(r"今すぐ|待つ|選択肢|代わり|おすすめ|向いている|買うなら")
+
+
+def style_japan_section(body_html: str, p: dict, has_alert: bool) -> str:
+    """「日本で買える？使える？」の節を、文字の壁にしない形に組み直す(2026-11-07 本人「読むのめんどくさい」)。
+
+    記事の文(Markdown)は変えず、出来上がった HTML の形だけを見て置き換える。記事づくりの指示文は継ぎ足さない。
+    - 冒頭の「**結論。** 説明」の段落 → 結論の枠。上に技適・日本上陸の状況を札で出す(front matter から)
+    - 「**見出し：** 本文」だけの箇条書き → 見出しを左に置いた表のような行
+    - 短い項目だけの箇条書き(まだ分からないこと) → 「？」の付いたチェック欄
+    - 最後の段落が次の行動の話なら → 「どうする？」の枠
+    形が合わない部分は触らない(そのままの段落で出る)。
+    """
+    m = re.search(r"<h2[^>]*>\s*日本で買える？使える？\s*</h2>", body_html)
+    if not m:
+        return body_html
+    nxt = re.search(r"<h2[\s>]", body_html[m.end():])
+    end = m.end() + nxt.start() if nxt else len(body_html)
+    seg = body_html[m.end():end]
+
+    # 札: 技適(全記事にある)と日本上陸(続報で分かった記事だけ)
+    chips = []
+    g = p.get("giteki") or {}
+    gs = str(g.get("status") or "").strip()
+    if gs:
+        tone = {"取得済み": "ok", "対象外": "na"}.get(gs, "warn")
+        nums = [str(x) for x in (g.get("number") or []) if str(x).strip()]
+        label = gs + (f"({nums[0]})" if gs == "取得済み" and nums else "")
+        chips.append(f'<span class="jp-chip jp-chip-{tone}"><b>技適</b>{html.escape(label)}</span>')
+    js = str((p.get("japan") or {}).get("status") or "").strip()
+    if js:
+        chips.append(f'<span class="jp-chip jp-chip-{"ok" if is_landed(p) else "warn"}"><b>日本</b>{html.escape(js)}</span>')
+    if has_alert:
+        chips.append('<a class="jp-chip jp-chip-alert" href="#jp-alert"><b>通知</b>日本に来たらメールで知らせる</a>')
+    chip_html = f'<p class="jp-chips">{"".join(chips)}</p>' if chips else ""
+
+    lead = re.match(r"\s*<p>\s*(<strong>.*?</strong>)(.*?)</p>", seg, re.S)
+    if lead:
+        seg = (f'<div class="jp-verdict">{chip_html}<p class="jp-verdict-head">{lead.group(1)}</p>'
+               + (f'<p class="jp-verdict-text">{lead.group(2).strip()}</p>' if lead.group(2).strip() else "")
+               + "</div>" + seg[lead.end():])
+    elif chip_html:
+        seg = f'<div class="jp-verdict">{chip_html}</div>' + seg
+
+    def ul_sub(mm: re.Match) -> str:
+        inner = mm.group(1)
+        items = re.findall(r"<li>(.*?)</li>", inner, re.S)
+        if not items:
+            return mm.group(0)
+        facts = JP_FACT_LI.findall(inner)
+        if len(facts) == len(items):
+            rows = "".join(f'<div class="jp-fact"><dt>{k}</dt><dd>{v.strip()}</dd></div>' for k, v in facts)
+            return f'<dl class="jp-facts">{rows}</dl>'
+        plain = [re.sub(r"<[^>]+>", "", x).strip() for x in items]
+        if "<strong>" not in inner and all(len(x) <= 45 for x in plain):
+            return '<ul class="jp-open">' + "".join(f"<li>{x.strip()}</li>" for x in items) + "</ul>"
+        return mm.group(0)
+
+    seg = re.sub(r"<ul>(.*?)</ul>", ul_sub, seg, flags=re.S)
+    # 「まだ分かっていないのは次のとおり。」のような前置きは、チェック欄の小見出しにする
+    seg = re.sub(r"<p>([^<]{4,60}(?:次のとおり|以下のとおり|次の\d+つ)[。：:]?)</p>(\s*)<ul class=\"jp-open\">",
+                 r'<p class="jp-open-head">\1</p>\2<ul class="jp-open">', seg)
+    # 最後の段落が次の行動の話なら「どうする？」の枠に
+    paras = list(re.finditer(r"<p>(.*?)</p>", seg, re.S))
+    if paras:
+        last = paras[-1]
+        tail = seg[last.end():]
+        if JP_NEXT_WORDS.search(last.group(1)) and not re.search(r"<(p|ul|dl|ol)[\s>]", tail):
+            seg = (seg[:last.start()] + f'<div class="jp-next"><p class="jp-next-head">どうする？</p>'
+                   f'<p>{last.group(1)}</p></div>' + tail)
+    return body_html[:m.end()] + seg + body_html[end:]
 
 
 def insert_alert_form(body_html: str, form_html: str) -> str:
@@ -2191,6 +2265,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     if clip_html:
         body_with_media += CLIP_JS
     alert_html = alert_form(s, p)
+    body_with_media = style_japan_section(body_with_media, p, bool(alert_html))
     body_with_media = insert_alert_form(body_with_media, feature_buy_now(p) + alert_html)
     embeds_html = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
                    + "".join(others) + '</section>') if others else ""
@@ -3809,6 +3884,39 @@ a.fp-buy:not(.fp-buy-main):hover{background:rgba(255,107,61,.08)}
   .gk-nums{line-height:1.8}
   .gk-num{overflow-wrap:anywhere}
 }
+
+/* ── 「日本で買える？使える？」の節の組み直し(2026-11-07、style_japan_section) ── */
+.jp-verdict{max-width:var(--measure);margin:0 0 20px;padding:14px 16px 4px;background:var(--surface);
+  border-left:3px solid var(--cat);border-radius:3px}
+.jp-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.jp-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 9px 3px 3px;font-size:12.5px;line-height:1.5;
+  border:1px solid var(--rule-2);border-radius:999px;background:var(--bg);color:var(--ink);text-decoration:none}
+.jp-chip b{font-family:var(--mono);font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;
+  background:var(--ink-3);color:#fff}
+.jp-chip-ok b{background:#2f8f5b}
+.jp-chip-warn b{background:var(--warn)}
+.jp-chip-na b{background:var(--ink-3)}
+a.jp-chip-alert{border-color:var(--accent);color:var(--accent);font-weight:600}
+a.jp-chip-alert b{background:var(--accent)}
+a.jp-chip-alert:hover{background:color-mix(in srgb,var(--accent) 10%,var(--bg))}
+.prose .jp-verdict-head{margin:0 0 6px;font-size:16.5px;line-height:1.7}
+.prose .jp-verdict-text{margin:0 0 12px;font-size:14.5px;line-height:1.85;color:var(--ink-2)}
+.jp-facts{max-width:var(--measure);margin:0 0 22px;border-top:1px solid var(--rule-2)}
+.jp-fact{padding:12px 0 12px 14px;border-bottom:1px solid var(--rule);position:relative}
+.jp-fact::before{content:"";position:absolute;left:0;top:17px;width:6px;height:6px;border-radius:50%;background:var(--cat)}
+.jp-fact dt{font-weight:700;font-size:14px;line-height:1.6;margin:0 0 2px}
+.jp-fact dt a{color:inherit}
+.jp-fact dd{margin:0;font-size:14.5px;line-height:1.85}
+.prose .jp-open-head{margin:0 0 8px;font-size:13.5px;font-weight:700;color:var(--ink-2)}
+.prose ul.jp-open{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:6px}
+.prose ul.jp-open li{margin:0;padding:8px 12px 8px 38px;position:relative;background:var(--surface);
+  border-radius:3px;font-size:14.5px;line-height:1.6}
+.prose ul.jp-open li::before{content:"?";position:absolute;left:10px;top:50%;transform:translateY(-50%);
+  width:18px;height:18px;border-radius:50%;border:1.5px solid var(--ink-3);color:var(--ink-3);
+  font:600 11px/15px var(--mono);text-align:center}
+.jp-next{max-width:var(--measure);margin:0 0 20px;padding:12px 16px 2px;border:1px solid var(--rule-2);border-radius:3px}
+.prose .jp-next-head{margin:0 0 4px;font-size:12px;font-family:var(--mono);font-weight:600;letter-spacing:.06em;color:var(--cat)}
+.prose .jp-next p{font-size:14.5px;line-height:1.85}
 
 /* ── 日本上陸アラート(記事の「日本で買える？使える？」の節の末尾) ── */
 .jp-alert{max-width:var(--measure);margin:22px 0 26px;padding:14px 16px 12px;
