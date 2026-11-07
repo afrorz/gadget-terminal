@@ -53,6 +53,16 @@ japan:
     merchant: amazon
     price: 14,390円（ブラック・掲載時点）
     giteki: 未確認
+  - name: EarFun公式サイト（トップページ）
+    url: https://www.myearfun.com/jp/
+    merchant: a8_earfun
+    giteki: 未確認
+    note: リンク先は公式サイトのトップページです。メニューの「EarFun Wave Pro X」から商品ページに進めます。
+    coupon:
+      code: EFXBN26
+      discount: EarFun公式サイトの全商品が26%オフ
+      until: 2026-12-31
+      note: セール価格の商品と一緒に使えるかは、購入画面で確かめてください。
   source:
     title: EarFun Wave Pro X 先行予約キャンペーン(EarFun日本公式)
     url: https://www.myearfun.com/jp/promo/earfun-wave-pro-x-early-bird-special

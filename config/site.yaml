@@ -67,8 +67,9 @@ site:
       gmktec: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FXCGC2+5W12+BW0YB&a8ejpredirect={url}"      # 4%・jp.gmktec.com
       huawei: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FTRUPE+4NTO+BW0YB&a8ejpredirect={url}"      # 3%・consumer.huawei.com/jp
       switchbot: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FYJBJM+4W9U+BW0YB&a8ejpredirect={url}"   # 10%・www.switchbot.jp
-      # EarFun(8%)と DJI(2%)は商品ページへのリンクが作れず、トップページ行きだけ。まだ記事には使っていない
-      #   EarFun: https://px.a8.net/svt/ejp?a8mat=4BGFJE+G0X1YQ+5REO+5YRHE
+      # EarFun(8%)と DJI(2%)は商品ページへのリンクが作れず、トップページ行きだけ({url} が無い)。
+      # {url} の無いテンプレートは、記事の URL がその店のものならトップページ行きのリンクになる(build.py)
+      earfun: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+G0X1YQ+5REO+5YRHE"  # 8%・www.myearfun.com/jp トップ行き
       #   DJI:    https://px.a8.net/svt/ejp?a8mat=4BGFJE+FUDAB6+5WBC+5YJRM
       # 審査中(11/7): Razer・final・GEEKOM・Insta360
     # 海外メーカー直販（front matter の buy）。もしもを経由せず各社の

@@ -337,6 +337,8 @@ MERCHANT_HOSTS = {
     "a8_gmktec": ("jp.gmktec.com",),
     "a8_huawei": ("consumer.huawei.com",),
     "a8_switchbot": ("switchbot.jp",),
+    # 商品ページへのリンクが作れず、トップページ行きだけ(site.yaml のテンプレートに {url} が無い)
+    "a8_earfun": ("myearfun.com",),
 }
 # 同じドメインに海外向けのページもある店は、日本向けのパスだけを変換する
 # (A8 は広告主が決めた飛び先の外へのリンクを提携解除の理由にしている)
@@ -400,6 +402,9 @@ def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
         return url, False
     if merchant.startswith("a8_"):
         tmpl = str((aff.get("a8") or {}).get(merchant[3:]) or "").strip()
+        if tmpl and "{url}" not in tmpl:
+            # A8 で商品ページへのリンクが作れない店(EarFun など)。広告主が決めたトップページ行き
+            return tmpl, True
     else:
         tmpl = str(aff.get(f"moshimo_{merchant}") or "").strip()
     if not tmpl or "{url}" not in tmpl:
@@ -764,6 +769,25 @@ def japan_store(url: str) -> str:
     return "販売ページ"
 
 
+def coupon_html(p: dict, x: dict) -> str:
+    """購入先のクーポン(japan.buy の coupon: {code, discount, until, note})。
+
+    期限(until)を過ぎたら出さない(2026-11-07 本人「使用期限が過ぎたらとること」)。
+    GT は毎朝の記事の公開でビルドし直すので、期限の翌朝には消える。
+    front matter に残った期限切れのクーポンは、ビルドのたびに知らせる。"""
+    c = x.get("coupon") or {}
+    code, until = str(c.get("code") or "").strip(), str(c.get("until") or "").strip()
+    if not code or not until:
+        return ""
+    if datetime.now(JST).strftime("%Y-%m-%d") > until:
+        print(f"! coupon: {p['slug']} のクーポン {code} は {until} で期限切れ。出さない(front matter から消してよい)")
+        return ""
+    y, m, d = until.split("-")
+    extra = f'{html.escape(str(c["note"]))}' if c.get("note") else ""
+    return (f'<p class="buy-coupon">クーポンコード <code>{html.escape(code)}</code> で'
+            f'{html.escape(str(c.get("discount") or ""))}（{int(y)}年{int(m)}月{int(d)}日まで）。{extra}</p>')
+
+
 def japan_section(s: dict, p: dict) -> tuple[str, bool]:
     """「日本上陸」の続報枠。記事の冒頭に出す。
 
@@ -801,6 +825,7 @@ def japan_section(s: dict, p: dict) -> tuple[str, bool]:
                  if x.get("price") else "")
         warn = f'<p class="buy-warn">{html.escape(gi_warn)}</p>' if gi_warn else ""
         note = f'<p class="buy-note">{html.escape(str(x["note"]))}</p>' if x.get("note") else ""
+        note += coupon_html(p, x)
         rows.append(
             f'<li class="buy-item"><a href="{html.escape(link)}" '
             f'rel="{"nofollow sponsored noopener" if is_aff else "nofollow noopener"}" target="_blank">'
@@ -3675,6 +3700,8 @@ img{max-width:100%}
 .buy-warn{margin:7px 0 0;padding-left:10px;border-left:2px solid var(--warn);
   color:var(--ink-2);font-size:13px;line-height:1.75}
 .buy-note{margin:5px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
+.buy-coupon{margin:6px 0 0;padding:6px 10px;border:1px dashed var(--line,#ccc);border-radius:4px;font-size:13.5px;line-height:1.7}
+.buy-coupon code{font-family:var(--mono,monospace);font-weight:700;letter-spacing:.06em;user-select:all}
 .buy-caution{margin:14px 0 0;color:var(--ink-3);font-size:12.5px;line-height:1.85}
 /* 日本上陸の続報。記事の冒頭に置く。本文(公開時点の記録)と取り違えないよう、
    左の太い罫線とバッジで「後から足した情報」だと一目で分かる形にする。 */
