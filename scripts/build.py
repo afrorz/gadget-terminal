@@ -1603,6 +1603,13 @@ def merchant_of(url: str) -> str:
     return ""
 
 
+MD_LINK = re.compile(r"\[([^\]]+)\]\((/[^)\s]+)\)")  # 特集の文の中の [言葉](/posts/...)
+
+
+def md_link(t: str) -> str:
+    return MD_LINK.sub(r'<a href="\2">\1</a>', t)
+
+
 def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
     """製品1件を、記事の一節として縦に組む。
 
@@ -1621,7 +1628,10 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
     url = str(item.get("url") or "").strip()
     src = str(item.get("source") or "").strip()
 
-    body = "".join(f"<p>{bold_em(para.strip())}</p>"
+    # 説明文の中の [言葉](/features/...) をリンクにする(書いたままの文字で出ていた。2026-11-07)
+    def _md_link(t):
+        return re.sub(r"\[([^\]]+)\]\((/[^)\s]+)\)", r'<a href="\2">\1</a>', t)
+    body = "".join(f"<p>{_md_link(bold_em(para.strip()))}</p>"
                    for para in str(item.get("note") or "").split("\n\n")
                    if para.strip())
 
@@ -1659,12 +1669,21 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
     # 特集の製品は merchant を書かせず、URL のドメインで決める（楽天・Amazon の
     # 店舗ページをそのまま貼る運用のため）。2026-10-12 まで変換を通しておらず、
     # 特集の購入ボタンは全部素のリンクで報酬が発生していなかった。
+    # 購入ボタンは店の名前で書く(2026-11-07 本人「購入ページをクリックさせたい」)。
+    # 「購入ページを開く」はどこへ飛ぶか分からず、文字のリンクで「確認したソース」と同じ重さだった。
+    def btn(href, rel_, label, sub, primary):
+        sub_html = f'<small>{html.escape(sub)}</small>' if sub else ""
+        return (f'<a class="fp-buy{" fp-buy-main" if primary else ""}" href="{html.escape(href)}" '
+                f'target="_blank" rel="{rel_}"><span>{label}</span>{sub_html}</a>')
     is_aff = False
+    buy = ""
     if url:
-        url, is_aff = affiliate_url(s, url, merchant_of(url))
-    rel = "nofollow sponsored noopener" if is_aff else "noopener nofollow"
-    buy = (f'<a class="fp-buy" href="{html.escape(url)}" target="_blank" '
-           f'rel="{rel}">購入ページを開く</a>') if url else ""
+        mer = merchant_of(url)
+        url, is_aff = affiliate_url(s, url, mer)
+        rel = "nofollow sponsored noopener" if is_aff else "noopener nofollow"
+        main_label = {"amazon": "Amazonで見る", "rakuten": "楽天市場で見る",
+                      "yahoo": "Yahoo!ショッピングで見る"}.get(mer, "公式ストアで見る")
+        buy = btn(url, rel, main_label, "", True)
     # 楽天にもメーカー公式店・大手販売店がある製品は、2つ目の購入先として出す。
     # 特集は正規流通を勧めるページなので、転売価格の店や別型番のページは書かない。
     rk = item.get("rakuten") or {}
@@ -1674,11 +1693,20 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
         is_aff = is_aff or rk_aff
         shop = str(rk.get("shop") or "").strip()
         # 判定バッジの label と別の名前にする(同じ名前で上書きし、バッジが「楽天市場で見る」になっていた。2026-11-01 修正)
-        rk_label = f"楽天市場（{html.escape(shop)}）で見る" if shop else "楽天市場で見る"
-        buy += (f'<a class="fp-buy" href="{html.escape(rk_url)}" target="_blank" '
-                f'rel="{"nofollow sponsored noopener" if rk_aff else "noopener nofollow"}">{rk_label}</a>')
+        buy += btn(rk_url, "nofollow sponsored noopener" if rk_aff else "noopener nofollow",
+                   "楽天市場で見る", shop, not buy)
     src_link = (f'<a class="fp-src" href="{html.escape(src)}" target="_blank" '
                 f'rel="noopener">確認したソース</a>') if src else ""
+    # 価格は「23,400円」を大きく、「(BenQ公式ストア、掲載時点)」を小さく分ける
+    pm = re.match(r"^([^(（]+?)\s*([(（].*)?$", str(item.get("price") or "").strip())
+    p_main = html.escape(pm.group(1)) if pm else price
+    p_sub = html.escape(pm.group(2) or "") if pm else ""
+    cta = ""
+    if buy or price:
+        cta = (f'<div class="fp-cta"><p class="fp-price"><span>{p_main or "&mdash;"}</span>'
+               f'{f"<small>{p_sub}</small>" if p_sub else ""}</p>'
+               f'<div class="fp-buys">{buy}</div>'
+               f'<p class="fp-cta-note">価格・在庫・ポイントは変わることがあります。リンク先で確かめてください。</p></div>')
 
     return f"""
 <section class="fp fp-{tone}">
@@ -1689,12 +1717,14 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
   </header>
   {shot}
   <div class="fp-body">{body}</div>
+  <div class="fp-box">
+  {cta}
   <dl class="fp-meta">
-    <dt>価格</dt><dd>{price or "&mdash;"}</dd>
     <dt>買えるところ</dt><dd>{where or "&mdash;"}</dd>
     <dt>{html.escape(str(item.get("cert_label") or "技適"))}</dt><dd>{giteki or "&mdash;"}</dd>
   </dl>
-  <p class="fp-links">{buy}{src_link}</p>
+  </div>
+  <p class="fp-links">{src_link}</p>
 </section>""", is_aff
 
 
@@ -1714,7 +1744,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     if f["excluded"]:
         rows = "".join(
             f'<li><strong>{html.escape(str(x.get("name") or ""))}</strong>'
-            f' &mdash; {bold_em(str(x.get("why") or ""))}</li>'
+            f' &mdash; {md_link(bold_em(str(x.get("why") or "")))}</li>'
             for x in f["excluded"])
         excluded = f"""
 <section class="fx">
@@ -3549,20 +3579,36 @@ img{max-width:100%}
 .fp-body p{margin:0 0 1.1em;line-height:2;font-size:1rem;color:var(--ink-2)}
 .fp-body p:last-child{margin-bottom:0}
 .fp-body strong{color:var(--ink);font-weight:600}
-.fp-meta{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;margin:0 0 20px;
-  font-size:.88rem;background:var(--surface);border:1px solid var(--rule);
+.fp-box{margin:0 0 14px;background:var(--surface);border:1px solid var(--rule);
   border-left:3px solid var(--rule-2);border-radius:3px;padding:18px 20px}
-.fp-ok .fp-meta{border-left-color:#3f9e6a}
-.fp-warn .fp-meta{border-left-color:#d9a03f}
-.fp-bad .fp-meta{border-left-color:#c8503c}
+.fp-ok .fp-box{border-left-color:#3f9e6a}
+.fp-warn .fp-box{border-left-color:#d9a03f}
+.fp-bad .fp-box{border-left-color:#c8503c}
+.fp-cta{padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid var(--rule-2)}
+.fp-price{margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.fp-price span{font-size:1.45rem;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.fp-price small{font-size:.78rem;color:var(--ink-3);line-height:1.6}
+.fp-buys{display:flex;flex-wrap:wrap;gap:10px}
+a.fp-buy{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;min-height:48px;
+  min-width:210px;padding:8px 22px;border-radius:6px;border:1.5px solid var(--accent);color:var(--accent);
+  background:transparent;font-weight:700;font-size:.95rem;line-height:1.3;text-decoration:none;text-align:center;
+  transition:transform .12s,box-shadow .12s,background .12s}
+a.fp-buy small{font-weight:400;font-size:.7rem;opacity:.85;margin-top:2px}
+a.fp-buy-main{background:var(--accent);color:#1a1e24;box-shadow:0 2px 0 rgba(0,0,0,.18)}
+a.fp-buy:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(255,107,61,.28)}
+a.fp-buy:not(.fp-buy-main):hover{background:rgba(255,107,61,.08)}
+.fp-cta-note{margin:10px 0 0;font-size:.72rem;color:var(--ink-3)}
+.fp-meta{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;margin:0;font-size:.88rem}
 .fp-meta dt{color:var(--ink-3);white-space:nowrap}
 .fp-meta dd{margin:0;color:var(--ink-2);line-height:1.85}
 .fp-links{margin:0;display:flex;gap:18px;flex-wrap:wrap;font-size:.86rem}
-.fp-buy{color:var(--accent);font-weight:600}
 .fp-src{color:var(--ink-3)}
 @media(max-width:560px){
   .fp-name{font-size:1.28rem}
   .fp-meta{grid-template-columns:1fr;gap:4px 0}
+  .fp-buys{flex-direction:column}
+  a.fp-buy{width:100%;min-width:0}
+  .fp-box{padding:16px}
   .fp-meta dt{margin-top:8px}
 }
 
