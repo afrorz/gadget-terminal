@@ -1,0 +1,39 @@
+今週は「あって当たり前の部分を、あえて外した」製品が並びました。
+
+・画面も保存も持たず、撮ると感熱紙に印刷されるカメラ（DA1 Camera）
+・スマホ無しで、Linuxがメガネの中で動く端末（Raven Prism）
+・マザーボードを引き出しごと替えられるNAS（Beelink ME Pro）
+・背面のネジを外して電池を替えられる5.3インチのAndroid（Enough Phone）
+・透明スイッチの下にOLEDを敷いた磁気キーボード（TRYX VESTRA VISION）
+
+気になるものから読んでください。日本で買えるか・使えるかも、それぞれ書いています。
+
+1. DA1 Camera（98ドル、約1.5万円）
+撮った白黒写真が、その場で感熱紙に1枚ずつ出てくる。インクは使わず、描き足して人に渡す想定です。
+国内の販売元は確認できておらず、買うなら公式ストアの日本発送を先に確かめたいところです。
+https://gadgetterminal.com/posts/da1-camera-thermal-print-no-screen.html
+
+2. Raven Prism（1,499ドル、約22万円）
+ARMのコンピューターを内蔵し、SSHで入れて、操作は視線。予約金は49ドルで、出荷は2027年1月から。
+出荷先は米国のみで、技適の取得は確認できていません。
+https://gadgetterminal.com/posts/raven-prism-linux-glasses.html
+
+3. Beelink ME Pro（299ドルから、約4.5万円から）
+同じ基板を2ベイと4ベイの筐体で使い回せるので、性能を上げても本体を買い替えずに済みます。
+日本の販売元は確認できておらず、日本への配送条件は支援前の確認が必要です。
+https://gadgetterminal.com/posts/beelink-me-pro-modular-nas.html
+
+4. Enough Phone（予定小売599ドル、約9万円）
+Dimensity 7500と8GBを小さな筐体に収め、出荷は2027年5月の予定。Kickstarterの早期枠は399ドルから。
+日本向けの発売予定は出ておらず、日本の5Gバンドへの対応も公式には書かれていません。
+https://gadgetterminal.com/posts/enough-phone-5-3-inch-removable-battery.html
+
+5. TRYX VESTRA VISION（229ドルから、約3.4万円から）
+5.48インチのOLEDをキーの下に置き、上部にタッチ操作の帯も持つ。8,000Hzのポーリングに対応します。
+英語配列の画像のみで、日本への配送は確認できていません。
+https://gadgetterminal.com/posts/tryx-vestra-vision-oled-magnetic-keyboard.html
+
+クラウドファンディングの製品(3〜5)への出資は、購入ではありません。納期や仕様は変わりえます。価格は掲載時点です。
+
+毎朝3本の記事はこちら: https://gadgetterminal.com/
+#ガジェット #海外ガジェット
