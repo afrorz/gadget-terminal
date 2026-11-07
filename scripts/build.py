@@ -1701,12 +1701,20 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
     pm = re.match(r"^([^(（]+?)\s*([(（].*)?$", str(item.get("price") or "").strip())
     p_main = html.escape(pm.group(1)) if pm else price
     p_sub = html.escape(pm.group(2) or "") if pm else ""
+    # Amazon で売っている物は技適の行を出さない(2026-11-07 本人「Amazonで売ってる時点で技適の情報は必要ない」)。
+    # 特集は国内の正規店だけを載せる決まりなので、Amazon で買える＝国内向けの正規品。確かめるのは今までどおり続け、原稿の giteki も残す
+    on_amazon = merchant_of(str(item.get("url") or "")) == "amazon"
+    cert_row = ("" if on_amazon else
+                f'<dt>{html.escape(str(item.get("cert_label") or "技適"))}</dt><dd>{giteki or "&mdash;"}</dd>')
+    # 購入の箱にも小さな写真を出す(2026-11-07 本人)。どの製品の箱か、ボタンの横で分かるように
+    thumb = (f'<span class="fp-cta-img"><img src="{html.escape(img)}" alt="{name}" loading="lazy" decoding="async" '
+             f'referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></span>') if img else ""
     cta = ""
     if buy or price:
-        cta = (f'<div class="fp-cta"><p class="fp-price"><span>{p_main or "&mdash;"}</span>'
+        cta = (f'<div class="fp-cta">{thumb}<div class="fp-cta-main"><p class="fp-price"><span>{p_main or "&mdash;"}</span>'
                f'{f"<small>{p_sub}</small>" if p_sub else ""}</p>'
                f'<div class="fp-buys">{buy}</div>'
-               f'<p class="fp-cta-note">価格・在庫・ポイントは変わることがあります。リンク先で確かめてください。</p></div>')
+               f'<p class="fp-cta-note">価格・在庫・ポイントは変わることがあります。リンク先で確かめてください。</p></div></div>')
 
     return f"""
 <section class="fp fp-{tone}">
@@ -1721,7 +1729,7 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
   {cta}
   <dl class="fp-meta">
     <dt>買えるところ</dt><dd>{where or "&mdash;"}</dd>
-    <dt>{html.escape(str(item.get("cert_label") or "技適"))}</dt><dd>{giteki or "&mdash;"}</dd>
+{cert_row}
   </dl>
   </div>
   <p class="fp-links">{src_link}</p>
@@ -3584,7 +3592,12 @@ img{max-width:100%}
 .fp-ok .fp-box{border-left-color:#3f9e6a}
 .fp-warn .fp-box{border-left-color:#d9a03f}
 .fp-bad .fp-box{border-left-color:#c8503c}
-.fp-cta{padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid var(--rule-2)}
+.fp-cta{padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid var(--rule-2);display:flex;gap:18px;align-items:flex-start}
+.fp-cta:last-child{padding-bottom:0;margin-bottom:0;border-bottom:0}
+.fp-cta-main{flex:1;min-width:0}
+.fp-cta-img{flex:0 0 112px;height:112px;border-radius:6px;background:#fff;border:1px solid var(--rule);
+  display:flex;align-items:center;justify-content:center;overflow:hidden}
+.fp-cta-img img{width:100%;height:100%;object-fit:contain;padding:6px;box-sizing:border-box}
 .fp-price{margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
 .fp-price span{font-size:1.45rem;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:.01em}
 .fp-price small{font-size:.78rem;color:var(--ink-3);line-height:1.6}
@@ -3607,6 +3620,8 @@ a.fp-buy:not(.fp-buy-main):hover{background:rgba(255,107,61,.08)}
   .fp-name{font-size:1.28rem}
   .fp-meta{grid-template-columns:1fr;gap:4px 0}
   .fp-buys{flex-direction:column}
+  .fp-cta-img{flex-basis:76px;height:76px}
+  .fp-cta{gap:12px}
   a.fp-buy{width:100%;min-width:0}
   .fp-box{padding:16px}
   .fp-meta dt{margin-top:8px}
