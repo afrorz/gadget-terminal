@@ -58,6 +58,7 @@ Actions タブ →「毎朝の記事下書きを作って公開」→ Run workfl
 
 ## 未処理
 
+- https://temple.com/ Temple(テンプル)。Zomato 創業者ディピンダー・ゴヤル(インド)の、こめかみに使い捨ての粘着パッドで貼るヘルストラッカー。心拍・睡眠・歩数に加え、光学センサーで脳への血流の変化を追う「BrainFlow」と、体が熱を逃がす働きを示す「Entropy」。約1,000ドル・6色・11/1から全世界で予約受付、交換パッドは生涯分込みとの報道。海外の報道は https://www.businesstoday.in/technology/news/story/deepinder-goyals-temple-gets-a-major-redesign-shrinks-to-less-than-half-the-size-550616-2026-08-21 と https://www.storyboard18.com/brand-makers/zomato-ceo-deepinder-goyal-teases-temple-wearable-on-insta-sparks-buzz-online-85503.htm と https://www.digit.in/news/general/zomato-ceo-deepinder-goyal-teases-new-device-that-may-track-your-brain-blood-flow.html 。価格・予約・発送時期・日本への発送は temple.com で確かめる。日本語ではギズモード・ジャパンが 11/6 に紹介済みなので、こめかみで脳の血流を測れる根拠(医師の疑問・臨床の裏付け)と、日本から買うときの技適・医療機器にあたらないか・発送・パッドの入手を厚めに
 - https://9to5toys.com/2026/11/05/sony-revives-80s-style-new-wired-mdr-3r-usb-retro-headphones/ Sony「MDR-3R」。1979年の初代ウォークマン付属ヘッドホン MDR-3 の復刻で、USB-C の有線・59.99ドル(Stranger Things 版は約80ドル)。元の報道は Bloomberg(https://www.bloomberg.com/news/articles/2026-11-05/sony-debuts-retro-60-wired-headphones-in-tribute-to-1979-walkman 、有料)。ほかに https://thenextweb.com/news/sony-mdr-3r-wired-headphones-walkman-usb-c と https://www.stuff.tv/hot-stuff/audio/these-ultra-light-retro-inspired-wired-headphones-are-sonys-love-letter-to-the-original-walkman/ 。日本でも 11/6 9時に発表の見込みとの記事あり(https://hashout.jp/?p=13500)。ソニー公式(sony.jp・electronics.sony.com)の製品ページで日本の発売・価格・型番を確かめ、海外版との違いと、3.5mm ではなく USB-C なので初代ウォークマンやイヤホン端子の機器ではそのまま使えない点を厚めに
 
 
