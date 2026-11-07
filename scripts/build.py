@@ -2563,8 +2563,9 @@ def render_media(site: dict, posts: list[dict]) -> str:
     買えるようになったら知らせる」流れ。数字はすべて記事の front matter から数える(手で書かない)。
     海外メーカー本人が読めるよう、英語の要約も付ける。
 
-    **できないことを盛らない。** 署名記事は無い、実機レビューもまだ無い、閲覧数は載せない(小さいため、
-    聞かれたら答える)。PR TIMES の審査でもここを正直に伝えて通っている(docs/PRTIMES申請.md)。
+    **できないことを盛らない。** 署名記事は無い、閲覧数は載せない(小さいため、聞かれたら答える)。
+    実機レビューは 2026-11-07 本人「実機もらえればレビューする」で「提供・貸し出しがあればレビューする」に変えた
+    (公開前の確認はさせない・提供と明記する)。PR TIMES の審査でもここを正直に伝えて通っている(docs/PRTIMES申請.md)。
     誇張すると企業側の期待とのズレが後で問題になる。
     """
     s = site["site"]
@@ -2617,7 +2618,7 @@ def render_media(site: dict, posts: list[dict]) -> str:
         <li>価格・発売時期・仕様の一次情報(公式ページ・クラウドファンディングのページ・プレスキット)</li>
         <li>記事に使ってよい公式の画像・動画</li>
         <li>日本での展開の予定(発売・国内クラウドファンディング・代理店)と、技適の取得予定</li>
-        <li>実機の貸し出しの可否</li>
+        <li>実機の提供・貸し出しの可否(いただければレビュー記事にします)</li>
       </ul>
 
       <h2>掲載基準</h2>
@@ -2630,10 +2631,11 @@ def render_media(site: dict, posts: list[dict]) -> str:
       <p>クラウドファンディング案件は「まだ製品ではない」ことを必ず明記します。
       出資は購入ではなく、納期遅延や仕様変更のリスクがある前提で書きます。</p>
 
-      <h2>現状、できないこと</h2>
-      <p>正直にお伝えします。<strong>署名記事・実機レビューはまだ行っていません。</strong>
-      海外の一次情報をもとに編集部が構成する記事のみです。実機を貸し出していただいた場合も、
-      レビュー記事の形での掲載をお約束するものではありません。</p>
+      <h2>実機レビューについて</h2>
+      <p><strong>実機を提供・貸し出していただいた製品は、編集部が実際に使ってレビュー記事にします。</strong>
+      良い点だけでなく、気になった点もそのまま書きます。記事の内容を公開前に確認していただくことはできませんが、
+      事実の誤りのご指摘には対応します。記事には「メーカーから提供(貸し出し)を受けた製品」であることを明記します。</p>
+      <p>実機の無い製品は、これまでどおり海外の一次情報をもとに編集部が構成した記事でお伝えします。</p>
 
       <h2>広告・PRの表記について</h2>
       <p>報酬を受けて掲載する場合は、本文中に<strong>【PR】</strong>と明記します(景品表示法の指定告示に従います)。
@@ -2657,6 +2659,8 @@ def render_media(site: dict, posts: list[dict]) -> str:
         <li>{n} articles published since {since}; {landed_after} products we covered later launched in Japan.</li>
         <li>Send us your press kit, official images, pricing, and any plans for Japan (retail, crowdfunding, distributors,
         certification). English is fine.</li>
+        <li>Send us a review unit and we will use it and publish a hands-on review, including any downsides we find.
+        The review is not shown to you before publication, and it is labeled as a provided unit.</li>
         <li>Editorial coverage is decided by our editors under the criteria above. Paid content, if any, is always labeled [PR].</li>
         <li>Contact: <a href="mailto:{press}">{press}</a></li>
       </ul>
