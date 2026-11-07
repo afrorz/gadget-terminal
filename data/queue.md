@@ -1,65 +1,13 @@
 # 記事にしたいネタの置き場
 
-思いついた製品の URL をここに書いておくと、**毎晩 23:00 の自動実行が
-自分でネタを探す前に、ここを上から消化します。**
-
-## 書き方
-
-`## 未処理` の下に `- ` で始まる行として URL を足すだけです。
-スマホの GitHub アプリからでも編集できます。
-
-    - https://www.kickstarter.com/projects/xxxx/yyyy
-    - https://example.com/product  ← 一言メモを書いてもいい
-
-URL の後ろに書いたメモは、記事の切り口の指示として読まれます。
-「日本での入手性を厚めに」のような注文があれば書いてください。
-
-## 「編集部ピックアップ」になります
-
-**ここから書かれた記事は、トップページの「編集部ピックアップ」に載ります。**
-自動で選ばれた記事と区別するためで、front matter に `pick: true` が付きます。
-
-さらに、`> ` で始まる行を足すと、**その文がそのまま記事に載ります。**
-
-    - https://example.com/product
-      > フレットが光って運指を教えるという発想が面白い。
-
-この一文は要約も改変もされません。**あなたが書いた文章がそのまま出ます。**
-
-短くていいので書く価値があります。この媒体で唯一、人間が書いた部分になるためです。
-競合は実名のライターが実機を触って書いており、そこが向こうの強みです。
-こちらが同じ土俵に立てる最小の形が、この一文です。
-
-## 日付を指定する
-
-行の先頭に `[YYYY-MM-DD]` を付けると、**その日まで書かれません。**
-
-    - [2026-08-24] https://example.com/product
-
-発売日や締切に合わせたいとき、あるいは今日の3本に割り込ませたくないときに使います。
-日付を付けない行は、次の実行で普通に消化されます。
-
-## ルール
-
-- 1回の実行で消化するのは最大3本（1日の記事数と同じ）
-- 記事になった行は `## 処理済み` に移動します。**手で消さなくていい**
-- 記事にできなかった場合（元記事が消えている等）は `## 保留` に理由付きで移ります
-- 3本を超えて積んでも消えません。翌日以降に持ち越されます
-
-## 今すぐ書かせたいとき
-
-Actions タブ →「毎朝の記事下書きを作って公開」→ Run workflow →
-`url` 欄に URL を貼って実行すると、その場で記事になります。
-
-ただし**これは Claude の利用枠を即座に消費します。**
-昼間にローカルで作業しているときは、ここに積んで夜に回すほうが安全です。
-
----
+`## 未処理` の下に `- URL メモ` を1行足すと、毎朝の自動実行が上から消化します(最大3本)。
+書き方・`> ` の一文・日付指定などは docs/QUEUE.md。
+**この説明は短く保つ。** 2026-11-07、説明が長くて未処理の行が61行目になり、記事づくりが先頭60行だけ読んで Sony MDR-3R を見落とした。
 
 ## 未処理
 
-- https://temple.com/ Temple(テンプル)。Zomato 創業者ディピンダー・ゴヤル(インド)の、こめかみに使い捨ての粘着パッドで貼るヘルストラッカー。心拍・睡眠・歩数に加え、光学センサーで脳への血流の変化を追う「BrainFlow」と、体が熱を逃がす働きを示す「Entropy」。約1,000ドル・6色・11/1から全世界で予約受付、交換パッドは生涯分込みとの報道。海外の報道は https://www.businesstoday.in/technology/news/story/deepinder-goyals-temple-gets-a-major-redesign-shrinks-to-less-than-half-the-size-550616-2026-08-21 と https://www.storyboard18.com/brand-makers/zomato-ceo-deepinder-goyal-teases-temple-wearable-on-insta-sparks-buzz-online-85503.htm と https://www.digit.in/news/general/zomato-ceo-deepinder-goyal-teases-new-device-that-may-track-your-brain-blood-flow.html 。価格・予約・発送時期・日本への発送は temple.com で確かめる。日本語ではギズモード・ジャパンが 11/6 に紹介済みなので、こめかみで脳の血流を測れる根拠(医師の疑問・臨床の裏付け)と、日本から買うときの技適・医療機器にあたらないか・発送・パッドの入手を厚めに
 - https://9to5toys.com/2026/11/05/sony-revives-80s-style-new-wired-mdr-3r-usb-retro-headphones/ Sony「MDR-3R」。1979年の初代ウォークマン付属ヘッドホン MDR-3 の復刻で、USB-C の有線・59.99ドル(Stranger Things 版は約80ドル)。元の報道は Bloomberg(https://www.bloomberg.com/news/articles/2026-11-05/sony-debuts-retro-60-wired-headphones-in-tribute-to-1979-walkman 、有料)。ほかに https://thenextweb.com/news/sony-mdr-3r-wired-headphones-walkman-usb-c と https://www.stuff.tv/hot-stuff/audio/these-ultra-light-retro-inspired-wired-headphones-are-sonys-love-letter-to-the-original-walkman/ 。日本でも 11/6 9時に発表の見込みとの記事あり(https://hashout.jp/?p=13500)。ソニー公式(sony.jp・electronics.sony.com)の製品ページで日本の発売・価格・型番を確かめ、海外版との違いと、3.5mm ではなく USB-C なので初代ウォークマンやイヤホン端子の機器ではそのまま使えない点を厚めに
+- https://temple.com/ Temple(テンプル)。Zomato 創業者ディピンダー・ゴヤル(インド)の、こめかみに使い捨ての粘着パッドで貼るヘルストラッカー。心拍・睡眠・歩数に加え、光学センサーで脳への血流の変化を追う「BrainFlow」と、体が熱を逃がす働きを示す「Entropy」。約1,000ドル・6色・11/1から全世界で予約受付、交換パッドは生涯分込みとの報道。海外の報道は https://www.businesstoday.in/technology/news/story/deepinder-goyals-temple-gets-a-major-redesign-shrinks-to-less-than-half-the-size-550616-2026-08-21 と https://www.storyboard18.com/brand-makers/zomato-ceo-deepinder-goyal-teases-temple-wearable-on-insta-sparks-buzz-online-85503.htm と https://www.digit.in/news/general/zomato-ceo-deepinder-goyal-teases-new-device-that-may-track-your-brain-blood-flow.html 。価格・予約・発送時期・日本への発送は temple.com で確かめる。日本語ではギズモード・ジャパンが 11/6 に紹介済みなので、こめかみで脳の血流を測れる根拠(医師の疑問・臨床の裏付け)と、日本から買うときの技適・医療機器にあたらないか・発送・パッドの入手を厚めに
 
 
 ## 処理済み
