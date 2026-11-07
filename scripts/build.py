@@ -598,7 +598,9 @@ if(j.ok){f.querySelector('input[type=email]').value='';}btn.disabled=false;})
 
 
 JP_FACT_LI = re.compile(r"<li>\s*<strong>(.{1,40}?)[：:]\s*</strong>\s*(.*?)</li>", re.S)
-JP_NEXT_WORDS = re.compile(r"今すぐ|待つ|選択肢|代わり|おすすめ|向いている|買うなら")
+JP_NEXT_WORDS = re.compile(r"今すぐ|待つ|選択肢|代わり|おすすめ|向いている|買うなら|急ぎ|別機種|必要なら|ほしいなら|欲しいなら")
+JP_FOOT = re.compile(r"(情報源は|なお、|出典は|この記事の(価格|情報)|価格・(出荷|発売))")
+JP_UNKNOWN = re.compile(r"(?:日本上陸を待つうえで、)?まだ分かって(?:い)?ない(?:こと|の)は、(.+?)の(\d)点[。.]?")
 
 
 def style_japan_section(body_html: str, p: dict, has_alert: bool) -> str:
@@ -623,9 +625,10 @@ def style_japan_section(body_html: str, p: dict, has_alert: bool) -> str:
     g = p.get("giteki") or {}
     gs = str(g.get("status") or "").strip()
     if gs:
-        tone = {"取得済み": "ok", "対象外": "na"}.get(gs, "warn")
+        # 札は柔らかい言い方と落ち着いた色にする(2026-11-07 本人「確認できない → 情報なし」)。本文の言い方は変えない
+        tone = {"取得済み": "ok"}.get(gs, "na")
         nums = [str(x) for x in (g.get("number") or []) if str(x).strip()]
-        label = gs + (f"({nums[0]})" if gs == "取得済み" and nums else "")
+        label = {"確認できない": "情報なし"}.get(gs, gs) + (f"({nums[0]})" if gs == "取得済み" and nums else "")
         chips.append(f'<span class="jp-chip jp-chip-{tone}"><b>技適</b>{html.escape(label)}</span>')
     js = str((p.get("japan") or {}).get("status") or "").strip()
     if js:
@@ -660,14 +663,46 @@ def style_japan_section(body_html: str, p: dict, has_alert: bool) -> str:
     # 「まだ分かっていないのは次のとおり。」のような前置きは、チェック欄の小見出しにする
     seg = re.sub(r"<p>([^<]{4,60}(?:次のとおり|以下のとおり|次の\d+つ)[。：:]?)</p>(\s*)<ul class=\"jp-open\">",
                  r'<p class="jp-open-head">\1</p>\2<ul class="jp-open">', seg)
-    # 最後の段落が次の行動の話なら「どうする？」の枠に
+    # 段落だけで書かれた記事(多くの記事がこの形)向け。2026-11-07 本人「他の記事も同じように」
+    def para_sub(mm: re.Match) -> str:
+        text = mm.group(1).strip()
+        plain = re.sub(r"<[^>]+>", "", text)
+        if JP_FOOT.match(plain):
+            return f'<p class="jp-foot">{text}</p>'
+        u_ = JP_UNKNOWN.search(text)
+        if u_:
+            items = [x.strip() for x in re.split(r"、|，", u_.group(1)) if x.strip()]
+            if len(items) == int(u_.group(2)) and all(len(re.sub(r"<[^>]+>", "", x)) <= 45 for x in items):
+                before, after = text[:u_.start()].strip(), text[u_.end():].strip()
+                return ((f"<p>{before}</p>" if before else "")
+                        + '<p class="jp-open-head">日本上陸を待つうえで、まだ分かっていないこと</p>'
+                        + '<ul class="jp-open">' + "".join(f"<li>{x}</li>" for x in items) + "</ul>"
+                        + (f"<p>{after}</p>" if after else ""))
+        return mm.group(0)
+
+    seg = re.sub(r"<p>(.*?)</p>", para_sub, seg, flags=re.S)
+    # 最後の段落が次の行動の話なら「どうする？」の枠に(後ろに出典などの注記だけが続いてもよい)
     paras = list(re.finditer(r"<p>(.*?)</p>", seg, re.S))
     if paras:
         last = paras[-1]
         tail = seg[last.end():]
-        if JP_NEXT_WORDS.search(last.group(1)) and not re.search(r"<(p|ul|dl|ol)[\s>]", tail):
+        if JP_NEXT_WORDS.search(last.group(1)) and not re.search(
+                r"<(p|ul|dl|ol)[\s>]", re.sub(r'<p class="jp-foot">.*?</p>', "", tail, flags=re.S)):
             seg = (seg[:last.start()] + f'<div class="jp-next"><p class="jp-next-head">どうする？</p>'
-                   f'<p>{last.group(1)}</p></div>' + tail)
+                   f'<p class="jp-next-text">{last.group(1)}</p></div>' + tail)
+
+    # 残った地の段落は、続いているものをまとめて区切り線つきの行にする。「**見出し。**本文」は見出しを上に出す
+    def row(pm: re.Match) -> str:
+        text = pm.group(1).strip()
+        h = re.match(r"<strong>(.{1,40}?)</strong>\s*", text, re.S)
+        if h and h.end() < len(text):
+            return (f'<div class="jp-fact"><p class="jp-fact-h">{h.group(1).rstrip("。：:")}</p>'
+                    f'<p>{text[h.end():]}</p></div>')
+        return f'<div class="jp-fact"><p>{text}</p></div>'
+
+    seg = re.sub(r"(?:\s*<p>.*?</p>)+",
+                 lambda g: '<div class="jp-rows">' + re.sub(r"\s*<p>(.*?)</p>", row, g.group(0), flags=re.S) + "</div>",
+                 seg, flags=re.S)
     return body_html[:m.end()] + seg + body_html[end:]
 
 
@@ -3504,7 +3539,9 @@ img{max-width:100%}
 .dot{width:3px;height:3px;border-radius:50%;background:var(--ink-3);display:inline-block}
 .article-hero{margin:0 0 30px;border-bottom:1px solid var(--rule)}
 .hero-credit{padding:8px 0 10px;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.03em}
-.article-hero img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
+/* 縦長の写真を 100% 幅＋contain で出すと、左右に白い帯が出ていた(2026-11-07 本人)。
+   写真そのものの大きさで出し、帯を作らない。透過 PNG のために白地は写真の範囲だけに残す */
+.article-hero img{display:block;width:auto;max-width:100%;height:auto;max-height:520px;margin:0 auto;background:#fff}
 .prose{font-size:15.5px;line-height:1.9;color:var(--ink)}
 .prose h2{font-family:var(--disp);font-size:19px;line-height:1.5;margin:38px 0 14px;font-weight:700;
   letter-spacing:-.01em;padding-top:8px;position:relative}
@@ -3907,6 +3944,10 @@ a.jp-chip-alert:hover{background:color-mix(in srgb,var(--accent) 10%,var(--bg))}
 .jp-fact dt{font-weight:700;font-size:14px;line-height:1.6;margin:0 0 2px}
 .jp-fact dt a{color:inherit}
 .jp-fact dd{margin:0;font-size:14.5px;line-height:1.85}
+.jp-rows{max-width:var(--measure);margin:0 0 22px;border-top:1px solid var(--rule-2)}
+.prose .jp-fact > p{margin:0;font-size:14.5px;line-height:1.85}
+.prose .jp-fact > p.jp-fact-h{margin:0 0 2px;font-size:14px;font-weight:700;line-height:1.6}
+.prose .jp-foot{margin:0 0 18px;font-size:12.5px;line-height:1.8;color:var(--ink-3)}
 .prose .jp-open-head{margin:0 0 8px;font-size:13.5px;font-weight:700;color:var(--ink-2)}
 .prose ul.jp-open{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:6px}
 .prose ul.jp-open li{margin:0;padding:8px 12px 8px 38px;position:relative;background:var(--surface);
