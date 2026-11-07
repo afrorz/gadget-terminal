@@ -78,6 +78,7 @@
   展示会の出展告知だけのものは書かない
 - 本文はふつうの記事の型で書き、front matter に最初から `japan`（下の「japan」節）を付ける。
   販売先は `japan.buy` に書く。Amazon・楽天で売っていれば `merchant` を付ける
+  メーカーの日本公式ストアなら `merchant: a8_minisforum` / `a8_gmktec` / `a8_huawei`(/jp/ の下) / `a8_switchbot` を付ける(A8.net、2026-11-07〜。テンプレートは site.yaml の affiliate.a8)
 - 画像は国内販売元のページか、メーカー公式のものを使う（PR TIMES の画像は使わない）
 - 出典（sources）にはプレスリリースと、海外の情報源の両方を入れる
 - **既に記事がある製品なら、新しい記事は書かずに既存の記事に `japan` を足す**
