@@ -919,7 +919,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -2543,7 +2543,7 @@ def render_about(site: dict) -> str:
       <ul>
         <li>一般のお問い合わせ： <a href="mailto:{s.get('contact_email','')}">{html.escape(s.get('contact_email',''))}</a></li>
         <li>製品情報・取材のご連絡： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a>
-        （掲載基準は<a href="{u("media.html")}">メディア関係者の方へ</a>をご確認ください）</li>
+        （掲載基準は<a href="{u("media.html")}">メーカー・広報の方へ</a>をご確認ください）</li>
 {x_row}
       </ul>
       <p>運営： {html.escape(s['author'])}</p>
@@ -2556,69 +2556,120 @@ def render_about(site: dict) -> str:
 
 
 def render_media(site: dict, posts: list[dict]) -> str:
-    """メディアキット。PR TIMES 登録（2026-09-02 承認）を営業導線に変えるページ。
+    """メディアキット(企業・メーカー向け)。PR TIMES 登録(2026-09-02 承認)を営業導線に変えるページ。
 
-    **できないことを盛らない。** 署名記事は無い、実機レビューもまだ無い。
-    PR TIMES の審査でもここを正直に伝えて通っている（docs/PRTIMES申請.md）。
+    2026-11-07 作り直し(本人「はい」): 海外メーカーが「日本に出る前から GT に載りたい」と思う材料を前に出す。
+    GT が売れるのは閲覧数ではなく「日本に来る前に日本語の記事があり、待っている読者を預かり、
+    買えるようになったら知らせる」流れ。数字はすべて記事の front matter から数える(手で書かない)。
+    海外メーカー本人が読めるよう、英語の要約も付ける。
+
+    **できないことを盛らない。** 署名記事は無い、実機レビューもまだ無い、閲覧数は載せない(小さいため、
+    聞かれたら答える)。PR TIMES の審査でもここを正直に伝えて通っている(docs/PRTIMES申請.md)。
     誇張すると企業側の期待とのズレが後で問題になる。
     """
     s = site["site"]
     n = len(posts)
     dates = sorted(p["date"] for p in posts)
-    since = dates[0] if dates else ""
+    since = dates[0].replace("-", ".") if dates else ""
+    landed_after = count_landed_after(posts)
+    waiting = sum(1 for p in posts if not is_landed(p))
+    press = html.escape(s.get("press_email", ""))
+    contact = html.escape(s.get("contact_email", ""))
     _xa = str(s.get("x_account") or "").strip().lstrip("@")
     x_row = (f'<li>公式X： <a href="https://x.com/{html.escape(_xa)}" '
              f'target="_blank" rel="noopener">@{html.escape(_xa)}</a></li>') if _xa else ""
+    jpn = u("jpn.html")
+    giteki = u(GITEKI_PATH)
     body = f"""
 <main class="wrap article-wrap">
   <article class="article">
-    <p class="eyebrow">MEDIA KIT</p>
-    <h1 class="article-title">メディア関係者の方へ</h1>
+    <p class="eyebrow">FOR BRANDS / MEDIA KIT</p>
+    <h1 class="article-title">メーカー・広報の方へ</h1>
     <div class="prose">
-      <p>{html.escape(s['title'])}は、海外で報じられてまだ日本語記事が無いガジェットを
-      毎日紹介するメディアです。とくにクラウドファンディング発の新製品を優先して扱います。</p>
+      <p>{html.escape(s['title'])}は、海外で発表されて、まだ日本語の記事が無いガジェットを毎日紹介するメディアです。
+      とくにクラウドファンディング発の新製品を優先して扱います。
+      日本での発売が決まる前から日本語の記事を出し、その製品を待つ読者を預かり、日本で買えるようになったらお知らせします。</p>
 
-      <h2>この媒体について</h2>
+      <h2>日本に来る前から、日本の読者に届けます</h2>
+      <ol>
+        <li><strong>海外で発表された時点で、日本語の記事を出します。</strong>
+        日本で製品名を検索した人が最初に読む記事になることを目指しています。</li>
+        <li><strong>「日本で買える？使える？」を必ず書きます。</strong>
+        技適(電波法)・国内流通・日本語対応を確かめ、技適が確認できない製品は毎週、総務省のデータベースで引き直しています
+        (<a href="{giteki}">技適チェック一覧</a>)。</li>
+        <li><strong>待っている読者をメールで預かります。</strong>
+        まだ日本で買えない製品の記事には「日本上陸アラート」の登録欄があり、日本で発売・予約・国内クラウドファンディングが
+        始まったことを確かめたら、登録した読者に1通だけ知らせます。</li>
+      </ol>
+
+      <h2>これまでの数字</h2>
       <ul>
-        <li>運営: {html.escape(s['author'])}</li>
-        <li>公開記事数: {n}本（{since.replace('-', '.')} 〜、ほぼ毎日更新）</li>
-        <li>PR TIMES メディアユーザー登録済み</li>
-{x_row}
+        <li>公開記事: <strong>{n}本</strong>({since} 〜、毎日3本)</li>
+        <li>先に紹介した製品のうち、公開したあとで日本に来た製品: <strong>{landed_after}本</strong>
+        (<a href="{jpn}">日本上陸した製品</a>)</li>
+        <li>日本上陸アラートの登録欄がある記事(まだ日本で買えない製品): <strong>{waiting}本</strong></li>
+      </ul>
+      <p>数字はこのページを作り直すたびに記事のデータから数えています。閲覧数などはお問い合わせいただければお答えします。</p>
+
+      <h2>取り上げやすくなる情報</h2>
+      <p>次のものがそろっていると、記事にしやすくなります。日本語の資料が無くても構いません(英語で大丈夫です)。</p>
+      <ul>
+        <li>価格・発売時期・仕様の一次情報(公式ページ・クラウドファンディングのページ・プレスキット)</li>
+        <li>記事に使ってよい公式の画像・動画</li>
+        <li>日本での展開の予定(発売・国内クラウドファンディング・代理店)と、技適の取得予定</li>
+        <li>実機の貸し出しの可否</li>
       </ul>
 
       <h2>掲載基準</h2>
       <p>大手の新製品発表やプレスリリースの転載は扱いません。判断基準は次の3つです。</p>
       <ul>
-        <li>海外で報じられて、まだ日本語記事が無いこと</li>
+        <li>海外で報じられて、まだ日本語の記事が無いこと</li>
         <li>価格・仕様・調達額など、数字が確認できること</li>
-        <li>「日本から買えるか・使えるか」が論点になること（技適・PSE・国内流通を必ず確認して書きます）</li>
+        <li>「日本から買えるか・使えるか」が論点になること</li>
       </ul>
       <p>クラウドファンディング案件は「まだ製品ではない」ことを必ず明記します。
       出資は購入ではなく、納期遅延や仕様変更のリスクがある前提で書きます。</p>
 
       <h2>現状、できないこと</h2>
       <p>正直にお伝えします。<strong>署名記事・実機レビューはまだ行っていません。</strong>
-      海外一次情報をもとに編集部が構成する記事のみです。実機提供いただいた場合も、
+      海外の一次情報をもとに編集部が構成する記事のみです。実機を貸し出していただいた場合も、
       レビュー記事の形での掲載をお約束するものではありません。</p>
 
       <h2>広告・PRの表記について</h2>
-      <p>報酬を受けて掲載する場合は、本文中に<strong>【PR】</strong>と明記します。
+      <p>報酬を受けて掲載する場合は、本文中に<strong>【PR】</strong>と明記します(景品表示法の指定告示に従います)。
       無表記の記事はすべて編集部の独立した判断によるものです。報酬の有無にかかわらず、
-      製品の技適・PSE適合状況や入手性についての記載は変えません。</p>
+      技適・PSE の適合状況や入手性についての記載は変えません。</p>
 
       <h2>ご連絡方法</h2>
-      <p>製品情報・プレスリリース・取材のご連絡は下記までお願いします。
-      掲載可否は上記の基準に沿って編集部が判断します。</p>
+      <p>製品情報・プレスリリース・取材のご連絡は下記までお願いします。掲載の可否は上記の基準に沿って編集部が判断します。</p>
       <ul>
-        <li>製品情報・取材： <a href="mailto:{s.get('press_email','')}">{html.escape(s.get('press_email',''))}</a></li>
-        <li>その他のお問い合わせ： <a href="mailto:{s.get('contact_email','')}">{html.escape(s.get('contact_email',''))}</a></li>
+        <li>製品情報・取材： <a href="mailto:{press}">{press}</a></li>
+        <li>その他のお問い合わせ： <a href="mailto:{contact}">{contact}</a></li>
+{x_row}
       </ul>
+
+      <h2 lang="en">For brands planning to reach Japan</h2>
+      <div lang="en">
+      <p>{html.escape(s['title'])} is a Japanese-language site covering overseas gadgets, especially crowdfunded hardware,
+      that have no Japanese coverage yet. We publish before a product is sold in Japan, check Japanese radio certification
+      (Giteki) for every product, and let readers sign up to be emailed once when the product becomes available in Japan.</p>
+      <ul>
+        <li>{n} articles published since {since}; {landed_after} products we covered later launched in Japan.</li>
+        <li>Send us your press kit, official images, pricing, and any plans for Japan (retail, crowdfunding, distributors,
+        certification). English is fine.</li>
+        <li>Editorial coverage is decided by our editors under the criteria above. Paid content, if any, is always labeled [PR].</li>
+        <li>Contact: <a href="mailto:{press}">{press}</a></li>
+      </ul>
+      </div>
+
       <p><a href="{u("about.html")}">運営・編集方針についてはこちら</a></p>
     </div>
   </article>
 </main>"""
-    return (head(site, f"メディア関係者の方へ — {s['title']}",
-                 "掲載基準・PR表記ルール・ご連絡先", "media.html")
+    # 行末の改行が和文の間に空白として出るので、日本語の直後の改行と字下げを詰める(英語の段落は残す)
+    body = re.sub(r"(?<=[^\x00-\x7f])\n\s+", "", body)
+    return (head(site, f"メーカー・広報の方へ — {s['title']}",
+                 "日本で発売される前から日本語の記事を出し、待っている読者に日本上陸を知らせる海外ガジェットのメディアです。掲載基準・PR表記・ご連絡先", "media.html")
             + header(site) + body + footer(site))
 
 
