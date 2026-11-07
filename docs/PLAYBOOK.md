@@ -188,6 +188,7 @@ seo_title: Framework Laptop 12はDIY版549ドルから
 技適も未取得のことが多い。読者が今日取れる行動を示すのが記事の仕事。
 
 front matter の `alternatives` に、同じ用途を満たして**日本で今すぐ買える**製品を1〜2件書く。
+読まれている記事のこの欄は3か月に1回(2・5・8・11月の15日)、型落ちを新しい製品に入れ替える(2026-11-07 本人。予定タスク「GT オススメ欄の入れ替え」が `scripts/refresh_alts.py` の表から作業する)。見直した項目には `picked: YYYY-MM-DD` が付く。
 
 ```yaml
 alternatives:
