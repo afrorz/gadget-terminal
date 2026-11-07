@@ -41,6 +41,7 @@ japan:
   buy:
   - name: Minisforum JP 公式ストア（AtomMan G1 Pro）
     url: https://www.minisforum.jp/products/g1-pro
+    merchant: a8_minisforum
     price: 299,999円（RX 9060 XT 16GB構成・掲載時点）
     giteki: 国内正規
   source:

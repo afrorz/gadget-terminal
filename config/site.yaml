@@ -59,6 +59,18 @@ site:
     moshimo_rakuten: "https://af.moshimo.com/af/c/click?a_id=5765003&p_id=54&pc_id=54&pl_id=616&url={url}"
     # 2026-10-31 もしも経由で Yahoo!ショッピングと提携(審査なし、成果1.54%、本人の依頼で Claude が申請)
     moshimo_yahoo: "https://af.moshimo.com/af/c/click?a_id=5873716&p_id=1225&pc_id=1925&pl_id=18502&url={url}"
+    # 2026-11-07 A8.net 経由でメーカーの日本公式ストアと提携(もしもに無い店だけ)。
+    # 記事では merchant: a8_<名前> と書く。飛び先は各店の日本向けページの中だけ(外へ飛ばすと提携解除)。
+    # 公開後は A8 の「広告掲載URL管理」に記事のURLを出す決まり。
+    a8:
+      minisforum: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FN831U+5O6K+BW0YB&a8ejpredirect={url}"  # 4%・www.minisforum.jp
+      gmktec: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FXCGC2+5W12+BW0YB&a8ejpredirect={url}"      # 4%・jp.gmktec.com
+      huawei: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FTRUPE+4NTO+BW0YB&a8ejpredirect={url}"      # 3%・consumer.huawei.com/jp
+      switchbot: "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FYJBJM+4W9U+BW0YB&a8ejpredirect={url}"   # 10%・www.switchbot.jp
+      # EarFun(8%)と DJI(2%)は商品ページへのリンクが作れず、トップページ行きだけ。まだ記事には使っていない
+      #   EarFun: https://px.a8.net/svt/ejp?a8mat=4BGFJE+G0X1YQ+5REO+5YRHE
+      #   DJI:    https://px.a8.net/svt/ejp?a8mat=4BGFJE+FUDAB6+5WBC+5YJRM
+      # 審査中(11/7): Razer・final・GEEKOM・Insta360
     # 海外メーカー直販（front matter の buy）。もしもを経由せず各社の
     # プログラムに直接申し込むため、ここに merchant ごとのテンプレートを置く。
     # {url} が商品URLの位置。空のあいだは素のリンクとして出る（記事の

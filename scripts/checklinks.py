@@ -35,6 +35,10 @@ MERCHANT_HOSTS = {
     "amazon": ("amazon.co.jp",),
     "rakuten": ("rakuten.co.jp",),
     "yahoo": ("yahoo.co.jp", "paypaymall.yahoo.co.jp"),
+    "a8_minisforum": ("minisforum.jp",),
+    "a8_gmktec": ("jp.gmktec.com",),
+    "a8_huawei": ("consumer.huawei.com",),
+    "a8_switchbot": ("switchbot.jp",),
 }
 
 # 海外メーカー直販（front matter の buy）。これも build.py と同じ表を持つ。
@@ -55,7 +59,10 @@ def live_merchants(aff: dict) -> set[str]:
     """いま実際に報酬が発生する merchant。テンプレートが入っているものだけ。"""
     out = set()
     for m in MERCHANT_HOSTS:
-        t = str(aff.get(f"moshimo_{m}") or "").strip()
+        if m.startswith("a8_"):
+            t = str((aff.get("a8") or {}).get(m[3:]) or "").strip()
+        else:
+            t = str(aff.get(f"moshimo_{m}") or "").strip()
         if t and "{url}" in t:
             out.add(m)
     return out

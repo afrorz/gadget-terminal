@@ -331,6 +331,17 @@ MERCHANT_HOSTS = {
     "amazon": ("amazon.co.jp",),
     "rakuten": ("rakuten.co.jp",),
     "yahoo": ("yahoo.co.jp", "paypaymall.yahoo.co.jp"),
+    # A8.net 経由のメーカー日本公式ストア(2026-11-07 提携)。テンプレートは site.yaml の
+    # affiliate.a8.<a8_ を除いた名前>。もしもに無いメーカー直販だけをここに置く
+    "a8_minisforum": ("minisforum.jp",),
+    "a8_gmktec": ("jp.gmktec.com",),
+    "a8_huawei": ("consumer.huawei.com",),
+    "a8_switchbot": ("switchbot.jp",),
+}
+# 同じドメインに海外向けのページもある店は、日本向けのパスだけを変換する
+# (A8 は広告主が決めた飛び先の外へのリンクを提携解除の理由にしている)
+MERCHANT_PATHS = {
+    "a8_huawei": "/jp/",
 }
 
 # 海外メーカー直販（front matter の buy）。国内ECの MERCHANT_HOSTS とは
@@ -383,7 +394,14 @@ def affiliate_url(s: dict, url: str, merchant: str) -> tuple[str, bool]:
         print(f"! merchant={merchant} だが URL のドメインは {host}。"
               f"アフィリエイト変換せず素のリンクにする")
         return url, False
-    tmpl = str(aff.get(f"moshimo_{merchant}") or "").strip()
+    path = MERCHANT_PATHS.get(merchant)
+    if path and not urlparse(url).path.startswith(path):
+        print(f"! merchant={merchant} は {path} の下だけが対象。素のリンクにする: {url}")
+        return url, False
+    if merchant.startswith("a8_"):
+        tmpl = str((aff.get("a8") or {}).get(merchant[3:]) or "").strip()
+    else:
+        tmpl = str(aff.get(f"moshimo_{merchant}") or "").strip()
     if not tmpl or "{url}" not in tmpl:
         # ここを黙って素通ししていたせいで、merchant: amazon の記事が20本たまるまで
         # 誰も収益ゼロに気づけなかった（2026-08-16〜28）。未提携のストアを指定して

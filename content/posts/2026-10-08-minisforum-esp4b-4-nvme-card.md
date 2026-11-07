@@ -50,6 +50,19 @@ faq:
   a: 掲載時点で、日本のMinisforum取り扱い店や国内代理店による発売情報は確認できていません。米国公式ストアの出荷予定は10月下旬で、日本への発送可否はこちらでは確認できていません。
 - q: 技適は必要ですか
   a: ESP4Bは無線機能を持たないPCIe拡張カードで、Wi-FiやBluetoothの仕様記載はありません。技適の対象にはならない製品です。
+japan:
+  status: 発売済み
+  checked: 2026-11-07
+  summary: Minisforumの日本向け公式ストアに「ESP4B-850」として製品ページがあり、22,399円（税込表示）で注文できる。同ストアは全国送料無料、24か月保証、国内修理サービスをうたう。無線機能の無い拡張カードなので、技適の確認は要らない。
+  buy:
+  - name: Minisforum JP 公式ストア（ESP4B）
+    url: https://www.minisforum.jp/products/minisforum-esp4b-pcie-to-m-2
+    merchant: a8_minisforum
+    price: 22,399円（掲載時点）
+    giteki: 対象外
+  source:
+    title: Minisforum JP ESP4B 製品ページ
+    url: https://www.minisforum.jp/products/minisforum-esp4b-pcie-to-m-2
 images:
 - url: "https://store.minisforum.com/cdn/shop/files/MinisforumESP4B.png"
   caption: ESP4Bの外観。黒いカバーの上面に小型ファン、ブラケット側にOCuLinkとUSB Type-C
