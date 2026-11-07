@@ -1398,6 +1398,24 @@ if(!reduced&&rows.length){
 </script>"""
 
 
+def pinned_feature_strip() -> str:
+    """TOP の案内板の上に、pin: true の特集を1本だけ細い帯で出す(2026-11-07 本人、ブラックフライデーの特集)。
+    特集は一覧ページにしか出ておらず、TOP から見つけられなかった。pin を外せば帯も消える。"""
+    f = next((x for x in FEATURES_FOR_HINT if x.get("pin")), None)
+    if not f:
+        return ""
+    imgs = "".join(
+        f'<img src="{html.escape(str(x["image"]).strip())}" alt="" loading="lazy" decoding="async" '
+        f'referrerpolicy="no-referrer" onerror="this.remove()">'
+        for x in f["products"] if str(x.get("image") or "").strip())
+    n = len(f["products"])
+    return (f'<a class="pin-ft" href="{u(f["path"])}">'
+            f'<span class="pin-ft-text"><span class="pin-ft-eyebrow">{html.escape(str(f.get("eyebrow") or "FEATURE"))}</span>'
+            f'<span class="pin-ft-title">{html.escape(f["title"])}</span>'
+            f'<span class="pin-ft-go">{str(n) + "製品を見る" if n else "読む"} →</span></span>'
+            f'<span class="pin-ft-imgs">{imgs}</span></a>')
+
+
 def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int = 1,
                  all_posts: list[dict] | None = None) -> str:
     s = site["site"]
@@ -1430,6 +1448,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
         arr_panel = (f'<div class="board-panel" role="tabpanel" id="bp-arr" aria-labelledby="bt-arr" hidden>'
                      f'{lede}{head_row}{arr}</div>' if arr_posts else "")
         body = f"""
+{pinned_feature_strip()}
 <section class="board">
   <h2 class="visually-hidden">発着案内</h2>
   <div class="board-title" role="tablist" aria-label="案内板">
@@ -3558,6 +3577,17 @@ img{max-width:100%}
 
 /* 特集の製品セクション。横並びのカードではなく、上から読む記事として組む */
 .fp-list{max-width:760px;margin:0 auto 56px}
+.pin-ft{display:flex;align-items:center;gap:20px;margin:0 0 28px;padding:16px 20px;border:1px solid var(--rule-2);
+  border-left:3px solid var(--accent);border-radius:3px;background:var(--surface);color:var(--ink);text-decoration:none}
+.pin-ft:hover{border-color:var(--accent)}
+.pin-ft-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.pin-ft-eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--accent)}
+.pin-ft-title{font-size:1.08rem;font-weight:700;line-height:1.45}
+.pin-ft-go{font-size:.82rem;color:var(--accent);font-weight:600}
+.pin-ft-imgs{display:flex;gap:6px;flex:0 0 auto;overflow:hidden;max-width:46%}
+.pin-ft-imgs img{width:64px;height:64px;object-fit:contain;background:#fff;border-radius:4px;border:1px solid var(--rule);padding:3px;box-sizing:border-box;flex:none}
+@media (max-width:620px){.pin-ft{flex-direction:column;align-items:stretch;gap:12px;padding:14px 16px}
+  .pin-ft-imgs{max-width:100%}.pin-ft-imgs img{width:52px;height:52px}}
 .fp{padding:0 0 44px;margin-bottom:44px;border-bottom:1px solid var(--rule)}
 .fp:last-child{border-bottom:0;margin-bottom:0}
 .fp-head{position:relative;margin-bottom:20px}
@@ -3636,7 +3666,7 @@ a.fp-buy:not(.fp-buy-main):hover{background:rgba(255,107,61,.08)}
 
 .fr-head{font-size:1rem;margin:0 0 16px}
 
-.fi-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.fi-grid{display:grid;gap:14px;margin-top:28px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
 .fi{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:3px;
   padding:22px 24px;text-decoration:none;transition:border-color .15s}
 .fi:hover{border-color:var(--accent)}
@@ -3792,6 +3822,8 @@ def main() -> int:
         features = [f for f in (parse_feature(x)
                                 for x in sorted(FEATURES_DIR.glob("*.md"))) if f]
         features.sort(key=lambda f: str(f.get("updated") or ""), reverse=True)
+        # front matter に pin: true がある特集は一覧の先頭に固定する(2026-11-07 ブラックフライデーの特集。セール後に外す)
+        features.sort(key=lambda f: not f.get("pin"))
     FEATURES_FOR_HINT[:] = features
     LANDED_AFTER[0] = count_landed_after(posts)
     # 日付 → priority（front matter で 1 以上を指定するとその日の先頭に来る）→ slug
