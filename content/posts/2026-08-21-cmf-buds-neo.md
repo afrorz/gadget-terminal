@@ -16,16 +16,24 @@ giteki:
   number: []
   checked: 2026-11-04
   radio: "Bluetooth 6.0"
-seo_title: CMF Buds Neoは1999ルピー、ANC35dB対応
+seo_title: CMF Buds Neoは日本でも発売済み、国内価格3,800円
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でインド限定発売であり、日本向けの発売は告知されていません。
+  a: 買えます。Nothing Technology Japanが2026年10月12日に国内で発売しました（2026年11月8日確認）。インド発売から約1か月半後で、公開時点では国内発表はありませんでした。
 - q: 技適は取得していますか
-  a: 掲載時点で技適取得の情報は確認できていません。Bluetooth機能を国内で使うには技適の有無を個別に確認する必要があります。
+  a: 国内版の技適番号は確認できていません。Nothing Technology Japanの国内正規品ですが、総務省データベースでCMF Buds Neoの型番を特定できていません（2026年11月8日確認）。
 - q: いくらですか
-  a: インドでの価格は1,999ルピーです（掲載時点の価格。為替により円換算額は変動します）。
+  a: 国内では3,800円です（Nothing Technology Japanの発表、2026年11月8日確認）。インドでの価格は1,999ルピーです。
 - q: いつ発売されますか
   a: 2026年8月26日にインドでFlipkartおよび一部小売パートナー経由で発売予定です。
+japan:
+  status: 発売済み
+  checked: 2026-11-08
+  summary: Nothing Technology Japanが2026年10月12日に国内で発売した。価格は3,800円、カラーはブラック・ホワイト・ダークブルーの3色。販売先の詳細はリリースでは公式サイトの案内にとどまり、個別の店舗は確認できていない。技適は、総務省のデータベースでCMF Buds Neoの型番を特定できておらず、確認できていない。国内発表は本記事の公開から約7週間後で、公開時点では未発表だった。
+  x_hook: ANC最大35dB、ケース込みで最大52時間再生の完全ワイヤレスイヤホン「CMF Buds Neo」が、日本でも発売された。Nothing Technology Japanから3,800円、10月12日発売。
+  source:
+    title: Nothing、ワイヤレスイヤホン「CMF Buds Neo」を発表（Nothing Technology Japan、ORICON NEWS掲載のプレスリリース）
+    url: https://www.oricon.co.jp/pressrelease/3032879/
 alternatives:
 - name: Anker Soundcore P31i (Bluetooth 6.1) 【完全ワイヤレスイヤホン/アクティブノイズキャンセリング/マルチポイント接続 / 最大50時間再生 / PSE技術基準適合】
   why: PSE技術基準適合済みの国内正規品でBluetooth 6.1・ANC対応、最大50時間再生と近い使用感を今日から試せる。
