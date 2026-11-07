@@ -23,6 +23,19 @@ giteki:
   checked: 2026-10-22
   radio: Wi-Fi 6E / Bluetooth 5.4
   note: 総務省DBでMinisforum名義の登録を引けず、型番も確認できない。有線LANだけで使うなら無線は不要
+japan:
+  status: 発売済み
+  checked: 2026-11-07
+  summary: Minisforumの日本向け公式ストアに「M2 Slim」の製品ページがあり、Core 3 304の8GB+256GB構成が68,799円、12GB+256GB構成が73,599円、16GB+512GB構成が87,199円（税込表示）で注文できる。同ストアは全国送料無料、24か月保証、国内修理サービスをうたう。販売元はMinisforumの日本向け直販（海外の法人）で、技適は総務省のデータベースで確認できていない。
+  buy:
+  - name: Minisforum JP 公式ストア（M2 Slim）
+    url: https://www.minisforum.jp/products/m2-slim-core-3-304
+    merchant: a8_minisforum
+    price: 68,799円から（8GB+256GB構成・掲載時点）
+    giteki: 未確認
+  source:
+    title: Minisforum JP M2 Slim 製品ページ
+    url: https://www.minisforum.jp/products/m2-slim-core-3-304
 images:
 - url: "https://store.minisforum.com/cdn/shop/files/1_3420abdf-0b68-42d4-b08a-1a29d5295f6e.png"
   caption: 前面。USBポート2口とオーディオ端子、電源ボタンが並ぶ黒い小型筐体

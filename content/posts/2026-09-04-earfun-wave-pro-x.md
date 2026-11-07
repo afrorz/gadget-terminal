@@ -45,8 +45,14 @@ alternatives:
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/earfun/cabinet/11055449/imgrc0095763400.jpg?_ex=400x400"
 japan:
   status: 発売済み
-  checked: 2026-11-03
+  checked: 2026-11-07
   summary: EarFunが2026年10月13日に国内で発売した。通常価格は16,990円前後で、販売先はEarFun公式サイトとAmazon公式ショップ。発売前の10月12日までは25%オフ(12,743円)の先行予約を行っていた。ANCオフで最大90時間、オンで最大50時間の再生と報じられている。技適は、総務省のデータベースでWave Pro Xの型番を特定できておらず、確認できていない。購入後は本体や箱の技適マークの表示を確かめたい。
+  buy:
+  - name: Amazon.co.jp（EarFun公式ショップ）
+    url: https://www.amazon.co.jp/dp/B0HJ4WK75L
+    merchant: amazon
+    price: 14,390円（ブラック・掲載時点）
+    giteki: 未確認
   source:
     title: EarFun Wave Pro X 先行予約キャンペーン(EarFun日本公式)
     url: https://www.myearfun.com/jp/promo/earfun-wave-pro-x-early-bird-special

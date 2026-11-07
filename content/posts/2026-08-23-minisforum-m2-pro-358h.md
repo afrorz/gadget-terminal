@@ -55,8 +55,14 @@ alternatives:
   merchant: amazon
 japan:
   status: 発売済み
-  checked: 2026-10-09
-  summary: Minisforum（MICRO COMPUTER(HK)TECH LIMITED）が2026年8月24日、日本向け直販サイトで受注を開始した。税込25万1,999円（製品ページ上の通常価格は31万4,999円）、32GBメモリ+1TB SSDの1構成。プレスリリースの出荷予定は9月25日だが、10月9日時点の製品ページは10月15日出荷予定と表示している。国内向けの発表は本記事の公開の翌日で、公開時点では未発表だった。技適は、総務省のデータベースで事業者名「Minisforum」「MICRO COMPUTER」を引いたが該当が無く、確認できていない。販売元は香港の法人で、国内法人・正規代理店とは確認できないため、販売先の掲載は見送る。
+  checked: 2026-11-07
+  summary: Minisforum（MICRO COMPUTER(HK)TECH LIMITED）が2026年8月24日、日本向け直販サイトで受注を開始した。税込25万1,999円（製品ページ上の通常価格は31万4,999円）、32GBメモリ+1TB SSDの1構成。プレスリリースの出荷予定は9月25日だが、10月9日時点の製品ページは10月15日出荷予定と表示している。国内向けの発表は本記事の公開の翌日で、公開時点では未発表だった。技適は、総務省のデータベースで事業者名「Minisforum」「MICRO COMPUTER」を引いたが該当が無く、確認できていない。販売元は香港の法人で、国内法人・正規代理店とは確認できない。2026年11月7日時点でも同じ直販サイトで25万1,999円で注文できる。
+  buy:
+  - name: Minisforum JP 公式ストア（M2 Pro-358H）
+    url: https://www.minisforum.jp/products/minisforum-m2-pro-ultra-x7-358h-intel-ai-mini-pc
+    merchant: a8_minisforum
+    price: 251,999円（32GB+1TB構成・掲載時点）
+    giteki: 未確認
   x_hook: Core Ultra X7 358HとArc B390を積むミニPC「Minisforum M2 Pro-358H」が、日本向けの直販サイトでも受注中。32GBメモリ+1TB SSDで税込25万1,999円。
   source:
     title: MINISFORUM、合計180TOPSのミニPC「M2 PRO-358H」受注開始（プレスリリース）
