@@ -3911,6 +3911,18 @@ def main() -> int:
         (PUBLIC / "CNAME").write_text(host + "\n", encoding="utf-8")
         print(f"■ CNAME: {host}")
 
+    # 見つからないページ(GitHub Pages は 404.html を出す)。リンクの後ろに「）。」などが
+    # くっついて開けないことがよくある(2026-11-07)ので、.html や / より後ろの余計な文字を
+    # 取ったアドレスへ移す。それでも無ければトップへの案内だけ出す。
+    (PUBLIC / "404.html").write_text("""<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>ページが見つかりません — Gadget Terminal</title>
+<script>(function(){var p=decodeURIComponent(location.pathname),m=p.match(/^(.*?\\.html)./)||p.match(/^(\\/(?:posts|features)\\/[A-Za-z0-9._-]+?)[^A-Za-z0-9._\\/-].*$/);
+if(m&&m[1]!==p){location.replace(m[1]+location.search+location.hash);}})();</script>
+<style>body{margin:0;font-family:system-ui,sans-serif;background:#f6f5f1;color:#1d1d1f;display:grid;place-items:center;min-height:100vh;text-align:center;padding:16px}a{color:#0a5bd3}</style>
+</head><body><main><h1>ページが見つかりません</h1><p>アドレスが変わったか、途中で切れている可能性があります。</p>
+<p><a href="/">Gadget Terminal のトップへ</a></p></main></body></html>
+""", encoding="utf-8")
     print(f"■ 出力 public/ ({len(list(PUBLIC.rglob('*.html')))} ページ)")
 
     if args.serve:
