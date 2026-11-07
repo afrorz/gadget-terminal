@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 150,
-   "views": 150
+   "visits": 160,
+   "views": 160
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
@@ -39,17 +39,17 @@
    "views": 30
   },
   {
-   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/rayneo-io-gt-series.html",
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
    "visits": 20,
    "views": 20
   },
   {
    "path": "/posts/glinet-mango-2.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/rayneo-io-gt-series.html",
    "visits": 20,
    "views": 20
   },
@@ -64,17 +64,7 @@
    "views": 20
   },
   {
-   "path": "/posts/pebble-round-2-starts-shipping.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/sony-xperia-10-viii.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/anbernic-rg-dds-3ds-style.html",
    "visits": 20,
    "views": 20
   },
@@ -84,7 +74,12 @@
    "views": 20
   },
   {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "path": "/posts/anbernic-rg-dds-3ds-style.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
    "visits": 20,
    "views": 20
   },
@@ -102,6 +97,11 @@
    "path": "/posts/abxylute-p5-ps5-controller.html",
    "visits": 10,
    "views": 20
+  },
+  {
+   "path": "/posts/romu-usb-rp2354a-board.html",
+   "visits": 10,
+   "views": 10
   }
  ]
 }
