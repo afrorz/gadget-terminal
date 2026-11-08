@@ -1,8 +1,8 @@
 ---
 title: Razer「Wolverine V4 Pro」は静電容量式スティックと8,000Hzポーリングを載せたXbox/PC向けコントローラー、199.99ドルから
 slug: razer-wolverine-v4-pro-capacitive-sticks
-seo_title: Razer Wolverine V4 Pro、199ドルの静電容量式
-x_hook: Razerの新しいXbox/PC向けコントローラー「Wolverine V4 Pro」は、スティックにTMRでもホール効果でもない静電容量式センサーを採用。背面ボタンは4つとも磁石で着脱でき、PCでは8,000Hz。公式ページの価格は199.99ドルから
+seo_title: Razer Wolverine V4 Pro、日本は2026年12月発売予定
+x_hook: 静電容量式のスティックと磁石で着脱する背面ボタンを備えたXbox/PC向けの無線コントローラー「Razer Wolverine V4 Pro」が、日本でも2026年12月に発売される予定。国内の想定売価は35,980円、有線のTournament Editionは17,980円。
 keyword: Wolverine V4 Pro
 category: pc
 date: 2026-10-07
@@ -19,6 +19,13 @@ giteki:
   checked: 2026-11-04
   radio: 無線接続(方式の記載なし)
   note: Razerの登録は型番ごとで本機を特定できず
+japan:
+  status: 発売予定
+  checked: 2026-11-09
+  summary: Razerが日本での2026年12月発売を発表している。市場想定売価はV4 Proが35,980円、有線のTournament Editionが17,980円（税込、国内向けプレスリリース）。Razer日本公式ページの表示は「36,080円から」で、プレスリリースと100円違う。この国内発表は記事公開と同じ2026年10月7日に出ており、公開時点で見落としていた。技適はWolverine V4 Proの型番での登録を総務省のデータベースで特定できず、確認できていない。
+  source:
+    title: Razer、Wolverine V4 Pro / Tournament Editionを12月発売（国内向けプレスリリース）
+    url: https://www.gdm.or.jp/pressrelease/2026/1007/655122
 alternatives:
 - name: "Xbox Elite ワイヤレス コントローラー シリーズ 2"
   why: "Xbox/PC向けの背面パドル付きプロ向けコントローラー。マイクロソフト純正の国内正規品"
@@ -27,9 +34,9 @@ alternatives:
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/superdeal/cabinet/09061004/09970951/4549576126906_01.jpg"
 faq:
 - q: Wolverine V4 Proはいくらですか
-  a: Razer公式ページに「US$199.99から」と表示されています（掲載時点）。V4 Proと有線のTournament Editionのどちらの価格かは、公式ページの表記からは切り分けていません。
+  a: 米国のRazer公式ページに「US$199.99から」と表示されています（掲載時点）。V4 Proと有線のTournament Editionのどちらの価格かは、公式ページの表記からは切り分けていません。
 - q: 日本で買えますか
-  a: V4シリーズの国内発売は確認できていません。前世代のWolverine V3 Proは2024年9月13日に国内で発売されており、今回も同じ流れで国内展開される可能性はありますが、発表はありません。
+  a: 2026年12月に国内で発売される予定です。市場想定売価はV4 Proが35,980円、Tournament Editionが17,980円です（Razer日本公式ページの表示は36,080円から）。発売前のため、まだ買えません。
 - q: 何に対応していますか
   a: Xbox Series X|SとPCに対応します。Xboxでは最大250Hz、PCでは有線・無線とも最大8,000Hzのポーリングです。PlayStationとSwitchは対応対象に含まれていません。
 - q: 電池はどれくらい持ちますか

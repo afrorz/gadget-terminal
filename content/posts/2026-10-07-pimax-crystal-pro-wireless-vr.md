@@ -1,8 +1,8 @@
 ---
 title: Pimax「Crystal Pro」は1眼2880×2880のQLEDをワイヤレスで届けるPC VR、1,399ドルから
 slug: pimax-crystal-pro-wireless-vr
-seo_title: Pimax Crystal Proは1,399ドル、日本で買える？
-x_hook: 視線の先だけGPUの生の映像を60GHzで送る、Pimaxの新型ワイヤレスPC VR「Crystal Pro」。片目2880×2880のQLED、視野110度、120Hzで、本体は1,399ドル
+seo_title: Pimax Crystal Pro、日本価格は255,100円で2027年出荷予定
+x_hook: 視線の先だけGPUの生の映像を60GHzで送るワイヤレスPC VR「Pimax Crystal Pro」が、日本の公式ストアで予約を受け付けている。本体は255,100円、60G AirLinkとのセットは346,200円で、出荷は2027年の予定。
 keyword: Pimax Crystal Pro
 category: pc
 date: 2026-10-07
@@ -19,6 +19,13 @@ giteki:
   checked: 2026-10-07
   radio: Wi-Fi 6E / 60GHz
   note: Crystal Superの登録のみで本機は未確認
+japan:
+  status: 発売予定
+  checked: 2026-11-09
+  summary: Pimaxの日本公式ストア（jp.pimax.com）が日本円の価格を出している。本体は255,100円、第三世代60G AirLinkとのセットは346,200円で、出荷は2027年の予定。購入できる状態ではなく、予約金200円（返金不可）の予約枠だけが開いている（2026年10月7日時点の報道）。公開時点で日本向けの価格は確認できていなかったが、その後に判明した。技適はCrystal Proの登録を総務省のデータベースで特定できず、確認できていない。
+  source:
+    title: Pimax 日本公式ストア Crystal Pro
+    url: https://jp.pimax.com/products/crystal-pro
 alternatives:
 - name: "Meta Quest 3 512GB"
   why: "ケーブル無しで遊べるVRヘッドセット。Meta公式ストアで販売される国内正規品"
@@ -35,9 +42,9 @@ faq:
 - q: Pimax Crystal Proはいくらですか
   a: 発表時の価格は、本体のみが1,399ドル、60G AirLinkキットとのセットが1,899ドル、キット単体が599ドルです。1ドルで予約できます。
 - q: いつ発売されますか
-  a: 出荷日は発表されていません。Pimaxは出荷日を追って知らせるとしています。
+  a: 公開時点では未発表でした。その後、日本の公式ストアが出荷を2027年の予定としています。
 - q: 日本で買えますか
-  a: 日本向けの価格・発送・国内代理店の扱いは確認できていません。同社の前モデル「Crystal」は2023年にアスクが国内で取り扱いを発表しており、同じ流通に乗るかどうかは今後の発表次第です。
+  a: まだ買えません。日本の公式ストアが本体255,100円、60G AirLinkセット346,200円と出荷2027年予定を掲示し、予約金200円（返金不可）の予約だけを受け付けています。技適はCrystal Proの登録を確認できていません。
 - q: 技適は取得していますか
   a: Crystal Proの登録は確認できていません。総務省のデータベースでPimax Technologyの登録として見つかったのは、2025年7月のCrystal Superでした。Wi-Fi 6Eと60GHz無線を使う製品なので、国内で使うなら技適の確認が必要です。
 images:
