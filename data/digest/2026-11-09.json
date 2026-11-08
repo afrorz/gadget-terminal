@@ -1,0 +1,712 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T06:20:21.201944+09:00",
+  "stats": {
+    "fetched": 725,
+    "unique": 685,
+    "new": 207,
+    "clusters": 204,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "8b966c44c49f8f44",
+      "title": "PCs with NVIDIA RTX Spark ship this month, Asus unveils the NUC 14 Essential Fanless mini PC, and Samsung launches Galaxy Tab S12 series : Liliputing News Roundup",
+      "url": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup",
+      "summary": "The Microsoft Surface Laptop Ultra goes up for pre-order today for $2599 and up and ships Oct 16 • The Microsoft Surface RTX Spark Dev Box mini PC with NVIDIA RTX Spark starts at $5999, but it ships standard with a 20-core RTX Spark N1X chip with a 6144-core Blackwell RTX GPU and 128GB unified LPDDR5x memory. blogs.windows.com/devices/2026 • The new Asus NUC 14 Essential Fanless is a mini PC with ",
+      "published": "2026-10-07T18:45:21+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+4 mini pc",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "22f4119e4a75b4e4",
+      "title": "Epic Games Names SteamOS Among Planned Linux Targets for Its New Launcher",
+      "url": "https://www.techpowerup.com/354575/epic-games-names-steamos-among-planned-linux-targets-for-its-new-launcher",
+      "canonical": "https://www.techpowerup.com/354575/epic-games-names-steamos-among-planned-linux-targets-for-its-new-launcher",
+      "summary": "SteamOS is now officially on the list of Linux distributions Epic Games plans to support with its new Epic Games Launcher. In a statement to GamingOnLinux , Epic communications director Jake Jones said the launcher is still in Preview, and that Epic plans to support as many Linux distributions as possible, including Fedora, SteamOS, Cachy, Omarchy, and more. It seems to be the first time Epic has ",
+      "published": "2026-11-08T00:35:15+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "693d224a56aa57aa",
+      "title": "Oppo’s new three-port 120W charger is launching soon with these specs",
+      "url": "https://www.gizmochina.com/2026/11/08/oppos-new-three-port-120w-charger-is-launching-soon-with-these-specs/",
+      "canonical": "https://www.gizmochina.com/2026/11/08/oppos-new-three-port-120w-charger-is-launching-soon-with-these-specs",
+      "summary": "Oppo is preparing a new 120W charger with three charging ports, and the accessory has now cleared China&#8217;s 3C certification. The listing appeared on the country&#8217;s Ministry of Industry and Information Technology website. Oppo has yet to announce the charger, but the certification reveals almost everything about it. The new accessory comes as Oppo adds [&#8230;] The post Oppo’s new three-",
+      "published": "2026-11-08T03:31:55+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Oppo-s-making-a-120W-3-port-GaN-charger.1445184.0.html"
+      ]
+    },
+    {
+      "id": "7e6f1ded376d00c0",
+      "title": "The first fully Chinese desktop: Huawei launches PC with Kirin X90 and HarmonyOS",
+      "url": "https://www.notebookcheck.net/The-first-fully-Chinese-desktop-Huawei-launches-PC-with-Kirin-X90-and-HarmonyOS.1445194.0.html",
+      "canonical": "https://www.notebookcheck.net/The-first-fully-Chinese-desktop-Huawei-launches-PC-with-Kirin-X90-and-HarmonyOS.1445194.0.html",
+      "summary": "Huawei has unveiled what it describes as the first fully Chinese-made desktop PC, powered by its 10-core Kirin X90 processor and running HarmonyOS. The Qingyun HM650 is designed for government agencies and businesses, with enterprise security features and an integrated AI assistant. It is priced at 7,199 yuan (around $1,080), with sales scheduled to begin on December 1.",
+      "published": "2026-11-08T11:00:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9049abad9b8794cb",
+      "title": "vivo X500 Ultra on track to launch next year, says tipster",
+      "url": "https://www.gsmarena.com/vivo_x500_ultra_launch_timeframe_corroborated-news-75399.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_ultra_launch_timeframe_corroborated-news-75399.php",
+      "summary": "Tipster Digital Chat Station recently said that the Oppo Find X10 Ultra is on hold and might not launch. Before that, we heard Xiaomi had canceled the 18 Ultra. This left some wondering whether vivo would also cancel its X500 Ultra, despite vivo's VP of Product confirming that the smartphone would arrive next year in March or April in China. That confirmation came in September, and plans can alway",
+      "published": "2026-11-07T22:59:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Vivo-X500-Ultra-s-launch-timeframe-reiterated-in-new-leak.1445183.0.html"
+      ]
+    },
+    {
+      "id": "8421137d31a61a65",
+      "title": "Android’s first wide smartphone, the Coolpad Cool X Wide, is now on sale",
+      "url": "https://www.gizmochina.com/2026/11/08/androids-first-wide-smartphone-the-coolpad-cool-x-wide-is-now-on-sale/",
+      "canonical": "https://www.gizmochina.com/2026/11/08/androids-first-wide-smartphone-the-coolpad-cool-x-wide-is-now-on-sale",
+      "summary": "The Coolpad&#8217;s first and probably Android’s first wide smartphone, called the Coolpad Cool X Wide, is now available to buy in China. Coolpad initially announced the phone and opened pre-orders on October 20. The base 8/128GB model retails at 999 yuan (~ $150). The other options include 8GB + 256GB for 1,199 yuan (~ $180) [&#8230;] The post Android’s first wide smartphone, the Coolpad Cool X W",
+      "published": "2026-11-08T04:12:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "37ac9376de7d90e0",
+      "title": "Edifier launches GT3 gaming earbuds with -50dB hybrid ANC & 48h battery",
+      "url": "https://www.gizmochina.com/2026/11/07/edifier-hecate-gt3-tws-earbuds-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/07/edifier-hecate-gt3-tws-earbuds-launched-specs-price",
+      "summary": "Edifier has added a new set of wireless earbuds to its gaming-focused Hecate line. The Hecate GT3 recently launched in China for 265 yuan ($40), offering a mix of active noise cancellation, low-latency features, and a battery life geared toward longer gaming sessions. Edifier Hecate GT3 Specifications Also Read The Best Wireless Earbuds Under $100 [&#8230;] The post Edifier launches GT3 gaming ear",
+      "published": "2026-11-07T23:28:07+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cb3b6b38fc0017ef",
+      "title": "AOC launches new 16-inch OLED portable monitor with slim aluminium alloy body",
+      "url": "https://www.gizmochina.com/2026/11/08/aoc-16t40d-portable-oled-monitor-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/08/aoc-16t40d-portable-oled-monitor-launched-specs-price",
+      "summary": "AOC has released a new portable monitor in China called the 16T40D. It is priced at 1,549 yuan, which converts to roughly $232. AOC 16T40D Portable Monitor Specifications The display features an OLED panel with a 1920 x 1200-pixel resolution (WUXGA) and a 16:10 aspect ratio, providing extra vertical screen space for reading documents, browsing [&#8230;] The post AOC launches new 16-inch OLED porta",
+      "published": "2026-11-08T00:33:35+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a8f8b7e7af7aa30d",
+      "title": "Weekly poll: are you interested in the Motorola Signature 27?",
+      "url": "https://www.gsmarena.com/weekly_poll_are_you_interested_in_the_motorola_signature_27-news-75364.php",
+      "canonical": "https://www.gsmarena.com/weekly_poll_are_you_interested_in_the_motorola_signature_27-news-75364.php",
+      "summary": "For a while there, it felt like Motorola had given up on flagships, at least the non-folding kind. The Motorola Signature 27 is a return to form for the storied smartphone maker (the phone’s shape is kind of reminiscent of the old Droid Razrs, isn’t it?). Among its many other impressive specs, this is the first Moto that supports GrapheneOS, a privacy-focused fork of Android that lets you decide h",
+      "published": "2026-11-08T05:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 ships",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3b7faeba0156fde2",
+      "title": "WoW: Forever Sets a New Franchise Record for Peak Concurrent Players",
+      "url": "https://www.techpowerup.com/354583/wow-forever-sets-a-new-franchise-record-for-peak-concurrent-players",
+      "canonical": "https://www.techpowerup.com/354583/wow-forever-sets-a-new-franchise-record-for-peak-concurrent-players",
+      "summary": "World of Warcraft: Forever is now the biggest launch in WoW history by peak concurrent players, according to Blizzard. The official Warcraft account also says the game brought back the highest number of returning players the franchise has ever seen. Forever went live on November 4 for Windows and macOS, and it is included with a regular WoW subscription. Blizzard didn't share any actual numbers, s",
+      "published": "2026-11-08T14:33:03+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "26079e8e7f7166e9",
+      "title": "Zelda: Ocarina of Time posts highest Metacritic user score ever despite review bombing",
+      "url": "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-posts-highest-Metacritic-user-score-ever-despite-review-bombing.1444979.0.html",
+      "canonical": "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-posts-highest-Metacritic-user-score-ever-despite-review-bombing.1444979.0.html",
+      "summary": "Metacritic user reviews are now live days after the Zelda: Ocarina of Time remake release date. Gamers rank it above Clair Obscur: Expedition 33 and Silent Hill 2. Score bombing failed to overshadow players who compliment the Switch 2 game’s revamped graphics and controls.",
+      "published": "2026-11-07T22:29:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "013b527a6fc06fe6",
+      "title": "Casio's new solar-powered G-Shock launches in Japan with a 20% discount at select retailers",
+      "url": "https://www.notebookcheck.net/Casio-s-new-solar-powered-G-Shock-launches-in-Japan-with-a-20-discount-at-select-retailers.1444980.0.html",
+      "canonical": "https://www.notebookcheck.net/Casio-s-new-solar-powered-G-Shock-launches-in-Japan-with-a-20-discount-at-select-retailers.1444980.0.html",
+      "summary": "Casio's G-Shock GBM-2100LXB-1A2JF has reached its 7 November Japanese release date, with retailer Time Station Neo listing the Bluetooth-equipped, solar-powered watch for ¥34,320, compared with its ¥42,900 recommended retail price.",
+      "published": "2026-11-08T01:04:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 release date",
+        "+4 japan",
+        "-6 discount",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "99faa2c088d919c6",
+      "title": "Logitech G502 X Lightspeed Review: No lights, same price",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g502-x-lightspeed-review",
+      "canonical": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g502-x-lightspeed-review",
+      "summary": "Logitech's G502 X Lightspeed strips the G502 X Plus of its lighting, but retains the $160 price tag.",
+      "published": "2026-11-08T15:00:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 review",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cd10b5c08213e5ca",
+      "title": "LunaReverse brings a dark fantasy revenge story to Switch and Steam",
+      "url": "https://www.notebookcheck.net/LunaReverse-brings-a-dark-fantasy-revenge-story-to-Switch-and-Steam.1445338.0.html",
+      "canonical": "https://www.notebookcheck.net/LunaReverse-brings-a-dark-fantasy-revenge-story-to-Switch-and-Steam.1445338.0.html",
+      "summary": "Aniplex and Cybird have announced LunaReverse, a new dark fantasy visual novel following a former sorceress whose quest for revenge leads her down a decidedly sinister path. Developed for Nintendo Switch and PC via Steam, the game combines supernatural themes, mysterious characters and artwork by Japanese illustrator Ugonba. A worldwide release is planned, with English among the supported language",
+      "published": "2026-11-08T18:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 announced",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cb19a1fdd250b940",
+      "title": "Coolpad's wide-screen smartphone launches in China for the equivalent of $150",
+      "url": "https://www.notebookcheck.net/Coolpad-s-wide-screen-smartphone-launches-in-China-for-the-equivalent-of-150.1445165.0.html",
+      "canonical": "https://www.notebookcheck.net/Coolpad-s-wide-screen-smartphone-launches-in-China-for-the-equivalent-of-150.1445165.0.html",
+      "summary": "Coolpad has released its wide-screen smartphone in China. With a price tag that is a fraction of that of the Huawei Pura X View, the Coolpad Cool X View is for those on a budget but want a phone with the new form factor.",
+      "published": "2026-11-08T06:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2114eebfab852080",
+      "title": "Google Pixel 11 Pro XL vs Samsung Galaxy S26 Ultra",
+      "url": "https://www.gsmarena.com/pixel_11_pro_xl_vs_galaxy_s26_ultra_battery_camera_price_compared-news-75303.php",
+      "canonical": "https://www.gsmarena.com/pixel_11_pro_xl_vs_galaxy_s26_ultra_battery_camera_price_compared-news-75303.php",
+      "summary": "Looking for a premium Android flagship? The Google Pixel 11 Pro XL and Samsung Galaxy S26 Ultra are two compelling options, but they take rather different approaches. Google's latest Pixel emphasizes its camera experience and tightly integrated Google software, while Samsung offers more powerful hardware, a broader feature set, and extras like Privacy Display and the S Pen. And due to the fact tha",
+      "published": "2026-11-08T12:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/video/iphone-18-pro-vs-galaxy-s26-ultra-is-interesting-this-year-video/"
+      ]
+    },
+    {
+      "id": "e450e8ce6a594938",
+      "title": "Optoma’s $599 4K Projector casts a 150-inch Screen for the price of an Android Phone",
+      "url": "https://www.yankodesign.com/2026/11/08/optomas-599-4k-projector-casts-a-150-inch-screen-for-the-price-of-an-android-phone/?utm_source=rss&utm_medium=rss&utm_campaign=optomas-599-4k-projector-casts-a-150-inch-screen-for-the-price-of-an-android-phone",
+      "canonical": "https://www.yankodesign.com/2026/11/08/optomas-599-4k-projector-casts-a-150-inch-screen-for-the-price-of-an-android-phone",
+      "summary": "Optoma&#8217;s $599 4K Projector casts a 150-inch Screen for the price of an Android Phone My first apartment had a living room wall the size of a parking space and a TV budget the size of a parking ticket. Had...",
+      "published": "2026-11-08T18:20:03+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 price",
+        "+3 projector",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ad1cec61d357a06",
+      "title": "Weekly poll results: touchscreens on laptops only make sense if you can use the laptop as a tablet",
+      "url": "https://www.gsmarena.com/weekly_poll_results_touchscreens_on_laptops_only_make_sense_if_you_can_use_the_laptop_as_a_tablet-news-75367.php",
+      "canonical": "https://www.gsmarena.com/weekly_poll_results_touchscreens_on_laptops_only_make_sense_if_you_can_use_the_laptop_as_a_tablet-news-75367.php",
+      "summary": "The results from last week’s poll show that touchscreens do have a place on some laptops. It’s mainly the ones with a 360° hinge or the ones where the screen can detach from the keyboard – in other words, the laptops that can be used as a tablet. According to commenters, a touchscreen enables quick and easy navigation – especially for people who don’t like using a touchpad. Also, it has clear appl",
+      "published": "2026-11-08T02:03:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "20562a68939906d5",
+      "title": "7 apps that still look terrible on foldables, and Google should call them out first",
+      "url": "https://www.androidauthority.com/worst-android-apps-foldables-3729614/",
+      "canonical": "https://www.androidauthority.com/worst-android-apps-foldables-3729614",
+      "summary": "Developers are gradually adapting to the iPhone Duo, but these app makers still haven't adapted to Android foldables.",
+      "published": "2026-11-08T10:30:58+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1d26a35bcc117c7d",
+      "title": "Timex launches new color variants of its Atelier Marine and GMT24 M1a watches with Swiss automatic movements",
+      "url": "https://www.gizmochina.com/2026/11/08/timex-atelier-marine-and-gmt24-m1a-watches-new-colors-launched/",
+      "canonical": "https://www.gizmochina.com/2026/11/08/timex-atelier-marine-and-gmt24-m1a-watches-new-colors-launched",
+      "summary": "Timex is expanding its higher-end Atelier collection today, introducing new colorways and material updates to two of its primary mechanical models: the Marine M1a and the GMT24 M1a. While Timex is traditionally known for its highly accessible quartz pieces, the Atelier line represents the company&#8217;s ongoing push into the premium tool watch category, utilizing Swiss [&#8230;] The post Timex la",
+      "published": "2026-11-08T11:45:33+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "af2489412be951c7",
+      "title": "Maxsun Readies Panther Lake and Wildcat Lake MoDT NAS Motherboards for November",
+      "url": "https://www.techpowerup.com/354582/maxsun-readies-panther-lake-and-wildcat-lake-modt-nas-motherboards-for-november",
+      "canonical": "https://www.techpowerup.com/354582/maxsun-readies-panther-lake-and-wildcat-lake-modt-nas-motherboards-for-november",
+      "summary": "Maxsun has shared full specifications for the SK-PTLNAS and SK-WCLAIO, two NAS-focused MoDT (Mobile on Desktop) motherboards built around Intel's Panther Lake and Wildcat Lake chips. Both were first shown at Computex 2026 and are expected to launch this month, though pricing is still unknown. The SK-PTLNAS now tops out at the Core Ultra 9 386H, a 16-core chip with four Xe3 GPU cores, a 25 W base p",
+      "published": "2026-11-08T13:54:21+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "14c39cd54300972a",
+      "title": "Galaxy S27 clears BIS ahead of early 2027 launch",
+      "url": "https://www.gizmochina.com/2026/11/08/galaxy-s27-clears-bis-ahead-of-early-2027-launch/",
+      "canonical": "https://www.gizmochina.com/2026/11/08/galaxy-s27-clears-bis-ahead-of-early-2027-launch",
+      "summary": "BIS filings don’t usually spill a lot of hardware details, but this same model number has already shown up in other databases. The post Galaxy S27 clears BIS ahead of early 2027 launch appeared first on Gizmochina .",
+      "published": "2026-11-08T20:09:43+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4799dd79254f6e8b",
+      "title": "Play Text Adventures on an E-Paper Handheld",
+      "url": "https://hackaday.com/2026/11/07/play-text-adventures-on-an-e-paper-handheld/",
+      "canonical": "https://hackaday.com/2026/11/07/play-text-adventures-on-an-e-paper-handheld",
+      "summary": "Choose your own adventure books were one of the first media to become gamified in the computer era, and [Jeremy Ngai] wanted to bridge the experience further with an e-paper &#8230;read more",
+      "published": "2026-11-08T00:00:30+00:00",
+      "source_id": "hackaday",
+      "source": "Hackaday",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ba478d365b38a7d6",
+      "title": "This Light-Charging E Ink Frame Gives Your Photos a Home Beyond Your Phone",
+      "url": "https://www.yankodesign.com/2026/11/07/this-light-charging-e-ink-frame-gives-your-photos-a-home-beyond-your-phone/?utm_source=rss&utm_medium=rss&utm_campaign=this-light-charging-e-ink-frame-gives-your-photos-a-home-beyond-your-phone",
+      "canonical": "https://www.yankodesign.com/2026/11/07/this-light-charging-e-ink-frame-gives-your-photos-a-home-beyond-your-phone",
+      "summary": "This Light-Charging E Ink Frame Gives Your Photos a Home Beyond Your Phone Taking photographs has become almost effortless, but getting them off our phones is another matter. There&#8217;s always a favorite vacation snapshot that deserves better than...",
+      "published": "2026-11-08T02:45:00+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 e ink",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "779165e6a26673ca",
+      "title": "Procolored K13 Lite DTF printer review – Custom apparel printing with printer, curing oven, and heat press",
+      "url": "https://www.cnx-software.com/2026/11/08/procolored-k13-lite-dtf-printer-review-custom-apparel-printing-with-printer-curing-oven-and-heat-press/",
+      "canonical": "https://www.cnx-software.com/2026/11/08/procolored-k13-lite-dtf-printer-review-custom-apparel-printing-with-printer-curing-oven-and-heat-press",
+      "summary": "Back in May, we wrote about the Procolored X One 3-in-1 laser engraver with UV and UV-DTF color printing, and the company contacted us a few months later for a review. But instead of having us review the laser engraver, they proposed that we test their K13 Lite DTF printer &#8220;developed for small businesses and creators producing customized apparel and merchandise&#8221;. Basically, a T-shirt p",
+      "published": "2026-11-08T08:00:55+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3f82a20b4ce5664f",
+      "title": "Xiaomi works its magic: Spectacular battery life in our review of its new flagship tablet",
+      "url": "https://www.notebookcheck.net/Xiaomi-works-its-magic-Spectacular-battery-life-in-our-review-of-its-new-flagship-tablet.1438202.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-works-its-magic-Spectacular-battery-life-in-our-review-of-its-new-flagship-tablet.1438202.0.html",
+      "summary": "A huge, sharp display takes its toll on battery life in our testing - most of the time, at least. However, Xiaomi's XXL tablet keeps going through even the longest Netflix series marathon. With its 12,000 mAh battery and 120-watt charging, the Pad 9 Pro Max shows Apple and Samsung how it's done.",
+      "published": "2026-11-08T13:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1489a106a75955cc",
+      "title": "The LEGO Ideas team may have accidentally leaked its first 2026 review results",
+      "url": "https://www.notebookcheck.net/The-LEGO-Ideas-team-may-have-accidentally-leaked-its-first-2026-review-results.1445200.0.html",
+      "canonical": "https://www.notebookcheck.net/The-LEGO-Ideas-team-may-have-accidentally-leaked-its-first-2026-review-results.1445200.0.html",
+      "summary": "Following Unibricks' recent leaks, the LEGO Ideas team seems to have accidentally revealed its first 2026 review results. Among them are projects inspired by movies, cultures, and video games. LEGO could announce them tomorrow.",
+      "published": "2026-11-08T14:28:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0ce0b41235fb1e8a",
+      "title": "Japanese arcades suffer week-long blackout following Sega server hack",
+      "url": "https://www.tomshardware.com/video-games/japanese-arcades-suffer-week-long-blackout-following-sega-server-hack-bandai-namco-titles-resume-trial-operations-as-sega-games-remain-offline",
+      "canonical": "https://www.tomshardware.com/video-games/japanese-arcades-suffer-week-long-blackout-following-sega-server-hack-bandai-namco-titles-resume-trial-operations-as-sega-games-remain-offline",
+      "summary": "The sensory overload in video game arcades in Japan was eerily absent from some venues this week.",
+      "published": "2026-11-08T15:00:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bd40500bac82cd31",
+      "title": "Xiaomi Pad 9: So much tablet for the money, but one detail is an everyday annoyance",
+      "url": "https://www.notebookcheck.net/One-of-the-best-tablets-for-value-but-this-flaw-is-annoying-in-everyday-use.1442017.0.html",
+      "canonical": "https://www.notebookcheck.net/One-of-the-best-tablets-for-value-but-this-flaw-is-annoying-in-everyday-use.1442017.0.html",
+      "summary": "The Xiaomi Pad 9 impresses in our review with an excellent overall package. However, Xiaomi continues to omit a fingerprint sensor from its mid-range tablet, leaving buyers with only insecure 2D facial recognition instead. What looks like a simple cost-cutting measure on the spec sheet quickly becomes an annoyance in everyday use.",
+      "published": "2026-11-08T15:52:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6823cc63b3262cba",
+      "title": "ASRock unveils motherboard with up to 4 TB of DDR5 — and it fits in a standard PC case",
+      "url": "https://www.notebookcheck.net/ASRock-unveils-motherboard-with-up-to-4-TB-of-DDR5-and-it-fits-in-a-standard-PC-case.1445357.0.html",
+      "canonical": "https://www.notebookcheck.net/ASRock-unveils-motherboard-with-up-to-4-TB-of-DDR5-and-it-fits-in-a-standard-PC-case.1445357.0.html",
+      "summary": "ASRock Rack has shown off a motherboard for Intel’s upcoming Diamond Rapids Xeon processors that can accommodate up to 4 TB of DDR5 memory. Despite packing 16 memory slots, the DMRD16-2L+ is roughly the size of a large E-ATX desktop motherboard and can fit in some standard PC cases.",
+      "published": "2026-11-08T18:25:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 unveil",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "【新発売】発火しにくい安全設計の「リン酸鉄リチウムイオン電池」を採用！HIDISCより高耐久・長寿命なPD20W対応モバイルバッテリー2モデルが登場",
+      "url": "https://prtimes.jp/main/html/rd/p/000000124.000053206.html",
+      "summary": "",
+      "published": "2026-11-08T21:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "e3dcaf6673309016"
+    },
+    {
+      "title": "日本発のプレミアムオーラルケアブランド「maus（マウス）」誕生。第一弾となるプレミアム歯ブラシを発売開始。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000193724.html",
+      "summary": "",
+      "published": "2026-11-08T06:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "9349227c124b4aa9"
+    },
+    {
+      "title": "【日本初】高市政権の「サイバーセキュリティ緊急対策パッケージ」にサイカルトラストの特許群で対応。AIエージェント行為の実行前保留とAI診断の実施証明の特許を実施許諾込みで提供し、即日対応化を支援",
+      "url": "https://prtimes.jp/main/html/rd/p/000000205.000044818.html",
+      "summary": "[cycaltrust株式会社] サイカルトラスト株式会社（本社：東京都渋谷区、代表取締役：須江 剛、以下「サイカルトラスト」）は、真贋証明に特化した50件程の特許群で強固に保護されたあらゆる資産（物理・非物理・ハイブリッド＝RWA・...",
+      "published": "2026-11-08T05:45:18+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "7dbe9fd8c4c1e3a1"
+    }
+  ]
+}
