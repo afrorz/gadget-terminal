@@ -33,6 +33,15 @@ images:
 - url: "https://inkanva.com/cdn/shop/t/2/assets/inkanva-overview-frames-v3.webp?v=16775694904709"
   caption: 額縁だけを替えて部屋の雰囲気に合わせる使い方の例
 credit: Inkanva 公式サイト
+clips:
+- file: inkanva-self-charging-e-ink-canvas/charge.mp4
+  caption: "部屋の明かりで充電する（背面に太陽電池パネル）"
+  credit: "Inkanva 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=kbUKeJW4Nhk"
+- file: inkanva-self-charging-e-ink-canvas/snap.mp4
+  caption: "パネルは磁石で付け外し（工具は要らない）"
+  credit: "Inkanva 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=kbUKeJW4Nhk"
 sources:
 - title: "Inkanva: The World's First Self-Charging E-Ink Canvas（Kickstarter。金額・支援者数は2026年11月9日時点）"
   url: https://www.kickstarter.com/projects/inkanva/inkanva

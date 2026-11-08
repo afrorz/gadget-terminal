@@ -30,6 +30,15 @@ images:
 - url: "https://www.aina.com/_next/static/immutable/media/aina-ring-eclipse-black-display-on.3c9wtzi4lwjx2.webp"
   caption: Eclipse Blackで画面を点灯した状態。通知の件数と時刻が出ている
 credit: Aina 公式サイト
+clips:
+- file: aina-ring-oled-joystick-ai-ring/approve.mp4
+  caption: "親指ではじいて承認（上で承認、下で却下）"
+  credit: "Aina 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=7uNXQ9SnHTw"
+- file: aina-ring-oled-joystick-ai-ring/hand.mp4
+  caption: "画面は0.9インチOLED（曲面のガラスで覆う）"
+  credit: "Aina 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=7uNXQ9SnHTw"
 sources:
 - title: Aina Ring（公式。価格・仕様は2026年11月9日時点）
   url: https://www.aina.com/

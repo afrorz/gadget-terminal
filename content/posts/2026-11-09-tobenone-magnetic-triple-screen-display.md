@@ -29,6 +29,19 @@ images:
 - url: "https://i.kickstarter.com/assets/055/757/296/24065bb468bfa0791f10fdf1b01031fa_original.jpeg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1793688199&width=1552&sig=qCu2kzhq%2FPLwoDpoe2T6aDa%2FJWn5BJlzYNO%2FaN%2FjTPs%3D"
   caption: プロジェクトのメイン画像。ノートPCの上と左右に1枚ずつ、計3枚のモニターを並べた使用例（人物は広告用の画像）
 credit: TobenONE（Kickstarter プロジェクトページ）
+clips:
+- file: tobenone-magnetic-triple-screen-display/top.mp4
+  caption: "画面は磁石でくっつく（上と左右に1枚ずつ）"
+  credit: "TobenONE 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=23ucWvFwDks"
+- file: tobenone-magnetic-triple-screen-display/rotate.mp4
+  caption: "縦にも横にも向きを変えられる（角度も調整できる）"
+  credit: "TobenONE 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=23ucWvFwDks"
+- file: tobenone-magnetic-triple-screen-display/fold.mp4
+  caption: "折りたたんで平らにできる（全体で約3kg）"
+  credit: "TobenONE 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=23ucWvFwDks"
 sources:
 - title: "TobenONE: Magnetic Modular Wireless Triple-Screen Display（Kickstarter。金額・支援者数は2026年11月9日時点）"
   url: https://www.kickstarter.com/projects/1451952642/tobenone-magnetic-modular-wireless-triple-screen-display
