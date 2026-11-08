@@ -77,6 +77,7 @@ products:
     source: https://prtimes.jp/main/html/rd/p/000000008.000084333.html
     availability: verified
   - name: Micro
+    hook: "手のひらに完全に収まる、極小のゲームコントローラー"
     brand: 8BitDo
     image: https://8bitdo-jp.com/wp-content/uploads/2026/03/8bitdo-ゲームコントローラー-2.jpg
     credit: 8BitDo 日本公式サイト

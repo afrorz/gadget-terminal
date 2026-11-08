@@ -8,6 +8,7 @@ lede: 海外で話題になるE Ink端末の多くは、日本では正規に買
 updated: 2026-09-27
 products:
   - name: BOOX Palma 2 Pro
+    hook: "スマホの形をした、カラーの電子ペーパー。SIMも挿せる"
     brand: ONYX
     image: "https://prcdn.freetls.fastly.net/release_image/33556/59/33556-59-1130d66d85b429c9d46be345a9fd60d4-1200x900.png"
     credit: "SKT株式会社 プレスリリース(PR TIMES)"
@@ -32,6 +33,7 @@ products:
     source: https://prtimes.jp/main/html/rd/p/000000059.000033556.html
     availability: caution
   - name: BOOX Note Air6C
+    hook: "論文のPDFに、紙のように直接書き込める10.3インチ"
     brand: ONYX
     image: "https://prcdn.freetls.fastly.net/release_image/33556/65/33556-65-22d584bce71d9e7892a0a8edff2058b2-1200x800.png"
     credit: "SKT株式会社 プレスリリース(PR TIMES)"
@@ -79,6 +81,7 @@ products:
     source: https://corp.rakuten.co.jp/news/press/2024/0411_04.html
     availability: verified
   - name: Kindle Scribe Colorsoft
+    hook: "Kindleの本の中に、10色のペンで直接書き込める"
     brand: Amazon
     image: "https://assets.aboutamazon.com/dims4/default/b1c16db/2147483647/strip/true/crop/12500x5302+0+0/resize/1320x560!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Ffb%2Fad%2F951369a743a5bd4ef5f5820a1c2e%2Fmain-image-3000.jpg"
     credit: Amazon Press Center
@@ -102,6 +105,7 @@ products:
     source: https://press.aboutamazon.com/jp/2026/5/amazon-launches-new-kindle-scribe-lineup-in-japan-including-kindle-scribe-colorsoft-the-first-color-display-model
     availability: verified
   - name: DASUNG13K Gen2 シリーズ
+    hook: "PCの画面そのものを、電子ペーパーにするモニター"
     brand: DASUNG
     image: https://prcdn.freetls.fastly.net/release_image/33556/64/33556-64-204f01e85c43115f980fe1fe5421b740-1600x1200.png
     credit: SKT株式会社 プレスリリース（PR TIMES）

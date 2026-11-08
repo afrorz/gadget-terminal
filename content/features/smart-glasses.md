@@ -54,6 +54,7 @@ products:
     source: https://prtimes.jp/main/html/rd/p/000000139.000140298.html
     availability: verified
   - name: XREAL 1S
+    hook: "USB-Cケーブル1本で、目の前に大画面を映すメガネ"
     brand: XREAL
     image: https://resource.xreal.com/www-xreal-com/images/1s/XREAL_1S_ID_1.webp
     credit: XREAL 公式サイト

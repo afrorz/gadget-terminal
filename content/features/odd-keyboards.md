@@ -31,6 +31,7 @@ products:
     source: https://pip.raspberrypi.com/categories/1273-approvals
     availability: verified
   - name: Cardputer Adv
+    hook: "名刺サイズの板に、56個のキーと画面。これでコンピュータ"
     brand: M5Stack
     image: https://shop.m5stack.com/cdn/shop/files/1_9b624809-c4b1-4031-b149-54709e72bd53_1200x1200.webp
     credit: M5Stack 公式ストア
@@ -57,6 +58,7 @@ products:
     source: https://docs.m5stack.com/ja/certification
     availability: verified
   - name: HHKB Studio
+    hook: "キーボードの真ん中に、ThinkPadのようなスティック"
     brand: PFU
     image: https://happyhackingkb.com/jp/products/studio/image/img_01.webp
     credit: PFU 公式サイト
@@ -129,6 +131,7 @@ products:
     source: https://clicks.tech/jp/products/clicks-keyboard-for-iphone-17
     availability: caution
   - name: BLOCK
+    hook: "80年代のワープロのような顔で、中身は今の無線キーボード"
     brand: Lofree
     image: https://cdn.shopify.com/s/files/1/2779/9046/files/BlockP101.webp
     credit: Lofree 公式ストア
@@ -178,6 +181,7 @@ products:
     source: https://www.zsa.io/voyager
     availability: caution
   - name: TourBox NEO
+    hook: "左手で握る、ショートカット専用の道具"
     brand: TourBox
     image: https://r.tourboxtech.com/file/202402/NEO_5.jpg
     credit: TourBox 公式サイト

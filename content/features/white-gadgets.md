@@ -29,6 +29,7 @@ products:
     source: https://store.minet.jp/category/_TEENAGE_ENG/
     availability: verified
   - name: Ear (a) White
+    hook: "ケースの奥に、中の基板が透けて見えるイヤホン"
     brand: Nothing
     image: "https://cdn.shopify.com/s/files/1/0582/6242/1665/files/0000s_0026_Ear-a-white.png?v=1753694936"
     credit: Nothing Japan公式サイト(jp.nothing.tech)
@@ -69,6 +70,7 @@ products:
     source: https://www.benq.com/ja-jp/lighting/monitor-light/screenbar-pro/spec.html
     availability: verified
   - name: Y60 Snow White
+    hook: "柱の無い一枚ガラスで、中身を見せる八角形のPCケース"
     brand: HYTE
     image: "https://makeshop-multi-images.akamaized.net/linksoutlet/itemimages/000000012488_dTbBLKu.jpg"
     credit: リンクスダイレクト(株式会社リンクスインターナショナル)
@@ -95,6 +97,7 @@ products:
     source: https://www.links.co.jp/item/hyte-y60-snow-white/
     availability: verified
   - name: iLoud Micro Monitor White
+    hook: "黒ばかりのプロ用スピーカーの中で、めずらしい白"
     brand: IK Multimedia
     image: "https://ikmultimedia.com/cdn/shop/files/1_iLoudMM_white_front.jpg?width=1600"
     credit: IK Multimedia公式サイト
@@ -119,6 +122,7 @@ products:
     source: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
     availability: verified
   - name: K3 Max White
+    hook: "白いボディに白いキー。薄型の無線メカニカルキーボード"
     brand: Keychron
     image: "https://superkopek.jp/cdn/shop/files/k3max-O1-JIS_1024x1024.jpg?v=1732674021"
     credit: SUPER KOPEK(KOPEK JAPAN)製品ページ
@@ -143,6 +147,7 @@ products:
     source: https://superkopek.jp/products/keychron-k3max-white
     availability: verified
   - name: Soundcore Select 4 Go White
+    hook: "IP67の防水で3,990円。カラビナで下げる白いスピーカー"
     brand: Anker
     image: "https://www.ankerjapan.com/cdn/shop/files/A31X1-WHITE.jpg?crop=center&height=1200&v=1763477952&width=1200"
     credit: Anker Japan公式オンラインストア

@@ -9,6 +9,7 @@ updated: 2026-11-01
 japan_hint: この製品の日本上陸を待たずに、いま日本で正規に買えるモバイルバッテリーも進化しています。燃えにくい半固体電池や、寒さに強いナトリウムイオン電池のモデルを、PSEの扱いまで確かめてまとめました。
 products:
   - name: 半固体モバイルバッテリー 10000mAh/35W(DE-C86-10000)
+    hook: "電解質をゲルに変えた、燃えにくいモバイルバッテリー"
     brand: ELECOM
     image: "https://www.elecom.co.jp/photo/p01/DE-C86-10000BK_01.jpg"
     credit: エレコム公式サイト
@@ -36,6 +37,7 @@ products:
     source: https://www.elecom.co.jp/products/DE-C86-10000BK.html
     availability: verified
   - name: 半固体モバイルバッテリー 5000mAh/22.5W(DE-C85-5000)
+    hook: "厚さ11.4mm・135g。毎日カバンに入れておける半固体電池"
     brand: ELECOM
     image: "https://www.elecom.co.jp/photo/p01/DE-C85-5000BK_01.jpg"
     credit: エレコム公式サイト
@@ -63,6 +65,7 @@ products:
     source: https://www.elecom.co.jp/news/new/20260526-02/
     availability: verified
   - name: 半固体モバイルバッテリー BMPBSA10000BKX
+    hook: "ケーブルがそのままストラップになるモバイルバッテリー"
     brand: BUFFALO
     image: "https://www.buffalo.jp/webpim/product/image/B/BMPBSA10000X/BMPBSA10000BKX/BMPBSA10000BKX__0100.jpg"
     credit: バッファロー公式サイト
@@ -90,6 +93,7 @@ products:
     source: https://www.buffalo.jp/product/detail/bmpbsa10000bkx.html
     availability: verified
   - name: SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K
+    hook: "iPhoneの背中に磁石で付く、半固体系のバッテリー"
     brand: CIO
     image: "https://connectinternationalone.co.jp/wp/wp-content/uploads/2026/04/5762da241b080516a04075ec4d1a66ad-1536x1536.jpg"
     credit: CIO公式サイト
@@ -113,6 +117,7 @@ products:
     source: https://item.rakuten.co.jp/machinoomise/cio-mb35w1c-ss10k-s2w25/
     availability: verified
   - name: ナトリウムイオン電池モバイルバッテリー(DE-C55L-9000)
+    hook: "リチウムを使わないモバイルバッテリー。-35℃でも放電できる"
     brand: ELECOM
     image: "https://www.elecom.co.jp/photo/p01/DE-C55L-9000LGY_01.jpg"
     credit: エレコム公式サイト
@@ -140,6 +145,7 @@ products:
     source: https://www.elecom.co.jp/products/DE-C55L-9000LGY.html
     availability: verified
   - name: Anker Prime Power Bank (26250mAh, 300W)
+    hook: "ノートPC2台を、同時に急速充電できるバッテリー"
     brand: Anker
     image: "https://www.ankerjapan.com/cdn/shop/files/A110AH11.png"
     credit: Anker Japan公式サイト

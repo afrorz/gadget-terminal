@@ -2282,6 +2282,80 @@ def feature_hint(p: dict) -> str:
             f'<a href="{u(hit["path"])}?from=hint">{html.escape(str(hit.get("title") or ""))}</a></p>')
 
 
+YORIMICHI: list[dict] = []  # 寄り道欄の棚。main が特集を読んだあとに詰める
+
+
+def build_yorimichi(s: dict, features: list[dict]) -> list[dict]:
+    """寄り道欄(偶然の出会い)の棚を、特集の商品から作る。
+
+    GT の記事はまだ日本で買えない製品が多く、読者は「調べに来ている」のでアフィリエイトが押されにくい。
+    ガジェット好きは「おっ、なにこれ」と思った物をその場で買うので、記事の終わりに
+    「海外で話題、もう日本で買える」ちょっと変わった物を3つ置く(2026-11-08 本人の発案、モックB を採用)。
+    載せるのは特集で入手方法・技適を確かめた商品のうち、hook(一文)があり、報酬になるリンクがある物だけ。
+    """
+    pool, seen = [], set()
+    for f in features:
+        for it in f.get("products") or []:
+            name, hook, img = str(it.get("name") or ""), str(it.get("hook") or ""), str(it.get("image") or "")
+            if not (name and hook and img) or name in seen:
+                continue
+            url = str(it.get("url") or "")
+            mer = merchant_of(url)
+            if mer not in ("amazon", "rakuten", "yahoo"):
+                url, mer = str((it.get("rakuten") or {}).get("url") or ""), "rakuten"
+            if not url:
+                continue
+            link, is_aff = affiliate_url(s, url, mer)
+            if not is_aff:
+                continue
+            seen.add(name)
+            brand = str(it.get("brand") or "")
+            pm = re.match(r"^([^(（]+?)\s*(?:[(（].*)?$", str(it.get("price") or "").strip())
+            pool.append({
+                "name": name if (not brand or brand.lower() in name.lower()) else f"{brand} {name}",
+                "hook": hook, "img": img, "price": pm.group(1).strip() if pm else "",
+                "link": link, "store": alt_store(url, mer), "feature": u(f["path"]),
+            })
+    return pool
+
+
+def yorimichi_section(p: dict) -> tuple[str, bool]:
+    """記事の終わりの「寄り道」欄。記事ごとに決まった3つを出し、「ほかのを見る」で入れ替える。"""
+    if len(YORIMICHI) < 3:
+        return "", False
+    import random
+    own = {str(x.get("name") or "") for x in (p.get("alternatives") or []) + (p.get("gear") or [])}
+    cand = [x for x in YORIMICHI if x["name"] not in own]
+    # 同じ記事は同じ3つ(ビルドのたびに変わると、検索エンジンには中身が毎日変わるページに見える)
+    picks = random.Random(p["slug"]).sample(cand, 3)
+
+    def card(x: dict) -> str:
+        return (f'<a class="yr-card" href="{html.escape(x["link"])}" rel="nofollow sponsored noopener" target="_blank">'
+                f'<span class="yr-img"><img src="{html.escape(x["img"])}" alt="{html.escape(x["name"])}" loading="lazy" '
+                f'decoding="async" referrerpolicy="no-referrer"></span>'
+                f'<span class="yr-hook">{html.escape(x["hook"])}</span>'
+                f'<span class="yr-meta">{html.escape(x["name"])}{"・" + html.escape(x["price"]) if x["price"] else ""}</span>'
+                f'<span class="yr-store">{html.escape(x["store"])}で見る ↗</span></a>')
+    return (f'<section class="yr" data-yr="{u("yorimichi.json")}"><div class="yr-head"><p class="yr-title">'
+            f'<span class="yr-eyebrow">寄り道</span>海外で話題、もう日本で買える<span class="yr-ad">広告</span>'
+            f'<small>編集部が特集で確かめた、ちょっと変わったガジェット</small></p>'
+            f'<button class="yr-shuffle" type="button" hidden>↻ ほかのを見る</button></div>'
+            f'<div class="yr-grid">{"".join(card(x) for x in picks)}</div></section>'), True
+
+
+# 「ほかのを見る」。押したときに初めて棚(yorimichi.json)を読み、いま出ていない物から3つ選ぶ
+YORIMICHI_JS = """<script>
+(()=>{const s=document.querySelector('.yr');if(!s)return;const b=s.querySelector('.yr-shuffle'),g=s.querySelector('.yr-grid');
+b.hidden=false;let pool=null,shown=[...g.querySelectorAll('.yr-card')].map(a=>a.href);
+const e=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+b.addEventListener('click',async()=>{try{if(!pool)pool=await(await fetch(s.dataset.yr)).json();}catch(_){return}
+let c=pool.filter(x=>!shown.includes(x.link));if(c.length<3){shown=[];c=pool.slice()}
+c.sort(()=>Math.random()-.5);c=c.slice(0,3);shown=shown.concat(c.map(x=>x.link));
+g.innerHTML=c.map(x=>`<a class="yr-card yr-in" href="${e(x.link)}" rel="nofollow sponsored noopener" target="_blank"><span class="yr-img"><img src="${e(x.img)}" alt="${e(x.name)}" decoding="async" referrerpolicy="no-referrer"></span><span class="yr-hook">${e(x.hook)}</span><span class="yr-meta">${e(x.name)}${x.price?'・'+e(x.price):''}</span><span class="yr-store">${e(x.store)}で見る ↗</span></a>`).join('');
+if(window.gtag)gtag('event','yorimichi_shuffle');});})();
+</script>"""
+
+
 def videos_after_section(p: dict) -> str:
     """クラファン記事に、公開後に出た YouTube の実機動画を出す(scripts/cf_videos.py が足す)。
 
@@ -2459,7 +2533,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     buy_html, buy_aff = buy_section(s, p)
     alts_html, alts_aff = alternatives_section(s, p)
     gear_html, gear_aff = gear_section(s, p)
-    has_aff = jp_aff or buy_aff or alts_aff or gear_aff
+    yr_html, yr_aff = yorimichi_section(p)
+    has_aff = jp_aff or buy_aff or alts_aff or gear_aff or yr_aff
     modified = p.get("modified") or ""
     upd_meta = (f'<span class="dot"></span><span class="meta-updated">更新 {modified.replace("-", ".")}</span>'
                 if modified and modified > p["date"] else "")
@@ -2506,11 +2581,12 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {gear_html}
     {feature_hint(p)}
   {faq_html}
+  {yr_html}
   {sources}
   </article>
   {ad_unit(s, "article_end")}
   {rel_html}
-</main>{ALERT_JS if alert_html else ""}"""
+</main>{ALERT_JS if alert_html else ""}{YORIMICHI_JS if yr_html else ""}"""
         + footer(site)
     )
 
@@ -3702,6 +3778,27 @@ img{max-width:100%}
   transition:border-color .15s,color .15s}
 .alt-cta:hover{border-color:var(--accent);color:var(--accent)}
 .alt-cta span{color:var(--accent)}
+/* 寄り道(記事の終わりの偶然の出会い。2026-11-08 モックB) */
+.yr{max-width:var(--measure);margin:44px 0 0;padding:24px 0 0;border-top:1px solid var(--rule)}
+.yr-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:0 0 14px}
+.yr-title{margin:0;font:700 15px/1.4 var(--sans);color:var(--ink)}
+.yr-title small{display:block;margin-top:3px;font:400 12.5px/1.5 var(--sans);color:var(--ink-3)}
+.yr-eyebrow{display:block;margin-bottom:6px;font:500 11px/1 var(--mono);letter-spacing:.08em;color:var(--accent)}
+.yr-ad{margin-left:6px;padding:3px 5px;border:1px solid var(--rule-2);border-radius:3px;font:600 10.5px/1 var(--sans);color:var(--ink-3);vertical-align:2px}
+.yr-shuffle{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 11px;border:1px dashed var(--rule-2);border-radius:4px;background:none;font:500 12px/1 var(--mono);color:var(--ink-2);cursor:pointer;transition:border-color .15s,color .15s}
+.yr-shuffle:hover{border-color:var(--accent);color:var(--accent)}
+.yr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.yr-card{display:flex;flex-direction:column;text-decoration:none;color:inherit}
+.yr-img{display:block;aspect-ratio:1;background:#fff;border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.yr-img img{width:100%;height:100%;object-fit:contain;padding:8px;box-sizing:border-box;display:block;transition:transform .3s}
+.yr-card:hover .yr-img img{transform:scale(1.05)}
+.yr-hook{display:block;margin:8px 0 0;font:600 13.5px/1.55 var(--sans);color:var(--ink)}
+.yr-meta{display:block;margin:4px 0 0;font-size:11.5px;line-height:1.5;color:var(--ink-3)}
+.yr-store{display:block;margin-top:auto;padding-top:8px;font:500 11.5px/1 var(--mono);color:var(--ink-2)}
+.yr-card:hover .yr-store{color:var(--accent)}
+.yr-in{animation:yrIn .25s ease-out}
+@keyframes yrIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (max-width:620px){.yr-grid{grid-template-columns:repeat(3,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.yr-card{scroll-snap-align:start}}
 .alt-text{min-width:0}
 .alt-item>a{font-size:15px;line-height:1.6}
 .alt-why{margin:4px 0 0;color:var(--ink-2);font-size:13.5px;line-height:1.8}
@@ -4105,6 +4202,8 @@ def main() -> int:
         # front matter に pin: true がある特集は一覧の先頭に固定する(2026-11-07 ブラックフライデーの特集。セール後に外す)
         features.sort(key=lambda f: not f.get("pin"))
     FEATURES_FOR_HINT[:] = features
+    YORIMICHI[:] = build_yorimichi(site["site"], features)
+    print(f"■ 寄り道の棚 {len(YORIMICHI)}件")
     LANDED_AFTER[0] = count_landed_after(posts)
     # 日付 → priority（front matter で 1 以上を指定するとその日の先頭に来る）→ slug
     posts.sort(key=lambda p: (p["date"], p.get("priority", 0), p["slug"]), reverse=True)
@@ -4235,6 +4334,8 @@ def main() -> int:
     (PUBLIC / GITEKI_PATH / "index.html").write_text(render_giteki(site, posts), encoding="utf-8")
     write_giteki_data(site, posts)
     write_landing_data(site, posts)
+    (PUBLIC / "yorimichi.json").write_text(json.dumps(YORIMICHI, ensure_ascii=False, separators=(",", ":")),
+                                           encoding="utf-8")
     gc = giteki_counts(posts)
     print(f"■ 技適の記録 {gc['記録']}本 / 取得済み {gc['取得済み']} / 確認できない {gc['確認できない']} "
           f"/ 対象外 {gc['対象外']} / 未記入 {gc['未記入']}")

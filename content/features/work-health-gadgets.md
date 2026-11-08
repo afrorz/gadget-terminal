@@ -84,6 +84,7 @@ products:
     source: https://www.pfu.ricoh.com/news/2023/news231025.html
     availability: verified
   - name: ScreenBar Pro
+    hook: "座ると点いて、5分いないと消えるモニターライト"
     brand: BenQ
     image: "https://image.benq.com/is/image/benqco/cr21-2colors?$ResponsivePreset$&fmt=png-alpha"
     credit: BenQ公式サイト
@@ -134,6 +135,7 @@ products:
     source: https://item.rakuten.co.jp/anker/a110a/
     availability: verified
   - name: Suunto Run 2
+    hook: "35gの時計に、世界の地図がまるごと入る"
     brand: SUUNTO
     image: "https://www.suunto.com/contentassets/b0c853af4e2d4eb6a9fade6e087fdc16/suunto_run20black-ath20view-black-main20black_print..jpg"
     credit: Suunto公式サイト
@@ -161,6 +163,7 @@ products:
     source: https://prtimes.jp/main/html/rd/p/000000060.000060184.html
     availability: verified
   - name: Oura Ring 5
+    hook: "寝ている間も、体の記録を取り続ける指輪"
     brand: Oura
     image: "https://ourahealth.imgix.net/cooper-pdp/or5-silver-alt.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1920&s=4088cfbfbb6fcc97c210a8273092ea3a"
     credit: Oura公式サイト
@@ -188,6 +191,7 @@ products:
     source: https://ouraring.com/ja/declarations-of-conformity/oura-ring-5
     availability: verified
   - name: Body Comp(WBS12)
+    hook: "乗るだけで、記録まで終わる体組成計"
     brand: Withings
     image: "https://cdn.shopify.com/s/files/1/0978/0169/9702/files/PACKSHOT_body-comp-black__70801533_INT_three-quarter-top-down_01.jpg?v=1781098287"
     credit: Withings公式サイト
@@ -213,6 +217,7 @@ products:
     source: https://media.withings.com/kits/guides/2026/body-comp/AW_IFU_WBS12.pdf
     availability: verified
   - name: OpenRun Pro 2
+    hook: "耳をふさがずに、骨と空気の2つで聞くイヤホン"
     brand: Shokz
     image: "https://cdn.shopify.com/s/files/1/0271/5389/1376/files/OpenRunPro2-BK-1_ae75bb98-1cfe-4424-890d-b20a483e4d50.webp?v=1724745657"
     credit: Shokz公式サイト
