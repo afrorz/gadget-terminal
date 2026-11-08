@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 160,
-   "views": 160
+   "visits": 170,
+   "views": 170
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
@@ -22,11 +22,6 @@
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
    "visits": 30,
    "views": 40
-  },
-  {
-   "path": "/posts/asus-nuc-14-essential-fanless.html",
-   "visits": 30,
-   "views": 30
   },
   {
    "path": "/posts/atari-the-800xl-reissue.html",
@@ -54,17 +49,17 @@
    "views": 20
   },
   {
+   "path": "/posts/asus-nuc-14-essential-fanless.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
    "path": "/posts/xbox-nano-controller.html",
    "visits": 20,
    "views": 20
   },
   {
    "path": "/posts/cmf-speaker-s-m.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/sony-xperia-10-viii.html",
    "visits": 20,
    "views": 20
   },
@@ -100,6 +95,11 @@
   },
   {
    "path": "/posts/romu-usb-rp2354a-board.html",
+   "visits": 10,
+   "views": 10
+  },
+  {
+   "path": "/posts/smalltv-max-knob-desktop-display-kickstarter.html",
    "visits": 10,
    "views": 10
   }
