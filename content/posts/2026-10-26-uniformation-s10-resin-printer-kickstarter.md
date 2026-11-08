@@ -55,6 +55,20 @@ faq:
   a: 作り手のFAQは、日本を公式の発送先に挙げています。送料は行き先ごとの定額で、支援後に案内されます。
 - q: 技適は取得していますか
   a: 募集ページに技適の記載はありません。作り手が進行中と書いている認証はCE、FCC、RoHS、UKCAです。
+modified: 2026-11-09
+videos_after:
+  - id: VgPlw0T-qNc
+    title: "UniFormation S10 Unboxing - My First Impressions"
+    channel: "123-3D"
+    published: 2026-10-14
+    added: 2026-11-09
+    note: "個人の YouTuber による試作機の開封と第一印象（英語）"
+  - id: mTh2pr5Abv0
+    title: "THIS WORKS GREAT! Except when it doesn't - Uniformation S10 Preview"
+    channel: "FauxHammer"
+    published: 2026-10-01
+    added: 2026-11-09
+    note: "エンジニア試作機を使ったプレビューのレビュー（英語）"
 ---
 
 香港のUniFormation 3Dが、光造形（レジン）3Dプリンター「S10」をKickstarterで募集している。印刷の後に必要な洗浄と乾燥を、同じ本体の中で自動で行うのが特徴だ。2026年10月26日時点で、支援額は3,819,234香港ドル、支援者は345人。目標額392,000香港ドルの約9.7倍にあたる（募集開始は10月22日、締切は12月1日）。
