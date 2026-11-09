@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 170,
-   "views": 170
+   "visits": 180,
+   "views": 180
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
@@ -44,22 +44,12 @@
    "views": 20
   },
   {
-   "path": "/posts/rayneo-io-gt-series.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/asus-nuc-14-essential-fanless.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/xbox-nano-controller.html",
    "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/cmf-speaker-s-m.html",
+   "path": "/posts/rayneo-io-gt-series.html",
    "visits": 20,
    "views": 20
   },
@@ -69,7 +59,7 @@
    "views": 20
   },
   {
-   "path": "/posts/anbernic-rg-dds-3ds-style.html",
+   "path": "/posts/cmf-speaker-s-m.html",
    "visits": 20,
    "views": 20
   },
@@ -79,12 +69,12 @@
    "views": 20
   },
   {
-   "path": "/posts/bambu-lab-h3c-nine-tool-changer.html",
-   "visits": 10,
+   "path": "/posts/anbernic-rg-dds-3ds-style.html",
+   "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/tryx-vestra-vision-oled-magnetic-keyboard.html",
+   "path": "/posts/bambu-lab-h3c-nine-tool-changer.html",
    "visits": 10,
    "views": 20
   },
@@ -94,12 +84,22 @@
    "views": 20
   },
   {
-   "path": "/posts/romu-usb-rp2354a-board.html",
+   "path": "/posts/tryx-vestra-vision-oled-magnetic-keyboard.html",
+   "visits": 10,
+   "views": 20
+  },
+  {
+   "path": "/posts/tobenone-magnetic-triple-screen-display.html",
    "visits": 10,
    "views": 10
   },
   {
    "path": "/posts/smalltv-max-knob-desktop-display-kickstarter.html",
+   "visits": 10,
+   "views": 10
+  },
+  {
+   "path": "/posts/uniformation-s10-resin-printer-kickstarter.html",
    "visits": 10,
    "views": 10
   }
