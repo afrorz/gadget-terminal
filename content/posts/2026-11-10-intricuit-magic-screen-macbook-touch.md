@@ -31,6 +31,15 @@ images:
 - url: "https://www.intricuit.com/assets/images/macbook-magic-screen-side.webp"
   caption: 横から見た取り付け状態。画面の下端に細い樹脂のヒンジ部があり、そこからUSB-Cケーブルが出ている
 credit: Intricuit 公式サイト
+clips:
+- file: intricuit-magic-screen-macbook-touch/pen.mp4
+  caption: "ペンで絵も描ける（筆圧は4,096段階）"
+  credit: "Intricuit 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=APgscTx7kX8"
+- file: intricuit-magic-screen-macbook-touch/touchv.mp4
+  caption: "10本の指を同時に読む（USB-C 1本でつなぐ）"
+  credit: "Intricuit 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=APgscTx7kX8"
 sources:
 - title: Intricuit Magic Screen（公式）
   url: https://www.intricuit.com/
