@@ -1,7 +1,7 @@
 ---
 title: Fosi Audio「DAP Neo」はiPodそっくりのクリックホイール付きプレーヤー、16GBで79.99ドル
 slug: fosi-audio-dap-neo-ipod-style-player
-seo_title: Fosi Audio DAP Neoは79.99ドル、iPod風
+seo_title: "Fosi Audio DAP Neoは79.99ドル、iPod風プレーヤーは日本で買える？"
 x_hook: |
   iPodのクリックホイールそっくりの音楽プレーヤー「DAP Neo」を、デスクトップ向けアンプで知られるFosi Audioが出した。ストリーミングなし、ロスレス再生、16GBで79.99ドル（約1万2千円）。
 keyword: DAP Neo

@@ -1,6 +1,6 @@
 ---
 title: "アルゼンチンの2人組が作った和音楽器「NOPIA MK1」、Kickstarterで24時間に140万ドル超を集める"
-seo_title: NOPIA MK1は699ドルから、コード楽器
+seo_title: "NOPIA MK1、鍵盤ひとつで和音が鳴る電子楽器は日本で買える？"
 slug: nopia-mk1-harmony-generator
 keyword: NOPIA MK1
 category: weird

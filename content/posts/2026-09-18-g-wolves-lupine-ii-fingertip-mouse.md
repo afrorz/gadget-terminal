@@ -1,6 +1,6 @@
 ---
 title: "G-Wolvesの22.7gマウス「Lupine II」、非対称フィンガーチップ形状で有線・無線とも8,000Hzポーリング対応"
-seo_title: Lupine IIは22.7g、早期109ドルから
+seo_title: "G-Wolves Lupine IIは22.7g・8,000Hz、日本で買える？"
 slug: g-wolves-lupine-ii-fingertip-mouse
 keyword: Lupine II
 category: pc

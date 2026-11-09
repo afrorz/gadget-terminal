@@ -1,6 +1,6 @@
 ---
 title: 磁石で0.3秒連結するデスク操作パネル「UltraBARX」、国内クラファンで目標433%
-seo_title: UltraBARXは磁石連結、47,800円から
+seo_title: "UltraBARX、磁石で連結するデスク操作パネルは日本で使える？"
 slug: ultrabarx-magnetic-desk-panel
 keyword: UltraBARX
 category: pc
