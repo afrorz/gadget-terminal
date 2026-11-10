@@ -32,6 +32,19 @@ images:
 - url: "https://www.nitecore.com/storage/images/products/utl19/2026110909545810540.png"
   caption: 製品パッケージ。黄色い箱に最大1,800ルーメン・220m照射と記載がある
 credit: NITECORE 公式製品ページ
+clips:
+- file: nitecore-utl19-flashlight-utility-blade/cut.mp4
+  caption: "箱のテープもこれで切る（刃は3段階で固定）"
+  credit: "NITECORE 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=3iozdGIfDi8"
+- file: nitecore-utl19-flashlight-utility-blade/flood.mp4
+  caption: "最大1,800ルーメン（スポットは220m先まで）"
+  credit: "NITECORE 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=3iozdGIfDi8"
+- file: nitecore-utl19-flashlight-utility-blade/uv.mp4
+  caption: "UVライトと緑レーザーも（ガラスを割る先端付き）"
+  credit: "NITECORE 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=3iozdGIfDi8"
 sources:
 - title: UTL19（公式製品ページ）
   url: https://www.nitecore.com/product/UTL19

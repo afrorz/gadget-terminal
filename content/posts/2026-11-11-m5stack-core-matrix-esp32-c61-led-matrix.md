@@ -32,6 +32,19 @@ images:
 - url: "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1274/C158_CoreMatrix_main_pictures_04.webp"
   caption: 裏面。基板の端子配置と、型式・認証マークを印刷したラベルが見える
 credit: M5Stack 公式ドキュメント
+clips:
+- file: m5stack-core-matrix-esp32-c61-led-matrix/scroll.mp4
+  caption: "白い光の粒で文字やアイコン（16×16の白色LED）"
+  credit: "M5Stack 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=u_HbVF10zYI"
+- file: m5stack-core-matrix-esp32-c61-led-matrix/tilt.mp4
+  caption: "傾けると表示が動く（6軸センサー内蔵）"
+  credit: "M5Stack 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=u_HbVF10zYI"
+- file: m5stack-core-matrix-esp32-c61-led-matrix/bars.mp4
+  caption: "センサーをつないで表示（M5-BusとGroveの端子）"
+  credit: "M5Stack 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=u_HbVF10zYI"
 sources:
 - title: CoreMatrix（公式ドキュメント）
   url: https://docs.m5stack.com/en/core/CoreMatrix

@@ -32,6 +32,15 @@ images:
 - url: "https://images.ctfassets.net/a3peezndovsu/6izplW05dllyr7REOCLaeV/0aef9ab6640156e92a3d1d175b3755aa/ring_dronecam_product-docked_1500x1500.jpg"
   caption: 充電ドックに収まった状態。ドックの前面にRingのロゴがある
 credit: Ring 公式製品ページ
+clips:
+- file: ring-drone-cam-indoor-flying-camera/fly.mp4
+  caption: "決めた時間に自分で見回る（ルートは2本まで）"
+  credit: "Ring 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=slgQfogak7k"
+- file: ring-drone-cam-indoor-flying-camera/night.mp4
+  caption: "暗い部屋はライトで照らす（2K映像・視野角148度）"
+  credit: "Ring 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=slgQfogak7k"
 sources:
 - title: Drone Cam（公式製品ページ）
   url: https://ring.com/products/drone-cam
