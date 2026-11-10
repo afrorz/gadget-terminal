@@ -1091,7 +1091,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u("topic/")}">話題から探す</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -2040,6 +2040,249 @@ def render_features_index(site: dict, features: list[dict]) -> str:
     )
 
 
+# ── 話題ページ・続報まとめ・週1メール(2026-11-10 本人了承) ──────────────
+# 話題ページ: 記事のタグは836種類で表記もばらばらなので、config/topics.yaml で話題ごとにまとめ、
+#   記事が min_posts 本以上ある話題だけ /topic/<slug>.html を作る(中身の薄いページを増やさない)。
+# 続報まとめ: 同じ製品の記事が2本に分かれたら、古いほうに merged_into: <残す記事の slug> を書く。
+#   古い記事は一覧・サイトマップから外れ、ページは残す記事へ転送する(検索の評価を1本に集める)。
+#   残す記事の front matter に story: [{date, text}] を書くと「この製品の動き」が写真の上に出る。
+#   日本上陸アラートの登録は古い slug のまま残るので、landing.json に古い slug も残す記事の状態で載せる。
+# 週1メール: 毎週日曜、note の週まとめ(data/note/<日付>.md)と同じ5本と今週の日本上陸を送る。
+#   登録は記事の終わりの欄から(alert/ の Worker が slug="weekly" として預かる)。中身は weekly.json。
+TOPICS: list[dict] = []
+MERGED: list[dict] = []
+
+
+def load_topics(posts: list[dict]) -> list[dict]:
+    f = ROOT / "config" / "topics.yaml"
+    if not f.exists():
+        return []
+    cfg = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+    mn = int(cfg.get("min_posts") or 5)
+    out = []
+    for t in cfg.get("topics") or []:
+        ws = {str(x).strip().lower() for x in t.get("tags") or []}
+        cs = [str(x).strip().lower() for x in t.get("contains") or []]
+
+        def hit(p: dict) -> bool:
+            tg = {str(x).strip().lower() for x in p.get("tags") or []}
+            return bool(ws & tg) or any(c in x for c in cs for x in tg)
+        items = [p for p in posts if hit(p)]
+        if len(items) >= mn:
+            out.append({**t, "path": f"topic/{t['slug']}.html", "posts": items})
+    return out
+
+
+def topics_of(p: dict) -> list[dict]:
+    return [t for t in TOPICS if any(q is p for q in t["posts"])]
+
+
+def topic_links(p: dict) -> str:
+    ts = topics_of(p)
+    if not ts:
+        return ""
+    links = "".join(f'<a href="{u(t["path"])}">{html.escape(t["label"])}<span>{len(t["posts"])}本</span></a>'
+                    for t in ts)
+    return (f'<nav class="tp-links" aria-label="この記事の話題"><p class="tp-links-h">この話題の記事をもっと見る</p>'
+            f'{links}</nav>')
+
+
+def jp_badge(p: dict) -> str:
+    st = str((p.get("japan") or {}).get("status") or "").strip()
+    if is_landed(p):
+        return f'<span class="tp-jp now">日本で買える</span>'
+    return f'<span class="tp-jp">{html.escape(st) if st else "日本未発売"}</span>'
+
+
+def render_topic(site: dict, t: dict) -> str:
+    s = site["site"]
+    items = t["posts"]
+    landed = [p for p in items if is_landed(p)]
+    cards = []
+    for p in items:
+        c = card(site, p)
+        c = c.replace('<article class="', f'<article data-g="{"now" if is_landed(p) else "other"}" class="', 1)
+        cards.append(c.replace("</article>", jp_badge(p) + "</article>", 1))
+    others = "".join(f'<a href="{u(x["path"])}">{html.escape(x["label"])}</a>' for x in TOPICS if x is not t)
+    desc = (f'{t["desc"]}海外で発表された{len(items)}本の記事を、日本で買えるか・技適まで追っています。'
+            + (f'うち{len(landed)}本は日本で買えます。' if landed else ""))
+    chips = ('<div class="tp-chips"><button class="tp-chip on" type="button" data-f="all">すべて</button>'
+             f'<button class="tp-chip" type="button" data-f="now">日本で買えるものだけ（{len(landed)}）</button></div>'
+             if landed else "")
+    return (
+        head(site, f"{t['label']}の海外新製品と日本で買えるか — {s['title']}", desc, t["path"])
+        + header(site)
+        + f"""
+<main class="wrap">
+  <section class="hero hero-sm cat-weird">
+    <p class="eyebrow"><a href="{u("topic/")}">TOPIC / 話題</a></p>
+    <h1 class="hero-title">{html.escape(t['label'])}</h1>
+    <p class="hero-sub">{html.escape(t['desc'])}海外で発表されたものを、日本で買えるか・技適はどうかまで追っています。</p>
+    <div class="tp-stats">
+      <div class="tp-stat"><b>{len(items)}</b><span>本の記事</span></div>
+      <div class="tp-stat"><b>{len(landed)}</b><span>本が日本で買える</span></div>
+      <div class="tp-stat"><b>{items[0]['date'].replace('-', '.')}</b><span>いちばん新しい記事</span></div>
+    </div>
+  </section>
+  {chips}
+  <section class="grid">{''.join(cards)}</section>
+  <div class="tp-rel"><p class="tp-rel-h">ほかの話題</p>{others}</div>
+</main>
+<script>document.querySelectorAll('.tp-chip').forEach(function(b){{b.onclick=function(){{
+document.querySelectorAll('.tp-chip').forEach(function(x){{x.classList.toggle('on',x===b)}});
+document.querySelectorAll('.grid article').forEach(function(a){{a.style.display=(b.dataset.f==='all'||a.dataset.g===b.dataset.f)?'':'none'}})}}}})</script>"""
+        + footer(site)
+    )
+
+
+def render_topics_index(site: dict) -> str:
+    s = site["site"]
+    rows = "".join(
+        f'<a class="tp-card" href="{u(t["path"])}"><b>{html.escape(t["label"])}</b>'
+        f'<span>{len(t["posts"])}本・日本で買える {sum(1 for p in t["posts"] if is_landed(p))}本</span>'
+        f'<small>{html.escape(t["desc"])}</small></a>' for t in TOPICS)
+    return (
+        head(site, f"話題から探す — {s['title']}",
+             "携帯ゲーム機・ミニPC・電子ペーパーなど、話題ごとに海外ガジェットの記事をまとめています。", "topic/")
+        + header(site)
+        + f"""
+<main class="wrap">
+  <section class="hero hero-sm">
+    <p class="eyebrow">TOPIC / 話題</p>
+    <h1 class="hero-title">話題から探す</h1>
+    <p class="hero-sub">海外で発表されたガジェットの記事を、話題ごとにまとめています。それぞれ日本で買えるものだけに絞れます。</p>
+  </section>
+  <section class="tp-index">{rows}</section>
+</main>"""
+        + footer(site)
+    )
+
+
+def story_section(p: dict) -> str:
+    st = [x for x in (p.get("story") or []) if isinstance(x, dict) and x.get("text")]
+    if not st:
+        return ""
+    st.sort(key=lambda x: str(x.get("date") or ""), reverse=True)
+    rows = "".join(f'<li><time datetime="{str(x.get("date") or "")}">{str(x.get("date") or "").replace("-", ".")}</time>'
+                   f'<p>{html.escape(str(x["text"]))}</p></li>' for x in st)
+    return f'<aside class="st-box"><h2>この製品の動き</h2><ol class="st-tl">{rows}</ol></aside>'
+
+
+def merged_redirect(site: dict, m: dict, target: dict) -> str:
+    base = site["site"]["base_url"].rstrip("/")
+    to = f"{base}/{target['path']}"
+    rel = u(target["path"])   # 転送はサイト内の相対(手元の確認でも本番へ飛ばない)、canonical は絶対
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>{html.escape(target["title"])}</title>'
+            f'<link rel="canonical" href="{to}"><meta http-equiv="refresh" content="0;url={rel}">'
+            f'<script>location.replace({json.dumps(rel)}+location.search+location.hash)</script></head>'
+            f'<body><p>この記事は<a href="{rel}">こちら</a>にまとめました。</p></body></html>')
+
+
+def weekly_form(s: dict) -> str:
+    api = str(s.get("alert_api_url") or "").strip().rstrip("/")
+    if not api or not s.get("weekly_mail"):
+        return ""
+    return (f'<aside class="wk-box"><p class="wk-h">週1回、海外ガジェット5選をメールで</p>'
+            f'<p class="wk-t">毎週日曜の朝に1通。その週に紹介した5本と、日本で買えるようになった製品を届けます。</p>'
+            f'<form class="wk-form" action="{html.escape(api)}/subscribe" method="post">'
+            f'<input type="email" name="email" required placeholder="メールアドレス" autocomplete="email" aria-label="メールアドレス">'
+            f'<input type="hidden" name="slug" value="weekly">'
+            f'<input type="text" name="website" class="jp-alert-hp" tabindex="-1" autocomplete="off" aria-hidden="true">'
+            f'<button type="submit">登録する</button></form><p class="wk-msg" aria-live="polite"></p>'
+            f'<p class="wk-note">確認メールが届きます。解除はいつでもできます。'
+            f'<a href="{u("privacy.html")}#alert">メールの扱いについて</a></p></aside>')
+
+
+WEEKLY_JS = """<script>(function(){var f=document.querySelector('.wk-form');if(!f)return;
+var msg=f.parentNode.querySelector('.wk-msg'),btn=f.querySelector('button');
+f.addEventListener('submit',function(e){e.preventDefault();btn.disabled=true;msg.textContent='送信中…';
+var d={};new FormData(f).forEach(function(v,k){d[k]=v});
+fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(d)})
+.then(function(r){return r.json()}).then(function(j){msg.textContent=j.message||j.error||(j.ok?'確認メールを送りました':'登録できませんでした');
+if(j.ok){f.querySelector('input[type=email]').value='';}btn.disabled=false;})
+.catch(function(){msg.textContent='送れませんでした。時間をおいてもう一度お試しください';btn.disabled=false;});});})();</script>"""
+
+
+def write_weekly_data(site: dict) -> None:
+    """週1メールの中身(weekly.json)。いちばん新しい note の週まとめから、5本と今週の日本上陸を抜き出す。"""
+    notes = sorted((ROOT / "data" / "note").glob("????-??-??.md"))
+    if not notes:
+        return
+    f = notes[-1]
+    raw = f.read_text(encoding="utf-8")
+    m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n(.*)$", raw, re.S)
+    fm, body = ((yaml.safe_load(m.group(1)) or {}), m.group(2)) if m else ({}, raw)
+    secs = re.split(r"(?m)^## ", body)
+    items, landed = [], []
+    for sec in secs[1:]:
+        head_line, _, rest = sec.partition("\n")
+        mm = re.match(r"\d+\.\s*(.+)$", head_line.strip())
+        if mm:
+            img = re.search(r"!\[[^\]]*\]\((\S+?)\)", rest)
+            url = re.search(r"詳しくは[:：]\s*(\S+)", rest)
+            paras = [x.strip() for x in re.split(r"\n\s*\n", rest) if x.strip()
+                     and not x.strip().startswith(("!", "詳しくは", "画像"))]
+            text = re.sub(r"\*\*", "", paras[0]) if paras else ""
+            sents = re.findall(r"[^。]+。", text)
+            items.append({"title": mm.group(1).strip(), "image": img.group(1) if img else "",
+                          "text": "".join(sents[:2]) or text[:120], "url": url.group(1) if url else ""})
+        elif head_line.strip().startswith("今週の日本上陸"):
+            for b in re.finditer(r"\*\*(.+?)\*\*\s*\n(.+?)(https://\S+)", rest, re.S):
+                landed.append({"title": b.group(1).strip(), "text": b.group(2).strip(), "url": b.group(3)})
+    data = {"date": f.stem, "title": str(fm.get("title") or ""), "lead": "", "items": items, "landed": landed}
+    lead = [x.strip() for x in re.split(r"\n\s*\n", secs[0]) if x.strip()]
+    data["lead"] = lead[0] if lead else ""
+    (PUBLIC / "weekly.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n",
+                                        encoding="utf-8")
+    print(f"■ weekly.json: {f.stem} / {len(items)}本 + 日本上陸 {len(landed)}本")
+
+
+HUB_CSS = """
+/* 話題ページ・続報・週1メール(2026-11-10) */
+.tp-stats{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 6px}
+.tp-stat{border:1px solid var(--rule-2);border-radius:4px;padding:10px 14px;min-width:120px}
+.tp-stat b{display:block;font:700 22px/1.1 var(--disp);color:var(--ink)}
+.tp-stat span{font:500 12px/1.4 var(--sans);color:var(--ink-3)}
+.tp-chips{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.tp-chip{padding:7px 12px;border:1px solid var(--rule-2);border-radius:999px;background:none;font:500 13px/1 var(--sans);color:var(--ink-2);cursor:pointer}
+.tp-chip.on{border-color:var(--accent);color:var(--accent)}
+.tp-jp{display:inline-block;margin:6px 0 0;font:600 11.5px/1 var(--sans);padding:4px 7px;border-radius:3px;background:var(--raised);color:var(--ink-2)}
+.tp-jp.now{background:#e3f4ea;color:#1d7a46}
+.tp-rel{margin:40px 0 0;padding:18px 0 0;border-top:1px solid var(--rule-2)}
+.tp-rel-h{font-weight:600;margin:0 0 10px}
+.tp-rel a{display:inline-block;margin:0 8px 8px 0;padding:6px 10px;border:1px solid var(--rule-2);border-radius:4px;font-size:13px;color:var(--ink-2);text-decoration:none}
+.tp-rel a:hover{border-color:var(--accent);color:var(--accent)}
+.tp-index{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:24px 0 40px}
+.tp-card{display:block;padding:16px;border:1px solid var(--rule-2);border-radius:6px;text-decoration:none;color:inherit}
+.tp-card:hover{border-color:var(--accent)}
+.tp-card b{display:block;font:700 16px/1.4 var(--sans);color:var(--ink)}
+.tp-card span{display:block;margin:4px 0 0;font:500 12px/1.4 var(--mono);color:var(--accent)}
+.tp-card small{display:block;margin:8px 0 0;font-size:13px;line-height:1.6;color:var(--ink-3)}
+.tp-links{max-width:var(--measure);margin:28px 0 0}
+.tp-links-h{margin:0 0 8px;font:600 13px/1.4 var(--sans);color:var(--ink-2)}
+.tp-links a{display:inline-flex;gap:6px;align-items:baseline;margin:0 8px 8px 0;padding:7px 12px;border:1px solid var(--rule-2);border-radius:999px;font:500 13px/1 var(--sans);color:var(--ink)!important;text-decoration:none!important}
+.tp-links a span{font:500 11px/1 var(--mono);color:var(--ink-3)}
+.tp-links a:hover{border-color:var(--accent)}
+.st-box{max-width:var(--measure);margin:22px 0;border:1px solid var(--rule-2);border-radius:6px;padding:16px 18px}
+.st-box h2{margin:0 0 12px;font:700 15px/1.4 var(--sans)}
+.st-tl{list-style:none;margin:0;padding:0}
+.st-tl li{position:relative;padding:0 0 14px 20px;border-left:2px solid var(--rule-2);margin-left:5px}
+.st-tl li:last-child{padding-bottom:0}
+.st-tl li::before{content:"";position:absolute;left:-7px;top:3px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--accent)}
+.st-tl time{font:600 12px/1 var(--mono);color:var(--accent)}
+.st-tl p{margin:4px 0 0;font-size:14px;line-height:1.7;color:var(--ink-2)}
+.wk-box{max-width:var(--measure);margin:28px 0 0;padding:16px 18px;border:1px solid var(--rule-2);border-radius:6px}
+.wk-h{margin:0;font:700 15px/1.4 var(--sans);color:var(--ink)}
+.wk-t{margin:6px 0 10px;font-size:13.5px;line-height:1.7;color:var(--ink-2)}
+.wk-form{display:flex;gap:8px;flex-wrap:wrap}
+.wk-form input[type=email]{flex:1;min-width:200px;padding:10px 12px;border:1px solid var(--rule-2);border-radius:4px;background:var(--bg);color:var(--ink);font-size:14px}
+.wk-form button{padding:10px 16px;border:0;border-radius:4px;background:var(--ink);color:var(--bg);font:600 14px/1 var(--sans);cursor:pointer}
+.wk-msg{margin:8px 0 0;font-size:13px;color:var(--accent)}
+.wk-msg:empty{display:none}
+.wk-note{margin:8px 0 0;font-size:12px;color:var(--ink-3)}
+"""
+
+
 def render_category(site: dict, key: str, cat: dict, posts: list[dict]) -> str:
     s = site["site"]
     items = [p for p in posts if p.get("category") == key]
@@ -2572,6 +2815,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {disclosure}
     <p class="article-meta"><time datetime="{p['date']}">{p['date'].replace('-', '.')}</time><span class="dot"></span>{p['reading_min']} MIN READ{upd_meta}{route}</p>
     {jp_html}
+    {story_section(p)}
     {hero_block}
     <div class="prose">{body_with_media}</div>
     {videos_after_section(p)}
@@ -2580,13 +2824,15 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {alts_html}
     {gear_html}
     {feature_hint(p)}
+    {topic_links(p)}
   {faq_html}
   {yr_html}
+  {weekly_form(s)}
   {sources}
   </article>
   {ad_unit(s, "article_end")}
   {rel_html}
-</main>{ALERT_JS if alert_html else ""}{YORIMICHI_JS if yr_html else ""}"""
+</main>{ALERT_JS if alert_html else ""}{YORIMICHI_JS if yr_html else ""}{WEEKLY_JS if s.get("weekly_mail") else ""}"""
         + footer(site)
     )
 
@@ -2690,7 +2936,10 @@ def render_privacy(site: dict) -> str:
       <p>記事の「日本で買える？使える？」の欄から登録いただいたメールアドレスは、
       <strong>その製品が日本で買えるようになったことを1通お知らせする目的にのみ</strong>使用します。
       確認メールのリンクを開いた時点で登録が完了し、それまでお知らせは送りません。
-      ニュースレターや広告のメールは送りません。</p>
+      広告のメールは送りません。</p>
+      <p>記事の終わりの欄から「週1回のメール」に登録いただいた場合は、毎週日曜に1通、その週に紹介した海外ガジェットと
+      日本で買えるようになった製品のお知らせを送ります。こちらも確認メールのリンクを開いた時点で登録が完了し、
+      メール内のリンクからいつでも解除できます。</p>
       <p>メールアドレスと登録した記事の組み合わせは、Cloudflare, Inc. のデータベース（Cloudflare D1）に
       保存し、メールの送信には Resend, Inc. のサービスを利用します。いずれも送信とその記録に
       必要な範囲でのみ使用し、ご本人の同意なく第三者に提供することはありません。
@@ -3246,6 +3495,11 @@ def write_landing_data(site: dict, posts: list[dict]) -> None:
             "summary": str(j.get("summary") or "").strip(),
             "checked": str(j.get("checked") or ""),
         })
+    by = {x["slug"]: x for x in items}
+    for m in MERGED:
+        t = by.get(str(m["merged_into"]).strip())
+        if t:
+            items.append({**t, "slug": m["slug"]})
     data = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "items": items}
     (PUBLIC / "landing.json").write_text(
         json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
@@ -3319,6 +3573,8 @@ def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = 
     urls = [f"{base}/", f"{base}/about.html", f"{base}/media.html", f"{base}/privacy.html",
             f"{base}/jpn.html", f"{base}/features.html", f"{base}/{GITEKI_PATH}"]
     urls += [f"{base}/{f['path']}" for f in (features or [])]
+    if TOPICS:
+        urls += [f"{base}/topic/"] + [f"{base}/{t['path']}" for t in TOPICS]
     per_page = int(site["site"].get("posts_per_page") or 20)
     total_pages = max(1, -(-len(posts) // per_page))
     urls += [f"{base}/{page_path(n)}" for n in range(2, total_pages + 1)]
@@ -4171,6 +4427,9 @@ FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 
 
 # ────────────────────────────── メイン ──────────────────────────────
+CSS += HUB_CSS
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--serve", action="store_true")
@@ -4194,6 +4453,14 @@ def main() -> int:
                      f"  {seen_slugs[p['slug']]} と {p['date']} の「{p['title']}」。"
                      f"同じ製品なら新しいほうの記事を消す")
         seen_slugs[p["slug"]] = f"{p['date']} の「{p['title']}」"
+    MERGED[:] = [p for p in posts if str(p.get("merged_into") or "").strip()]
+    posts = [p for p in posts if not any(p is m for m in MERGED)]
+    _live = {p["slug"] for p in posts}
+    for m in MERGED:
+        if str(m["merged_into"]).strip() not in _live:
+            sys.exit(f"✗ merged_into の行き先がありません: {m['slug']} → {m['merged_into']}")
+    if MERGED:
+        print(f"■ 続報まとめ: {len(MERGED)}本を残す記事へ転送")
     features = []
     if FEATURES_DIR.exists():
         features = [f for f in (parse_feature(x)
@@ -4211,6 +4478,7 @@ def main() -> int:
     for n, q in enumerate(sorted(posts, key=lambda x: (x["date"], x["slug"])), start=1):
         q["flight"] = f"GT {n:04d}"
     print(f"■ 記事 {len(posts)}本")
+    TOPICS[:] = load_topics(posts)
     long_titles = [p for p in posts if len(p.get("seo_title") or p["title"]) > 34]
     if long_titles:
         print(f"! 検索用タイトルが長い記事 {len(long_titles)}本 "
@@ -4347,6 +4615,16 @@ def main() -> int:
             print(f"    {slug}")
     for p in posts:
         (PUBLIC / p["path"]).write_text(render_post(site, p, posts), encoding="utf-8")
+    _by = {p["slug"]: p for p in posts}
+    for m in MERGED:
+        (PUBLIC / m["path"]).write_text(merged_redirect(site, m, _by[str(m["merged_into"]).strip()]), encoding="utf-8")
+    if TOPICS:
+        (PUBLIC / "topic").mkdir(parents=True, exist_ok=True)
+        (PUBLIC / "topic" / "index.html").write_text(render_topics_index(site), encoding="utf-8")
+        for t in TOPICS:
+            (PUBLIC / t["path"]).write_text(render_topic(site, t), encoding="utf-8")
+        print(f"■ 話題ページ {len(TOPICS)}本 (" + "・".join(f"{t['label']}{len(t['posts'])}" for t in TOPICS) + ")")
+    write_weekly_data(site)
     for key, cat in site["categories"].items():
         (PUBLIC / "category" / f"{cat['slug']}.html").write_text(
             render_category(site, key, cat, posts), encoding="utf-8")

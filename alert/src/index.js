@@ -18,12 +18,20 @@
  * メールには紹介リンクを入れない(Amazon アソシエイトはメール内のリンクを禁じている)。
  * 記事の「日本上陸」の枠へ送る。
  *
+ * 週1メール(2026-11-10 本人了承):
+ *   記事の終わりの欄から slug="weekly" で登録する(同じ表・同じ確認の流れ)。毎週日曜 10:00 JST の cron が
+ *   サイトの weekly.json(build.py が note の週まとめから作る)を読み、登録者に1通ずつ送る。
+ *   同じ週は2回送らない(notified に "weekly-<日付>" を記録)。weekly.json が古ければ送らない。
+ *
  * 環境: DB(D1)、RESEND_API_KEY(秘密)、SITE、FROM、ALLOW_ORIGINS(vars)
  */
 
 const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{2,}$/;
 const SLUG_RE = /^[a-z0-9][a-z0-9-]{1,120}$/;
 const MAX_PER_IP_PER_HOUR = 10;
+const WEEKLY = "weekly";
+const WEEKLY_CRON = "0 1 * * 0";
+const WEEKLY_ITEM = { title: "週1回の海外ガジェット5選", landed: false };
 
 export default {
   async fetch(request, env, ctx) {
@@ -45,7 +53,8 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
-    ctx.waitUntil(notifyLanded(env));
+    if (event.cron === WEEKLY_CRON) ctx.waitUntil(sendWeekly(env));
+    else ctx.waitUntil(notifyLanded(env));
   },
 };
 
@@ -129,8 +138,8 @@ async function subscribe(request, env, cors) {
   if (!EMAIL_RE.test(email)) return reply(400, { ok: false, error: "メールアドレスの形が違います" }, "登録できません", "<p>メールアドレスの形が違います。</p>");
   if (!SLUG_RE.test(slug)) return reply(400, { ok: false, error: "記事が分かりません" }, "登録できません", "<p>どの記事か分かりませんでした。</p>");
 
-  const landing = await loadLanding(env);
-  const item = landing.get(slug);
+  const isWeekly = slug === WEEKLY;
+  const item = isWeekly ? { ...WEEKLY_ITEM, url: env.SITE } : (await loadLanding(env)).get(slug);
   if (!item) return reply(404, { ok: false, error: "その記事は見つかりません" }, "登録できません", "<p>その記事は見つかりませんでした。</p>");
   const backUrl = item.url;
   if (item.landed) return reply(200, { ok: true, landed: true, message: "この製品はすでに日本で買えます。記事の「日本上陸」の枠をご覧ください" },
@@ -149,7 +158,7 @@ async function subscribe(request, env, cors) {
   let tok;
   if (existing && existing.confirmed_at && !existing.unsubscribed_at) {
     return reply(200, { ok: true, already: true, message: "このアドレスはすでに登録済みです" },
-      "登録済みです", `<p>このメールアドレスは「${esc(item.title)}」の上陸アラートに登録済みです。</p>`, backUrl);
+      "登録済みです", `<p>このメールアドレスは「${esc(item.title)}」${isWeekly ? "のメール" : "の上陸アラート"}に登録済みです。</p>`, backUrl);
   }
   if (existing) {
     // 未確認のまま、または解除後の再登録。トークンを作り直して確認メールを送り直す
@@ -163,6 +172,24 @@ async function subscribe(request, env, cors) {
   }
 
   const confirmUrl = `${selfOrigin(request)}/confirm?t=${tok}`;
+  if (isWeekly) {
+    await sendMail(env, {
+      to: email,
+      subject: "【Gadget Terminal】週1回のメール、登録を確認してください",
+      text: [
+        "このメールアドレスで、Gadget Terminal の週1回のメール(毎週日曜の朝、その週の海外ガジェット5選と日本に来た製品)の登録を受け付けました。",
+        "",
+        "下のリンクを開くと登録が完了します。",
+        confirmUrl,
+        "",
+        "心当たりがなければ、このメールは無視してください。登録は完了しません。",
+        "",
+        `Gadget Terminal ${env.SITE}/`,
+      ].join("\n"),
+    });
+    return reply(200, { ok: true, message: "確認メールを送りました。メールのリンクを開くと登録が完了します" },
+      "確認メールを送りました", `<p>${esc(email)} に確認メールを送りました。メールのリンクを開くと、週1回のメールの登録が完了します。</p><p>届かないときは、迷惑メールの欄もご確認ください。</p>`, backUrl);
+  }
   await sendMail(env, {
     to: email,
     subject: `【Gadget Terminal】「${item.title}」の日本上陸アラート、登録を確認してください`,
@@ -192,14 +219,18 @@ async function confirm(url, env) {
   if (!/^[0-9a-f]{48}$/.test(t)) return page("リンクが正しくありません", "<p>確認のリンクが壊れています。記事からもう一度登録してください。</p>", env, 400);
   const row = await env.DB.prepare("SELECT slug, confirmed_at, unsubscribed_at FROM subscriptions WHERE token = ?").bind(t).first();
   if (!row) return page("リンクが正しくありません", "<p>この確認リンクは使えません。記事からもう一度登録してください。</p>", env, 404);
-  const landing = await loadLanding(env);
-  const item = landing.get(row.slug);
-  const title = item ? item.title : row.slug;
-  const backUrl = item ? item.url : "";
   if (!row.confirmed_at || row.unsubscribed_at) {
     await env.DB.prepare("UPDATE subscriptions SET confirmed_at = ?, unsubscribed_at = NULL WHERE token = ?").bind(now(), t).run();
   }
   const unsub = `${url.origin}/unsubscribe?t=${t}`;
+  if (row.slug === WEEKLY) {
+    return page("登録しました", `<p>毎週日曜の朝に、その週の海外ガジェット5選と、日本で買えるようになった製品を1通お届けします。</p>
+<p>解除はいつでもできます: <a href="${esc(unsub)}">登録を解除する</a></p>`, env, 200);
+  }
+  const landing = await loadLanding(env);
+  const item = landing.get(row.slug);
+  const title = item ? item.title : row.slug;
+  const backUrl = item ? item.url : "";
   return page("登録しました", `<p>「${esc(title)}」が日本で買えるようになったら、このメールアドレスに1通だけお知らせします。</p>
 <p>それまでメールは送りません。解除はいつでもできます: <a href="${esc(unsub)}">登録を解除する</a></p>`, env, 200, backUrl);
 }
@@ -210,6 +241,7 @@ async function unsubscribe(url, env) {
   const row = await env.DB.prepare("SELECT slug FROM subscriptions WHERE token = ?").bind(t).first();
   if (!row) return page("解除済みです", "<p>この登録はすでに無いか、解除済みです。</p>", env, 200);
   await env.DB.prepare("UPDATE subscriptions SET unsubscribed_at = ? WHERE token = ?").bind(now(), t).run();
+  if (row.slug === WEEKLY) return page("解除しました", "<p>週1回のメールを解除しました。今後このメールアドレスには届きません。</p>", env, 200);
   return page("解除しました", "<p>この製品の上陸アラートを解除しました。今後このメールアドレスにはお知らせを送りません。</p>", env, 200);
 }
 
@@ -221,7 +253,7 @@ async function unsubscribe(url, env) {
 async function pending(env) {
   const rows = (await env.DB.prepare(
     "SELECT DISTINCT s.slug FROM subscriptions s LEFT JOIN notified n ON n.slug = s.slug " +
-    "WHERE s.confirmed_at IS NOT NULL AND s.unsubscribed_at IS NULL AND s.notified_at IS NULL AND n.slug IS NULL ORDER BY s.slug"
+    "WHERE s.slug != 'weekly' AND s.confirmed_at IS NOT NULL AND s.unsubscribed_at IS NULL AND s.notified_at IS NULL AND n.slug IS NULL ORDER BY s.slug"
   ).all()).results;
   return new Response(JSON.stringify({ slugs: rows.map((r) => r.slug) }), {
     headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=300" },
@@ -273,12 +305,65 @@ async function notifyLanded(env) {
   console.log(`notifyLanded: ${sentTotal} 通`);
 }
 
-async function sendMail(env, { to, subject, text }) {
+/** 毎週日曜: weekly.json の5本と今週の日本上陸を、週1メールの登録者に送る(同じ週は1回だけ) */
+async function sendWeekly(env) {
+  const r = await fetch(`${env.SITE}/weekly.json`, { headers: { "accept": "application/json" }, cf: { cacheTtl: 300 } });
+  if (!r.ok) throw new Error(`weekly.json ${r.status}`);
+  const w = await r.json();
+  const ageDays = (Date.now() - Date.parse(`${w.date}T00:00:00+09:00`)) / 86400_000;
+  if (!(w.items || []).length || !(ageDays >= -1 && ageDays <= 3)) {
+    console.log(`sendWeekly: weekly.json が今週の物でない(${w.date})。送らない`);
+    return;
+  }
+  const key = `weekly-${w.date}`;
+  if (await env.DB.prepare("SELECT slug FROM notified WHERE slug = ?").bind(key).first()) {
+    console.log(`sendWeekly: ${key} は送信済み`);
+    return;
+  }
+  const subs = (await env.DB.prepare(
+    "SELECT email, token FROM subscriptions WHERE slug = ? AND confirmed_at IS NOT NULL AND unsubscribed_at IS NULL"
+  ).bind(WEEKLY).all()).results;
+  // メールには紹介リンクを入れない(記事へ送るだけ)。どこから来たかは utm で数える
+  const tag = (u) => u ? `${u}${u.includes("?") ? "&" : "?"}utm_source=weekly&utm_medium=email` : env.SITE;
+  const title = w.title || "今週の海外ガジェット5選";
+  const row = (x) => `<tr><td style="padding:14px 0;border-top:1px solid #eee;vertical-align:top;width:104px">${x.image ? `<img src="${esc(x.image)}" width="96" height="96" alt="" style="width:96px;height:96px;object-fit:contain;background:#fff;border:1px solid #eee;border-radius:4px">` : ""}</td>
+<td style="padding:14px 0 14px 12px;border-top:1px solid #eee;vertical-align:top"><a href="${esc(tag(x.url))}" style="font-weight:700;font-size:15px;color:#1a1a1a;text-decoration:none">${esc(x.title)}</a>
+<p style="margin:6px 0 0;font-size:13.5px;line-height:1.7;color:#555">${esc(x.text)}</p></td></tr>`;
+  let sent = 0;
+  for (const s of subs) {
+    const unsub = `${env.ALERT_ORIGIN}/unsubscribe?t=${s.token}`;
+    const text = [
+      title, "", w.lead || "", "",
+      ...w.items.flatMap((x, i) => [`${i + 1}. ${x.title}`, x.text, tag(x.url), ""]),
+      ...((w.landed || []).length ? ["― 今週の日本上陸 ―", "", ...w.landed.flatMap((x) => [x.title, x.text, tag(x.url), ""])] : []),
+      "このメールは週1回だけ届きます。", `配信の停止: ${unsub}`, "", `Gadget Terminal ${env.SITE}/`,
+    ].join("\n");
+    const html = `<!doctype html><html lang="ja"><body style="margin:0;background:#f7f7f5"><div style="max-width:600px;margin:0 auto;padding:24px 20px;background:#fff;font-family:system-ui,-apple-system,'Hiragino Sans','Noto Sans JP',sans-serif;color:#1a1a1a">
+<p style="margin:0 0 6px;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.12em;color:#d8452e">GADGET TERMINAL / WEEKLY</p>
+<h1 style="margin:0 0 8px;font-size:20px;line-height:1.4">${esc(title)}</h1>
+<p style="margin:0 0 10px;font-size:14px;line-height:1.8;color:#555">${esc(w.lead || "")}</p>
+<table role="presentation" style="width:100%;border-collapse:collapse">${w.items.map(row).join("")}</table>
+${(w.landed || []).length ? `<p style="margin:22px 0 4px;font:700 12px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;color:#d8452e">今週の日本上陸</p><table role="presentation" style="width:100%;border-collapse:collapse">${w.landed.map(row).join("")}</table>` : ""}
+<p style="margin:24px 0 0;font-size:12px;line-height:1.7;color:#888">このメールは週1回だけ届きます。<a href="${esc(unsub)}" style="color:#888">配信の停止</a><br>Gadget Terminal <a href="${esc(env.SITE)}/" style="color:#888">${esc(env.SITE)}</a></p>
+</div></body></html>`;
+    try {
+      await sendMail(env, { to: s.email, subject: `【Gadget Terminal】${title}`, text, html });
+      sent++;
+    } catch (e) {
+      console.error("weekly send failed", e && e.message);
+    }
+  }
+  await env.DB.prepare("INSERT OR REPLACE INTO notified (slug, status, sent_at, sent_count) VALUES (?, ?, ?, ?)")
+    .bind(key, "weekly", now(), sent).run();
+  console.log(`sendWeekly: ${key} → ${sent} 通`);
+}
+
+async function sendMail(env, { to, subject, text, html }) {
   if (!env.RESEND_API_KEY) throw new Error("RESEND_API_KEY が無い");
   const r = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: { "Authorization": `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ from: env.FROM, to: [to], subject, text }),
+    body: JSON.stringify(html ? { from: env.FROM, to: [to], subject, text, html } : { from: env.FROM, to: [to], subject, text }),
   });
   if (!r.ok) throw new Error(`resend ${r.status}: ${(await r.text()).slice(0, 200)}`);
 }

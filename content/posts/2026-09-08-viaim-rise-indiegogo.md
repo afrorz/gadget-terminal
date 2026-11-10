@@ -5,6 +5,7 @@ slug: viaim-rise-indiegogo
 keyword: viaim Rise
 category: smartphone
 date: 2026-09-08
+merged_into: viaim-rise-ai-earbuds
 kicker: AIエージェント型を謳う完全ワイヤレスイヤホン「viaim Rise」が、2026年9月8日22:00(日本時間)にIndiegogoでクラウドファンディングを開始する。IFA 2026で「Best in Audio」を受賞済み。早期価格259ドル、正式価格399ドル。
 tags:
 - viaim

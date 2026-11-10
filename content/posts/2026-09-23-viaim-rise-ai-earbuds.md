@@ -5,6 +5,11 @@ slug: viaim-rise-ai-earbuds
 keyword: viaim Rise
 category: smartphone
 date: 2026-09-23
+story:
+- date: "2026-09-23"
+  text: "Indiegogoで公開された内容を確認し、この記事にまとめた。早期価格は259ドルから。"
+- date: "2026-09-08"
+  text: "初報。日本時間9月8日22:00にIndiegogoで募集開始。IFA 2026で「Best in Audio」を受賞済み。"
 kicker: 香港拠点のviaim(Vision Intelligence)が、AIエージェント機能を搭載した完全ワイヤレスイヤホン「Rise」をIndiegogoで公開した。IFA 2026イノベーションアワードでBest in Audioを受賞しており、掲載時点の早期価格は259ドル(想定小売価格399ドルの35%オフ)。**クラウドファンディングであり、まだ製品ではない。**
 tags:
   - viaim

@@ -10,6 +10,7 @@ x_hook: |
 keyword: Enough Phone
 category: smartphone
 date: 2026-11-05
+merged_into: enough-phone-small-5g-removable-battery
 kicker: 米ネバダ州の作り手が、5.3インチのAndroidスマホ「Enough Phone」をKickstarterで募集している。大きさは約133×64×12mmで、MediaTekのDimensity 7500、8GB RAM、128GBストレージを積み、3,500mAhの電池は背面のネジを外して交換できる。
 tags:
 - Enough Phone

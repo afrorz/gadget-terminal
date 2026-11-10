@@ -10,6 +10,11 @@ x_hook: |
 keyword: Enough Phone
 category: smartphone
 date: 2026-11-08
+story:
+- date: "2026-11-08"
+  text: "Kickstarterの募集が始まり、早期割引449ドル・通常499ドル・販売後の予定価格599ドルを確認。この記事を最新の内容に更新。"
+- date: "2026-11-05"
+  text: "初報。5.3インチ・電池を自分で交換できるAndroidとして発表。出荷は2027年5月予定(9to5Google の報道)。"
 modified: 2026-11-08
 kicker: 5.3インチの小型5Gスマートフォン「Enough Phone」が、Kickstarterで出資を募っている。背面をネジで外して3,500mAhの電池を自分で交換でき、早期割引は449ドル。配送予定は2027年5月。
 tags:

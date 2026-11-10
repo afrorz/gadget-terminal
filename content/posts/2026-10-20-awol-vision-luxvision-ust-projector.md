@@ -10,6 +10,7 @@ x_hook: |
 keyword: LuxVision
 category: pc
 date: 2026-10-20
+merged_into: awol-luxvision-optical-shift-ust
 kicker: AWOL Visionが、RGB3色レーザーで6,000 ISOルーメン、4K/120Hz入力、縦方向の光学レンズシフトを備えた超短焦点プロジェクター「LuxVision」の予約を始めた。希望小売価格は5,999ドル、出荷は2026年10月ごろの予定。
 tags:
 - AWOL Vision

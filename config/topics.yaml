@@ -1,0 +1,87 @@
+# 話題ページ(/topic/<slug>.html)。2026-11-10 本人了承。
+# 記事のタグは836種類あり表記もばらばら(「携帯ゲーム機」「レトロゲーム機」「ANBERNIC」など)なので、
+# タグをそのままページにせず、ここで話題ごとにまとめる。タグの一致は大文字小文字を区別しない。
+# 記事が min_posts(既定5)本に満たない話題はページを作らない(中身の薄いページを増やさないため)。
+# 話題を足すときは、label・desc(1〜2文、事実だけ)・tags(完全一致)を書く。contains は「その言葉を含むタグ」も拾う。
+min_posts: 5
+topics:
+  - slug: handheld
+    label: 携帯ゲーム機
+    desc: Android・Linux・レトロ系の携帯ゲーム機の新製品。
+    tags: [携帯ゲーム機, レトロゲーム機, レトロゲーム, ハンドヘルド, ゲーミングハンドヘルド, 携帯ゲーミングPC, ANBERNIC, Retroid, AYN, AYANEO, Miyoo]
+    contains: [携帯ゲーム機, レトロゲーム機, ハンドヘルド]
+  - slug: mini-pc
+    label: ミニPC
+    desc: 手のひらサイズのデスクトップPCと、その周辺の新製品。
+    tags: [ミニPC, Minisforum, GMKtec, Beelink, GEEKOM, NUC]
+  - slug: e-paper
+    label: 電子ペーパー
+    desc: E Inkなどの電子ペーパーを使った端末・モニター・スマホ。
+    tags: [電子ペーパー, E Ink, カラー電子ペーパー, 電子書籍リーダー, Bigme, BOOX, Kaleido]
+  - slug: keyboard
+    label: キーボード
+    desc: メカニカル・磁気スイッチ・自作向けなど、キーボードの新製品。
+    tags: [キーボード, メカニカルキーボード, ゲーミングキーボード, 自作キーボード, 分割キーボード, 磁気スイッチ, ラピッドトリガー, Keychron]
+    contains: [キーボード]
+  - slug: mouse
+    label: マウス
+    desc: ゲーミングマウスやトラックボールの新製品。
+    tags: [マウス, ゲーミングマウス, トラックボール]
+  - slug: controller
+    label: ゲームコントローラー
+    desc: スマホ・PC・ゲーム機向けのコントローラーの新製品。
+    tags: [ゲームコントローラー, コントローラー, 8BitDo]
+  - slug: projector
+    label: プロジェクター
+    desc: 超短焦点・持ち運び型などプロジェクターの新製品。
+    tags: [プロジェクター, 超短焦点, AWOL Vision, XGIMI]
+    contains: [プロジェクター]
+  - slug: 3d-printer
+    label: 3Dプリンター
+    desc: 家庭・個人向けの3Dプリンターと関連製品。
+    tags: [3Dプリンター, Bambu Lab, Creality]
+  - slug: wearable
+    label: スマートウォッチ・リング
+    desc: スマートウォッチやスマートリングなど身に着ける端末。
+    tags: [スマートウォッチ, スマートリング]
+    contains: [ウォッチ]
+  - slug: audio
+    label: イヤホン・ヘッドホン
+    desc: ワイヤレスイヤホン・オープンイヤー・AIイヤホンなど音の製品。
+    tags: [イヤホン, ワイヤレスイヤホン, ヘッドホン, 骨伝導, オープンイヤー, AIイヤホン]
+    contains: [イヤホン, ヘッドホン]
+  - slug: power-bank
+    label: モバイルバッテリー・電源
+    desc: モバイルバッテリーとポータブル電源の新製品。
+    tags: [モバイルバッテリー, ポータブル電源]
+    contains: [モバイルバッテリー]
+  - slug: smartphone
+    label: スマートフォン
+    desc: 小型スマホ・ゲーミングスマホなど、海外で出たスマートフォン。
+    tags: [スマートフォン, スマホ, 小型スマホ, ミニスマホ, ゲーミングスマホ, 折りたたみスマホ, タフネススマホ, 頑丈スマホ]
+  - slug: maker
+    label: 電子工作・開発ボード
+    desc: ESP32・RISC-V・Crowd Supply発のボードなど、作って遊ぶための製品。
+    tags: [電子工作, 開発ボード, ESP32, ESP32-S3, RISC-V, Crowd Supply, オープンソース, LoRa, Raspberry Pi, Arduino, マイコン]
+  - slug: smart-glasses
+    label: スマートグラス
+    desc: 映像を映すメガネ・ARグラスの新製品。
+    tags: [スマートグラス, ARグラス, XRグラス, VRグラス]
+  - slug: camera
+    label: カメラ
+    desc: アクションカメラ・フィルム風カメラなど、変わったカメラの新製品。
+    tags: [カメラ, アクションカメラ, フィルムカメラ, デジタルカメラ]
+    contains: [カメラ]
+  - slug: robot
+    label: ロボット
+    desc: 家で動く小型ロボット・AIロボットの新製品。
+    tags: [ロボット]
+    contains: [ロボット]
+  - slug: laptop
+    label: ノートPC
+    desc: 海外で発表されたノートPCの新製品。
+    tags: [ノートPC, ノートパソコン]
+  - slug: monitor
+    label: モニター
+    desc: モバイルモニターや変わった形のモニターの新製品。
+    tags: [モニター, モバイルモニター, ゲーミングモニター, デュアルモニター, トリプルディスプレイ, ディスプレイ]

@@ -30,6 +30,8 @@ site:
   # 日本上陸アラート(まだ日本で買えない記事に出すメール登録欄)の受け口。alert/ の Worker。
   # 空なら欄もプライバシーの項も出ない(2026-11-01〜)
   alert_api_url: "https://alert.gadgetterminal.com"
+  # 週1メールの登録欄を記事に出すか。alert/ の Worker を週1メール対応版で公開してから true にする(2026-11-10)
+  weekly_mail: false
   # Google Search Console の所有権確認。プロパティ追加 → 「HTMLタグ」を選ぶと
   # <meta name="google-site-verification" content="XXXX"> が出るので、
   # **content= の中身だけ**をここに入れて公開する。空なら何も出力しない。
