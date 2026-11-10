@@ -19,7 +19,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-11-04
+  checked: 2026-11-11
   radio: Qi2ワイヤレス給電（5,000mAh版）
   note: "日本向けの販売が確認できず、国内での型式や表示を調べられない"
 images:

@@ -14,11 +14,12 @@ tags:
 - Wi-Fi 6
 - Zigbee
 giteki:
-  status: 確認できない
-  number: []
-  checked: 2026-11-04
+  status: 取得済み
+  number: ["219-269381"]
+  checked: 2026-11-11
   radio: Wi-Fi 6(2.4/5GHz) / BLE 5 / Zigbee・Thread
-  note: 旧M5Toughは登録あり、本機は未確認
+  note: "型番ToughC5で登録(2026-11-11 再確認)"
+  found: 2026-11-11
 faq:
 - q: M5Stack ToughC5はいくらですか
   a: M5Stack公式ストアの掲載時点で49.90ドルです。送料と税は別です。

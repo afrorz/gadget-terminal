@@ -20,7 +20,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-10-29
+  checked: 2026-11-11
   radio: Bluetooth
   note: "ツートン版の型番が分からず、総務省DBで特定できない"
 images:

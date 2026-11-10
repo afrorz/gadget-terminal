@@ -14,7 +14,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-11-04
+  checked: 2026-11-11
   radio: "Bluetooth 6.0"
 seo_title: CMF Buds Neoは日本でも発売済み、国内価格3,800円
 faq:

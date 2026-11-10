@@ -22,7 +22,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-11-04
+  checked: 2026-11-11
   radio: Bluetooth 6.0
   note: 総務省DBでCMF Speakerの型番を特定できず、Nothing Technology Limited名義の登録からも該当を断定できない
 japan:

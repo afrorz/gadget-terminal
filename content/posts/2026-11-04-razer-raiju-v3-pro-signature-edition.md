@@ -20,7 +20,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-11-04
+  checked: 2026-11-11
   radio: Razer HyperSpeed Wireless（2.4GHz）
   note: 総務省DBでRaijuの型番の登録を特定できない
 alternatives:

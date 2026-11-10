@@ -15,7 +15,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-11-04
+  checked: 2026-11-11
   radio: "Wi-Fi"
 x_hook: 水槽が自分でエサをやり、水も勝手にろ過する。ただし今のところ中国国内限定の話。
 faq:

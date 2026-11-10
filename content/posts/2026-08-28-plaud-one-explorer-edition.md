@@ -17,7 +17,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-08-28
+  checked: 2026-11-11
   radio: "4G LTE (eSIM)"
 faq:
 - q: いくらですか

@@ -25,7 +25,7 @@ tags:
 giteki:
   status: 確認できない
   number: []
-  checked: 2026-11-04
+  checked: 2026-11-11
   radio: "Wi-Fi 7 / Bluetooth 5.4"
 embeds:
   - type: youtube
