@@ -1,0 +1,819 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T07:30:46.329672+09:00",
+  "stats": {
+    "fetched": 726,
+    "unique": 686,
+    "new": 445,
+    "clusters": 414,
+    "selected": 30
+  },
+  "items": [
+    {
+      "title": "Makuake｜【アンコール】夜なのに昼みたい！超小型ライト\"Circlux(サークルクス)\"｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/broadwatch10/",
+      "summary": "【本プロジェクトはアンコールプロジェクト※です】※アンコールプロジェクトとは、過去実施したプロジェクトが好評だった場合において、プロジェクト終了後から一般販売までに再び実施するプロジェクトを言います。これが",
+      "image": "https://static.makuake.com/upload/project/54400/main_54400.jpg?version=1793949460&amp;width=690&amp;height=388",
+      "published": "2026-11-13T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "466daa860c4a172b",
+      "canonical": "https://www.makuake.com/project/broadwatch10",
+      "score": 24,
+      "reasons": [
+        "+6 makuake",
+        "+4 超小型",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜最大800lmの高輝度×RGB！手のひらサイズの多機能ライト「WF4 Plus」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/wf4-plus/",
+      "summary": "リターン品の配送が完了するまで、環通国際株式会社はShenzhen Grandoor Electronic Co.,Ltdの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。WF4 Plusは、最大800ルーメンの高輝度白色ライトと、多彩なカラー演出が楽しめるRGBライトを搭載した多機能EDCライトです。コンパクトな本体に、USB Typ",
+      "image": "https://static.makuake.com/upload/project/54269/main_54269.jpg?version=1793234597&amp;width=690&amp;height=388",
+      "published": "2026-11-12T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "d54aceb97efdd26c",
+      "canonical": "https://www.makuake.com/project/wf4-plus",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "78338d2d182712f4",
+      "title": "Oppo’s 12,000mAh battery phone shows up in official images",
+      "url": "https://www.gizmochina.com/2026/11/10/oppo-pnc110-12000mah-battery-official-images/",
+      "canonical": "https://www.gizmochina.com/2026/11/10/oppo-pnc110-12000mah-battery-official-images",
+      "summary": "Official photos of an unannounced Oppo phone, listed as the PNC110, have been added to its MIIT network access license in China. This is the first official look at a purple 5G model, although Oppo has not confirmed a marketing name, price, or launch date. Oppo PNC110 design revealed in official images According to AndroidTreasure, [&#8230;] The post Oppo&#8217;s 12,000mAh battery phone shows up in",
+      "published": "2026-11-10T06:57:02+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cbe52d209875789c",
+      "title": "Ayaneo Konkr Pocket Advance gets a RAM upgrade and a new paint job",
+      "url": "https://www.notebookcheck.net/Ayaneo-releases-Konkr-Pocket-Advance-with-more-RAM.1447170.0.html",
+      "canonical": "https://www.notebookcheck.net/Ayaneo-releases-Konkr-Pocket-Advance-with-more-RAM.1447170.0.html",
+      "summary": "Ayaneo has launched a new version of the Konkr Pocket Advance, and it is available to pre-order now. The new handheld arrives in a translucent pink shell and boasts more RAM than the previously-announced colors.",
+      "published": "2026-11-10T17:00:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 pre-order",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3caa6bbabae8ee68",
+      "title": "More Oppo Find N7 specs emerge",
+      "url": "https://www.gsmarena.com/more_oppo_find_n7_specs_emerge-news-75418.php",
+      "canonical": "https://www.gsmarena.com/more_oppo_find_n7_specs_emerge-news-75418.php",
+      "summary": "The Oppo Find N7 is confirmed to launch outside of China, which is good news for foldable fans, and we now have some additional specs thanks to a Weibo post from a reliable source. Tipster Smart Pikachu outlined some of the key specs for Oppo’s upcoming foldable, which include a creaseless display, a 200MP main camera and Qualcomm’s Snapdragon 8 Elite Extreme Gen 6 chip. In addition, the foldable ",
+      "published": "2026-11-10T12:07:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 foldable",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1db4e2d8cc980dec",
+      "title": "Honda unveils full-suspension high-end electric mountain bike with carbon frame",
+      "url": "https://www.notebookcheck.net/Honda-unveils-full-suspension-high-end-electric-mountain-bike-with-carbon-frame.1446602.0.html",
+      "canonical": "https://www.notebookcheck.net/Honda-unveils-full-suspension-high-end-electric-mountain-bike-with-carbon-frame.1446602.0.html",
+      "summary": "Honda has officially launched its first high-end electric mountain bike at EICMA 2026 in Milan. The company’s new Honda RN0 eMTB features a carbon monocoque frame, a 750 W motor, and a sizeable 720 Wh battery. Plus, it ships with Fox suspension, XT brakes, and a built-in 2.2-inch color display.",
+      "published": "2026-11-10T17:23:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 ships",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5362cba29e85faab",
+      "title": "Samsung officially details Gallery sync with Google storage",
+      "url": "https://www.gsmarena.com/samsung_officially_details_gallery_sync_with_google_storage-news-75424.php",
+      "canonical": "https://www.gsmarena.com/samsung_officially_details_gallery_sync_with_google_storage-news-75424.php",
+      "summary": "Samsung is officially detailing its Gallery app's move to Google storage today. Back in September, we told you about Gallery's cloud sync switching to Google Photos right after direct OneDrive sync ended on September 30. Gallery sync with Google storage has started on select Galaxy phones and tablets running One UI 9 and will expand in phases, though it may not be available in some markets. It use",
+      "published": "2026-11-10T18:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority",
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/samsung-gallery-can-now-back-up-your-photos-straight-to-google-storage/",
+        "https://www.androidauthority.com/samsung-gallery-sync-google-storage-3733418/"
+      ]
+    },
+    {
+      "id": "8b966c44c49f8f44",
+      "title": "PCs with NVIDIA RTX Spark ship this month, Asus unveils the NUC 14 Essential Fanless mini PC, and Samsung launches Galaxy Tab S12 series : Liliputing News Roundup",
+      "url": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup",
+      "summary": "The Microsoft Surface Laptop Ultra goes up for pre-order today for $2599 and up and ships Oct 16 • The Microsoft Surface RTX Spark Dev Box mini PC with NVIDIA RTX Spark starts at $5999, but it ships standard with a 20-core RTX Spark N1X chip with a 6144-core Blackwell RTX GPU and 128GB unified LPDDR5x memory. blogs.windows.com/devices/2026 • The new Asus NUC 14 Essential Fanless is a mini PC with ",
+      "published": "2026-10-07T18:45:21+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+4 mini pc",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "480cf805ff0ed8dd",
+      "title": "Pulsar Previews Silent HE Gaming Keyboards With 3.5 mm Audio Jack and 8 kHz Polling",
+      "url": "https://www.techpowerup.com/354628/pulsar-previews-silent-he-gaming-keyboards-with-3-5-mm-audio-jack-and-8-khz-polling",
+      "canonical": "https://www.techpowerup.com/354628/pulsar-previews-silent-he-gaming-keyboards-with-3-5-mm-audio-jack-and-8-khz-polling",
+      "summary": "Pulsar has apparently been busy in recent months, with the gaming peripherals maker previously showing off an upcoming ergonomic gaming mouse designed for gamers with large hands and more recently teasing new dual-sensor gaming mice that will allow for true virtual sensor position for individual customization. Now, according to a recent post shared by @jakeufps on X , Pulsar is planning to launch ",
+      "published": "2026-11-10T04:10:47+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f89d4c7050ad2ba1",
+      "title": "Valve Adds Steam Deck FPS Data To Game Compatibility Screen in Latest Update",
+      "url": "https://www.techpowerup.com/354634/valve-adds-steam-deck-fps-data-to-game-compatibility-screen-in-latest-update",
+      "canonical": "https://www.techpowerup.com/354634/valve-adds-steam-deck-fps-data-to-game-compatibility-screen-in-latest-update",
+      "summary": "Valve recently announced that it was adding an opt-in toggle to enable data collection in Steam for the Steam Deck , with the idea behind the new feature being that developers could analyze the reported framerate data using Steam's built-in tools to better optimize their games for the handheld's hardware. In a new Steam Client update , however, Valve has confirmed that it will start sharing that s",
+      "published": "2026-11-10T05:33:26+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+4 handheld",
+        "+3 steam deck",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bad3e363e283db50",
+      "title": "(PR) Ocypus Unveils Omega L36 Ultra Eng Limited: Precision Engineering Meets Dynamic Thermals",
+      "url": "https://www.techpowerup.com/354623/ocypus-unveils-omega-l36-ultra-eng-limited-precision-engineering-meets-dynamic-thermals",
+      "canonical": "https://www.techpowerup.com/354623/ocypus-unveils-omega-l36-ultra-eng-limited-precision-engineering-meets-dynamic-thermals",
+      "summary": "Ocypus today officially announces the global launch of the Omega L36 Ultra Eng Limited, a flagship 360 mm liquid cooler engineered for high-performance computing platforms. Strictly limited to 200 units worldwide, this Eng Limited edition introduces an industry-first dynamic thermal system—featuring an automated mechanism that directs extra airflow directly over the motherboard VRM—complemented by",
+      "published": "2026-11-10T06:00:01+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ede0cd58ff8f06cb",
+      "title": "(PR) Gigabyte Launches the AI TOP AERO Powered by NVIDIA RTX Spark",
+      "url": "https://www.techpowerup.com/354649/gigabyte-launches-the-ai-top-aero-powered-by-nvidia-rtx-spark",
+      "canonical": "https://www.techpowerup.com/354649/gigabyte-launches-the-ai-top-aero-powered-by-nvidia-rtx-spark",
+      "summary": "Gigabyte today announced the launch of AI TOP AERO, a new AI desktop powered by the NVIDIA RTX Spark platform. Positioned as a Personal AI Studio, AI TOP AERO combines an NVIDIA Blackwell architecture GPU, up to 128 GB of unified system memory, and Gigabyte's cooling and compact chassis design. The new desktop expands Gigabyte's AI PC lineup, bringing local AI development, content creation and gam",
+      "published": "2026-11-10T16:14:59+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Gigabyte-takes-on-Mac-Studio-with-a-tiny-AI-PC-powered-by-Nvidia-RTX-Spark.1447215.0.html"
+      ]
+    },
+    {
+      "id": "2dcd6af4a0ab1b50",
+      "title": "GTA 6 Comes to Xbox One at Launch via Cloud Gaming, PC Players Out of Luck",
+      "url": "https://www.techpowerup.com/354663/gta-6-comes-to-xbox-one-at-launch-via-cloud-gaming-pc-players-out-of-luck",
+      "canonical": "https://www.techpowerup.com/354663/gta-6-comes-to-xbox-one-at-launch-via-cloud-gaming-pc-players-out-of-luck",
+      "summary": "Xbox One owners will be able to play GTA 6 when it launches on November 19, while PC players still have no official way in. In its pre-load announcement , which also confirmed a 30 FPS target on consoles , Rockstar says the game will be available through Xbox Cloud Gaming on Xbox Series X|S and Xbox One consoles, using Xbox Series S graphics settings. Xbox says streaming opens at 1 AM ET on launch",
+      "published": "2026-11-10T19:19:44+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/GTA-6-comes-to-Xbox-One-via-cloud-gaming-but-PC-players-are-left-out.1447209.0.html"
+      ]
+    },
+    {
+      "id": "b6addd55d95218c7",
+      "title": "Sony Unveils Japan Exclusive Midnight Black PlayStation Portal Player With Extra Storage",
+      "url": "https://www.techeblog.com/sony-japan-only-midnight-black-playstation-portal-player/",
+      "canonical": "https://www.techeblog.com/sony-japan-only-midnight-black-playstation-portal-player",
+      "summary": "Sony is preparing to sell a new version of its portable game streaming device in Japan next month. The PlayStation Portal Player Midnight Black Japanese Only model arrives on December 10 for 39,980 yen, which converts to roughly 250 US dollars. Preorders open on November 13 at 10 a.m. local time through PlayStation retailers and [...]",
+      "published": "2026-11-10T02:19:10+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 unveil",
+        "+4 preorder",
+        "+4 japan",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "aee8ad06e0e64af8",
+      "title": "OnePlus 17’s early leak reveals a wide-screen design",
+      "url": "https://www.gizmochina.com/2026/11/10/oneplus-17-early-leak-wide-screen-design/",
+      "canonical": "https://www.gizmochina.com/2026/11/10/oneplus-17-early-leak-wide-screen-design",
+      "summary": "The wide-screen candybar trend is spreading across Android flagships, and OnePlus now looks set to put its next numbered phone on that path. Weibo tipster Smart Pikachu has flagged the OnePlus 17 as one of next year&#8217;s high-performance wide-screen phones. OnePlus has not confirmed the tip, and official OnePlus 17 specifications have not been announced. [&#8230;] The post OnePlus 17&#8217;s ea",
+      "published": "2026-11-10T05:00:28+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a4373a8f38bafca8",
+      "title": "Motorola Signature 27 Hands-On: A premium textile back, a powerful camera, and a hefty price tag",
+      "url": "https://www.notebookcheck.net/Motorola-Signature-27-Hands-On-A-premium-textile-back-a-powerful-camera-and-a-hefty-price-tag.1446757.0.html",
+      "canonical": "https://www.notebookcheck.net/Motorola-Signature-27-Hands-On-A-premium-textile-back-a-powerful-camera-and-a-hefty-price-tag.1446757.0.html",
+      "summary": "With the Signature 27, Motorola is making a push into the premium segment. At the launch event in Tromsø, Norway, we were able to try out the new flagship for the first time and take numerous photos with its camera. We particularly like the unusual textile back panels, and the camera also makes a good first impression despite challenging lighting conditions. The price, however, is on the high side",
+      "published": "2026-11-10T14:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e386d35507611d15",
+      "title": "Ashes of the Singularity II hands-on with GPU benchmarks",
+      "url": "https://www.notebookcheck.net/Ashes-of-the-Singularity-II-hands-on-with-GPU-benchmarks.1447065.0.html",
+      "canonical": "https://www.notebookcheck.net/Ashes-of-the-Singularity-II-hands-on-with-GPU-benchmarks.1447065.0.html",
+      "summary": "Ashes of the Singularity II adds a third faction and a short campaign to the real-time strategy series. In our hands-on, automatic reinforcements make large armies easier to control. We measure performance on the RTX 5090 and RTX 3060 and check compatibility with two Intel integrated GPUs.",
+      "published": "2026-11-10T15:00:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+2 campaign",
+        "+5 hands-on",
+        "+4 benchmark",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "de8f1a8f1663e2e1",
+      "title": "PlayStation Continues PC Withdrawal by Ending PS Plus PC App",
+      "url": "https://www.techpowerup.com/354661/playstation-continues-pc-withdrawal-by-ending-ps-plus-pc-app",
+      "canonical": "https://www.techpowerup.com/354661/playstation-continues-pc-withdrawal-by-ending-ps-plus-pc-app",
+      "summary": "Earlier in 2026, it was reported that Sony would no longer be porting the majority of its games to PC , with those reports later being backed up by an official confirmation that narrative games would remain PlayStation exclusive. Now, Sony has announced that it will soon be ending development of the PlayStation Plus PC app, which previously allowed PlayStation Plus Premium subscribers to stream Pl",
+      "published": "2026-11-10T19:28:37+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 backed",
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ad645e29d0fe2034",
+      "title": "Huawei teases new MateBook Fold laptop with cover screen",
+      "url": "https://www.gsmarena.com/huawei_teases_new_matebook_fold_laptop_with_cover_screen-news-75420.php",
+      "canonical": "https://www.gsmarena.com/huawei_teases_new_matebook_fold_laptop_with_cover_screen-news-75420.php",
+      "summary": "Back in May of last year, Huawei unveiled its MateBook Fold Ultimate – an 18-inch HarmonyOS PC laptop that folds in half. And since then we’ve seen a 2026 edition with an upgraded Kirin chipset, and the brand is now teasing its third entry – the MateBook Fold S. It features a 14.7-inch display which is still presumably of the LTPO OLED variety. But this third edition in the MateBook Fold lineup is",
+      "published": "2026-11-10T13:13:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/11/10/huawei-matebook-fold-s-smaller-foldable-pc-14-7-inch-richard-yu-teases/"
+      ]
+    },
+    {
+      "id": "a229bd00e202f62b",
+      "title": "Samsung Gallery officially adds Google Photos backup, but not for all Galaxy users",
+      "url": "https://9to5google.com/2026/11/10/samsung-gallery-google-photos-backup-rollout/",
+      "canonical": "https://9to5google.com/2026/11/10/samsung-gallery-google-photos-backup-rollout",
+      "summary": "Samsung has officially launched Google Photos integration in its Gallery app with backup services, and it’s also now widely rolled out for Galaxy devices. more…",
+      "published": "2026-11-10T14:45:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/samsung-gallery-google-photos-backup-integration-announced/"
+      ]
+    },
+    {
+      "id": "8673e5bfa331bd0b",
+      "title": "PS5 Pro 也不例外：R 星确认《GTA 6》所有主机目标帧率都是 30fps",
+      "url": "https://www.ithome.com/1/025/185.htm",
+      "canonical": "https://www.ithome.com/1/025/185.htm",
+      "summary": "IT之家 11 月 10 日消息，今天（10 日）晚间，Rockstar Games（R 星）公布了下周发售的《GTA 6》的多项重要信息。预购玩家现可在 PS5 和 Xbox Series X|S 上预载游戏，数字版玩家可以立即下载，实体版玩家则需等收到兑换码后才能预载。 开发团队也正式确认，《GTA 6》不设性能模式， 所有主机版本均以 30fps 为目标帧率 ，PS5 Pro 也不例外。 不过，PS5 Pro 仍能凭借 独占的 PlayStation 光谱超分辨率技术（PSSR）和光线追踪阴影 获得更好的画质。据IT之家了解，《GTA 6》还充分利用了 PS5 的多项独占功能。 缩短加载时间：利用 PS5 的高速固态硬盘和 I/O 架构加快游戏加载。 增强空间音效：改进游戏音效的空间渲染，充分发挥 Tempest 3D 音效技术的优势。 高精度触觉反馈：在整个游戏中深度整合 Dual",
+      "published": "2026-11-10T14:50:50+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Rockstar-reveals-GTA-6-console-performance-targets-and-PS5-Pro-upgrades.1447121.0.html",
+        "https://wccftech.com/rockstar-grand-theft-auto-vi-30-fps-ps5-pro-no-performance-mode/"
+      ]
+    },
+    {
+      "id": "a9d746c0875e7384",
+      "title": "One UI 9.5 might bring Pixel 11’s ‘Rambler’ feature to Samsung Keyboard before Google’s",
+      "url": "https://9to5google.com/2026/11/10/one-ui-9-5-rambler-samsung-galaxy-keyboard/",
+      "canonical": "https://9to5google.com/2026/11/10/one-ui-9-5-rambler-samsung-galaxy-keyboard",
+      "summary": "The Pixel 11 launched with one AI tool most people got on board with, called “Rambler.” It’s a transcription tool that overhauls and cleans up voice-to-text messages. Too bad this Rambler clone will only be available on Samsung Keyboard. more…",
+      "published": "2026-11-10T16:19:27+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 keyboard",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/samsung-keyboard-gboard-rambler-feature-one-ui-9-5/"
+      ]
+    },
+    {
+      "id": "7c50fc70719687fb",
+      "title": "DIY Steam Deck Rebuild Pairs a Game Boy-Style Body With a Physical Keyboard",
+      "url": "https://www.yankodesign.com/2026/11/10/diy-steam-deck-rebuild-pairs-a-game-boy-style-body-with-a-physical-keyboard/?utm_source=rss&utm_medium=rss&utm_campaign=diy-steam-deck-rebuild-pairs-a-game-boy-style-body-with-a-physical-keyboard",
+      "canonical": "https://www.yankodesign.com/2026/11/10/diy-steam-deck-rebuild-pairs-a-game-boy-style-body-with-a-physical-keyboard",
+      "summary": "DIY Steam Deck Rebuild Pairs a Game Boy-Style Body With a Physical Keyboard Handheld gaming PCs tend to put their controls on either side of a wide screen, leaving the Game Boy layout to retro machines. This DIY...",
+      "published": "2026-11-10T18:20:47+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 handheld",
+        "+3 keyboard",
+        "+3 steam deck",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "da5cb066fd549ab9",
+      "title": "Grand Theft Auto VI Runs at 30 FPS, PS5 Pro Gets PSSR and Ray Tracing",
+      "url": "https://www.techpowerup.com/354644/grand-theft-auto-vi-runs-at-30-fps-ps5-pro-gets-pssr-and-ray-tracing",
+      "canonical": "https://www.techpowerup.com/354644/grand-theft-auto-vi-runs-at-30-fps-ps5-pro-gets-pssr-and-ray-tracing",
+      "summary": "Grand Theft Auto VI is now available for pre-load for gamers who pre-ordered the game, allowing them to start the download. With the game launching on November 19, Rockstar has confirmed that it will run at 30 frames per second on consoles, utilizing their integrated graphics for maximum visual fidelity. This means that while the studio has invested significant resources to maximize the performanc",
+      "published": "2026-11-10T15:07:16+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "525ac0e6ff39152d",
+      "title": "InfiMech MX (Pro): This 3D printer could be a bargain toolchanger with less waste",
+      "url": "https://www.notebookcheck.net/InfiMech-MX-Pro-This-3D-printer-could-be-a-bargain-toolchanger-with-less-waste.1447188.0.html",
+      "canonical": "https://www.notebookcheck.net/InfiMech-MX-Pro-This-3D-printer-could-be-a-bargain-toolchanger-with-less-waste.1447188.0.html",
+      "summary": "Very affordable and designed for printing with multiple filaments: A new 3D printer is launching at a particularly low price and promises little waste, smart features and fast heating. The MX Pro also features an enclosed build chamber.",
+      "published": "2026-11-10T15:11:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 3d printer",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1ef5d6b9550a75a3",
+      "title": "Ring is launching a flying security camera to patrol your home",
+      "url": "https://www.androidauthority.com/ring-drone-cam-launch-3733467/",
+      "canonical": "https://www.androidauthority.com/ring-drone-cam-launch-3733467",
+      "summary": "Ring’s flying security camera is making a comeback.",
+      "published": "2026-11-10T17:03:49+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/11/10/rings-wheeled-and-flying-robots-will-patrol-your-home/"
+      ]
+    },
+    {
+      "id": "4af53ad00d0b293d",
+      "title": "(PR) AMD Unveils 6th Gen EPYC Embedded Processors",
+      "url": "https://www.techpowerup.com/354660/amd-unveils-6th-gen-epyc-embedded-processors",
+      "canonical": "https://www.techpowerup.com/354660/amd-unveils-6th-gen-epyc-embedded-processors",
+      "summary": "What's the News? AMD announced the AMD EPYC Embedded 9006 Series SP7 CPUs, expanding its x86 processor portfolio optimized for embedded customer requirements and deployments. Advanced by the high-performance Zen 6 core architecture, AMD EPYC Embedded 9006 CPUs combine up to 256 cores, scalable PCIe Gen 6 and CXL 3.1 connectivity, and advanced security from secure boot through runtime. With a throu",
+      "published": "2026-11-10T18:49:03+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": [
+        "https://www.techpowerup.com/354657/amd-showcases-6th-gen-epyc-server-sp7-processors-based-on-the-new-zen-6-architecture"
+      ]
+    },
+    {
+      "id": "1577f4ccda957185",
+      "title": "Here’s when Motorola’s iPhone Duo killer will launch",
+      "url": "https://www.gizmochina.com/2026/11/10/heres-when-motorolas-iphone-duo-killer-will-launch/",
+      "canonical": "https://www.gizmochina.com/2026/11/10/heres-when-motorolas-iphone-duo-killer-will-launch",
+      "summary": "Motorola has quietly confirmed when its wide foldable, the Razr Flex, is due to arrive. A newly surfaced support page on the company&#8217;s own site lists the phone as the Motorola Razr Flex 2027, pointing to a launch next year rather than before the end of 2026. No exact date has been given, but the [&#8230;] The post Here&#8217;s when Motorola&#8217;s iPhone Duo killer will launch appeared firs",
+      "published": "2026-11-10T04:19:20+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "040bd8aee6d7373d",
+      "title": "65-inch LG OLED AI B6 drops to $999.99 on Amazon, $1,000 off",
+      "url": "https://www.gizmochina.com/2026/11/10/lg-65-inch-oled-ai-b6-999-amazon/",
+      "canonical": "https://www.gizmochina.com/2026/11/10/lg-65-inch-oled-ai-b6-999-amazon",
+      "summary": "Amazon has dropped the 65-inch LG OLED AI B6 4K Smart TV to $999.99, a $1,000 cut from its $1,999.99 list price. The 2026 model is now available at half its launch list price. It is the most affordable 65-inch OLED in this year&#8217;s LG lineup and a timely living-room or console upgrade. LG OLED [&#8230;] The post 65-inch LG OLED AI B6 drops to $999.99 on Amazon, $1,000 off appeared first on Giz",
+      "published": "2026-11-10T07:57:24+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c57e2bd5c155c71f",
+      "title": "Rogbid launches new VitalRing with ECG, SpO2 tracking and titanium alloy build",
+      "url": "https://www.gizmochina.com/2026/11/10/rogbid-vitalring-ecg-smart-ring-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/10/rogbid-vitalring-ecg-smart-ring-launched-specs-price",
+      "summary": "Rogbid has announced its latest wearable, the VitalRing, a titanium smart ring that leans heavily into cardiovascular health tracking. The device enters an increasingly crowded smart ring market but attempts to differentiate itself with built-in ECG capabilities alongside standard fitness metrics. Rogbid VitalRing Specifications Also Read Are Smart Rings Worth Buying? From a design perspective, [&",
+      "published": "2026-11-10T13:24:20+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "GARRACKより「鬼武者」シリーズと伝統工芸「螺鈿」「金沢箔」が融合した日本製の機械式時計が登場。明智左馬介、柳生十兵衛、宮本武蔵をイメージした3型を11月13日より予約開始、12月23日より発売。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002056.000025284.html",
+      "summary": "[株式会社ウエニ貿易] [画像1: https://prcdn.freetls.fastly.net/release_image/25284/2056/25284-2056-c899eeb36d0c442930149553b2ff866f-1200x628.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds...",
+      "published": "2026-11-10T15:10:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "d364410c58631b37"
+    },
+    {
+      "title": "【新発売】人々を、ライトから解放する。3種の機能レンズ×洗練のデザインを纏う新世代アイウェア「UN-GLASS」が11月10日（火）発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000111.000033964.html",
+      "summary": "[パレンテ] 株式会社パレンテ（本社：千葉市中央区、代表取締役：吉田 忠史）が展開するコンタクトレンズブランド「WAVE」は、現代人を過剰な人工光ストレスから解放し、本来の力を引き出す新発想のアイウェア「UN-GLASS（...",
+      "published": "2026-11-10T15:10:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "60cf8d0d5ed816f0"
+    },
+    {
+      "title": "【新発売】PHOEBE BEAUTY UP、新たな美容領域へ。まつ毛ケアから頭皮・毛髪ケアへ、シリーズ初の美容デバイスと頭皮用美容液を発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000068.000026615.html",
+      "summary": "",
+      "published": "2026-11-10T03:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "8068c4613c2fb493"
+    },
+    {
+      "title": "【本日CAMPFIRE公開】スタンドの常識を超える！充電・映像出力・データ転送まで一台に集約した多機能スタンド「V327A」。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000088.000184990.html",
+      "summary": "",
+      "published": "2026-11-10T02:00:03+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "cd333a9052f8d7da"
+    },
+    {
+      "title": "1200万画素の超高解像度ドームカメラ「GV-GVD12810」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000033.000131205.html",
+      "summary": "",
+      "published": "2026-11-10T01:30:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "6b6c641fc5165ec2"
+    },
+    {
+      "title": "【新登場】爪切りも爪磨きもこれ1台！2.5倍拡大鏡＆LEDライト搭載の「2in1電動爪切り」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000162355.html",
+      "summary": "",
+      "published": "2026-11-10T01:00:03+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "21d6ef38cab1a104"
+    },
+    {
+      "title": "AI導入相談のオンライン予約受付を開始｜最短当日・土日祝も対応、30分無料",
+      "url": "https://prtimes.jp/main/html/rd/p/000000009.000186680.html",
+      "summary": "",
+      "published": "2026-11-10T01:00:03+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "50bf790c5643a092"
+    },
+    {
+      "title": "「これ、本当に空気入れ？」わずか約115g、最大120PSI対応の手のひらサイズ電動ポンプ「TascaAir GO」がMakuakeに登場",
+      "url": "https://prtimes.jp/main/html/rd/p/000000004.000158491.html",
+      "summary": "",
+      "published": "2026-11-10T00:54:59+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "0471049f97a691ff"
+    }
+  ]
+}
