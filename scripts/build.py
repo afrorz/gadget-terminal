@@ -1053,7 +1053,7 @@ def header(site: dict) -> str:
     <a class="brand" href="{u("/")}">
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
-    <nav class="nav">{cats}<a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">日本上陸</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <nav class="nav">{cats}<a href="{u("topic/")}" class="nav-item nav-tp"><span class="nav-code">TPC</span><span class="nav-label">話題</span></a><a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">日本上陸</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
     <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
       <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
     </button>
@@ -1169,7 +1169,15 @@ def bold_em(text) -> str:
     return "".join(out)
 
 
-def card(site: dict, p: dict, featured: bool = False) -> str:
+def card_tags(p: dict) -> str:
+    """カードの下の札: 日本で買える(緑)と、その記事の話題(最大2つ)。2026-11-11 本人了承"""
+    tags = [f'<a class="cd-tag" href="{u(t["path"])}">{html.escape(t["label"])}</a>' for t in topics_of(p)[:2]]
+    if is_landed(p):
+        tags.insert(0, f'<a class="cd-tag jp" href="{u("jpn.html")}">日本で買える</a>')
+    return f'<p class="cd-tags">{"".join(tags)}</p>' if tags else ""
+
+
+def card(site: dict, p: dict, featured: bool = False, tags: bool = False) -> str:
     key = p.get("category", "misc")
     cat = site["categories"].get(key, {"label": "その他", "slug": "misc", "code": "---"})
     cls = ("card card-featured" if featured else "card") + f" cat-{key}"
@@ -1192,7 +1200,7 @@ def card(site: dict, p: dict, featured: bool = False) -> str:
     <span class="card-read">{p['reading_min']}MIN</span>
   </p>
   <h2 class="card-title">{'<span class="pick-badge">PICK</span>' if p.get('pick') else ''}<a href="{u(p['path'])}">{title_text(p['title'])}</a></h2>
-  <p class="card-excerpt">{html.escape(blurb)}</p>
+  <p class="card-excerpt">{html.escape(blurb)}</p>{card_tags(p) if tags else ""}
 </article>"""
 
 
@@ -1636,13 +1644,14 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   {head_row}
   {dep}
   </div>{arr_panel}
+  {connections_section(everything)}
 </section>
 <section class="lead">
-  {card(site, lead, featured=True)}
+  {card(site, lead, featured=True, tags=True)}
 </section>
 {popular_section(everything)}
 <section class="grid">
-  {''.join(card(site, p) for p in rest)}{next_page_tile(page, total_pages)}
+  {''.join(card(site, p, tags=True) for p in rest)}{next_page_tile(page, total_pages)}
 </section>
 {picks_section(site, all_posts or posts)}
 {pager(page, total_pages)}"""
@@ -1650,7 +1659,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
         # 2ページ目以降はカードだけを並べる。
         body = f"""
 <section class="grid">
-  {''.join(card(site, p) for p in posts)}{next_page_tile(page, total_pages)}
+  {''.join(card(site, p, tags=True) for p in posts)}{next_page_tile(page, total_pages)}
 </section>
 {pager(page, total_pages)}"""
     title = f"{s['title']} — {s['tagline']}" if page <= 1 else f"{s['title']} — {page}ページ目"
@@ -2280,7 +2289,73 @@ HUB_CSS = """
 .wk-msg{margin:8px 0 0;font-size:13px;color:var(--accent)}
 .wk-msg:empty{display:none}
 .wk-note{margin:8px 0 0;font-size:12px;color:var(--ink-3)}
+/* TOP の乗り継ぎ案内とカードの札(2026-11-11) */
+.cx{border-top:1px solid var(--rule-2);margin-top:6px;padding:18px 0 26px}
+.cx-title{display:flex;align-items:baseline;gap:12px;margin:0 0 14px;font:600 12px/1 var(--mono);letter-spacing:.2em;color:var(--ink)}
+.cx-title span{font:400 11.5px/1 var(--sans);letter-spacing:0;color:var(--ink-2)}
+.cx-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.cx-col{position:relative;display:flex;flex-direction:column;gap:10px;padding:4px 22px 4px 0;margin-right:22px;border-right:1px solid var(--rule);text-decoration:none!important;color:var(--ink)!important}
+.cx-col:last-child{border-right:0;margin-right:0;padding-right:0}
+.cx-code{font:500 10.5px/1 var(--mono);letter-spacing:.18em;color:var(--ink-2)}
+.cx-code b{color:var(--accent);font-weight:600}
+.cx-row{display:flex;align-items:flex-end;justify-content:space-between;gap:10px}
+.cx-name{font:600 17px/1.35 var(--sans);color:var(--ink);transition:color .15s}
+.cx-num{font:600 34px/1 var(--mono);letter-spacing:-.02em;color:var(--ink)}
+.cx-num small{font:500 11px/1 var(--mono);letter-spacing:.1em;color:var(--ink-2);margin-left:4px}
+.cx-thumbs{display:flex;gap:6px}
+.cx-thumbs img{width:56px;height:56px;object-fit:contain;background:#fff;border-radius:3px;padding:3px;box-sizing:border-box}
+.cx-list{display:flex;flex-wrap:wrap;gap:4px 14px;font:500 12.5px/1.6 var(--sans);color:var(--ink-2)}
+.cx-list i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-left:4px}
+.cx-go{font:600 12px/1 var(--mono);letter-spacing:.12em;color:var(--ink-2);transition:color .15s,letter-spacing .15s}
+.cx-col:hover .cx-go,.cx-col:hover .cx-name{color:var(--accent)}
+.cx-col:hover .cx-go{letter-spacing:.2em}
+@media (max-width:700px){.cx-grid{grid-template-columns:1fr}.cx-col{border-right:0;margin:0;padding:14px 0;border-bottom:1px solid var(--rule)}
+ .cx-col:last-child{border-bottom:0}.cx-num{font-size:26px}.cx-thumbs img{width:44px;height:44px}}
+.cd-tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.cd-tag{font:500 11.5px/1 var(--sans);padding:5px 8px;border:1px solid var(--rule-2);border-radius:999px;color:var(--ink-2)!important;text-decoration:none!important}
+.cd-tag:hover{border-color:var(--accent);color:var(--accent)!important}
+.cd-tag.jp{border-color:#9fd3b4;background:#e3f4ea;color:#1d7a46!important}
+[data-theme="dark"] .cd-tag.jp{border-color:#2f6b4b;background:#163526;color:#7fd8a6!important}
 """
+
+
+def connections_section(posts: list[dict]) -> str:
+    """発着案内板の下段「乗り継ぎ案内」。特集・話題・日本上陸への入口(2026-11-11 本人了承)。
+
+    黒い箱を3つ並べた形は「かっこよくない」で没。案内板と同じ紺・等幅の字・細い線で板の中に組み込み、
+    数字を大きく、中身(商品の写真・話題の名前)を見せる。
+    """
+    feats = [f for f in FEATURES_FOR_HINT if f.get("slug") != GITEKI_FEATURE_SLUG]
+    landed = sorted((p for p in posts if is_landed(p)),
+                    key=lambda p: str((p.get("japan") or {}).get("checked") or p["date"]), reverse=True)
+
+    def th(url: str) -> str:
+        return (f'<img src="{html.escape(sized(url, 160))}" alt="" loading="lazy" decoding="async" '
+                f'referrerpolicy="no-referrer">' if url else "")
+    ft_imgs = [str(x.get("image")) for f in feats for x in (f.get("products") or []) if x.get("image")][:3]
+    ld_imgs = [card_image(p)[0] for p in landed[:3]]
+    tp_top = sorted(TOPICS, key=lambda t: -len(t["posts"]))[:5]
+    tp_list = "".join(f'<span>{html.escape(t["label"])}<i>{len(t["posts"])}</i></span>' for t in tp_top)
+    cols = []
+    if feats:
+        cols.append(f'<a class="cx-col" href="{u("features.html")}"><span class="cx-code"><b>FTR</b> · GATE F</span>'
+                    f'<span class="cx-row"><span class="cx-name">特集<br>いま買える物を比べる</span>'
+                    f'<span class="cx-num">{len(feats):02d}<small>本</small></span></span>'
+                    f'<span class="cx-thumbs">{"".join(th(x) for x in ft_imgs)}</span><span class="cx-go">特集を見る →</span></a>')
+    if TOPICS:
+        cols.append(f'<a class="cx-col" href="{u("topic/")}"><span class="cx-code"><b>TPC</b> · GATE T</span>'
+                    f'<span class="cx-row"><span class="cx-name">話題から探す<br>ジャンルでまとめ読み</span>'
+                    f'<span class="cx-num">{len(TOPICS):02d}<small>話題</small></span></span>'
+                    f'<span class="cx-list">{tp_list}</span><span class="cx-go">話題を選ぶ →</span></a>')
+    if landed:
+        cols.append(f'<a class="cx-col" href="{u("jpn.html")}"><span class="cx-code"><b>JPN</b> · ARRIVALS</span>'
+                    f'<span class="cx-row"><span class="cx-name">日本上陸<br>あとから日本に来た物</span>'
+                    f'<span class="cx-num">{len(landed):02d}<small>本</small></span></span>'
+                    f'<span class="cx-thumbs">{"".join(th(x) for x in ld_imgs)}</span><span class="cx-go">上陸した物を見る →</span></a>')
+    if not cols:
+        return ""
+    return (f'<nav class="cx" aria-label="乗り継ぎ案内"><p class="cx-title">CONNECTIONS<span>乗り継ぎ案内</span></p>'
+            f'<div class="cx-grid">{"".join(cols)}</div></nav>')
 
 
 def render_category(site: dict, key: str, cat: dict, posts: list[dict]) -> str:
