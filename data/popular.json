@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 190,
-   "views": 190
+   "visits": 200,
+   "views": 200
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
@@ -44,7 +44,12 @@
    "views": 20
   },
   {
-   "path": "/posts/minisforum-m2-pro-358h.html",
+   "path": "/posts/for-me-buds-2-kickstarter.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/da1-camera-thermal-print-no-screen.html",
    "visits": 20,
    "views": 20
   },
@@ -59,8 +64,8 @@
    "views": 20
   },
   {
-   "path": "/posts/anbernic-rg-dds-3ds-style.html",
-   "visits": 20,
+   "path": "/posts/redmagic-12-pro-plus.html",
+   "visits": 10,
    "views": 20
   },
   {
@@ -70,6 +75,11 @@
   },
   {
    "path": "/posts/tryx-vestra-vision-oled-magnetic-keyboard.html",
+   "visits": 10,
+   "views": 20
+  },
+  {
+   "path": "/posts/8bitdo-ultimate-3c-plus-wired-xbox.html",
    "visits": 10,
    "views": 20
   },
@@ -84,22 +94,12 @@
    "views": 10
   },
   {
-   "path": "/posts/xgimi-horizon-30-series.html",
+   "path": "/posts/smalltv-max-knob-desktop-display-kickstarter.html",
    "visits": 10,
    "views": 10
   },
   {
    "path": "/posts/onexplayer-super-x-pro.html",
-   "visits": 10,
-   "views": 10
-  },
-  {
-   "path": "/posts/uniformation-s10-resin-printer-kickstarter.html",
-   "visits": 10,
-   "views": 10
-  },
-  {
-   "path": "/posts/romu-usb-rp2354a-board.html",
    "visits": 10,
    "views": 10
   }
