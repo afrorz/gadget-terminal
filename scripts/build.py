@@ -1883,6 +1883,8 @@ def feature_product(s: dict, item: dict, n: int = 0) -> tuple[str, bool]:
         rel = "nofollow sponsored noopener" if is_aff else "noopener nofollow"
         main_label = {"amazon": "Amazonで見る", "rakuten": "楽天市場で見る",
                       "yahoo": "Yahoo!ショッピングで見る"}.get(mer, "公式ストアで見る")
+        # クラファンや品切れの店は「公式ストア」と書くと違う。buy_label で言い換える(2026-11-11)
+        main_label = html.escape(str(item.get("buy_label") or "").strip()) or main_label
         buy = btn(url, rel, main_label, "", True)
     # 楽天にもメーカー公式店・大手販売店がある製品は、2つ目の購入先として出す。
     # 特集は正規流通を勧めるページなので、転売価格の店や別型番のページは書かない。
