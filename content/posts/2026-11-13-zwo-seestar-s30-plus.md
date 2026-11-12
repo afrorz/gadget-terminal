@@ -29,6 +29,19 @@ images:
 - url: "https://www.seestar.com/cdn/shop/files/002_c1572b8d-c61f-444d-b99a-1cc8f7d77602.jpg?v=1793583831"
   caption: 正面から見た本体。鏡筒部の上に広角用の小さなレンズが並ぶ
 credit: ZWO Seestar（公式製品ページ）
+clips:
+- file: zwo-seestar-s30-plus/nfc.mp4
+  caption: "スマホで選ぶだけ（NFCで接続）"
+  credit: "Seestar公式 YouTube"
+  source: "https://www.youtube.com/watch?v=fdITxfg8vtc"
+- file: zwo-seestar-s30-plus/bag.mp4
+  caption: "重さは1.65kg（ケース付き）"
+  credit: "Seestar公式 YouTube"
+  source: "https://www.youtube.com/watch?v=fdITxfg8vtc"
+- file: zwo-seestar-s30-plus/solar.mp4
+  caption: "太陽も撮れる（フィルター付属）"
+  credit: "Seestar公式 YouTube"
+  source: "https://www.youtube.com/watch?v=fdITxfg8vtc"
 sources:
 - title: Seestar S30 Plus Smart Telescope（ZWO Seestar 公式製品ページ）
   url: https://www.seestar.com/products/seestar-s30-plus-smart-telescope
