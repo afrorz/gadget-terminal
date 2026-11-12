@@ -1,17 +1,22 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 200,
-   "views": 200
+   "visits": 230,
+   "views": 230
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
    "visits": 40,
    "views": 60
+  },
+  {
+   "path": "/posts/awol-luxvision-optical-shift-ust.html",
+   "visits": 40,
+   "views": 40
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
@@ -24,12 +29,7 @@
    "views": 40
   },
   {
-   "path": "/posts/awol-luxvision-optical-shift-ust.html",
-   "visits": 30,
-   "views": 30
-  },
-  {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "path": "/posts/onexplayer-super-x-pro.html",
    "visits": 20,
    "views": 20
   },
@@ -40,6 +40,11 @@
   },
   {
    "path": "/posts/xbox-nano-controller.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/fotorgear-campix-waist-level-camera.html",
    "visits": 20,
    "views": 20
   },
@@ -64,12 +69,12 @@
    "views": 20
   },
   {
-   "path": "/posts/redmagic-12-pro-plus.html",
-   "visits": 10,
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/abxylute-p5-ps5-controller.html",
+   "path": "/posts/redmagic-12-pro-plus.html",
    "visits": 10,
    "views": 20
   },
@@ -94,12 +99,7 @@
    "views": 10
   },
   {
-   "path": "/posts/smalltv-max-knob-desktop-display-kickstarter.html",
-   "visits": 10,
-   "views": 10
-  },
-  {
-   "path": "/posts/onexplayer-super-x-pro.html",
+   "path": "/posts/m5stack-core-matrix-esp32-c61-led-matrix.html",
    "visits": 10,
    "views": 10
   }
