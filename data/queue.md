@@ -6,11 +6,10 @@
 
 ## 未処理
 
-- https://www.kickstarter.com/projects/loda/slashvibe Claude Code・Codex など AI エージェントの様子を机の上の画面で見て、取り外せるコントローラーと声で指示する道具として書く(「左手デバイス」の新しい形)。コントローラーが 2.4GHz 無線なのに、リスク欄は FCC だけで技適に触れていない点を「日本で使える？」に。音声入力が日本語対応なことも書く
-
 
 ## 処理済み
 
+- 2026-11-13 https://www.kickstarter.com/projects/loda/slashvibe → content/posts/2026-11-13-slashvibe-ai-agent-desk-controller.md
 - 2026-11-08 https://9to5toys.com/2026/11/05/sony-revives-80s-style-new-wired-mdr-3r-usb-retro-headphones/ → content/posts/2026-11-08-sony-mdr-3r-usb-c-walkman-headphones.md
 - 2026-11-08 https://temple.com/ → content/posts/2026-11-08-temple-brainflow-temple-wearable.md
 
