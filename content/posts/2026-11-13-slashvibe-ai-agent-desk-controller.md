@@ -9,6 +9,7 @@ x_hook: |
   ・ボタンを押して100ミリ秒未満で録音開始
 keyword: SlashVibe
 category: pc
+pick: true
 date: 2026-11-13
 kicker: Claude Code や Codex など20以上のAIエージェントの状況を、メイン画面の横に置く小さなディスプレイに出し、取り外せるコントローラーの物理キー・ジョイスティック・音声入力で動かす「SlashVibe」が、Kickstarterで149ドルから募集中。目標の約9倍をすでに集めている。
 tags:
