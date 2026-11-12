@@ -1,0 +1,838 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T07:51:14.182921+09:00",
+  "stats": {
+    "fetched": 732,
+    "unique": 690,
+    "new": 432,
+    "clusters": 399,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "3fea5db60c300f69",
+      "title": "NVIDIA Co-Founder and CEO Jensen Huang Officially Resigns",
+      "url": "https://www.techpowerup.com/354732/nvidia-co-founder-and-ceo-jensen-huang-officially-resigns",
+      "canonical": "https://www.techpowerup.com/354732/nvidia-co-founder-and-ceo-jensen-huang-officially-resigns",
+      "summary": "NVIDIA's co-founder, chief executive officer, and president has officially signed a letter of resignation, stepping down from the role he has held since 1993. Following a series of controversies, NVIDIA announced on Sunday that the company's board of directors is launching a full-scale independent investigation into recent reports of founder and CEO Jensen Huang having a relationship with a woman ",
+      "published": "2026-11-12T14:21:03+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 24,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "-3 ceo",
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "Phoronix",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/hillary-clinton-slams-us-officials-not-warning-jensen-huang-chinese-honeypot/",
+        "https://9to5mac.com/2026/11/12/jensen-huang-resigns-as-ceo-of-nvidia/",
+        "https://www.phoronix.com/news/NVIDIA-Jensen-Huang-Resigns"
+      ]
+    },
+    {
+      "title": "Makuake｜持ち運べるトレイで探し物のお悩み解決！イタリアンレザー製2in1ポーチトレイ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/taylortylor-pouchtray/",
+      "summary": "はじまりは、鍵を探す毎日でした。家で働く日と、オフィスに行く日。いつも持っているものを机に出して、帰るときにしまってまた出す。これを毎日やっていると、ふとした時に忘れるんですよね。鍵とか、イヤホンとか、ペンとか。どれかが鞄の底に沈んでいて、朝か夕方に探している。ヒントは収納術収納術でよく「物の置き場所を決めましょう」って言うじゃないですか。だったら、その置き場所ごと持ち運べばいい。家でもオフィスで",
+      "image": "https://static.makuake.com/upload/project/54424/main_54424.jpg?version=1794208308&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "a2a19b14bec59368",
+      "canonical": "https://www.makuake.com/project/taylortylor-pouchtray",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 イヤホン",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【気づき】を捕まえろ！どこでも2秒メモ。極薄5.7mm 軽量6.6gの手帳ペン｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/21pen/",
+      "summary": "21pen　絶賛のレビュー　　　続きはこちらのリンクへこんなシーンで活躍します。後で書こうと思って忘れてしまう。そんな経験がありませんか。会食時に、ペンでメモをとるのは好印象！※写真はイメージです。手帳を開けば書きたいページにペンがある01　手帳に挟む。02　ページを探す動作を減らします。03　そのまま書く。キャップの取り外しやノックが不要で、すぐ書き出せる。手帳を開いて書きだすまで2秒極薄なのに",
+      "image": "https://static.makuake.com/upload/project/54453/main_54453.png?version=1794360473&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "be6ab83a26448fc0",
+      "canonical": "https://www.makuake.com/project/21pen",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ef7d0730ae607f69",
+      "title": "VZMORE iX9 Max (U9-185H) mini PC review – Part 1: Specs, unboxing, teardown, and first boot",
+      "url": "https://www.cnx-software.com/2026/11/12/vzmore-ix9-max-u9-185h-mini-pc-review-part-1-specs-unboxing-teardown-and-first-boot/",
+      "canonical": "https://www.cnx-software.com/2026/11/12/vzmore-ix9-max-u9-185h-mini-pc-review-part-1-specs-unboxing-teardown-and-first-boot",
+      "summary": "VZMORE sent us a review sample of the iX9 Max mini PC powered by an Intel Core Ultra 9 185H 16-core/22-thread Meteor Lake processor clocked at up to 5.1 GHz, paired with 24 GB of LPDDR5-5600 memory and a 1 TB NVMe SSD. It supports up to four simultaneous displays via HDMI 2.0 and USB4 ports, offers six USB Type-A ports, two 40 Gbps USB4 ports, and two 2.5 GbE ports, as well as Wi-Fi 7 and Bluetoot",
+      "published": "2026-11-12T09:34:02+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 20,
+      "reasons": [
+        "+5 teardown",
+        "+4 review",
+        "+3 specs",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜スマホの熱を強力冷却！25W次世代Qi2.2ワイヤレス充電器「FREEZE-X」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/freeze-x0101/",
+      "summary": "リターン品の配送が完了するまで、kurozoraはJC TECHの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。利用者の声をまとめましたFREEZE-Xの使い心地を動画でチェック。製品保証FAQQ. FREEZE-Xは、どのようなスマートフォンで使用できますか？A. Qi規格のワイヤレス充電に対応したスマートフォンでご使用いただけます",
+      "image": "https://static.makuake.com/upload/project/54069/main_54069.png?version=1792063969&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "e09dfa7a78a6b6ba",
+      "canonical": "https://www.makuake.com/project/freeze-x0101",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜横顔にも自信あり！レンズが選べるキュートな【猫柄サングラス】。あなたはどっち派？｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/nekolino_glasses/",
+      "summary": "可愛いサングラスが欲しいけど。サングラスって色や形で印象が変わってしまうので、選ぶのが難しいかも。。可愛く見せたいけど、子供っぽくないデザインがいいな～。あなたに寄添うネコリーノそんなあなたに「Nekolino」ネコリーノ・サングラス。あなたはどっち派？ちょっと華やか、大人の三毛猫。ブラック・ブラウン・ホワイトが織りなす、三毛猫を思わせる柄。顔まわりにほどよい華やかさを。シックに楽しむ、大人のキジ",
+      "image": "https://static.makuake.com/upload/project/54325/main_54325.png?version=1793587230&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "28f3e643b68817c6",
+      "canonical": "https://www.makuake.com/project/nekolino_glasses",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜二十歳と人生の門出に。いちじく香る記憶に残る乾杯を「HANAMUKE」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/proust-fig/",
+      "summary": "一杯のビールが、その日の記憶を残すきっかけになれば。福岡県宮若市でクラフトビールを醸造するFUKUHAKU BREWERY。地域の素材や人とのつながりを大切にしながら、SAISON、West Coast IPA、NEIPAなど、個性の異なるクラフトビールを手がけています。今回つくる「HANAMUKE」は、福岡県産いちじく「とよみつひめ」とベルギー伝統のベルジャンブロンドを掛け合わせた、人生の節目に",
+      "image": "https://static.makuake.com/upload/project/54429/main_54429.png?version=1794226501&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "3848fb1805f0fb7a",
+      "canonical": "https://www.makuake.com/project/proust-fig",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜冷却をケースの中へ。使用しながら冷やせて、約3mm薄型の液冷×空冷スマホケース｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/smartcase/",
+      "summary": "リターン品の発送が完了するまで、株式会社VIVACIAはShenzhen Jinniu Mold & Plastic Co., Ltd.の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。熱くなるたび、使い方を変えていませんか。01、ゲームの終盤ほど気になる、端末の発熱。02、撮影も配信も、長時間の使用で、スマホの熱が気になってしまう。0",
+      "image": "https://static.makuake.com/upload/project/54409/main_54409.jpg?version=1794188440&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "fea3d062e490b9b1",
+      "canonical": "https://www.makuake.com/project/smartcase",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【もう探さない】必要な1枚が出て会計をスマートにする薄型MagSafeウォレット｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/mova_wallet/",
+      "summary": "スマホと一緒に持ち歩くものだから、もっと薄く。もっとスマートに。そして、もっとここちよく使えるものへ。必要なカードは、４枚。例えば、クレジットカード交通系ICカードポイントカードマイナンバーカード日常でよく使うカードだけを選ぶ。「たくさん持てる財布」ではなく、「必要なものだけを持つ」ためのWalletです。MOVA WALLETはMagSafeに対応しています。MagSafe対応のスマホの背面へ近",
+      "image": "https://static.makuake.com/upload/project/54370/main_54370.jpg?version=1793850157&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "2fd60afa5fe5e7c0",
+      "canonical": "https://www.makuake.com/project/mova_wallet",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜荷物に合わせて容量も形も変わる！自由自在に使える多機能スリングバッグ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/kangalooelite/",
+      "summary": "リターン品の配送が完了するまで、オキビジャパン合同会社はＡＤＤ１Ｄの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。荷物が増えたときはロールトップを広げ、少ないときはコンパクトに。ジャケットやカメラなど、急に荷物が増えてもその場ですぐに収納スペースを確保できます。必要なときだけ着脱して、収納スペースをプラス。持ち物や使い方に合わせてポケ",
+      "image": "https://static.makuake.com/upload/project/54475/main_54475.jpg?version=1794456562&amp;width=690&amp;height=388",
+      "published": "2026-11-16T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "4cdd90f83b8a1314",
+      "canonical": "https://www.makuake.com/project/kangalooelite",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b3533010bc642ced",
+      "title": "Motorola MA2 wireless Android Auto adapter launches for $30 more than promised",
+      "url": "https://www.gizmochina.com/2026/11/12/motorola-ma2-wireless-android-auto-adapter-launches-for-30-more-than-promised/",
+      "canonical": "https://www.gizmochina.com/2026/11/12/motorola-ma2-wireless-android-auto-adapter-launches-for-30-more-than-promised",
+      "summary": "The Motorola MA2 wireless Android Auto adapter is now available on Amazon in the US for $69.99. That is about $30 above the $39.95 price that Motorola confirmed earlier this year. Motorola announced in June that the adapter would reach the US in November at $39.95. The Amazon listing and Motorola Sound’s website now list [&#8230;] The post Motorola MA2 wireless Android Auto adapter launches for $3",
+      "published": "2026-11-12T03:47:13+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Yanko Design"
+      ],
+      "related_urls": [
+        "https://www.yankodesign.com/2026/11/12/motorola-ma2-adds-a-phone-switching-button-to-wireless-android-auto/?utm_source=rss&utm_medium=rss&utm_campaign=motorola-ma2-adds-a-phone-switching-button-to-wireless-android-auto"
+      ]
+    },
+    {
+      "id": "7690c1db9eb2769a",
+      "title": "Huawei's Osta sub-brand now has an official launch date",
+      "url": "https://www.gsmarena.com/huaweis_osta_subbrand_now_has_an_official_launch_date-news-75448.php",
+      "canonical": "https://www.gsmarena.com/huaweis_osta_subbrand_now_has_an_official_launch_date-news-75448.php",
+      "summary": "Huawei has recently been rumored to be working on introducing a new sub-brand called Xingmang in Chinese, and Osta in English. Now, the company has officially announced the brand's unveiling date: November 20. Huawei's Richard Yu, the head of its consumer business group, has even confirmed the name of one of the first two phones in the series: Osta O1 Pro. He didn't name it directly, but did post ",
+      "published": "2026-11-12T05:45:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dc447b006eb2f9bc",
+      "title": "A seller in China has started taking blind pre-orders for the vanilla Xiaomi 18",
+      "url": "https://www.gsmarena.com/a_seller_in_china_has_started_taking_blind_preorders_for_the_vanilla_xiaomi_18-news-75452.php",
+      "canonical": "https://www.gsmarena.com/a_seller_in_china_has_started_taking_blind_preorders_for_the_vanilla_xiaomi_18-news-75452.php",
+      "summary": "The Xiaomi 18 may be closer than we expected – reports coming out of China indicate that one seller has started taking blind pre-orders for the upcoming model. This isn’t an official sale by Xiaomi, mind you. And the actual launch may not take place until December, anyway. The phone is described as a “well-rounded flagship” that will have a flat screen. A 6.4” screen, if rumored specs are correct.",
+      "published": "2026-11-12T13:02:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "12c67fef3403f7a8",
+      "title": "Honor 700 Pro hits Geekbench with Snapdragon 8 Gen 5 and 16GB RAM before November 13 launch",
+      "url": "https://www.gizmochina.com/2026/11/12/honor-700-pro-geekbench-snapdragon-8-gen-5-16gb-ram/",
+      "canonical": "https://www.gizmochina.com/2026/11/12/honor-700-pro-geekbench-snapdragon-8-gen-5-16gb-ram",
+      "summary": "An unreleased Honor phone has reportedly appeared on Geekbench, and the listing is being linked to the upcoming Honor 700 Pro. The result is being treated as confirmation of the chipset earlier leaks had already assigned to the Pro model. Honor has not confirmed the benchmark or officially named the 700 Pro&#8217;s processor. Honor 700 [&#8230;] The post Honor 700 Pro hits Geekbench with Snapdrago",
+      "published": "2026-11-12T04:06:18+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+4 benchmark",
+        "+3 launch",
+        "+3 official",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "994f9dd9b0f1a1ac",
+      "title": "(PR) Corsair Launches HX1000i SHIFT CRYSTAL PSU with Transparent Panels and PinProtect+",
+      "url": "https://www.techpowerup.com/354734/corsair-launches-hx1000i-shift-crystal-psu-with-transparent-panels-and-pinprotect",
+      "canonical": "https://www.techpowerup.com/354734/corsair-launches-hx1000i-shift-crystal-psu-with-transparent-panels-and-pinprotect",
+      "summary": "Corsair is proud to launch the HX1000i SHIFT CRYSTAL, its first power supply with active 12V-2x6 per-pin overcurrent protection via PinProtect+. The power supply also simplifies builds by powering up to 24 iCUE LINK devices directly from the integrated iCUE LINK System Hub, and delivers stunning visuals with the transparent side panels, an RGB-lit fan, and custom-made Japanese capacitors. The HX10",
+      "published": "2026-11-12T15:34:52+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/pc-components/power-supplies/corsair-hx1000i-shift-crystal-power-supply-review"
+      ]
+    },
+    {
+      "id": "8fc5871fba19d3b7",
+      "title": "GPD Win Mini Ultra, E-ink Spectra 6, and ReactOS: Liliputing News Roundup",
+      "url": "https://liliputing.com/gpd-win-mini-ultra-e-ink-spectra-6-and-reactos-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/gpd-win-mini-ultra-e-ink-spectra-6-and-reactos-liliputing-news-roundup",
+      "summary": "The GPD Win Mini Ultra is a mini-laptop &#038; handheld gaming PC with an 8 inch screen, QWERTY keyboard, and Intel Arc G3 Extreme chip with Arc B390 graphics. It's not available yet, but review units are shipping [4 more news items in this roundup] The post GPD Win Mini Ultra, E-ink Spectra 6, and ReactOS: Liliputing News Roundup appeared first on Liliputing .",
+      "published": "2026-11-12T21:53:22+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 review",
+        "+4 handheld",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8b966c44c49f8f44",
+      "title": "PCs with NVIDIA RTX Spark ship this month, Asus unveils the NUC 14 Essential Fanless mini PC, and Samsung launches Galaxy Tab S12 series : Liliputing News Roundup",
+      "url": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup",
+      "summary": "The Microsoft Surface Laptop Ultra goes up for pre-order today for $2599 and up and ships Oct 16 • The Microsoft Surface RTX Spark Dev Box mini PC with NVIDIA RTX Spark starts at $5999, but it ships standard with a 20-core RTX Spark N1X chip with a 6144-core Blackwell RTX GPU and 128GB unified LPDDR5x memory. blogs.windows.com/devices/2026 • The new Asus NUC 14 Essential Fanless is a mini PC with ",
+      "published": "2026-10-07T18:45:21+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+4 mini pc",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6c37858173b47c4c",
+      "title": "Casio launches metal-clad G-Shock GM-6900XG-8 collab watch featuring a translucent band",
+      "url": "https://www.gizmochina.com/2026/11/12/casio-g-shock-gm-6900xg-8-xg-pop-collab-watch-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/12/casio-g-shock-gm-6900xg-8-xg-pop-collab-watch-launched-specs-price",
+      "summary": "Casio has a new G-Shock watch coming out this November. The GM-6900XG-8 is a collaboration with the seven-member pop group XG. The watch is listed as coming soon on the Casio Japan website with a price tag of ¥39,600 ($248). It is also listed on Casio’s international website, indicating a wider rollout across other markets. [&#8230;] The post Casio launches metal-clad G-Shock GM-6900XG-8 collab wa",
+      "published": "2026-11-12T13:57:29+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "56ba255981fc012e",
+      "title": "Honor 700 series confirmed to pack 9,000mAh battery, Snapdragon chips",
+      "url": "https://www.gizmochina.com/2026/11/12/honor-700-series-9000mah-battery-snapdragon-chips/",
+      "canonical": "https://www.gizmochina.com/2026/11/12/honor-700-series-9000mah-battery-snapdragon-chips",
+      "summary": "Honor has officially confirmed that the Honor 700 series will pack a 9,000mAh Qinghai Lake battery and Snapdragon chips across the lineup. In a new Weibo post, the company also highlighted an AI-powered dynamic rear display and 4K cinematic Live photos, with pre-orders now open in China. The Honor 700, Honor 700 Pro, and Honor [&#8230;] The post Honor 700 series confirmed to pack 9,000mAh battery,",
+      "published": "2026-11-12T06:37:26+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 official",
+        "+4 pre-order",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "86b0b0ca6c798133",
+      "title": "Apple TV 4K review: The best streamer comes at a cost",
+      "url": "https://9to5mac.com/2026/11/12/apple-tv-4k-review-the-best-streamer-comes-at-a-cost/",
+      "canonical": "https://9to5mac.com/2026/11/12/apple-tv-4k-review-the-best-streamer-comes-at-a-cost",
+      "summary": "It’s been four years since Apple last updated the Apple TV 4K, but a new version is here. There’s Siri AI support, a faster chip, an improved remote, and more. Here’s everything that’s changed, what’s better, and whether the new Apple TV 4K justifies its new $299 price. Pre-order the new Apple TV 4K Pre-order the new Siri Remote more…",
+      "published": "2026-11-12T14:00:13+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+4 review",
+        "+3 price",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "540780a5a1e7cb85",
+      "title": "Keychron Launches Open-Source Magnetic Keyboard Firmware",
+      "url": "https://www.techpowerup.com/354759/keychron-launches-open-source-magnetic-keyboard-firmware",
+      "canonical": "https://www.techpowerup.com/354759/keychron-launches-open-source-magnetic-keyboard-firmware",
+      "summary": "Not long ago, Keychron announced Zephyr Gaming Mouse as an upcoming open-source firmware project for gaming mice. More recently, the peripheral maker announced MKF (Magnetic Keyboard Firmware), an open-source firmware project designed for TMR and Hall effect gaming keyboards. The project has yet to feature any public code contributions, but there is a landing page that outlines what Keychron aims ",
+      "published": "2026-11-12T21:34:27+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "823856b226ae305b",
+      "title": "Microsoft's Auto SR Upscaler Goes Handheld on Xbox Ally X and X20, Gains 120 FPS Mode",
+      "url": "https://www.techpowerup.com/354715/microsofts-auto-sr-upscaler-goes-handheld-on-xbox-ally-x-and-x20-gains-120-fps-mode",
+      "canonical": "https://www.techpowerup.com/354715/microsofts-auto-sr-upscaler-goes-handheld-on-xbox-ally-x-and-x20-gains-120-fps-mode",
+      "summary": "ROG Xbox Ally X and X20 owners can now use Microsoft's Automatic Super Resolution (Auto SR) upscaler on the handheld's own screen. Microsoft says Auto SR is out of preview on both devices and on select AMD Ryzen Copilot+ PCs. During the Xbox Insider preview that started in April, it only worked with the Ally X docked to an external display. It now works undocked and on battery, and accepts games r",
+      "published": "2026-11-12T00:04:18+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 handheld",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4054ea018bfdc323",
+      "title": "Google launches Intelligent Eyewear glasses: $395+, pre-order today, ships Dec. 10",
+      "url": "https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses/",
+      "canonical": "https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses",
+      "summary": "After years of development, Google is launching its second foray into smart glasses with Intelligent Eyewear that supports Android and iOS. Pre-orders start today at Gentle Monster and Warby Parker , with the audio glasses shipping on December 10. more…",
+      "published": "2026-11-12T14:00:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7b502425771ca5e2",
+      "title": "Samsung’s Intelligent Eyewear glasses are now up for pre-order",
+      "url": "https://www.gsmarena.com/samsungs_intelligent_eyewear_glasses_are_now_up_for_preorder-news-75454.php",
+      "canonical": "https://www.gsmarena.com/samsungs_intelligent_eyewear_glasses_are_now_up_for_preorder-news-75454.php",
+      "summary": "Following their announcement back in July, Samsung has now opened pre-orders for its Intelligent Eyewear smart glasses. They come in 30 distinct designs co-developed with Warby Parker and Gentle Monster. Pricing starts at $395, with the glasses scheduled to be available in just two markets – South Korea and the United States. General availability starts on December 10. The glasses will be availabl",
+      "published": "2026-11-12T14:00:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile"
+      ],
+      "related_urls": [
+        "https://www.sammobile.com/news/samsung-new-intelligent-eyewear-smart-glasses-work-with-iphones/",
+        "https://www.sammobile.com/news/samsungs-intelligent-eyewear-glasses-pre-order-today-korea-usa/"
+      ]
+    },
+    {
+      "id": "a5cac5b6ec781a2f",
+      "title": "Here’s a closer look at Samsung’s first smart glasses in official intro videos",
+      "url": "https://www.sammobile.com/news/samsung-first-smart-glasses-closer-look-official-intro-videos/",
+      "canonical": "https://www.sammobile.com/news/samsung-first-smart-glasses-closer-look-official-intro-videos",
+      "summary": "Samsung just announced pre-order dates, pricing, and more detailed information about its first smart glasses, Intelligent Eyewear. The glasses will be available in 30 styles from Gentle Monster and Warby Parker, and you can now get a closer look at them in the company's first official videos. The South Korean firm recently published the introductory [ ]",
+      "published": "2026-11-12T14:44:55+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e9d27bd907071069",
+      "title": "vivo X500 Pro review",
+      "url": "https://www.gsmarena.com/vivo_x500_pro-review-3012.php",
+      "canonical": "https://www.gsmarena.com/vivo_x500_pro-review-3012.php",
+      "summary": "",
+      "published": "2026-11-12T21:36:34+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority"
+      ],
+      "related_urls": [
+        "https://www.androidauthority.com/vivo-x500-pro-max-favorite-video-capture-phone-3731185/"
+      ]
+    },
+    {
+      "id": "8874954fdecdcf21",
+      "title": "Thunderobot launches Mix Neo Mini PC with Intel Core Ultra 7 256V and 115 TOPS AI power",
+      "url": "https://www.gizmochina.com/2026/11/12/thunderobot-mix-neo-intel-core-ultra-7-256v-mini-pc-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/12/thunderobot-mix-neo-intel-core-ultra-7-256v-mini-pc-launched-specs-price",
+      "summary": "Thunderobot has released a new mini PC, the Mix Neo, in China. It is a compact desktop computer built around Intel’s recent Lunar Lake architecture, specifically utilizing the Core Ultra 7 256V processor. Thunderobot Mix Neo Specifications The Core Ultra 7 256V includes an integrated Intel Arc 140V GPU with eight Xe2 cores running at [&#8230;] The post Thunderobot launches Mix Neo Mini PC with Int",
+      "published": "2026-11-12T00:30:44+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8d4edb1170877697",
+      "title": "Samsung Intelligent Eyewear: Official price and availability details",
+      "url": "https://www.sammobile.com/news/samsung-intelligent-eyewear-official-price-and-availability-details/",
+      "canonical": "https://www.sammobile.com/news/samsung-intelligent-eyewear-official-price-and-availability-details",
+      "summary": "Samsung is ready to enter the emerging smart glass market, and for fans in the U.S. and Korea, the wait is almost over. Today, Samsung announced availability details for its brand-new Intelligent Eyewear lineup. Here's when you can order your smart glasses and what they cost. Samsung's Intelligent Eyewear lineup consists of 30 distinctive designs [ ]",
+      "published": "2026-11-12T14:01:00+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "20afa64adb27eeb9",
+      "title": "Honor Magic9 Pro Max's Malaysia launch date announced",
+      "url": "https://www.gsmarena.com/honor_magic9_pro_max_malaysia_launch_date-news-75453.php",
+      "canonical": "https://www.gsmarena.com/honor_magic9_pro_max_malaysia_launch_date-news-75453.php",
+      "summary": "Honor unveiled the Magic9 Pro Max in late September in China, and today, the company announced the smartphone will debut in Malaysia on November 24 at 3 PM local time. Honor hasn't revealed how much the Magic9 Pro Max will cost in Malaysia or when it will go on sale. However, images shared by Honor on its official Malaysian website and social media confirm that the Magic9 Pro Max will be available",
+      "published": "2026-11-12T15:04:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "-6 in malaysia",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8ddfe11955745bc2",
+      "title": "Casio launches four new analog-digital Vintage watches in the US",
+      "url": "https://www.gizmochina.com/2026/11/12/casio-aq230-and-aq240e-watches-launched-in-the-us-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/12/casio-aq230-and-aq240e-watches-launched-in-the-us-specs-price",
+      "summary": "Casio is expanding its Vintage collection in the US with four new analog-digital watches. The new models, the AQ230GA-3A, AQ240EG-3A, AQ240E-2A2, and AQ240E-1A, were originally released in Japan last month and are now available to purchase through Casio’s US website. Pricing and Design Details The lineup focuses on a straightforward retro aesthetic, combining angular cases [&#8230;] The post Casio",
+      "published": "2026-11-12T22:27:44+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "GARRACKは、アニメ『鬼滅の刃』のメイドインジャパンの機械式時計より、宇髄天元のリニューアルモデルと、半天狗・玉壺・ 堕姫&妓夫太郎の4モデルを11月19日に予約開始、11月27日に発売します。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002021.000025284.html",
+      "summary": "[株式会社ウエニ貿易] [画像1: https://prcdn.freetls.fastly.net/release_image/25284/2021/25284-2021-6c3c40f5eb93e8903e0a6c5cb6a02f35-1200x800.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds...",
+      "published": "2026-11-12T15:10:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "e636c43296075deb"
+    },
+    {
+      "title": "Makuakeイヤホンカテゴリー歴代最多、サポーター8,329人。応援購入総額7,700万円超の『夜のためのイヤホン』final「ZE500 NYUMIN」、11月20日（金）より一般発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000241.000121822.html",
+      "summary": "[株式会社final] [画像1: https://prcdn.freetls.fastly.net/release_image/121822/241/121822-241-c89a04731598e5db34d5c8ccb1392e75-2712x2000.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bound...",
+      "published": "2026-11-12T10:40:44+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "2fa5de369217b53c"
+    },
+    {
+      "title": "【新発売】INNOCN、27インチQD-OLEDゲーミングモニター「2780S」を日本発売｜QHD・240Hz・0.03ms・HDR400 True Blackの極限表示性能を一台に",
+      "url": "https://prtimes.jp/main/html/rd/p/000000398.000090223.html",
+      "summary": "[Innocn（イノセン）] 27インチQD-OLEDパネルに2560×1440（QHD）解像度・240Hzリフレッシュレート・0.03ms（GTG）の超高速応答を搭載。1,500,000:1の圧倒的コントラスト比とHDR400 True Black認証、ΔE＜2・99% DCI-P3の広色域を兼ね備...",
+      "published": "2026-11-12T08:41:03+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "4c728b3ec3e5e0b3"
+    },
+    {
+      "title": "【Anker】より快適なつけ心地を実現し、音質と通話性能も進化させたイヤーカフ型ワイヤレスイヤホン「Anker AeroClip 2」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000694.000016775.html",
+      "summary": "",
+      "published": "2026-11-12T06:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "f21d350a5b340d71"
+    },
+    {
+      "title": "【Anker】Anker史上最高のノイズキャンセリングと音響体験を追求したワイヤレスヘッドホン「Anker Space 2 Pro」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000693.000016775.html",
+      "summary": "",
+      "published": "2026-11-12T06:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "a2a4dfadcddeef8b"
+    },
+    {
+      "title": "【Anker】快適な睡眠を耳からサポートする睡眠特化型完全ワイヤレスイヤホン　装着感とノイズ低減性能が進化した「Anker Sleep Earbuds 4」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000692.000016775.html",
+      "summary": "",
+      "published": "2026-11-12T06:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "081b1294f2f89f83"
+    },
+    {
+      "title": "PREDUCTS：ノートPCを立てて見せるスタンド型モジュール『Laptop Mount for DASHBOARD』販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000064.000090299.html",
+      "summary": "",
+      "published": "2026-11-12T06:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "2e4596e338a3635a"
+    },
+    {
+      "title": "『ムーミン：ムーミン谷の夏まつり』 本日11月12日（木）よりNintendo Switch(TM)／Nintendo Switch(TM) 2／PC（Steam) にて発売開始！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000640.000053064.html",
+      "summary": "",
+      "published": "2026-11-12T03:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "307f510026c36f2f"
+    },
+    {
+      "title": "「前回は11s、今回は14s」。2つ目はサイズ違いで\"使い分け\"るリピーターも。ミドルバッグ「QUICK PACK 11s & 14s」軽量撥水モデル、585人・1,019万円で先行販売を終了",
+      "url": "https://prtimes.jp/main/html/rd/p/000000083.000074355.html",
+      "summary": "",
+      "published": "2026-11-12T01:10:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "4e477d35f7a2aac2"
+    },
+    {
+      "title": "部活や通勤で気になる頑固な靴・足のニオイに。足の専門メーカーAKAISHIが、フットケアブランド「ATH-LAB（アスラボ）」を新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000018.000155992.html",
+      "summary": "",
+      "published": "2026-11-12T01:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "16abfdae135cf656"
+    }
+  ]
+}
