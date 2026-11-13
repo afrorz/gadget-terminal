@@ -28,6 +28,15 @@ images:
 - url: "https://aurzen.com/cdn/shop/files/zip-pro-projector-in-the-box_11zon.webp?v=1791517690&width=1200"
   caption: 付属品の一覧。USB-Cケーブル、地域別プラグ付きのアダプター、説明書が入る
 credit: Aurzen 公式製品ページ
+clips:
+- file: aurzen-zip-pro-tri-fold-projector/unfold.mp4
+  caption: "開けばスタンドに（角度も付けられる）"
+  credit: "Aurzen公式 YouTube"
+  source: "https://www.youtube.com/watch?v=tyHkSI1oZME"
+- file: aurzen-zip-pro-tri-fold-projector/game.mp4
+  caption: "ゲーム機もUSB-C 1本で（Switchも対応機器に）"
+  credit: "Aurzen公式 YouTube"
+  source: "https://www.youtube.com/watch?v=tyHkSI1oZME"
 sources:
 - title: Aurzen ZIP Pro Full HD Portable Projector（Aurzen 公式製品ページ）
   url: https://www.aurzen.com/products/aurzen-zip-pro-full-hd-portable-projector
