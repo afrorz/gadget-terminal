@@ -62,6 +62,14 @@ sources:
   - title: "Meet Beni, Your First All-Terrain Camera Robot"
     url: https://www.kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot
     publisher: Kickstarter
+modified: 2026-11-14
+videos_after:
+  - id: NydmJ0dx-PU
+    title: "Petoi Quaddle: Універсальний робо-пес із відкритим кодом та ШІ"
+    channel: "Oleksandr Ivanov - Твій гід у світі IT"
+    published: 2026-09-07
+    added: 2026-11-14
+    note: "個人チャンネルによる Petoi Quaddle の紹介動画（ウクライナ語）"
 ---
 
 机の上や家の中で動く小型ロボットが、この秋クラウドファンディングに相次いで出てきた。Gadget Terminalが9月から10月に取り上げた4機種は、どれも手で持てる大きさだが、やることはまったく違う。顔の表情で話し相手になるもの、プログラミングの教材にもなるロボット犬、配線を無くした作りそのものが見どころの四足ロボット、持ち主を追いかけて撮るカメラだ。
