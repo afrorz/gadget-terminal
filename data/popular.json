@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 240,
-   "views": 240
+   "visits": 260,
+   "views": 260
   },
   {
    "path": "/posts/home-small-robots-roundup.html",
@@ -19,14 +19,14 @@
    "views": 60
   },
   {
-   "path": "/posts/awol-luxvision-optical-shift-ust.html",
+   "path": "/posts/redmagic-12-pro-global.html",
    "visits": 40,
    "views": 40
   },
   {
-   "path": "/posts/redmagic-12-pro-global.html",
-   "visits": 40,
-   "views": 40
+   "path": "/posts/awol-luxvision-optical-shift-ust.html",
+   "visits": 30,
+   "views": 30
   },
   {
    "path": "/posts/onexplayer-super-x-pro.html",
@@ -44,6 +44,11 @@
    "views": 20
   },
   {
+   "path": "/posts/moto-watch-2-fit-buds-2-ultra.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
    "path": "/posts/fotorgear-campix-waist-level-camera.html",
    "visits": 20,
    "views": 20
@@ -54,12 +59,17 @@
    "views": 20
   },
   {
+   "path": "/posts/cmf-speaker-s-m.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
    "path": "/posts/da1-camera-thermal-print-no-screen.html",
    "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/cmf-speaker-s-m.html",
+   "path": "/posts/caimera-caim1-proof-camera.html",
    "visits": 20,
    "views": 20
   },
@@ -74,12 +84,12 @@
    "views": 20
   },
   {
-   "path": "/posts/redmagic-12-pro-plus.html",
+   "path": "/posts/bambu-lab-h3c-nine-tool-changer.html",
    "visits": 10,
    "views": 20
   },
   {
-   "path": "/posts/bambu-lab-h3c-nine-tool-changer.html",
+   "path": "/posts/redmagic-12-pro-plus.html",
    "visits": 10,
    "views": 20
   },
@@ -92,16 +102,6 @@
    "path": "/posts/8bitdo-ultimate-3c-plus-wired-xbox.html",
    "visits": 10,
    "views": 20
-  },
-  {
-   "path": "/posts/tobenone-magnetic-triple-screen-display.html",
-   "visits": 10,
-   "views": 10
-  },
-  {
-   "path": "/posts/vector-gear-open-vr-headset-kickstarter.html",
-   "visits": 10,
-   "views": 10
   }
  ]
 }
