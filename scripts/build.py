@@ -1513,6 +1513,10 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
 </section>"""
 
 
+# スマホの「今日の新着」の帯を出すか。PageSpeed のスマホの点数が下がる原因か切り分けるため、いったん止める(2026-11-14)
+TODAY_STRIP_ON = False
+
+
 def today_strip(posts: list[dict]) -> str:
     """スマホの TOP、大見出しの下に「今日の新着」を4秒ずつ切り替えて出す帯(2026-11-14 本人了承)。
 
@@ -1765,7 +1769,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     <p class="hero-sub">{html.escape(s['description']) if page <= 1 else ''}</p>
     {hero_route_img() if page <= 1 else ''}
   </section>
-  {today_strip(posts) if page <= 1 else ''}
+  {today_strip(posts) if page <= 1 and TODAY_STRIP_ON else ''}
   {body}
 </main>"""
         + footer(site)
