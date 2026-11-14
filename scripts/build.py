@@ -1424,10 +1424,18 @@ def pager(current: int, total: int) -> str:
             if current > 1 else '<span class="pager-link is-off">← 新しい記事</span>')
     nxt = (f'<a class="pager-link" href="{u(page_path(current + 1))}" rel="next">古い記事 →</a>'
            if current < total else '<span class="pager-link is-off">古い記事 →</span>')
-    nums = "".join(
-        f'<span class="pager-num is-here">{n}</span>' if n == current
-        else f'<a class="pager-num" href="{u(page_path(n))}">{n}</a>'
-        for n in range(1, total + 1))
+    # 全ページを並べると毎週1つずつ増えて何行にもなる。最初・最後・今の前後2つだけ出し、あいだは「…」(2026-11-14 本人)
+    shown = sorted({1, total, *range(max(1, current - 2), min(total, current + 2) + 1)})
+    parts, prev_n = [], 0
+    for n in shown:
+        if n - prev_n == 2:  # 1つだけ飛ぶなら「…」より番号のほうが短い
+            parts.append(f'<a class="pager-num" href="{u(page_path(n - 1))}">{n - 1}</a>')
+        elif n - prev_n > 2:
+            parts.append('<span class="pager-gap" aria-hidden="true">…</span>')
+        parts.append(f'<span class="pager-num is-here">{n}</span>' if n == current
+                     else f'<a class="pager-num" href="{u(page_path(n))}">{n}</a>')
+        prev_n = n
+    nums = "".join(parts)
     return f'<nav class="pager" aria-label="ページ送り">{prev}<span class="pager-nums">{nums}</span>{nxt}</nav>'
 
 
@@ -3909,6 +3917,7 @@ img{max-width:100%}
 .pager-num{color:var(--ink-3);text-decoration:none;min-width:26px;text-align:center;padding:6px 4px;border-radius:3px}
 .pager-num:hover{color:var(--ink)}
 .pager-num.is-here{color:var(--bg);background:var(--accent);font-weight:600}
+.pager-gap{color:var(--ink-3);min-width:18px;text-align:center;padding:6px 0}
 @media (max-width:520px){
   .pager{flex-direction:column;gap:12px}
 }
