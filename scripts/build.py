@@ -1474,6 +1474,15 @@ def pager(current: int, total: int) -> str:
     return f'<nav class="pager" aria-label="ページ送り">{prev}<span class="pager-nums">{nums}</span>{nxt}</nav>'
 
 
+def split_pages(posts: list, per_page: int) -> list[list]:
+    """一覧のページ分け。2ページ目以降は per_page 件、1ページ目は横2列の新着2本のぶん
+    2件多くする。per_page=23 なら一覧のマスは「記事23＋次ページのタイル1」=24 で、
+    4列・3列・2列のどれでも最後の行が埋まる(2026-11-14 本人「次のページへが中途半端な場所」)。"""
+    first = per_page + 2
+    pages = [posts[:first]] + [posts[i:i + per_page] for i in range(first, len(posts), per_page)]
+    return [pg for pg in pages if pg] or [[]]
+
+
 def next_page_tile(current: int, total: int) -> str:
     """カード一覧グリッドの最後に足す、次ページへの導線タイル。
 
@@ -1716,6 +1725,10 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     elif page <= 1:
         # 1ページ目だけ、案内板を出す。先頭記事を大きく出すのは 2026-11-14 にやめた
         # (本人「新着1本だけ抜き出して大きくする意味があまりない」)。
+        # 代わりに新着の2本を横2列で少し大きく出す。写真の無い記事は空いた枠が目立つので
+        # 2本の枠には入れず、次の記事を繰り上げる。
+        duo = [p for p in posts if card_image(p)[1]][:2]
+        rest = [p for p in posts if p not in duo]
         everything = all_posts or posts
         dep = "".join(board_row(site, p, i + 1)
                       for i, p in enumerate(board_posts(site, everything)))
@@ -1759,8 +1772,11 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   {connections_section(everything)}
 </section>
 {popular_section(everything)}
+<section class="grid grid-duo">
+  {''.join(card(site, p, tags=True) for p in duo)}
+</section>
 <section class="grid">
-  {''.join(card(site, p, tags=True) for p in posts)}{next_page_tile(page, total_pages)}
+  {''.join(card(site, p, tags=True) for p in rest)}{next_page_tile(page, total_pages)}
 </section>
 {picks_section(site, all_posts or posts)}
 {pager(page, total_pages)}"""
@@ -3763,8 +3779,7 @@ def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = 
     urls += [f"{base}/{f['path']}" for f in (features or [])]
     if TOPICS:
         urls += [f"{base}/topic/"] + [f"{base}/{t['path']}" for t in TOPICS]
-    per_page = int(site["site"].get("posts_per_page") or 20)
-    total_pages = max(1, -(-len(posts) // per_page))
+    total_pages = len(split_pages(posts, int(site["site"].get("posts_per_page") or 23)))
     urls += [f"{base}/{page_path(n)}" for n in range(2, total_pages + 1)]
     urls += [f"{base}/category/{c['slug']}.html" for c in site["categories"].values()]
     urls += [f"{base}/{p['path']}" for p in posts]
@@ -4130,6 +4145,17 @@ img{max-width:100%}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));
   gap:1px;background:var(--rule);border-bottom:1px solid var(--rule)}
 .card{background:var(--bg);padding:18px 18px 22px}
+.grid-duo{grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:0;border-top:1px solid var(--rule)}
+.grid-duo .card{padding:22px 22px 26px}
+.grid-duo .card-thumb img{height:230px}
+.grid-duo .card-title{font-size:clamp(16px,1.35vw,19px);line-height:1.5}
+.grid-duo .card-excerpt{-webkit-line-clamp:3}
+.grid-duo+.grid{border-top:1px solid var(--rule)}
+@media (max-width:767px){
+  .grid-duo{grid-template-columns:1fr}
+  .grid-duo .card{padding:18px 18px 22px}
+  .grid-duo .card-thumb img{height:180px}
+}
 .card-featured{background:transparent;padding:0 0 22px;border-bottom:1px solid var(--rule);margin-bottom:26px;
   display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:24px;align-items:start;
   grid-template-rows:auto auto auto}
@@ -4842,9 +4868,9 @@ def main() -> int:
     print(f"■ 実物画像 {shots}枚 / 画像も動画も無い記事 {len(naked)}本")
     for slug in naked:
         print(f"  ! 画像なし: {slug}")
-    # ページ送り。site.yaml の posts_per_page 件ずつに切る（1ページ目は先頭記事を含む）。
-    per_page = int(site["site"].get("posts_per_page") or 20)
-    pages = [posts[i:i + per_page] for i in range(0, len(posts), per_page)] or [[]]
+    # ページ送り。切り方は split_pages を参照。
+    per_page = int(site["site"].get("posts_per_page") or 23)
+    pages = split_pages(posts, per_page)
     total_pages = len(pages)
     for n, chunk in enumerate(pages, start=1):
         out = PUBLIC / page_path(n)

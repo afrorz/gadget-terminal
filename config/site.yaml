@@ -18,7 +18,7 @@ site:
   # twitter:site メタの4か所に自動で反映される。
   x_account: "GadgetTerminal2"
   copyright_from: 2026
-  posts_per_page: 20
+  posts_per_page: 23
   # 収益化は後回し。有効化するときは true にしてタグを入れる
   # アクセス解析。Cloudflare Web Analytics（Cookie 不使用）を使う。
   # ダッシュボード → Web Analytics → サイトを追加 で発行されるトークンを入れる。
