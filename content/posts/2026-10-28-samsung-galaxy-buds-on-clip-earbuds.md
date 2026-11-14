@@ -49,6 +49,7 @@ alternatives:
     url: https://item.rakuten.co.jp/ebest/4571604941236/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ebest/cabinet/486/4571604941236.jpg"
+    picked: 2026-11-15
 faq:
 - q: Galaxy Buds Onはいくらですか
   a: 韓国では299,000ウォンです（2026年10月27日発売、ブラック1色）。日本など他の地域の価格は発表されていません。

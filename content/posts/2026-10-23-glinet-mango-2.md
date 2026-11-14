@@ -44,11 +44,12 @@ sources:
   publisher: CNX Software
 origin: HKG 香港
 alternatives:
-  - name: TP-Link TL-WR902AC JP
-    why: AC750のデュアルバンドに対応する国内向けモデルの小型トラベルルーター。国内保証つきで、Mango 2が届くまでの間も使える。
-    url: https://item.rakuten.co.jp/edion/1210002618250/
+  - name: TP-Link TL-WR1502X
+    why: Wi-Fi 6に対応する小型のトラベルルーター。TP-Linkの直営店で買える国内正規品で、USB給電と3年保証つき。Mango 2が届くまでの間も、出先の回線をまとめて使える。
+    url: https://item.rakuten.co.jp/tplinkdirect/8885021371528/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/edion/cabinet/goods/ll/img_603/1210002618250_1.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/tplinkdirect/cabinet/06321509/tl-wr1502x.jpg?_ex=400x400"
+    picked: 2026-11-15
 faq:
 - q: Mango 2はいくらですか
   a: 公式ストアの予約価格は39.90ドル、通常価格は49.90ドルです（GL.iNet公式ブログ、2026年10月23日時点）。電源アダプターは別売りです。

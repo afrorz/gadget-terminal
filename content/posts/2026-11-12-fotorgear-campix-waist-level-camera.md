@@ -39,11 +39,12 @@ sources:
   url: https://www.notebookcheck.net/Camera-with-retro-design-and-interchangeable-lenses-launches-for-109.1448205.0.html
   publisher: Notebookcheck
 alternatives:
-  - name: Kenko PIENIFLEX KC-TY02（二眼レフ風トイデジタルカメラ）
-    why: 上から覗く古典的なカメラの見た目を楽しめる、国内の正規品。Campixのような交換レンズや36枚の仕組みは無いが、今日買える。
-    url: https://item.rakuten.co.jp/naturum/3175520/
+  - name: Kenko PIENIFLEX M KC-FM12（二眼レフ風トイデジタルカメラ）
+    why: 上蓋を開けて液晶を上から覗く、ウエストレベルの構えで撮れる国内メーカーのトイデジタルカメラ。Campixのような交換レンズや36枚の仕組みは無いが、撮り方は近い。
+    url: https://item.rakuten.co.jp/kenko-k/4961607446560/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/naturum/cabinet/goods/031755/20_1.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kenko-k/cabinet/digitalcamera/4961607446560_04.jpg?_ex=400x400"
+    picked: 2026-11-15
 faq:
 - q: Campixはいくらですか
   a: Kickstarterの超早割（本体とUSB-Cストラップ）は109ドル相当で、想定小売価格は209ドルとされています。支払いは香港ドル建てで、この超早割は855香港ドルです（2026年11月12日時点）。送料は支援終了後に別途徴収され、輸入時の税や関税は含まれないと Notebookcheck は伝えています。

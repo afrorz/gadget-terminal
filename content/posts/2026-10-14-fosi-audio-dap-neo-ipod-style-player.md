@@ -39,6 +39,7 @@ alternatives:
   url: https://item.rakuten.co.jp/e-earphone/6971331261733/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/e-earphone/cabinet/hiby_music/imgrc0101064437.jpg"
+  picked: 2026-11-15
 faq:
 - q: DAP Neoはいくらですか
   a: 公式ストアの掲載時点の価格は、16GBが79.99ドル、64GBが119.99ドルです。色はGalaxy（銀）とObsidian（濃いグレー）の2種類で、ほかにコンボ版（179.99ドルから）も並んでいます。microSDカードで最大256GBまで増やせます。

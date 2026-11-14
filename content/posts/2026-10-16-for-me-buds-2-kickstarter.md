@@ -54,6 +54,7 @@ alternatives:
   url: https://item.rakuten.co.jp/anker/d1301/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/d-shop1one/cabinet/point3/4571651004038.jpg"
+  picked: 2026-11-15
 faq:
 - q: For Me Buds 2はいくらですか
   a: Kickstarterの早期支援は99ドルからで、一般向けの予定価格は199ドルです（New Atlas）。掲載時点の情報です。

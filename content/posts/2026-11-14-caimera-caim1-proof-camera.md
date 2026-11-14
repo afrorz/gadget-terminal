@@ -46,6 +46,7 @@ alternatives:
     url: https://item.rakuten.co.jp/emedama/4548182202127/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/emedama/cabinet/2127/4548182202127_1.jpg"
+    picked: 2026-11-15
 faq:
 - q: CAIM1はいくらですか
   a: 価格は発表されていません。Yanko Designは、最初のロットを2027年初めに出荷する目標としており、価格は未公表と伝えています。

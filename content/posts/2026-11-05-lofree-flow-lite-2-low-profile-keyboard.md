@@ -56,6 +56,7 @@ alternatives:
     url: https://item.rakuten.co.jp/biccamera/4570001396007/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11202/00000013652057_a01.jpg"
+    picked: 2026-11-15
 faq:
 - q: Flow Lite 2はいくらですか
   a: 84キーが109ドル、100キーが119ドルです。2026年11月30日まで20%引きで、それぞれ87.20ドルと95.20ドルになります（掲載時点）。

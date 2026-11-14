@@ -45,6 +45,7 @@ alternatives:
   url: https://item.rakuten.co.jp/microsoft-store/xbox-wlc-1/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/microsoft-store/cabinet/12051196/imgrc0097883600.jpg"
+  picked: 2026-11-15
 faq:
 - q: Xbox Nano Controllerはいくらですか
   a: 米国の予約価格は49.99ドル、英国は44.99ポンドです。日本はXbox公式の日本語ニュースで参考価格8,000円と案内されています（2026年10月18日確認）。

@@ -30,11 +30,13 @@ alternatives:
   url: https://item.rakuten.co.jp/biccamera/6937285508416/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/15687/00000014774043_a01.jpg"
+  picked: 2026-11-15
 - name: "Bambu Lab H2C Combo（AMS 2 Pro付属）"
   why: "H3Cの前に出た複数ホットエンドのモデル。国内正規品として楽天のビックカメラで買える。"
   url: https://item.rakuten.co.jp/biccamera/6937285510914/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/17098/00000015068951_a01.jpg"
+  picked: 2026-11-15
 faq:
 - q: Bambu Lab H3Cはいくらですか
   a: 米国ストアでは、H3C Comboが2,499ドルです（掲載時点）。Notebookcheckは、AMS 3H付きのコンボを欧州で税込2,499ユーロ、米国で税別2,499ドルと伝えています。フィラメント同梱版は2,589ドル、棚（Bambu Station L）付きのFull Comboは2,799ドルと表示されていましたが、取得時点では在庫切れ表示でした。

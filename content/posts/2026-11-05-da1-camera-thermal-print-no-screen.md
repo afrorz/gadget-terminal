@@ -43,6 +43,7 @@ alternatives:
     url: https://item.rakuten.co.jp/kazamidori/4547410529845/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kazamidori/cabinet/products20/4547410529845.jpg"
+    picked: 2026-11-15
 faq:
 - q: DA1 Cameraはいくらですか
   a: 公式ストアの予約価格は、ネオンが98ドル、透明が110ドルです（掲載時点）。交換用のロールは18〜25ドルです。

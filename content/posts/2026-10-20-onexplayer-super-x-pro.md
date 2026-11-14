@@ -45,6 +45,7 @@ alternatives:
     url: https://item.rakuten.co.jp/rikusyouya/asus-gz302ea-ai916c/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/rikusyouya/cabinet/itemimage/23c7badb624.jpg"
+    picked: 2026-11-15
 faq:
 - q: Super X Proはいくらですか
   a: 公式ストアの価格は、128GB・4TBのStandardが4,699ドル、同じ構成の水冷版が4,779ドル、192GB・4TBが7,999ドル（水冷版は8,079ドル）です（2026年10月20日時点）。

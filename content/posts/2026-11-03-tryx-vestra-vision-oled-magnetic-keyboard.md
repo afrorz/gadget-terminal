@@ -52,6 +52,7 @@ alternatives:
     url: https://item.rakuten.co.jp/hyperx/hxrbn7s3aaabj/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/hyperx/cabinet/product/img2/hxrbn7s3aaabj_m01.jpg"
+    picked: 2026-11-15
 faq:
 - q: VESTRA VISIONはいくらですか
   a: Kickstarterでは229ドル（Super Early Bird・黒または銀・限定500）から。想定小売価格は349ドルで、2台セットの支援は434ドルからです（2026年11月3日時点）。

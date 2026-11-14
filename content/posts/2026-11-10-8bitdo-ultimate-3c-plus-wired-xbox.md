@@ -44,6 +44,7 @@ alternatives:
     url: https://item.rakuten.co.jp/microsoft-store/xbox-wlc-1/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/microsoft-store/cabinet/12051196/imgrc0097883600.jpg"
+    picked: 2026-11-15
 faq:
 - q: いくらですか
   a: 公式ショップの価格は39.99ドルです（チャコールグレーとマッチャグリーンの2色、掲載時点）。

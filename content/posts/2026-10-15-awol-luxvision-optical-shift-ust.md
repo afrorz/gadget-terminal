@@ -60,11 +60,12 @@ sources:
   url: https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector
   publisher: TechPowerUp（プレスリリース掲載）
 alternatives:
-- name: EPSON EH-LS800（超短焦点4Kレーザー）
-  why: 国内正規品の超短焦点4Kレーザープロジェクター。技適・国内保証つきで、設置までそのまま進められる。120Hz入力やレンズシフトは無いので、LuxVisionの待ち時間に今日から使い始めたい人向け。
-  url: https://item.rakuten.co.jp/avac/ehls800b/
+- name: EPSON EH-LS970B（超短焦点プロジェクター）
+  why: エプソンが国内で売る超短焦点プロジェクターの新機種。壁から約17.5cmで120インチを映せ、明るさは4,000lm。LuxVisionの待ち時間に、今から大画面を始めたい人向け。
+  url: https://item.rakuten.co.jp/epson/eh-ls970/
   merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/avac/cabinet/06843257/09029847/imgrc0111813660.jpg"
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/epson/cabinet/10371654/11545013/13003413/eh-ls970b.jpg?_ex=400x400"
+  picked: 2026-11-15
 faq:
 - q: LuxVisionはいくらですか
   a: 公式ページの希望小売価格は5,999ドルです。9月14日から11月2日までは、予約金100ドルを払うと150インチのALRスクリーンが付くキャンペーンがあります。北米限定で、本体のみ4,999ドルの案内もあります。掲載時点の表示です。

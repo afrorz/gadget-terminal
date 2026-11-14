@@ -49,6 +49,7 @@ alternatives:
     url: https://item.rakuten.co.jp/yamada-denki/7790177011/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000587/7790177011.jpg"
+    picked: 2026-11-15
 sources:
   - title: NIA — こんなに、気持ちが通じ合う、AIパートナー｜FIGUROBOT
     url: https://greenfunding.jp/figurobot

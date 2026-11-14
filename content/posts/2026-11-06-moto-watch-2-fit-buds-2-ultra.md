@@ -40,16 +40,18 @@ sources:
   url: https://motorolanews.com/the-new-moto-buds-2-ultra-moto-buds-ultra-27-take-audio-up-a-notch-with-sound-by-bose-technology-and-bring-ai-live-translation-to-consumers/
   publisher: Motorola
 alternatives:
-  - name: Polar Pacer（日本正規品）
-    why: Moto Watch 2 Fit の健康機能の元になったPolarの本家の腕時計。日本正規品で国内保証があり、公式の楽天市場店で買える。
-    url: https://item.rakuten.co.jp/polarjapan/pacer/
+  - name: Polar Street X（日本正規品）
+    why: Moto Watch 2 Fit の健康機能の元になったPolarの本家の新しいランニングウォッチ。日本正規品で国内保証があり、Polarの公式楽天市場店で買える。
+    url: https://item.rakuten.co.jp/polarjapan/street_x/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/polarjapan/cabinet/pacer/main_pacer_20260.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/polarjapan/cabinet/12913196/main_2_streetx.jpg?_ex=400x400"
+    picked: 2026-11-15
   - name: Bose QuietComfort Earbuds
     why: Bose自身のノイズキャンセリング完全ワイヤレス。Moto Buds 2 Ultraと同じBoseの音づくりを、国内正規品で今日から使える。
     url: https://item.rakuten.co.jp/superdeal/15332quietcomfortearbud2504/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/superdeal/cabinet/09061004/11661997/11959238/imgrc0332030679.jpg"
+    picked: 2026-11-15
 faq:
 - q: Moto Watch 2 Fit はいくらですか
   a: 欧州では119ユーロからです。米ドルでの価格は確認できていません。

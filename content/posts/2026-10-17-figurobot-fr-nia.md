@@ -61,6 +61,7 @@ alternatives:
   url: https://item.rakuten.co.jp/yamada-denki/7790177011/
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000587/7790177011.jpg"
+  picked: 2026-11-15
 faq:
 - q: FR-NIAとは何ですか
   a: Figurobotが開発する、高さ約28cm（11インチ）の卓上型AIロボットです。LLMで会話し、顔7・首3の計10自由度のマイクロモーターで視線やまばたき、口もと、首の傾きを動かします。充電式のバッテリーで、机から持ち出しても使えます。

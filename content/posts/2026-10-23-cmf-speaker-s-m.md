@@ -63,11 +63,13 @@ alternatives:
     url: https://item.rakuten.co.jp/yamada-denki/1594117013/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000434/1594117013.jpg"
-  - name: Anker Soundcore 3
-    why: IPX7防水で24時間連続再生、価格はSpeaker Sの国内価格より安い。国内保証つき。
-    url: https://item.rakuten.co.jp/rusion/sdth_a3117011/
+    picked: 2026-11-15
+  - name: Anker Soundcore Boom Go 3i
+    why: IP68の防塵防水で最大40時間再生の小型スピーカー。Ankerの直営店で買える国内正規品で、Speaker Sと同じく持ち歩く使い方に向く。
+    url: https://item.rakuten.co.jp/anker/d5103/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/rusion/cabinet/imgrc0122806571.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/d/d5103_normal.jpg?_ex=400x400"
+    picked: 2026-11-15
 faq:
 - q: CMF Speaker S / Mはいくらですか
   a: 米国はSが59ドル、Mが109ドルです。英国はSが49ポンド、Mが99ポンドとされています。日本の市場想定売価は税込でSが9,800円、Mが17,800円です（2026年10月23日時点）。
