@@ -71,7 +71,7 @@ faq:
   a: 確認できていません。総務省のデータベースに「Spark Ring」「SparkRing」の名称・型式での登録は見つかりませんでした。プレスリリースはBLE 5.0とNFCを備えると書いており、無線機器にあたるため技適が論点になります。
 - q: いつ届きますか
   a: 配送予定は2026年12月で、10月に量産を始める計画とFAQに書かれています。クラウドファンディングの納期は予定であり、遅れる可能性があります。
-modified: 2026-11-01
+modified: 2026-11-15
 videos_after:
   - id: 2DXrDOAbtQE
     title: "AI Smart Ring That Records Every Idea — Spark Ring Review | Best AI Ring 2026?"
@@ -79,6 +79,12 @@ videos_after:
     published: 2026-09-20
     added: 2026-11-01
     note: "個人の YouTuber による実機のレビュー（英語）"
+  - id: RqWu6Vg05no
+    title: "Spark Ring Review: The New Kickstarter Smart Ring You Need to See"
+    channel: "Shopping with Amy - Homegoods, Tech, Gift Ideas"
+    published: 2026-09-24
+    added: 2026-11-15
+    note: "個人の YouTuber による Kickstarter 中の Spark Ring のレビュー（英語）"
 ---
 
 Kickstarterで募集中の「Spark Ring」は、指に着けるスマートリングだ。2回タップして話すと録音が始まり、音声はアプリでAIが文字起こしし、メモ、ToDo、リマインダーに整理する。外装はジルコニアセラミックで、重さは2.8g（サイズによる）。**まだ製品ではなく、出資は購入ではない。**
