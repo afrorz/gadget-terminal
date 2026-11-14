@@ -212,6 +212,13 @@ def add_yen_cell(cell: str, jpy: dict) -> tuple[str, bool]:
     return out, done
 
 
+def wrap_tables(body_html: str) -> str:
+    """表を横スクロールの箱に入れる。スマホで列の多い比較表がページ全体を横に揺らしていた
+    (2026-11-14 の全ページ点検で約45本)。"""
+    return re.sub(r"<table>.*?</table>", lambda m: '<div class="tbl-wrap">' + m.group(0) + "</div>",
+                  body_html, flags=re.S)
+
+
 def add_yen_to_tables(body_html: str) -> str:
     fx = fx_rates()
     if not fx:
@@ -266,7 +273,7 @@ def parse_post(path: Path) -> dict | None:
         return None
 
     MD.reset()
-    meta["body_html"] = add_yen_to_tables(link_giteki(MD.convert(body_md)))
+    meta["body_html"] = wrap_tables(add_yen_to_tables(link_giteki(MD.convert(body_md))))
     meta["slug"] = meta.get("slug") or path.stem
     meta["date"] = str(meta.get("date", datetime.now(JST).strftime("%Y-%m-%d")))
     # 更新日。日本上陸の続報を書き足したら、その確認日を更新日として扱う
@@ -4213,6 +4220,17 @@ img{max-width:100%}
   color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--rule-2)}
 .prose td:first-child{color:var(--ink-2);width:34%}
 .prose tbody tr:hover{background:var(--raised)}
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:22px 0}
+.tbl-wrap table{margin:0}
+@media (max-width:620px){
+  .prose table{font-size:13px}
+  .prose th,.prose td{padding:8px 8px}
+  .prose td{overflow-wrap:anywhere}
+  .prose thead th{white-space:nowrap}
+  .prose td:first-child{min-width:5.5em}
+}
+/* 見出しの最後の1文字だけが次の行に落ちないようにする(技適一覧の「…一／覧」) */
+h1,h2,h3{text-wrap:pretty}
 .prose code{font-family:var(--mono);font-size:.86em;background:var(--raised);padding:2px 7px;
   border-radius:3px;color:var(--cat)}
 .prose hr{border:0;border-top:1px solid var(--rule);margin:44px 0}
