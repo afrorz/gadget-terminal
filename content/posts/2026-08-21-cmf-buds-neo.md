@@ -5,6 +5,12 @@ keyword: Buds Neo
 category: smartphone
 date: 2026-08-21
 kicker: NothingのサブブランドCMFが、完全ワイヤレスイヤホン「CMF Buds Neo」を発表した。ANCは最大35dB、バッテリーはANCオフ時で総再生52時間。価格はインドで1,999ルピー、8月26日にFlipkart等で発売する。
+images:
+- url: "https://cdn.nothing.community/2026-08-20/1787203934-62135-pr-16-9fjpg-1.jpg"
+  caption: ケースは3色。四角い本体に、回せる丸いダイヤルが付く
+- url: "https://cdn.nothing.community/2026-08-20/1787204029-227119-blue-black-copyjpg-1-copy.jpg"
+  caption: 耳に着けたところ。イヤホン本体は棒のないカナル型
+credit: CMF by Nothing 公式発表（Nothing Community）
 tags:
 - CMF
 - Nothing
