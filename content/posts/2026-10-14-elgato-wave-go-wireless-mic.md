@@ -20,6 +20,19 @@ giteki:
   checked: 2026-11-11
   radio: 2.4GHz(Bluetoothは設定用)
   note: 国内公式販売だが型番10MAP9901は未確認
+japan:
+  status: 発売済み
+  checked: 2026-11-15
+  summary: Elgatoの日本語公式ストアで17,980円で販売中。2026年11月15日時点で在庫あり、お届け予定は11月19日と表示されている。公開時点で既に日本向けの販売は始まっていた(記事の本文どおり)。総務省の技適データベースで型番「10MAP9901」は見つからず、技適番号は確認できていない。
+  x_hook: 重さ7gのクリップ型がハンドマイクにも変わるElgatoのワイヤレスマイク「Wave Go」は、日本の公式ストアで17,980円で販売中。USB-C受信機をスマホに挿すだけで使える。
+  buy:
+  - name: Elgato 日本公式ストア
+    url: https://www.elgato.com/jp/ja/p/wave-go
+    price: 17,980円(掲載時点)
+    giteki: 国内正規
+  source:
+    title: Elgato Wave Go(日本 公式製品ページ)
+    url: https://www.elgato.com/jp/ja/p/wave-go
 images:
 - url: "https://elgato-assets.imgix.net/image/upload/c_fill,h_968,w_1738/f_auto/q_auto/v1/Products/10MAP9901%20(Wave%20Go)/In%20The%20Box/Wave_Go-In_The_Box-Web-Standard?_a=DATAiZfiZAA0"
   caption: 同梱物一式。ケースの中に送信機・Smart Handle・USB-C受信機が収まり、右にふわふわの風防が2種類、手前にUSB-Cケーブル
@@ -46,7 +59,7 @@ faq:
 - q: Wave Goはいくらですか
   a: 米国の公式ストアでは、送信機・Smart Handle・USB-C受信機・ケース・磁気マウント・風防・充電ケーブルが入ったセットが99.99ドルです。2台目の送信機は単品29.99ドル、Wave Goと同時購入なら14.99ドルです。日本の公式ストアでは掲載時点で17,980円と表示されています。
 - q: 日本で買えますか
-  a: 日本語の公式ストアに製品ページがあり、掲載時点で17,980円、お届け予定は10月22日と表示されています。リリースは、Corsairの認定販売網での取り扱いは今後としています。
+  a: 日本語の公式ストアに製品ページがあり、掲載時点で17,980円、お届け予定は11月19日と表示されています(11月15日時点)。リリースは、Corsairの認定販売網での取り扱いは今後としています。
 - q: 技適は取得していますか
   a: 確認できていません。2.4GHz帯（2402〜2480MHz）の無線を使いますが、総務省の技適データベースでは型番「10MAP9901」の登録を見つけられませんでした。日本の公式ストアが販売しているため、国内で使える前提のはずですが、番号まで確認できた段階ではありません。
 - q: iPhoneで使えますか
