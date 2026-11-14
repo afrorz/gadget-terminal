@@ -1,0 +1,41 @@
+今週は「手持ちの物や昔ながらの形に、新しい中身を足した」製品が並びました。
+
+・手持ちの腕時計の裏に吸着させる健康センサー（HIYD）
+・顔の前ではなく、腰の高さで覗くデジカメ（Fotorgear Campix）
+・室内の光で充電する、カラー電子ペーパーの額縁（Inkanva）
+・初代ウォークマンのヘッドホンを、USB-Cで復刻（ソニー MDR-3R）
+・スマホで目標を選べば自動で撮る、2眼のスマート望遠鏡（ZWO Seestar S30 Plus）
+
+気になるものから読んでください。日本で買えるか・使えるかも、それぞれ書いています。
+
+1. HIYD（149ドルから、約2.3万円）
+腕時計の裏に吸着させ、心拍や睡眠を記録するだけの小さなセンサー。画面も通知も無く、時計の見た目は変わりません。
+日本の販売元は見当たらず、型番が未公表のため技適も確認できていません。
+https://gadgetterminal.com/posts/hiyd-watch-back-health-sensor.html
+
+2. Fotorgear Campix（109ドルから、約1.7万円）
+背面に画面は無く、二眼レフのように上から覗いて撮ります。36枚撮り終えたらアプリで現像する、手順を楽しむカメラです。
+日本の販売元は確認できておらず、Wi-Fiを積むため国内で使うには技適が前提です。
+https://gadgetterminal.com/posts/fotorgear-campix-waist-level-camera.html
+
+3. Inkanva（13.3インチの通常価格は349ドル、約5.3万円）
+背面の太陽電池パネルで室内の光から充電し、映した絵は電力なしで保たれます。Home Assistantにも対応します。
+国内の販売元と技適は、どちらも確認できていません。
+https://gadgetterminal.com/posts/inkanva-self-charging-e-ink-canvas.html
+
+4. ソニー MDR-3R（59.99ドル、約9千円）
+ドライバー径は1979年のMDR-3と同じ23mm。接続はUSB-Cなので、3.5mm端子の機器にはそのまま挿せません。
+日本は11月20日発売でオープン価格。無線機能が無く、技適は関係ありません。
+https://gadgetterminal.com/posts/sony-mdr-3r-usb-c-walkman-headphones.html
+
+5. ZWO Seestar S30 Plus（499ドル、約7.7万円）
+望遠と広角のカメラを載せた1.65kg。導入と追尾は自動で、重ね撮りで淡い星雲まで写します。
+国内はビクセンが販売を決めていますが、発売時期と価格は未発表です。
+https://gadgetterminal.com/posts/zwo-seestar-s30-plus.html
+
+HIYD、Campix、Inkanvaはクラウドファンディングで、出資は購入ではありません。
+
+毎朝3本、海外ガジェットを日本で買えるか・使えるかまで書いています。
+https://gadgetterminal.com/
+
+#ガジェット #海外ガジェット
