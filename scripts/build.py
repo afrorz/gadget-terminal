@@ -1714,8 +1714,8 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     if not posts:
         body = '<p class="empty">まだ記事がありません。</p>'
     elif page <= 1:
-        # 1ページ目だけ、案内板と大きい先頭記事を出す。
-        lead, rest = posts[0], posts[1:]
+        # 1ページ目だけ、案内板を出す。先頭記事を大きく出すのは 2026-11-14 にやめた
+        # (本人「新着1本だけ抜き出して大きくする意味があまりない」)。
         everything = all_posts or posts
         dep = "".join(board_row(site, p, i + 1)
                       for i, p in enumerate(board_posts(site, everything)))
@@ -1758,12 +1758,9 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
   </div>{arr_panel}
   {connections_section(everything)}
 </section>
-<section class="lead">
-  {card(site, lead, featured=True, tags=True)}
-</section>
 {popular_section(everything)}
 <section class="grid">
-  {''.join(card(site, p, tags=True) for p in rest)}{next_page_tile(page, total_pages)}
+  {''.join(card(site, p, tags=True) for p in posts)}{next_page_tile(page, total_pages)}
 </section>
 {picks_section(site, all_posts or posts)}
 {pager(page, total_pages)}"""
