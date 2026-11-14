@@ -1087,11 +1087,12 @@ def footer(site: dict) -> str:
     <div class="foot-board">
       <span class="foot-code">SYS</span>
       <span class="foot-status">ONLINE</span>
+      <span class="foot-social">{x_link}<a href="{u("feed.xml")}">RSS</a></span>
       <span class="foot-tag">{html.escape(s['tagline'])}</span>
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        {x_link}<a href="{u("feed.xml")}">RSS</a><a href="{u("features.html")}">特集</a><a href="{u("topic/")}">話題から探す</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        <span class="foot-social-pc">{x_link}<a href="{u("feed.xml")}">RSS</a></span><a href="{u("features.html")}">特集</a><a href="{u("topic/")}">話題から探す</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -1433,22 +1434,26 @@ def pager(current: int, total: int) -> str:
     """前へ／次へ と現在位置を出すページ送り。1ページしかないときは何も出さない。"""
     if total <= 1:
         return ""
-    prev = (f'<a class="pager-link" href="{u(page_path(current - 1))}" rel="prev">← 新しい記事</a>'
-            if current > 1 else '<span class="pager-link is-off">← 新しい記事</span>')
-    nxt = (f'<a class="pager-link" href="{u(page_path(current + 1))}" rel="next">古い記事 →</a>'
-           if current < total else '<span class="pager-link is-off">古い記事 →</span>')
-    # 全ページを並べると毎週1つずつ増えて何行にもなる。最初・最後・今の前後2つだけ出し、あいだは「…」(2026-11-14 本人)
-    shown = sorted({1, total, *range(max(1, current - 2), min(total, current + 2) + 1)})
-    parts, prev_n = [], 0
-    for n in shown:
-        if n - prev_n == 2:  # 1つだけ飛ぶなら「…」より番号のほうが短い
-            parts.append(f'<a class="pager-num" href="{u(page_path(n - 1))}">{n - 1}</a>')
-        elif n - prev_n > 2:
-            parts.append('<span class="pager-gap" aria-hidden="true">…</span>')
-        parts.append(f'<span class="pager-num is-here">{n}</span>' if n == current
-                     else f'<a class="pager-num" href="{u(page_path(n))}">{n}</a>')
-        prev_n = n
-    nums = "".join(parts)
+    prev = (f'<a class="pager-link" href="{u(page_path(current - 1))}" rel="prev">← <span class="pager-pc">新しい記事</span><span class="pager-sp">前へ</span></a>'
+            if current > 1 else '<span class="pager-link is-off">← <span class="pager-pc">新しい記事</span><span class="pager-sp">前へ</span></span>')
+    nxt = (f'<a class="pager-link" href="{u(page_path(current + 1))}" rel="next"><span class="pager-pc">古い記事</span><span class="pager-sp">次へ</span> →</a>'
+           if current < total else '<span class="pager-link is-off"><span class="pager-pc">古い記事</span><span class="pager-sp">次へ</span> →</span>')
+    # 全ページを並べると毎週1つずつ増えて何行にもなる。最初・最後・今の前後だけ出し、あいだは「…」(2026-11-14 本人)
+    # スマホは「新しい記事」「古い記事」のボタンと横一列に並べるので、前後1つずつに絞った版も作り CSS で出し分ける
+    def nums_html(span: int) -> str:
+        shown = sorted({1, total, *range(max(1, current - span), min(total, current + span) + 1)})
+        parts, prev_n = [], 0
+        for n in shown:
+            if n - prev_n == 2:  # 1つだけ飛ぶなら「…」より番号のほうが短い
+                parts.append(f'<a class="pager-num" href="{u(page_path(n - 1))}">{n - 1}</a>')
+            elif n - prev_n > 2:
+                parts.append('<span class="pager-gap" aria-hidden="true">…</span>')
+            parts.append(f'<span class="pager-num is-here">{n}</span>' if n == current
+                         else f'<a class="pager-num" href="{u(page_path(n))}">{n}</a>')
+            prev_n = n
+        return "".join(parts)
+    nums = (f'<span class="pager-nums-wide">{nums_html(2)}</span>'
+            f'<span class="pager-nums-narrow">{nums_html(1)}</span>')
     return f'<nav class="pager" aria-label="ページ送り">{prev}<span class="pager-nums">{nums}</span>{nxt}</nav>'
 
 
@@ -1500,7 +1505,7 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
   </article>""")
     return f"""
 <section class="picks">
-  <h2 class="picks-head">編集部ピックアップ<span class="picks-sub">運営者が選んだガジェット</span></h2>
+  <h2 class="picks-head">編集部ピックアップ</h2>
   <div class="picks-list">{''.join(rows)}
   </div>
 </section>"""
@@ -4021,8 +4026,20 @@ img{max-width:100%}
 .pager-num:hover{color:var(--ink)}
 .pager-num.is-here{color:var(--bg);background:var(--accent);font-weight:600}
 .pager-gap{color:var(--ink-3);min-width:18px;text-align:center;padding:6px 0}
+.pager-nums-wide,.pager-nums-narrow{display:contents}
+.pager-sp{display:none}
+.pager-nums-narrow{display:none}
+/* スマホも「新しい記事」「番号」「古い記事」を横一列に並べる(2026-11-14 本人)。
+   幅が足りないので、番号は今の前後1つずつ、ボタンは「前へ」「次へ」(「新しい」「古い」は本人「微妙」) */
 @media (max-width:520px){
-  .pager{flex-direction:column;gap:12px}
+  .pager{gap:6px}
+  .pager-link{padding:6px 8px;white-space:nowrap;flex:none}
+  .pager-pc{display:none}.pager-sp{display:inline}
+  .pager-nums{flex-wrap:nowrap;gap:2px}
+  .pager-nums-wide{display:none}
+  .pager-nums-narrow{display:contents}
+  .pager-num{min-width:24px;padding:6px 2px}
+  .pager-gap{min-width:12px}
 }
 
 /* ── カード ─────────────────────────────────── */
@@ -4030,6 +4047,8 @@ img{max-width:100%}
 .picks-head{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--ink-3);margin:0 0 18px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .picks-sub{font-family:inherit;font-size:12px;letter-spacing:0;text-transform:none;color:var(--ink-3)}
+/* スマホは見出しが小さすぎて読みにくい(2026-11-14 本人) */
+@media (max-width:520px){.picks-head{font-size:13px;letter-spacing:.12em;color:var(--ink-2)}}
 .picks-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px 28px}
 .pick{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:start}
 .pick-thumb{display:block;overflow:hidden;border-radius:2px;background:var(--surface)}
@@ -4303,7 +4322,11 @@ img{max-width:100%}
 .foot-tag{font-family:var(--sans);letter-spacing:0;color:var(--ink-2);font-size:13px;margin-left:auto;
   text-align:right}
 .foot-cols{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap}
-.foot-meta{margin:0;display:flex;gap:22px;font-size:13px}
+.foot-meta{margin:0;display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px}
+/* 折り返さないと、狭い幅でリンクが1文字ずつ縦に割れていた(2026-11-14 本人の指摘) */
+.foot-meta a{white-space:nowrap}
+.foot-social{display:none}
+.foot-social-pc{display:contents}
 .foot-meta a{color:var(--ink-2);border-bottom:1px solid transparent;padding-bottom:2px}
 .foot-meta a:hover{color:var(--ink);border-bottom-color:var(--accent)}
 .foot-copy{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin:0;letter-spacing:.06em}
@@ -4355,6 +4378,10 @@ img{max-width:100%}
   .card-thumb img{height:150px}
   .foot-tag{margin-left:0;text-align:left;width:100%}
   .foot-board{flex-wrap:wrap}
+  /* スマホは X と RSS を ONLINE の行の右端へ(2026-11-14 本人) */
+  .foot-social{display:flex;gap:16px;margin-left:auto;font-family:var(--sans);font-size:13px;letter-spacing:0}
+  .foot-social a{color:var(--ink-2)}
+  .foot-social-pc{display:none}
 }
 
 /* ── 特集ページ ───────────────────────────────────────────── */
