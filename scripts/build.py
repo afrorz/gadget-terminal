@@ -1119,6 +1119,19 @@ def jp(text) -> str:
     return "<wbr>".join(f'<span class="nb">{html.escape(x)}</span>' for x in parts)
 
 
+def tagline_html(text) -> str:
+    """TOP の大見出し。「」の中だけ途中で割らず、ほかは普通に折り返す。
+
+    jp() だと「、」までの長い塊がスマホで塊ごと折り返し、その塊が行の幅を
+    使い切るので、続く「毎日。」が余白を残して1行だけ下に落ちていた
+    (2026-11-14 本人「最後の毎日のところは改行しなくてもよくない？」)。
+    """
+    # 「」の中と、最後の「、」のあと(「毎日。」)を割らない。後ろだけだと幅400pxで「毎／日。」と割れた
+    t = html.escape(str(text), quote=False)
+    t = re.sub(r"「[^」]*」", lambda m: f'<span class="nb">{m.group(0)}</span>', t)
+    return re.sub(r"(」</span>)([^<]{1,8})$", r'\1<span class="nb">\2</span>', t)
+
+
 def title_text(text) -> str:
     """記事タイトル。jp() の「句読点でしか折り返さない」細工はかけない。
 
@@ -1678,7 +1691,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
 <main class="wrap">
   <section class="hero{'' if page <= 1 else ' hero-sm'}">
     <p class="eyebrow">{'INTERNATIONAL / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
-    <h1 class="hero-title">{jp(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
+    <h1 class="hero-title">{tagline_html(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
     <p class="hero-sub">{html.escape(s['description']) if page <= 1 else ''}</p>
     {hero_route_img() if page <= 1 else ''}
   </section>
