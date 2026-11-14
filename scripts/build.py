@@ -1058,10 +1058,18 @@ def header(site: dict) -> str:
       <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
     </button>
     <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
+    <button type="button" class="menu-btn" data-menu-toggle aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
 <script>(function(){{
-var b=document.currentScript.previousElementSibling.querySelector("[data-theme-toggle]");
+var h=document.currentScript.previousElementSibling;
+var mb=h.querySelector("[data-menu-toggle]");
+mb.addEventListener("click",function(){{
+  var o=h.classList.toggle("menu-open");
+  mb.setAttribute("aria-expanded",o?"true":"false");
+  mb.setAttribute("aria-label",o?"メニューを閉じる":"メニューを開く");
+}});
+var b=h.querySelector("[data-theme-toggle]");
 b.addEventListener("click",function(){{
   var dark=document.documentElement.getAttribute("data-theme")==="dark";
   var next=dark?"light":"dark";
@@ -3849,6 +3857,27 @@ img{max-width:100%}
 .nav-item:hover .nav-label{color:var(--ink)}
 .nav-about{--cat:var(--ink-3)}
 .nav-jp{--cat:#d9b45f}
+/* スマホのメニュー(2026-11-14 本人「時刻は要らない、ハンバーガーメニューを出す」)。
+   PC では出さない。 */
+.menu-btn{display:none;flex:none;width:32px;height:28px;padding:0 6px;border:1px solid var(--rule-2);
+  border-radius:2px;background:transparent;cursor:pointer;flex-direction:column;
+  justify-content:center;gap:4px}
+.menu-btn span{display:block;height:1.5px;background:var(--ink-2);transition:transform .18s,opacity .18s}
+.menu-open .menu-btn span:nth-child(1){transform:translateY(5.5px) rotate(45deg)}
+.menu-open .menu-btn span:nth-child(2){opacity:0}
+.menu-open .menu-btn span:nth-child(3){transform:translateY(-5.5px) rotate(-45deg)}
+@media (max-width:620px){
+  .head-clock{display:none}
+  .head-inner{gap:10px}
+  .brand{margin-right:auto}
+  .menu-btn{display:flex}
+  .site-head .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;
+    padding:6px 16px 12px;background:var(--bg);border-bottom:1px solid var(--rule)}
+  .site-head.menu-open .nav{display:flex}
+  .site-head .nav-item{padding:12px 4px;gap:12px;border-bottom:1px solid var(--rule)}
+  .site-head .nav-item:last-child{border-bottom:0}
+  .site-head .nav-label{display:inline;font-size:14px;color:var(--ink)}
+}
 
 /* ダーク／ライト切り替え。案内板と違い、ページ全体はこのボタンで反転する。
    アイコンは「押すとどうなるか」ではなく「切り替え先」を示す
