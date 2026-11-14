@@ -1764,7 +1764,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
         head(site, title, s["description"], page_path(page), home_ld(site) if page <= 1 else "")
         + header(site)
         + f"""
-<main class="wrap">
+<main class="wrap{' home' if page <= 1 else ''}">
   <section class="hero{'' if page <= 1 else ' hero-sm'}">
     <p class="eyebrow">{'INTERNATIONAL / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
     <h1 class="hero-title">{tagline_html(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
@@ -3879,6 +3879,13 @@ img{max-width:100%}
   margin:0 0 10px;font-weight:700;letter-spacing:-.015em;max-width:30em}
 .hero-sub{margin:0;color:var(--ink-2);font-size:13px;max-width:44em;line-height:1.75}
 /* スマホだけの「今日の新着」(today_strip)。PC は出さない(2026-11-14 本人) */
+/* スマホの TOP は「よく読まれている記事」を案内板(日本上陸の入口まで)のすぐ下へ。PC は今の並び(2026-11-14 本人) */
+@media (max-width:767px){
+.wrap.home{display:flex;flex-direction:column}
+.wrap.home>*{order:3}
+.wrap.home>.hero,.wrap.home>.pin-ft,.wrap.home>.board{order:1}
+.wrap.home>.popular{order:2}
+}
 .today-strip{display:none}
 @media (max-width:767px){
 .today-strip{display:block;margin:4px 0 18px}
