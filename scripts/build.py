@@ -1298,7 +1298,7 @@ def flight_no(p: dict, order: dict) -> str:
     return f"GT {order.get(p['slug'], 0):04d}"
 
 
-def board_posts(site: dict, posts: list[dict], limit: int = 6) -> list[dict]:
+def board_posts(site: dict, posts: list[dict], limit: int = 5) -> list[dict]:
     """出発案内板(DEPARTURES)に出す記事を選ぶ。
 
     **まだ出資できる海外のクラウドファンディング案件を締切が近い順に上へ置く。**
@@ -1320,7 +1320,7 @@ def board_posts(site: dict, posts: list[dict], limit: int = 6) -> list[dict]:
     return (live + rest)[:limit]
 
 
-def arrival_posts(posts: list[dict], limit: int = 6) -> list[dict]:
+def arrival_posts(posts: list[dict], limit: int = 5) -> list[dict]:
     """到着案内板(ARRIVALS)に出す記事。先に海外の話として書き、あとで日本で
     発売・予約・国内クラファンが始まった製品を、上陸を確かめた日が新しい順に出す。
     「発売予定」は発表だけなので載せない(日本上陸アラートと同じ線引き)。"""
