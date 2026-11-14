@@ -1198,8 +1198,10 @@ def card(site: dict, p: dict, featured: bool = False, tags: bool = False) -> str
     blurb = p.get("kicker") or p["excerpt"]
     img, is_ext = card_image(p)
     img = sized(img, 1100 if featured else 720)
-    # 先頭の大きな記事の写真はスマホで最初に見える一番大きい要素なので、後回しにせず先に読む
-    load = 'fetchpriority="high"' if featured else 'loading="lazy"'
+    # 先頭の大きな記事の写真は後回しにしない(遅延読み込みにしない)。ただし最優先の指定はしない。
+    # スマホは「今日の新着」の帯(today_strip)が最初の画面でいちばん大きく、そちらを最優先にしている。
+    # 両方を最優先にすると回線を取り合い、PageSpeed のスマホの点数が 67→57 に落ちた(2026-11-14)
+    load = 'loading="eager"' if featured else 'loading="lazy"'
     return f"""
 <article class="{cls}">
   <a class="card-thumb{' card-thumb-real' if is_ext else ''}" href="{u(p['path'])}" aria-hidden="true" tabindex="-1">
