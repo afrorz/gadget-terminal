@@ -1014,7 +1014,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="{u('assets/style.css')}">
+<link rel="stylesheet" href="{u('assets/style.css')}?v={CSS_VER}">
 {adsense(s)}
 {analytics(s)}
 {extra}
@@ -1506,6 +1506,69 @@ def picks_section(site: dict, posts: list[dict], limit: int = 3) -> str:
 </section>"""
 
 
+def today_strip(posts: list[dict]) -> str:
+    """スマホの TOP、大見出しの下に「今日の新着」を4秒ずつ切り替えて出す帯(2026-11-14 本人了承)。
+
+    いちばん新しい日の記事を3本まで。メーカー公式の映像がある記事を先に出す(本人「動画が
+    あるガジェットは画面に動きがでると一気に見栄えが良くなる」)。PC では出さない(CSS)。
+    SEO: 帯は最初の画面でいちばん大きな物になるので、1枚目だけ最優先で読み込み、2枚目以降は
+    切り替える直前に読み込む。映像は静止画を先に出し、再生は表示中の1枚だけ。
+    """
+    if not posts:
+        return ""
+    day = posts[0]["date"]
+    picks = [p for p in posts if p["date"] == day][:3]
+    if len(picks) < 2:
+        return ""
+    picks.sort(key=lambda p: 0 if p.get("clips") else 1)  # 安定ソートなので記事の順は保たれる
+    label = "今日の新着" if day == datetime.now(JST).strftime("%Y-%m-%d") else "新着"
+    slides = []
+    for i, p in enumerate(picks):
+        hook = str(p.get("x_hook") or "").strip().splitlines()
+        hook = hook[0].strip() if hook else str(p.get("seo_title") or p["title"])
+        name = str(p.get("keyword") or "").strip() or p["title"]
+        clip = (p.get("clips") or [None])[0]
+        if clip and clip["poster"]:
+            img_url, credit = u("clips/" + clip["poster"]), clip["credit"] or "メーカー公式 YouTube"
+        elif p.get("thumbnail"):
+            img_url, credit, clip = p["thumbnail"], p.get("thumbnail_credit") or "", None
+        else:
+            continue
+        attr = 'src' if i == 0 else 'data-src'
+        prio = ' fetchpriority="high" loading="eager"' if i == 0 else ''
+        media = f'<img {attr}="{html.escape(img_url)}" alt="{html.escape(name)}" decoding="async"{prio}>'
+        if clip:
+            media += f'<video muted loop playsinline preload="none" data-v="{u("clips/" + clip["file"])}"></video>'
+        slides.append(
+            f'<a class="ts-slide{" on" if i == 0 else ""}" href="{u(p["path"])}">'
+            f'<div class="ts-media{" is-img" if not clip else ""}">{media}</div>'
+            f'<div class="ts-cap"><span class="ts-name">{html.escape(name)}</span>'
+            f'<span class="ts-hook">{html.escape(hook)}</span></div>'
+            + (f'<span class="ts-credit">{html.escape(credit)}</span>' if credit else "")
+            + '</a>')
+    if len(slides) < 2:
+        return ""
+    bars = '<span class="ts-bar"><i></i></span>' * len(slides)
+    return f"""<section class="today-strip" aria-label="{label}">
+  <div class="ts-top"><span class="ts-label">TODAY · {label}</span><span class="ts-bars" aria-hidden="true">{bars}</span></div>
+  <div class="ts-stage">{''.join(slides)}</div>
+</section>
+<script>(function(){{
+var r=document.querySelector('.today-strip');if(!r||getComputedStyle(r).display==='none')return;
+var sl=r.querySelectorAll('.ts-slide'),bars=r.querySelectorAll('.ts-bar'),i=0,D=4000;
+var calm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function load(s){{var im=s.querySelector('img[data-src]');if(im){{im.src=im.getAttribute('data-src');im.removeAttribute('data-src');}}}}
+function show(n){{sl.forEach(function(s,k){{s.classList.toggle('on',k===n);var v=s.querySelector('video');if(!v)return;
+if(k===n&&!calm){{if(!v.src)v.src=v.getAttribute('data-v');v.currentTime=0;var pr=v.play();if(pr)pr.then(function(){{s.classList.add('playing');}}).catch(function(){{}});}}
+else{{v.pause();s.classList.remove('playing');}}}});
+load(sl[(n+1)%sl.length]);
+bars.forEach(function(b,k){{b.className='ts-bar '+(k<n?'done':'reset');}});void r.offsetWidth;
+if(!calm)bars[n].className='ts-bar run';}}
+show(0);if(calm)return;
+var t=setInterval(function(){{if(document.hidden)return;i=(i+1)%sl.length;show(i);}},D);
+}})();</script>"""
+
+
 def hero_route_img() -> str:
     """トップの見出し横に残る余白を埋める、着陸してくる飛行機のシルエット。
 
@@ -1695,6 +1758,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     <p class="hero-sub">{html.escape(s['description']) if page <= 1 else ''}</p>
     {hero_route_img() if page <= 1 else ''}
   </section>
+  {today_strip(posts) if page <= 1 else ''}
   {body}
 </main>"""
         + footer(site)
@@ -2340,6 +2404,7 @@ HUB_CSS = """
 .cd-tag.jp{border-color:#9fd3b4;background:#e3f4ea;color:#1d7a46!important}
 [data-theme="dark"] .cd-tag.jp{border-color:#2f6b4b;background:#163526;color:#7fd8a6!important}
 """
+
 
 
 def connections_section(posts: list[dict]) -> str:
@@ -3800,6 +3865,31 @@ img{max-width:100%}
 .hero-title{font-family:var(--disp);font-size:clamp(22px,2.9vw,34px);line-height:1.4;
   margin:0 0 10px;font-weight:700;letter-spacing:-.015em;max-width:30em}
 .hero-sub{margin:0;color:var(--ink-2);font-size:13px;max-width:44em;line-height:1.75}
+/* スマホだけの「今日の新着」(today_strip)。PC は出さない(2026-11-14 本人) */
+.today-strip{display:none}
+@media (max-width:767px){
+.today-strip{display:block;margin:4px 0 18px}
+.ts-top{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.ts-label{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--accent);white-space:nowrap}
+.ts-bars{display:flex;gap:4px;flex:1}
+.ts-bar{flex:1;height:3px;background:var(--rule-2);border-radius:2px;overflow:hidden}
+.ts-bar i{display:block;height:100%;width:0;background:var(--accent)}
+.ts-bar.done i{width:100%}
+.ts-bar.run i{width:100%;transition:width 4s linear}
+.ts-stage{position:relative;aspect-ratio:16/9;border-radius:6px;overflow:hidden;background:#11141c}
+.ts-slide{position:absolute;inset:0;opacity:0;pointer-events:none;color:#fff;text-decoration:none}
+.ts-slide.on{opacity:1;pointer-events:auto}
+.ts-media img,.ts-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ts-media.is-img img{object-fit:contain;background:#fff}
+.ts-media video{opacity:0}
+.ts-slide.playing video{opacity:1}
+.ts-cap{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 10px;
+  background:linear-gradient(transparent,rgba(0,0,0,.72));display:flex;flex-direction:column;gap:2px}
+.ts-name{font-size:11px;opacity:.85;letter-spacing:.02em}
+.ts-hook{font-size:15px;font-weight:700;line-height:1.4}
+.ts-credit{position:absolute;top:6px;right:8px;font-size:9px;opacity:.8;background:rgba(0,0,0,.4);
+  padding:1px 5px;border-radius:2px}
+}
 /* 日本語の折り返し。塊の途中では改行させない（jp() が挿入する span） */
 .nb{display:inline-block}
 /* 対応ブラウザ（Chromium系）では、塊の内部も文節単位で折り返す */
@@ -4251,6 +4341,9 @@ img{max-width:100%}
 @media (max-width:820px){
   .card-featured{grid-template-columns:1fr;gap:14px}
   .card-featured .card-thumb{grid-row:auto}
+  /* 1列にしたとき、見出し側が grid-column:2 のままだと見えない2列目が生まれ、
+     写真の列が幅0に潰れて写真が消えていた(2026-11-14 本人「一部写真が出てない」) */
+  .card-featured .card-meta,.card-featured .card-title,.card-featured .card-excerpt{grid-column:1;grid-row:auto}
 }
 @media (max-width:640px){
   .wrap{padding:0 18px}
@@ -4527,6 +4620,9 @@ FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 
 # ────────────────────────────── メイン ──────────────────────────────
 CSS += HUB_CSS
+# CSS の中身が変わったら読み直させる版(2026-11-14)。style.css は10分キャッシュされ、公開直後に
+# 新しい HTML と古い CSS が組み合わさって崩れるため
+CSS_VER = __import__("hashlib").md5(CSS.encode("utf-8")).hexdigest()[:8]
 
 
 def main() -> int:
