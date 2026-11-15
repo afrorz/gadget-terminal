@@ -1,0 +1,682 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T07:00:30.261161+09:00",
+  "stats": {
+    "fetched": 654,
+    "unique": 614,
+    "new": 208,
+    "clusters": 205,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "8b966c44c49f8f44",
+      "title": "PCs with NVIDIA RTX Spark ship this month, Asus unveils the NUC 14 Essential Fanless mini PC, and Samsung launches Galaxy Tab S12 series : Liliputing News Roundup",
+      "url": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup",
+      "summary": "The Microsoft Surface Laptop Ultra goes up for pre-order today for $2599 and up and ships Oct 16 • The Microsoft Surface RTX Spark Dev Box mini PC with NVIDIA RTX Spark starts at $5999, but it ships standard with a 20-core RTX Spark N1X chip with a 6144-core Blackwell RTX GPU and 128GB unified LPDDR5x memory. blogs.windows.com/devices/2026 • The new Asus NUC 14 Essential Fanless is a mini PC with ",
+      "published": "2026-10-07T18:45:21+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+4 mini pc",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "73a56ec9ad73563c",
+      "title": "Radxa Linkr review – A compact IP KVM with HTTPS, 2FA authentication, and Tailscale support",
+      "url": "https://www.cnx-software.com/2026/11/15/radxa-linkr-review-a-compact-ip-kvm-with-https-2fa-authentication-and-tailscale-support/",
+      "canonical": "https://www.cnx-software.com/2026/11/15/radxa-linkr-review-a-compact-ip-kvm-with-https-2fa-authentication-and-tailscale-support",
+      "summary": "We had a first look at the Radxa Linkr IP KVM in the first part of the review, checking out the specifications, the hardware design, and overall features at the end of August. That was at the end of August, and I didn&#8217;t have time to test it before I went on a two-month road trip. Since I&#8217;m now back, I&#8217;ve taken the time to test it using an AAEON UP Xtreme i11 Edge mini PC running ",
+      "published": "2026-11-15T07:53:05+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 review",
+        "+4 first look",
+        "+4 mini pc",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ed024cc06f12f8ac",
+      "title": "Purism Is Crowdfunding A RISC-V Smartphone, and FiiO launches a USB DAC that’s also a Gamepad: Liliputing News Roundup",
+      "url": "https://liliputing.com/a-usb-dac-thats-also-a-gamepad-and-purism-is-crowdfunding-a-risc-v-smartphone-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/a-usb-dac-thats-also-a-gamepad-and-purism-is-crowdfunding-a-risc-v-smartphone-liliputing-news-roundup",
+      "summary": "Purism has begun crowfunding for the Librem 5 v2, a Linux smartphone with a SpacemiT K1 RISC-V processor, a 5.7 inch display, 8GB of RAM, 128GB of storage, WiFi and camera kill switches, and modular design [+3 more news items in this roundup] The post Purism Is Crowdfunding A RISC-V Smartphone, and FiiO launches a USB DAC that&#8217;s also a Gamepad: Liliputing News Roundup appeared first on Lilip",
+      "published": "2026-11-14T22:42:54+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ee15f45be1a305c5",
+      "title": "Demon Slayer's four new mechanical watches revealed with rotating demon motifs and handcrafted dials",
+      "url": "https://www.notebookcheck.net/Demon-Slayer-s-four-new-mechanical-watches-revealed-with-rotating-demon-motifs-and-handcrafted-dials.1450546.0.html",
+      "canonical": "https://www.notebookcheck.net/Demon-Slayer-s-four-new-mechanical-watches-revealed-with-rotating-demon-motifs-and-handcrafted-dials.1450546.0.html",
+      "summary": "Garrack has revealed four Demon Slayer: Kimetsu no Yaiba S-Meister automatic watches: Tengen Uzui (SMS-41-KY-UT-S7), Hantengu (SMS-42-KY-J4H-S7), Gyokko (SMS-42-KY-J5G-S7) and Daki & Gyutaro (SMS-42-KY-J6DG-S7). Prices range from ¥74,800 to ¥77,000, with Japanese preorders opening on 19 November 2026.",
+      "published": "2026-11-15T15:38:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 price",
+        "+4 preorder",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4892e9c8130803a7",
+      "title": "Seiko’s new Japan-made limited-edition chronograph launches with a golden ram on the dial",
+      "url": "https://www.notebookcheck.net/Seiko-s-new-Japan-made-limited-edition-chronograph-launches-with-a-golden-ram-on-the-dial.1450858.0.html",
+      "canonical": "https://www.notebookcheck.net/Seiko-s-new-Japan-made-limited-edition-chronograph-launches-with-a-golden-ram-on-the-dial.1450858.0.html",
+      "summary": "A new Seiko Year Watch Collection model marks the 2027 Year of the Sheep. Limited to 2,027 pieces, it has an off-white fleece-textured dial with a golden ram, a quartz movement, a 47 mm steel case and a price of 54,780 yen in Japan through I.E.I.",
+      "published": "2026-11-15T08:23:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2b86074b42df67c4",
+      "title": "Casio delays £6,000 luxury G-Shock just before launch, with no new date confirmed",
+      "url": "https://www.notebookcheck.net/Casio-delays-pound6-000-luxury-G-Shock-just-before-launch-with-no-new-date-confirmed.1450943.0.html",
+      "canonical": "https://www.notebookcheck.net/Casio-delays-pound6-000-luxury-G-Shock-just-before-launch-with-no-new-date-confirmed.1450943.0.html",
+      "summary": "Casio has postponed the Japanese release of its limited-edition G-Shock MR-G Haruka (MRG-B2100HR-1AJR), originally scheduled for 13 November 2026. The ¥1,100,000 anniversary watch features a handcrafted platinum-leaf dial and is limited to 800 pieces worldwide, but no replacement launch date has been announced.",
+      "published": "2026-11-15T12:50:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dd405f8db53362b1",
+      "title": "Xbox Store lists new $2000 GTA 6 pre-order edition, with price causing sticker shock",
+      "url": "https://www.notebookcheck.net/Xbox-Store-lists-new-2000-GTA-6-pre-order-edition-with-price-causing-sticker-shock.1450524.0.html",
+      "canonical": "https://www.notebookcheck.net/Xbox-Store-lists-new-2000-GTA-6-pre-order-edition-with-price-causing-sticker-shock.1450524.0.html",
+      "summary": "Microsoft posted a new pre-order SKU for the GTA 6 Xbox version on its digital storefront. At $1999.99, the surprising price immediately drew the attention of console owners. Now removed, it was likely attributed to redemptions for the physical code-in-box format.",
+      "published": "2026-11-14T21:49:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+4 pre-order",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8cb1c3e72da5b592",
+      "title": "Huawei's foldable laptop with up to 32GB RAM and 1TB storage opens for pre-orders",
+      "url": "https://www.notebookcheck.net/Huawei-s-foldable-laptop-with-up-to-32GB-RAM-and-1TB-storage-opens-for-pre-orders.1450194.0.html",
+      "canonical": "https://www.notebookcheck.net/Huawei-s-foldable-laptop-with-up-to-32GB-RAM-and-1TB-storage-opens-for-pre-orders.1450194.0.html",
+      "summary": "Huawei's compact MateBook Fold S foldable laptop is now available for pre-order in China. It features an OLED display that expands to 14.7 inches, with configurations offering up to 32GB of RAM and 1TB of storage.",
+      "published": "2026-11-14T23:11:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 pre-order",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9e21e1efa76e2968",
+      "title": "Huawei unveils Mate X8 foldable, but keeps its specifications secret",
+      "url": "https://www.notebookcheck.net/Huawei-unveils-Mate-X8-foldable-but-keeps-its-specifications-secret.1450935.0.html",
+      "canonical": "https://www.notebookcheck.net/Huawei-unveils-Mate-X8-foldable-but-keeps-its-specifications-secret.1450935.0.html",
+      "summary": "Huawei has shown off the Mate X8 foldable for the first time, revealing its design but keeping the hardware details under wraps. Leaks suggest it could feature larger displays, a more powerful Kirin 9050 Pro processor and up to 16 GB of RAM.",
+      "published": "2026-11-15T11:54:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7a7c771da0b98275",
+      "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on",
+      "url": "https://www.gsmarena.com/tilta_khronos_oppo_find_x10_pro_max_creator_kit_handson-news-75476.php",
+      "canonical": "https://www.gsmarena.com/tilta_khronos_oppo_find_x10_pro_max_creator_kit_handson-news-75476.php",
+      "summary": "Today, we've got another video creator kit for unboxing. It's the Tilta-made Khronos Oppo Find X10 Pro Max Creator Kit, and it's nearly identical to the one we tried with the Find X9 Ultra. If you want a quicker version, here's our video unboxing over on our TikTok. The entire kit comes in a quality hard case and includes the following accessories: the modular phone case, a lanyard, a 67mm filter ",
+      "published": "2026-11-15T14:03:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+5 hands-on",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c456f07aeb2ad358",
+      "title": "Seiko’s new compact solar watches thinner than a Cartier Tank are now on sale outside Japan, with a catch",
+      "url": "https://www.notebookcheck.net/Seiko-s-new-compact-solar-watches-thinner-than-a-Cartier-Tank-are-now-on-sale-outside-Japan-with-a-catch.1450850.0.html",
+      "canonical": "https://www.notebookcheck.net/Seiko-s-new-compact-solar-watches-thinner-than-a-Cartier-Tank-are-now-on-sale-outside-Japan-with-a-catch.1450850.0.html",
+      "summary": "Seiko’s four HFJ rectangular solar watches can now be ordered outside Japan via an exporter. The catch is the price. They are nano universe shop-only models in Japan, and the exporter asks up to 38 percent more than Seiko’s 35,200 yen starting price.",
+      "published": "2026-11-15T14:15:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c9fdb45331e24d4f",
+      "title": "Rockstar Says GTA 6 Encourages Empathy, a First for the Series",
+      "url": "https://www.techpowerup.com/354843/rockstar-says-gta-6-encourages-empathy-a-first-for-the-series",
+      "canonical": "https://www.techpowerup.com/354843/rockstar-says-gta-6-encourages-empathy-a-first-for-the-series",
+      "summary": "Rockstar North co-studio head Rob Nelson says GTA 6 is the first game in the series to actively encourage empathy, at least for players who want it. In an interview with The Guardian , spotted by IGN , Nelson said the studio has tried for the first time in a GTA to provide mechanisms that encourage it, and tied the change to the story of Jason and Lucia. He described the pair as a young couple who",
+      "published": "2026-11-15T00:38:15+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/GTA-VI-is-the-first-Grand-Theft-Auto-built-to-encourage-empathy-says-Rockstar-but-it-won-t-punish-chaotic-players-either.1451049.0.html"
+      ]
+    },
+    {
+      "id": "5eb00ec565991e20",
+      "title": "Japan's Fax Machines Save the Day as Microsoft 365 Goes Down",
+      "url": "https://www.techpowerup.com/354845/japans-fax-machines-save-the-day-as-microsoft-365-goes-down",
+      "canonical": "https://www.techpowerup.com/354845/japans-fax-machines-save-the-day-as-microsoft-365-goes-down",
+      "summary": "When Microsoft 365 went down this week , a lot of offices in Japan simply went back to the fax machine, according to The Japan Times . The outage reached Japan in the early hours of November 13 local time and knocked out Outlook and other services. Mie Prefecture's government, where all 7,500 staff rely on Outlook, asked residents to contact it by phone or fax instead, and companies such as Chubu ",
+      "published": "2026-11-15T01:12:01+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1d1598a98eaf02ac",
+      "title": "Project Helix news anticipated after last Xbox 25th Anniversary console post featured Series X",
+      "url": "https://www.notebookcheck.net/Project-Helix-news-anticipated-after-Xbox-25th-Anniversary-console-posts.1450692.0.html",
+      "canonical": "https://www.notebookcheck.net/Project-Helix-news-anticipated-after-Xbox-25th-Anniversary-console-posts.1450692.0.html",
+      "summary": "To honor the Xbox 25th Anniversary, Microsoft has showcased every console in a series of social media posts. Having already featured all past systems, the November 15th post may involve Project Helix. On the other hand, rumors now point to a late 2028 release date as component prices remain high.",
+      "published": "2026-11-15T02:57:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 price",
+        "+3 release date",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "20f49247adaf1333",
+      "title": "AMD joins in the celebrations as PS5 crosses 100 million shipments days before GTA 6 launch",
+      "url": "https://www.notebookcheck.net/AMD-joins-in-the-celebrations-as-PS5-crosses-100-million-shipments-days-before-GTA-6-launch.1450446.0.html",
+      "canonical": "https://www.notebookcheck.net/AMD-joins-in-the-celebrations-as-PS5-crosses-100-million-shipments-days-before-GTA-6-launch.1450446.0.html",
+      "summary": "Sony has shipped more than 100 million PlayStation 5 consoles, making it the fourth PlayStation to reach the mark. AMD, which supplies the console's chips, marked the occasion with a signed PS5 Pro, but the milestone arrives as price hikes and a memory shortage weigh on sales.",
+      "published": "2026-11-15T12:08:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8fe591bff46e8e9d",
+      "title": "The new Apple TV has twice as much RAM as the previous model, but apps and games can’t use it",
+      "url": "https://9to5mac.com/2026/11/15/new-apple-tv-ram-limit/",
+      "canonical": "https://9to5mac.com/2026/11/15/new-apple-tv-ram-limit",
+      "summary": "The new Apple TV 4K features an A19 chip inside with 128 GB storage and 8 GB RAM, twice the amount of memory as the previous version. Presumably, the supply crunch surrounding the memory chips is part of the reason this generation of Apple TV box jumped to a $299 price point as well. However, although the specs have been upgraded, apps and games are not actually able to use more RAM for themselves",
+      "published": "2026-11-15T15:57:57+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 10,
+      "reasons": [
+        "+3 price",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cf91ef15b0878583",
+      "title": "Hands-on: This new flagship EDC flashlight comes with a learning curve",
+      "url": "https://www.notebookcheck.net/Hands-on-This-new-flagship-EDC-flashlight-comes-with-a-learning-curve.1450542.0.html",
+      "canonical": "https://www.notebookcheck.net/Hands-on-This-new-flagship-EDC-flashlight-comes-with-a-learning-curve.1450542.0.html",
+      "summary": "Olight's new Arktac Ultra offers significant improvements over the Arkpro Ultra, particularly in its controls and accessories. We had the chance to take an early look at the company's latest flagship EDC flashlight.",
+      "published": "2026-11-14T22:44:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 hands-on",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "25b8b41e12a2a89c",
+      "title": "Hands-on: ESR’s MagSafe kickstand charger solves two key iPhone Duo shortcomings",
+      "url": "https://9to5mac.com/2026/11/14/hands-on-esrs-magsafe-kickstand-charger-solves-two-key-iphone-duo-shortcomings/",
+      "canonical": "https://9to5mac.com/2026/11/14/hands-on-esrs-magsafe-kickstand-charger-solves-two-key-iphone-duo-shortcomings",
+      "summary": "iPhone Duo, because it offers a much larger inside display, means theres all tons of new use cases that you wouldn’t normally come across with your iPhone. Of course, one of them is the fact that you might want to prop up your iPhone Duo to watch a video on the larger display. A couple weeks ago, I wrote about one accessory that solves the kickstand problem. That said, what if you want to charge a",
+      "published": "2026-11-15T00:42:21+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 hands-on",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d09f7ab6cf3860db",
+      "title": "Archer Midnight Air Taxi Joins Formula 1 With Plans to Carry Fans Past Race Traffic",
+      "url": "https://www.techeblog.com/archer-formula-1-partnership-midnight-air-taxi/",
+      "canonical": "https://www.techeblog.com/archer-formula-1-partnership-midnight-air-taxi",
+      "summary": "Race weekends in Formula 1 regularly turn nearby roads into parking lots long before the first practice session begins. Archer Aviation and Formula 1 announced a multi-year partnership on November 12 that aims to change how some people reach the circuit. Archer becomes an Official Supporter of the series and will display its Midnight electric [...]",
+      "published": "2026-11-15T07:14:16+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6c6cc6f24825a6d5",
+      "title": "The best apps that are actually built for foldables",
+      "url": "https://www.androidauthority.com/best-apps-for-foldables-3733555/",
+      "canonical": "https://www.androidauthority.com/best-apps-for-foldables-3733555",
+      "summary": "Looking for a few decent foldable apps? Look no further.",
+      "published": "2026-11-15T11:00:20+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cd3fd211db83c7e5",
+      "title": "ASUS Ascent QN10 Mini PC Powered By Snapdragon X2 Elite Seeing Linux Support",
+      "url": "https://www.phoronix.com/news/ASUS-Ascent-QN10-Linux",
+      "canonical": "https://www.phoronix.com/news/ASUS-Ascent-QN10-Linux",
+      "summary": "In addition to a number of laptops powered by Qualcomm's Snapdragon X2 beginning to see Linux support, there's now a X2 Elite powered mini PC seeing Linux patches too...",
+      "published": "2026-11-15T11:01:55+00:00",
+      "source_id": "phoronix",
+      "source": "Phoronix",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+4 mini pc",
+        "+2 snapdragon",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7cfc23c3471ece3c",
+      "title": "Hands-on: This 25W MagSafe charger is thinner than an iPhone: KUXIU K4 Air [Video]",
+      "url": "https://9to5mac.com/2026/11/15/hands-on-this-25w-magsafe-charger-is-thinner-than-an-iphone-kuxiu-k4-air-video/",
+      "canonical": "https://9to5mac.com/2026/11/15/hands-on-this-25w-magsafe-charger-is-thinner-than-an-iphone-kuxiu-k4-air-video",
+      "summary": "When it comes to 3-in-1 travel chargers, I look at two main things: How fast it can charge my iPhone and how portable it is. I have tested plenty of travel chargers that aim to be as portable as possible by using lightweight materials or folding into a smaller footprint, but there usually seems to be some sort of compromise. But this new K4 Air by Kuxiu might be the most impressive option I’ve tes",
+      "published": "2026-11-15T15:23:31+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+5 hands-on",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "98fab86fb4c722b5",
+      "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro",
+      "url": "https://www.gsmarena.com/gaming_performance_evolution_iphone_15_pro_to_iphone_18_pro-news-75486.php",
+      "canonical": "https://www.gsmarena.com/gaming_performance_evolution_iphone_15_pro_to_iphone_18_pro-news-75486.php",
+      "summary": "The iPhone has always had a great selection of games, including some AAA titles from older console generations. However, it was with the launch of the iPhone 15 Pro that Apple opened the gates for current-generation games to be ported over to the mobile platform for the first time. Such was the graphical leap of the Apple A17 Pro that, for the first time, we had the latest Resident Evil and Assass",
+      "published": "2026-11-15T20:28:30+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ea8ff6b822a1a727",
+      "title": "ONEXPLAYER’s New Tablet Is An AI Workstation, Apple launches HomeView and updated Apple TV 4K, and HP updates its computer-in-a-keyboard: Liliputing News Roundup",
+      "url": "https://liliputing.com/onexplayers-new-tablet-is-an-ai-workstation-apple-launches-homeview-and-updated-apple-tv-4k-and-hp-updates-its-computer-in-a-keyboard-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/onexplayers-new-tablet-is-an-ai-workstation-apple-launches-homeview-and-updated-apple-tv-4k-and-hp-updates-its-computer-in-a-keyboard-liliputing-news-roundup",
+      "summary": "The new Apple TV 4K brings far-field microphones for voice interaction, a 50% faster CPU and 2X faster GPU, AV1 decoding, and a remote with Find My support • The Apple HomeView is now available to pre-order for $299 • The ONEXPLAYER Super X Pro gaming tablet (and AI workstation) has been updated with a Ryzen AI Max+ PRO 495 processor and up to 192GB of RAM The post ONEXPLAYER&#8217;s New Tablet Is",
+      "published": "2026-10-13T19:00:17+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bfc28ef1cdfc9b25",
+      "title": "Japan's ANA invests in space construction startup Space Quarters",
+      "url": "https://www.notebookcheck.net/Japan-s-ANA-invests-in-space-construction-startup-Space-Quarters.1450545.0.html",
+      "canonical": "https://www.notebookcheck.net/Japan-s-ANA-invests-in-space-construction-startup-Space-Quarters.1450545.0.html",
+      "summary": "Japan's ANA Holdings, the parent company of All Nippon Airways (ANA), is investing in space tourism by taking a stake in Space Quarters, a company that plans to specialize in building large structures in space.",
+      "published": "2026-11-14T23:04:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "56be65ff0de8b919",
+      "title": "Leak says GTA 6 story takes 50 hours to complete and PS5 platinum trophy 200 hours",
+      "url": "https://www.notebookcheck.net/Leak-says-GTA-6-story-takes-50-hours-to-complete-and-PS5-platinum-trophy-200-hours.1450952.0.html",
+      "canonical": "https://www.notebookcheck.net/Leak-says-GTA-6-story-takes-50-hours-to-complete-and-PS5-platinum-trophy-200-hours.1450952.0.html",
+      "summary": "The GTA 6 story may be shorter than some fans expected, with a review leak estimating 50 hours. Even so, side missions and trophy hunting quickly inflate that number. The PS5 platinum trophy demands 200 hours of single-player gameplay and laborious animal hunting.",
+      "published": "2026-11-15T17:07:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1c0ff759fad37782",
+      "title": "Cockpit-Simulator 737X CDU (v2) Review: An Essential Component for Flight Sim Enthusiasts",
+      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/cockpit-simulator-737x-cdu-v2-review-an-essential-component-for-flight-sim-enthusiasts",
+      "canonical": "https://www.tomshardware.com/peripherals/controllers-gamepads/cockpit-simulator-737x-cdu-v2-review-an-essential-component-for-flight-sim-enthusiasts",
+      "summary": "The CS 737X CDU (v2) by Cockpit-Simulator is a plug-and-play, 1:1 replica of a Boeing 737 Control Display Unit for home cockpit builds.",
+      "published": "2026-11-15T17:30:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+4 review",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4dc547313eb38432",
+      "title": "One Key Module Developer Program Recap",
+      "url": "https://frame.work/blog/one-key-module-developer-program-recap",
+      "canonical": "https://frame.work/blog/one-key-module-developer-program-recap",
+      "summary": "Last year, we announced the One Key Module to enable development of custom ultra-low-profile keyboards and Input Modules for Framework Laptop 16. After around three years of design and prototyping along with an extensive Developer Program that we launched earlier this year, we’ve come to the conclusion that unfortunately we won’t be able to turn this into a sellable product. As a general rule, we ",
+      "published": "2026-09-10T20:41:46+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a8335fb5cd9e0c10",
+      "title": "Beats 360 vs Studio Pro: Here’s which Beats headphones you should buy",
+      "url": "https://9to5mac.com/2026/11/14/apple-beats-studio-pro-vs-beats-360-comparison/",
+      "canonical": "https://9to5mac.com/2026/11/14/apple-beats-studio-pro-vs-beats-360-comparison",
+      "summary": "In September, Apple introduced the new Beats 360 headphones, the first overears from Beats since the Beats Studio Pro in 2023. That said, the older Beats Studio Pro still remain on sale at a lower price point – so it begs the question, which Beats headphones are more worthwhile? more…",
+      "published": "2026-11-14T22:02:41+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "cb869e0e35466a19",
+      "title": "After Years of Delays, Netflix Unveils Magic the Gathering Planeswalker Series for 2027",
+      "url": "https://www.techeblog.com/netflix-magic-the-gathering-planeswalkers-series-plot-release/",
+      "canonical": "https://www.techeblog.com/netflix-magic-the-gathering-planeswalkers-series-plot-release",
+      "summary": "Fans of the card game that has run for more than thirty years received solid confirmation this week that an animated series is finally moving ahead. Netflix and Wizards of the Coast revealed the title Planeswalker during MagicCon Atlanta, along with a 2027 release window and a short development diary that shows early concept art, [...]",
+      "published": "2026-11-15T05:42:44+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+4 unveil",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "スマホで作れて、インクいらず。手のひらサイズ・約112gの HIDISC 「コンパクト ラベルプリンター」新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000128.000053206.html",
+      "summary": "",
+      "published": "2026-11-15T21:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "ad4a6efcb3421ab5"
+    }
+  ]
+}
