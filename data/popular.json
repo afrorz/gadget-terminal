@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 260,
-   "views": 260
+   "visits": 280,
+   "views": 280
+  },
+  {
+   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
+   "visits": 50,
+   "views": 70
   },
   {
    "path": "/posts/home-small-robots-roundup.html",
    "visits": 50,
    "views": 50
-  },
-  {
-   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 40,
-   "views": 60
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
@@ -25,6 +25,16 @@
   },
   {
    "path": "/posts/awol-luxvision-optical-shift-ust.html",
+   "visits": 30,
+   "views": 30
+  },
+  {
+   "path": "/posts/da1-camera-thermal-print-no-screen.html",
+   "visits": 30,
+   "views": 30
+  },
+  {
+   "path": "/posts/caimera-caim1-proof-camera.html",
    "visits": 30,
    "views": 30
   },
@@ -39,11 +49,6 @@
    "views": 20
   },
   {
-   "path": "/posts/xbox-nano-controller.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/moto-watch-2-fit-buds-2-ultra.html",
    "visits": 20,
    "views": 20
@@ -54,27 +59,17 @@
    "views": 20
   },
   {
-   "path": "/posts/for-me-buds-2-kickstarter.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/cmf-speaker-s-m.html",
    "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/da1-camera-thermal-print-no-screen.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/caimera-caim1-proof-camera.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
    "visits": 20,
    "views": 20
   },
@@ -102,6 +97,11 @@
    "path": "/posts/8bitdo-ultimate-3c-plus-wired-xbox.html",
    "visits": 10,
    "views": 20
+  },
+  {
+   "path": "/posts/tobenone-magnetic-triple-screen-display.html",
+   "visits": 10,
+   "views": 10
   }
  ]
 }
