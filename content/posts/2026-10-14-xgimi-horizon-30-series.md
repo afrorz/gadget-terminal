@@ -1,7 +1,7 @@
 ---
 title: XGIMI「HORIZON 30」シリーズは4K/120Hzの3色レーザー、4,800〜6,000 ISOルーメンで米国の予約価格は1,899ドルから
 slug: xgimi-horizon-30-series
-seo_title: XGIMI HORIZON 30は1,899ドルから
+seo_title: XGIMI HORIZON 30、国内は41万9,800円から
 x_hook: |
   XGIMIの4Kホームプロジェクター「HORIZON 30」シリーズが出た。3色レーザーで最大6,000 ISOルーメン、HDMIは4K/120Hz対応。米国の予約は1,899ドル（約28万円）から。
   ・Proはゲームモードの遅延1ms、VRR対応
@@ -38,6 +38,14 @@ sources:
 - title: Xgimi launches Horizon 30 series projectors with up to 6,000 ISO lumens and 4K/120Hz
   url: https://www.notebookcheck.net/Xgimi-launches-Horizon-30-series-projectors-with-up-to-6-000-ISO-lumens-and-4K-120Hz.1422795.0.html
   publisher: Notebookcheck（見出しのみ確認。本文は取得できず、数値は公式ページで確認した）
+japan:
+  status: 発売済み
+  checked: 2026-11-16
+  summary: XGIMIが10月20日に国内モデルを発表し、HORIZON 30 Proは4,800 ISOルーメンで41万9,800円、11月5日発売。HORIZON 30 Ultra Maxは6,000 ISOルーメンで59万9,800円、11月10日発売。予約は10月20日から(いずれもPHILE WEBの報道による。価格が税込かどうかと販売先は確認できていない)。Maxの国内展開は確認できていない。国内発表は本記事の公開(10月14日)より後。Wi-Fi 6とBluetooth 5.2を内蔵するが、技適は総務省データベースでHORIZON 30の型番を特定できず、確認できていない。
+  x_hook: 4K/120Hz対応の3色レーザープロジェクター「XGIMI HORIZON 30」シリーズが、国内で発売された。4,800ルーメンのProは41万9,800円で11月5日から、6,000ルーメンのUltra Maxは59万9,800円で11月10日から。
+  source:
+    title: XGIMI、国内初を謳う4K/120Hz対応スマートプロジェクター「HORIZON 30シリーズ」(PHILE WEB)
+    url: https://www.phileweb.com/news/d-av/202610/20/66203.html
 alternatives:
 - name: XGIMI HORIZON 20 Pro
   why: 同じ3色レーザーの前世代モデルで、国内正規品として家電量販店の楽天店でも買える。4K・Google TV・Harman Kardonスピーカーの構成は共通で、HORIZON 30の発売を待たずに今日から導入できる。
@@ -48,7 +56,7 @@ faq:
 - q: HORIZON 30シリーズはいくらですか
   a: 米国公式ストアの予約価格は、Proが1,899ドル（通常価格2,499ドル）、Maxが2,499ドル（同2,999ドル）、Ultra Maxが2,999ドル（同3,499ドル）です。いずれも掲載時点の表示です。
 - q: 日本で買えますか
-  a: 日本向けの発売や価格は、掲載時点で確認できていません。前世代のHORIZON 20シリーズは国内で正規販売されており、国内の家電量販店でも買えます。
+  a: 国内ではXGIMIが10月20日に発表し、Proが41万9,800円で11月5日、Ultra Maxが59万9,800円で11月10日に発売されました(PHILE WEBの報道、2026年11月16日確認)。Maxの国内展開は確認できていません。前世代のHORIZON 20シリーズも国内で正規販売されています。
 - q: 技適は取得していますか
   a: HORIZON 30シリーズの技適は確認できていません。Wi-Fi 6とBluetooth 5.2を内蔵するため、日本で無線機能を使うには技適が必要です。海外ストアから買う場合は注意してください。
 - q: 3機種の違いは何ですか
