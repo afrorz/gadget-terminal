@@ -29,6 +29,15 @@ images:
 - url: "https://nwzimg.wezhan.net/contents/sitefiles3600/18000638/images/174413636.jpg"
   caption: 公式ページの特長一覧。400MHzチップ、8ch入力と仮想7.1ch、マイクのノイズ低減、60W PD、HiFi/Gameの2モードなど
 credit: FiiO 公式製品ページ
+clips:
+- file: fiio-snowsky-mage-gaming-dac/handheld.mp4
+  caption: "ゲームの音を仮想7.1chに（8chの入力を変換）"
+  credit: "FIIO 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=C1_3ZnEnqTo"
+- file: fiio-snowsky-mage-gaming-dac/hand.mp4
+  caption: "十字キーでモードを切り替え（HiFiとGameの2つ）"
+  credit: "FIIO 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=C1_3ZnEnqTo"
 sources:
 - title: FiiO SNOWSKY MAGE 製品ページ
   url: https://www.fiio.com/mage
