@@ -28,11 +28,11 @@ images:
     caption: 前面と背面を並べたカット
 credit: Onyx International(BOOX)公式ストア
 alternatives:
-  - name: BOOX Palma 2(国内正規品)
-    image: "https://shop.boox.com/cdn/shop/files/01_d2c58899-ae0c-489e-a94f-fc3417b8834b_grande.jpg?v=1729236534"
-    why: 同じスマホ型E Ink端末の前モデルが、Amazon.co.jpで既に販売されている。Palma 3の国内発売(10月末予定)を待たずに、近い使い勝手を今日から試せる。
-    url: https://www.amazon.co.jp/BOOX-6-13%E3%82%A4%E3%83%B3%E3%83%81-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-Android-300ppi/dp/B0FGJ8DL59
-    merchant: amazon
+  - name: BOOX Palma 2 Pro(国内正規品)
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/sktn/cabinet/palma2pro/palma2pro-05.jpg"
+    why: 同じスマホ型E Ink端末の前モデルのカラー表示版で、国内正規代理店SKTの楽天店で販売されている。近い使い勝手を今日から試せる。
+    url: https://item.rakuten.co.jp/sktn/boox-palma2pro-blk/
+    merchant: rakuten
 faq:
   - q: 日本で買えますか
     a: 掲載時点で日本の正規代理店SKT株式会社が2026年10月末に54,800円で発売すると予告しています。米国の公式ストアからの個人輸入も可能です。

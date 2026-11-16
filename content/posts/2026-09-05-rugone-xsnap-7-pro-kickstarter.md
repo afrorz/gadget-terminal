@@ -39,12 +39,6 @@ faq:
   a: Kickstarterの早期支援価格は799ユーロ(9月7日開始予定)。クラウドファンディング終了後の一般販売は999ドル(欧州は1,099.99ユーロ)を予定しています(いずれも掲載時点の価格)。
 - q: いつ発売されますか
   a: Kickstarterは2026年9月7日に開始予定です。一般販売はクラウドファンディング終了後の翌月からとされています。
-alternatives:
-- name: DOOGEE B10(楽天市場)
-  why: 同じIP68/IP69K防水防塵の技適取得済みタフネススマホで、7,600mAhの大容量バッテリーを積み国内から今日購入できる。着脱式アクションカメラは無いが、耐久性という核心部分の代替になる。
-  image: "https://shop.r10s.jp/doogee-store/cabinet/10857890/13132000/b10-blacks.jpg"
-  url: https://item.rakuten.co.jp/doogee-store/b10/
-  merchant: rakuten
 sources:
 - title: The RugOne Xsnap 7 Pro smartphone features a detachable camera
   url: https://www.gsmarena.com/the_rugone_xsnap_7_pro_smartphone_features_a_detachable_camera-news-74478.php
@@ -91,4 +85,4 @@ Wi-FiとBluetoothを搭載するため、国内で電波を発する状態のま
 - 国内正規代理店の有無
 - 着脱式アクションカメラという最大の差別化ポイントの実機(Kickstarterの実際の出荷を待つしかない)
 
-IP69Kと1.5mのコンクリート落下耐性は、日本の防災・アウトドア需要とも相性がよい。今すぐ試したい人には、同じIP68/IP69K等級で技適取得済みのDOOGEE B10が、7,600mAhの大容量バッテリーとともに楽天市場から購入できる。着脱式カメラのギミックはないが、タフネススマホとしての耐久性はすぐに確認できる。日本向けの情報が出たら追記する。
+IP69Kと1.5mのコンクリート落下耐性は、日本の防災・アウトドア需要とも相性がよい。今すぐ試したい人には、同じIP68/IP69K等級で技適取得済みのDOOGEE B10がある(7,600mAhの大容量バッテリー。楽天市場の公式店は2026年11月時点で在庫切れ)。着脱式カメラのギミックはないが、タフネススマホという用途は近い。日本向けの情報が出たら追記する。

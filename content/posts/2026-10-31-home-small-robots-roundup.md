@@ -46,9 +46,9 @@ faq:
 alternatives:
   - name: Energize Lab Eiliko（AIチャームロボット）
     why: 国内の家電量販店系ショップで買える。ChatGPTによる会話と、画面のアニメーションによる感情表現という方向性がFR-NIAに近い。70gのチャーム型で、4機種のどれかを待つあいだに話し相手のロボットを試せる。
-    url: https://item.rakuten.co.jp/yamada-denki/7790177011/
+    url: https://item.rakuten.co.jp/biccamera/6975240500198/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000587/7790177011.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/17178/00000015088572_a01.jpg"
     picked: 2026-11-15
 sources:
   - title: NIA — こんなに、気持ちが通じ合う、AIパートナー｜FIGUROBOT

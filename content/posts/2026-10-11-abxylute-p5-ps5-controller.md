@@ -39,13 +39,13 @@ credit: abxylute 公式ストア
 alternatives:
 - name: Brook StarRay（PS5対応ワイヤレスコントローラー）
   why: ホール効果スティックと背面ボタンを備えたPS5対応機。国内の楽天市場で販売されており、P5を待たずに今日から使える。
-  url: https://item.rakuten.co.jp/kitcut/543174-1/
+  url: https://item.rakuten.co.jp/jism/4713291625888-41-14611-n/
   merchant: rakuten
-  image: https://thumbnail.image.rakuten.co.jp/@0_mall/kitcut/cabinet/item/p-494488.jpg
+  image: https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0066/4713291625888.jpg
 - name: DualSense Edge ワイヤレスコントローラー（ソニー純正）
   why: PS5の純正品で、背面ボタンと交換式スティックを備える。国内正規品で保証が付く。
-  url: https://item.rakuten.co.jp/jism/4948872417938-54-62526-n/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0HFVZ4Y22
+  merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0122/4948872417938.jpg
 gear:
 - name: "Anker USB-C ＆ USB-A ケーブル (Flow) 1.8m"

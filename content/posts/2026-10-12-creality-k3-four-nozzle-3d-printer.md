@@ -37,9 +37,9 @@ sources:
   publisher: Fabbaloo
 alternatives:
 - name: Bambu Lab A1 Combo（AMS Lite付き）
-  why: 多色印刷に対応した3Dプリンターで、国内の家電量販店系の楽天店が扱う。K3の発売を待たずに、今日から4色までの印刷を始められる。
-  url: https://item.rakuten.co.jp/r-kojima/6977252425469/
-  merchant: rakuten
+  why: 多色印刷に対応した3Dプリンターで、Bambu Labの日本法人(Bambu Japan)がAmazon.co.jpで販売している。K3の発売を待たずに、今日から4色までの印刷を始められる。
+  url: https://www.amazon.co.jp/dp/B0D17V4SKM
+  merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/r-kojima/cabinet/n0000001495/6977252425469_1.jpg"
 faq:
 - q: Creality K3はいくらですか

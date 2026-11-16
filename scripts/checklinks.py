@@ -86,6 +86,10 @@ def alive(url: str) -> tuple[bool | None, str]:
     except Exception as e:
         return None, f"確認できず ({type(e).__name__})"
     # 楽天は終了した商品でも 200 を返し、本文で知らせる。
+    # Amazon は色・サイズ違いのある商品ページに、読み上げ用の定型文
+    # 「、選択された色では現在お取り扱いできません」を常に埋め込んでいる。これを終了と誤判定しないよう除く
+    # (2026-11-16 在庫のある Bambu Lab A1 Combo などが「終了」と出た)。
+    body = body.replace("選択された色では現在お取り扱いできません", "")
     for ng in ("この商品は現在ご購入いただけません", "販売期間が終了",
                "ページが見つかりません", "現在お取り扱いできません"):
         if ng in body:

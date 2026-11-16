@@ -21,11 +21,11 @@ images:
     caption: M.2 NVMe SSDと2.5インチSATA HDD/SSDを両方内蔵できることを示す分解イメージ
 credit: MeLE 公式ストア(store.mele.cn)
 alternatives:
-- name: MINISFORUM LN150W（Intel N150搭載ミニPC）
-  why: 同じIntel N150搭載の小型ミニPCで、Joshin webの楽天店で国内販売されている。
-  url: https://item.rakuten.co.jp/jism/4529327824275-41-77291-n/
+- name: HiMeLE Quieter 4C（Intel N150搭載ファンレスミニPC）
+  why: 同じMeLEのIntel N150搭載ファンレスミニPCで、ツクモの楽天店で国内販売されている。
+  url: https://item.rakuten.co.jp/shoptsukumo/9172530018/
   merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0054/4529327824275.jpg"
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/shoptsukumo/cabinet/pc22/4529327899082_1.jpg"
 - name: UGREEN NASync DH2300（2ベイNAS）
   why: 常時稼働のファイルサーバー用途なら、HDDを2台入れる2ベイNASキットという選択肢もある。Joshin webの楽天店で国内販売されている。
   url: https://item.rakuten.co.jp/jism/4595555318107-44-26682-n/

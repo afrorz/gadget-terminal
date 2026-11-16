@@ -36,9 +36,9 @@ sources:
 alternatives:
 - name: HiBy R1
   why: 国内正規品として流通している小型のデジタルオーディオプレーヤー。LDAC対応のBluetoothとハイレゾ再生を備え、スマホなしで音楽を聴く用途をそのまま満たせる。国内保証つき。
-  url: https://item.rakuten.co.jp/e-earphone/6971331261733/
+  url: https://item.rakuten.co.jp/jism/6971331261733-35-51370-n/
   merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/e-earphone/cabinet/hiby_music/imgrc0101064437.jpg"
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0451/6971331261733.jpg"
   picked: 2026-11-15
 faq:
 - q: DAP Neoはいくらですか

@@ -39,12 +39,6 @@ sources:
 - title: 総務省 電波利用ポータル 技術基準適合証明等を受けた機器の検索（217-263454）
   url: https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01
   publisher: 総務省
-alternatives:
-  - name: Keychron K11 Max（Alice配列・65%・Bluetooth／2.4GHz／有線）
-    why: Alice配列の無線キーボードを国内の店で今日買える。ロープロファイルでQMK対応、配列は英語（US）。Alice40より大きい65%サイズ。
-    url: https://item.rakuten.co.jp/kitcut-ps/532368/
-    merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kitcut-ps/cabinet/item/151/p-311983.jpg"
 faq:
 - q: Alice40はいくらですか
   a: 公式ストアで69.99ドルです（2026年11月12日時点、TechPowerUpの記事による）。

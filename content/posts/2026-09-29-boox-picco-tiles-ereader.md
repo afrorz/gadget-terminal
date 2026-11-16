@@ -27,11 +27,11 @@ images:
     caption: 標準で付属する本体と、スマートフォンに貼り付けるための磁気リング付きケース
 credit: BOOX公式ストア(shop.boox.com)
 alternatives:
-  - name: BOOX Palma 2(国内正規品)
-    image: "https://shop.boox.com/cdn/shop/files/01_d2c58899-ae0c-489e-a94f-fc3417b8834b_grande.jpg?v=1729236534"
-    why: 同じBOOXのスマホ型E Ink端末で、Amazon.co.jpで既に販売されている。画面はPiccoより大きいがポケットに入るサイズで、Androidアプリも使える。Piccoの国内発売を待たずに、今日から試せる。
-    url: https://www.amazon.co.jp/BOOX-6-13%E3%82%A4%E3%83%B3%E3%83%81-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-Android-300ppi/dp/B0FGJ8DL59
-    merchant: amazon
+  - name: BOOX Palma 2 Pro(国内正規品)
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/sktn/cabinet/palma2pro/palma2pro-05.jpg"
+    why: 同じBOOXのスマホ型E Ink端末(カラー表示)で、国内正規代理店SKTの楽天店で販売されている。画面はPiccoより大きいがポケットに入るサイズで、Androidアプリも使える。Piccoの国内発売を待たずに、今日から試せる。
+    url: https://item.rakuten.co.jp/sktn/boox-palma2pro-blk/
+    merchant: rakuten
 faq:
   - q: 日本で買えますか
     a: 掲載時点で購入先として確認できたのはBOOX公式ストア(米ドル建て)です。日本の正規代理店SKT株式会社によるPiccoの取り扱い発表は確認できていません。
@@ -79,6 +79,6 @@ BOOXが、シリーズで最も小さい電子書籍リーダー「Picco」の�
 
 Wi-FiとBluetoothを内蔵するので、国内で使うには技適が要る。技適取得の情報は掲載時点で確認できていない。国内の代理店が扱うなら、同社が販売するモデルは技適付きのはずで、その発表が日本上陸の合図になる。公式ストアから個人輸入して無線機能を使うのは、取得を確認してからのほうがよい。
 
-日本上陸を待つうえで、まだ分かっていないことは、SKTが取り扱うか、国内価格、技適の表示の3点。急ぎなら、国内正規品のPalma 2で近い使い勝手が得られる。日本向けが出たら追記する。
+日本上陸を待つうえで、まだ分かっていないことは、SKTが取り扱うか、国内価格、技適の表示の3点。急ぎなら、国内正規品のPalma 2 Proで近い使い勝手が得られる。日本向けが出たら追記する。
 
 情報源はBOOX公式ストアと公式プレスリリース、Android Authority、デイリーガジェット。価格・出荷時期は掲載時点のもの。

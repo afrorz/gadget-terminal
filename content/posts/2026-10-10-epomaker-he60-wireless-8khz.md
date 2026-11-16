@@ -43,8 +43,8 @@ alternatives:
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/attackshark/cabinet/13274003/x68prohe/x68pro.jpg"
   - name: Wooting 60HE v2
-    why: HE60が似せているとされる60%磁気キーボードの本家。国内の正規取扱店が8000Hz対応のv2を扱っている
-    url: https://item.rakuten.co.jp/onostore/ono00600/
+    why: HE60が似せているとされる60%磁気キーボードの本家。国内の取扱店が8000Hz対応のv2を扱っている
+    url: https://item.rakuten.co.jp/onostore/ono00971/
     merchant: rakuten
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/onostore/cabinet/12983761/5.jpg"
 gear:

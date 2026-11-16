@@ -20,11 +20,11 @@ giteki:
   radio: Wi-Fi / Bluetooth
   note: 事業者名New Matterで該当0件
 alternatives:
-- name: "ソニー ウォークマン NW-A307 64GB"
-  why: "音楽再生に特化したソニーの携帯プレーヤー。国内正規品で、ソニー特約店が販売"
-  url: https://item.rakuten.co.jp/sound11/nw-a307b/
+- name: "HiBy R1"
+  why: "音楽再生に特化した小型のデジタルオーディオプレーヤー。国内正規品をJoshin webの楽天店が販売"
+  url: https://item.rakuten.co.jp/jism/6971331261733-35-51370-n/
   merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/sound11/cabinet/00676424/imgrc0103931812.jpg"
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0451/6971331261733.jpg"
 faq:
 - q: Sudo SP-01はいくらですか
   a: 公式ページの予定価格は249ドル（税・送料別）です。最終価格は予約者が購入手続きに進む前に確定すると書かれています。

@@ -39,9 +39,9 @@ sources:
   url: https://www.plaud.ai/products/plaud-one
   publisher: Plaud公式サイト
 alternatives:
-- name: 【20%OFF！9月22日まで！】【長友佑都選手のTV-CMでお馴染みのPLAUD】【公式店】 通常版 小型AIボイスレコーダー PLAUD NotePin ウェアラブル GPT連携 ボイスレコーダー 1年間メーカー保証 身に着けられる ボイスメモ 録音 文字起こし 要約 公式販売店 正規代理店
+- name: PLAUD NotePin(Amazon.co.jp)
   why: 同じPlaudの製品で、日本国内向けに正規販売されている。イヤホン型ではないが、会話をAIが自動で文字起こし・要約する中核機能は今日から試せる。
-  url: https://www.amazon.co.jp/dp/B0DL9ZQ8GX
+  url: https://www.amazon.co.jp/dp/B0DZWYVWBR
   merchant: amazon
   image: https://thumbnail.image.rakuten.co.jp/@0_mall/plaud/cabinet/12930484/imgrc0143279709.jpg?_ex=400x400
 images:

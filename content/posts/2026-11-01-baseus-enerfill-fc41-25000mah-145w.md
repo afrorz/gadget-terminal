@@ -38,9 +38,9 @@ sources:
   publisher: Baseus（公式）
 alternatives:
   - name: Anker Power Bank (25000mAh, Built-In & 巻取り式USB-Cケーブル)
-    why: 同じ25,000mAhで、USB-Cケーブルを内蔵し、最大165W出力。アンカー公式ストアの国内正規品で、PSE技術基準適合と明記されている。
-    url: https://item.rakuten.co.jp/anker/a1695-ss/
-    merchant: rakuten
+    why: 同じ25,000mAhで、USB-Cケーブルを2本(巻取り式と一体型)内蔵し、最大4台を同時に充電できる。AnkerDirectがAmazon.co.jpで販売する国内正規品。
+    url: https://www.amazon.co.jp/dp/B0DT4RGDSJ
+    merchant: amazon
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/listing/tmb/a1695/a1695_normal.jpg"
 faq:
 - q: EnerFill FC41 25,000mAh版はいくらですか

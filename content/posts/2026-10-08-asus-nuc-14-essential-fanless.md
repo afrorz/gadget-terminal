@@ -21,10 +21,10 @@ giteki:
   note: 搭載のAX211は登録あるがNUC本体は未確認
 alternatives:
 - name: "HiMeLE Quieter 4C N150"
-  why: "Intel N150搭載のファンレスミニPC。ムラウチ取り扱いで国内で買える"
-  url: https://item.rakuten.co.jp/murauchi-denki/4529327899082/
+  why: "Intel N150搭載のファンレスミニPC。ツクモの楽天店で国内で買える"
+  url: https://item.rakuten.co.jp/shoptsukumo/9172530018/
   merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/murauchi-denki/cabinet/m2/01239/4529327899082.jpg"
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/shoptsukumo/cabinet/pc22/4529327899082_1.jpg"
 gear:
 - name: "Transcend ノートPC用メモリ DDR5-4800 16GB JM4800ASE-16G"
   why: "メモリは最大32GB（DDR5-4800）のSO-DIMM。キット版は付属が無いので、同じ規格の16GBをそのまま挿せる"

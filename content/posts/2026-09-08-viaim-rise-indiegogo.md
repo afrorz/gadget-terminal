@@ -42,8 +42,8 @@ faq:
   a: Indiegogoでのクラウドファンディングは2026年9月8日22:00(日本時間)に開始予定です。出荷時期は掲載時点で確認できていません。
 alternatives:
 - name: PLAUD NotePin(Amazon.co.jp)
-  why: ChatGPT連携の文字起こし・要約に対応したウェアラブルAIボイスレコーダーで、国内の正規代理店から今日購入できる。イヤホン一体型ではなくクリップ型だが、「話した内容をAIが要約する」という用途は同じ。
-  url: https://www.amazon.co.jp/dp/B0DL9ZQ8GX
+  why: ChatGPT連携の文字起こし・要約に対応したウェアラブルAIボイスレコーダーで、Plaud公式ストアからAmazon.co.jpで今日購入できる。イヤホン一体型ではなくクリップ型だが、「話した内容をAIが要約する」という用途は同じ。
+  url: https://www.amazon.co.jp/dp/B0DZWYVWBR
   merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/plaud/cabinet/12930484/imgrc0143279709.jpg?_ex=400x400"
 sources:

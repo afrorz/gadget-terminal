@@ -39,10 +39,10 @@ buy:
   giteki: 対象外
   note: 無線通信機能を持たない手動工具のため技適の対象外。クラウドファンディングのため、まだ製品ではない。出荷は成功すれば2027年1月予定。日本への発送可否や送料はKickstarterの支援ページ上のオプションで確認する必要があり、本メディアの環境からはKickstarterページそのものにアクセスできず未確認。替刃はStanley 11-921規格の汎用品を使う。
 alternatives:
-- name: LEATHERMAN Micra(日本正規品)
-  why: 国内正規品として今日から購入でき、25年保証も付く。キーホルダーサイズで常時携行しやすい点はTOOLTと共通する用途を満たす。
+- name: LEATHERMAN Micra
+  why: Amazon.co.jpで今日から購入でき、レザーマンの25年保証が付く。キーホルダーサイズで常時携行しやすい点はTOOLTと共通する用途を満たす。
   image: "https://www.leatherman.com/cdn/shop/files/micra_20260402201535_gze7.jpg?crop=center&height=1200&v=1777561249&width=1200"
-  url: https://www.amazon.co.jp/LEATHERMAN-%E3%83%AC%E3%82%B6%E3%83%BC%E3%83%9E%E3%83%B3-%E3%83%9E%E3%83%AB%E3%83%81%E3%83%84%E3%83%BC%E3%83%AB-MICRA-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B0CTJD8TVD
+  url: https://www.amazon.co.jp/dp/B000JCN0FG
   merchant: amazon
 faq:
 - q: 日本で買えますか
@@ -90,6 +90,6 @@ TOOLTは無線通信機能を持たない手動の多機能ツールのため、
 - 日本への発送が選べるか、送料はいくらか
 - 国内の販売元が付くか
 
-「常に携行できる小型マルチツール」を確実な入手性と保証込みで今日から使いたいなら、国内正規品のLEATHERMAN Micra(25年保証)が代替になる。機能数はTOOLTの36に対してMicraは10だが、キーホルダーサイズで携行しやすい点は共通する。
+「常に携行できる小型マルチツール」を確実な入手性と保証込みで今日から使いたいなら、LEATHERMAN Micra(25年保証)が代替になる。機能数はTOOLTの36に対してMicraは10だが、キーホルダーサイズで携行しやすい点は共通する。
 
 情報源はNew Atlasの製品紹介記事とYSMART LONDON自身のプレスリリース・公式サイトで、第三者による実機レビューはまだ出ていない(キャンペーン開始から日が浅いため)。調達額・支援者数は今後大きく動く可能性があり、いずれも掲載時点の値である。日本への発送が確認できたら追記する。

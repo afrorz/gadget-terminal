@@ -19,12 +19,6 @@ giteki:
   checked: 2026-10-01
   radio: Wi-Fi 7 / Bluetooth 5.4
   note: 国内正規販売だが総務省DBで型番を特定できず
-alternatives:
-- name: "ZOTAC ZBOX MAGNUS EN275060TC"
-  why: "RTX 5060 Ti搭載の超小型ゲーミングベアボーン。国内向け型番（-J）の販売品"
-  url: https://item.rakuten.co.jp/applied2/4580624814352-ds/
-  merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/applied2/cabinet/ho47/01/4580624814352.jpg"
 faq:
 - q: AtomMan G1 Pro-89A6は日本で買えますか
   a: Minisforumの日本向け公式ストアに、RX 9060 XT（16GB）構成が299,999円（税込表示、掲載時点）、10月15日出荷予定として掲載されています。

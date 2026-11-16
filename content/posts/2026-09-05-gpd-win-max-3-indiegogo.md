@@ -58,8 +58,8 @@ faq:
   a: Indiegogoキャンペーンは2026年9月2日に開始しました。出荷時期は掲載時点で確認できていません。
 alternatives:
 - name: ASUS ROG Flow Z13(Amazon.co.jp)
-  why: GPD Win Max 3の最上位構成と同じAMD Ryzen AI Max+ 395・128GB RAMを積む2-in-1機で、ASUSの国内正規品として今日から購入できる。ハンドヘルド型ではなくタブレット型だが、同じAPUの実力を国内サポート付きで確認できる。
-  url: https://www.amazon.co.jp/dp/B0BXXHG5F4
+  why: GPD Win Max 3の最上位構成と同じAMD Ryzen AI Max+ 395を積む2-in-1機(メモリ32GB・日本語キーボードの国内モデル)で、Amazon.co.jpが販売している。ハンドヘルド型ではなくタブレット型だが、同じAPUの実力を国内サポート付きで確認できる。
+  url: https://www.amazon.co.jp/dp/B0DW93JT1L
   merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11489/00000013881745_a01.jpg?_ex=400x400"
 sources:
@@ -108,4 +108,4 @@ videos_after:
 
 **97Whバッテリーは航空機への持ち込みに注意がいる。** 一般的な航空会社の規定では160Wh以下のリチウムイオン電池は機内持ち込みが可能なことが多いが、100Whを超える場合は事前申告や航空会社の承認を求められるケースがある。GPD Win Max 3の97Whはこの境界に近いため、海外から持ち帰る場合は利用する航空会社の規定を個別に確認したほうがよい。
 
-**同じ最上位APUを国内正規品で試したいなら。** ASUSのROG Flow Z13は、GPD Win Max 3の最上位構成と同じRyzen AI Max+ 395と128GB RAMを積む構成が国内で販売されている。ハンドヘルド型ではなくタブレット型の2-in-1という違いはあるが、同じAPUの実力を国内サポート付きで確認できる。
+**同じ最上位APUを国内正規品で試したいなら。** ASUSのROG Flow Z13は、GPD Win Max 3の最上位構成と同じRyzen AI Max+ 395を積む構成が国内で販売されている。ハンドヘルド型ではなくタブレット型の2-in-1という違いはあるが、同じAPUの実力を国内サポート付きで確認できる。

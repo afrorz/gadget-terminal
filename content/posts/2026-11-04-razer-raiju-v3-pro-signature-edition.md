@@ -26,8 +26,8 @@ giteki:
 alternatives:
 - name: "DualSense Edge ワイヤレスコントローラー"
   why: "PS5純正の背面ボタン付きプロ向けコントローラー。国内正規品で、技適を気にせず今日から使える。"
-  url: https://item.rakuten.co.jp/jism/4948872417938-54-62526-n/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0HFVZ4Y22
+  merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0122/4948872417938.jpg"
 faq:
 - q: Raiju V3 Pro Signature Editionはいくらですか

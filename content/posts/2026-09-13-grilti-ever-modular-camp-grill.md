@@ -28,10 +28,10 @@ images:
     caption: 組み立てて実際に肉や野菜を焼いている状態。グリル面とプレート面の2ゾーンが確認できる
 credit: Septem Studio 公式サイト
 alternatives:
-  - name: ピコグリル398(Picogrill 398)
-    why: ステンレス製の折りたたみ焚き火台で、A4サイズに収まる厚さまで畳める。GrilTi Everのような連結拡張はできないが、軽量・コンパクトな携行グリルとして日本で今日から入手できる。
-    image: "https://www.picogrill.ch/images/product_images/info_images/picogrill-grill-outdoor-model-398-.jpg"
-    url: https://www.amazon.co.jp/dp/B079QZFRWC
+  - name: ピコグリル498(Picogrill 498)
+    why: ステンレス製の折りたたみ焚き火台で、本体は490g。2〜6人向けの大きいサイズで、正規販売店がAmazon.co.jpで販売している。GrilTi Everのような連結拡張はできないが、軽量な携行グリルとして日本で今日から入手できる。
+    image: "https://www.picogrill.ch/images/product_images/info_images/210223-Def-picogrill-grill-outdoor-model-498-front-view-1667x1667.jpg"
+    url: https://www.amazon.co.jp/dp/B095RRQK13
     merchant: amazon
 faq:
   - q: 日本から支援できますか
@@ -85,4 +85,4 @@ GrilTi Everは炭や薪で調理する道具で、無線通信機能を持たな
 
 日本上陸を待つうえで、まだ分かっていないことは、日本への配送可否と送料・関税の2つ。
 
-今すぐ焚き火調理を試したいなら、日本国内で流通しているピコグリル398のような折りたたみ焚き火台が現実的な選択肢になる。ステンレス製でA4サイズに収まる薄さまで畳め、価格も安定している。ただしGrilTi Everのような「連結して人数分に拡張する」設計や、グリル面とプレート面を使い分けられる二層構造は持たない。人数が変わりやすいグループキャンプでの拡張性を取るか、今日から確実に入手できることを取るかで選択が分かれる。日本への配送が確認できたら追記する。
+今すぐ焚き火調理を試したいなら、日本国内で流通しているピコグリルのような折りたたみ焚き火台が現実的な選択肢になる。ステンレス製で薄く畳め、価格も安定している。ただしGrilTi Everのような「連結して人数分に拡張する」設計や、グリル面とプレート面を使い分けられる二層構造は持たない。人数が変わりやすいグループキャンプでの拡張性を取るか、今日から確実に入手できることを取るかで選択が分かれる。日本への配送が確認できたら追記する。

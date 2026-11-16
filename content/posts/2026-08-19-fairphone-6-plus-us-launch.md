@@ -26,9 +26,9 @@ faq:
 - q: 本当に自分で修理できるのですか
   a: iFixitが分解して修理性スコアで満点の10/10を付けています。バッテリーだけでなく、画面・カメラ・USB-Cポート・スピーカーなど計12点のパーツをユーザー自身の手で交換できる設計です。7年間のソフトウェアアップデート（うちAndroidメジャーアップグレード6回）と5年保証も付きます。
 gear:
-- name: "SanDisk microSDXC 128GB Extreme(SDSQXH9-128G-GHQMA)"
+- name: "SanDisk microSDXC 128GB Extreme(SDSQXAA-128G-JN3MD)"
   why: "Fairphone 6+は本体の256GBに加えて、microSDで最大2TBまで増やせる"
-  url: https://www.amazon.co.jp/dp/B0H4YXRJ53
+  url: https://www.amazon.co.jp/dp/B0D473KTZW
   merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kazamidori/cabinet/thum_sd/0619659188467.jpg"
 - name: "Anker 511 Charger (Nano 3, 30W)"

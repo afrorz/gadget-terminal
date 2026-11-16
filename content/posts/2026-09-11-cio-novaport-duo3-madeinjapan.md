@@ -40,10 +40,10 @@ buy:
   giteki: 対象外
   note: クラウドファンディングのため、まだ製品ではない。配送は2026年12月末予定で、3か月超の遅延が起きた場合はキャンセル対応もある。無線通信機能を持たないUSB-C充電器のため技適の対象外。
 alternatives:
-- name: Anker PowerPort III 2-Port 65W
-  why: 同じ65W・2ポートのGaN充電器として国内正規品が販売されており、PSE技術基準適合済みで今日から使える。国産化のストーリーはないが、実利用は待たずに始められる。
-  image: "https://prtimes.jp/i/16775/332/resize/d16775-332-76b6c89cdbbf82ed89a3-1.jpg"
-  url: https://www.amazon.co.jp/dp/B095W99H1C
+- name: Anker PowerPort III 3-Port 65W Pod
+  why: 合計65WのGaN充電器(USB-C×2・USB-A×1)で、AnkerDirectが販売する国内正規品を今日から使える。国産化のストーリーはないが、実利用は待たずに始められる。
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a2/a2667_normal.jpg"
+  url: https://www.amazon.co.jp/dp/B09JK9F927
   merchant: amazon
 gear:
 - name: "CIO 柔らかいシリコンケーブル USB-C to C 240W 1m"
@@ -87,4 +87,4 @@ NovaPort DUO3はUSB-C経由の有線給電のみを行う製品で、Wi-FiやBlu
 
 なお、CIOはMakuakeで過去にも複数の充電器プロジェクトを実施しており(NovaPort SLIM DUO IIなど)、実行者としての実績は確認できる。今回はその延長線上にある「国産化」という新しい切り口の企画だ。
 
-同じ65W・2ポートのGaN充電器としては、Anker PowerPort III 2-Port 65Wが国内正規品としてすでに流通しており、PSE技術基準適合済みで待たずに使える。国産化のストーリーはないが、「今日から65W充電器が欲しい」という用途であれば代替になる。
+同じ65WのGaN充電器としては、Anker PowerPort III 3-Port 65W Pod(USB-C×2・USB-A×1)が国内正規品として流通しており、待たずに使える。国産化のストーリーはないが、「今日から65W充電器が欲しい」という用途であれば代替になる。

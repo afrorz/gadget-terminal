@@ -31,12 +31,6 @@ faq:
   a: 20,000mAh版についての記載は確認できていません。個人輸入して国内で使う場合は、PSEマークの有無を確認する必要があります。
 - q: 何台まで同時に充電できますか
   a: USB-Cの内蔵ケーブル、USB-Aポート、USB-Cポートを使って最大3台を同時に充電できます。
-alternatives:
-- name: Baseus PicoGo モバイルバッテリー 45W 10,000mAh
-  why: 同じPicoGoシリーズの下位容量モデルで、PSE認証済み・国内正規代理店から購入できる。ケーブル内蔵という中核の使い勝手を今日から試せる。
-  image: "https://www.baseus.com/cdn/shop/files/Baseus_Picogo_Power_Bank_45W_10000mAh_With_Built_in_Cable_White_2_f20e069d-dbf5-4866-8a5b-54218b20bac7.jpg?v=1758267139"
-  url: https://www.amazon.co.jp/Baseus-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-10000mAh-LED%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B3%E3%82%BA%E3%83%9F%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0DKH7VKG7
-  merchant: amazon
 sources:
 - title: Baseus' award-winning power bank gets a 20,000mAh version
   url: https://www.notebookcheck.net/Baseus-award-winning-power-bank-gets-a-20-000mAh-version.1370100.0.html
@@ -62,7 +56,7 @@ Baseusは、USB-Cケーブルを本体に内蔵したモバイルバッテリー
 
 ## 中国先行、日本投入は前例がある
 
-現時点で確認できているのはJD.comを通じた中国国内での販売のみで、他地域への展開は発表されていない。ただし同シリーズの10,000mAh版「PicoGo」は、Baseus Japan公式ストアがAmazon.co.jpで正規販売しており、PSE認証済みで購入できる。上位容量版であるAR11 20,000mAh版が同様に日本へ投入される可能性はあるが、時期は未定だ。
+現時点で確認できているのはJD.comを通じた中国国内での販売のみで、他地域への展開は発表されていない。ただし同シリーズの10,000mAh版「PicoGo」は、Baseus Japan公式ストアがAmazon.co.jpで正規販売していた(2026年11月時点で在庫切れ)。上位容量版であるAR11 20,000mAh版が同様に日本へ投入される可能性はあるが、時期は未定だ。
 
 ## 日本で買える？使える？
 

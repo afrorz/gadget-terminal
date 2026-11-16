@@ -32,8 +32,8 @@ credit: Wici公式サイト(wici.ai)
 alternatives:
 - name: Razer Core X V2
   why: Thunderbolt 5対応の外付けGPUボックス。グラフィックスカードと電源ユニットは別売。有線接続でデスクトップ級GPUをノートPCにつなげる国内流通品。
-  url: https://item.rakuten.co.jp/jism/8887910053645-44-48274-n/
-  merchant: rakuten
+  url: https://www.amazon.co.jp/dp/B0FDBKH28X
+  merchant: amazon
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0003/8887910053645.jpg"
 faq:
   - q: 日本で買えますか

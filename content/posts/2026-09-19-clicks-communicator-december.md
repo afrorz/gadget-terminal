@@ -33,12 +33,6 @@ buy:
     ships_jp: false
     giteki: 未取得
     note: 公式ページは米国・英国向けの内容で、日本への発送は掲載時点で確認できていない。セルラー通信を行うスマートフォンのため、技適未取得のまま日本国内で電波を発射すると電波法違反になる。付属のClicks Mobile(eSIM MVNO)も米国・英国限定。
-alternatives:
-  - name: Unihertz Titan 2
-    why: 同じ物理QWERTYキーボード付きAndroidスマートフォンとして国内向けに販売されている。Unihertz公式の日本向けページでは技適取得済みとしているが、海外版と日本版で認証状況が異なるとの指摘もあるため、購入前に商品ページで対象モデルを確認したい。
-    image: "https://www.unihertz.com/cdn/shop/files/titan-2-the-latest-5g-qwerty-physical-keyboard-smartphone-unihertz-smartphones-unihertz-2923626.jpg?v=1767631146&width=1024"
-    url: https://www.amazon.co.jp/Unihertz-Titan-%E6%9C%80%E6%96%B0QWERTY%E7%89%A9%E7%90%86%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E6%90%AD%E8%BC%89-Android-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3/dp/B0G4VZ171B
-    merchant: amazon
 faq:
   - q: 日本で買えますか
     a: 公式ページ(clicksphone.com)は米国・英国向けの内容で、日本への発送は掲載時点で確認できていません。
@@ -79,6 +73,6 @@ Communicatorはセルラー通信を行うAndroidスマートフォンなので�
 - 技適を取得するか
 - 国内で使える通信サービスの組み合わせ
 
-「物理QWERTYキーボード付きのAndroidスマートフォン」という体験を日本で今日から試したいなら、Unihertz Titan 2が代替になる。Amazon.co.jpの国内向けページから購入でき、Unihertz公式の日本向けページでは技適取得済みとしている。ただし海外版と日本版で認証状況が異なるとの指摘もあるため、購入前に対象モデルを確認したほうがよい。
+「物理QWERTYキーボード付きのAndroidスマートフォン」という体験を日本で今日から試したいなら、Unihertz Titan 2が候補になる。Unihertz公式の日本向けページでは技適取得済みとしている。ただし海外版と日本版で認証状況が異なるとの指摘もあるため、購入前に対象モデルを確認したほうがよい。Amazon.co.jpの国内向けページは2026年11月時点で在庫切れだった。
 
 情報源は9to5Googleの記事とClicks公式ページの2件で、価格・スペック以外の実機レビューはまだ出ていない(出荷は12月予定のため)。日本向けの情報が出たら追記する。

@@ -47,11 +47,11 @@ sources:
     url: https://www.gizmochina.com/2026/09/28/bigme-launches-hibreak-dual-3-as-the-worlds-first-85fps-e-ink-smartphone/
     publisher: Gizmochina
 alternatives:
-  - name: BOOX Palma 2（国内正規品）
-    image: "https://shop.boox.com/cdn/shop/files/01_d2c58899-ae0c-489e-a94f-fc3417b8834b_grande.jpg?v=1729236534"
-    why: 同じ6.13インチのスマホ型E Ink端末で、国内正規品としてAmazon.co.jpで販売されている。技適の心配なく、読書用のE Inkを今日から試せる。LCDの着脱やDimensity 8300級の性能は無い。
-    url: https://www.amazon.co.jp/BOOX-6-13%E3%82%A4%E3%83%B3%E3%83%81-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-Android-300ppi/dp/B0FGJ8DL59
-    merchant: amazon
+  - name: BOOX Palma 2 Pro（国内正規品）
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/sktn/cabinet/palma2pro/palma2pro-05.jpg"
+    why: 同じ6.13インチのスマホ型E Ink端末(カラー表示)で、国内正規代理店SKTの楽天店で販売されている。読書用のE Inkを今日から試せる。LCDの着脱やDimensity 8300級の性能は無い。
+    url: https://item.rakuten.co.jp/sktn/boox-palma2pro-blk/
+    merchant: rakuten
 ---
 
 **Bigme HiBreak Dual 3** が公式ストアで予約を受け付けている。前面は6.13インチのE Ink、背面には5インチのLCDを磁石で取り付ける。LCDは外せるので、読書や手書きのときは薄いE Inkスマホとして、動画やSNSのときだけLCDを付けて使う、という作りだ。Bigmeは日本向けにもプレスリリースを出し、E Inkのリフレッシュレートは最大85fpsだとしている。
@@ -101,6 +101,6 @@ LCDは後から買い足せると、PRにも書かれている。ストアの商
 - 日本公式Amazonストアでの取り扱い
 - 国内代理店やMakuakeの展開
 
-待つなら、国内正規品のE Inkスマホを先に試す手がある。BOOXのPalma 2はAmazon.co.jpで売られていて、技適の心配がない。Dual 3の売りは着脱LCDと85fpsなので、動画やアプリも1台でこなしたい人は、国内展開か技適の登録を待つのがよい。日本向けの情報が出たら追記する。
+待つなら、国内正規品のE Inkスマホを先に試す手がある。BOOXのPalma 2 Proは国内正規代理店のSKTが売っている。Dual 3の売りは着脱LCDと85fpsなので、動画やアプリも1台でこなしたい人は、国内展開か技適の登録を待つのがよい。日本向けの情報が出たら追記する。
 
 なお、この記事の価格と在庫はすべて掲載時点のものである。この記事を書いた時点で、実機を使った詳細なレビューは確認できていない。

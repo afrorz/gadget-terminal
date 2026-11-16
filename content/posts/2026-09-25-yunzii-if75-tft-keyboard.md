@@ -37,10 +37,10 @@ buy:
     giteki: 未取得
     note: 公式ストアの配送先国リストに日本(JP)が含まれているが、技適取得の案内は見当たらない。2.4GHz無線とBluetooth 5.0を内蔵しており、国内で無線接続を使うには技適が前提になる。技適が無い場合、USB-C有線接続でのみ合法に使える。
 alternatives:
-  - name: Keychron Q1 Pro(国内正規品・JISレイアウト、Amazon.co.jp)
-    why: 同じくQMK/VIA対応のホットスワップ基板を備えたカスタムメカニカルキーボードで、国内正規品として技適取得済み・JISレイアウトも選べる。カラーTFT画面は無いが、国内から今日購入でき無線利用に不安が無い。
-    image: "https://keychron.jp/cdn/shop/products/Keychron-Q1-Pro-QMK-VIA-wireless-custom-mechanical-keyboard-75_-layout-full-aluminum-black-frame-for-Mac-WIndows-Linux-with-RGB-backlight-and-hot-swappable-K-Pro-switch-red_1800x1800_868124e5-3cef-4dee-8fe3-b502459eee42.jpg?crop=center&height=1200&v=1676606039&width=1200"
-    url: https://www.amazon.co.jp/dp/B0D5J67VJC
+  - name: Keychron Q1 Ultra 8K(国内正規品・日本語配列、Amazon.co.jp)
+    why: QMK対応でホットスワップに対応したアルミ筐体のカスタムメカニカルキーボード。Keychron Japanが販売する国内正規品で、日本語配列を選べる。カラーTFT画面は無いが、国内から今日購入できる。
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/keychron/cabinet/13467199/imgrc0114864649.jpg"
+    url: https://www.amazon.co.jp/dp/B0GCHXK54F
     merchant: amazon
 faq:
   - q: 日本に発送されますか
@@ -98,6 +98,6 @@ IF75は2.4GHz無線とBluetooth 5.0を標準搭載しており、国内でこれ
 - 日本語入力やJISレイアウトに対応するか(案内は見当たらず、US配列での利用が前提になる可能性がある)
 - 送料・関税を含めた実際の支払総額
 
-今すぐ国内で使いたいなら、QMK/VIA対応のホットスワップ基板を備えたKeychron Q1 Proがある。国内正規品でJISレイアウトも選べる。IF75の売りであるカラーTFT画面は無いが、無線利用の不安なく今日購入できる。日本向けの案内が出たら、この記事に追記する。
+今すぐ国内で使いたいなら、QMK対応でホットスワップに対応したKeychron Q1 Ultra 8Kがある。国内正規品で日本語配列も選べる。IF75の売りであるカラーTFT画面は無いが、今日購入できる。日本向けの案内が出たら、この記事に追記する。
 
 情報源はTechPowerUp、YUNZII公式サイト、WindowsForumの3件。価格・発売日はいずれも掲載時点の情報。

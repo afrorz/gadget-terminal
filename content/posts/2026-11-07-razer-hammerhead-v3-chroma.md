@@ -50,9 +50,9 @@ sources:
 alternatives:
   - name: Razer Hammerhead V3 HyperSpeed
     why: Razer自身のANC対応ワイヤレス。有線ではないが、ANCとゲーム向けの低遅延接続を、国内正規品で今日から使える。
-    url: https://item.rakuten.co.jp/e-earphone/4573626730676/
+    url: https://item.rakuten.co.jp/biccamera/8887910061763/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/e-earphone/cabinet/razer/4573626730676-01.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/18567/00000015373435_a01.jpg"
   - name: Razer Hammerhead V3
     why: ANCは無いが、同じ系統の有線モデル。3.5mmとUSB-Cの両方につなげて、国内正規品で7,980円（楽天・掲載時点）。
     url: https://item.rakuten.co.jp/e-earphone/4571585649879/

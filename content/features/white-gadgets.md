@@ -91,9 +91,6 @@ products:
 
       日本正規代理店の株式会社リンクスインターナショナルが自社ECサイト「リンクスダイレクト」で直接販売しており、価格は33,470円(税込、掲載時点)。
     url: https://www.links-direct.jp/view/item/000000012488
-    rakuten:
-      url: https://item.rakuten.co.jp/shoptsukumo/1545102013/
-      shop: ツクモ
     source: https://www.links.co.jp/item/hyte-y60-snow-white/
     availability: verified
   - name: iLoud Micro Monitor White
@@ -117,7 +114,7 @@ products:
       日本正規代理店のHookup, Inc.が取り扱い、サウンドハウスなど国内の楽器店でも購入できます。価格は60,500円(税込、価格.com調べ、掲載時点)。
     url: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
     rakuten:
-      url: https://item.rakuten.co.jp/key/10040583/
+      url: https://item.rakuten.co.jp/key-shibuya/10022718/
       shop: ミュージックランドKEY
     source: https://hookup.co.jp/products/ik-multimedia/iloud-micro-monitor
     availability: verified

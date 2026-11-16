@@ -30,9 +30,9 @@ faq:
     a: 3機種とも、掲載時点で技適の取得情報は確認できていません。Wi-Fiなどの無線機能がある場合、日本で使うには技適が前提になります。
 alternatives:
   - name: Bambu Lab A1 Combo（AMS Lite付き）
-    why: 多色印刷に対応した3Dプリンターで、国内の家電量販店系の楽天店が扱う。3機種のどれかを待つあいだも、今日から4色までの印刷を始められる。
-    url: https://item.rakuten.co.jp/r-kojima/6977252425469/
-    merchant: rakuten
+    why: 多色印刷に対応した3Dプリンターで、Bambu Labの日本法人(Bambu Japan)がAmazon.co.jpで販売している。3機種のどれかを待つあいだも、今日から4色までの印刷を始められる。
+    url: https://www.amazon.co.jp/dp/B0D17V4SKM
+    merchant: amazon
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/r-kojima/cabinet/n0000001495/6977252425469_1.jpg"
   - name: Creality HI マルチカラー3Dプリンター(Amazon.co.jp)
     why: 同じCreality製で、CFSユニットによる色替えに対応する多色機。Sparkx i8やK3の新方式ではないが、国内から今日購入できる。
@@ -110,6 +110,6 @@ Sparkx i8とL4は海外のクラウドファンディングでの支援になり
 
 日本上陸を待つうえで、まだ分かっていないのは、K3の国内価格と発売日、Sparkx i8とL4の日本向け発送、各機種の無線機能と技適だ。
 
-今すぐ多色印刷を始めるなら、国内で買える機種がある。3機種の新方式ではないが、Bambu LabのA1 Combo(AMS Lite付き)は国内の家電量販店系の楽天店が扱い、CrealityのHIもAmazon.co.jpで買える。どちらも、今日から4色以上の印刷ができる。
+今すぐ多色印刷を始めるなら、国内で買える機種がある。3機種の新方式ではないが、Bambu LabのA1 Combo(AMS Lite付き)は日本法人がAmazon.co.jpで売っており、CrealityのHIもAmazon.co.jpで買える。どちらも、今日から4色以上の印刷ができる。
 
 3機種の続報(K3の正式価格、Sparkx i8とL4の出荷、日本での発売)は、個別の記事に追記していく。

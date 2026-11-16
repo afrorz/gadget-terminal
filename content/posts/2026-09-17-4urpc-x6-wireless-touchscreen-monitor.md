@@ -45,7 +45,7 @@ sources:
 alternatives:
   - name: UPERFECT タッチパネル対応 15.6インチ モバイルモニター
     why: ワイヤレス伝送機能を持たずUSB-C/HDMI接続のみのため、電波法・技適を気にせず今日から国内で使える。ワイヤレスでのスマホ画面ミラーリングはできないが、タッチ対応の携帯モニターという用途はすぐに満たせる。
-    url: https://www.amazon.co.jp/dp/B09GK1HMKR
+    url: https://www.amazon.co.jp/dp/B0BHP12SC8
     merchant: amazon
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/matsukageya/cabinet/root_sniper_folder/sniper_folder_00027/imgrc0112951965.jpg?_ex=400x400"
 ---

@@ -32,11 +32,11 @@ buy:
     giteki: 対象外
     note: 有線(USB-C)接続のみで無線機能はない。日本からの注文はDHL Express等の国際配送となり、送料・関税は別途かかる。
 alternatives:
-- name: "Keychron K4 Version 3 日本語配列"
-  why: "テンキー付き96%配列でホットスワップ対応のメカニカルキーボード。日本語配列で国内ショップが販売"
-  url: https://item.rakuten.co.jp/kitcut/53747714401/
-  merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/kitcut/cabinet/item/183/p-478504.jpg"
+- name: "Keychron K4 Max 日本語配列"
+  why: "テンキーを残した96%配列のメカニカルキーボード。日本語配列で、Keychron JapanがAmazon.co.jpで販売している"
+  url: https://www.amazon.co.jp/dp/B0FY2W7K36
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0095/4894979047922.jpg"
 faq:
   - q: 日本で買えますか
     a: Glorious公式ストアは日本を発送対象国に含めています(掲載時点)。ただし配送は国際便となり、送料・関税は別途かかります。国内の正規販売網での取り扱いは掲載時点で確認できていません。

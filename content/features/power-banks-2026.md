@@ -31,9 +31,6 @@ products:
 
       仕様は10,000mAh、USB-C最大35W、約220g。放電できる温度は-15〜45℃です。性能で突出した製品ではなく、「同じ大きさで、燃えにくく長持ち」に振った一台です。
     url: https://shop.elecom.co.jp/item/4549550417396.html
-    rakuten:
-      url: https://item.rakuten.co.jp/elecom/4549550417396/
-      shop: エレコムダイレクトショップ
     source: https://www.elecom.co.jp/products/DE-C86-10000BK.html
     availability: verified
   - name: 半固体モバイルバッテリー 5000mAh/22.5W(DE-C85-5000)
