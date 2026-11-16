@@ -35,6 +35,11 @@ images:
 - url: "https://i.kickstarter.com/assets/055/787/716/27f22ec22834f77fd15f3b83618228d3_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876703&width=700&sig=UOJrmXmFmE9gBeGo7LVpANOH1pbdaIw9TJA%2FgxIlut4%3D"
   caption: 分解した本体。CR2032電池、加速度センサー、2つのスイッチ、マイク、ブザーとLEDが入る。サイズは51×29×8mm
 credit: Shortcut Labs（Kickstarter プロジェクトページ）
+clips:
+- file: flic-cue-ai-voice-button/press.mp4
+  caption: "押している間だけ聞く（離すとスマホへ送る）"
+  credit: "Flic 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=DBX78ZMjYX4"
 sources:
 - title: "Flic Cue: The AI Voice Button that keeps your phone away（Kickstarter。金額・支援者数は2026年11月17日時点）"
   url: https://www.kickstarter.com/projects/shortcutlabs/flic-cue
