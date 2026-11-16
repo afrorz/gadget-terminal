@@ -965,11 +965,24 @@ def ad_unit(s: dict, slot_key: str) -> str:
     slot = str((s.get("adsense_slots") or {}).get(slot_key) or "").strip()
     if not (cid and slot):
         return ""
+    # Multiplex 広告(小さなカードを並べる形)。2026-11-16 本人「バナーがでかすぎる。
+    # 横2列か3列程度にしたい」で、写真1枚の大きなディスプレイ広告から替えた。
+    # 並びは「スマホ,パソコン」の順に書く(3つの値はそろえて書かないと Google が無視する)。
+    mp = (s.get("adsense_multiplex") or {}).get(slot_key)
+    if mp:
+        fmt = (
+            'data-ad-format="autorelaxed" '
+            f'data-matched-content-ui-type="{html.escape(mp["ui"])}" '
+            f'data-matched-content-rows-num="{html.escape(mp["rows"])}" '
+            f'data-matched-content-columns-num="{html.escape(mp["cols"])}"'
+        )
+    else:
+        fmt = 'data-ad-format="auto" data-full-width-responsive="true"'
     return (
         '<aside class="ad-slot"><p class="ad-slot-label">広告</p>'
         '<ins class="adsbygoogle" style="display:block" '
         f'data-ad-client="{html.escape(cid)}" data-ad-slot="{html.escape(slot)}" '
-        'data-ad-format="auto" data-full-width-responsive="true"></ins>'
+        f'{fmt}></ins>'
         "<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>"
     )
 
