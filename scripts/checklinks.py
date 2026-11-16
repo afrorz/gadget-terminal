@@ -77,7 +77,7 @@ def alive(url: str) -> tuple[bool | None, str]:
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=25) as r:
-            body = r.read(120_000).decode("utf-8", "ignore")
+            body = r.read(800_000).decode("utf-8", "ignore")
             code = r.status
     except urllib.error.HTTPError as e:
         if e.code in (403, 429, 503):
@@ -90,6 +90,15 @@ def alive(url: str) -> tuple[bool | None, str]:
                "ページが見つかりません", "現在お取り扱いできません"):
         if ng in body:
             return False, f"商品が終了している（{ng}）"
+    # 2026-11-16 本人「在庫切れや販売終了のリンクがいくつかある」。それまでは在庫を見ておらず、
+    # 楽天11件・Amazon14件の在庫切れを素通しにしていた。
+    # 楽天は売り切れでも上の文言を出さず、構造化データの availability だけが OutOfStock になる。
+    # (「売り切れました」という文字は、在庫がある商品のページにも隠れて入っているので使わない)
+    if "rakuten.co.jp" in url and re.search(r'itemprop="availability" content="[^"]*/OutOfStock"', body):
+        return False, "在庫切れ（楽天の在庫表示が OutOfStock）"
+    # Amazon は「現在在庫切れです」。カートのボタンがあれば、ほかの出品者の在庫で買えるので生きている扱い
+    if "amazon.co.jp" in url and "現在在庫切れです" in body and 'id="add-to-cart-button"' not in body:
+        return False, "在庫切れ（Amazon「現在在庫切れです」）"
     return True, f"HTTP {code}"
 
 
