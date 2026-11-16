@@ -56,6 +56,20 @@ sources:
   - title: Soulart(公式サイト)
     url: https://soul.art/
     publisher: Soulart Corp
+modified: 2026-11-17
+videos_after:
+  - id: FqluS7kee2o
+    title: "Full Body Tracking Without Trackers is ACTUALLY Good? | Soulart Overview"
+    channel: "Jacobfov"
+    published: 2026-11-06
+    added: 2026-11-17
+    note: "Soulart Stationの実機でのトラッキング確認（英語）"
+  - id: Z4gMQ-1JItY
+    title: "A new markerless FBT solution?! Testing Soulart Station for Karaoke!【3D Karaoke】"
+    channel: "Tokaku~ん Ch.【SVP】"
+    published: 2026-09-12
+    added: 2026-11-17
+    note: "Soulart Stationをカラオケ用途で試した動画（日本語）"
 ---
 
 **まだ製品ではない。** 韓国のスタートアップSoulartが、体にマーカーやセンサーを一切付けずに全身の動きを追跡できる「Soulart Station」をKickstarterで公開した。現在も資金調達中で、目標額30万ドルに対し掲載時点で47万4,451ドル(158%)を集め、支援者は371人。出荷は2027年6月を予定しているが、クラウドファンディングである以上、遅延や仕様変更は起こり得る。

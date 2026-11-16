@@ -53,6 +53,14 @@ sources:
   - title: "The World's First Desktop Robotics Terminal by CyboPal"
     url: https://www.kickstarter.com/projects/cybopal/cybopal-worlds-first-active-tracking-ai-robotic-monitor
     publisher: Kickstarter(公式ウィジェットの集計値を確認)
+modified: 2026-11-17
+videos_after:
+  - id: ZGMquhd6PpU
+    title: "CyboPal One Hands-On: The Ultimate Desk Automation Tool?"
+    channel: "TechFinitive"
+    published: 2026-09-07
+    added: 2026-11-17
+    note: "CyboPal ONEの実機ハンズオン（英語）"
 ---
 
 **まだ製品ではない。** 香港のスタートアップCyboPalが、27インチ4Kディスプレイを6軸ロボットアームに載せた「デスクトップ・ロボティック・ターミナル」CyboPal ONEをKickstarterで公開した。9月22日の公開から間もなく、目標額の43倍を超える支援を集めている。

@@ -58,7 +58,7 @@ sources:
 - title: PixelMob Kickstarter
   url: https://www.kickstarter.com/projects/pixelmob/pixelmob-portable-ai-workstation-for-creators
   publisher: Kickstarter
-modified: 2026-11-03
+modified: 2026-11-17
 videos_after:
   - id: mLbqc6bdbtk
     title: "Why EVERY Photographer is going to WANT this! -  PIXELMOB"
@@ -66,6 +66,12 @@ videos_after:
     published: 2026-09-28
     added: 2026-11-03
     note: "個人の YouTuber による PixelMob の紹介動画（英語）"
+  - id: 8cGejF30GUQ
+    title: "Could this All-In-One Device replace your Laptop on Safari? Pixelmob Pro. "
+    channel: "Pangolin Wildlife Photography"
+    published: 2026-10-24
+    added: 2026-11-17
+    note: "PixelMob Proを実際に持ち出して使う動画（英語）"
 ---
 
 UnifyDriveが立ち上げた新ブランド「PixelMob」が、Kickstarterで支援を募っている。写真家や映像制作者向けの携帯型機器で、撮影現場でカードのデータをSSDへバックアップし、そのまま画面で確認・選別できる。Kickstarterの価格は、標準版499ドル、Pro版899ドル、Proスターターコンボ1,099ドル。**これはまだ製品ではなく、出資の段階だ。**

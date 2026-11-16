@@ -62,6 +62,20 @@ faq:
   a: 掲載時点で日本の販売元は確認できていません。Kickstarterの配送先は「一部の国のみ」と表示されており、日本が含まれるかはこちらでは確認できていません。
 - q: いつ届きますか
   a: Kickstarterのリターンのお届け予定は2026年12月です。募集は11月26日に終わります。
+modified: 2026-11-17
+videos_after:
+  - id: U5JLJzTVb8o
+    title: "This 5.48\" OLED display is breathtakingly beautiful - TRYX VESTRA VISION"
+    channel: "wabi sabi"
+    published: 2026-10-28
+    added: 2026-11-17
+    note: "個人のYouTuberによる実機の紹介（英語）"
+  - id: BM3UNpHRQVo
+    title: "TRYX VESTRA VISION - The Coolest Keyboard Of 2026"
+    channel: "NoodleNick"
+    published: 2026-11-04
+    added: 2026-11-17
+    note: "VESTRA VISIONの開封と音の確認を含む動画（英語）"
 ---
 
 TRYXが、スイッチの下にOLEDを置いた65%サイズの磁気キーボード「VESTRA VISION」をKickstarterで募集している。2026年11月3日時点で、支援額は119,360ドル、支援者は458人。目標額10,000ドルの約12倍で、募集は11月26日（日本時間23時ごろ）まで。
