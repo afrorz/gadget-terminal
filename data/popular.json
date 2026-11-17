@@ -1,27 +1,32 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 290,
-   "views": 290
+   "visits": 310,
+   "views": 310
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 50,
-   "views": 70
+   "visits": 60,
+   "views": 80
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
-   "visits": 50,
-   "views": 50
+   "visits": 60,
+   "views": 60
   },
   {
    "path": "/posts/home-small-robots-roundup.html",
    "visits": 50,
    "views": 50
+  },
+  {
+   "path": "/posts/fotorgear-campix-waist-level-camera.html",
+   "visits": 40,
+   "views": 40
   },
   {
    "path": "/posts/awol-luxvision-optical-shift-ust.html",
@@ -39,7 +44,7 @@
    "views": 30
   },
   {
-   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
    "visits": 20,
    "views": 20
   },
@@ -59,12 +64,17 @@
    "views": 20
   },
   {
-   "path": "/posts/fotorgear-campix-waist-level-camera.html",
+   "path": "/posts/cmf-speaker-s-m.html",
    "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/cmf-speaker-s-m.html",
+   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
+   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
    "visits": 20,
    "views": 20
   },
@@ -75,16 +85,6 @@
   },
   {
    "path": "/posts/onexplayer-super-x-pro.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
    "visits": 20,
    "views": 20
   },
