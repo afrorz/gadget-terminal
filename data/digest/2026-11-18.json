@@ -1,0 +1,878 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T06:31:42.792480+09:00",
+  "stats": {
+    "fetched": 733,
+    "unique": 691,
+    "new": 424,
+    "clusters": 394,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "fd8ba401500315a1",
+      "title": "Xiaomi 18 Pro Max (Global) review",
+      "url": "https://www.gsmarena.com/xiaomi_18_pro_max-review-3013.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_18_pro_max-review-3013.php",
+      "summary": "",
+      "published": "2026-11-17T17:48:01+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 26,
+      "reasons": [
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh",
+        "+16 5媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Authority",
+        "Gizmochina",
+        "Notebookcheck (Smartphone)",
+        "Yanko Design"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Xiaomi-18-Pro-Max-Hands-On-Two-200-MPix-Cameras-two-displays-and-a-weak-privacy-filter.1451516.0.html",
+        "https://www.yankodesign.com/2026/11/17/xiaomi-18-pro-and-18-pro-max-review-flagships-like-no-other/?utm_source=rss&utm_medium=rss&utm_campaign=xiaomi-18-pro-and-18-pro-max-review-flagships-like-no-other",
+        "https://www.androidauthority.com/xiaomi-18-pro-series-global-launch-3735934/",
+        "https://www.gizmochina.com/2026/11/17/xiaomi-18-pro-and-xiaomi-18-pro-max-launch-global-rear-display-200mp-camera-specs-price/"
+      ]
+    },
+    {
+      "id": "82b226a8ac9db7ff",
+      "title": "Framework Launches Customizable Slim Wireless Touchpad Keyboard With Open-Source CAD Files",
+      "url": "https://www.techpowerup.com/354946/framework-launches-customizable-slim-wireless-touchpad-keyboard-with-open-source-cad-files",
+      "canonical": "https://www.techpowerup.com/354946/framework-launches-customizable-slim-wireless-touchpad-keyboard-with-open-source-cad-files",
+      "summary": "Framework, the pro-repair laptop company, has officially announced the Framework Wireless Touchpad Keyboard, a compact 75% chiclet keyboard designed for use with devices like the Framework Desktop and its laptops while they're docked in a workstation or couch gaming setup. The Wireless Touchpad Keyboard is currently on pre-order for $99 from Framework's online shop, and two batches have already so",
+      "published": "2026-11-17T21:03:07+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 26,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Framework（公式ブログ）"
+      ],
+      "related_urls": [
+        "https://frame.work/blog/pre-orders-open-for-framework-wireless-touchpad-keyboard"
+      ]
+    },
+    {
+      "title": "Makuake｜あなたを見つけて、話しかけてくる！おしゃべり上手なAIロボットPophie｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/pophie/",
+      "summary": "目を合わせて、あなたとおしゃべり！あなたに気づいて自然に話しかけ、交わした言葉をしっかり覚えるから、本当に仲良くなれる、家族のような存在――Pophie（ポフィー）。呼びかけなくても、Pophieから自然に話しかけてくれる。気配や視線を感じ取ると、Pophieからリアクション！何気ない瞬間から、笑顔になれる楽しい会話が自然と広がります。「気づく」から、本物の家族のように寄り添える。いつもより帰りが",
+      "image": "https://static.makuake.com/upload/project/54552/main_54552.png?version=1794891542&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "8b77a6e37c8dd8d6",
+      "canonical": "https://www.makuake.com/project/pophie",
+      "score": 24,
+      "reasons": [
+        "+6 makuake",
+        "+4 ロボット",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【運動中もAIフル稼働】135言語翻訳＆議事録自動化。スポーツAIサングラス｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/molipalm_ai_glasses/",
+      "summary": "【メガネのプロ×Bluetoothの父。5年の歳月をかけて誕生した究極のスマートグラス】「MOLIPALM」の物語は5年前、数々のメガネを手掛けてきたアイウェアのスペシャリスト・Cheng氏と、「Bluetoothの父」と称されるワイヤレス技術の権威・Huang氏の運命的な出会いから始まりました。専門分野の異なる二人が意気投合し、掲げた目標は「これまでのスマートアイウェアの常識を再定義",
+      "image": "https://static.makuake.com/upload/project/54368/main_54368.png?version=1794284741&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "ce091d41743858bd",
+      "canonical": "https://www.makuake.com/project/molipalm_ai_glasses",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 誕生",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜吸引×爆風！20KPaの強力吸引＆39m/sの風速で、洗車もお掃除もこれ1台！｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/supwell_duovac/",
+      "summary": "「吸う」は、おまけじゃない。吸引も爆風も、どちらも本格派！ダブル独立モーター搭載。エアダスターとハンディ掃除機が1台になった「DuoVac-X」誕生！これらの悩みを解決するため誕生したのが、ダブル独立モーター搭載の「DuoVac-X」！DuoVac-Xは、「エアダスター」と「ハンディ掃除機」を1台に集約した、デュアルモーター搭載の多機能クリーナーです。吸引には、吸引専用モーター。送風には、送風専用",
+      "image": "https://static.makuake.com/upload/project/54473/main_54473.jpg?version=1794452983&amp;width=690&amp;height=388",
+      "published": "2026-11-21T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "c241e5d25b0250ba",
+      "canonical": "https://www.makuake.com/project/supwell_duovac",
+      "score": 23,
+      "reasons": [
+        "+6 makuake",
+        "+3 誕生",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜撮る・聴く※・話すを1台で叶える！AI翻訳やメモ機能搭載。超軽量 スマートグラス｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/pd24-54442-v06/",
+      "summary": "※リターン品の配送が完了するまで、VIBRANT合同会社はSHENZHEN MLIB AGE TECHNOLOGY CO., LTD.の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。V06とは、目の前の瞬間をハンズフリーで残すスマートスポーツカメラグラス目線に近い映像を、スマホを取り出さずハンズフリーで記録。日常からスポーツ、旅行まで",
+      "image": "https://static.makuake.com/upload/project/54199/main_54199.png?version=1792977369&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "255dfc87221403c1",
+      "canonical": "https://www.makuake.com/project/pd24-54442-v06",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜幅44cm・3段階の角度調整PCスタンド搭載。マウスもスマホも置ける天然木デスク｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/drive_desk/",
+      "summary": "天板には、3段階で角度を変えられるPCスタンドを搭載。スタンドピースの位置を変えるだけで、PCの角度を 33°・38°・42° に調整できます。13インチPCなら、画面上部の高さが 最大約3cm 変化。16インチの PC でも置ける幅44cmの大型天板。（※写真は14インチのノートPC）メールの返信や資料作成など、作業に合わせて見やすい角度を選べます。天板には、美しい木目が",
+      "image": "https://static.makuake.com/upload/project/54441/main_54441.png?version=1794286911&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "bd71a1a298c5cf14",
+      "canonical": "https://www.makuake.com/project/drive_desk",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜カードも、スタンドも。持ち物をシンプルにするカードウォレットMagBase｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/magbase-hyodo/",
+      "summary": "リターン品の配送が完了するまで、CROSSVIAはBLOC INT CO., LIMITEDの日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク&チャレンジをご確認ください。※スマートフォンの操作を行う際には、必ず安全な場所に停止してから操作するようお願い致します。海外の「便利」「カッコいい」を、毎日の暮らしへ。はじめまして。CROSSVIA代表の田中です。大阪を拠点",
+      "image": "https://static.makuake.com/upload/project/54431/main_54431.jpg?version=1794225244&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "c4a264f03315e6dc",
+      "canonical": "https://www.makuake.com/project/magbase-hyodo",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜ポケットにクリップで取り付ける。財布の持ち方を変える、新しいスタイル。｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/whatpocketdaily/",
+      "summary": "リターン品の配送が完了するまで、LIBERO INTERNATIONALは「 What Pocket Daily」の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。独自のクリップでポケットに取り付ける、新しい財布のスタイル。伸縮性のあるストラップで、財布を取り付けたままスムーズに出し入れできます。落下や紛失のリスクにも配慮した、毎日の使",
+      "image": "https://static.makuake.com/upload/project/54418/main_54418.png?version=1794194825&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "b9d5b4f75e3c8e71",
+      "canonical": "https://www.makuake.com/project/whatpocketdaily",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜元浅草の職人が一本ずつ鼓動を宿す、光で表情を変える文字板とオープンハート自動巻き｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/sunflame-wu/",
+      "summary": "株式会社サン・フレイムは、東京・台東区を拠点に、創業42年の歴史を持つウォッチメーカーです。私たちのものづくりの原点は、企業理念でもある「GOYOTASHI PRIDE（御用達プライド）」。お客様一人ひとりに寄り添い、確かな品質とサービスをお届けすることを何よりも大切にしています。日本の時計づくりと向き合い続けてきた私たちには、「時計を愛する方々に、本物の品質を手の届く価格でお届けしたい」という強",
+      "image": "https://static.makuake.com/upload/project/54456/main_54456.jpg?version=1794394830&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "fefd4d7aff8b8c1f",
+      "canonical": "https://www.makuake.com/project/sunflame-wu",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜痛くない、傷つかない、静か。つけっぱなしにできる、やわらか素材のスマホストラップ｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/strapper_air_finger/",
+      "summary": "スマホのストラップって外したくなっちゃう…そんな、すべての方に。｜01｜やわらかいから痛くないずっと触っていたい質感。ほどよい強度と弾力のあるシリコン製です。手になじむフィット感。ながらスマホに最適スマホの持ち方によっては、金属製ストラップでは指が痛くなることも。「ストラッパーエア」は、やわらか素材の一体型で、かたい接続パーツもないので指のラインに自然にフィット。痛くなりません。｜0",
+      "image": "https://static.makuake.com/upload/project/54525/main_54525.png?version=1794801636&amp;width=690&amp;height=388",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "bb0e796998129c53",
+      "canonical": "https://www.makuake.com/project/strapper_air_finger",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "985177c6de22d5c4",
+      "title": "Jensen Huang: \"I Would Be Honored to Return as CEO\"",
+      "url": "https://www.techpowerup.com/354947/jensen-huang-i-would-be-honored-to-return-as-ceo",
+      "canonical": "https://www.techpowerup.com/354947/jensen-huang-i-would-be-honored-to-return-as-ceo",
+      "summary": "Jensen Huang took to X today to declare that he is willing to return as NVIDIA CEO if the company's board wants him back. In his statement, the former NVIDIA CEO thanked all his supporters and claimed that many employees, investors, business partners, and customers had reached out to him, asking him to come back. That part of the statement also seems like an indirect acknowledgment of the various ",
+      "published": "2026-11-17T17:21:34+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "-3 ceo",
+        "+3 tier1",
+        "+3 fresh",
+        "+16 5媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "Notebookcheck (Smartphone)",
+        "Tom's Hardware",
+        "XDA Developers"
+      ],
+      "related_urls": [
+        "https://www.xda-developers.com/jensen-huang-says-hed-be-honored-to-come-back-as-nvidias-ceo-board-not-interested/",
+        "https://www.notebookcheck.net/Jensen-Huang-breaks-silence-says-he-is-willing-to-return-as-Nvidia-CEO.1452794.0.html",
+        "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo-first-statement-since-resignation-follows-support-from-billionaires-investors-and-some-employees",
+        "https://9to5mac.com/2026/11/17/jensen-huang-says-hes-ready-to-rejoin-nvidia-as-ceo-if-asked/"
+      ]
+    },
+    {
+      "id": "1b493be66129b417",
+      "title": "Over 200,000 apps are now optimized for the iPhone Duo",
+      "url": "https://www.gsmarena.com/over_200000_apps_are_now_optimized_for_the_iphone_duo-news-75506.php",
+      "canonical": "https://www.gsmarena.com/over_200000_apps_are_now_optimized_for_the_iphone_duo-news-75506.php",
+      "summary": "One of the complaints following the iPhone Duo's launch was the lack of apps optimized for its wide inner display and user interface. Apple announced on November 6 that over 100,000 apps supported the foldable. Now, that figure has doubled in just 10 days. Apple's senior vice president of Worldwide Marketing, Greg Joswiak, announced in a post on X that the App Store now has over 200,000 apps optim",
+      "published": "2026-11-17T20:31:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/11/17/apple-store-app-now-optimized-for-iphone-duo/"
+      ]
+    },
+    {
+      "id": "177845103cf4dfb6",
+      "title": "(PR) NVIDIA Establishes National Security and Export Control Oversight Committee",
+      "url": "https://www.techpowerup.com/354939/nvidia-establishes-national-security-and-export-control-oversight-committee",
+      "canonical": "https://www.techpowerup.com/354939/nvidia-establishes-national-security-and-export-control-oversight-committee",
+      "summary": "NVIDIA (NASDAQ: NVDA) today announced that the Board of Directors has established the National Security and Export Control Oversight Committee, a new standing committee responsible for board-level oversight of the company's national security policies, export control compliance and global trade risk management. NVIDIA's existing National Security Team and Global Trade Compliance Team will report di",
+      "published": "2026-11-17T13:55:33+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Tom's Hardware",
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/jensen-huangs-shock-exit-from-nvidia-is-followed-by-a-new-national-security-committee-to-oversee-the-chip-giants-export-compliance/",
+        "https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts"
+      ]
+    },
+    {
+      "id": "18db059a5e1f39be",
+      "title": "Sharp unveils the light and thin Aquos sense11 with a 3,000-nit OLED screen",
+      "url": "https://www.gsmarena.com/sharp_unveils_the_light_and_thin_aquos_sense11_with_a_3000nit_oled_screen-news-75507.php",
+      "canonical": "https://www.gsmarena.com/sharp_unveils_the_light_and_thin_aquos_sense11_with_a_3000nit_oled_screen-news-75507.php",
+      "summary": "Sharp has announced the Aquos sense11, the latest in its line of mid-range phones for Japan. It's a light and thin device, weighing 157g and measuring 7.6mm in thickness, yet it packs a 5,000 mAh battery, which Sharp says is enough for about two days if you use your phone for 10 hours each day. The Aquos sense11 has a 6.2-inch Pro IGZO OLED screen with 1080x2340 resolution, a variable refresh rate",
+      "published": "2026-11-17T18:51:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 announced",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "8b966c44c49f8f44",
+      "title": "PCs with NVIDIA RTX Spark ship this month, Asus unveils the NUC 14 Essential Fanless mini PC, and Samsung launches Galaxy Tab S12 series : Liliputing News Roundup",
+      "url": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/the-first-pcs-with-nvidia-rtx-spark-ship-this-month-asus-unveils-the-nuc-14-essential-fanless-mini-pc-and-samsung-launches-galaxy-tab-s12-series-liliputing-news-roundup",
+      "summary": "The Microsoft Surface Laptop Ultra goes up for pre-order today for $2599 and up and ships Oct 16 • The Microsoft Surface RTX Spark Dev Box mini PC with NVIDIA RTX Spark starts at $5999, but it ships standard with a 20-core RTX Spark N1X chip with a 6144-core Blackwell RTX GPU and 128GB unified LPDDR5x memory. blogs.windows.com/devices/2026 • The new Asus NUC 14 Essential Fanless is a mini PC with ",
+      "published": "2026-10-07T18:45:21+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 ships",
+        "+4 mini pc",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f1f93366cacb7d1c",
+      "title": "Huawei Watch Air leaks, 6.9mm titanium body, five-day battery",
+      "url": "https://www.gizmochina.com/2026/11/17/huawei-watch-air-leaks-thin-titanium-design/",
+      "canonical": "https://www.gizmochina.com/2026/11/17/huawei-watch-air-leaks-thin-titanium-design",
+      "summary": "Huawei has kept its wearable lineup moving this year, launching the Watch 6 as a light everyday smartwatch and sending the Watch GT 7 Pro out as a longer-lasting sports model, with the Watch D3 covering blood pressure tracking. A new leak now points to another watch in that family, this time with a name [&#8230;] The post Huawei Watch Air leaks, 6.9mm titanium body, five-day battery appeared first",
+      "published": "2026-11-17T12:03:27+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena"
+      ],
+      "related_urls": [
+        "https://www.gsmarena.com/huawei_watch_air_leaks_with_impressively_thin_design-news-75504.php"
+      ]
+    },
+    {
+      "id": "0298db17395e7832",
+      "title": "(PR) Shure Launches MV360 and Previews MV360+ Spatial Audio Microphones",
+      "url": "https://www.techpowerup.com/354950/shure-launches-mv360-and-previews-mv360-spatial-audio-microphones",
+      "canonical": "https://www.techpowerup.com/354950/shure-launches-mv360-and-previews-mv360-spatial-audio-microphones",
+      "summary": "Shure today announced the MV360 Spatial Audio Microphone, a $349 USB-C microphone that makes immersive audio capture accessible to creators at every level. Available now, MV360 offers 360° spatial audio capture and four additional ready-to-use Capture Modes: immersive binaural, stereo, mono, and auto tracking. The MV360 helps creators capture more than sound. It captures a sense of place. Listener",
+      "published": "2026-11-17T17:45:31+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+4 review",
+        "+3 announced",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "70993fdccce8c693",
+      "title": "vivo V80 Hands-on Review: A Mid-ranger with a Premium Feel￼",
+      "url": "https://www.gizmochina.com/2026/11/17/vivo-v80-hands-on-review-a-mid-ranger-with-a-premium-feel%ef%bf%bc/",
+      "canonical": "https://www.gizmochina.com/2026/11/17/vivo-v80-hands-on-review-a-mid-ranger-with-a-premium-feel%ef%bf%bc",
+      "summary": "If you&#8217;re familiar with the vivo V series, you&#8217;ll probably know what it has always been about: better design, selfies, portrait photography, and an improved everyday user experience. That philosophy remains unchanged with the V80. A 7200mAh battery, a 144Hz display, a ZEISS telephoto camera, and the all-new OriginOS 7 all promise to take its [&#8230;] The post vivo V80 Hands-on Review:",
+      "published": "2026-11-17T09:58:44+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5fb0ceedcadb257d",
+      "title": "Xiaomi Watch S5 41mm, Xiaomi Clip buds and Xiaomi Smart Band 11 NFC go global",
+      "url": "https://www.gsmarena.com/xiaomi_watch_s5_41mm_xiaomi_clip_buds_and_xiaomi_smart_band_11_nfc_go_global-news-75491.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_watch_s5_41mm_xiaomi_clip_buds_and_xiaomi_smart_band_11_nfc_go_global-news-75491.php",
+      "summary": "It’s never just one thing with Xiaomi – the company just announced the global rollout of its Xiaomi 18 Pro flagships and it is also bringing several accessories to the global market. Xiaomi Watch S5 41mm The Xiaomi Watch S5 41mm previously launched in China. It is a smaller version of the Watch S5 46mm and a successor to the Watch S4 41mm. Xiaomi Watch S5 41mm Ceramic White The new model is a hair",
+      "published": "2026-11-17T15:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7efcadc0bc8a1b02",
+      "title": "Casio launches stunning translucent purple G-Shock inspired by Louisiana oyster shells",
+      "url": "https://www.gizmochina.com/2026/11/17/casio-g-shock-sneaker-politics-dw6900sp26-6-lauched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/17/casio-g-shock-sneaker-politics-dw6900sp26-6-lauched-specs-price",
+      "summary": "Casio has announced the DW6900SP26-6, a new G-Shock watch created in collaboration with the US streetwear and sneaker retailer Sneaker Politics. Priced at $180, the watch is currently listed on Casio’s US website and is expected to be available for purchase later this month. Casio DW6900SP26-6 Specifications Also Read G-Shock Buying Guide 2026: How to [&#8230;] The post Casio launches stunning tra",
+      "published": "2026-11-17T20:22:12+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dab4a6792590d02c",
+      "title": "No PC release needed: Steam Deck owners are getting ready for GTA 6",
+      "url": "https://www.notebookcheck.net/No-PC-release-needed-Steam-Deck-owners-are-getting-ready-for-GTA-6.1452600.0.html",
+      "canonical": "https://www.notebookcheck.net/No-PC-release-needed-Steam-Deck-owners-are-getting-ready-for-GTA-6.1452600.0.html",
+      "summary": "GTA 6 may be launching exclusively on consoles at first, but Steam Deck owners already have a plan to bring Rockstar's highly anticipated game to their handhelds anyway.",
+      "published": "2026-11-17T12:36:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+4 handheld",
+        "+3 steam deck",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "193643aab8317163",
+      "title": "AWOL Vision Aetherion Plus 4K Google TV laser projector arrives with Dolby Vision, 2,400 lumens, and features for gamers",
+      "url": "https://www.notebookcheck.net/AWOL-Vision-Aetherion-Plus-4K-Google-TV-laser-projector-arrives-with-Dolby-Vision-2-400-lumens-and-features-for-gamers.1452814.0.html",
+      "canonical": "https://www.notebookcheck.net/AWOL-Vision-Aetherion-Plus-4K-Google-TV-laser-projector-arrives-with-Dolby-Vision-2-400-lumens-and-features-for-gamers.1452814.0.html",
+      "summary": "The AWOL Vision Aetherion Plus 4K Google TV laser projector has launched in Japan with Dolby Vision and 90-watt Dolby Atmos speakers. Its triple RGB lasers create images up to 200-inches in size with up to 2,400 ISO lumens of brightness.",
+      "published": "2026-11-17T20:13:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 projector",
+        "+4 japan",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c9b81beaef81878f",
+      "title": "Huawei OSTA O1 Pro pre-orders begin, wide-screen design, color options, memory configs revealed",
+      "url": "https://www.gizmochina.com/2026/11/17/huawei-osta-o1-pro-pre-order-vmall-three-colors/",
+      "canonical": "https://www.gizmochina.com/2026/11/17/huawei-osta-o1-pro-pre-order-vmall-three-colors",
+      "summary": "Yesterday, Huawei confirmed that November 24 will see the arrival of the Mate X8 foldable phone in China. Now the brand has taken the covers off the OSTA O1 Pro, which is available for pre-order through the company&#8217;s online store, Vmall. For those unaware, OSTA is Huawei&#8217;s new sub-brand, known in China as Xingmang, and [&#8230;] The post Huawei OSTA O1 Pro pre-orders begin, wide-screen",
+      "published": "2026-11-17T04:17:31+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 pre-order",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4a3ae7afe9c6a2de",
+      "title": "The Best Budget Casio Watches You Can Buy in 2026 Under $100",
+      "url": "https://www.gizmochina.com/2026/11/17/best-budget-casio-watches-launched-in-2026-under-100-dollar/",
+      "canonical": "https://www.gizmochina.com/2026/11/17/best-budget-casio-watches-launched-in-2026-under-100-dollar",
+      "summary": "It’s 2026, and our wrists are more crowded than ever. Between ultra-premium smartwatches demanding daily charges and fitness trackers buzzing with every notification, the simple joy of just wearing a watch can feel like a lost art. But if there’s one company that consistently understands the assignment, it’s Casio. This year, the Japanese watchmaker has [&#8230;] The post The Best Budget Casio Wat",
+      "published": "2026-11-17T06:43:44+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 smartwatch",
+        "+4 japan",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bf18597c824123d2",
+      "title": "iPhone Duo gets face unlock feature in latest iOS 27.3 beta",
+      "url": "https://www.gsmarena.com/iphone_duo_gets_face_unlock_feature_in_latest_ios_273_beta-news-75502.php",
+      "canonical": "https://www.gsmarena.com/iphone_duo_gets_face_unlock_feature_in_latest_ios_273_beta-news-75502.php",
+      "summary": "The second iOS 27.3 beta is now rolling out to developers, bringing several new features, including facial unlocking on the iPhone Duo. Notably, the first iOS 27.3 beta was released earlier this month. Apple has included a new “Unlock with Front Camera” option under Touch ID and Passcode in the Settings app. The feature lets users unlock the foldable using facial recognition when the device is fol",
+      "published": "2026-11-17T09:11:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/11/17/daily-november-17-2026/"
+      ]
+    },
+    {
+      "id": "93eb377bc4be3ac4",
+      "title": "Samsung may offer Galaxy S27 at lowest prices in this country",
+      "url": "https://www.sammobile.com/news/samsung-may-offer-galaxy-s27-lowest-prices-south-korea/",
+      "canonical": "https://www.sammobile.com/news/samsung-may-offer-galaxy-s27-lowest-prices-south-korea",
+      "summary": "Samsung launched its latest foldable smartphones, the Galaxy Z Fold 8 series and Galaxy Z Flip 8, at higher prices than their predecessors in most markets. South Korea, however, was an exception, with the brand continuing to offer the devices at the lowest prices globally in its home country. Now, it looks like the company [ ]",
+      "published": "2026-11-17T10:06:05+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0700d2c018fa3f79",
+      "title": "PlayStation 5 Security Researcher Claims To Have Dumped Game Binary On GTA 6 Required Firmware, Yet Sony Stays One Step Ahead With New Firmware Update",
+      "url": "https://wccftech.com/playstation-5-gta-6-dumped-firmware-new-update/",
+      "canonical": "https://wccftech.com/playstation-5-gta-6-dumped-firmware-new-update",
+      "summary": "In the past few weeks, Sony and PlayStation 5 jailbreakers have been locked in a firmware war, which has forced the Japanese company to release multiple minor firmware updates to prevent users from dumping Grand Theft Auto VI and emulating it or porting it to PC ahead of its inevitable official release. And in the final days before the launch of the game, this war has only intensified. \"Guess I am",
+      "published": "2026-11-17T11:00:32+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 japan",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5b32c92039c99445",
+      "title": "New leak offers a first look at the iPhone 20 Pro's front glass",
+      "url": "https://www.gsmarena.com/new_leak_offers_a_first_look_at_the_iphone_20_pros_front_glass-news-75503.php",
+      "canonical": "https://www.gsmarena.com/new_leak_offers_a_first_look_at_the_iphone_20_pros_front_glass-news-75503.php",
+      "summary": "A new leak has surfaced online, offering an alleged first look at the front glass of Apple's 20th-anniversary iPhones, expected to launch next year. The iPhone 20 Pro lineup is rumored to feature quad-curved displays with very slim bezels. Well-known tipster Ice Universe shared a video on social media showing the alleged front cover glass of the iPhone 20 Pro. The Apple iPhone 20 Pro is going to f",
+      "published": "2026-11-17T13:26:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 first look",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e57759b62fc7fdcf",
+      "title": "Xiaomi's unusual open-ear earbuds make their way to Europe",
+      "url": "https://www.notebookcheck.net/Xiaomi-s-unusual-open-ear-earbuds-make-their-way-to-Europe.1452346.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-s-unusual-open-ear-earbuds-make-their-way-to-Europe.1452346.0.html",
+      "summary": "Xiaomi's official specifications reveal that the Clip earbuds' advertised 38-hour battery life drops to just 25 hours when LHDC 5.0 high-resolution audio is enabled. The open-ear earbuds also feature Apple Find My support, 11 mm dynamic drivers, and a European starting price of €149.99.",
+      "published": "2026-11-17T14:30:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 official",
+        "+3 price",
+        "+3 earbuds",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "Aikido Security、Japan Cloudと提携し日本市場に本格参入",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194415.html",
+      "summary": "[Aikido Security株式会社] 脆弱性を発見・修正する統合セキュリティプラットフォームを提供するAikido Security（アイキドウセキュリティ、本社：ベルギー・ゲント、CEO：Willem Delbare）は、ジャパン・クラウド・コンピューティング株式...",
+      "published": "2026-11-17T21:10:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "fe10537489129f46"
+    },
+    {
+      "title": "【フォナック補聴器】リアルタイムAIがさらに進化した「フォナック オーデオ EON スフィア」を新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000000029.000118181.html",
+      "summary": "[ソノヴァ・ジャパン株式会社] 聴覚機器及びワイヤレス通信機器の世界的リーディングカンパニーとして躍進を続けるソノヴァ社（グループ本社・スイス連邦）の日本法人ソノヴァ・ジャパン株式会社（本社：東京都品川区、代表取締役社長：眞鍋 幸...",
+      "published": "2026-11-17T15:40:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "ff65086015374b16"
+    },
+    {
+      "title": "「ハロー、背中のひらめき。」日本初の革新的で多機能な背面ディスプレイに加え、ライカ共同開発のデュアル2億画素カメラを搭載した「Xiaomi 18 Pro Series」を発表",
+      "url": "https://prtimes.jp/main/html/rd/p/000000262.000098799.html",
+      "summary": "",
+      "published": "2026-11-17T13:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "1b9aac5e7ca59d9b"
+    },
+    {
+      "title": "【公開30分で400万円突破】上から覗いて、巻き上げる。フィルムの楽しさを再現したデジカメ「Campix」がMakuakeに登場！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000014.000171296.html",
+      "summary": "[NA株式会社] YMTREND株式会社は、カメラアクセサリーブランド「Fotorgear（フォトギア）」が開発したレトロデジタルカメラ「Campix（キャンピックス）」の先行販売を、2026年11月17日（火）11:00より、応援購入サービス「Maku...",
+      "published": "2026-11-17T08:15:20+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "873927e9ee257edf"
+    },
+    {
+      "title": "【北海道・札幌市】『Road to SBI MUSIC CIRCUS HOKKAIDO』 アーティストラインナップ発表、チケット発売開始のお知らせ",
+      "url": "https://prtimes.jp/main/html/rd/p/000000111.000147733.html",
+      "summary": "",
+      "published": "2026-11-17T08:01:22+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "eff87dc3fdb846a3"
+    },
+    {
+      "title": "トレーディングマスコット『ZIYULI（ユーリー）』ぬいぐるみタイプの第8弾『Magic Tailor Shop』を11月下旬より発売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000260.000091783.html",
+      "summary": "",
+      "published": "2026-11-17T07:38:19+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "1f673c73519c5e88"
+    },
+    {
+      "title": "【2026 A/W新作バッグ】HAYNIの姉妹ブランド「MAISON HAYNI」から、しなやかな本革が美しいボストンバッグが新発売！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000277.000099393.html",
+      "summary": "",
+      "published": "2026-11-17T07:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "68958c003d46a19b"
+    },
+    {
+      "title": "生成AI・AIエージェント向けセキュリティ「Aurascape」が日本初上陸、ネクストモードが日本初の正規販売代理店に認定",
+      "url": "https://prtimes.jp/main/html/rd/p/000000040.000078770.html",
+      "summary": "",
+      "published": "2026-11-17T05:00:13+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "48e546a1b73b3102"
+    },
+    {
+      "title": "mineo、新端末「AQUOS sense11」「motorola edge 70 fusion」を11月26日に販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000305.000051725.html",
+      "summary": "",
+      "published": "2026-11-17T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "6e2adf6d32a753cc"
+    },
+    {
+      "title": "家がゲームセンターに！デュアルカメラとPCアプリで実現する、BB弾不要の本格TVシューティングゲームがMakuakeに登場",
+      "url": "https://prtimes.jp/main/html/rd/p/000000131.000114048.html",
+      "summary": "",
+      "published": "2026-11-17T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "689dc2e334348b59"
+    },
+    {
+      "title": "AWOL Visionの超短焦点4Kプロジェクター「Aetherion」シリーズ、Makuakeで同カテゴリー歴代最高位を達成、11月17日より一般販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000032.000168708.html",
+      "summary": "",
+      "published": "2026-11-17T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "af13dd8946699ceb"
+    },
+    {
+      "title": "ホリデーシーズンを彩る『WINTER DELIGHT, WINTER WONDER（ウィンターディライト ウィンターワンダー）』11月18日（水）より、ACCA全店舗＆オンラインストアで順次販売開始。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000012.000132757.html",
+      "summary": "",
+      "published": "2026-11-17T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "24c338d60621a8ca"
+    },
+    {
+      "title": "CSE、日本企業に最適化された進化系EASMプラットフォーム「RiskSensor（リスクセンサー）」を2026年11月17日より販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000021.000034458.html",
+      "summary": "",
+      "published": "2026-11-17T01:40:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "8b3a9193322f64f9"
+    }
+  ]
+}
