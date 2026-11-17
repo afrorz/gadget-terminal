@@ -29,6 +29,15 @@ images:
 - url: "https://images.frame.work/frameworkmarketplace/virsvEBHQ8RHNfH2_fw-wireless-keyboard_family_overview_hero.jpg"
   caption: 居間のテーブルで、テレビ画面を前にゲームパッドと並べて使う想定のイメージ
 credit: Framework 公式ストア・公式コミュニティ
+clips:
+- file: framework-wireless-touchpad-keyboard/touchpad.mp4
+  caption: "右側にタッチパッド（物理ボタンなし）"
+  credit: "Framework公式 YouTube"
+  source: "https://www.youtube.com/watch?v=qUsU5KxT4Vs"
+- file: framework-wireless-touchpad-keyboard/battery.mp4
+  caption: "電池は交換できる（1,200mAh）"
+  credit: "Framework公式 YouTube"
+  source: "https://www.youtube.com/watch?v=qUsU5KxT4Vs"
 sources:
 - title: Framework Launches Customizable Slim Wireless Touchpad Keyboard With Open-Source CAD Files
   url: https://www.techpowerup.com/354946/framework-launches-customizable-slim-wireless-touchpad-keyboard-with-open-source-cad-files

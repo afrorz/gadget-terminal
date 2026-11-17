@@ -27,6 +27,11 @@ images:
 - url: "https://shure.widen.net/content/sogbajbhia/jpeg/MV360_Binaural_MOTIV_Audio_App_UI_Phone_Screen.jpeg?w=1920&h=800&keep=c&crop=yes&color=ffffffff&quality=80&u=47vprh"
   caption: スマホのMOTIV Audioアプリの画面。バイノーラル・ステレオ・オート・モノのモード切り替えと、音の向きを示す表示が見える。手前左に、穴の開いた黒い金属筒のMV360本体
 credit: Shure 公式製品ページ
+clips:
+- file: shure-mv360-spatial-audio-microphone/asmr.mp4
+  caption: "聞いた向きのまま録れる（バイノーラル録音）"
+  credit: "Shure公式 YouTube"
+  source: "https://www.youtube.com/watch?v=bwfRNQVuEZQ"
 sources:
 - title: Shure Launches MV360 and Previews MV360+ Spatial Audio Microphones
   url: https://www.techpowerup.com/354950/shure-launches-mv360-and-previews-mv360-spatial-audio-microphones
