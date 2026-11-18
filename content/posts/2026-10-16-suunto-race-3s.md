@@ -1,7 +1,7 @@
 ---
 title: Suunto Race 3Sは599ドル、先代Race Sの349ドルから大幅値上げ。チタンベゼルとサファイアガラスで56g、GPSは最大45時間
 slug: suunto-race-3s
-seo_title: Suunto Race 3Sは599ドル、国内の価格は？
+seo_title: Suunto Race 3Sは国内8万5,800円、10月29日発売
 x_hook: |
   腕時計なのに、ストレージは64GB。
   Suuntoの新ウォッチ「Race 3S」。チタンベゼルとサファイアガラスで、重さは56g。
@@ -23,6 +23,14 @@ giteki:
   checked: 2026-10-16
   radio: ""
   note: 型番が未公表で総務省DBで特定できない
+japan:
+  status: 発売済み
+  checked: 2026-11-19
+  summary: SUUNTO Japan株式会社が10月29日に国内で発売した。価格は税込8万5,800円で、カラーはTitanium Orchid・Titanium Feather・Titanium Black。販売はSuunto Japan公式オンラインストア、楽天市場のSuunto公式ショップ、Amazon.co.jpなど。記事公開時点(10月16日)では国内価格と発売日を確認できていなかったが、その後に国内発表があった。技適は、総務省の技適データベースでSuunto Oyの腕時計型機器の登録を引いたものの、Race 3Sの型番を特定できておらず、番号は確認できていない。国内正規品として売られているため、技適の表示が付いた版が流通していると考えられる。
+  x_hook: チタンベゼルとサファイアガラスで56gのGPSウォッチ「Suunto Race 3S」が、国内で10月29日に発売された。SUUNTO Japanの価格は税込8万5,800円。
+  source:
+    title: 対話型AIコーチに対応したコンパクトな本格GPSウォッチ「Suunto Race 3S」を発表(SUUNTO Japan プレスリリース)
+    url: https://www.oricon.co.jp/pressrelease/3048595/
 images:
 - url: "https://www.suunto.com/globalassets/product-pages/suunto-race-3s/black/race-3s-titanium-black-front-view.png"
   caption: Race 3S Titanium Blackの正面。黒いベゼルと黒いシリコンバンドで、画面にはオレンジ色の大きな時刻表示
@@ -43,11 +51,11 @@ alternatives:
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/supersportsxebio/cabinet/1/9310102_50/8885749_m.jpg?_ex=400x400"
 faq:
 - q: Suunto Race 3Sはいくらですか
-  a: 海外では599ドル／499ユーロです。先代Race Sは349ドル／349ユーロでした。国内価格は掲載時点で確認できていません。
+  a: 海外では599ドル／499ユーロです。先代Race Sは349ドル／349ユーロでした。国内では10月29日に税込8万5,800円で発売されました(SUUNTO Japan発表)。
 - q: 日本で買えますか
-  a: SuuntoはSuunto Japanとして日本語の公式サイトを持ち、国内で製品を販売しています。ただしRace 3Sの国内発売日と価格は、掲載時点で確認できていません。
+  a: SuuntoはSuunto Japanとして日本語の公式サイトを持ち、国内で製品を販売しています。Race 3Sは10月29日に国内発売され、税込8万5,800円です。公開時点では国内の発売日と価格を確認できていませんでした。
 - q: 技適は取得していますか
-  a: 掲載時点で型番が分からず、総務省の技適データベースでは特定できていません。国内で正規に発売される場合は、国内版に技適の表示が付くはずです。
+  a: 掲載時点で型番が分からず、総務省の技適データベースでは特定できていません。その後国内で正規発売されましたが、型番を特定できておらず、技適番号は確認できていません。
 - q: 電池はどれくらい持ちますか
   a: 公式値はGPS使用時でデュアルバンド38時間、シングルバンド45時間、スマートウォッチとして12日です。DC Rainmakerの検証では、GPSを毎日60〜90分使い常時表示にして約5日でした。
 ---
