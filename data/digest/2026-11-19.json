@@ -1,0 +1,849 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T06:32:05.501230+09:00",
+  "stats": {
+    "fetched": 728,
+    "unique": 686,
+    "new": 412,
+    "clusters": 388,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "2c210e6f2e810434",
+      "title": "Xiaomi Smart Band 11 Unibody Edition unboxing and hands-on review",
+      "url": "https://www.gsmarena.com/xiaomi_smart_band_11_unibody_edition_in_for_review-news-75523.php",
+      "canonical": "https://www.gsmarena.com/xiaomi_smart_band_11_unibody_edition_in_for_review-news-75523.php",
+      "summary": "Xiaomi's latest smart wearable is now global and on sale for €60 (€90 for the NFC-enabled Ceramic Edition). We have the Unibody Edition in for review, and it's a bit more expensive than the regular model at €85. The Smart Band 11 ships with a fluororubber strap and a two-pin magnetic charger, ending in a USB-A port. The Unibody Edition takes nearly five times longer to make than the regular model,",
+      "published": "2026-11-18T13:14:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 22,
+      "reasons": [
+        "+5 hands-on",
+        "+4 review",
+        "+3 ships",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gadget Flow"
+      ],
+      "related_urls": [
+        "https://thegadgetflow.com/product/xiaomi-smart-band-11-fitness-tracker/"
+      ]
+    },
+    {
+      "title": "Makuake｜冬を快適に。【優れた撥水性×極上のぬくもり・保温性】ファー耳つきバケットハット｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/zero_international_207/",
+      "summary": "【寒い冬を快適にする】撥水＆ファー耳つきバケットハット優れた「撥水性」「極上のぬくもり」「超軽量」「保温性」といった高機能素材を採用した【新感覚の耳つきバケットハット】アウトドアからスポーツ、タウンユースまで「寒い冬・日常を快適にする」機能性を詰め込んだ極上の帽子を創ります。デザインについて1、耳つきバケットハットバケツをひっくり返したようなシルエット【バケットハット型】のデザインに落とし込み、イ",
+      "image": "https://static.makuake.com/upload/project/54460/main_54460.png?version=1794371222&amp;width=690&amp;height=388",
+      "published": "2026-11-21T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "381f48475beaec7f",
+      "canonical": "https://www.makuake.com/project/zero_international_207",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜サウナマットにも「自分らしさ」を。シマエナガ＆タコの軽量・日本製マット｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/sauna_no_ma/",
+      "summary": "2026年11月22日（日） Makuake プロジェクト開始 2026年12月27日（日） Makuake プロジェクト終了 2027年1月中旬 リターン順次発送予定 プロジェクト終了後、発送準備が整い次第、順次お届けいたします。Q．どのくらいの大きさのバッグに入れて持ち運ぶといいですか？A．B4用紙よりひと回り大きいサイズのバッグが目安です。横幅40cm以上の、マチのあるトートバッグやメッシュ",
+      "image": "https://static.makuake.com/upload/project/54250/main_54250.png?version=1793158170&amp;width=690&amp;height=388",
+      "published": "2026-11-22T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "10e97b6ae99b761a",
+      "canonical": "https://www.makuake.com/project/sauna_no_ma",
+      "score": 22,
+      "reasons": [
+        "+6 makuake",
+        "+2 軽量",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "46d6e3ca694e67fe",
+      "title": "(PR) ASUS Announces Availability of the ProArt GR1X",
+      "url": "https://www.techpowerup.com/354990/asus-announces-availability-of-the-proart-gr1x",
+      "canonical": "https://www.techpowerup.com/354990/asus-announces-availability-of-the-proart-gr1x",
+      "summary": "ASUS today announced the availability of the ProArt GR1X mini PC. Built on the NVIDIA RTX Spark superchip, ProArt GR1X is a Windows PC designed as an always-on home for local AI agents. It is able to run large models on-device, keep prompts and project files private, and work with the agent and creative tools people already use. ProArt GR1X can be specified with 128 GB and 64 GB of unified memory.",
+      "published": "2026-11-18T15:22:43+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 21,
+      "reasons": [
+        "+3 announced",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Hands-on-with-the-Asus-ProArt-GR1X-Mini-PC-with-Nvidia-RTX-Spark-N1X-and-128-GB-of-RAM.1453503.0.html",
+        "https://www.notebookcheck.net/MSI-undercuts-Asus-with-first-Nvidia-RTX-Spark-mini-PC-release.1453590.0.html",
+        "https://www.notebookcheck.net/Asus-releases-powerful-new-mini-PC-with-128-GB-RAM-and-Nvidia-RTX-Spark.1453517.0.html",
+        "https://www.ithome.com/1/029/073.htm"
+      ]
+    },
+    {
+      "title": "Makuake｜LEDケアと一緒にお出かけ～Optipal｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/hair-setter/",
+      "summary": "いま貴方の周りに「いつも身だしなみが整っていてパリッとしている人」っていますよね？いつも生き生きとしていて羨ましいです。そんな人は服装だけでなく髪の毛も整っていますし自宅での頭皮ケアも怠らないようです。しかし、ケアはなかなか続かないという方へ一言~「No problem！」Optipalが貴方のお手伝をいたします。ちりも積もればケアになる日々の生活において通勤時の駅までの道のり、お昼休み外出時のビ",
+      "image": "https://static.makuake.com/upload/project/54545/main_54545.png?version=1794883790&amp;width=690&amp;height=388",
+      "published": "2026-11-21T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "e1295d566bf83c8a",
+      "canonical": "https://www.makuake.com/project/hair-setter",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "title": "Makuake｜【緊急時の備えに】必要な光と脱出の備えを1台で。EDCデュアルライト「NT-2」｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/nt2/",
+      "summary": "※本プロジェクトは災害復興支援を目的としたプロジェクトのため、応援クーポンの利用はお控えください。リターン品の配送が完了するまで、弊社は「NT-2」の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。普段使うライトに、緊急時の備えをプラス。ガラスブレーカー単体でも、ライトに装着しても使える。NT-2は、着脱式ガラスブレーカーを搭載。対応す",
+      "image": "https://static.makuake.com/upload/project/54408/main_54408.png?version=1794813886&amp;width=690&amp;height=388",
+      "published": "2026-11-22T00:00:00+00:00",
+      "source_id": "makuake",
+      "source": "Makuake",
+      "category": "weird",
+      "tier": 1,
+      "kind": "crowdfunding",
+      "id": "8c9788f40d528d49",
+      "canonical": "https://www.makuake.com/project/nt2",
+      "score": 20,
+      "reasons": [
+        "+6 makuake",
+        "+8 クラファン発",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0a20842a0654c43a",
+      "title": "Flipper One – A Rockchip RK3576-powered portable Arm Linux computer and networking multi-tool (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/11/18/flipper-one-a-rockchip-rk3576-powered-portable-arm-linux-computer-and-networking-multi-tool/",
+      "canonical": "https://www.cnx-software.com/2026/11/18/flipper-one-a-rockchip-rk3576-powered-portable-arm-linux-computer-and-networking-multi-tool",
+      "summary": "Flipper Devices has launched the Flipper One open-source hardware portable Arm Linux platform and networking/Edge AI multi-tool powered by a Rockchip RK3576 octa-core Arm Cortex-A72/A53 SoC. It also features a Raspberry Pi RP2350 microcontroller for low-level control. You may think of it as a successor to the popular STM32-based Flipper Zero hardware and wireless hacking tool, but the company stre",
+      "published": "2026-11-18T03:00:05+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Adafruit Blog"
+      ],
+      "related_urls": [
+        "https://blog.adafruit.com/2026/11/18/flipper-one-a-portable-arm-linux-computer-and-networking-multi-tool/"
+      ]
+    },
+    {
+      "id": "3074efd3a01aac23",
+      "title": "(PR) Global OLED Monitor Shipments Double YoY in 3Q26",
+      "url": "https://www.techpowerup.com/354979/global-oled-monitor-shipments-double-yoy-in-3q26",
+      "canonical": "https://www.techpowerup.com/354979/global-oled-monitor-shipments-double-yoy-in-3q26",
+      "summary": "Global OLED monitor shipments maintained strong momentum in the third quarter of 2026, rising 13% QoQ and doubling compared with the same period in 2025, according to TrendForce's latest research. Growth was driven not only by continued product launches from major brands, which helped boost shipment volumes, but also by ample upstream panel supply. The latter has enabled second-tier and emerging b",
+      "published": "2026-11-18T09:35:59+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "Notebookcheck (Smartphone)",
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Samsung-loses-second-place-to-MSI-as-OLED-monitor-shipments-double-year-over-year.1453437.0.html",
+        "https://www.tomshardware.com/monitors/gaming-monitors/global-oled-monitor-shipments-doubled-year-over-year-in-q3-2026-gamers-turn-to-display-upgrades-as-technology-gets-cheaper-and-ai-squeezes-components"
+      ]
+    },
+    {
+      "id": "dbb76dd01373b86d",
+      "title": "Motorola Edge 70 Neo launching soon with 7,000 mAh and 5,200 nits in four Pantone colors",
+      "url": "https://www.notebookcheck.net/Motorola-Edge-70-Neo-launching-soon-with-7-000-mAh-and-5-200-nits-in-four-Pantone-colors.1453520.0.html",
+      "canonical": "https://www.notebookcheck.net/Motorola-Edge-70-Neo-launching-soon-with-7-000-mAh-and-5-200-nits-in-four-Pantone-colors.1453520.0.html",
+      "summary": "The most affordable model in the Motorola Edge 70 series will be officially unveiled in just a few days. Motorola is already showing off the Edge 70 Neo in four Pantone shades ahead of the launch and has confirmed some of its specs, from the 7,000 mAh battery to the 50 MP main camera.",
+      "published": "2026-11-18T14:59:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+3 specs",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bb4d7b08e61732c0",
+      "title": "Apple reveals its 2026 App Store Award finalists",
+      "url": "https://www.gsmarena.com/apple_reveals_its_2026_app_store_award_finalists-news-75529.php",
+      "canonical": "https://www.gsmarena.com/apple_reveals_its_2026_app_store_award_finalists-news-75529.php",
+      "summary": "Apple has just announced the finalists for this year's App Store Awards, with 45 apps and games from developers around the world in the running. The list spans iPhone, iPad, Mac, Apple Vision Pro, Apple Watch, Apple TV, and Apple Arcade, and there's also a Cultural Impact category. The winners will be revealed in the coming weeks. Starting with the iPhone, the App of the Year finalists are ElevenR",
+      "published": "2026-11-18T20:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 17,
+      "reasons": [
+        "+3 announced",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/11/18/apple-announces-2026-app-store-award-finalists/",
+        "https://www.ithome.com/1/029/094.htm"
+      ]
+    },
+    {
+      "id": "ef8be611ce2634dc",
+      "title": "Huawei Osta O1 Pro design and color options officially revealed",
+      "url": "https://www.gsmarena.com/huawei_osta_o1_pro_design_and_color_options_officially_revealed-news-75512.php",
+      "canonical": "https://www.gsmarena.com/huawei_osta_o1_pro_design_and_color_options_officially_revealed-news-75512.php",
+      "summary": "Last week, Huawei revealed that it will launch a new sub-brand called Osta on November 20 and that one of its first devices would be called the Osta O1 Pro. Now, the company has officially revealed the phone's design and color options, while also opening pre-orders in China. The Osta O1 Pro is available for pre-order through Huawei's official Vmall online store in China, in three color options and",
+      "published": "2026-11-18T03:03:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c1ed1561d3fa281b",
+      "title": "OnePlus Turbo 7 Pro gets certified ahead of launch, more specs leak",
+      "url": "https://www.gsmarena.com/oneplus_turbo_7_pro_gets_certified_ahead_of_launch_more_specs_leak-news-75524.php",
+      "canonical": "https://www.gsmarena.com/oneplus_turbo_7_pro_gets_certified_ahead_of_launch_more_specs_leak-news-75524.php",
+      "summary": "OnePlus launched the Turbo 6 in China back in January, and the Turbo 7's key specs leaked earlier this month. Now, a Pro model has passed through China's 3C certification, according to Digital Chat Station on Weibo. The listing is for a OnePlus phone with the model number PYP110, which the tipster says is the Turbo 7 Pro. The listing mentions two chargers, both rated for up to 100W, so that's how ",
+      "published": "2026-11-18T14:17:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Gizmochina"
+      ],
+      "related_urls": [
+        "https://www.gizmochina.com/2026/11/18/oneplus-turbo-7-pro-certified-with-100w-charging-ahead-of-launch/"
+      ]
+    },
+    {
+      "id": "3d52ff290913e8a6",
+      "title": "Pulsar Launches X2 CrazyLight 2: 40-43 g Wireless Gaming Mouse In Small and Medium Sizes",
+      "url": "https://www.techpowerup.com/354976/pulsar-launches-x2-crazylight-2-40-43-g-wireless-gaming-mouse-in-small-and-medium-sizes",
+      "canonical": "https://www.techpowerup.com/354976/pulsar-launches-x2-crazylight-2-40-43-g-wireless-gaming-mouse-in-small-and-medium-sizes",
+      "summary": "Following the recent launch of the X2F CrazyLight fingertip gaming mouse and a teaser of two upcoming HE gaming keyboards with some novel, ideas and minimalist designs , Pulsar has officially launched the first of its next-gen CrazyLight gaming mice, the X2 CrazyLight 2. The X2 CrazyLight 2 is an iteration of the previous design with updated internals. The X2 CrazyLight 2 has launched in two sizes",
+      "published": "2026-11-18T04:26:28+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a68d803f5acd19a1",
+      "title": "Huawei Mate X8 crease nearly invisible in leaked video, launch on November 24",
+      "url": "https://www.gizmochina.com/2026/11/18/huawei-mate-x8-crease-nearly-invisible-leaked-video/",
+      "canonical": "https://www.gizmochina.com/2026/11/18/huawei-mate-x8-crease-nearly-invisible-leaked-video",
+      "summary": "Huawei has set a November 24 launch date for the Mate X8, and its official renders have already revealed five colors and four memory configurations. Digital Chat Station had also claimed ultra-flat crease technology for the foldable. Now, a new leaked video gives a closer look at its inner display. Huawei Mate X8 crease shows [&#8230;] The post Huawei Mate X8 crease nearly invisible in leaked vide",
+      "published": "2026-11-18T07:00:19+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "dbac31264d1bf5de",
+      "title": "(PR) EVE Vanguard, Assetto Corsa Rally, Lightyear Frontier 1.0 & Teardown Adds NVIDIA DLSS 4.5",
+      "url": "https://www.techpowerup.com/354972/eve-vanguard-assetto-corsa-rally-lightyear-frontier-1-0-teardown-adds-nvidia-dlss-4-5",
+      "canonical": "https://www.techpowerup.com/354972/eve-vanguard-assetto-corsa-rally-lightyear-frontier-1-0-teardown-adds-nvidia-dlss-4-5",
+      "summary": "NVIDIA DLSS gives GeForce RTX and RTX Spark the highest levels of image quality, and a range of options for accelerating performance. This week, we're highlighting the launch of EVE Vanguard's 24/7 alpha, which is accelerated and enhanced by DLSS 4.5, and bringing you news of DLSS 4.5 upgrades and additions for Assetto Corsa Rally, Blender, Lightyear Frontier, and Teardown. Additionally, gamers ca",
+      "published": "2026-11-18T00:20:52+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+5 teardown",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "865e94076790b2c5",
+      "title": "Vivo reportedly undecided between Snapdragon 8 Elite Gen 6 and Dimensity 9600 Pro for its next foldable",
+      "url": "https://www.gizmochina.com/2026/11/18/vivo-x-fold-7-2nm-snapdragon-mediatek-chip-undecided/",
+      "canonical": "https://www.gizmochina.com/2026/11/18/vivo-x-fold-7-2nm-snapdragon-mediatek-chip-undecided",
+      "summary": "Vivo X Fold 6 is the company’s current best foldable, launched in China this June, and followed by a global release in September. We won’t see its successor until next year, but initial industry leaks about the Vivo X Fold 7 may have started surfacing online. Tipster Digital Chat Station from Weibo shared today that [&#8230;] The post Vivo reportedly undecided between Snapdragon 8 Elite Gen 6 and ",
+      "published": "2026-11-18T02:44:46+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 foldable",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bcd01d1be6677494",
+      "title": "Google Wallet is preparing digital Social Security cards that show your benefits",
+      "url": "https://www.androidauthority.com/google-wallet-social-security-number-credential-apk-teardown-3736528/",
+      "canonical": "https://www.androidauthority.com/google-wallet-social-security-number-credential-apk-teardown-3736528",
+      "summary": "We've spotted support for masked SSNs, Medicare details, and benefit amounts.",
+      "published": "2026-11-18T11:22:12+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/google-wallet-could-hold-your-social-security-card/",
+        "https://9to5google.com/2026/11/18/google-wallet-may-soon-be-able-to-store-your-social-security-card/"
+      ]
+    },
+    {
+      "id": "820e37291f7c3b4e",
+      "title": "AAWireless unveils two new wireless Android Auto adapters with a big connectivity upgrade",
+      "url": "https://www.androidauthority.com/aawireless-nexus-nano-android-auto-adapters-3735860/",
+      "canonical": "https://www.androidauthority.com/aawireless-nexus-nano-android-auto-adapters-3735860",
+      "summary": "They're also up to 80% smaller now.",
+      "published": "2026-11-18T14:00:20+00:00",
+      "source_id": "androidauthority",
+      "source": "Android Authority",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/11/18/aawireless-nexus-nano-adapters-release/"
+      ]
+    },
+    {
+      "id": "82c072bbee34f7f7",
+      "title": "(PR) JEDEC Previews Next-Generation DDR6 DRAM",
+      "url": "https://www.techpowerup.com/354995/jedec-previews-next-generation-ddr6-dram",
+      "canonical": "https://www.techpowerup.com/354995/jedec-previews-next-generation-ddr6-dram",
+      "summary": "JEDEC Solid State Technology Association, the global leader in the development of standards for the microelectronics industry, today unveiled a preview of its DDR6 DRAM standard, the next-generation main memory standard designed to support the accelerating demands of AI, cloud, data center, server and client computing. Currently in development in JEDEC, DDR6 will introduce a new architecture aimed",
+      "published": "2026-11-18T17:33:48+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "450c84e79b0776e7",
+      "title": "JEDEC Unveils Next-Gen DDR6 Memory: Starts at 12.8 GT/s & Goes Up To 14.4 GT/s, Wider Bus, 50% Bandwidth Uplift, Up To 128 Gb Dies & Narrow Design Versus DDR5",
+      "url": "https://wccftech.com/jedec-unveils-next-gen-ddr6-memory/",
+      "canonical": "https://wccftech.com/jedec-unveils-next-gen-ddr6-memory",
+      "summary": "JEDEC has just unveiled the preview of its next-generation DDR6 memory standard, which will offer up to 14,400 MT/s speeds. DDR6 Memory Will Scale From UDIMMs, RDIMMs and CAMM Design, Bringing 12.8 GT/s Out-of-the-Box Speeds &#38; Efficiency Improvements The first specifications of DDR5 memory were announced by JEDEC back in 2020. At the start, the technology was built to start at 4800 MT/s speeds",
+      "published": "2026-11-18T18:50:33+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 unveil",
+        "+3 announced",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "6e0298e3c0ca05cb",
+      "title": "Xiaomi Pad 9 Pro delivers a surprise in our review: New chip, lower performance",
+      "url": "https://www.notebookcheck.net/Xiaomi-Pad-9-Pro-delivers-a-surprise-in-our-review-New-chip-lower-performance.1450859.0.html",
+      "canonical": "https://www.notebookcheck.net/Xiaomi-Pad-9-Pro-delivers-a-surprise-in-our-review-New-chip-lower-performance.1450859.0.html",
+      "summary": "The new Xiaomi Pad 9 Pro uses the Snapdragon 8 Gen 5. However, the expected performance boost over its predecessor fails to materialize. Our benchmark results show that the Xiaomi Pad 8 Pro is often the faster Android tablet.",
+      "published": "2026-11-18T19:21:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 review",
+        "+4 benchmark",
+        "+2 snapdragon",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c7b48b722c87970c",
+      "title": "Huawei shows off wide smartphone from brand-new series just ahead of launch",
+      "url": "https://www.notebookcheck.net/Huawei-shows-off-wide-smartphone-from-brand-new-series-just-ahead-of-launch.1453644.0.html",
+      "canonical": "https://www.notebookcheck.net/Huawei-shows-off-wide-smartphone-from-brand-new-series-just-ahead-of-launch.1453644.0.html",
+      "summary": "Huawei has officially confirmed that the OSTA O1 Pro will be unveiled in a few days. Official product images already show the smartphone in three colors, with an unusually wide display. With 16 GB of RAM and 1 TB of storage, the device is likely to be positioned as a flagship.",
+      "published": "2026-11-18T21:11:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "21bc2483fb8b5b4c",
+      "title": "GTA 6 Hits Early 99 Metascore With 115 Reviews, Beating Zelda: Ocarina of Time as The Best-Reviewed Game of All Time",
+      "url": "https://wccftech.com/gta-6-99-metascore-best-reviewed-game-all-time/",
+      "canonical": "https://wccftech.com/gta-6-99-metascore-best-reviewed-game-all-time",
+      "summary": "GTA 6's review embargo has lifted as the game officially launched in New Zealand, bringing the 13 years, 2 months, and 1 day long wait since Grand Theft Auto V to an end. While only a few can already experience what is set to become the biggest entertainment launch of all time, everyone still waiting should be assured that Rockstar Games has really crafted a stunning, generational open-world game,",
+      "published": "2026-11-18T11:39:34+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 official",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0e1c1349fc083f31",
+      "title": "ASUS Officially Launches NVIDIA RTX Spark-Powered ProArt GR1X In 64 GB And 128 GB Configurations, Delivering Up To 1 PetaFlop Of AI Performance",
+      "url": "https://wccftech.com/asus-officially-launches-nvidia-rtx-spark-powered-proart-gr1x/",
+      "canonical": "https://wccftech.com/asus-officially-launches-nvidia-rtx-spark-powered-proart-gr1x",
+      "summary": "ASUS has officially launched one of its most powerful mini PCs, bringing Blackwell-powered hardware and high memory capacity for high-performance computing, gaming, and AI workloads. ASUS Readies ProArt GR1X Mini PC for Retail Channels, Featuring NVIDIA's N1X SoC and up to 128 GB Memory for Running LLMs Locally Popular hardware maker ASUS has officially launched its most powerful compact mini PC c",
+      "published": "2026-11-18T14:23:02+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+4 mini pc",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c942eb7d3dd93587",
+      "title": "GTA 6 Review Roundup: 99 on Metacritic and 118 Perfect Scores",
+      "url": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores",
+      "canonical": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores",
+      "summary": "After more than a decade of anticipation, Grand Theft Auto 6 finally launched on November 19th worldwide. Critics got early access to the game, and the reviews embargo lifted a day earlier. There was some concern about whether or not Grand Theft Auto 6 would be able to satisfy the enormous hype around it, but that has seemingly been put to rest. With a record-breaking Metascore of 99 at launch, ma",
+      "published": "2026-11-18T19:50:45+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+4 review",
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ac8fe9a51898b6d",
+      "title": "GTA 6 Reportedly Plays Best on PS5 Pro, Xbox Series S Struggles",
+      "url": "https://www.techpowerup.com/355004/gta-6-reportedly-plays-best-on-ps5-pro-xbox-series-s-struggles",
+      "canonical": "https://www.techpowerup.com/355004/gta-6-reportedly-plays-best-on-ps5-pro-xbox-series-s-struggles",
+      "summary": "Digital Foundry has published its detailed platform comparison for GTA 6 based on over 100 hours of testing. Rockstar has officially confirmed that every console targets 30 FPS, and even the PS5 Pro misses out on a 40 FPS or 60 FPS mode. The PS5 Pro, PS5, and Xbox Series X all render at 1440p, but only the PS5 Pro reconstructs that into a 4K-like image using PSSR. The other two get a softer spatia",
+      "published": "2026-11-18T21:11:49+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "IT之家（中国）"
+      ],
+      "related_urls": [
+        "https://www.ithome.com/1/029/118.htm"
+      ]
+    },
+    {
+      "id": "73c6c3398b5186a3",
+      "title": "Xiaomi launches Watch S5 41mm globally with 3,000-nit AMOLED display and 14-day battery life",
+      "url": "https://www.gizmochina.com/2026/11/18/xiaomi-watch-s5-41mm-launched-globally-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/18/xiaomi-watch-s5-41mm-launched-globally-specs-price",
+      "summary": "Xiaomi is rolling out the 41mm version of its Watch S5 to international markets following its initial launch in China this past September. The smartwatch is now available in Europe for €229.90 and in the UK for £169.99, offering a standard set of fitness tracking features and a brighter screen. Xiaomi Watch S5 41mm Specifications [&#8230;] The post Xiaomi launches Watch S5 41mm globally with 3,000",
+      "published": "2026-11-18T00:05:10+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "3a150598fe852891",
+      "title": "The Game Awards: GTA VI Nominated for Game of the Year Before It Even Launches",
+      "url": "https://www.techpowerup.com/354973/the-game-awards-gta-vi-nominated-for-game-of-the-year-before-it-even-launches",
+      "canonical": "https://www.techpowerup.com/354973/the-game-awards-gta-vi-nominated-for-game-of-the-year-before-it-even-launches",
+      "summary": "The Game Awards has published its official nominations list for the 2026 awards. Grand Theft Auto 6, the most anticipated game of the decade, has indeed made the nominations but only by a single day , as the cutoff is November 20. It is also the most nominated game at The Game Awards 2026 with eight nominations, including Game of the Year, Best Game Direction, Best Narrative, Best Art Direction, B",
+      "published": "2026-11-18T00:51:29+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "1d2336d1a56b83b6",
+      "title": "Chosfox Teases Geonix Plus: 50% Wireless Mechanical Keyboard With Unorthodox Ortholinear and Row-Staggered Layouts",
+      "url": "https://www.techpowerup.com/354975/chosfox-teases-geonix-plus-50-wireless-mechanical-keyboard-with-unorthodox-ortholinear-and-row-staggered-layouts",
+      "canonical": "https://www.techpowerup.com/354975/chosfox-teases-geonix-plus-50-wireless-mechanical-keyboard-with-unorthodox-ortholinear-and-row-staggered-layouts",
+      "summary": "Chosfox, the maker of the Geonix keyboard, which was arguably one of the keyboards that helped kickstart interest in modern 40% and ortholinear keyboards, has just confirmed that it will launch the Geonix Plus, a new, larger version of the original Geonix. Much like it has done with the Geonix Rev 2.5 and its Init40 counterpart, Chosfox has confirmed via a post on X that it plans on offering the G",
+      "published": "2026-11-18T03:52:57+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e4fd7f6f5e62e59d",
+      "title": "iQOO Z12 Lite shows up in the Google Play Console, has key specs revealed",
+      "url": "https://www.gsmarena.com/iqoo_z12_lite_shows_up_in_the_google_play_console_has_key_specs_revealed-news-75514.php",
+      "canonical": "https://www.gsmarena.com/iqoo_z12_lite_shows_up_in_the_google_play_console_has_key_specs_revealed-news-75514.php",
+      "summary": "iQOO's next budget phone has just shown up in the Google Play Console database, which usually means a launch isn't too far off. The iQOO Z12 Lite listing (model number I2510) reveals a front design with a waterdrop notch, along with a few key specs. According to the listing, the phone is powered by the MediaTek Dimensity 6300 chipset (MT6835), comes with 4GB or 6GB of RAM, has a screen with 720x16",
+      "published": "2026-11-18T05:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": [
+    {
+      "title": "RIKAIと米国Cyfendo、戦略的パートナーシップを締結。日本市場におけるソフトウェアセキュリティ事業を強化",
+      "url": "https://prtimes.jp/main/html/rd/p/000000031.000079647.html",
+      "summary": "",
+      "published": "2026-11-18T10:01:07+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "6592e21e5105b59a"
+    },
+    {
+      "title": "【SwitchBot】顔認証と映像通話をドアベル1台に。「ロックUltra Max 顔認証ドアベルセット」とモニター付きソーラーカメラを11月18日から予約開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000218.000057002.html",
+      "summary": "",
+      "published": "2026-11-18T06:30:01+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "224b391b560c6c01"
+    },
+    {
+      "title": "ＦＰＴジャパン、日本市場で売上高1,000億円を達成 ～日本への感謝を胸に、人材とAIの力で日本企業の変革を加速～",
+      "url": "https://prtimes.jp/main/html/rd/p/000000146.000017750.html",
+      "summary": "",
+      "published": "2026-11-18T04:44:11+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "deae598dbfc04672"
+    },
+    {
+      "title": "Salesforce、Trailblazer Community発足20周年を迎え、「Golden Hoodie」で日本初の2名同時選出を発表",
+      "url": "https://prtimes.jp/main/html/rd/p/000000424.000041550.html",
+      "summary": "",
+      "published": "2026-11-18T04:00:04+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "8fc45b94635ee5ab"
+    },
+    {
+      "title": "1月18日（月）、セミナー開催。「AI電話が検診・健診予約受付を担当、95歳もAIとの自然な会話で予約完了。オンライン受付と電話受付データの統合作業もゼロに」、福島県三春町・茨城県下妻市が登壇",
+      "url": "https://prtimes.jp/main/html/rd/p/000000171.000096169.html",
+      "summary": "",
+      "published": "2026-11-18T02:57:48+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "3a411488d50f5088"
+    },
+    {
+      "title": "スマートフォンの持ち歩きも充電・転送も、これ1本でスマートに!ZEROSHOCKシリーズから、ストラップと充電・転送ケーブルがひとつになったUSBケーブル一体型ストラップ3タイプを新発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000001609.000026881.html",
+      "summary": "",
+      "published": "2026-11-18T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "be32011c574b7459"
+    },
+    {
+      "title": "社会インフラの安定稼働を守り、基幹データの迅速なAI活用を実現するノンストップデータベース「HiRDB Version 11」を販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000654.000067590.html",
+      "summary": "",
+      "published": "2026-11-18T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "b1d5678796198e39"
+    },
+    {
+      "title": "来春の桜と和装前撮りを浅草で。INAI WEDDING WASOU浅草店が2027年桜シーズンのロケーション撮影の予約受付を開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000144.000043140.html",
+      "summary": "",
+      "published": "2026-11-18T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "6a0b3926f6e55349"
+    },
+    {
+      "title": "1年頑張った自分へのご褒美や大切な方へのギフトに。美容液1本の価格でスキンケア4品と限定ミラーが手に入る「CHAINONクリスマスコフレ2026」予約販売開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000167616.html",
+      "summary": "",
+      "published": "2026-11-18T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "310c3a5f09de496e"
+    },
+    {
+      "title": "【日本初上陸】録音・翻訳・要約がこの1台で完結。360°カメラとAIで会議を効率化するスマートWEB会議カメラ「PANOCORE 360 AI」、Makuakeにて11月18日より先行予約販売を開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000190583.html",
+      "summary": "",
+      "published": "2026-11-18T02:00:02+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "4e468a9874139539"
+    },
+    {
+      "title": "シンシアリー代表・國本知里が執筆『2027年版 生成AIパスポートをひとつひとつわかりやすく。教科書＆問題集』予約開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000111.000117465.html",
+      "summary": "",
+      "published": "2026-11-18T01:54:07+00:00",
+      "source": "PR TIMES",
+      "source_id": "prtimes",
+      "kind": "japan_launch",
+      "id": "75816990f8852b59"
+    }
+  ]
+}
