@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 310,
-   "views": 310
+   "visits": 340,
+   "views": 340
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
