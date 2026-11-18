@@ -29,6 +29,11 @@ giteki:
   checked: 2026-11-19
   radio: Wi-Fi 6 / Bluetooth
   note: 型番が未発表で、総務省の技適データベースでは特定できない
+clips:
+- file: aawireless-nexus-nano-wireless-android-auto/plug.mp4
+  caption: "USB-Aに直接挿すだけ（スティック型）"
+  credit: "AAWireless 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=Z6fsImJ4HxU"
 sources:
 - title: "AAWireless unveils two new wireless Android Auto adapters with a big connectivity upgrade（Android Authority、2026年11月18日）"
   url: https://www.androidauthority.com/aawireless-nexus-nano-android-auto-adapters-3735860/
