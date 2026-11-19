@@ -56,6 +56,14 @@ sources:
 - title: "viaim Rise: AI Agent Earbuds for ChatGPT, Claude & Gemini"
   url: https://www.indiegogo.com/projects/viaim/viaim-rise
   publisher: Indiegogo(viaim)
+modified: 2026-11-20
+videos_after:
+  - id: g1DKY7xG1FY
+    title: "viaim Rise: The AI Earbuds That Actually Take Action"
+    channel: "HansTechTalk"
+    published: 2026-08-27
+    added: 2026-11-20
+    note: "viaim Rise を取り上げた紹介動画（英語）"
 ---
 
 完全ワイヤレスイヤホン「viaim Rise」が、2026年9月8日22:00(日本時間、米東部時間9月8日午前9時)にIndiegogoでクラウドファンディングを開始する。IFA 2026では「Best in Audio」部門の受賞と「Best in Design」部門のノミネートを獲得済み。価格は早期バッカー向けが259ドル、正式価格(MSRP)は399ドルで、支援者には全員viaim Proサブスクリプションが3か月分付く。
