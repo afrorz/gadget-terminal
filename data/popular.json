@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "days": 30,
  "source": "Cloudflare Web Analytics",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 340,
-   "views": 340
+   "visits": 350,
+   "views": 350
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 60,
-   "views": 80
+   "visits": 70,
+   "views": 90
   },
   {
    "path": "/posts/redmagic-12-pro-global.html",
@@ -64,6 +64,11 @@
    "views": 20
   },
   {
+   "path": "/posts/lucy-ai-studio-agent-workstation.html",
+   "visits": 20,
+   "views": 20
+  },
+  {
    "path": "/posts/cmf-speaker-s-m.html",
    "visits": 20,
    "views": 20
@@ -74,17 +79,12 @@
    "views": 20
   },
   {
-   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
    "path": "/posts/ring-drone-cam-indoor-flying-camera.html",
    "visits": 20,
    "views": 20
   },
   {
-   "path": "/posts/onexplayer-super-x-pro.html",
+   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
    "visits": 20,
    "views": 20
   },
