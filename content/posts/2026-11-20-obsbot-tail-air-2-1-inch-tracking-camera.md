@@ -29,6 +29,15 @@ giteki:
   checked: 2026-11-20
   radio: Wi-Fi 6
   note: 型番が分からず、総務省DBで特定できない
+clips:
+- file: obsbot-tail-air-2-1-inch-tracking-camera/vertical.mp4
+  caption: "縦の4Kを切り抜かずに撮る（新しいロール軸で）"
+  credit: "OBSBOT 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=D6YNcyQuaLw"
+- file: obsbot-tail-air-2-1-inch-tracking-camera/pdaf.mp4
+  caption: "人も動物も追いかける（動物は30種類以上）"
+  credit: "OBSBOT 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=D6YNcyQuaLw"
 sources:
 - title: Obsbot launches Tail Air 2 with 1-inch CMOS sensor, AI Tracking 2.0 & rotating lens for vertical video（Gizmochina）
   url: https://www.gizmochina.com/2026/11/19/obsbot-tail-air-2-launched-specs-price/

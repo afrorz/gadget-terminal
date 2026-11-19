@@ -28,6 +28,11 @@ giteki:
   checked: 2026-11-20
   radio: Bluetooth
   note: 国内向けの型番が分からず、総務省DBで特定できない
+clips:
+- file: xiaomi-watch-s5-41mm-global/lug.mp4
+  caption: "バンドを真ん中で支える（浮いて見えるデザイン）"
+  credit: "Xiaomi Portugal 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=MUWMMx8nwig"
 sources:
 - title: Xiaomi Watch S5 41mm Ceramic Edition unboxing and hands-on（GSMArena）
   url: https://www.gsmarena.com/xiaomi_watch_s5_41mm_ceramic_edition_-news-75532.php
