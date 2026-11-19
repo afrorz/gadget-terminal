@@ -1,78 +1,27 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T06:31:32.335225+09:00",
+  "generated_at": "2026-11-20T08:44:45.377578+09:00",
   "stats": {
-    "fetched": 729,
-    "unique": 687,
-    "new": 431,
-    "clusters": 402,
+    "fetched": 725,
+    "unique": 683,
+    "new": 74,
+    "clusters": 74,
     "selected": 30
   },
   "items": [
     {
-      "title": "Makuake｜スマホを持つ手を解放！【ロボットアーム型スタンド 】＆【薄型19gスマホリング】｜Makuake（マクアケ）",
-      "url": "https://www.makuake.com/project/mighty_pz/",
-      "summary": "リターン品の配送が完了するまで、この商品は、株式会社mightyが日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。「スマホとの時間、毎日を、もっと快適に、もっと心地よく。」「スマホの“居場所”に、心地よい選択を。」DESK｜机に置いてMOBILE｜持ち歩いて、開いて、置いて【通知の確認】も【通話中のメモ】も【写真",
-      "image": "https://static.makuake.com/upload/project/54505/main_54505.png?version=1794554521&amp;width=690&amp;height=388",
+      "title": "Makuake｜【アンコール】挿すだけで簡単に大画面へ！Wi-Fi・設定不要のミニアダプター｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/m5encore/",
+      "summary": "【本プロジェクトはアンコールプロジェクト(※)です】(※)アンコールプロジェクトとは、過去実施したプロジェクトが好評だった場合において、 プロジェクト終了後から一般販売までに再び実施するプロジェクトを言います。リターン品の配送が完了するまで、BRIGHT DIY (実行者）はJUST LINK TECH（メーカー）の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆",
+      "image": "https://static.makuake.com/upload/project/54420/main_54420.jpg?version=1794192181&amp;width=690&amp;height=388",
       "published": "2026-11-25T00:00:00+00:00",
       "source_id": "makuake",
       "source": "Makuake",
       "category": "weird",
       "tier": 1,
       "kind": "crowdfunding",
-      "id": "913661d20099cce9",
-      "canonical": "https://www.makuake.com/project/mighty_pz",
-      "score": 24,
-      "reasons": [
-        "+6 makuake",
-        "+4 ロボット",
-        "+8 クラファン発",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "1bce7f382ace4a77",
-      "title": "Huawei Watch Air officially teased, key specs, color options revealed",
-      "url": "https://www.gizmochina.com/2026/11/19/huawei-watch-air-official-teaser-specs-colors/",
-      "canonical": "https://www.gizmochina.com/2026/11/19/huawei-watch-air-official-teaser-specs-colors",
-      "summary": "Huawei has confirmed that it will hold a launch event on November 24 to unveil the Mate X8 foldable, alongside the Mate 90 Air and the Watch Air. Earlier this week, a leaked poster gave us an early look at the watch&#8217;s slim titanium design. Now, the company has officially teased the wearable, while a [&#8230;] The post Huawei Watch Air officially teased, key specs, color options revealed appe",
-      "published": "2026-11-19T04:55:54+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 22,
-      "reasons": [
-        "+4 unveil",
-        "+3 launch",
-        "+3 official",
-        "+3 specs",
-        "+3 foldable",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": [
-        "https://www.gizmochina.com/2026/11/19/huawei-mate-90-air-colors-configs-vmall-listing/"
-      ]
-    },
-    {
-      "title": "Makuake｜【植物由来成分配合】たった3g、1粒で7役！計量不要の食洗機用洗剤カプセル｜Makuake（マクアケ）",
-      "url": "https://www.makuake.com/project/seamild/",
-      "summary": "リターン品の配送が完了するまで、本プロジェクトの実行者であるuniicreativeは、清淨海生技股份有限公司（SEA MILD BIOTECHNOLOGY CO., LTD.／メーカー）の本製品に関する日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部の「リスク＆チャレンジ」をご確認ください。洗剤を量る。ごはん粒を落とす。グラスを拭き直す。毎日の小さな手間は、積み重なると意",
-      "image": "https://static.makuake.com/upload/project/54533/main_54533.png?version=1794821605&amp;width=690&amp;height=388",
-      "published": "2026-11-24T00:00:00+00:00",
-      "source_id": "makuake",
-      "source": "Makuake",
-      "category": "weird",
-      "tier": 1,
-      "kind": "crowdfunding",
-      "id": "478bce5d8c9a3804",
-      "canonical": "https://www.makuake.com/project/seamild",
+      "id": "3e31f9b100e12149",
+      "canonical": "https://www.makuake.com/project/m5encore",
       "score": 20,
       "reasons": [
         "+6 makuake",
@@ -84,146 +33,47 @@
       "related_urls": []
     },
     {
-      "title": "Makuake｜【アンコール】太陽を持ち歩く。常識を変えるソーラー充電器【AMATERASU】｜Makuake（マクアケ）",
-      "url": "https://www.makuake.com/project/perovencore/",
-      "summary": "※リターン品の配送が完了するまで、ＢＡＨはP E R O -Vの日本における独占販売権を有する正規代理店です。　【本プロジェクトはアンコールプロジェクト（※）です】（※）アンコールプロジェクトとは、過去実施したプロジェクトが好評だった場合において、プロジェクト終了後から一般販売までに再び実施するプロジェクトを言います。ご好評につき、アンコール企画が実現！たくさんの応援、ありがとうございます。&ld",
-      "image": "https://static.makuake.com/upload/project/54561/main_54561.jpg?version=1794896651&amp;width=690&amp;height=388",
-      "published": "2026-11-24T00:00:00+00:00",
-      "source_id": "makuake",
-      "source": "Makuake",
+      "id": "8ecc510df592460e",
+      "title": "A modular smartphone with a de-Googled OS, a $25 E Ink Dev Kit, and a Cyberdeck that runs on power tool batteries: Liliputing News Roundup",
+      "url": "https://liliputing.com/a-modular-smartphone-with-a-de-googled-os-a-25-e-ink-dev-kit-and-a-cyberdeck-that-runs-on-power-tool-batteries-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/a-modular-smartphone-with-a-de-googled-os-a-25-e-ink-dev-kit-and-a-cyberdeck-that-runs-on-power-tool-batteries-liliputing-news-roundup",
+      "summary": "The new AYN Odin3 Portal is a 1 pound (450 gram) Android gaming handheld with a Qualcomm Dragonwing Q8 processor, 9,000 mAh battery, active cooling, hall-effect joysticks • The Arduino VENTUNO Q launched for a $299 promo price in August, but it's getting a price hike to $399 for its retail price • This custom cyberdeck takes the guts of a mini PC and stuffs them into a 3D printed case with a custo",
+      "published": "2026-10-20T19:26:05+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
       "category": "weird",
-      "tier": 1,
-      "kind": "crowdfunding",
-      "id": "db4038736da8c6ee",
-      "canonical": "https://www.makuake.com/project/perovencore",
-      "score": 20,
-      "reasons": [
-        "+6 makuake",
-        "+8 クラファン発",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "title": "Makuake｜探さず、降ろさず、もたつかない。定位置が決まる快適ボディバッグで整う毎日へ！｜Makuake（マクアケ）",
-      "url": "https://www.makuake.com/project/quick-pack-master/",
-      "summary": "※従来製品のレビューです1日に100回以上も触れるから、スマホを1番取り出しやすくしました。ファスナーの開閉は不要です。片手でサッと取り出せる。マグネット仕様だから、勝手に閉じる。大型スマホも、スッと入る。右でも、左でも自由に。取り出しやすい。でも落ちにくい。他の荷物と干渉しないから、スムーズに。体に触れているから、人ごみでも安心です。たくさん歩く日は、こまめな水分補給が必要です。水筒、ペットボト",
-      "image": "https://static.makuake.com/upload/project/54422/main_54422.png?version=1794205680&amp;width=690&amp;height=388",
-      "published": "2026-11-24T00:00:00+00:00",
-      "source_id": "makuake",
-      "source": "Makuake",
-      "category": "weird",
-      "tier": 1,
-      "kind": "crowdfunding",
-      "id": "81ed2dfa60138177",
-      "canonical": "https://www.makuake.com/project/quick-pack-master",
-      "score": 20,
-      "reasons": [
-        "+6 makuake",
-        "+8 クラファン発",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "title": "Makuake｜【機能を美しく】通勤バッグで、2泊の旅へ。仕事も着替えもこれ1つ。日本限定仕様｜Makuake（マクアケ）",
-      "url": "https://www.makuake.com/project/airpack/",
-      "summary": "リターン品の配送が完了するまで、株式会社プロムナードはScapade LTD（ブランド：SCAPADE）の「AirPack」の日本における独占販売権を有する正規代理店です。詳細に関しては、ページ下部のリスク＆チャレンジをご確認ください。AirPackが目指したのは、朝から一日中、外で仕事をする人にとって、いちばん実用的なバックパック。仕事にも旅にも、持ち替えずに使える一台です。いくつもの海外メディ",
-      "image": "https://static.makuake.com/upload/project/54482/main_54482.jpg?version=1794472992&amp;width=690&amp;height=388",
-      "published": "2026-11-25T00:00:00+00:00",
-      "source_id": "makuake",
-      "source": "Makuake",
-      "category": "weird",
-      "tier": 1,
-      "kind": "crowdfunding",
-      "id": "07549e6db8645869",
-      "canonical": "https://www.makuake.com/project/airpack",
-      "score": 20,
-      "reasons": [
-        "+6 makuake",
-        "+8 クラファン発",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "2347c0f83bdb5d47",
-      "title": "Xiaomi Watch S5 41mm Ceramic Edition unboxing and hands-on",
-      "url": "https://www.gsmarena.com/xiaomi_watch_s5_41mm_ceramic_edition_-news-75532.php",
-      "canonical": "https://www.gsmarena.com/xiaomi_watch_s5_41mm_ceramic_edition_-news-75532.php",
-      "summary": "This is the Xiaomi Watch S5 41mm, the smaller counterpart to the 46mm model, and it's now on sale globally. The model comes in Black, Light Blue, and Ceramic White and is €260. It ships with the same two-pin magnetic charger as the larger model, and yes, it's USB-A, not USB-C. The Xiaomi Watch S5 41mm follows closely in its predecessor's footsteps (hands-on with the Watch S4 41mm model here). It h",
-      "published": "2026-11-19T04:01:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 18,
-      "reasons": [
-        "+5 hands-on",
-        "+3 ships",
-        "+3 tier1",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "Gadget Flow"
-      ],
-      "related_urls": [
-        "https://thegadgetflow.com/product/xiaomi-watch-s5-41mm/"
-      ]
-    },
-    {
-      "id": "610d0afc989e4952",
-      "title": "Compact Motorola Razr Flex leaks with unusual design",
-      "url": "https://www.notebookcheck.net/Compact-Motorola-Razr-Flex-leaks-with-unusual-design.1454721.0.html",
-      "canonical": "https://www.notebookcheck.net/Compact-Motorola-Razr-Flex-leaks-with-unusual-design.1454721.0.html",
-      "summary": "Motorola looks set to launch a wide foldable to compete with the Apple iPhone Duo very soon, as a first image offers an early look at the design of the unusual Motorola Razr Flex after Motorola already listed the smartphone on an official website.",
-      "published": "2026-11-19T15:23:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 17,
-      "reasons": [
-        "+3 launch",
-        "+3 official",
-        "+3 foldable",
-        "+1 tier2",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "TechEBlog"
-      ],
-      "related_urls": [
-        "https://www.techeblog.com/motorola-razr-flex-leak-foldable-specs-price-release/"
-      ]
-    },
-    {
-      "id": "876da209da41bd55",
-      "title": "Lenovo Legion Go Beam Handheld Leaks Sans Iconic Trackpad",
-      "url": "https://www.techpowerup.com/355009/lenovo-legion-go-beam-handheld-leaks-sans-iconic-trackpad",
-      "canonical": "https://www.techpowerup.com/355009/lenovo-legion-go-beam-handheld-leaks-sans-iconic-trackpad",
-      "summary": "Following the launch of the Legion Go 2, which has apparently had a rough time of things, with a recent RAMpocalypse-induced price hike resulting in a retail price of over $2,000 for some Legion Go 2 models . Now, it seems as though Lenovo may be responding to the RAM crisis by making a cheaper Legion Go gaming handheld under the Legion Go Beam moniker. The new devices leaked via a Windows Latest ",
-      "published": "2026-11-18T23:42:21+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
       "tier": 1,
       "kind": "news",
       "score": 16,
       "reasons": [
         "+3 launch",
         "+3 price",
+        "+4 mini pc",
         "+4 handheld",
+        "+4 e ink",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "06169e46ab3bc015",
+      "title": "Xiaomi launches new affordable electric toothbrush with an LED ring that detects missed brushing spots",
+      "url": "https://www.gizmochina.com/2026/11/19/xiaomi-mijia-sonic-sweep-electric-toothbrush-2-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/19/xiaomi-mijia-sonic-sweep-electric-toothbrush-2-launched-specs-price",
+      "summary": "Xiaomi has launched a new electric toothbrush in China, the Mijia Sonic Sweep Electric Toothbrush 2. It is priced at 199 yuan ($30), with an introductory price of 175 yuan ($26). Mijia Sonic Sweep Electric Toothbrush 2 Specs Inside, the toothbrush uses a motor that operates at 24,000 vibrations per minute. Instead of just vibrating [&#8230;] The post Xiaomi launches new affordable electric toothbr",
+      "published": "2026-11-19T23:04:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+3 specs",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -231,22 +81,21 @@
       "related_urls": []
     },
     {
-      "id": "d3448d5ea9fe7e83",
-      "title": "(PR) Patriot Launches AI Matrix SSD and DRAM Series Engineered for Local AI Workloads",
-      "url": "https://www.techpowerup.com/355024/patriot-launches-ai-matrix-ssd-and-dram-series-engineered-for-local-ai-workloads",
-      "canonical": "https://www.techpowerup.com/355024/patriot-launches-ai-matrix-ssd-and-dram-series-engineered-for-local-ai-workloads",
-      "summary": "Patriot Memory today announced the Patriot AI Matrix series, a dedicated lineup of DDR5 memory modules and PCIe M.2 2280 NVMe SSDs engineered for local AI computing. Organized across PRO, Mid, and Entry tiers, the portfolio pairs screened memory ICs and high-endurance NAND flash with ongoing open-source LLM benchmark validation, enabling builders, creators, and SMBs to match hardware directly to o",
-      "published": "2026-11-19T10:10:39+00:00",
+      "id": "374310ca3cf23578",
+      "title": "JAPANNEXT Launches JN-X6K2 31.5-inch 6K IPS Display for Content Creators",
+      "url": "https://www.techpowerup.com/355044/japannext-launches-jn-x6k2-31-5-inch-6k-ips-display-for-content-creators",
+      "canonical": "https://www.techpowerup.com/355044/japannext-launches-jn-x6k2-31-5-inch-6k-ips-display-for-content-creators",
+      "summary": "JAPANNEXT has launched the JN-X6K2, a 31.5-inch 6K monitor aimed at content creators. The display uses an IPS (AHVA) panel with 6016 x 3384 resolution, a 60 Hz refresh rate and 7 ms (GtG) response time. It has a matte, non-glossy surface, with 300 nits of brightness, a 2,000:1 contrast ratio, and HDR support. The JN-X6K2 covers 100% of the sRGB color space, 98% of DCI-P3, and 95% of Adobe RGB. JAP",
+      "published": "2026-11-19T22:41:15+00:00",
       "source_id": "techpowerup",
       "source": "TechPowerUp",
       "category": "pc",
       "tier": 1,
       "kind": "news",
-      "score": 16,
+      "score": 13,
       "reasons": [
-        "+4 benchmark",
-        "+3 announced",
         "+3 launch",
+        "+4 japan",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -254,22 +103,21 @@
       "related_urls": []
     },
     {
-      "id": "47e835c53f5e0032",
-      "title": "Google launches Gemini 4 Neon, its new mid-tier AI model",
-      "url": "https://www.gsmarena.com/google_launches_gemini_4_neon_its_new_midtier_ai_model-news-75544.php",
-      "canonical": "https://www.gsmarena.com/google_launches_gemini_4_neon_its_new_midtier_ai_model-news-75544.php",
-      "summary": "Google has just announced Gemini 4 Neon, the latest member of its Gemini 4 family of AI models. According to the company, it brings frontier-level intelligence with fast end-to-end task completion across software engineering, knowledge work, and science workflows. Google pits Neon against Claude Opus 5.5 and GPT-6.2 Sol in its benchmark comparison, which tells you exactly where it stands. It beats",
-      "published": "2026-11-19T19:33:02+00:00",
+      "id": "d2b4f33aae8d9c79",
+      "title": "Whoop becomes Formula 1's official wearable, will put drivers' heart rate on TV",
+      "url": "https://www.gsmarena.com/whoop_becomes_formula_1s_official_wearable_will_put_drivers_heart_rate_on_tv-news-75543.php",
+      "canonical": "https://www.gsmarena.com/whoop_becomes_formula_1s_official_wearable_will_put_drivers_heart_rate_on_tv-news-75543.php",
+      "summary": "Whoop has just announced a four-year global partnership with Formula 1 that makes it the sport's Official Health & Fitness Wearable Partner. The company's tracker is also the first consumer wearable approved by the FIA for in-race use, and drivers will be allowed to wear it during a race for the first time at this weekend's Las Vegas Grand Prix. The bigger change comes next year, though. Starting ",
+      "published": "2026-11-19T23:33:02+00:00",
       "source_id": "gsmarena",
       "source": "GSMArena",
       "category": "smartphone",
       "tier": 1,
       "kind": "news",
-      "score": 16,
+      "score": 12,
       "reasons": [
-        "+4 benchmark",
         "+3 announced",
-        "+3 launch",
+        "+3 official",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -277,49 +125,232 @@
       "related_urls": []
     },
     {
-      "id": "f2d3712521974d72",
-      "title": "Bose’s clip-on Ultra Open Earbuds (2nd Gen) are $50 off",
-      "url": "https://www.androidauthority.com/bose-ultra-open-earbuds-2nd-gen-deal-3737453/",
-      "canonical": "https://www.androidauthority.com/bose-ultra-open-earbuds-2nd-gen-deal-3737453",
-      "summary": "Bose's newest open earbuds drop to $249 on Amazon, their lowest price yet.",
-      "published": "2026-11-19T20:39:27+00:00",
+      "id": "949c71b81ec9b945",
+      "title": "Xiaomi Walkie Talkie 2S gets a new orange colorway",
+      "url": "https://www.gizmochina.com/2026/11/19/xiaomi-walkie-talkie-2s-orange-color-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/19/xiaomi-walkie-talkie-2s-orange-color-launched-specs-price",
+      "summary": "Xiaomi has released a new orange color option for its Walkie Talkie 2S in China. The device is priced at 299 yuan (roughly $45), keeping the same price tag and internal hardware as the original gray model, but swapping in a brighter shell that is easier to spot outdoors or in a gear bag. Xiaomi [&#8230;] The post Xiaomi Walkie Talkie 2S gets a new orange colorway appeared first on Gizmochina .",
+      "published": "2026-11-19T22:05:41+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5ab4d9b16006b108",
+      "title": "Ubisoft Merges \"For Honor\" and \"The Crew\" Team with Casual Game Division",
+      "url": "https://www.techpowerup.com/355043/ubisoft-merges-for-honor-and-the-crew-team-with-casual-game-division",
+      "canonical": "https://www.techpowerup.com/355043/ubisoft-merges-for-honor-and-the-crew-team-with-casual-game-division",
+      "summary": "Ubisoft started a massive organizational overhaul in January 2026 , rearranging its various studios into five Creative Houses, each of which would be responsible for the funding, creative direction and development, and branding of the games under its purview. In Ubisoft's recent H1 financial report, the gaming giant says that it has officially concluded that restructuring effort— which has led to ",
+      "published": "2026-11-19T22:39:12+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 9,
+      "reasons": [
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ea8ff6b822a1a727",
+      "title": "ONEXPLAYER’s New Tablet Is An AI Workstation, Apple launches HomeView and updated Apple TV 4K, and HP updates its computer-in-a-keyboard: Liliputing News Roundup",
+      "url": "https://liliputing.com/onexplayers-new-tablet-is-an-ai-workstation-apple-launches-homeview-and-updated-apple-tv-4k-and-hp-updates-its-computer-in-a-keyboard-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/onexplayers-new-tablet-is-an-ai-workstation-apple-launches-homeview-and-updated-apple-tv-4k-and-hp-updates-its-computer-in-a-keyboard-liliputing-news-roundup",
+      "summary": "The new Apple TV 4K brings far-field microphones for voice interaction, a 50% faster CPU and 2X faster GPU, AV1 decoding, and a remote with Find My support • The Apple HomeView is now available to pre-order for $299 • The ONEXPLAYER Super X Pro gaming tablet (and AI workstation) has been updated with a Ryzen AI Max+ PRO 495 processor and up to 192GB of RAM The post ONEXPLAYER&#8217;s New Tablet Is",
+      "published": "2026-10-13T19:00:17+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 8,
+      "reasons": [
+        "+3 launch",
+        "+4 pre-order",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4dc547313eb38432",
+      "title": "One Key Module Developer Program Recap",
+      "url": "https://frame.work/blog/one-key-module-developer-program-recap",
+      "canonical": "https://frame.work/blog/one-key-module-developer-program-recap",
+      "summary": "Last year, we announced the One Key Module to enable development of custom ultra-low-profile keyboards and Input Modules for Framework Laptop 16. After around three years of design and prototyping along with an extensive Developer Program that we launched earlier this year, we’ve come to the conclusion that unfortunately we won’t be able to turn this into a sellable product. As a general rule, we ",
+      "published": "2026-09-10T20:41:46+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e0186e2904ef34a3",
+      "title": "ChatGPT Health feature now works with Mac app, Dots, more",
+      "url": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/",
+      "canonical": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more",
+      "summary": "OpenAI relaunched its ChatGPT Health feature over the summer after piloting earlier in the year. Next, ChatGPT Health is set to expand to more platforms, including the Mac app and more. more…",
+      "published": "2026-11-19T22:43:20+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a4df3a62f68a2351",
+      "title": "The smartphone price bracket everyone gets wrong.",
+      "url": "https://www.androidpolice.com/video/the-smartphone-price-bracket-everyone-gets-wrong/",
+      "canonical": "https://www.androidpolice.com/video/the-smartphone-price-bracket-everyone-gets-wrong",
+      "summary": "The most awkward spot in phones.",
+      "published": "2026-11-19T23:00:10+00:00",
+      "source_id": "androidpolice",
+      "source": "Android Police",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 price",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2684e9a76d80315a",
+      "title": "macOS 27.3 public beta 2 now available, here’s everything new",
+      "url": "https://9to5mac.com/2026/11/19/macos-27-3-public-beta-2-now-available-heres-everything-new/",
+      "canonical": "https://9to5mac.com/2026/11/19/macos-27-3-public-beta-2-now-available-heres-everything-new",
+      "summary": "After releasing developer beta 2 of macOS 27.3 earlier this week, the company is now rolling out the public beta for users looking to try the new features ahead of next month’s official release. Here’s what’s coming. more…",
+      "published": "2026-11-19T23:01:25+00:00",
+      "source_id": "9to5mac",
+      "source": "9to5Mac",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "78a6917968a4493f",
+      "title": "LineageOS 24 Released, Another Game Boy Emulator On E Ink, and turn A PSP Into Raspberry Pi-Powered PC: Liliputing News Roundup",
+      "url": "https://liliputing.com/lineageos-24-released-another-game-boy-emulator-on-e-ink-and-turn-a-psp-into-raspberry-pi-powered-pc-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/lineageos-24-released-another-game-boy-emulator-on-e-ink-and-turn-a-psp-into-raspberry-pi-powered-pc-liliputing-news-roundup",
+      "summary": "The PSPi 6 turns the PlayStation Portable (PSP-1000) into a modern emulation handheld (and PC) with a custom board that lets you use a Raspberry Pi Zero, Zero 2W, or CM4 for brains • Microsoft is moving to standardize printer drivers, meaning that newer models should work well with most PCs running Windows 10 21H2 or newer • E Ink displays used for eReaders and electronic labels usually only suppo",
+      "published": "2026-10-11T18:18:51+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+4 handheld",
+        "+4 e ink",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "de823ea19be22384",
+      "title": "512GB 版 Steam Machine 开放直接购买：2TB 版关闭等待名单，1 月公布新供应详情",
+      "url": "https://www.ithome.com/1/029/745.htm",
+      "canonical": "https://www.ithome.com/1/029/745.htm",
+      "summary": "IT之家 11 月 20 日消息，Valve 今日发布 Steam Machine 硬件预订进展公告， 宣布 512GB 型号已完成全部现有预订履约，等待名单清空 ，并已向所有剩余的 2TB 型号预订持有者发出购买邀请邮件。 IT之家附 Steam 官方公告链接（ https://store.steampowered.com/hardware/steammachine ）。 图源：Valve 不过 Valve 同时表示，目前仍持续面临硬件组件供应紧张问题，零部件采购受到明显影响，其中 2TB 型号受冲击最为严重， 等待名单上的用户数量已超过当前产能，即便后续能增产，规模也将远低于原定计划。 Steam Machine 512GB 型号 现已转为“加入购物车”状态，用户可直接购买，售完即止； 当现有库存售罄后，将直接切换为缺货状态，不会再重新开放等待名单。 Steam Machine 2TB",
+      "published": "2026-11-19T19:00:25+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f8469af21bc72d1c",
+      "title": "SteelSeries Sensei Pro vs. Rival Pro: Which shape should you buy?",
+      "url": "https://thegadgetflow.com/blog/steelseries-sensei-pro-vs-rival-pro/",
+      "canonical": "https://thegadgetflow.com/blog/steelseries-sensei-pro-vs-rival-pro",
+      "summary": "Shape is what stares you right in the face when you pick up a gaming mouse. SPARK Microsystems and SteelSeries launched the Sensei Pro and Rival Pro Series mice just weeks ago, and the two couldn&#8217;t be more alike under.. The post SteelSeries Sensei Pro vs. Rival Pro: Which shape should you buy? appeared first on Gadget Flow .",
+      "published": "2026-11-19T21:29:02+00:00",
+      "source_id": "gadgetflow",
+      "source": "Gadget Flow",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 launch",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ffc7ef0361ac586b",
+      "title": "Gemini could soon make it easy to find chats where you left unfinished draft text",
+      "url": "https://www.androidauthority.com/gemini-chat-drafts-3737466/",
+      "canonical": "https://www.androidauthority.com/gemini-chat-drafts-3737466",
+      "summary": "We could also be getting Markdown export on the mobile app.",
+      "published": "2026-11-19T22:40:04+00:00",
       "source_id": "androidauthority",
       "source": "Android Authority",
       "category": "smartphone",
       "tier": 1,
       "kind": "news",
-      "score": 16,
+      "score": 6,
       "reasons": [
-        "+3 price",
-        "+3 earbuds",
-        "+3 tier1",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "Gadget Flow"
-      ],
-      "related_urls": [
-        "https://thegadgetflow.com/product/xiaomi-clip-open-ear-earbuds/"
-      ]
-    },
-    {
-      "id": "b7c2e7421fed86b2",
-      "title": "Motorola confirms key specs for the Edge 70 Neo now",
-      "url": "https://www.gsmarena.com/motorola_edge_70_neo_now_has_an_official_launch_date_and_its_main_specs_confirmed-news-75533.php",
-      "canonical": "https://www.gsmarena.com/motorola_edge_70_neo_now_has_an_official_launch_date_and_its_main_specs_confirmed-news-75533.php",
-      "summary": "Yesterday, Motorola started teasing the upcoming Edge 70 Neo, revealing its official launch date for the phone, which will be November 24. Later, Motorola also confirmed that its main camera uses a 50MP Sony Lytia 710 sensor. The screen is a 6.8-inch Extreme AMOLED Super HD panel with 1.5K resolution, 144Hz refresh rate, 5,200-nit peak brightness, and Gorilla Glass 7i on top. The device is powered",
-      "published": "2026-11-19T06:31:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 15,
-      "reasons": [
-        "+3 launch",
-        "+3 official",
-        "+3 specs",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -327,22 +358,19 @@
       "related_urls": []
     },
     {
-      "id": "4bb265ee1fcb723e",
-      "title": "The Honor Watch 6 Pro launches in Europe with an early bird price, free strap and clip-on buds",
-      "url": "https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php",
-      "canonical": "https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php",
-      "summary": "The Honor Watch 5 Pro never got the wide release that it deserved – oh well, all eyes are on its successor now. Initially announced at the end of September for China, this watch is launching in Europe now. The Honor Watch 6 Pro is going on pre-sale today – Honor is offering it at promotional prices and with cool early bird perks. Note that the euro prices below apply to France, Germany, Italy and ",
-      "published": "2026-11-19T09:00:03+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
+      "id": "21adddeb42c52679",
+      "title": "“史上最大 IPO”：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元",
+      "url": "https://www.ithome.com/1/029/748.htm",
+      "canonical": "https://www.ithome.com/1/029/748.htm",
+      "summary": "IT之家 11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市， 首日股价以 97.17 美元 （IT之家注：现汇率约合 649.2 元人民币） 收盘，较 83 美元 （现汇率约合 554.5 元人民币） 的发行价上涨 17.07%。 该股开盘即报 111.5 美元 （现汇率约合 744.9 元人民币） ，较发行价高出约 34.3%；盘中一度突破 115 美元 （现汇率约合 768.3 元人民币） ，随后回落至 100 美元 （现汇率约合 668.1 元人民币） 下方。 按收盘价计算，Anthropic 市值约为 1.27 万亿美元 （现汇率约合 8.48 万亿元人民币） ，成为全球最受关注的 AI 公司之一。不过，其每股收益为 -59.62 美元 （现汇率约合 -398.3 元人民币） ，意味着公司仍处于高投入、尚未实现稳定盈利的阶段；",
+      "published": "2026-11-19T22:41:40+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
       "tier": 1,
       "kind": "news",
-      "score": 15,
+      "score": 6,
       "reasons": [
-        "+3 announced",
-        "+3 launch",
-        "+3 price",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -350,22 +378,19 @@
       "related_urls": []
     },
     {
-      "id": "ccf0120c494844c7",
-      "title": "Huawei Mate 90 Air listed ahead of launch",
-      "url": "https://www.gsmarena.com/huawei_mate_90_air_listed_ahead_of_launch-news-75537.php",
-      "canonical": "https://www.gsmarena.com/huawei_mate_90_air_listed_ahead_of_launch-news-75537.php",
-      "summary": "Last year, Huawei announced its Mate 70 Air with its thin 6.6mm profile, making it the lightest entry in the series. A report from earlier this month suggested we’d see the Mate 80 Air launch as early as next month but we now have a listing on Huawei’s official online store for the Mate 90 Air. It seems Huawei is skipping the Mate 80 Air entirely and jumping straight to the Mate 90 Air instead. Th",
-      "published": "2026-11-19T11:02:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
+      "id": "1c762a397fa35de6",
+      "title": "谷歌 Gemini 现可直接操作苹果 Mac 电脑，可跨应用操作、制作 PPT、填写表单",
+      "url": "https://www.ithome.com/1/029/749.htm",
+      "canonical": "https://www.ithome.com/1/029/749.htm",
+      "summary": "IT之家 11 月 20 日消息，当地时间 11 月 19 日，谷歌宣布为 macOS 版 Gemini 应用推出全新的“电脑操控”（Computer Use）功能，允许 AI 直接操作 Mac 上的桌面应用、访问本地文件及浏览网页，独立完成多步骤任务（IT之家注：该功能目前面向美国地区的英语用户逐步开放）。 根据谷歌官方介绍，用户只需通过自然语言描述任务，Gemini 就能在不同应用之间切换，执行点击、输入文字、填写表单及操作菜单等任务。 谷歌列举的应用场景包括批量处理照片、从本地 PDF 文件提取信息并填写在线表单、根据实时数据制作演示文稿，以及整理商品信息并在二手交易平台上架销售等。 在具体运行方式上，Gemini 会在独立的后台窗口中执行任务，不会占用用户当前的主屏幕和鼠标光标。聊天界面内还会显示实时操作预览，用户可以随时查看 AI 的执行过程，并暂停或停止任务。对于关键操作，Ge",
+      "published": "2026-11-19T22:48:06+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
       "tier": 1,
       "kind": "news",
-      "score": 15,
+      "score": 6,
       "reasons": [
-        "+3 announced",
-        "+3 launch",
-        "+3 official",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -373,22 +398,159 @@
       "related_urls": []
     },
     {
-      "id": "8fdcdbcae2133488",
-      "title": "Valve Ditches Steam Machine Reservations but Warns of Price Hikes and Shortages",
-      "url": "https://www.techpowerup.com/355040/valve-ditches-steam-machine-reservations-but-warns-of-price-hikes-and-shortages",
-      "canonical": "https://www.techpowerup.com/355040/valve-ditches-steam-machine-reservations-but-warns-of-price-hikes-and-shortages",
-      "summary": "Valve officially released the Steam Machine in mid-2026 with a reservation program and limitations on per-customer sales in order to minimize the impact of the ongoing RAM crisis and ensure that as many people as possible got a fair shout at buying a living room console-PC hybrid. Now, nearly five months after the console's initial launch, Valve has dropped the Steam Machine's reservation program ",
-      "published": "2026-11-19T21:24:54+00:00",
+      "id": "b7b873d85a2907dd",
+      "title": "苹果正自研 AI 智能体：可操控设备、浏览网页、编写代码，以期与 OpenAI、Anthropic 竞争",
+      "url": "https://www.ithome.com/1/029/750.htm",
+      "canonical": "https://www.ithome.com/1/029/750.htm",
+      "summary": "IT之家 11 月 20 日消息，彭博社马克 · 古尔曼（Mark Gurman）今日报道称，苹果正在开发自主 AI 智能体，计划让 AI 代替用户执行设备操控、应用操作、网页浏览和软件编程等任务，进一步进入由 OpenAI、Anthropic、Meta 等公司参与竞争的 AI 智能体市场。 古尔曼发现，苹果已经在官网发布招聘信息，其中一份职位招聘面向高级工程经理，岗位名称为“主动式智能体 AI”（Agentic AI - Proactive）。招聘信息称，苹果正在组建团队开发能够代表用户执行任务的 AI 助手，相关系统将具备编写代码、浏览网页、控制应用程序以及操作设备等能力。 苹果在招聘信息中描述了未来 AI 智能体的工作方式：用户可以让 AI 像熟练的人类操作者一样使用电脑，在浏览器、文档、终端、代码编辑器和各类服务之间切换，自主选择合适的工具完成任务。 该系统不仅能够执行单一指令，还",
+      "published": "2026-11-19T22:56:00+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ff5dc1424d4b2879",
+      "title": "苹果发布 iOS 27.3 Beta 2 修订版：修复 HomeView 配对问题，Siri AI 可读取 Safari 完整网页内容",
+      "url": "https://www.ithome.com/1/029/751.htm",
+      "canonical": "https://www.ithome.com/1/029/751.htm",
+      "summary": "IT之家 11 月 20 日消息，苹果于当地时间 11 月 19 日面向开发者推送了 iOS 27.3 Beta 2 和 iPadOS 27.3 Beta 2 的 v2 修订版，版本号均为 24C5049f，同时也面向公测版用户开放 iOS 27.3 Beta 2 更新。 IT之家注意到，根据苹果开发者官方网站的更新记录，此次重新发布主要修复了 Siri AI 与苹果智能家居设备 HomeView 配对时可能出现的设置问题。 苹果在更新说明中表示，此前版本存在一项已知问题：当 HomeView 与运行 iOS 27.3 或 iPadOS 27.3 测试版的 iPhone 或 iPad 配对时，设备上的 Siri AI 可能无法正确完成设置。此次更新针对这一问题进行了修复。 值得注意的是，iOS 27.3 Beta 2 此前已经带来多项 Siri AI 功能升级。其中，Safari 新增了「",
+      "published": "2026-11-19T23:04:03+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "634cf13b7bc7a478",
+      "title": "微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线",
+      "url": "https://www.ithome.com/1/029/747.htm",
+      "canonical": "https://www.ithome.com/1/029/747.htm",
+      "summary": "IT之家 11 月 20 日消息，本月召开的 Ignite 2026 活动中，微软宣布携手英伟达加速本地 AI 体验落地，让 AI 从“必须联网才能用”的云端服务，逐步走向“能在自己电脑上运行”的本地体验。 根据双方公布的合作愿景，搭载英伟达 RTX Spark 的 Windows PC 能运行本地大语言模型能力，让用户不必完全依赖网络，就能在电脑上直接使用 AI 助手、生成内容或处理文档。 本次双方合作为 GPU 加速的 Windows 365 云 PC，引入低延迟图形传输能力 Direct Stream，最多支持两路 60 帧 4K 画面，公开预览预计于 2027 年初推出。该功能可以把云端 Windows 电脑中由 GPU 渲染的画面，更高效、更流畅地传输到用户的本地设备，目标是让远程办公、设计、开发、虚拟桌面等场景更接近“本地电脑”的体验。 传统云 PC 通常把整块屏幕画面压缩后通",
+      "published": "2026-11-19T23:09:25+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "547d17e32f023aef",
+      "title": "OPPO Reno17 系列手机开售：全焦段 4K 超清长实况，3599 元起（国补后 3099 元起）",
+      "url": "https://www.ithome.com/1/029/752.htm",
+      "canonical": "https://www.ithome.com/1/029/752.htm",
+      "summary": "IT之家 11 月 20 日消息， OPPO Reno17 系列手机今日开售，搭载全焦段 4K 超清长实况，售价 3599 元起（国补后 3099 元起）。 IT之家整理价格如下： Reno17 8GB RAM + 256GB 存储空间：3599 元，国补后 3099 元 12GB RAM + 256GB 存储空间：3799 元，国补后 3299 元 12GB RAM + 512GB 存储空间：3999 元，国补后 3499 元 12GB RAM + 1TB 存储空间：4899 元，国补后 4399 元 京东 OPPO Reno17 3099 元起 直达链接 Reno 17 Pro 8GB RAM + 256GB 存储空间：4199 元，国补后 3699 元 12GB RAM + 256GB 存储空间：4599 元，国补后 4099 元 12GB RAM + 512GB 存储空间：4999",
+      "published": "2026-11-19T23:16:40+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "28c48b0a588311cd",
+      "title": "消息称苹果 iPhone 摄影关键人物麦考马克上月退休，曾主导 8 年影像研发",
+      "url": "https://www.ithome.com/1/029/753.htm",
+      "canonical": "https://www.ithome.com/1/029/753.htm",
+      "summary": "IT之家 11 月 20 日消息，彭博社昨日（11 月 19 日）发布博文， 报道称苹果 iPhone 影像团队核心人物乔恩 · 麦考马克（Jon McCormack）已于上月（2026 年 10 月）月底退休。 IT之家援引博文介绍，麦考马克于 2018 年加入苹果，担任相机与照片工程副总裁，是 iPhone 相机、照片应用及影像算法开发的重要推动者之一。苹果尚未公开宣布其离职，也未披露接任安排。 麦考马克在加入苹果前，曾任职于亚马逊和惠普。进入苹果后，他长期负责与拍摄全流程相关的技术工作，涵盖相机硬件与软件协同、图像处理、照片管理及拍摄体验等关键环节。 过去 8 年，iPhone 影像能力持续增强，包括夜间模式、计算摄影、人像拍摄、视频防抖以及后期照片处理等，背后均有其团队的深度参与。 彭博社指出不同于许多只负责单一硬件模块的高管，麦考马克被视为连接“相机工程”和“照片体验”的关键人物",
+      "published": "2026-11-19T23:19:53+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a13ca83f8414fe40",
+      "title": "苹果 macOS 27.3 Beta 2 公测版发布：扩展 Siri AI 能力，强化完全磁盘访问权限管理",
+      "url": "https://www.ithome.com/1/029/754.htm",
+      "canonical": "https://www.ithome.com/1/029/754.htm",
+      "summary": "IT之家 11 月 20 日消息，苹果于当地时间 11 月 19 日向公测版用户推送了 iOS / iPadOS 27.3 和 macOS 27.3 Beta 2，以及 tvOS 27.3 和 watchOS 27.3 的 Beta 2。 据 9to5Mac 和 MacRumors 报道，此次更新延续了苹果在新一代操作系统中对 Siri AI、Safari 浏览器及系统隐私权限管理的调整。 macOS 27.3 Beta 2 公测版的版本号为 26C5047e ，与此前发布的开发者预览版 Beta 2 一致。此次更新的重点之一是新增针对完全磁盘访问权限（Full Disk Access）和自动化工具的隐私控制选项，同时扩大 Apple Intelligence 在中国市场的可用性。 在此前发布的 macOS 27.3 Beta 1 中，苹果已经加入 Safari 垂直标签页和自适应深色模式",
+      "published": "2026-11-19T23:20:17+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0062a6f52916436c",
+      "title": "IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；中南大学通报附属医院 AI 论文争议；腾讯大幅削减元宝投入；比亚迪发布 DMS 超级混动...",
+      "url": "https://www.ithome.com/1/029/755.htm",
+      "canonical": "https://www.ithome.com/1/029/755.htm",
+      "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 20 日星期五，今天的重要科技资讯有： 1. Anthropic 完成史上最大规模 IPO，上市估值达 1.5 万亿美元 Anthropic 的发行价定为每股 83 美元（现汇率约合 554.5 元人民币），高于上周公布的预期区间，完全稀释后市值达到 1.5 万亿美元（现汇率约合 10.02 万亿元人民币）。 查看详情 2. 1 厘米标尺竟有 12 个刻度，中南大学通报附属医院 AI 论文争议、确认存在学术不端行为 中南大学表示，学校始终坚持对学术不端行为“零容忍”，将进一步加强科研作风建设，完善监督核查体系，坚决维护风清气正的学术生态。 查看详情 3. 腾讯大幅削减元宝投入：没有我们预期的那样成功 腾讯披露了微信 AI 助手小微的运营数据。腾讯总裁刘炽平也坦言，另一款 AI 助手元宝并未达到预期。 查看详情 4. 比亚迪发布 DM",
+      "published": "2026-11-19T23:21:22+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "eaaa49bef7c0d417",
+      "title": "Thermaltake's New 120 mm PC Case Fans Have Tiny Screens for Real-Time Monitoring or Built-In Games",
+      "url": "https://www.techpowerup.com/355045/thermaltakes-new-120-mm-pc-case-fans-have-tiny-screens-for-real-time-monitoring-or-built-in-games",
+      "canonical": "https://www.techpowerup.com/355045/thermaltakes-new-120-mm-pc-case-fans-have-tiny-screens-for-real-time-monitoring-or-built-in-games",
+      "summary": "Thermaltake is no stranger to weird and wonderful DIY PC cooling accessories, but its latest fan model, the Swafan Ultra 120 , takes things to another level, incorporating a tiny 4-inch LCD on the side of each fan for additional case customization and various other shenanigans. The Swafan Ultra's displays automatically connect and sync up in a daisy-chain configuration, and they can be controlled ",
+      "published": "2026-11-19T23:30:36+00:00",
       "source_id": "techpowerup",
       "source": "TechPowerUp",
       "category": "pc",
       "tier": 1,
       "kind": "news",
-      "score": 15,
+      "score": 6,
       "reasons": [
-        "+3 launch",
-        "+3 official",
-        "+3 price",
         "+3 tier1",
         "+3 fresh"
       ],
@@ -396,330 +558,85 @@
       "related_urls": []
     },
     {
-      "id": "3d00fbcf6168de7b",
-      "title": "Raspberry Pi SBCs get an open-source hardware I2C TPM 2.0 security module (Crowdfunding)",
-      "url": "https://www.cnx-software.com/2026/11/19/raspberry-pi-sbcs-get-an-open-source-hardware-i2c-tpm-2-0-security-module/",
-      "canonical": "https://www.cnx-software.com/2026/11/19/raspberry-pi-sbcs-get-an-open-source-hardware-i2c-tpm-2-0-security-module",
-      "summary": "ANAVI I2C TPM 2.0 is an open-source hardware I2C TPM 2.0 security module for Raspberry Pi single board computers based on the Infineon Optiga SLB 9673 TPM 2.0 chip. It&#8217;s an alternative to the earlier ANAVI TPM 2.0 module using an Optiga SLB 9672 SPI chip. The add-on board is designed for developers, hobbyists, and professionals who require enhanced security for Raspberry Pi-based projects. I",
-      "published": "2026-11-19T09:43:17+00:00",
-      "source_id": "cnx_software",
-      "source": "CNX Software",
-      "category": "weird",
-      "tier": 2,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+6 crowdfunding",
-        "+1 tier2",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "Adafruit Blog"
-      ],
-      "related_urls": [
-        "https://blog.adafruit.com/2026/11/19/raspberry-pi-sbcs-get-an-open-source-hardware-i2c-tpm-2-0-security-module-crowdfunding/"
-      ]
-    },
-    {
-      "id": "f26d8876e449052c",
-      "title": "Galaxy S26 Ultra gets a new 5x Portrait mode option with One UI 9.5 Beta",
-      "url": "https://www.gizmochina.com/2026/11/19/galaxy-s26-ultra-gets-a-new-5x-portrait-mode-option-with-one-ui-9-5-beta/",
-      "canonical": "https://www.gizmochina.com/2026/11/19/galaxy-s26-ultra-gets-a-new-5x-portrait-mode-option-with-one-ui-9-5-beta",
-      "summary": "Galaxy S26 Ultra owners now gain an extra framing choice that makes fuller use of the phone’s existing dedicated 50MP telephoto camera with 5x optical zoom. The post Galaxy S26 Ultra gets a new 5x Portrait mode option with One UI 9.5 Beta appeared first on Gizmochina .",
-      "published": "2026-11-19T13:43:46+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+3 tier1",
-        "+3 fresh",
-        "+8 3媒体が報道"
-      ],
-      "also_covered_by": [
-        "Notebookcheck (Smartphone)",
-        "SamMobile"
-      ],
-      "related_urls": [
-        "https://www.notebookcheck.net/Samsung-Galaxy-S26-Ultra-gets-new-camera-features-with-One-UI-9-5.1454637.0.html",
-        "https://www.sammobile.com/news/one-ui-9-5-notable-change-galaxy-s26-ultra-camera/"
-      ]
-    },
-    {
-      "id": "7373dfea2b5a924b",
-      "title": "AMD \"Zen 6\" for Desktop Reportedly Pushed to Computex 2027",
-      "url": "https://www.techpowerup.com/355030/amd-zen-6-for-desktop-reportedly-pushed-to-computex-2027",
-      "canonical": "https://www.techpowerup.com/355030/amd-zen-6-for-desktop-reportedly-pushed-to-computex-2027",
-      "summary": "AMD's upcoming Ryzen processors based on the new Zen 6 core architecture are reportedly delayed until Computex 2027, according to the latest information from Chiphell. The Zen 6 EPYC lineup will utilize TSMC's N2 node, with the standard version for Venice and the enhanced N2P for Verano. However, for the desktop Zen 6 Ryzen family, codenamed Olympic Ridge, AMD is switching to TSMC's N2X node, an e",
-      "published": "2026-11-19T17:22:26+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
+      "id": "4b03cbdfbdc47fd3",
+      "title": "Framework Laptop 12, now with Core Series 3",
+      "url": "https://frame.work/blog/framework-laptop-12-now-with-core-series-3",
+      "canonical": "https://frame.work/blog/framework-laptop-12-now-with-core-series-3",
+      "summary": "Today, we’re excited to announce the new Framework Laptop 12 with Intel’s latest Core Series 3 processors, Thunderbolt 4, Wi-Fi 7, options for fingerprint reader and backlit keyboard, and for the first time, a pre-built version with Fedora Linux preloaded. Pre-orders are open today , with Batch 1 shipping in October. We also uploaded two videos to the Framework YouTube channel today: an overview o",
+      "published": "2026-08-18T15:40:02+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
       "category": "pc",
       "tier": 1,
       "kind": "news",
-      "score": 14,
+      "score": 5,
       "reasons": [
-        "+3 tier1",
-        "+3 fresh",
-        "+8 3媒体が報道"
-      ],
-      "also_covered_by": [
-        "Notebookcheck (Smartphone)",
-        "Wccftech"
-      ],
-      "related_urls": [
-        "https://www.notebookcheck.net/AMD-Zen-6-Olympic-Ridge-desktop-CPUs-reportedly-delayed.1454736.0.html",
-        "https://wccftech.com/amd-zen-6-olympic-ridge-desktop-cpus-reportedly-slip-past-computex-2027-after-a-switch-to-tsmcs-performance-focused-n2x-2nm-process/"
-      ]
-    },
-    {
-      "id": "5484fdd0ec11168a",
-      "title": "Motorola Razr Flex official-looking images leak ahead of launch",
-      "url": "https://www.notebookcheck.net/Motorola-Razr-Flex-official-looking-images-leak-ahead-of-launch.1454761.0.html",
-      "canonical": "https://www.notebookcheck.net/Motorola-Razr-Flex-official-looking-images-leak-ahead-of-launch.1454761.0.html",
-      "summary": "The Razr Flex from Motorola is expected next month as a cheaper alternative to the Galaxy Z Fold 8 and the iPhone Duo. It is expected to be smaller than both, and new images have given a first look at its design.",
-      "published": "2026-11-19T19:17:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+4 first look",
-        "+3 launch",
-        "+3 official",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "8efb407d78fa7ebc",
-      "title": "Honor Watch 6 Pro launches globally with 5,500-nit display and 18-day battery",
-      "url": "https://www.gizmochina.com/2026/11/19/honor-watch-6-pro-global-launch-europe-uk-price/",
-      "canonical": "https://www.gizmochina.com/2026/11/19/honor-watch-6-pro-global-launch-europe-uk-price",
-      "summary": "Honor launched the Watch 6 in global markets in June, after the Watch 6 Plus first arrived in China. The Watch 6 Pro then debuted in China in late September as a more premium follow-up to last year&#8217;s Watch 5 Pro. Honor has now taken the Watch 6 Pro global, with pre-orders opening in Europe [&#8230;] The post Honor Watch 6 Pro launches globally with 5,500-nit display and 18-day battery appear",
-      "published": "2026-11-19T10:59:19+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+3 launch",
         "+4 pre-order",
+        "+3 keyboard",
         "+3 tier1",
-        "+3 fresh"
+        "-5 stale"
       ],
       "also_covered_by": [],
       "related_urls": []
     },
     {
-      "id": "e5bb24f7a2cc58a1",
-      "title": "DJI raises prices on several products, including Osmo Pocket cameras",
-      "url": "https://www.gizmochina.com/2026/11/19/dji-raises-prices-on-several-products-including-osmo-pocket-cameras/",
-      "canonical": "https://www.gizmochina.com/2026/11/19/dji-raises-prices-on-several-products-including-osmo-pocket-cameras",
-      "summary": "Multiple kits of the Osmo Pocket 4, Osmo Pocket 4P and Osmo Nano saw increases, with the largest reaching 560 yuan, which roughly translates to $83. The post DJI raises prices on several products, including Osmo Pocket cameras appeared first on Gizmochina .",
-      "published": "2026-11-19T13:13:58+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
+      "id": "81ba5cb5f8db2f95",
+      "title": "AMD launches Ryzen AI Halo mini PC with Ryzen AI Max+ 495 and 192GB RAM, Valve release Steam Frame CAD files: Liliputing News Roundup",
+      "url": "https://liliputing.com/amd-launches-ryzen-ai-halo-mini-pc-with-ryzen-ai-max-495-and-192gb-ram-valve-release-steam-frame-cad-files-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/amd-launches-ryzen-ai-halo-mini-pc-with-ryzen-ai-max-495-and-192gb-ram-valve-release-steam-frame-cad-files-liliputing-news-roundup",
+      "summary": "AMD's 2nd-gen Ryzen Halo Developer Platform is a mini PC with a Ryzen AI MAX+ PRO 495 processor with up to 192GB of unified high-bandwidth RAM and support for 300b parameter AI models • Last year MINISFORUM launched a compact AtomMan G1 Pro desktop with Ryzen 9 8945HX and NVIDIA RTX 5060 • Valve has released CAD and electrical interface files for the Steam Frame, making them available for non-comm",
+      "published": "2026-10-12T21:21:33+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
       "category": "weird",
       "tier": 1,
       "kind": "news",
-      "score": 13,
+      "score": 5,
       "reasons": [
-        "+3 price",
+        "+3 launch",
+        "+4 mini pc",
         "+3 tier1",
-        "+3 fresh",
-        "+4 2媒体が報道"
+        "-5 stale"
       ],
-      "also_covered_by": [
-        "Notebookcheck (Smartphone)"
-      ],
-      "related_urls": [
-        "https://www.notebookcheck.net/DJI-raises-prices-of-Osmo-Pocket-cameras-amid-rising-memory-and-chip-costs.1454659.0.html"
-      ]
+      "also_covered_by": [],
+      "related_urls": []
     },
     {
-      "id": "b68581e5f2f33145",
-      "title": "GSMArena Awards 2026: The winners",
-      "url": "https://www.gsmarena.com/best_phones_2026_gsmarena_awards-news-75526.php",
-      "canonical": "https://www.gsmarena.com/best_phones_2026_gsmarena_awards-news-75526.php",
-      "summary": "The deliberations are complete and our editors' panel has made its decision – here are the winners of the GSMArena 2026 Awards. These are the best devices out of the 100+ models that we reviewed over the past twelve months. We have twelve awards to hand out, so let's get started. Table of Contents: Phone of the Year 2026 Best Value 2026 Best Budget 2026 Best Foldable 2026 Best Gaming 2026 Best Com",
-      "published": "2026-11-19T15:26:01+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
+      "id": "90490dbb6b4f43c7",
+      "title": "Reviews of the new Framework Laptop 12 are live",
+      "url": "https://frame.work/blog/reviews-of-the-new-framework-laptop-12-are-live",
+      "canonical": "https://frame.work/blog/reviews-of-the-new-framework-laptop-12-are-live",
+      "summary": "Reviews are live on the new Framework Laptop 12 powered by Intel Core Series 3! We designed Framework Laptop 12 from the start to be a fun, colorful, portable, Linux-ready 2-in-1. With this generation, we focused on power efficiency, CPU performance, and improvements to quality of life with options for fingerprint reader and backlit keyboard. Reviewers confirmed we maintained what makes this form ",
+      "published": "2026-10-13T18:35:03+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
       "tier": 1,
       "kind": "news",
-      "score": 13,
+      "score": 5,
       "reasons": [
         "+4 review",
-        "+3 foldable",
+        "+3 keyboard",
         "+3 tier1",
-        "+3 fresh"
+        "-5 stale"
       ],
       "also_covered_by": [],
       "related_urls": []
     },
     {
-      "id": "010c36d2618efda5",
-      "title": "Casio brings its three sushi-themed G-Shock watches to the US",
-      "url": "https://www.gizmochina.com/2026/11/19/casio-sushi-inspired-g-shock-watches-launched-in-the-us-specs-price/",
-      "canonical": "https://www.gizmochina.com/2026/11/19/casio-sushi-inspired-g-shock-watches-launched-in-the-us-specs-price",
-      "summary": "Casio has released a trio of sushi-themed G-Shock watches in the US, following their initial launch in Japan last month. The collection takes three of the company’s standard watch silhouettes and updates them with colorways and design elements based on salmon, tuna, and ikura (salmon roe). Pricing and Design Details Also Read Casio G-Shock vs [&#8230;] The post Casio brings its three sushi-themed ",
-      "published": "2026-11-19T17:34:53+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+3 launch",
-        "+4 japan",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "8db20ed9c2883e42",
-      "title": "(PR) Tuxedo Launches InfinityBook Pro 15 Gen11 Lightweight Linux Ultrabook with Ryzen AI 9",
-      "url": "https://www.techpowerup.com/355037/tuxedo-launches-infinitybook-pro-15-gen11-lightweight-linux-ultrabook-with-ryzen-ai-9",
-      "canonical": "https://www.techpowerup.com/355037/tuxedo-launches-infinitybook-pro-15-gen11-lightweight-linux-ultrabook-with-ryzen-ai-9",
-      "summary": "The TUXEDO InfinityBook Pro 15 - Gen11 combines a pleasantly large, bright 15.3-inch screen with plenty of speed for software developers and media content creators, thanks to a 12-core AMD Ryzen AI 9 HX 470 and up to 128 GB of RAM. At the same time, it is built for mobility: an ultra-thin and very light all-aluminium body, a maximum-sized 99 Wh battery and flexible USB-C charging. Very Light and U",
-      "published": "2026-11-19T18:46:27+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+3 launch",
-        "+3 tier1",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "Phoronix"
-      ],
-      "related_urls": [
-        "https://www.phoronix.com/news/InfinityBook-Pro-15-Gen11"
-      ]
-    },
-    {
-      "id": "d3bf74a10ac6b7e0",
-      "title": "Honor Magic V7 will reportedly be a wide foldable",
-      "url": "https://www.gsmarena.com/honor_magic_v7_will_reportedly_be_a_wide_foldable-news-75534.php",
-      "canonical": "https://www.gsmarena.com/honor_magic_v7_will_reportedly_be_a_wide_foldable-news-75534.php",
-      "summary": "Honor has reportedly been working on a wide foldable of its own for a while now, to take on the likes of the Samsung Galaxy Z Fold8 and the iPhone Duo. Back in early October, a rumor claimed that it's launching in January, but its name wasn't mentioned. Today, a tipster on X has shed some light on that. According to the tipster, the Magic V7 will be the one with the new wide form factor. Not only ",
-      "published": "2026-11-19T02:11:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 12,
-      "reasons": [
-        "+3 launch",
-        "+3 foldable",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "43c4cab4bdc39e49",
-      "title": "GTA VI Unofficially Breaks Twitch Viewership Records with 3.3 Million Viewers",
-      "url": "https://www.techpowerup.com/355011/gta-vi-unofficially-breaks-twitch-viewership-records-with-3-3-million-viewers",
-      "canonical": "https://www.techpowerup.com/355011/gta-vi-unofficially-breaks-twitch-viewership-records-with-3-3-million-viewers",
-      "summary": "GTA VI has already been predicted to be one of the biggest, if not the biggest, video game launches in the industry so far, with analysts previously predicting that it could rake in as much as $4.5 billion in its first week on the market alone . As the game starts to roll out across the world, it appears to be living up to those high expectations, with its Twitch viewership metrics giving us an in",
-      "published": "2026-11-19T03:35:55+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 12,
-      "reasons": [
-        "+3 launch",
-        "+3 official",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "400d902556282aa0",
-      "title": "Motorola Razr Fold finally receives Android 17 stable update",
-      "url": "https://www.gsmarena.com/motorola_razr_fold_android_17_stable_update-news-75536.php",
-      "canonical": "https://www.gsmarena.com/motorola_razr_fold_android_17_stable_update-news-75536.php",
-      "summary": "Motorola rolled out the stable Android 17 update to some of its folding and non-folding smartphones, but it left users of its most expensive folding smartphone, the Razr Fold, waiting. Well, the wait is finally over, as Motorola has released the stable Android 17 update for the Razr Fold. [#InlinePriceWidget,14402,1#] Motorola hasn't made an official announcement about Android 17's rollout for the",
-      "published": "2026-11-19T07:51:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 12,
-      "reasons": [
-        "+3 official",
-        "+3 price",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "cb054be2be04df87",
-      "title": "Obsbot launches Tail Air 2 with 1-inch CMOS sensor, AI Tracking 2.0 & rotating lens for vertical video",
-      "url": "https://www.gizmochina.com/2026/11/19/obsbot-tail-air-2-launched-specs-price/",
-      "canonical": "https://www.gizmochina.com/2026/11/19/obsbot-tail-air-2-launched-specs-price",
-      "summary": "Obsbot just announced the Tail Air 2, the next version of its automated tracking camera. It&#8217;s mainly aimed at solo creators and streamers who need a camera that can follow them around while they work. The two main updates this time around are a larger 1-inch sensor and a new roll axis on the gimbal. [&#8230;] The post Obsbot launches Tail Air 2 with 1-inch CMOS sensor, AI Tracking 2.0 rotati",
-      "published": "2026-11-19T15:54:21+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 12,
-      "reasons": [
-        "+3 announced",
-        "+3 launch",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "fd2f436bed7a367f",
-      "title": "Citizen's latest made-in-Japan flagship Eco-Drive features a stunning Tosa Washi paper dial",
-      "url": "https://www.notebookcheck.net/Citizen-s-latest-made-in-Japan-flagship-Eco-Drive-features-a-stunning-Tosa-Washi-paper-dial.1454245.0.html",
-      "canonical": "https://www.notebookcheck.net/Citizen-s-latest-made-in-Japan-flagship-Eco-Drive-features-a-stunning-Tosa-Washi-paper-dial.1454245.0.html",
-      "summary": "Citizen is bringing another beautifully crafted Japanese paper dial to its flagship watch collection. The new AQ4100-65F features a charcoal-gray Tosa Washi dial with intricate, cloud-like patterns inspired by traditional Japanese ink painting, paired with a high-accuracy Eco-Drive movement.",
-      "published": "2026-11-19T18:45:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
+      "id": "9bd714f340d23990",
+      "title": "My old gaming laptop is now the local AI server for my whole house",
+      "url": "https://www.xda-developers.com/my-old-gaming-laptop-is-now-the-local-ai-server-for-my-whole-house/",
+      "canonical": "https://www.xda-developers.com/my-old-gaming-laptop-is-now-the-local-ai-server-for-my-whole-house",
+      "summary": "Gemma 4 drives my productivity tasks on a dinosaur laptop I was going to throw out",
+      "published": "2026-11-19T21:30:21+00:00",
+      "source_id": "xda",
+      "source": "XDA Developers",
       "category": "smartphone",
       "tier": 2,
       "kind": "news",
-      "score": 12,
+      "score": 4,
       "reasons": [
-        "+4 e ink",
-        "+4 japan",
         "+1 tier2",
         "+3 fresh"
       ],
@@ -729,184 +646,14 @@
   ],
   "japan_launch": [
     {
-      "title": "【新発売】耳を塞がない“ながら聴き”×目を守る“ブルーライトカット”が1本に！HIDISCより、軽量31gのメガネ型オーディオ「サウンドグラス」が登場",
-      "url": "https://prtimes.jp/main/html/rd/p/000000125.000053206.html",
+      "title": "【日本初※】医学部受験の集団討論まで、AIの面接官・受験生と練習できる「医学部AI面接室」提供開始　～個人面接・MMI・集団面接・大学別の出題にも対応～",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193779.html",
       "summary": "",
-      "published": "2026-11-19T21:00:02+00:00",
+      "published": "2026-11-19T23:07:59+00:00",
       "source": "PR TIMES",
       "source_id": "prtimes",
       "kind": "japan_launch",
-      "id": "c6126314a3e46946"
-    },
-    {
-      "title": "海外AIツールの「日本市場展開支援」を開始　AIツールギャラリーが掲載・記事・YouTube・セミナー・共同調査を組み合わせて提供",
-      "url": "https://prtimes.jp/main/html/rd/p/000000062.000136909.html",
-      "summary": "[AIリスキル株式会社] [画像1: https://prcdn.freetls.fastly.net/release_image/136909/62/136909-62-710cb7eed8fef90fb27f9a3a0726210a-1920x1005.png?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&...",
-      "published": "2026-11-19T17:10:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "60487325184524ac"
-    },
-    {
-      "title": "AGM、Android 17・256GB搭載の8インチタブレット「AGM PAD P5」を発表。11月27日よりAmazon・楽天市場で予約販売開始予定",
-      "url": "https://prtimes.jp/main/html/rd/p/000000107.000133655.html",
-      "summary": "",
-      "published": "2026-11-19T10:05:12+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "e4170eda63dabeff"
-    },
-    {
-      "title": "RIFFAI Stars Lab、AGRIERと日本国内で自社初の農業モニタリングPoCを開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000001.000181378.html",
-      "summary": "",
-      "published": "2026-11-19T09:16:44+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "e903c4b8264c0f65"
-    },
-    {
-      "title": "自動調光バイザーと360°LED警告ライトを搭載。視界と走行時の安全をサポートするスマートヘルメット「LinkedSafe S2」、11月25日CAMPFIREで公開！",
-      "url": "https://prtimes.jp/main/html/rd/p/000000098.000184990.html",
-      "summary": "",
-      "published": "2026-11-19T08:30:08+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "e6fa4fb2e75e199c"
-    },
-    {
-      "title": "Meitu、日本市場向けに秋冬の新機能を公開！「自動体型加工」や雪景色AIアートが登場",
-      "url": "https://prtimes.jp/main/html/rd/p/000000037.000147322.html",
-      "summary": "",
-      "published": "2026-11-19T08:12:20+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "fd6faa1b1c3c9237"
-    },
-    {
-      "title": "Klleon、AIアバターと対話練習ができるロールプレイング研修サービス「ROLEFIT」を日本市場向けに提供開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000016.000092155.html",
-      "summary": "",
-      "published": "2026-11-19T08:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "9d485d322732d22e"
-    },
-    {
-      "title": "【日本初AI Cafe】ドリンク1杯で、生成AIのトークンが使える。高田馬場「Token Cafe」11月16日オープン",
-      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194542.html",
-      "summary": "",
-      "published": "2026-11-19T06:27:51+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "fa8b2ff848996450"
-    },
-    {
-      "title": "AI機能搭載衣類ケア家電「LG Styler(TM) Premium AI」、12月3日（木）より順次一般販売開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000518.000023289.html",
-      "summary": "",
-      "published": "2026-11-19T06:00:01+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "60b379067b1a5967"
-    },
-    {
-      "title": "400台限定！AI機能を搭載した移動式4Kスマートモニター「LG Smart Monitor Swing AI」を11月25日からMakuake先行販売",
-      "url": "https://prtimes.jp/main/html/rd/p/000000520.000023289.html",
-      "summary": "",
-      "published": "2026-11-19T05:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "972d178cfa72676a"
-    },
-    {
-      "title": "DAISO、オリジナルのきせかえカード「おしゃれ(ハート)パレード」シリーズを新発売",
-      "url": "https://prtimes.jp/main/html/rd/p/000000373.000039955.html",
-      "summary": "",
-      "published": "2026-11-19T04:00:01+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "da7b3ec48f73685e"
-    },
-    {
-      "title": "まもなく開催！11月23日(月・祝) PARCO × Rainbow Disco Clubによるイベント「field」タイムテーブル公開！Tシャツプロジェクト最終ラインナップ販売開始。",
-      "url": "https://prtimes.jp/main/html/rd/p/000004177.000003639.html",
-      "summary": "",
-      "published": "2026-11-19T03:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "f7df0e4aae8611e1"
-    },
-    {
-      "title": "文化芸術分野に特化した「ART JOB FAIR 2027」が1月23日・24日に東京・京橋で開催、来場予約開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000014.000098936.html",
-      "summary": "",
-      "published": "2026-11-19T03:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "6a6483f4ac3a4ce9"
-    },
-    {
-      "title": "【日本初登場】ひとりの練習に、リアルタイムのAIコーチを。AIテニスロボット「Pongbot Aura S」がMakuakeに登場！",
-      "url": "https://prtimes.jp/main/html/rd/p/000000001.000193248.html",
-      "summary": "",
-      "published": "2026-11-19T02:00:28+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "3e090fb0d9052fd6"
-    },
-    {
-      "title": "充電しながら映像出力！4K/60Hz対応、画面複製・画面拡張が可能なUSB Type-C to HDMI変換ケーブルを新発売",
-      "url": "https://prtimes.jp/main/html/rd/p/000001611.000026881.html",
-      "summary": "",
-      "published": "2026-11-19T02:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "29faa6b475fae6c4"
-    },
-    {
-      "title": "【Anker】Qi2 25W対応&冷却ファン搭載、ネオリチウムイオンバッテリー採用のモバイルバッテリー「Anker MagGo Power Bank 2 Pro」を販売開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000696.000016775.html",
-      "summary": "",
-      "published": "2026-11-19T02:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "1f7ceb5beb93667c"
-    },
-    {
-      "title": "【Omada初！SIMで屋外Wi-Fi】屋内外対応4Gゲートウェイ「ER703WP-4G-Outdoor」を12月1日（火）に販売開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000320.000093240.html",
-      "summary": "",
-      "published": "2026-11-19T02:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "d5538aaf0dad4a3d"
-    },
-    {
-      "title": "時を超えて、運命に抗う！ANGEL CLOVERは、TVアニメ『東京リベンジャーズ』三天戦争編のキャラクターをモチーフにした腕時計全5型を11月19日に予約開始し、12月18日より発売します。",
-      "url": "https://prtimes.jp/main/html/rd/p/000002063.000025284.html",
-      "summary": "",
-      "published": "2026-11-19T01:22:31+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "2add22d5f5d27e6a"
+      "id": "3069143534ba00f6"
     }
   ]
 }
