@@ -56,7 +56,7 @@ sources:
 - title: 'LightMake L4: 1st 4-Head Color 3D Printer with Linear Motors'
   url: https://www.kickstarter.com/projects/968766790/lightmake-l4-1st-4-head-color-3d-printer-with-linear-motor
   publisher: Kickstarter
-modified: 2026-11-06
+modified: 2026-11-21
 videos_after:
   - id: po3mjwkNQDc
     title: "I Tested the Lightmake L4: 3D Printing Won't Be the Same"
@@ -70,6 +70,12 @@ videos_after:
     published: 2026-10-10
     added: 2026-11-06
     note: "個人の YouTuber による実機の検証動画（英語）"
+  - id: ByDv2UTXJDo
+    title: "One Head Is Good But Four Are Better - LightMake L4 - A New King of 3D Printers"
+    channel: "The Q"
+    published: 2026-09-02
+    added: 2026-11-21
+    note: "LightMake L4 の実機を動かした動画。ベータ機とされる（英語）"
 ---
 
 深圳のLightMakeが、4本の印刷ヘッドをそれぞれ独立してリニアモーターで駆動するデスクトップ3Dプリンタ「L4」を、2026年8月31日にKickstarterで発売した。一般的なマルチカラー機はAMS(自動マテリアルシステム)のように1本のノズルへ複数のフィラメントを順番に送り込む方式が多いが、L4は物理的に独立した4本のヘッドを常設し、約1秒でヘッドを切り替えられるとLightMakeは説明する。早期支援(スーパーアーリーバード)価格は1,299ドルから、出荷は2026年第4四半期を予定する。
