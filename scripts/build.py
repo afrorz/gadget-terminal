@@ -1477,8 +1477,10 @@ def pager(current: int, total: int) -> str:
            if current < total else '<span class="pager-link is-off"><span class="pager-pc">古い記事</span><span class="pager-sp">次へ</span> →</span>')
     # 全ページを並べると毎週1つずつ増えて何行にもなる。最初・最後・今の前後だけ出し、あいだは「…」(2026-11-14 本人)
     # スマホは「新しい記事」「古い記事」のボタンと横一列に並べるので、前後1つずつに絞った版も作り CSS で出し分ける
-    def nums_html(span: int) -> str:
-        shown = sorted({1, total, *range(max(1, current - span), min(total, current + span) + 1)})
+    # 2026-11-21 本人「6くらいまで表示させて」: 続けて並べる番号の数を決め、端では片側に寄せる(1ページ目なら 1〜6 … 13)
+    def nums_html(width: int) -> str:
+        start = max(1, min(current - (width - 1) // 2, total - width + 1))
+        shown = sorted({1, total, *range(start, min(total, start + width - 1) + 1)})
         parts, prev_n = [], 0
         for n in shown:
             if n - prev_n == 2:  # 1つだけ飛ぶなら「…」より番号のほうが短い
@@ -1489,8 +1491,8 @@ def pager(current: int, total: int) -> str:
                          else f'<a class="pager-num" href="{u(page_path(n))}">{n}</a>')
             prev_n = n
         return "".join(parts)
-    nums = (f'<span class="pager-nums-wide">{nums_html(2)}</span>'
-            f'<span class="pager-nums-narrow">{nums_html(1)}</span>')
+    nums = (f'<span class="pager-nums-wide">{nums_html(6)}</span>'
+            f'<span class="pager-nums-narrow">{nums_html(3)}</span>')
     return f'<nav class="pager" aria-label="ページ送り">{prev}<span class="pager-nums">{nums}</span>{nxt}</nav>'
 
 
