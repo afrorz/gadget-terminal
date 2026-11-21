@@ -31,6 +31,19 @@ giteki:
   checked: 2026-11-22
   radio: 2.4GHz、Bluetooth（規格の版は未確認）
   note: 日本の代理店はMakuakeのページで取得済みとしているが、総務省DBでは番号を確認できなかった
+clips:
+- file: easysmx-x20-pro-magnetic-charging-receiver/dock.mp4
+  caption: "置くだけで磁石で充電（持ち上げれば自動で再接続）"
+  credit: "EasySMX 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=eTsIkkY_gYY"
+- file: easysmx-x20-pro-magnetic-charging-receiver/stick.mp4
+  caption: "スティックの重さを変えられる（左右別々に30〜90gf）"
+  credit: "EasySMX 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=eTsIkkY_gYY"
+- file: easysmx-x20-pro-magnetic-charging-receiver/screen.mp4
+  caption: "本体の画面で設定を変える（電池残量も接続方式も）"
+  credit: "EasySMX 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=eTsIkkY_gYY"
 sources:
 - title: EasySMX's X20 Pro Controller Charges Through Its USB Receiver（Yanko Design）
   url: https://www.yankodesign.com/2026/11/21/easysmxs-x20-pro-controller-charges-through-its-usb-receiver/
