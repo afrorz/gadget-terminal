@@ -1,80 +1,32 @@
 {
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T06:31:11.102540+09:00",
+  "generated_at": "2026-11-22T07:18:43.961515+09:00",
   "stats": {
-    "fetched": 726,
+    "fetched": 725,
     "unique": 685,
-    "new": 241,
-    "clusters": 234,
-    "selected": 30
+    "new": 22,
+    "clusters": 22,
+    "selected": 18
   },
   "items": [
     {
-      "title": "Makuake｜【金属の重厚感×ガジェット機能】メカニカルな構造の輪ゴム銃『VERS』｜Makuake（マクアケ）",
-      "url": "https://www.makuake.com/project/msk_metalcraft-rubberbandgun/",
-      "summary": "幼い頃、誰もが一度は夢中になった輪ゴム銃。大人になった今、あの時の純粋な情熱を現代の技術と職人の魂でメタルクラフトへ。これは、誰かに見せびらかしたくなる、大人のための工芸品。飾っても良し。遊んでも良し。Made in JAPAN我々、桝谷精工株式会社は和歌山県で板金加工業を生業としています。輪ゴム銃『VERS』は、自社工場のレーザー加工機を用いて板金を加工し、各部品の製造や組立も自社で行っている【",
-      "image": "https://static.makuake.com/upload/project/54371/main_54371.png?version=1794542529&amp;width=690&amp;height=388",
-      "published": "2026-11-25T00:00:00+00:00",
+      "title": "Makuake｜「不正アクセス対策にアナログで対抗！？」ひみつの答えのパスワードノート｜Makuake（マクアケ）",
+      "url": "https://www.makuake.com/project/passwordnote2/",
+      "summary": "最近、AIによる相次ぐ情報漏えい問題。個人情報を守る事が難しくなってきました。ショッピングや会員登録などたくさんの便利なサイトがあるのですがIDやパスワードは増え続ける一方です。いろいろなサイトに登録して、いざ利用しようと思ったら・・・以前Makuakeで販売した「ひみつの答えのパスワードノート」の紹介です。相次ぐ情報漏えいが問題になっている今、アナログ管理もひとつの方法として改めて見ていただきた",
+      "image": "https://static.makuake.com/upload/project/54572/main_54572.jpg?version=1794986374&amp;width=690&amp;height=388",
+      "published": "2026-11-26T00:00:00+00:00",
       "source_id": "makuake",
       "source": "Makuake",
       "category": "weird",
       "tier": 1,
       "kind": "crowdfunding",
-      "id": "09c0069954f5ffc1",
-      "canonical": "https://www.makuake.com/project/msk_metalcraft-rubberbandgun",
-      "score": 24,
+      "id": "873f73d92408c085",
+      "canonical": "https://www.makuake.com/project/passwordnote2",
+      "score": 20,
       "reasons": [
         "+6 makuake",
-        "+4 japan",
         "+8 クラファン発",
         "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "676b66de485bc2d1",
-      "title": "GPD Win Mini Ultra Pricing Confirmed: Intel Arc G3 Extreme Handheld Starts at $1,699",
-      "url": "https://www.techpowerup.com/355075/gpd-win-mini-ultra-pricing-confirmed-intel-arc-g3-extreme-handheld-starts-at-usd-1-699",
-      "canonical": "https://www.techpowerup.com/355075/gpd-win-mini-ultra-pricing-confirmed-intel-arc-g3-extreme-handheld-starts-at-usd-1-699",
-      "summary": "GPD has officially published pricing details for the Win Mini Ultra, following the gaming handheld's spec sheet previously being published ahead of the full launch. According to a recent post on X , the Win Mini Ultra will initially be available with 32 GB of RAM and 1 TB of SSD storage, which will sell for $1,699 on Indiegogo . That version of the handheld will ship with Intel's Arc G3 Extreme CP",
-      "published": "2026-11-21T05:56:41+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 22,
-      "reasons": [
-        "+6 indiegogo",
-        "+3 launch",
-        "+3 official",
-        "+4 handheld",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "60b8f86509ce2bce",
-      "title": "Tamagotchi-style digital pet turns the back of your smartphone into its new home",
-      "url": "https://www.notebookcheck.net/Tamagotchi-style-digital-pet-turns-the-back-of-your-smartphone-into-its-new-home.1455500.0.html",
-      "canonical": "https://www.notebookcheck.net/Tamagotchi-style-digital-pet-turns-the-back-of-your-smartphone-into-its-new-home.1455500.0.html",
-      "summary": "A Tamagotchi-style digital pet has found a new home on the back of your smartphone. Beambox's Polly combines magnetic attachment, a touchscreen and AI chat, with Japanese crowdfunding prices starting at ¥10,999 and deliveries planned for January 2027.",
-      "published": "2026-11-21T18:19:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 17,
-      "reasons": [
-        "+6 crowdfunding",
-        "+3 price",
-        "+4 japan",
-        "+1 tier2",
         "+3 fresh"
       ],
       "also_covered_by": [],
@@ -106,408 +58,21 @@
       "related_urls": []
     },
     {
-      "id": "48c1f797d998b0a3",
-      "title": "Five new Tokyo Revengers watches launch with Japanese solar movements and character dials",
-      "url": "https://www.notebookcheck.net/Five-new-Tokyo-Revengers-watches-launch-with-Japanese-solar-movements-and-character-dials.1456028.0.html",
-      "canonical": "https://www.notebookcheck.net/Five-new-Tokyo-Revengers-watches-launch-with-Japanese-solar-movements-and-character-dials.1456028.0.html",
-      "summary": "Angel Clover has opened preorders for five Tokyo Revengers anime watches. They pair 40 mm steel cases with Japanese solar movements, and one dial has a seconds track that runs backwards. Each costs ¥27,500, and all five go on sale on December 18.",
-      "published": "2026-11-21T11:20:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 15,
-      "reasons": [
-        "+3 launch",
-        "+4 preorder",
-        "+4 japan",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "47a6f16c976044c4",
-      "title": "JEDEC Previews DDR6 Memory Standard: 2.35x More Bandwidth, 44% Narrower DIMMs",
-      "url": "https://www.servethehome.com/jedec-previews-ddr6-memory-standard-2-35x-more-bandwidth-44-narrower-dimms/",
-      "canonical": "https://www.servethehome.com/jedec-previews-ddr6-memory-standard-2-35x-more-bandwidth-44-narrower-dimms",
-      "summary": "JEDEC has unveiled the first specifications for DDR6 memory. Targeting over twice the bandwidth of DDR5, and with DIMMs 44% smaller, DDR6 is slated to be the biggest change in generations to the server memory standard The post JEDEC Previews DDR6 Memory Standard: 2.35x More Bandwidth, 44% Narrower DIMMs appeared first on ServeTheHome .",
-      "published": "2026-11-20T23:40:12+00:00",
-      "source_id": "servethehome",
-      "source": "ServeTheHome",
+      "id": "f45c5468f0b3338c",
+      "title": "Thinking Machines Unveils Inkling 2 Mini, A Powerful 26B Parameter AI Model That Runs Locally On MacBooks With Just 32GB RAM",
+      "url": "https://wccftech.com/thinking-machines-unveils-inkling-2-mini-a-powerful-26b-ai-model-that-runs-locally-on-macbooks-with-just-32gb-ram/",
+      "canonical": "https://wccftech.com/thinking-machines-unveils-inkling-2-mini-a-powerful-26b-ai-model-that-runs-locally-on-macbooks-with-just-32gb-ram",
+      "summary": "Thinking Machines Lab has unveiled Inkling 2 Mini, a surprisingly capable new open-weight AI model that packs just 26 billion parameters while delivering impressive performance in coding, reasoning, and agentic workloads. More importantly, the model can run entirely offline on consumer hardware, including Apple MacBooks equipped with 32GB of unified memory. Announced on November 20, Inkling 2 Mini",
+      "published": "2026-11-21T21:55:01+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
       "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+4 review",
-        "+4 unveil",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "f818e0e5e2351230",
-      "title": "NVIDIA's SSD Write Bug Gets Patched in GeForce Hotfix 621.35 Driver",
-      "url": "https://www.techpowerup.com/355072/nvidias-ssd-write-bug-gets-patched-in-geforce-hotfix-621-35-driver",
-      "canonical": "https://www.techpowerup.com/355072/nvidias-ssd-write-bug-gets-patched-in-geforce-hotfix-621-35-driver",
-      "summary": "NVIDIA today has released the GeForce Hotfix 621.35 driver to fix the bug that was hammering SSDs while idle. There is only one fix in the release: Excessive writes to file nvlog.nvlgstg may occur in the background, and that was all that was needed on an urgent basis. We reported the issue of constant and excessive SSD writes that was spotted by several NVIDIA users earlier this week, particularly",
-      "published": "2026-11-20T23:50:50+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+3 tier1",
-        "+3 fresh",
-        "+8 3媒体が報道"
-      ],
-      "also_covered_by": [
-        "Notebookcheck (Smartphone)",
-        "Wccftech"
-      ],
-      "related_urls": [
-        "https://www.notebookcheck.net/Nvidia-releases-hotfix-for-GeForce-driver-bug-that-hammered-SSDs-with-up-to-30-GB-of-writes-an-hour.1456096.0.html",
-        "https://wccftech.com/nvidia-releases-gpu-hotfix-driver-621-35-fixes-excessive-ssd-writes/"
-      ]
-    },
-    {
-      "id": "9f626ba9d3edb755",
-      "title": "Hidisc launches $25 audio glasses with 31g frame and open-ear sound",
-      "url": "https://www.notebookcheck.net/Hidisc-launches-25-audio-glasses-with-31g-frame-and-open-ear-sound.1456018.0.html",
-      "canonical": "https://www.notebookcheck.net/Hidisc-launches-25-audio-glasses-with-31g-frame-and-open-ear-sound.1456018.0.html",
-      "summary": "Japanese brand Hidisc has launched a very lightweight audio glasses model featuring Bluetooth 6.0, open-ear speakers and touch controls. Priced reasonably at $25, they offer a simpler alternative to increasingly complicated smart eyewear. They don’t have cameras, but they have potent speakers.",
-      "published": "2026-11-21T15:27:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+3 launch",
-        "+3 price",
-        "+4 japan",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "46fc2fa8db4bbca4",
-      "title": "28-Core Intel \"Nova Lake-S\" Appears in Testing Running at 5.2 GHz",
-      "url": "https://www.techpowerup.com/355078/28-core-intel-nova-lake-s-appears-in-testing-running-at-5-2-ghz",
-      "canonical": "https://www.techpowerup.com/355078/28-core-intel-nova-lake-s-appears-in-testing-running-at-5-2-ghz",
-      "summary": "Intel's single-compute die Nova Lake-S variant has been spotted with a 28-core configuration and a boost frequency of 5.2 GHz, according to the OpenBenchmark testing suite. During the tests, a processor named Intel 0000 appeared with the NVL identifier, suggesting that a Nova Lake-S SKU with this configuration is indeed present. The processor's identification as Intel 0000 implies that the rumored",
-      "published": "2026-11-21T15:39:12+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 14,
-      "reasons": [
-        "+4 benchmark",
-        "+3 tier1",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "Wccftech"
-      ],
-      "related_urls": [
-        "https://wccftech.com/intel-core-ultra-4-series-16-core-nova-lake-mobile-processor-specifications-leaked/"
-      ]
-    },
-    {
-      "id": "b4eca08b526d7c5e",
-      "title": "Nothing’s first AI gadget finally has a launch date",
-      "url": "https://www.gizmochina.com/2026/11/21/nothings-first-ai-gadget-finally-has-a-launch-date/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/nothings-first-ai-gadget-finally-has-a-launch-date",
-      "summary": "Nothing is preparing to enter the growing AI hardware market, and we now have a date for its first device. The company has confirmed it will unveil its first AI-native gadget on December 8, but it is still keeping the product&#8217;s name and most details under wraps. The clearest look at the device so far [&#8230;] The post Nothing’s first AI gadget finally has a launch date appeared first on Giz",
-      "published": "2026-11-21T03:15:38+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+4 unveil",
-        "+3 launch",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "09b5c08342f1b849",
-      "title": "Geely Monjaro EM-i challenges VW Tayron and Škoda Kodiaq",
-      "url": "https://www.notebookcheck.net/Geely-Monjaro-EM-i-challenges-VW-Tayron-and-Skoda-Kodiaq.1456405.0.html",
-      "canonical": "https://www.notebookcheck.net/Geely-Monjaro-EM-i-challenges-VW-Tayron-and-Skoda-Kodiaq.1456405.0.html",
-      "summary": "Geely is launching the 189-inch Monjaro EM-i plug-in hybrid SUV in Germany with a starting price well below the €40,000 mark. Delivering up to 330 hp, the five-seat model undercuts established European rivals while matching the specs of popular US crossovers.",
-      "published": "2026-11-21T17:47:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+3 launch",
-        "+3 price",
-        "+3 specs",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "abb6084203ed229e",
-      "title": "SilverStone Equips HELA 1350Rz With Three EPS Cables, Citing Nova Lake-S \"High Power Demands\"",
-      "url": "https://www.techpowerup.com/355083/silverstone-equips-hela-1350rz-with-three-eps-cables-citing-nova-lake-s-high-power-demands",
-      "canonical": "https://www.techpowerup.com/355083/silverstone-equips-hela-1350rz-with-three-eps-cables-citing-nova-lake-s-high-power-demands",
-      "summary": "SilverStone has published the product page for the HELA 1350Rz on its website, which is a 1350 W, ATX 3.1 PSU with 80 Plus Platinum certification. It is a fully modular PSU, but the interesting bit is that it ships with three 4+4-pin EPS cables, whereas PSU units in this class usually come with two. SilverStone's reasoning is that the extra cable is there for the high power demands of Intel NVL-S ",
-      "published": "2026-11-21T20:27:59+00:00",
-      "source_id": "techpowerup",
-      "source": "TechPowerUp",
-      "category": "pc",
-      "tier": 1,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+3 ships",
-        "+3 tier1",
-        "+3 fresh",
-        "+4 2媒体が報道"
-      ],
-      "also_covered_by": [
-        "Wccftech"
-      ],
-      "related_urls": [
-        "https://wccftech.com/silverstone-says-intel-nova-lake-s-has-high-power-demands-so-its-hela-1350rz-power-supply-ships-with-three-44-pin-cpu-cables/"
-      ]
-    },
-    {
-      "id": "097ff4b204643c62",
-      "title": "Citizen launches two Attesa Eco-Drive watches with full sapphire bezels & mother-of-pearl dials",
-      "url": "https://www.gizmochina.com/2026/11/21/citizen-attesa-at84-watches-launched-specs-price/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/citizen-attesa-at84-watches-launched-specs-price",
-      "summary": "Citizen is expanding its Attesa lineup with two new limited-edition watches: the Hazy Black (AT8404-52E) and the Hazy White (AT8400-53L). The watches recently appeared on Citizen’s Canadian website, ahead of a scheduled global launch in December 2026. Design Details Also Read HUAWEI Watch GT Runner 2 Review: The Best Running Companion Both models feature what [&#8230;] The post Citizen launches tw",
-      "published": "2026-11-21T20:36:22+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 13,
-      "reasons": [
-        "+4 review",
-        "+3 launch",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "289fcdc7601ba940",
-      "title": "Gigabyte MO27Q2A 27-inch QHD 280 Hz QD-OLED gaming monitor review: Another price buster from Gigabyte",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/gigabyte-mo27q2a-27-inch-qhd-280-hz-qd-oled-gaming-monitor-review",
-      "canonical": "https://www.tomshardware.com/monitors/gaming-monitors/gigabyte-mo27q2a-27-inch-qhd-280-hz-qd-oled-gaming-monitor-review",
-      "summary": "Gigabyte brings excellent value while delivering premium performance and build quality with its MO27Q2A. This QD-OLED panel sports QHD resolution, 280 Hz, Adaptive-Sync, DisplayHDR 400, and wide-gamut color in a stylish and full-featured package.",
-      "published": "2026-11-21T14:30:00+00:00",
-      "source_id": "tomshardware",
-      "source": "Tom's Hardware",
-      "category": "pc",
-      "tier": 2,
-      "kind": "news",
-      "score": 11,
-      "reasons": [
-        "+4 review",
-        "+3 price",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "1440ddf3d480e220",
-      "title": "Firefly Haven: NIO’s small electric car launches in Europe",
-      "url": "https://www.notebookcheck.net/Firefly-Haven-NIO-s-small-electric-car-launches-in-Europe.1456397.0.html",
-      "canonical": "https://www.notebookcheck.net/Firefly-Haven-NIO-s-small-electric-car-launches-in-Europe.1456397.0.html",
-      "summary": "NIO sub-brand Firefly is launching its first European design edition, the Firefly Haven, following an unveiling in Oslo. Simultaneously, the automaker is releasing a strictly limited autumn variant with ginkgo motifs for the Chinese domestic market.",
-      "published": "2026-11-21T16:04:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 11,
-      "reasons": [
-        "+4 unveil",
-        "+3 launch",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "ed91a885f4d11e86",
-      "title": "Casio's affordable retro LF-40W digital watches with gadget-style display launch in the US",
-      "url": "https://www.notebookcheck.net/Casio-s-affordable-retro-LF-40W-digital-watches-with-gadget-style-display-launch-in-the-US.1456008.0.html",
-      "canonical": "https://www.notebookcheck.net/Casio-s-affordable-retro-LF-40W-digital-watches-with-gadget-style-display-launch-in-the-US.1456008.0.html",
-      "summary": "Casio's LF-40W is now on sale in the US in black, blue and beige for $42.95 each. The retro digital watch has a gadget-style display with bar-shaped seconds counters and a status row. It costs about 70% more than in Japan, where it sells for ¥4,400.",
-      "published": "2026-11-21T19:16:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 11,
-      "reasons": [
-        "+3 launch",
-        "+4 japan",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "a0166c76b766e302",
-      "title": "LILVO DS Micro Prototype Brings Full Dual Screen Play to a Credit Card-Sized Handheld",
-      "url": "https://www.techeblog.com/lilvo-ds-micro-handheld-smallest-nintendods/",
-      "canonical": "https://www.techeblog.com/lilvo-ds-micro-handheld-smallest-nintendods",
-      "summary": "Ivan has spent months hand-assembling a clamshell, called LILVO, that closes to 85 by 46 by 18 millimeters, roughly the footprint of a bank card and about twice the size of a FunKey S. Both halves carry independent IPS screens locked to the original Nintendo DS resolution of 256 by 192 pixels, so Nintendo DS [...]",
-      "published": "2026-11-21T01:40:10+00:00",
-      "source_id": "techeblog",
-      "source": "TechEBlog",
-      "category": "weird",
       "tier": 3,
       "kind": "news",
       "score": 10,
       "reasons": [
-        "+3 prototype",
-        "+4 handheld",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "aea0be0a065cb3ee",
-      "title": "HMD could bring Nokia's PureView branding back with a new phone",
-      "url": "https://www.gsmarena.com/hmd_could_bring_nokias_pureview_branding_back_with_a_new_phone-news-75572.php",
-      "canonical": "https://www.gsmarena.com/hmd_could_bring_nokias_pureview_branding_back_with_a_new_phone-news-75572.php",
-      "summary": "It's been a while since we last heard the PureView name, but a new report suggests it could be making a comeback. HMD Global is reportedly considering reviving the branding that Nokia once used for its camera-focused flagship phones. According to Finnish website SuomiMobiili, an HMD employee shared a teaser video of an upcoming phone on the company's discussion board. The teaser offers a glimpse o",
-      "published": "2026-11-21T03:32:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 10,
-      "reasons": [
-        "+4 review",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "093f9e82154d7c7a",
-      "title": "HMD teases new PureView camera phone with Schneider-Kreuznach branding",
-      "url": "https://www.gizmochina.com/2026/11/21/hmd-teases-new-pureview-camera-phone-with-schneider-kreuznach-branding/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/hmd-teases-new-pureview-camera-phone-with-schneider-kreuznach-branding",
-      "summary": "HMD may be bringing back one of Nokia&#8217;s most recognizable camera brands, but this time on a phone carrying its own name. The company has released a teaser video for a new camera-focused smartphone, opening with the PureView logo before showing off a large circular rear camera module. The back of the phone features a [&#8230;] The post HMD teases new PureView camera phone with Schneider-Kreuz",
-      "published": "2026-11-21T08:10:44+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 10,
-      "reasons": [
-        "+4 review",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "239c037b9b27f7a1",
-      "title": "We Tried ESR iPhone 18 Pro Cases, Chargers & Screen Protectors: Are They Worth It?",
-      "url": "https://www.gizmochina.com/2026/11/21/esr-iphone-18-pro-cases-chargers-and-screen-protectors-hands-on/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/esr-iphone-18-pro-cases-chargers-and-screen-protectors-hands-on",
-      "summary": "I recently got my hands on the iPhone 18 Pro, and I&#8217;ve been enjoying my time with Apple&#8217;s latest flagship. But not everything has been as rosy as I&#8217;d hoped. I&#8217;ve encountered a few annoying issues, particularly with network connectivity, Wi-Fi, and Face ID. I&#8217;ll save those complaints for my dedicated iPhone 18 Pro review, [&#8230;] The post We Tried ESR iPhone 18 Pro C",
-      "published": "2026-11-21T13:53:40+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 10,
-      "reasons": [
-        "+4 review",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "f241a32f88910624",
-      "title": "New semi-autonomous 911 drones will reach nearly all of Knoxville in 90 seconds or less",
-      "url": "https://www.tomshardware.com/tech-industry/drones/knoxvilles-police-department-will-send-semi-autonomous-drones-on-911-calls-eyes-in-the-sky-to-aid-situational-awareness-for-officers",
-      "canonical": "https://www.tomshardware.com/tech-industry/drones/knoxvilles-police-department-will-send-semi-autonomous-drones-on-911-calls-eyes-in-the-sky-to-aid-situational-awareness-for-officers",
-      "summary": "The Knoxville Police Department has launched its Drone as First Responder program, with drones being dispatched to the scene following a 911 call to increase real-time situational awareness.",
-      "published": "2026-11-21T14:00:00+00:00",
-      "source_id": "tomshardware",
-      "source": "Tom's Hardware",
-      "category": "pc",
-      "tier": 2,
-      "kind": "news",
-      "score": 10,
-      "reasons": [
-        "+3 launch",
-        "+3 drone",
-        "+1 tier2",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "60df594c70880423",
-      "title": "Ugreen launches first 60 W GaN charger with AVS support for iPhone 18 Pro",
-      "url": "https://www.notebookcheck.net/Ugreen-launches-first-60-W-GaN-charger-with-AVS-support-for-iPhone-18-Pro.1455962.0.html",
-      "canonical": "https://www.notebookcheck.net/Ugreen-launches-first-60-W-GaN-charger-with-AVS-support-for-iPhone-18-Pro.1455962.0.html",
-      "summary": "Ugreen has officially launched the 60 W USB-C GaN fast charger (model: X740) in China. Designed for iPhone 18 Pro and the 18 Pro Max, the compact charging accessory comes with AVS support. Plus, it features a built-in angled smart display for real-time charging information.",
-      "published": "2026-11-21T15:08:00+00:00",
-      "source_id": "notebookcheck_smart",
-      "source": "Notebookcheck (Smartphone)",
-      "category": "smartphone",
-      "tier": 2,
-      "kind": "news",
-      "score": 10,
-      "reasons": [
-        "+3 launch",
-        "+3 official",
-        "+1 tier2",
+        "+4 unveil",
+        "+3 announced",
         "+3 fresh"
       ],
       "also_covered_by": [],
@@ -537,134 +102,6 @@
       "related_urls": []
     },
     {
-      "id": "35797c11a3b27340",
-      "title": "Motorola's wide Razr Flex now leaks in two colors showing off a lot of angles",
-      "url": "https://www.gsmarena.com/motorolas_wide_razr_flex_now_leaks_in_two_colors_showing_off_a_lot_of_angles-news-75578.php",
-      "canonical": "https://www.gsmarena.com/motorolas_wide_razr_flex_now_leaks_in_two_colors_showing_off_a_lot_of_angles-news-75578.php",
-      "summary": "Motorola's first wide foldable, the Razr Flex, has been leaking a lot lately. Yesterday, an alleged live image of its back surfaced alongside a certification, and now we have a couple of new renders of the device portraying it in both of its colors, giving us the best look at its design yet. The Pantone Dark Botanical Garden version is green, with a woven, fabric-like back and a matching green fra",
-      "published": "2026-11-21T01:33:02+00:00",
-      "source_id": "gsmarena",
-      "source": "GSMArena",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 9,
-      "reasons": [
-        "+3 foldable",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "36422b6837790ead",
-      "title": "Motorola Razr Flex official-looking renders surface in two color options",
-      "url": "https://www.gizmochina.com/2026/11/21/motorola-razr-flex-official-looking-renders-surface-in-two-color-options/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/motorola-razr-flex-official-looking-renders-surface-in-two-color-options",
-      "summary": "The green Dark Botanical Garden version features a woven, fabric-textured back with a matching frame, while the beige Coriander model has a leather-like finish paired with a champagne frame. The post Motorola Razr Flex official-looking renders surface in two color options appeared first on Gizmochina .",
-      "published": "2026-11-21T10:33:32+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 9,
-      "reasons": [
-        "+3 official",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "67c064cce4527197",
-      "title": "育碧《雷曼：传奇再叙》通过 Steam Deck 掌机兼容性认证，游戏 12 月 3 日发售",
-      "url": "https://www.ithome.com/1/030/461.htm",
-      "canonical": "https://www.ithome.com/1/030/461.htm",
-      "summary": "IT之家 11 月 21 日消息，育碧宣布旗下《雷曼：传奇再叙》现已通过 Steam Deck 兼容性认证，本作预计于 12 月 3 日正式发售。 公开信息显示，本作是经典横版平台动作游戏《雷曼：传奇》的重制版，游戏在保留原作核心玩法与关卡设计的基础上，对画面表现和内容进行升级，支持 4K 超清画质，新增收藏品与限定奖励，以带来更适合现代平台的游玩体验。 IT之家附本作 PC 版配置要求如下： 项目 最低 推荐 2K 4K 特效设定 1080P，60FPS 1080P，60FPS 2K，60FPS 4K，60FPS CPU 英特尔酷睿 i3-8100 AMD 锐龙 3 3100 英特尔酷睿 i5-8400 AMD 锐龙 5 3600 英特尔酷睿 i5-8400 AMD 锐龙 5 3600 英特尔酷睿 i5-9400 AMD 锐龙 5 3600 GPU 英伟达 GTX 1660（6GB） A",
-      "published": "2026-11-21T11:22:10+00:00",
-      "source_id": "ithome_cn",
-      "source": "IT之家（中国）",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 9,
-      "reasons": [
-        "+3 steam deck",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "d7cb59c42be2d6d1",
-      "title": "Sonos Beam (Gen 2) soundbar drops to a record-low $339",
-      "url": "https://www.androidauthority.com/sonos-beam-gen-2-deal-3737775/",
-      "canonical": "https://www.androidauthority.com/sonos-beam-gen-2-deal-3737775",
-      "summary": "Save $160 on Sonos's compact Dolby Atmos soundbar, now $10 below its previous best price on Amazon.",
-      "published": "2026-11-21T12:38:15+00:00",
-      "source_id": "androidauthority",
-      "source": "Android Authority",
-      "category": "smartphone",
-      "tier": 1,
-      "kind": "news",
-      "score": 9,
-      "reasons": [
-        "+3 price",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "2e2a65603fb207b1",
-      "title": "iPhone 18 and iPhone Air 2 OLED production set to begin by January",
-      "url": "https://www.gizmochina.com/2026/11/21/iphone-18-and-iphone-air-2-oled-production-set-to-begin-by-january/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/iphone-18-and-iphone-air-2-oled-production-set-to-begin-by-january",
-      "summary": "Manufacturing is set to begin toward the end of December or in January at the latest, a timeline that points toward a March launch window. The post iPhone 18 and iPhone Air 2 OLED production set to begin by January appeared first on Gizmochina .",
-      "published": "2026-11-21T12:42:18+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 9,
-      "reasons": [
-        "+3 launch",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
-      "id": "cf9f4e12feddbfbe",
-      "title": "Galaxy S27 series could be priced higher than previously expected",
-      "url": "https://www.gizmochina.com/2026/11/21/galaxy-s27-series-could-be-priced-higher-than-previously-expected/",
-      "canonical": "https://www.gizmochina.com/2026/11/21/galaxy-s27-series-could-be-priced-higher-than-previously-expected",
-      "summary": "According to a report from ceoscoredaily, the company may have little choice but to adjust its pricing strategy upward for the 2027 flagships. The post Galaxy S27 series could be priced higher than previously expected appeared first on Gizmochina .",
-      "published": "2026-11-21T19:08:13+00:00",
-      "source_id": "gizmochina",
-      "source": "Gizmochina",
-      "category": "weird",
-      "tier": 1,
-      "kind": "news",
-      "score": 9,
-      "reasons": [
-        "+3 price",
-        "+3 ships",
-        "-3 ceo",
-        "+3 tier1",
-        "+3 fresh"
-      ],
-      "also_covered_by": [],
-      "related_urls": []
-    },
-    {
       "id": "ea8ff6b822a1a727",
       "title": "ONEXPLAYER’s New Tablet Is An AI Workstation, Apple launches HomeView and updated Apple TV 4K, and HP updates its computer-in-a-keyboard: Liliputing News Roundup",
       "url": "https://liliputing.com/onexplayers-new-tablet-is-an-ai-workstation-apple-launches-homeview-and-updated-apple-tv-4k-and-hp-updates-its-computer-in-a-keyboard-liliputing-news-roundup/",
@@ -686,48 +123,282 @@
       ],
       "also_covered_by": [],
       "related_urls": []
+    },
+    {
+      "id": "4dc547313eb38432",
+      "title": "One Key Module Developer Program Recap",
+      "url": "https://frame.work/blog/one-key-module-developer-program-recap",
+      "canonical": "https://frame.work/blog/one-key-module-developer-program-recap",
+      "summary": "Last year, we announced the One Key Module to enable development of custom ultra-low-profile keyboards and Input Modules for Framework Laptop 16. After around three years of design and prototyping along with an extensive Developer Program that we launched earlier this year, we’ve come to the conclusion that unfortunately we won’t be able to turn this into a sellable product. As a general rule, we ",
+      "published": "2026-09-10T20:41:46+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "661bbff834275b1a",
+      "title": "NC Band 2 Tracks Your Cycle Overnight Without a Screen",
+      "url": "https://www.yankodesign.com/2026/11/21/nc-band-2-tracks-your-cycle-overnight-without-a-screen/?utm_source=rss&utm_medium=rss&utm_campaign=nc-band-2-tracks-your-cycle-overnight-without-a-screen",
+      "canonical": "https://www.yankodesign.com/2026/11/21/nc-band-2-tracks-your-cycle-overnight-without-a-screen",
+      "summary": "NC Band 2 Tracks Your Cycle Overnight Without a Screen There are people who look for smartwatches that have all the bells and whistles since what they need is a second screen on their wrist....",
+      "published": "2026-11-21T21:45:19+00:00",
+      "source_id": "yankodesign",
+      "source": "Yanko Design",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 7,
+      "reasons": [
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "78a6917968a4493f",
+      "title": "LineageOS 24 Released, Another Game Boy Emulator On E Ink, and turn A PSP Into Raspberry Pi-Powered PC: Liliputing News Roundup",
+      "url": "https://liliputing.com/lineageos-24-released-another-game-boy-emulator-on-e-ink-and-turn-a-psp-into-raspberry-pi-powered-pc-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/lineageos-24-released-another-game-boy-emulator-on-e-ink-and-turn-a-psp-into-raspberry-pi-powered-pc-liliputing-news-roundup",
+      "summary": "The PSPi 6 turns the PlayStation Portable (PSP-1000) into a modern emulation handheld (and PC) with a custom board that lets you use a Raspberry Pi Zero, Zero 2W, or CM4 for brains • Microsoft is moving to standardize printer drivers, meaning that newer models should work well with most PCs running Windows 10 21H2 or newer • E Ink displays used for eReaders and electronic labels usually only suppo",
+      "published": "2026-10-11T18:18:51+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+4 handheld",
+        "+4 e ink",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "c562f18567310537",
+      "title": "Samsung testing Apple's Dynamic Island-style Live Notifications in One UI 9.5",
+      "url": "https://www.gsmarena.com/samsung_redesigned_live_notifications_one_ui_9_5-news-75583.php",
+      "canonical": "https://www.gsmarena.com/samsung_redesigned_live_notifications_one_ui_9_5-news-75583.php",
+      "summary": "Samsung introduced Live Notifications with One UI 7 and is now working on a visual change that would make the feature feel more like Apple's Dynamic Island. Right now, Live Notifications appear as a compact pill in the top-left corner of the status bar, showing key information such as a timer or a recording indicator. If it shows information from different apps, you can switch between them by swip",
+      "published": "2026-11-21T21:33:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 6,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4b03cbdfbdc47fd3",
+      "title": "Framework Laptop 12, now with Core Series 3",
+      "url": "https://frame.work/blog/framework-laptop-12-now-with-core-series-3",
+      "canonical": "https://frame.work/blog/framework-laptop-12-now-with-core-series-3",
+      "summary": "Today, we’re excited to announce the new Framework Laptop 12 with Intel’s latest Core Series 3 processors, Thunderbolt 4, Wi-Fi 7, options for fingerprint reader and backlit keyboard, and for the first time, a pre-built version with Fedora Linux preloaded. Pre-orders are open today , with Batch 1 shipping in October. We also uploaded two videos to the Framework YouTube channel today: an overview o",
+      "published": "2026-08-18T15:40:02+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 5,
+      "reasons": [
+        "+4 pre-order",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "81ba5cb5f8db2f95",
+      "title": "AMD launches Ryzen AI Halo mini PC with Ryzen AI Max+ 495 and 192GB RAM, Valve release Steam Frame CAD files: Liliputing News Roundup",
+      "url": "https://liliputing.com/amd-launches-ryzen-ai-halo-mini-pc-with-ryzen-ai-max-495-and-192gb-ram-valve-release-steam-frame-cad-files-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/amd-launches-ryzen-ai-halo-mini-pc-with-ryzen-ai-max-495-and-192gb-ram-valve-release-steam-frame-cad-files-liliputing-news-roundup",
+      "summary": "AMD's 2nd-gen Ryzen Halo Developer Platform is a mini PC with a Ryzen AI MAX+ PRO 495 processor with up to 192GB of unified high-bandwidth RAM and support for 300b parameter AI models • Last year MINISFORUM launched a compact AtomMan G1 Pro desktop with Ryzen 9 8945HX and NVIDIA RTX 5060 • Valve has released CAD and electrical interface files for the Steam Frame, making them available for non-comm",
+      "published": "2026-10-12T21:21:33+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 5,
+      "reasons": [
+        "+3 launch",
+        "+4 mini pc",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "90490dbb6b4f43c7",
+      "title": "Reviews of the new Framework Laptop 12 are live",
+      "url": "https://frame.work/blog/reviews-of-the-new-framework-laptop-12-are-live",
+      "canonical": "https://frame.work/blog/reviews-of-the-new-framework-laptop-12-are-live",
+      "summary": "Reviews are live on the new Framework Laptop 12 powered by Intel Core Series 3! We designed Framework Laptop 12 from the start to be a fun, colorful, portable, Linux-ready 2-in-1. With this generation, we focused on power efficiency, CPU performance, and improvements to quality of life with options for fingerprint reader and backlit keyboard. Reviewers confirmed we maintained what makes this form ",
+      "published": "2026-10-13T18:35:03+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 5,
+      "reasons": [
+        "+4 review",
+        "+3 keyboard",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "54f010a64ea50672",
+      "title": "This simple Samsung shortcut helps me reclaim 5GB of storage every month",
+      "url": "https://www.androidpolice.com/simple-samsung-shortcut-reclaim-5gb-storage-every-month/",
+      "canonical": "https://www.androidpolice.com/simple-samsung-shortcut-reclaim-5gb-storage-every-month",
+      "summary": "You can save even more storage using the same shortcut",
+      "published": "2026-11-21T22:00:10+00:00",
+      "source_id": "androidpolice",
+      "source": "Android Police",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 4,
+      "reasons": [
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "275f7698155ab253",
+      "title": "I used an old laptop as a home server for a year, and 4 surprises stood out",
+      "url": "https://www.xda-developers.com/used-old-laptop-as-home-server-for-a-year-4-surprises-stood-out/",
+      "canonical": "https://www.xda-developers.com/used-old-laptop-as-home-server-for-a-year-4-surprises-stood-out",
+      "summary": "Cheap to start, costly to ignore.",
+      "published": "2026-11-21T22:00:20+00:00",
+      "source_id": "xda",
+      "source": "XDA Developers",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 4,
+      "reasons": [
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4b28e7360d3344bf",
+      "title": "Elroy Air’s Chaparral Autonomous Cargo Aircraft Gains Major Orders and Production Momentum",
+      "url": "https://www.techeblog.com/elroy-air-chaparral-autonomous-cargo-aircraft-features-specs-production/",
+      "canonical": "https://www.techeblog.com/elroy-air-chaparral-autonomous-cargo-aircraft-features-specs-production",
+      "summary": "Elroy Air’s Chaparral stands out as a hybrid-electric aircraft built to haul heavy loads without a pilot or a runway. It lifts off on eight vertical rotors, then switches to four forward propellers for cruise. Swappable pods underneath let it carry different kinds of cargo on successive trips without changing the airframe itself. Company figures [...]",
+      "published": "2026-11-21T21:41:53+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 3,
+      "reasons": [
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "da52217c08f6ac37",
+      "title": "192GB Framework Desktop open for pre-order",
+      "url": "https://frame.work/blog/192gb-framework-desktop-open-for-pre-order",
+      "canonical": "https://frame.work/blog/192gb-framework-desktop-open-for-pre-order",
+      "summary": "Today, we opened pre-orders for the new 192GB configuration of Framework Desktop with AMD’s new Ryzen AI Max+ PRO 495 processor, enabling much larger and more capable AI models to run locally, entirely under your control. This config has both slightly higher clock speeds on the CPU and GPU and runs the LPDDR5X memory at slightly faster 8,533MT/s speeds, both of which enable an increase in AI infer",
+      "published": "2026-10-13T18:12:07+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 2,
+      "reasons": [
+        "+4 pre-order",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ff6aac1b4e7ca468",
+      "title": "Choosing a Framework Desktop for Local AI: 32GB, 64GB, and 128GB",
+      "url": "https://frame.work/blog/choosing-a-framwork-desktop-for-local-ai",
+      "canonical": "https://frame.work/blog/choosing-a-framwork-desktop-for-local-ai",
+      "summary": "The Framework Desktop comes with three memory configurations built around AMD's Ryzen AI Max APU, codenamed Strix Halo: 32GB, 64GB, and 128GB. When Framework Desktop launched in 2025, much of the local AI community naturally focused on the 128GB version. It's easy to see why: Ryzen AI Max brought 128GB of memory shared between the CPU and integrated GPU to a desktop system, making it possible to r",
+      "published": "2026-09-03T16:41:08+00:00",
+      "source_id": "framework_blog",
+      "source": "Framework（公式ブログ）",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 1,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0102b9ec0ee347f3",
+      "title": "Xbox Wireless Controller with USB-C Cable Delivers Forty Hour Battery and Hybrid Controls Anywhere, Perfect for GTA 6",
+      "url": "https://www.techeblog.com/xbox-wireless-controller-usb-c-features-price-review-unboxing/",
+      "canonical": "https://www.techeblog.com/xbox-wireless-controller-usb-c-features-price-review-unboxing",
+      "summary": "Finishing a long open-world run leaves room to refresh the controls that carried the whole campaign. This Carbon Black Xbox Wireless Controller, priced at $42.99 for early Black Friday (was $65), arrives with a nine-foot USB-C cable that plugs straight into a Windows PC or console and starts the session with no pairing steps or [...]",
+      "published": "2026-11-21T22:14:54+00:00",
+      "source_id": "techeblog",
+      "source": "TechEBlog",
+      "category": "weird",
+      "tier": 3,
+      "kind": "news",
+      "score": 0,
+      "reasons": [
+        "+2 campaign",
+        "+3 price",
+        "-8 black friday",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
     }
   ],
-  "japan_launch": [
-    {
-      "title": "【寺院向けLINEで国内初】命日のお勤めに、遠くの家族も。住職の「はじめます」でLINEに届き、本堂のお経がそのままスマホへ――AI副住職くん『いま、お勤めしています』",
-      "url": "https://prtimes.jp/main/html/rd/p/000000007.000181253.html",
-      "summary": "[株式会社菩提樹] [画像1: https://prcdn.freetls.fastly.net/release_image/181253/7/181253-7-cb7e9aba729b080e02c106e7be87e521-2400x1260.png?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bounds&am...",
-      "published": "2026-11-21T18:10:03+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "731ffb2a1313043e"
-    },
-    {
-      "title": "ORICO、最大110TB対応・RAID機能搭載の5ベイアルミ製HDDケースをAmazonブラックフライデー＆サイバーマンデーと同水準の特別価格で販売開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000296.000145928.html",
-      "summary": "[深圳市奥睿科电子商务有限公司] PC周辺機器・ストレージソリューションのグローバルブランド「ORICO（オリコ）」（深圳市奥睿科电子商务有限公司）は、最大110TBの超大容量ストレージ構築が可能なプロ仕様の5ベイRAID対応HDDケース（型番：9958R...",
-      "published": "2026-11-21T07:15:25+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "a40874cc67b0a703"
-    },
-    {
-      "title": "【冷却×最大25W急速充電】冷却機能搭載ワイヤレス充電器「FREEZE-X」、Makuake公開翌日に支援総額100万円突破！",
-      "url": "https://prtimes.jp/main/html/rd/p/000000003.000183444.html",
-      "summary": "",
-      "published": "2026-11-21T03:22:38+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "d1359a9721b6da78"
-    },
-    {
-      "title": "【総合ランキング1位】“視ながら休める”アイケアタブレット『MYOFREE』　Makuake公開2日で総額1,000万円を突破！",
-      "url": "https://prtimes.jp/main/html/rd/p/000000004.000190470.html",
-      "summary": "",
-      "published": "2026-11-21T03:00:02+00:00",
-      "source": "PR TIMES",
-      "source_id": "prtimes",
-      "kind": "japan_launch",
-      "id": "646b4420351150af"
-    }
-  ]
+  "japan_launch": []
 }
