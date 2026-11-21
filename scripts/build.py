@@ -2433,7 +2433,7 @@ HUB_CSS = """
 .cx-num{font:600 34px/1 var(--mono);letter-spacing:-.02em;color:var(--ink)}
 .cx-num small{font:500 11px/1 var(--mono);letter-spacing:.1em;color:var(--ink-2);margin-left:4px}
 .cx-thumbs{display:flex;gap:6px}
-.cx-thumbs img{width:56px;height:56px;object-fit:contain;background:#fff;border-radius:3px;padding:3px;box-sizing:border-box}
+.cx-thumbs img{width:56px;height:56px;object-fit:cover;background:#fff;border-radius:3px;padding:0;box-sizing:border-box;transform:scale(1.3);clip-path:inset(11.5% round 3px)}
 .cx-list{display:flex;flex-wrap:wrap;gap:4px 14px;font:500 12.5px/1.6 var(--sans);color:var(--ink-2)}
 .cx-list i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-left:4px}
 .cx-go{font:600 12px/1 var(--mono);letter-spacing:.12em;color:var(--ink-2);transition:color .15s,letter-spacing .15s}
@@ -4480,8 +4480,9 @@ h1,h2,h3{text-wrap:pretty}
 .pin-ft-title{font-size:1.08rem;font-weight:700;line-height:1.45}
 .pin-ft-go{font-size:.82rem;color:var(--accent);font-weight:600}
 .pin-ft-imgs{display:flex;gap:6px;flex:0 0 auto;overflow:hidden;max-width:46%}
-/* 写真は枠いっぱいに拡大して切り抜く(2026-11-21 本人「白い余白が出ないように」) */
-.pin-ft-imgs img{width:64px;height:64px;object-fit:cover;background:#fff;border-radius:4px;border:1px solid var(--rule);padding:0;box-sizing:border-box;flex:none}
+/* 写真は枠いっぱいに拡大して切り抜く(2026-11-21 本人「白い余白が出ないように」「もう1段大きく」)。
+   1.3倍に拡大し、clip-path で元の枠の大きさに切り戻す(並んだ写真どうしが重ならない)。 */
+.pin-ft-imgs img{width:64px;height:64px;object-fit:cover;background:#fff;border-radius:4px;padding:0;box-sizing:border-box;flex:none;transform:scale(1.3);clip-path:inset(11.5% round 3px)}
 @media (max-width:620px){.pin-ft{flex-direction:column;align-items:stretch;gap:12px;padding:14px 16px}
   .pin-ft-imgs{max-width:100%}.pin-ft-imgs img{width:52px;height:52px}}
 .fp{padding:0 0 44px;margin-bottom:44px;border-bottom:1px solid var(--rule)}
