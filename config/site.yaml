@@ -101,16 +101,19 @@ site:
 categories:
   smartphone:
     label: スマホ・ウェアラブル
+    nav_label: スマホ   # ヘッダーだけの短い名前(2026-11-21 本人「ヘッダが混雑」)
     code: MOB
     slug: smartphone
     description: 新型スマホ、リーク、スマートウォッチ。海外発表から日本上陸までの間を埋める。
   pc:
     label: PC・周辺機器・自作
+    nav_label: PC・自作   # ヘッダーだけの短い名前(2026-11-21 本人「ヘッダが混雑」)
     code: PCS
     slug: pc
     description: ミニPC、GPU/CPU、キーボード、モニタ。ベンチと価格の実数を軸に。
   weird:
     label: 変わり種・クラファン
+    nav_label: 変わり種   # ヘッダーだけの短い名前(2026-11-21 本人「ヘッダが混雑」)
     code: ODD
     slug: weird
     description: Kickstarter・Makuake発の新製品、珍デバイス、小型端末。日本語情報がほぼ無い領域。

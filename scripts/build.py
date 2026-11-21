@@ -1064,7 +1064,7 @@ def header(site: dict) -> str:
     cats = "".join(
         f'<a href="{u("category/" + c["slug"] + ".html")}" class="nav-item cat-{k}">'
         f'<span class="nav-code">{c.get("code", "---")}</span>'
-        f'<span class="nav-label">{html.escape(c["label"])}</span></a>'
+        f'<span class="nav-label">{html.escape(c.get("nav_label") or c["label"])}</span></a>'
         for k, c in site["categories"].items()
     )
     return f"""
@@ -1073,7 +1073,7 @@ def header(site: dict) -> str:
     <a class="brand" href="{u("/")}">
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
-    <nav class="nav">{cats}<a href="{u("topic/")}" class="nav-item nav-tp"><span class="nav-code">TPC</span><span class="nav-label">話題</span></a><a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">日本上陸</span></a><a href="{u("about.html")}" class="nav-item nav-about"><span class="nav-code">INF</span><span class="nav-label">運営</span></a></nav>
+    <nav class="nav">{cats}<a href="{u("topic/")}" class="nav-item nav-tp"><span class="nav-code">TPC</span><span class="nav-label">話題</span></a><a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">日本上陸</span></a></nav>
     <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
       <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
     </button>
@@ -3853,7 +3853,8 @@ img{max-width:100%}
   position:sticky;top:0;z-index:20;border-bottom:1px solid var(--rule);color:var(--ink);
   background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px) saturate(1.4)}
 .head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:48px}
-/* ヘッダーの時刻は 2026-11-21 本人「ヘッダが混雑してきた」で外した。 */
+/* ヘッダーの時刻・「運営」は 2026-11-21 本人「ヘッダが混雑してきた」で外した(運営はフッターにある)。
+   カテゴリの名前もヘッダーだけ短くした(site.yaml の nav_label)。 */
 .meta-route{font-family:var(--mono);letter-spacing:.06em;color:var(--ink-3)}
 .meta-route i{font-style:normal;margin:0 7px;color:var(--cat)}
 .brand{display:inline-flex;align-items:center;font-family:var(--mono);font-weight:600;
@@ -3870,7 +3871,6 @@ img{max-width:100%}
   color:var(--cat);border:1px solid var(--cat);padding:2px 5px;border-radius:2px;opacity:.9}
 .nav-label{font-size:12px;color:var(--ink-2)}
 .nav-item:hover .nav-label{color:var(--ink)}
-.nav-about{--cat:var(--ink-3)}
 .nav-jp{--cat:#d9b45f}
 /* スマホのメニュー(2026-11-14 本人「時刻は要らない、ハンバーガーメニューを出す」)。
    PC では出さない。 */
