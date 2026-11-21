@@ -1074,9 +1074,9 @@ def header(site: dict) -> str:
       <span class="brand-name">{html.escape(s['title'])}</span><span class="caret" aria-hidden="true"></span>
     </a>
     <nav class="nav">{cats}<a href="{u("topic/")}" class="nav-item nav-tp"><span class="nav-code">TPC</span><span class="nav-label">話題</span></a><a href="{u("features.html")}" class="nav-item nav-ft"><span class="nav-code">FTR</span><span class="nav-label">特集</span></a><a href="{u("jpn.html")}" class="nav-item nav-jp"><span class="nav-code">JPN</span><span class="nav-label">日本上陸</span></a></nav>
-    <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
+    <span class="head-tools"><a class="lang-link" href="https://en.gadgetterminal.com/" hreflang="en" lang="en" title="Gadget Terminal in English">EN</a>    <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
       <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
-    </button>
+    </button></span>
     <button type="button" class="menu-btn" data-menu-toggle aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -1119,7 +1119,7 @@ def footer(site: dict) -> str:
     </div>
     <div class="foot-cols">
       <p class="foot-meta">
-        <span class="foot-social-pc">{x_link}<a href="{u("feed.xml")}">RSS</a></span><a href="{u("features.html")}">特集</a><a href="{u("topic/")}">話題から探す</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
+        <span class="foot-social-pc">{x_link}<a href="{u("feed.xml")}">RSS</a></span><a href="{u("features.html")}">特集</a><a href="{u("topic/")}">話題から探す</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="https://en.gadgetterminal.com/" hreflang="en" lang="en">English</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
@@ -1441,8 +1441,16 @@ def popular_section(posts: list[dict], limit: int = 5) -> str:
     if len(picked) < 3:
         return ""
     items = []
+    used: set[str] = set()
     for n, p in enumerate(picked, 1):
-        img = html.escape(sized(card_image(p)[0], 240))
+        # 同じ写真が並ばないようにする(2026-11-21 本人。まとめ記事の1枚目が個別記事と同じ写真だった)。
+        # 前の行と同じなら、その記事の写真から、まだ使っていない物を選ぶ。
+        src = card_image(p)[0]
+        if src in used:
+            src = next((str(im.get("url")) for im in (p.get("images") or [])
+                        if im.get("url") and str(im.get("url")) not in used), src)
+        used.add(src)
+        img = html.escape(sized(src, 240))
         items.append(
             f'<li class="pop-item cat-{p.get("category", "misc")}"><a href="{u(p["path"])}">'
             f'<span class="pop-n">{n:02d}</span>'
@@ -3901,6 +3909,12 @@ img{max-width:100%}
   background:transparent;color:var(--ink-2);cursor:pointer;font-size:13px;line-height:1;
   transition:border-color .18s,color .18s}
 .theme-toggle:hover{color:var(--ink);border-color:var(--accent)}
+/* 英語版へのリンク(2026-11-21 本人)。英語版は別の記事なので hreflang の対応づけはしない。 */
+.lang-link{flex:none;display:inline-flex;align-items:center;justify-content:center;height:28px;padding:0 8px;
+  border:1px solid var(--rule-2);border-radius:2px;font-family:var(--mono);font-size:10.5px;
+  font-weight:600;letter-spacing:.12em;color:var(--ink-2);transition:border-color .18s,color .18s}
+.lang-link:hover{color:var(--ink);border-color:var(--accent)}
+.head-tools{flex:none;display:flex;align-items:center;gap:6px}
 .tt-ic-sun{display:none}
 [data-theme="dark"] .tt-ic-moon{display:none}
 [data-theme="dark"] .tt-ic-sun{display:inline}
