@@ -1077,7 +1077,6 @@ def header(site: dict) -> str:
     <button type="button" class="theme-toggle" data-theme-toggle aria-label="ダーク／ライト表示を切り替え">
       <span class="tt-ic tt-ic-moon" aria-hidden="true">☾</span><span class="tt-ic tt-ic-sun" aria-hidden="true">☀</span>
     </button>
-    <span class="head-clock" aria-hidden="true"><small>JST</small><b data-clk="h">--</b><i>:</i><b data-clk="m">--</b></span>
     <button type="button" class="menu-btn" data-menu-toggle aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -1631,16 +1630,6 @@ def hero_route_img() -> str:
 BOARD_JS = """<script>
 (function(){"use strict";
 var reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-/* 時計。JSTで24時間表記。閲覧者の端末が海外時刻でも日本時間を出す。 */
-function tick(){
-  var t=new Date(Date.now()+new Date().getTimezoneOffset()*60000+32400000);
-  document.querySelectorAll('[data-clk="h"]').forEach(function(e){
-    e.textContent=String(t.getHours()).padStart(2,"0");});
-  document.querySelectorAll('[data-clk="m"]').forEach(function(e){
-    e.textContent=String(t.getMinutes()).padStart(2,"0");});
-}
-tick();setInterval(tick,10000);
 
 /* スプリットフラップ。本物の案内板は文字が回って目当ての字で止まる。
    全行を派手に回すと悪趣味なので、等幅の記号列だけ・読み込み時に一度だけ。
@@ -3864,15 +3853,9 @@ img{max-width:100%}
   position:sticky;top:0;z-index:20;border-bottom:1px solid var(--rule);color:var(--ink);
   background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px) saturate(1.4)}
 .head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:48px}
-/* 空港・駅・管制室に共通する記号は「常に動いている現在時刻」。
-   コロンだけ明滅させると、静止画に見えない。 */
-.head-clock{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--ink-2);
-  font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:7px;flex:none}
-.head-clock small{font-size:9.5px;letter-spacing:.16em;color:var(--ink-3)}
-.head-clock i{font-style:normal;animation:clk-blink 1s steps(1,end) infinite}
+/* ヘッダーの時刻は 2026-11-21 本人「ヘッダが混雑してきた」で外した。 */
 .meta-route{font-family:var(--mono);letter-spacing:.06em;color:var(--ink-3)}
 .meta-route i{font-style:normal;margin:0 7px;color:var(--cat)}
-@keyframes clk-blink{50%{opacity:.25}}
 .brand{display:inline-flex;align-items:center;font-family:var(--mono);font-weight:600;
   font-size:14px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap}
 .caret{width:9px;height:16px;background:var(--accent);margin-left:7px;display:inline-block;
@@ -3899,7 +3882,6 @@ img{max-width:100%}
 .menu-open .menu-btn span:nth-child(2){opacity:0}
 .menu-open .menu-btn span:nth-child(3){transform:translateY(-5.5px) rotate(-45deg)}
 @media (max-width:620px){
-  .head-clock{display:none}
   .head-inner{gap:10px}
   .brand{margin-right:auto}
   .menu-btn{display:flex}
