@@ -1,0 +1,41 @@
+今週は「撮る・録る・話す」の道具に、これまでにない形が出ました。
+
+・カメラの会社が作った、撮らずに見せるだけの電子ペーパー写真立て（Insta360 Toast）
+・押している間だけ聞く、AI音声入力のボタン（Flic Cue）
+・Flipper Zeroの作り手が出す、手のひらサイズのLinux機（Flipper One）
+・スマホにつなぐだけで全方位の音を録るマイク（Shure MV360）
+・Xiaomi初の、耳に挟むクリップ型オープンイヤー（Xiaomi Clip）
+
+気になるものから読んでください。日本で買えるか・使えるかも、それぞれ書いています。
+
+1. Insta360 Toast（価格は未発表）
+3.7インチのカラー電子ペーパーに写真を1枚ずつ映す、厚さ5.25mmの板。公式の試験値で充電は最長195日に1回。切り替えは遅く、毎日1枚を眺める用途向きです。
+日本向けの情報は出ておらず、無線接続のため国内で使うには技適が前提です。
+https://gadgetterminal.com/posts/insta360-toast-color-epaper-photo-frame.html
+
+2. Flic Cue（69ドルから、約1万円）
+握って話すと、買い物リストや予定、メールの下書きに振り分けられます。押している間しか聞かないので、電池は最大2年とメーカーは説明しています。
+日本の販売元は確認できておらず、技適も確認できていません。
+https://gadgetterminal.com/posts/flic-cue-ai-voice-button.html
+
+3. Flipper One（349ドルから、約5.5万円）
+有線LAN2口とHDMI 2.1を持つ、ネットワーク向けの道具。別チップが画面と電源を受け持ち、Linuxが落ちても操作できます。
+今回の募集の発送先に日本は入っておらず、国内の販売元も確認できていません。
+https://gadgetterminal.com/posts/flipper-one-pocket-linux-kickstarter.html
+
+4. Shure MV360（349ドル、約5.3万円）
+バイノーラルから全方位のアンビソニックスまで、USB-Cで録れます。録音後に仮想マイクを動かして書き出せます。
+日本でも11月26日発売で、市場想定売価は税込7万400円前後。有線のため技適は対象外です。
+https://gadgetterminal.com/posts/shure-mv360-spatial-audio-microphone.html
+
+5. Xiaomi Clip（149.99ユーロ、約2.5万円）
+1個5.5gのクリップ型で、LHDC 5.0に対応。ただしLHDC 5.0を使うと電池は単体6時間に下がります。
+日本は11月27日発売で、税込1万9,800円。技適は確認できていません。
+https://gadgetterminal.com/posts/xiaomi-clip-open-ear-earbuds-europe.html
+
+Flic CueとFlipper Oneはクラウドファンディングで、出資は購入ではありません。
+
+毎朝3本、海外ガジェットを日本で買えるか・使えるかまで書いています。
+https://gadgetterminal.com/
+
+#ガジェット #海外ガジェット
