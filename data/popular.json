@@ -1,107 +1,107 @@
 {
  "updated": "2026-11-21",
- "days": 30,
- "source": "Cloudflare Web Analytics",
+ "days": 7,
+ "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 360,
-   "views": 360
+   "visits": 106,
+   "views": 180
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 70,
-   "views": 90
-  },
-  {
-   "path": "/posts/redmagic-12-pro-global.html",
-   "visits": 60,
-   "views": 60
-  },
-  {
-   "path": "/posts/home-small-robots-roundup.html",
-   "visits": 50,
-   "views": 50
-  },
-  {
-   "path": "/posts/fotorgear-campix-waist-level-camera.html",
-   "visits": 40,
-   "views": 40
-  },
-  {
-   "path": "/posts/awol-luxvision-optical-shift-ust.html",
-   "visits": 30,
-   "views": 30
-  },
-  {
-   "path": "/posts/lucy-ai-studio-agent-workstation.html",
-   "visits": 30,
-   "views": 30
-  },
-  {
-   "path": "/posts/da1-camera-thermal-print-no-screen.html",
-   "visits": 30,
-   "views": 30
+   "visits": 26,
+   "views": 26
   },
   {
    "path": "/posts/caimera-caim1-proof-camera.html",
-   "visits": 30,
-   "views": 30
+   "visits": 18,
+   "views": 19
   },
   {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/glinet-mango-2.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/fiio-snowsky-mage-gaming-dac.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/moto-watch-2-fit-buds-2-ultra.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/cmf-speaker-s-m.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/radxa-linkr-ip-kvm.html",
-   "visits": 20,
-   "views": 20
-  },
-  {
-   "path": "/posts/bigme-hibreak-dual-3.html",
-   "visits": 20,
-   "views": 20
+   "path": "/posts/home-small-robots-roundup.html",
+   "visits": 12,
+   "views": 14
   },
   {
    "path": "/posts/ring-drone-cam-indoor-flying-camera.html",
-   "visits": 20,
-   "views": 20
+   "visits": 12,
+   "views": 14
   },
   {
-   "path": "/posts/samsung-galaxy-buds-on-clip-earbuds.html",
-   "visits": 20,
-   "views": 20
+   "path": "/posts/radxa-linkr-ip-kvm.html",
+   "visits": 11,
+   "views": 10
+  },
+  {
+   "path": "/posts/lucy-ai-studio-agent-workstation.html",
+   "visits": 11,
+   "views": 9
+  },
+  {
+   "path": "/posts/fotorgear-campix-waist-level-camera.html",
+   "visits": 8,
+   "views": 8
   },
   {
    "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
-   "visits": 20,
-   "views": 20
+   "visits": 7,
+   "views": 7
   },
   {
-   "path": "/posts/8bitdo-ultimate-3c-plus-wired-xbox.html",
-   "visits": 10,
-   "views": 20
+   "path": "/posts/flipper-one-pocket-linux-kickstarter.html",
+   "visits": 7,
+   "views": 7
+  },
+  {
+   "path": "/posts/framework-wireless-touchpad-keyboard.html",
+   "visits": 7,
+   "views": 6
+  },
+  {
+   "path": "/posts/glinet-mango-2.html",
+   "visits": 7,
+   "views": 6
+  },
+  {
+   "path": "/posts/zwo-seestar-s30-plus.html",
+   "visits": 6,
+   "views": 7
+  },
+  {
+   "path": "/posts/enough-phone-small-5g-removable-battery.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/fiio-snowsky-mage-gaming-dac.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/shure-mv360-spatial-audio-microphone.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/slashvibe-ai-agent-desk-controller.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/tooldance-x1-desktop-cnc-kickstarter.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/photora-wireless-touch-monitor-kickstarter.html",
+   "visits": 5,
+   "views": 5
+  },
+  {
+   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "visits": 5,
+   "views": 5
   }
  ]
 }
