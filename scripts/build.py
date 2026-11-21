@@ -4480,7 +4480,8 @@ h1,h2,h3{text-wrap:pretty}
 .pin-ft-title{font-size:1.08rem;font-weight:700;line-height:1.45}
 .pin-ft-go{font-size:.82rem;color:var(--accent);font-weight:600}
 .pin-ft-imgs{display:flex;gap:6px;flex:0 0 auto;overflow:hidden;max-width:46%}
-.pin-ft-imgs img{width:64px;height:64px;object-fit:contain;background:#fff;border-radius:4px;border:1px solid var(--rule);padding:3px;box-sizing:border-box;flex:none}
+/* 写真は枠いっぱいに拡大して切り抜く(2026-11-21 本人「白い余白が出ないように」) */
+.pin-ft-imgs img{width:64px;height:64px;object-fit:cover;background:#fff;border-radius:4px;border:1px solid var(--rule);padding:0;box-sizing:border-box;flex:none}
 @media (max-width:620px){.pin-ft{flex-direction:column;align-items:stretch;gap:12px;padding:14px 16px}
   .pin-ft-imgs{max-width:100%}.pin-ft-imgs img{width:52px;height:52px}}
 .fp{padding:0 0 44px;margin-bottom:44px;border-bottom:1px solid var(--rule)}
