@@ -1,32 +1,27 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "days": 7,
  "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 106,
-   "views": 180
+   "visits": 91,
+   "views": 163
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 26,
-   "views": 26
+   "visits": 24,
+   "views": 24
   },
   {
    "path": "/posts/caimera-caim1-proof-camera.html",
-   "visits": 18,
-   "views": 19
+   "visits": 13,
+   "views": 14
   },
   {
    "path": "/posts/home-small-robots-roundup.html",
-   "visits": 12,
-   "views": 14
-  },
-  {
-   "path": "/posts/ring-drone-cam-indoor-flying-camera.html",
-   "visits": 12,
-   "views": 14
+   "visits": 11,
+   "views": 13
   },
   {
    "path": "/posts/radxa-linkr-ip-kvm.html",
@@ -40,8 +35,18 @@
   },
   {
    "path": "/posts/fotorgear-campix-waist-level-camera.html",
+   "visits": 10,
+   "views": 10
+  },
+  {
+   "path": "/posts/ring-drone-cam-indoor-flying-camera.html",
+   "visits": 9,
+   "views": 11
+  },
+  {
+   "path": "/posts/framework-wireless-touchpad-keyboard.html",
    "visits": 8,
-   "views": 8
+   "views": 7
   },
   {
    "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
@@ -51,21 +56,6 @@
   {
    "path": "/posts/flipper-one-pocket-linux-kickstarter.html",
    "visits": 7,
-   "views": 7
-  },
-  {
-   "path": "/posts/framework-wireless-touchpad-keyboard.html",
-   "visits": 7,
-   "views": 6
-  },
-  {
-   "path": "/posts/glinet-mango-2.html",
-   "visits": 7,
-   "views": 6
-  },
-  {
-   "path": "/posts/zwo-seestar-s30-plus.html",
-   "visits": 6,
    "views": 7
   },
   {
@@ -84,22 +74,32 @@
    "views": 6
   },
   {
-   "path": "/posts/slashvibe-ai-agent-desk-controller.html",
-   "visits": 6,
-   "views": 6
-  },
-  {
    "path": "/posts/tooldance-x1-desktop-cnc-kickstarter.html",
    "visits": 6,
    "views": 6
   },
   {
-   "path": "/posts/photora-wireless-touch-monitor-kickstarter.html",
+   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/glinet-mango-2.html",
+   "visits": 6,
+   "views": 5
+  },
+  {
+   "path": "/posts/2026-11-12-epomaker-alice40-column-stagger-ergo.html",
+   "visits": 5,
+   "views": 7
+  },
+  {
+   "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
    "visits": 5,
    "views": 5
   },
   {
-   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "path": "/posts/photora-wireless-touch-monitor-kickstarter.html",
    "visits": 5,
    "views": 5
   }
