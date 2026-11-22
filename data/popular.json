@@ -1,37 +1,37 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "days": 7,
  "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 91,
-   "views": 163
+   "visits": 84,
+   "views": 169
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 24,
-   "views": 24
-  },
-  {
-   "path": "/posts/caimera-caim1-proof-camera.html",
-   "visits": 13,
-   "views": 14
-  },
-  {
-   "path": "/posts/home-small-robots-roundup.html",
-   "visits": 11,
-   "views": 13
-  },
-  {
-   "path": "/posts/radxa-linkr-ip-kvm.html",
-   "visits": 11,
-   "views": 10
+   "visits": 16,
+   "views": 18
   },
   {
    "path": "/posts/lucy-ai-studio-agent-workstation.html",
-   "visits": 11,
-   "views": 9
+   "visits": 13,
+   "views": 11
+  },
+  {
+   "path": "/posts/radxa-linkr-ip-kvm.html",
+   "visits": 12,
+   "views": 11
+  },
+  {
+   "path": "/posts/caimera-caim1-proof-camera.html",
+   "visits": 10,
+   "views": 11
+  },
+  {
+   "path": "/posts/home-small-robots-roundup.html",
+   "visits": 10,
+   "views": 11
   },
   {
    "path": "/posts/fotorgear-campix-waist-level-camera.html",
@@ -39,7 +39,12 @@
    "views": 10
   },
   {
-   "path": "/posts/ring-drone-cam-indoor-flying-camera.html",
+   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "visits": 10,
+   "views": 10
+  },
+  {
+   "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
    "visits": 9,
    "views": 11
   },
@@ -49,7 +54,12 @@
    "views": 7
   },
   {
-   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
+   "path": "/posts/ring-drone-cam-indoor-flying-camera.html",
+   "visits": 7,
+   "views": 9
+  },
+  {
+   "path": "/posts/fiio-snowsky-mage-gaming-dac.html",
    "visits": 7,
    "views": 7
   },
@@ -64,44 +74,34 @@
    "views": 6
   },
   {
-   "path": "/posts/fiio-snowsky-mage-gaming-dac.html",
-   "visits": 6,
-   "views": 6
-  },
-  {
    "path": "/posts/shure-mv360-spatial-audio-microphone.html",
    "visits": 6,
    "views": 6
   },
   {
-   "path": "/posts/tooldance-x1-desktop-cnc-kickstarter.html",
-   "visits": 6,
+   "path": "/posts/pulsar-x2-crazylight-2-wireless-mouse.html",
+   "visits": 5,
    "views": 6
   },
   {
-   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
-   "visits": 6,
-   "views": 6
+   "path": "/posts/slashvibe-ai-agent-desk-controller.html",
+   "visits": 5,
+   "views": 5
   },
   {
    "path": "/posts/glinet-mango-2.html",
-   "visits": 6,
-   "views": 5
+   "visits": 5,
+   "views": 4
   },
   {
-   "path": "/posts/2026-11-12-epomaker-alice40-column-stagger-ergo.html",
+   "path": "/posts/razer-raiju-v3-pro-signature-edition.html",
    "visits": 5,
-   "views": 7
+   "views": 4
   },
   {
-   "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
-   "visits": 5,
-   "views": 5
-  },
-  {
-   "path": "/posts/photora-wireless-touch-monitor-kickstarter.html",
-   "visits": 5,
-   "views": 5
+   "path": "/posts/birdvue-feed-1-4g-smart-bird-feeder.html",
+   "visits": 4,
+   "views": 4
   }
  ]
 }
