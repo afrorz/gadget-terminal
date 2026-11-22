@@ -2821,7 +2821,7 @@ YT_MAP = json.loads(YT_MAP_FILE.read_text(encoding="utf-8")) if YT_MAP_FILE.exis
 
 
 def gt_video_section(p: dict) -> str:
-    """GT の YouTube に上げたこの製品の動画を、記事の終わり(購入先の後ろ)に出す。
+    """GT の YouTube に上げたこの製品の動画を、「日本で買える？使える？」の見出しの上に出す(無ければ購入先の後ろ)。
 
     ページを重くしないよう、最初は表紙の画像だけ。押したときに初めて YouTube を読み込む(GT_VIDEO_JS)。
     """
@@ -2926,6 +2926,13 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     alert_html = alert_form(s, p)
     body_with_media = style_japan_section(body_with_media, p, bool(alert_html))
     body_with_media = insert_alert_form(body_with_media, feature_buy_now(p) + alert_html)
+    # 「動画で見る」は「日本で買える？使える？」の見出しのすぐ上(2026-11-22 本人)。節が無い記事は購入先の後ろ
+    video_html = gt_video_section(p)
+    if video_html:
+        m = re.search(r"<h2[^>]*>\s*日本で買える？使える？\s*</h2>", body_with_media)
+        if m:
+            body_with_media = body_with_media[:m.start()] + video_html + body_with_media[m.start():]
+            video_html = ""
     embeds_html = ('<section class="embeds"><h2>関連する投稿・動画</h2>'
                    + "".join(others) + '</section>') if others else ""
     sources = ""
@@ -3065,7 +3072,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {videos_after_section(p)}
     {embeds_html}
     {buy_html}
-    {gt_video_section(p)}
+    {video_html}
     {alts_html}
     {gear_html}
     {feature_hint(p)}
@@ -4312,6 +4319,7 @@ h1,h2,h3{text-wrap:pretty}
 /* 記事の終わりの「動画で見る」。押すまでは表紙の画像だけ(2026-11-22) */
 .gt-video{max-width:var(--measure);margin:36px 0 0}
 .gt-video h2{font-size:17px;margin:0 0 12px}
+.prose .gt-video{margin:32px 0 36px}
 .gt-video-play{position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:#000;cursor:pointer}
 .gt-video-play img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .2s}
 .gt-video-play:hover img{opacity:.85}
