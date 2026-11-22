@@ -91,6 +91,10 @@
   "id": "O0woYLZ6GO4",
   "title": "Framework Wireless Touchpad Keyboard｜回路図とケースのCADまで公開される、ソファ用キーボード"
  },
+ "hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat": {
+  "id": "mbfHAI1P8vU",
+  "title": "HackerGadgets RTL-SDR/LoRa/GPS/RTC HAT｜ラズパイが、電波を聞いて送って位置まで知る無線機になる"
+ },
  "hiyd-watch-back-health-sensor": {
   "id": "FIVwPHTTdNU",
   "title": "HIYD｜いつもの腕時計が、寝ている間の心拍を測りだす"
@@ -191,9 +195,17 @@
   "id": "adz5BnGOYXI",
   "title": "ソニー MDR-3R｜1979年のウォークマンのヘッドホンが、USB-Cでスマホに挿さる"
  },
+ "teenage-engineering-ep-bc-1-cd-player": {
+  "id": "wFDgqy3azR0",
+  "title": "Teenage Engineering EP/BC-1｜曲の速さを指先で変えて、CDをUSBに書き出すCDプレーヤー"
+ },
  "temple-brainflow-temple-wearable": {
   "id": "4n1W_4_XBzI",
   "title": "Temple｜時計でも指輪でもなく、こめかみに着けて脳の血流を読むウェアラブル"
+ },
+ "timekettle-livetalk-open-ear-translation-earbuds": {
+  "id": "FAWQZm69aMo",
+  "title": "Timekettle LiveTalk｜外国語の動画も通話も、耳元で訳してくれるイヤホン"
  },
  "tobenone-magnetic-triple-screen-display": {
   "id": "9E0vsLNBgRY",
