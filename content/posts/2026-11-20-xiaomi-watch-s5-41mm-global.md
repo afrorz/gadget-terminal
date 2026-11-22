@@ -1,12 +1,12 @@
 ---
 title: Xiaomi Watch S5 41mmが世界発売、260ユーロ。画面は3,000ニト、電池は590mAhに倍増しセラミック版も
 slug: xiaomi-watch-s5-41mm-global
-seo_title: Xiaomi Watch S5 41mmは260ユーロ、日本は
+seo_title: Xiaomi Watch S5 41mm 日本発売は11/27、33,800円
 x_hook: |
-  小型の丸形スマートウォッチなのに、電池が前作の2倍近くになった。
-  Xiaomiの「Watch S5 41mm」は590mAh（前作は320mAh）で、画面は3,000ニト。
-  ・ベゼルとリュウズにセラミックを使う白モデルも
-  ・260ユーロ（約4.7万円）
+  小型の丸形スマートウォッチ「Xiaomi Watch S5 41mm」が、11月27日に日本で発売される。
+  電池は前作の約2倍の590mAh、画面は3,000ニト。
+  ・Xiaomi公式サイトで先行販売中
+  ・33,800円から（12月7日までの早割は29,800円から）
 keyword: Watch S5 41mm
 category: smartphone
 date: 2026-11-20
@@ -28,6 +28,18 @@ giteki:
   checked: 2026-11-20
   radio: Bluetooth
   note: 国内向けの型番が分からず、総務省DBで特定できない
+japan:
+  status: 発売予定
+  checked: 2026-11-23
+  summary: Xiaomi Japanが2026年11月17日に発表し、11月27日に発売する。価格は税込でブラック・ライトブルーが33,800円、セラミックホワイトが36,800円。12月7日までの早割は29,800円・32,800円。Xiaomi公式サイトで先行販売中で、発送は27日以降。この記事の公開時点（11月20日）で国内発表はすでに出ていた。見落としていたもので、お詫びして訂正する。技適は、型番を総務省のデータベースで特定できず、確認できていない。
+  buy:
+  - name: Xiaomi Japan 公式サイト
+    url: https://www.mi.com/jp/product/xiaomi-watch-s5-41mm/
+    price: 33,800円から（掲載時点、早割は29,800円から）
+    giteki: 国内正規
+  source:
+    title: Xiaomi Watch S5 41mmを11月27日に国内発売（Impress Watch）
+    url: https://www.watch.impress.co.jp/docs/news/2157390.html
 clips:
 - file: xiaomi-watch-s5-41mm-global/lug.mp4
   caption: "バンドを真ん中で支える（浮いて見えるデザイン）"
@@ -51,11 +63,11 @@ alternatives:
     image: "https://thumbnail.image.rakuten.co.jp/@0_mall/xiaomiofficial/cabinet/12894714/13024071/m65118.jpg"
 faq:
 - q: Xiaomi Watch S5 41mmはいくらですか
-  a: 世界販売の価格は260ユーロです。GSMArenaが2026年11月19日に伝えた値です。
+  a: 世界販売の価格は260ユーロです。GSMArenaが2026年11月19日に伝えた値です。日本ではXiaomi Japanが11月27日に発売し、ブラックとライトブルーが33,800円、セラミックホワイトが36,800円です（掲載時点）。12月7日までの早割は29,800円と32,800円です。
 - q: 前作と何が変わりましたか
   a: 画面の明るさが倍の3,000ニトに、電池容量が320mAhから590mAhになりました。通常の使い方で8日、理論上の最大で14日（前作は4日と8日）とされています。HyperOS 4が載り、Google Payにも対応します。
 - q: 日本で買えますか
-  a: 掲載時点で、S5 41mmの国内発売の告知は確認できていません。前作のXiaomi Watch S4 41mmはXiaomi公式の楽天市場店で売られています。
+  a: 買えます。Xiaomi Japanが2026年11月27日に発売し、Xiaomi公式サイトで先行販売中です（2026年11月23日確認）。
 - q: 技適は取得していますか
   a: 確認できていません。国内向けの型番が分からず、総務省のデータベースで特定できませんでした。
 ---
