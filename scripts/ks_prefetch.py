@@ -206,7 +206,7 @@ def git_publish() -> None:
     if em.strip() != EMAIL:
         log(f"中止: リポジトリのgit user.email が想定と違う({em.strip()!r})。commit/push しない")
         return
-    paths = ["data/kscache"] + (["data/popular.json"] if (ROOT / "data" / "popular.json").exists() else [])
+    paths = ["data/kscache"] + [f"data/{n}" for n in ("popular.json", "youtube.json") if (ROOT / "data" / n).exists()]
     git("add", "-A", *paths)
     rc, _ = git("diff", "--cached", "--quiet", "--", *paths)
     if rc == 0:
@@ -328,6 +328,13 @@ def main() -> int:
             log("popular.json を更新")
         except Exception as e:  # noqa: BLE001
             log(f"popular.json の更新に失敗: {e}")
+        # 記事に埋め込む YouTube 横長動画の一覧(2026-11-22〜)。gadget-shorts はこのPCにしか無いので、ここで作って push する
+        try:
+            import youtube_map
+            youtube_map.main()
+            log("youtube.json を更新")
+        except Exception as e:  # noqa: BLE001
+            log(f"youtube.json の更新に失敗: {e}")
 
         if not a.no_git:
             git_publish()

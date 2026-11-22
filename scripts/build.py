@@ -2815,6 +2815,34 @@ if(window.gtag)gtag('event','yorimichi_shuffle');});})();
 </script>"""
 
 
+# 記事ごとの YouTube 横長動画(1製品1本)。scripts/youtube_map.py が毎晩 data/youtube.json に書く(2026-11-22 本人)
+YT_MAP_FILE = ROOT / "data" / "youtube.json"
+YT_MAP = json.loads(YT_MAP_FILE.read_text(encoding="utf-8")) if YT_MAP_FILE.exists() else {}
+
+
+def gt_video_section(p: dict) -> str:
+    """GT の YouTube に上げたこの製品の動画を、記事の終わり(購入先の後ろ)に出す。
+
+    ページを重くしないよう、最初は表紙の画像だけ。押したときに初めて YouTube を読み込む(GT_VIDEO_JS)。
+    """
+    v = YT_MAP.get(p.get("slug") or "")
+    if not v or not re.match(r"^[A-Za-z0-9_-]{11}$", str(v.get("id") or "")):
+        return ""
+    vid = html.escape(v["id"])
+    title = html.escape(str(v.get("title") or "動画"))
+    return (f'<section class="gt-video"><h2>動画で見る</h2>'
+            f'<button type="button" class="gt-video-play" data-id="{vid}" aria-label="動画を再生: {title}">'
+            f'<img src="https://i.ytimg.com/vi/{vid}/hqdefault.jpg" alt="" loading="lazy" decoding="async" width="480" height="360">'
+            f'<span class="gt-video-icon" aria-hidden="true"></span></button>'
+            f'<p class="gt-video-cap">{title}<span>（Gadget Terminal の YouTube）</span></p></section>')
+
+
+GT_VIDEO_JS = """<script>document.querySelectorAll('.gt-video-play').forEach(function(b){b.addEventListener('click',function(){
+var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';
+f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;
+f.referrerPolicy='strict-origin-when-cross-origin';f.className='gt-video-frame';b.replaceWith(f);});});</script>"""
+
+
 def videos_after_section(p: dict) -> str:
     """クラファン記事に、公開後に出た YouTube の実機動画を出す(scripts/cf_videos.py が足す)。
 
@@ -3037,6 +3065,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {videos_after_section(p)}
     {embeds_html}
     {buy_html}
+    {gt_video_section(p)}
     {alts_html}
     {gear_html}
     {feature_hint(p)}
@@ -3048,7 +3077,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
   </article>
   {ad_unit(s, "article_end")}
   {rel_html}
-</main>{ALERT_JS if alert_html else ""}{YORIMICHI_JS if yr_html else ""}{WEEKLY_JS if s.get("weekly_mail") else ""}"""
+</main>{ALERT_JS if alert_html else ""}{YORIMICHI_JS if yr_html else ""}{WEEKLY_JS if s.get("weekly_mail") else ""}{GT_VIDEO_JS if p.get("slug") in YT_MAP else ""}"""
         + footer(site)
     )
 
@@ -4280,6 +4309,19 @@ h1,h2,h3{text-wrap:pretty}
 .embed-video{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
 .embed-video iframe{width:100%;aspect-ratio:16/9;border:0;display:block;background:var(--surface)}
 .embed-video figcaption{padding:0 2px}
+/* 記事の終わりの「動画で見る」。押すまでは表紙の画像だけ(2026-11-22) */
+.gt-video{max-width:var(--measure);margin:36px 0 0}
+.gt-video h2{font-size:17px;margin:0 0 12px}
+.gt-video-play{position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:#000;cursor:pointer}
+.gt-video-play img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .2s}
+.gt-video-play:hover img{opacity:.85}
+.gt-video-play:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.gt-video-icon{position:absolute;left:50%;top:50%;width:68px;height:48px;margin:-24px 0 0 -34px;border-radius:12px;background:rgba(20,20,20,.82)}
+.gt-video-play:hover .gt-video-icon{background:#e62117}
+.gt-video-icon::after{content:"";position:absolute;left:27px;top:14px;border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent #fff}
+.gt-video-frame{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:4px;background:#000}
+.gt-video-cap{margin:8px 0 0;font-size:13px;line-height:1.6;color:var(--ink-2)}
+.gt-video-cap span{color:var(--ink-3)}
 .embed-link a{display:block;padding:22px 24px;border:1px solid var(--rule);border-radius:3px;
   background:var(--surface);transition:border-color .2s,background .2s}
 .embed-link a:hover{border-color:var(--cat);background:var(--raised)}
