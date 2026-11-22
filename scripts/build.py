@@ -215,8 +215,14 @@ def add_yen_cell(cell: str, jpy: dict) -> tuple[str, bool]:
 def wrap_tables(body_html: str) -> str:
     """表を横スクロールの箱に入れる。スマホで列の多い比較表がページ全体を横に揺らしていた
     (2026-11-14 の全ページ点検で約45本)。"""
-    return re.sub(r"<table>.*?</table>", lambda m: '<div class="tbl-wrap">' + m.group(0) + "</div>",
-                  body_html, flags=re.S)
+    def box(m: re.Match) -> str:
+        t = m.group(0)
+        # 中身が写真だけの表(表情・着せ替えを横に並べる、2026-11-22〜)は、写真を列の幅いっぱいに出す
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", t, re.S)
+        photos = bool(cells) and all(re.fullmatch(r"\s*<img [^>]*>\s*", c) for c in cells)
+        return f'<div class="tbl-wrap{" tbl-photos" if photos else ""}">' + t + "</div>"
+
+    return re.sub(r"<table>.*?</table>", box, body_html, flags=re.S)
 
 
 def add_yen_to_tables(body_html: str) -> str:
@@ -4292,6 +4298,8 @@ img{max-width:100%}
 /* 表の中の小さな写真(本文の ![機種名](URL)) */
 .prose td img{display:block;width:72px;height:72px;object-fit:contain;background:#fff;border-radius:4px;
   border:1px solid var(--rule);margin:0 0 6px}
+.tbl-photos table{table-layout:fixed;width:100%}
+.prose .tbl-photos td img{width:100%;height:auto;aspect-ratio:1/1;margin:0}
 .inline-credit{display:block;margin-top:2px;font-size:11px;letter-spacing:.02em}
 .inline-clip video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#000}
 .inline-credit a{color:inherit}

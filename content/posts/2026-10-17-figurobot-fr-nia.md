@@ -51,10 +51,10 @@ clips:
   caption: "向かいに座った人の頭の動きに合わせて、顔の向きを変える"
   credit: "Figurobot 公式 YouTube"
   source: "https://www.youtube.com/watch?v=rDEx4LEjnv4"
-- file: figurobot-fr-nia/hair.mp4
-  caption: "髪のパーツを付け替えるところ"
+- file: figurobot-fr-nia/mechanism.mp4
+  caption: "顔と首を動かす10個のモーターの配置。眉・目・まぶた・口角・あごと、首のうなずき・回転・傾きを別々に動かす"
   credit: "Figurobot 公式 YouTube"
-  source: "https://www.youtube.com/watch?v=GegxIvq5p60"
+  source: "https://www.youtube.com/watch?v=RGcBgq5E5AI"
 sources:
 - title: "FR-NIA: The World's First Portable Expressive Robot（Kickstarterプロジェクトページ）"
   url: https://www.kickstarter.com/projects/figurobot-nia/fr-nia-the-worlds-first-portable-expressive-robot
@@ -102,7 +102,15 @@ faq:
 
 大規模言語モデル（LLM）で会話し、会話の内容に合わせて顔が動く。公式ページは、表情のパターンを1,000以上と説明している。喜び、驚き、不機嫌、悲しみといった基本の感情に、目もと・口もと・首の傾きの組み合わせで細かな違いをつける考え方だ。
 
-動かす仕組みは、独自開発の小型マイクロモーターである。大きさ8cmの頭に、顔7自由度・首3自由度の合計10自由度を収めている。Kickstarterのページによると、表情は言葉ごとに決まった顔を出すのではない。カメラとマイクで相手の表情・声の調子・話の流れを読み取り、感情の状態を推定して、動きの強さとタイミングに置き換えている。顔の素材は液体シリコーンだ。
+| 喜び | 驚き | 不機嫌 | 悲しみ |
+|---|---|---|---|
+| ![喜び](https://greenfunding.jp/figurobot/assets/images/expressions-v27/joy.webp) | ![驚き](https://greenfunding.jp/figurobot/assets/images/expressions-v27/surprise.webp) | ![不機嫌](https://greenfunding.jp/figurobot/assets/images/expressions-v27/displeased.webp) | ![悲しみ](https://greenfunding.jp/figurobot/assets/images/expressions-v27/sadness.webp) |
+
+同じ顔のまま、眉の角度、まぶたの開き、口角の上がり下がりだけで印象が変わる（写真はFigurobotの日本語の告知ページから）。
+
+動かす仕組みは、独自開発の小型マイクロモーターである。大きさ8cmの頭に、顔7自由度・首3自由度の合計10自由度を収めている。公式の紹介動画の図では、顔は眉（左右別）・目の左右の動き・まぶた・口角・あごの開閉を、首はうなずき・左右の回転・傾きを、それぞれ別のモーターで動かす。Kickstarterのページによると、表情は言葉ごとに決まった顔を出すのではない。カメラとマイクで相手の表情・声の調子・話の流れを読み取り、感情の状態を推定して、動きの強さとタイミングに置き換えている。顔の素材は液体シリコーンだ。
+
+![差し出された指先を見つめるFR-NIA。高さは約28cmで、人の手と比べると大きさが分かる](https://greenfunding.jp/figurobot/assets/images/photos-v35/nia-touch-1600.webp)
 
 内蔵カメラで相手の顔を追い、目と首を向けて話す。腕や脚はない。Figurobotは「何でもできるロボットではなく、自然にやりとりできるロボットにするため、表情と視線に絞った」と説明している。
 
@@ -116,6 +124,12 @@ Kickstarterのページで、告知ページには無かった点がいくつか
 - **持ち運べる。** 充電式のバッテリーを内蔵し、机の上から居間や車の中へ持ち出せる。替えのバッテリーは別売り
 - **見た目を変えられる。** スマートフォンアプリ（Faibo App）で、眉・まつげ・アイシャドウなどの化粧を描き、表情を自作できる。服やかつらの着せ替えセットも別売りで用意されている
 - **口の動きは開発中。** 話す声に合わせて口の形を動かす機能は、まだ開発と試験の途中とされている
+
+着せ替えの例として、日本語の告知ページは次の3つの装いを見せている。
+
+| 眼鏡と黒髪 | 帽子を合わせた装い | 青い衣装 |
+|---|---|---|
+| ![眼鏡と黒髪のNIA](https://greenfunding.jp/figurobot/assets/images/style-classic.webp) | ![帽子を合わせたNIA](https://greenfunding.jp/figurobot/assets/images/style-witch.webp) | ![青い衣装のNIA](https://greenfunding.jp/figurobot/assets/images/style-blue.webp) |
 
 モーターの発熱について、社内の試験で連続動作中も30℃未満に収まったとしている。ただし、条件はFigurobotの社内試験によるものだ。
 
@@ -146,6 +160,7 @@ ProとPro Maxには、「independent audio zones（独立した音の出し分�
 | 記憶領域 | Proは16GB、Pro Maxは64GB |
 | 接続 | Wi-Fi（2.4／5GHz）、Bluetooth 5.0 |
 | 電源 | USB Type-C、5V・2A、充電式バッテリー |
+| バッテリー | 5,000mAh（2,500mAhの電池2本、公式動画による） |
 | 連続動作 | 最大5時間（Pro・Pro Max） |
 | 対応言語 | 英語・中国語・日本語（ほかの言語は開発中） |
 | AI処理 | クラウド（インターネット接続が必要） |
