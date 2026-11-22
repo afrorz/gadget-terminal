@@ -3869,7 +3869,7 @@ CSS = """
   /* 注意喚起。カテゴリ色(--cat)とは独立させる。技適の警告は記事の
      カテゴリで色が変わってよいものではない。 */
   --warn:#b4472b;
-  --max:1280px; --measure:37.5rem;
+  --max:1280px; --measure:650px; /* 本文の幅。2026-11-22 本人「650にしてみて」で 600→650(1行約42字) */
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   --disp:"Space Grotesk","Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
   --sans:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
