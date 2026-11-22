@@ -1733,6 +1733,35 @@ def pinned_feature_strip() -> str:
             f'<span class="pin-ft-imgs">{imgs}</span></a>')
 
 
+def terminal_stats(posts: list[dict]) -> str:
+    """トップの説明文の下の1行の実績(2026-11-22 本人「権威性を高める情報を」→「でかすぎ」で1行に、就航日数は出さない)。
+
+    数字はビルドのたびに記事から数え直す。盛らない(数えられる物だけ)。上陸は案内板と同じ「あとから日本で買えるようになった」件数。
+    """
+    domains = set()
+    for p in posts:
+        for src in p.get("sources") or []:
+            m = re.search(r"https?://(?:www\.)?([^/]+)", str(src.get("url") if isinstance(src, dict) else src))
+            if m:
+                domains.add(m.group(1).lower())
+    checked = sum(1 for p in posts if isinstance(p.get("giteki"), dict) and p["giteki"].get("status"))
+    # まとめ記事(slug が -roundup で終わる)は製品の数に入れない。中の製品はそれぞれの記事で数えている
+    items = [("紹介した製品", sum(1 for p in posts if not str(p.get("slug") or "").endswith("roundup")), "本", ""),
+             ("参照した海外ソース", len(domains), "サイト", ""),
+             ("技適を確認", checked, "本", u(GITEKI_PATH)),
+             ("日本上陸を見届けた", LANDED_AFTER[0], "本", u("jpn.html"))]
+    parts = []
+    for label, n, unit, href in items:
+        if not n:
+            continue
+        inner = f'{label} <b>{n}</b>{unit}'
+        parts.append(f'<a class="ts-i" href="{href}">{inner}</a>' if href else f'<span class="ts-i">{inner}</span>')
+    if not parts:
+        return ""
+    return ('<p class="terminal-stats"><span class="ts-k">TERMINAL STATS</span>'
+            + '<span class="ts-d" aria-hidden="true">/</span>'.join(parts) + '</p>')
+
+
 def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int = 1,
                  all_posts: list[dict] | None = None) -> str:
     s = site["site"]
@@ -1813,6 +1842,7 @@ def render_index(site: dict, posts: list[dict], page: int = 1, total_pages: int 
     <p class="eyebrow">{'INTERNATIONAL / 海外発' if page <= 1 else f'ARCHIVE / {page} of {total_pages}'}</p>
     <h1 class="hero-title">{tagline_html(s['tagline']) if page <= 1 else f'過去の記事 — {page}ページ目'}</h1>
     <p class="hero-sub">{html.escape(s['description']) if page <= 1 else ''}</p>
+    {terminal_stats(all_posts or posts) if page <= 1 else ''}
     {hero_route_img() if page <= 1 else ''}
   </section>
   {today_strip(posts) if page <= 1 and TODAY_STRIP_ON else ''}
@@ -3980,6 +4010,14 @@ img{max-width:100%}
 .hero-title{font-family:var(--disp);font-size:clamp(22px,2.9vw,34px);line-height:1.4;
   margin:0 0 10px;font-weight:700;letter-spacing:-.015em;max-width:30em}
 .hero-sub{margin:0;color:var(--ink-2);font-size:13px;max-width:44em;line-height:1.75}
+/* トップの実績の1行(2026-11-22)。主張しすぎないよう説明文より薄く、数字だけ濃く */
+.terminal-stats{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:10px 0 0;font-size:12px;color:var(--ink-3)}
+.terminal-stats .ts-k{font:600 10px/1 var(--mono);letter-spacing:.14em;margin-right:4px}
+.terminal-stats .ts-i{color:inherit;text-decoration:none}
+.terminal-stats a.ts-i:hover{color:var(--ink-2)}
+.terminal-stats a.ts-i:hover b{color:var(--accent)}
+.terminal-stats b{font:600 13px/1 var(--mono);color:var(--ink);margin:0 2px 0 3px}
+.terminal-stats .ts-d{color:var(--rule-2)}
 /* スマホだけの「今日の新着」(today_strip)。PC は出さない(2026-11-14 本人) */
 /* スマホの TOP は「よく読まれている記事」を案内板(日本上陸の入口まで)のすぐ下へ。PC は今の並び(2026-11-14 本人) */
 @media (max-width:767px){
