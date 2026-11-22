@@ -18,18 +18,6 @@ images:
   - url: "https://media.paperlesspaper.de/t/c_limit,w_868,h_579,f_jpg,q_auto/paperlesspaper-website/IMG_5761-Bearbeitet.jpg"
     caption: E Ink Spectra 6を使った13.3インチの額縁「OpenPaper L」に抽象画を表示した状態
     credit: paperlesspaper 公式サイト
-  - url: "https://www.eink.com/upload/2026_10_16/95_20261016001331fl65ni0VT2.png"
-    caption: Kaleido 4の層構成。電子インク層の上にカラーフィルターが重なる
-    credit: E Ink 公式プレスリリース
-  - url: "https://store.bigme.vip/cdn/shop/files/02_17e176d8-e316-475f-b73f-018fc99b28f7.jpg"
-    caption: Bigme「HiBreak Dual 3」。E Inkの本体と、磁石で付け外しする5インチLCD
-    credit: Bigme 公式ストア
-  - url: "https://store.bigme.vip/cdn/shop/files/04_60aee9b5-b51d-4c4a-a618-539741c95c10.png?v=1791812848&width=750"
-    caption: 13.3インチのカラー電子ペーパーモニター「B13 Pro」の公式販促画像
-    credit: Bigme 公式ストア B13 Pro 製品ページ
-  - url: "https://wassets.insta360.com/www/e11d5db0cd8148e4b99645c099ad5da3/toast-acc-desk-stand-pc-EN.jpg"
-    caption: 3.7インチの写真立て「Insta360 Toast」を付属のスタンドに立てた状態
-    credit: Insta360 公式製品ページ
 credit: 各社の公式サイト・公式ストア
 x_hook: |
   同じ「カラーE Ink」なのに、ページめくりが75fpsの端末と、1枚描くのに約30秒かかる写真立てがある。
@@ -113,6 +101,8 @@ sources:
 
 **Kaleido系はカラーフィルター方式。** E Inkが公開したKaleido 4の層構成の図では、電子インクの層の上にカラーフィルターが重なっている。Kaleido 3を積むB6 ProとB13 Proは白黒300ppi・カラー150ppiで、カラー表示の細かさは白黒の半分になる。B13 Proの記事では、Kaleido 3で表示できる色数を4,096色としている。書き換えの速さを売りにする機種が多く、B6 Proは最大75fps、B13 Proは最大60FPSをうたう。
 
+![Kaleido 4の層構成。電子インク層の上にカラーフィルターが重なる](https://www.eink.com/upload/2026_10_16/95_20261016001331fl65ni0VT2.png "E Ink 公式プレスリリース")
+
 **Kaleido 4は、2026年10月15日にE Inkが発表した第4世代。** Kaleido 3と比べて色域の体積が2倍の40K超、白の反射率が15%、コントラストが50%向上し、動画は最大18fpsとしている。
 
 **Spectra 6は、6色の顔料で色を出す方式。** E Inkはこのパネルを「Vivid Full Color」と紹介している。バックライトを持たず、部屋の光を反射して見せ、一度表示した画像は電力を使わずに保たれる。色は鮮やかな反面、書き換えは遅い。Insta360 Toastではフルカラーの描画に約30秒かかる。額縁や写真立てに使われるのはこのためだ。
@@ -121,23 +111,27 @@ sources:
 
 ## 9機種の一覧
 
-| 種類 | 機種 | 方式 | 画面 | 価格(掲載時点) | 売り方 | 掲載日 |
-| --- | --- | --- | --- | --- | --- | --- |
-| スマホ型 | Bigme HiBreak Dual 2 | 記事・出典に記載なし | 6.13インチ、最大80fps | カラー版729ドル(超早期支援) | Kickstarter | 2026年8月18日 |
-| スマホ型 | Bigme HiBreak Dual 3 | 記事・出典に記載なし | 6.13インチ、最大85fps | カラー版589ドルから | 公式ストアの予約 | 2026年10月5日 |
-| 読書端末 | Bigme B6 Pro | Kaleido 3 | 6インチ、最大75fps | 289ドルから | 公式ストア | 2026年8月31日 |
-| 電子ノート | Hanvon M10C II | Kaleido 4 | 記事・出典に記載なし | 未発表 | 未発表 | 2026年10月17日 |
-| モニター | Bigme B13 Pro | Kaleido 3 | 13.3インチ、最大60FPS | 569ドル(予約) | 公式ストアの予約 | 2026年10月15日 |
-| 額縁 | paperlesspaper OpenPaper L | Spectra 6 | 13.3インチ | 339ユーロ | 公式サイト | 2026年9月12日 |
-| 額縁 | Inkanva | Spectra 6 | 7.09・13.3・28.5インチ | 13.3インチの通常価格349ドル | Kickstarter(募集は終了) | 2026年11月9日 |
-| 写真立て | Insta360 Toast | Spectra 6 | 3.7インチ | 未発表 | 未発表 | 2026年11月21日 |
-| 名札 | ENILINX TICKEY | 記事・出典に記載なし(48色) | 3.7インチ | 391香港ドル | Kickstarter(募集は終了) | 2026年9月23日 |
+| 機種 | 方式 | 画面 | 価格(掲載時点) | 売り方・出典 |
+| --- | --- | --- | --- | --- |
+| ![Bigme HiBreak Dual 2](https://i.ytimg.com/vi/9ku21poiSdM/mqdefault.jpg) [Bigme HiBreak Dual 2](/posts/bigme-hibreak-dual-2.html)<br>スマホ型 | 記事・出典に記載なし | 6.13インチ、最大80fps | カラー版729ドル(超早期支援) | Kickstarter<br>出典: [Liliputing](https://liliputing.com/bigme-hibreak-dual-2-smartphone-with-e-ink-and-lcd-screens-hits-kickstarter-for-599-and-up/) |
+| ![Bigme HiBreak Dual 3](https://store.bigme.vip/cdn/shop/files/01_818d7fa2-03bc-4acd-ac8a-0e3064b545b4.jpg?width=300) [Bigme HiBreak Dual 3](/posts/bigme-hibreak-dual-3.html)<br>スマホ型 | 記事・出典に記載なし | 6.13インチ、最大85fps | カラー版589ドルから | 公式ストアの予約<br>出典: [Bigme 公式ストア](https://store.bigme.vip/products/bigme-hibreak-dual-3-85fps-dual-eink-smartphone-with-detachable-color-lcd) |
+| ![Bigme B6 Pro](https://store.bigme.vip/cdn/shop/files/1_548d5b35-91cc-411f-b80d-55b173911bb8.jpg?v=1786102485&width=300) [Bigme B6 Pro](/posts/bigme-b6-pro-color-eink.html)<br>読書端末 | Kaleido 3 | 6インチ、最大75fps | 289ドルから | 公式ストア<br>出典: [Bigme 公式ストア](https://store.bigme.vip/products/bigme-b6-pro-6premium-color-ebook-reader-with-up-to-75fps) |
+| ![Hanvon M10C II](https://www.eink.com/upload/2026_10_16/95_20261016001331fl65ni0VT2.png) [Hanvon M10C II](/posts/eink-kaleido-4-hanvon-m10c-ii.html)<br>電子ノート(写真はKaleido 4の構造図) | Kaleido 4 | 記事・出典に記載なし | 未発表 | 未発表<br>出典: [E Ink 公式発表](https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4) |
+| ![Bigme B13 Pro](https://store.bigme.vip/cdn/shop/files/04_60aee9b5-b51d-4c4a-a618-539741c95c10.png?v=1791812848&width=300) [Bigme B13 Pro](/posts/bigme-b13-pro-color-epaper-monitor.html)<br>モニター | Kaleido 3 | 13.3インチ、最大60FPS | 569ドル(予約) | 公式ストアの予約<br>出典: [Bigme 公式ストア](https://store.bigme.vip/products/bigme-b13-pro-13-3-60-fps-color-epaper-monitor-with-usb-c-one-cable) |
+| ![paperlesspaper OpenPaper L](https://media.paperlesspaper.de/t/c_limit,w_300,h_300,f_jpg,q_auto/paperlesspaper-website/IMG_5761-Bearbeitet.jpg) [paperlesspaper OpenPaper L](/posts/openpaper-l-eink-photo-frame.html)<br>額縁 | Spectra 6 | 13.3インチ | 339ユーロ | 公式サイト<br>出典: [paperlesspaper 公式](https://paperlesspaper.de/en/openpaper-l) |
+| ![Inkanva](https://inkanva.com/cdn/shop/t/2/assets/inkanva-home-hero-desktop-v3.webp?v=37142424076376306531785474322) [Inkanva](/posts/inkanva-self-charging-e-ink-canvas.html)<br>額縁 | Spectra 6 | 7.09・13.3・28.5インチ | 13.3インチの通常価格349ドル | Kickstarter(募集は終了)<br>出典: [Kickstarter](https://www.kickstarter.com/projects/inkanva/inkanva) |
+| ![Insta360 Toast](https://wassets.insta360.com/www/802318f93b664002a9576b3e74ad647d/toast-acc-eink-display-pc-EN.jpg) [Insta360 Toast](/posts/insta360-toast-color-epaper-photo-frame.html)<br>写真立て | Spectra 6 | 3.7インチ | 未発表 | 未発表<br>出典: [Insta360 公式(中国)](https://www.insta360.com/cn/product/insta360-toast) |
+| ![ENILINX TICKEY](https://www.eniacelec.com/cdn/shop/t/21/assets/hero-slide-1.jpg) [ENILINX TICKEY](/posts/enilinx-tickey-epaper-badge.html)<br>名札 | 記事・出典に記載なし(48色) | 3.7インチ | 391香港ドル | Kickstarter(募集は終了)<br>出典: [ENILINX 公式](https://www.eniacelec.com/pages/tickey) |
 
 ## スマホ型 — 電子ペーパーの裏にLCDを持つBigmeの2機種
 
 **HiBreak Dual 2**は、前面が6.13インチのE Ink、背面が5インチのLCDという両面のAndroidスマホ。Kickstarterの超早期支援価格は、16GB+512GBのカラー版が729ドル(通常想定1,230ドル)、12GB+256GBの白黒版が599ドル。カラー時の解像度は824×412px(150ppi)で、白黒時の半分になる。発送は2026年10〜11月の予定とされていた。クラウドファンディングのため、出資は購入ではない。詳しくは[HiBreak Dual 2の記事](/posts/bigme-hibreak-dual-2.html)へ。
 
+![HiBreak Dual 2。Kickstarter開始を伝えるBigme公式の紹介映像の表紙](https://i.ytimg.com/vi/9ku21poiSdM/maxresdefault.jpg "Bigme 公式 YouTube")
+
 **HiBreak Dual 3**は、背面の5インチLCDを磁石で付け外しできるようにした後継機。E Inkのリフレッシュレートは最大85fpsとしている。公式ストアの予約価格は、12GB+256GBのカラー版がLCDなし589ドル、LCD付き649ドル、16GB+512GBのカラー版がLCDなし709ドル、LCD付き769ドル。出荷は11月上旬から中旬の見込みとされていた。詳しくは[HiBreak Dual 3の記事](/posts/bigme-hibreak-dual-3.html)へ。
+
+![Bigme「HiBreak Dual 3」。E Inkの本体と、磁石で付け外しする5インチLCD](https://store.bigme.vip/cdn/shop/files/02_17e176d8-e316-475f-b73f-018fc99b28f7.jpg "Bigme 公式ストア")
 
 2機種とも、E Ink面のパネルの方式名は記事と出典に書かれていなかった。
 
@@ -145,23 +139,35 @@ sources:
 
 **B6 Pro**は、6インチのKaleido 3を積むカラー電子書籍リーダー。最大75fpsのページめくりに加えて4G LTEを内蔵し、Wi-Fiが無い場所でも本をダウンロードできる。Android 14でGoogle Playが使えるので、KindleやKoboのアプリも入れられる。価格は本体とケースで289ドル(通常329ドル)、スタイラス付きで305ドル。掲載時点ですでに国際向けに売られていた。詳しくは[B6 Proの記事](/posts/bigme-b6-pro-color-eink.html)へ。
 
+![B6 Pro本体(白・黒)。背面に持ちやすいグリップ形状のフレームを備える](https://store.bigme.vip/cdn/shop/files/1_548d5b35-91cc-411f-b80d-55b173911bb8.jpg?v=1786102485&width=900 "Bigme 公式ストア")
+
 **Hanvon M10C II**は、Kaleido 4を最初に積んだ中国Hanvonの電子ノート。Qualcommの8コアプロセッサー、4GBのRAM、128GBのストレージ、筆圧8,192段階の電池不要のペンを備える。E InkはM10C IIでのページめくり・スクロールが27%速くなったとしている。価格と発売日は公表されていない。Kaleido 4の性能を確かめられる最初の機種として、続報を待つ段階だ。詳しくは[Kaleido 4とM10C IIの記事](/posts/eink-kaleido-4-hanvon-m10c-ii.html)へ。
 
 ## モニター — 13.3インチで60FPSになったB13 Pro
 
 **B13 Pro**は、PCやスマホにつなぐ13.3インチのカラー電子ペーパーモニター。Kaleido 3で3200×2400、リフレッシュレートは前モデルの30Hzから最大60FPSに上がった。USB-Cケーブル1本で映像と給電ができ、重さは約660g。公式ストアの予約価格は569ドル(通常表示749ドル)で、出荷時期は掲載時点で書かれていなかった。文章を読み書きする時間が長い人向けで、動画やスクロールの多い作業には向かない。詳しくは[B13 Proの記事](/posts/bigme-b13-pro-color-epaper-monitor.html)へ。
 
+![折りたたみ式カバーで立てた13.3インチのB13 Pro](https://store.bigme.vip/cdn/shop/files/04_60aee9b5-b51d-4c4a-a618-539741c95c10.png?v=1791812848&width=750 "Bigme 公式ストア B13 Pro 製品ページ")
+
 ## 額縁と写真立て — Spectra 6の3機種
 
 **OpenPaper L**は、ドイツのpaperlesspaperが売る13.3インチの額縁。1600×1200(150ppi)で、単3電池4本なら1日1回の更新で約6か月動く。メーカーのクラウドにつながずに使えるオフラインのファームウェアを選べ、Home AssistantやGoogleカレンダーとも連携する。価格は339ユーロ(通常359ユーロ)。詳しくは[OpenPaper Lの記事](/posts/openpaper-l-eink-photo-frame.html)へ。
 
+![OpenPaper Lを情報ダッシュボードとして使った状態。曜日・日付・その日の予定を表示している](https://media.paperlesspaper.de/t/c_limit,w_868,h_1302,f_jpg,q_auto/paperlesspaper-website/IMG_5808-Bearbeitet.jpg "paperlesspaper 公式サイト")
+
 **Inkanva**は、背面のペロブスカイト太陽電池で室内の光から充電する香港の額縁。7.09・13.3・28.5インチの3サイズで、太陽電池のパネルが付くのは7.09インチと13.3インチ。公式サイトの13.3インチの通常価格は349ドル(掲載時点で売り切れ表示)。Kickstarterの募集は11月16日に締め切られた。充電量は部屋の明るさと画像を替える頻度で変わる。クラウドファンディングの案件で、まだ製品ではない。詳しくは[Inkanvaの記事](/posts/inkanva-self-charging-e-ink-canvas.html)へ。
 
+![壁に掛けたInkanva(メーカーの公式サイトの画像。レンダリングとみられる)](https://inkanva.com/cdn/shop/t/2/assets/inkanva-home-hero-desktop-v3.webp?v=37142424076376306531785474322 "Inkanva 公式サイト")
+
 **Insta360 Toast**は、アクションカメラのInsta360が出した3.7インチの写真立て。厚さ5.25mm・43gで、本体に30枚、クラウドに200枚を保存できる。公式は1回の充電で最長195日(1日1回の更新、2週間に1回のアプリ接続、約25℃)としている。フルカラーの描画には約30秒かかるので、毎日1枚を選んで飾る使い方に合う。価格と発売日は掲載時点で確認できていない。詳しくは[Insta360 Toastの記事](/posts/insta360-toast-color-epaper-photo-frame.html)へ。
+
+![Insta360 Toastの正面。縦長の白い枠に3.7インチのカラー電子ペーパーが入る](https://wassets.insta360.com/www/802318f93b664002a9576b3e74ad647d/toast-acc-eink-display-pc-EN.jpg "Insta360 公式製品ページ")
 
 ## 名札 — 48色で着せ替えるTICKEY
 
 **TICKEY**は、香港のENILINXがKickstarterで募った3.7インチ・720×480の名札。48色のe-Paperにスマホから写真やToDoを送り、かばんのチャームや卓上の表示器にもなる。書き換えは高速モードで3秒、通常モードで13秒。KS Specialの支援枠は391香港ドル(記事では約50米ドル相当)で、初回1万台は2026年11〜12月の出荷予定とされていた。パネルの方式名は記事と出典に書かれていない。詳しくは[TICKEYの記事](/posts/enilinx-tickey-epaper-badge.html)へ。
+
+![ENILINXのe-Paper名札「TICKEY」](https://www.eniacelec.com/cdn/shop/t/21/assets/hero-slide-1.jpg "ENILINX 公式サイト")
 
 ## どれを待つか
 

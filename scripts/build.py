@@ -273,7 +273,8 @@ def parse_post(path: Path) -> dict | None:
         return None
 
     MD.reset()
-    meta["body_html"] = wrap_tables(add_yen_to_tables(link_giteki(MD.convert(body_md))))
+    meta["body_html"] = wrap_tables(add_yen_to_tables(link_giteki(body_images(MD.convert(body_md),
+                                                                               meta))))
     # slug を書き忘れた記事は、ファイル名から日付を外した名前にする。ショート動画の
     # 説明欄・X・Threads はどれも日付なしの URL を組み立てるため(2026-11-22、日付付きの
     # URL になった4本で動画の記事リンクが 404 になっていた)。その4本は URL を変えない
@@ -2596,6 +2597,57 @@ def card_image(p: dict) -> tuple[str, bool]:
     return (u("cards/" + p["slug"] + ".png"), False)
 
 
+CROP_FILE = ROOT / "data" / "img_crop.json"
+CROP = json.loads(CROP_FILE.read_text(encoding="utf-8")) if CROP_FILE.exists() else {}
+CROP_MAX_H = 520  # .inline-shot img / .article-hero img の max-height と同じ
+
+
+def crop_wrap(src: str, img: str) -> str:
+    """元の画像に入っている白い余白を、表示のときに切る(値は scripts/img_trim.py が data/img_crop.json に書く)。
+
+    画像は権利者のサーバーのまま。見せたい範囲の縦横比の箱を作り、画像を大きめに置いてはみ出しを隠す。
+    """
+    c = CROP.get(src)
+    if not c:
+        return img
+    l, t, r, b, w, h = c
+    cw, ch = r - l, b - t
+    box_w = min(cw, CROP_MAX_H * cw / ch)
+    st = (f"left:{-100 * l / cw:.3f}%;top:{-100 * t / ch:.3f}%;"
+          f"width:{100 * w / cw:.3f}%;height:{100 * h / ch:.3f}%")
+    img = img.replace("<img ", f'<img style="{st}" ', 1)
+    return f'<span class="crop" style="aspect-ratio:{cw}/{ch};width:{box_w:.0f}px">{img}</span>'
+
+
+def body_images(body_html: str, meta: dict) -> str:
+    """本文の Markdown に書いた写真(2026-11-22〜)。
+
+    ・1行だけの `![説明](URL "出典")` は、images と同じ写真の枠にしてその場所に出す
+      (まとめ記事で、各機種の段落のすぐ下にその機種の写真を置くため)
+    ・表の中に書いた `![機種名](URL)` は小さな写真にする(.prose td img)
+    どちらも権利者のサーバーの画像をそのまま参照する(ホットリンク)。出典を省くと記事の credit を出す。
+    """
+    def attrs(tag: str) -> dict:
+        return {k: html.unescape(v) for k, v in re.findall(r'(\w+)="([^"]*)"', tag)}
+
+    def block(m: re.Match) -> str:
+        a = attrs(m.group(1))
+        return inline_photo({"url": a.get("src", ""), "caption": a.get("alt", ""),
+                             "credit": a.get("title") or str(meta.get("credit") or "")},
+                            str(meta.get("title") or ""))
+
+    body_html = re.sub(r"<p>(<img [^>]*>)</p>", block, body_html)
+
+    def small(m: re.Match) -> str:
+        a = attrs(m.group(0))
+        return (f'<img src="{html.escape(a.get("src", ""))}" alt="{html.escape(a.get("alt", ""))}" '
+                f'loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">')
+
+    return re.sub(r"<td>.*?</td>",
+                  lambda m: re.sub(r'<img (?![^>]*referrerpolicy)[^>]*>', small, m.group(0)),
+                  body_html, flags=re.S)
+
+
 def ext_img(src: str, alt: str, *, lazy: bool = True, fallback: str = "") -> str:
     """権利者のサーバー上の画像をそのまま参照する img タグを作る。
 
@@ -2621,7 +2673,8 @@ def inline_photo(im: dict, title: str) -> str:
     if credit:
         parts.append(f'<span class="inline-credit">出典: {html.escape(credit)}</span>')
     figcap = f'<figcaption>{" ".join(parts)}</figcaption>' if parts else ""
-    return f'<figure class="inline-shot">{ext_img(im["url"], cap or title)}{figcap}</figure>'
+    return (f'<figure class="inline-shot">{crop_wrap(im["url"], ext_img(im["url"], cap or title))}'
+            f'{figcap}</figure>')
 
 
 def inline_clip(c: dict, title: str) -> str:
@@ -2948,7 +3001,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         cap = (f'<figcaption class="hero-credit">出典: {html.escape(str(credit))}</figcaption>'
                if credit else "")
         hero_block = (f'<figure class="article-hero article-hero-real">'
-                      + ext_img(th, p["title"], lazy=False, fallback=fallback)
+                      + crop_wrap(th, ext_img(th, p["title"], lazy=False, fallback=fallback))
                       + f'{cap}</figure>')
     else:
         hero_block = (f'<figure class="article-hero">'
@@ -4224,9 +4277,21 @@ img{max-width:100%}
 .inline-media{margin:28px 0}
 .inline-media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
 .inline-media .embed{margin:0}
-.inline-shot{margin:0;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
-.inline-shot img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
-.inline-shot figcaption{padding:9px 12px 10px;font-size:12.5px;line-height:1.7;color:var(--ink-3)}
+/* 写真の枠は写真の幅まで縮めて中央に置く。正方形・縦長の写真の左右に白が残らないように(2026-11-22 本人) */
+.inline-shot{margin:0 auto;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden;
+  display:flex;flex-direction:column;align-items:center;width:fit-content;max-width:100%;
+  min-width:min(100%,320px)}
+.inline-shot img{display:block;width:auto;max-width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
+.inline-shot figcaption{padding:9px 12px 10px;font-size:12.5px;line-height:1.7;color:var(--ink-3);
+  width:0;min-width:100%;box-sizing:border-box}
+.inline-shot.inline-clip{display:block;width:auto}
+.inline-media-grid .inline-shot{width:auto;align-items:center}
+/* 元画像に入っている余白を切る箱(crop_wrap) */
+.crop{display:block;position:relative;overflow:hidden;max-width:100%;background:#fff;margin:0 auto}
+.crop>img{position:absolute;max-width:none!important;max-height:none!important}
+/* 表の中の小さな写真(本文の ![機種名](URL)) */
+.prose td img{display:block;width:72px;height:72px;object-fit:contain;background:#fff;border-radius:4px;
+  border:1px solid var(--rule);margin:0 0 6px}
 .inline-credit{display:block;margin-top:2px;font-size:11px;letter-spacing:.02em}
 .inline-clip video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#000}
 .inline-credit a{color:inherit}
