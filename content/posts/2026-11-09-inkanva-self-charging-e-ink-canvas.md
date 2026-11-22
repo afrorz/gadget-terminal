@@ -70,6 +70,14 @@ faq:
   a: 掲載時点で、日本の販売元は確認できていません。Kickstarterの配送先に日本が含まれるかも、こちらでは確かめられていません。
 - q: 技適は取得していますか
   a: 型番が公開されておらず、総務省のデータベースで特定できませんでした。Wi-Fiを使う製品なので、国内で使うには技適が必要です。
+modified: 2026-11-23
+videos_after:
+  - id: sTQH6voC7EE
+    title: "Inkanva Review: Solar-Powered Colour E-Ink Display + Home Assistant & AI"
+    channel: "Smart Home Australia"
+    published: 2026-10-01
+    added: 2026-11-23
+    note: "個人の YouTuber による実機のレビュー（英語）。室内でのソーラー充電を扱う"
 ---
 
 Inkanvaは、背面の着脱式パネルで室内の光から発電するカラー電子ペーパーの額縁だ。香港のブランドで、Kickstarterで募集している。2026年11月9日時点の調達額は2,975,415香港ドル、支援者は745人。目標の100,000香港ドルの約30倍で、募集は日本時間11月16日0時ごろまで。
