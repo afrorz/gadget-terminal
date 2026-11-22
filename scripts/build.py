@@ -1132,6 +1132,7 @@ def footer(site: dict) -> str:
       <p class="foot-meta">
         <span class="foot-social-pc">{x_link}<a href="{u("feed.xml")}">RSS</a></span><a href="{u("features.html")}">特集</a><a href="{u("topic/")}">話題から探す</a><a href="{u(GITEKI_PATH)}">技適一覧</a><a href="{u("jpn.html")}">日本上陸</a><a href="{u("about.html")}">運営・免責</a><a href="https://en.gadgetterminal.com/" hreflang="en" lang="en">English</a><a href="{u("privacy.html")}">プライバシー</a><a href="{u("media.html")}">メーカー・広報の方へ</a><a href="mailto:{s.get('contact_email','')}">お問い合わせ</a>
       </p>
+      <p class="foot-sister">姉妹サイト<a href="https://cozydesk.gadgetterminal.com/">Cozy Desk</a><a href="https://charge.gadgetterminal.com/">充電沼</a><a href="https://wearable.gadgetterminal.com/">Wearable Mania</a></p>
       <p class="foot-copy">© {span} {html.escape(s['title'])} — {html.escape(s['author'])}</p>
     </div>
   </div>
@@ -4594,6 +4595,10 @@ h1,h2,h3{text-wrap:pretty}
 .foot-meta a{color:var(--ink-2);border-bottom:1px solid transparent;padding-bottom:2px}
 .foot-meta a:hover{color:var(--ink);border-bottom-color:var(--accent)}
 .foot-copy{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin:0;letter-spacing:.06em}
+/* 姉妹サイトへのリンク。目立たせない(2026-11-23 本人「目立たないところに」) */
+.foot-sister{margin:0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:11.5px;color:var(--ink-3)}
+.foot-sister a{color:var(--ink-3);white-space:nowrap}
+.foot-sister a:hover{color:var(--ink-2)}
 
 /* ── レスポンシブ ───────────────────────────── */
 /* 案内板は狭くなるほど列を落とす。最後まで残すのは KEY と STATUS。
