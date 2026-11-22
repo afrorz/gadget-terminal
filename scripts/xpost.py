@@ -40,6 +40,7 @@ import hashlib
 import hmac
 import json
 import os
+import re
 import secrets
 import sys
 import time
@@ -229,7 +230,7 @@ def main() -> int:
             continue
         if fm.get("draft"):
             continue
-        slug = fm.get("slug") or path.stem
+        slug = fm.get("slug") or re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
         if slug in done:
             continue
         posts.append(fm | {"slug": slug})

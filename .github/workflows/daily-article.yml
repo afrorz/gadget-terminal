@@ -434,6 +434,9 @@ jobs:
             10. 【重要】書いたら必ず検証する。すべて通ってからコミットする。
                a. python3 -c "import yaml,glob;[yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]) for f in glob.glob('content/posts/<TODAY>-*.md')]"
                   → front matter の YAML が壊れていないか。コロン(:)を含む値は必ずダブルクォートで囲む
+                  python3 -c "import yaml,glob,re,sys;bad=[f for f in glob.glob('content/posts/<TODAY>-*.md') if not (s:=str((yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]) or {}).get('slug') or '')) or re.match(r'\d{4}-\d{2}-\d{2}-',s) or not f.endswith('-'+s+'.md')];print('slug が無い・日付付き・ファイル名と不一致:',bad) if bad else None;sys.exit(1 if bad else 0)"
+                  → slug は必須。日付を付けず、ファイル名の日付より後ろと同じにする
+                    (書き忘れると日付付きの URL になり、ショート動画や X の記事リンクが 404 になる。2026-11 に4本あった)
                b. pip install -r requirements.txt --break-system-packages -q && python3 scripts/build.py
                   → 「記事 N本」の N が、書いた本数だけ増えていることを確認
                c. python3 scripts/checklinks.py content/posts/<TODAY>-*.md --check-alive

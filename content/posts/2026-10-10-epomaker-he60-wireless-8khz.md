@@ -8,6 +8,7 @@ x_hook: |
   ・筐体はWootingの60HEに寄せた形
 keyword: HE60
 category: pc
+slug: 2026-10-10-epomaker-he60-wireless-8khz
 date: 2026-10-10
 kicker: Epomakerが、ホールエフェクト（磁気）スイッチを使う60%キーボード「HE60」を出した。ラピッドトリガーに対応し、有線でも2.4GHzの無線でも8,000Hzのポーリングレートで動く。価格は公式ストアで59.99ドル。
 tags:

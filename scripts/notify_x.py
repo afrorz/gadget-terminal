@@ -298,7 +298,7 @@ def main() -> int:
     # id に状況を含めるので、「予約受付中」→「発売済み」と進めばそれぞれ1回ずつ届く。
     for path, j in updates:
         fm = load_front_matter(path)
-        slug = fm.get("slug")
+        slug = fm.get("slug") or re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
         # summary は記事の中で読む前提の文で、製品名が入っていない
         # (「日本ではヤンミン・ストアが…応援購入を受け付けている」だけでは
         # 何の話か分からない、と本人から指摘があった)。x_hook が無ければ
@@ -326,7 +326,7 @@ def main() -> int:
         })
     for path in files:
         fm = load_front_matter(path)
-        slug = fm.get("slug")
+        slug = fm.get("slug") or re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
         # 箇条書きの x_hook は YAML のブロック形式で書くので、末尾の改行を落とす
         hook = str(fm.get("x_hook") or "").strip()
         if not slug or not hook:

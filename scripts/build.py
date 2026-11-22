@@ -274,7 +274,11 @@ def parse_post(path: Path) -> dict | None:
 
     MD.reset()
     meta["body_html"] = wrap_tables(add_yen_to_tables(link_giteki(MD.convert(body_md))))
-    meta["slug"] = meta.get("slug") or path.stem
+    # slug を書き忘れた記事は、ファイル名から日付を外した名前にする。ショート動画の
+    # 説明欄・X・Threads はどれも日付なしの URL を組み立てるため(2026-11-22、日付付きの
+    # URL になった4本で動画の記事リンクが 404 になっていた)。その4本は URL を変えない
+    # よう front matter に日付付きの slug を書いてある。
+    meta["slug"] = str(meta.get("slug") or DATE_PREFIX.sub("", path.stem))
     meta["date"] = str(meta.get("date", datetime.now(JST).strftime("%Y-%m-%d")))
     # 更新日。日本上陸の続報を書き足したら、その確認日を更新日として扱う
     # （構造化データの dateModified と sitemap の lastmod に効き、再クロールを促す）。
@@ -2317,14 +2321,17 @@ def story_section(p: dict) -> str:
     return f'<aside class="st-box"><h2>この製品の動き</h2><ol class="st-tl">{rows}</ol></aside>'
 
 
-def merged_redirect(site: dict, m: dict, target: dict) -> str:
+DATE_PREFIX = re.compile(r"^\d{4}-\d{2}-\d{2}-")
+
+
+def merged_redirect(site: dict, m: dict, target: dict, note: str = "この記事は<a href=\"{rel}\">こちら</a>にまとめました。") -> str:
     base = site["site"]["base_url"].rstrip("/")
     to = f"{base}/{target['path']}"
     rel = u(target["path"])   # 転送はサイト内の相対(手元の確認でも本番へ飛ばない)、canonical は絶対
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>{html.escape(target["title"])}</title>'
             f'<link rel="canonical" href="{to}"><meta http-equiv="refresh" content="0;url={rel}">'
             f'<script>location.replace({json.dumps(rel)}+location.search+location.hash)</script></head>'
-            f'<body><p>この記事は<a href="{rel}">こちら</a>にまとめました。</p></body></html>')
+            f'<body><p>{note.format(rel=rel)}</p></body></html>')
 
 
 def weekly_form(s: dict) -> str:
@@ -4988,6 +4995,21 @@ def main() -> int:
     _by = {p["slug"]: p for p in posts}
     for m in MERGED:
         (PUBLIC / m["path"]).write_text(merged_redirect(site, m, _by[str(m["merged_into"]).strip()]), encoding="utf-8")
+    # URL に日付が付いた記事(slug: 2026-11-12-...)へ、日付なしの URL からも飛べるようにする。
+    # ショート動画の説明欄などは日付なしの URL を書いてしまうため。
+    _taken = set(_by) | {m["slug"] for m in MERGED}
+    _short = 0
+    for p in posts + MERGED:
+        bare = DATE_PREFIX.sub("", p["slug"])
+        if bare == p["slug"] or bare in _taken:
+            continue
+        target = _by.get(str(p.get("merged_into") or "").strip()) or p
+        (PUBLIC / "posts" / f"{bare}.html").write_text(
+            merged_redirect(site, p, target, "この記事は<a href=\"{rel}\">こちら</a>です。"), encoding="utf-8")
+        _taken.add(bare)
+        _short += 1
+    if _short:
+        print(f"■ 日付なしの URL から日付付きの記事へ転送: {_short}本")
     if TOPICS:
         (PUBLIC / "topic").mkdir(parents=True, exist_ok=True)
         (PUBLIC / "topic" / "index.html").write_text(render_topics_index(site), encoding="utf-8")

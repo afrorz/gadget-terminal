@@ -27,7 +27,7 @@ def post_slugs() -> set[str]:
     slugs = set()
     for p in (ROOT / "content" / "posts").glob("*.md"):
         m = re.search(r"^slug:\s*['\"]?([^'\"\n]+)", p.read_text(encoding="utf-8")[:3000], re.M)
-        slugs.add(m.group(1).strip() if m else p.stem)
+        slugs.add(m.group(1).strip() if m else re.sub(r"^\d{4}-\d{2}-\d{2}-", "", p.stem))
     return slugs
 
 

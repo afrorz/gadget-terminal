@@ -8,6 +8,7 @@ x_hook: |
   ・109.99ドル（約1万7千円）
 keyword: Bamboo75
 category: pc
+slug: 2026-11-12-epomaker-bamboo75-bamboo-case-keyboard
 date: 2026-11-12
 kicker: Epomakerが、ケースを竹で作った75%サイズの無線キーボード「Bamboo75」を公式ストアで発売した。木目をプリントしたキーキャップと、Bluetooth・2.4GHz・USB-Cの3モード接続を備え、価格は109.99ドル。
 tags:

@@ -90,7 +90,7 @@ def pick(n: int) -> list[tuple[Path, dict]]:
         if str((fm.get("japan") or {}).get("status") or "") == FINAL_STATUS:
             continue
         # 登録者が待っている記事は、公開からの日数や前回の確認日に関係なく毎日見る(n の枠の外)
-        if (fm.get("slug") or p.stem) in waiting:
+        if (fm.get("slug") or re.sub(r"^\d{4}-\d{2}-\d{2}-", "", p.stem)) in waiting:
             fm["_waiting"] = True
             priority.append((p, fm))
             continue

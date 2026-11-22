@@ -5,6 +5,7 @@ x_hook: |
   耳に挟むクリップ型のオープンイヤー完全ワイヤレス「Xiaomi Clip」が、国内でも11月27日に発売される。税込1万9,800円で、12月7日までは早割1万7,800円。予約は公式サイトで受け付け中。
 keyword: Xiaomi Clip
 category: smartphone
+slug: 2026-11-18-xiaomi-clip-open-ear-earbuds-europe
 date: 2026-11-18
 kicker: Xiaomi が、初のクリップ型オープンイヤーイヤホン「Xiaomi Clip」を11月17日に海外で発売した。欧州の価格は149.99ユーロから。1個5.5g、IP57で、Bluetooth 5.4とLHDC 5.0に対応する。
 tags:

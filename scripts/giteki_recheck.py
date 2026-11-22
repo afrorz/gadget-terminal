@@ -81,7 +81,7 @@ def load_posts() -> list[dict]:
         fm = front_matter(text)
         if fm.get("draft"):
             continue
-        out.append({"path": path, "slug": fm.get("slug") or path.stem, "fm": fm,
+        out.append({"path": path, "slug": fm.get("slug") or re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem), "fm": fm,
                     "date": str(fm.get("date") or "")[:10]})
     return out
 

@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -69,7 +70,7 @@ def collect_urls(base: str, days: int | None) -> list[str]:
         date = str(fm.get("date", ""))
         if cutoff and date < cutoff:
             continue
-        slug = fm.get("slug") or path.stem
+        slug = fm.get("slug") or re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
         urls.append(f"{base}/posts/{slug}.html")
 
     if urls or days is None:

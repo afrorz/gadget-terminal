@@ -8,6 +8,7 @@ x_hook: |
   ・531gで69.99ドル（約1万円）
 keyword: Alice40
 category: pc
+slug: 2026-11-12-epomaker-alice40-column-stagger-ergo
 date: 2026-11-12
 kicker: Epomakerが、40%サイズのエルゴノミクスキーボード「Alice40」を公式ストアで発売した。Alice配列をベースに列を縦にずらした46キーで、中央にノブ、Bluetooth・2.4GHz・USB-Cの3モード接続を備え、価格は69.99ドル。
 tags:
