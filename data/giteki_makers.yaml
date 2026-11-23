@@ -11,6 +11,12 @@
 #   <ブランド>: {tried: YYYY-MM-DD, note: ...}
 
 brands:
+  Fosi:
+    aliases:
+    - Fosi Audio
+    note: Amazon.co.jp の FOSI AUDIO ストアの特定商取引法の表記で販売業者が Shenzhen Foresight Technology Co., Ltd.(2026-11-23 確認)。DB に 220-J12768(DAP Neo ほか、2026-11-02)
+    registrants:
+    - Shenzhen Foresight Technology
   8BitDo:
     note: DB上は SHENZHEN 8BITDO TECH CO., LTD.
     registrants:
@@ -166,9 +172,6 @@ unresolved:
   Fairphone:
     note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
     tried: '2026-10-21'
-  Fosi:
-    note: 候補は Shenzhen Foresight Technology(DBに S3/S5 系の登録あり)だが、Fosi の運営会社である一次根拠が無く未採用
-    tried: '2026-10-15'
   Honor:
     note: ブランド名・主要な法人名の推測でDBを引いたが0件。一次の根拠のある法人名は未確認(2026-10-21)
     tried: '2026-10-21'
