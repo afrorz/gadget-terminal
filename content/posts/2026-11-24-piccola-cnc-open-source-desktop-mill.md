@@ -32,6 +32,15 @@ images:
 - url: "https://irp.cdn-website.com/11074afe/dms3rep/multi/opt/IMG_1146.jpg-1920w.jpeg"
   caption: 木、アルミ、真ちゅう、樹脂で削り出した加工サンプル
 credit: InMachines / Piccola CNC 公式サイト
+clips:
+- file: piccola-cnc-open-source-desktop-mill/alu.mp4
+  caption: "アルミも真ちゅうも削る（木や樹脂にも対応）"
+  credit: "InMachines 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=Nwl-WHoEikU"
+- file: piccola-cnc-open-source-desktop-mill/pcb.mp4
+  caption: "基板もその場で彫る（両面基板にも）"
+  credit: "InMachines 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=Nwl-WHoEikU"
 sources:
 - title: "Piccola CNC: 100% Open Source Desktop Milling Machine（Kickstarter。金額・支援者数は2026年11月24日時点）"
   url: https://www.kickstarter.com/projects/inmachines/piccola-cnc

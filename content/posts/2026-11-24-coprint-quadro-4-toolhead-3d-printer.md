@@ -31,6 +31,15 @@ images:
 - url: "https://cdn.shopify.com/s/files/1/0674/1622/8149/files/quadro-products-web.webp?v=1790000055"
   caption: 斜めから見た本体。左右の待機位置にそれぞれ2本ずつヘッドが置かれ、スプールが両側面に掛かる
 credit: Co Print 公式サイト
+clips:
+- file: coprint-quadro-4-toolhead-3d-printer/swap.mp4
+  caption: "ヘッドを付け替えない（色替えは約1秒とされる）"
+  credit: "Co Print 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=ggO9pAvqIBs"
+- file: coprint-quadro-4-toolhead-3d-printer/print.mp4
+  caption: "ヘッドが交代で刷る（使わないヘッドは左右へ）"
+  credit: "Co Print 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=ggO9pAvqIBs"
 sources:
 - title: "Co Print Quadro | Independent 4-Toolhead Color 3D Printer（Kickstarter。金額・支援者数は2026年11月24日時点）"
   url: https://www.kickstarter.com/projects/coprint3d/co-print-quadro-independent-4-toolhead-color-3d-printer
