@@ -2125,7 +2125,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     items = "".join(h for h, _ in parts)
     grid = f'<div class="fp-list">{items}</div>' if items else ""
     # ステマ規制。記事と同じく、アフィリエイトリンクがある特集はページ上部で示す。
-    cmp_html = campaign_block("feature:" + str(f.get("slug") or ""))
+    cmp_html = campaign_block(s, "feature:" + str(f.get("slug") or ""))
     disclosure = ""
     if any(a for _, a in parts) or cmp_html:
         text = str((s.get("affiliate") or {}).get("disclosure") or "この記事にはアフィリエイト広告を含みます")
@@ -2928,28 +2928,60 @@ def yorimichi_section(p: dict) -> tuple[str, bool]:
             f'<div class="yr-grid">{"".join(card(x) for x in picks)}</div></section>'), True
 
 
-# 期間限定のセールのバナー(2026-11-23 本人「置いておきたい。終了後には掲載しないようにしたい」)。
-# 固定のバナーは置かない決まりの例外で、data/campaigns.json に書いた期間だけ、寄り道欄の下と指定の特集に出す。
-# 期間外のビルドでは出さない。最後の日の夜〜次のビルドまでのすき間は、ページ側の小さな JS が消す。
+# 期間限定のセールの段「SALE 会場」(2026-11-23 本人「置いておきたい。終了後には掲載しない」「3つくらい並べる」)。
+# 固定のバナーは置かない決まりの例外で、data/campaigns.json に書いたセールのうち、開催中の物を終わりが近い順に3つまで
+# 同じ形のカードで並べる。寄り道欄の下と指定の特集に出す。開催中が1つも無ければ段ごと出さない。
+# 期間外のビルドでは出さない。最後の日の夜〜次のビルドまでのすき間は、ページ側の小さな JS が消し、残り日数も書き直す。
+# カードの絵は、広告主のバナー(img)があればそれ、無ければ store・head・sub の文字。リンクは href(A8 などの広告リンク)か、
+# url と merchant(amazon・rakuten)からもしものリンクを作る。
 CAMPAIGN_FILE = ROOT / "data" / "campaigns.json"
 CAMPAIGNS = json.loads(CAMPAIGN_FILE.read_text(encoding="utf-8")) if CAMPAIGN_FILE.exists() else []
-CAMPAIGN_JS = ("<script>(()=>{const d=new Date(Date.now()+324e5).toISOString().slice(0,10);"
-               "document.querySelectorAll('.cmp').forEach(e=>{if(d<e.dataset.start||d>e.dataset.end)e.remove()})})()</script>")
+CAMPAIGN_JS = """<script>(()=>{const s=document.querySelector('.cmp');if(!s)return;
+const d=new Date(Date.now()+324e5).toISOString().slice(0,10),day=x=>Date.parse(x+'T00:00:00Z')/864e5,t=day(d);
+s.querySelectorAll('.cmp-card').forEach(c=>{const a=c.dataset.start,b=c.dataset.end;if(d<a||d>b){c.remove();return}
+const left=day(b)-t,all=day(b)-day(a)+1,bar=c.querySelector('.cmp-bar i'),n=c.querySelector('.cmp-left');
+if(bar)bar.style.width=Math.min(100,Math.max(4,100*(t-day(a)+1)/all))+'%';if(n)n.textContent=left<1?'今日まで':'あと'+left+'日';});
+if(!s.querySelector('.cmp-card'))s.remove();})()</script>"""
 
 
-def campaign_block(where: str) -> str:
+def campaign_block(s: dict, where: str) -> str:
     today = datetime.now(JST).strftime("%Y-%m-%d")
-    out = []
-    for c in CAMPAIGNS:
-        if where not in (c.get("where") or []) or not (c["start"] <= today <= c["end"]):
-            continue
-        _, sm, sd = c["start"].split("-"); _, em, ed = c["end"].split("-")
-        out.append(f'<aside class="cmp" data-start="{c["start"]}" data-end="{c["end"]}">'
-                   f'<p class="cmp-label">期間限定のセール<span class="yr-ad">広告</span></p>'
-                   f'<div class="cmp-ad">{c["html"]}</div>'
-                   f'<p class="cmp-note">{html.escape(c["name"])}・{int(sm)}月{int(sd)}日〜{int(em)}月{int(ed)}日</p></aside>')
-    return "".join(out) + (CAMPAIGN_JS if out else "")
-
+    live = sorted((c for c in CAMPAIGNS
+                   if where in (c.get("where") or []) and c["start"] <= today <= c["end"]),
+                  key=lambda c: c["end"])[:3]
+    if not live:
+        return ""
+    t = datetime.strptime(today, "%Y-%m-%d")
+    cards = []
+    for c in live:
+        href = c.get("href") or ""
+        if not href and c.get("url"):
+            href, _ = affiliate_url(s, c["url"], c.get("merchant") or "")
+        a, b = datetime.strptime(c["start"], "%Y-%m-%d"), datetime.strptime(c["end"], "%Y-%m-%d")
+        left = (b - t).days
+        pct = min(100, max(4, round(100 * ((t - a).days + 1) / ((b - a).days + 1))))
+        if c.get("img"):
+            pic = (f'<span class="cmp-pic cmp-pic-img"><img src="{html.escape(c["img"])}" alt="{html.escape(c["name"])}" '
+                   f'width="300" height="250" loading="lazy" decoding="async"></span>')
+        else:
+            pic = (f'<span class="cmp-pic" style="background:{c.get("bg") or "#eee"};color:{c.get("fg") or "#222"}">'
+                   f'<span class="cmp-pic-store">{html.escape(c["store"])}</span>'
+                   f'<span class="cmp-pic-head">{html.escape(c.get("head") or "")}</span>'
+                   f'<span class="cmp-pic-sub">{html.escape(c.get("pic_sub") or c.get("sub") or "")}</span></span>')
+        px = (f'<img class="cmp-px" src="{html.escape(c["pixel"])}" width="1" height="1" alt="">' if c.get("pixel") else "")
+        left_txt = "今日まで" if left < 1 else f"あと{left}日"
+        cards.append(
+            f'<a class="cmp-card" href="{html.escape(href)}" rel="nofollow sponsored noopener" target="_blank" '
+            f'data-start="{c["start"]}" data-end="{c["end"]}">{pic}'
+            f'<span class="cmp-body"><span class="cmp-name">{html.escape(c["name"])}</span>'
+            f'<span class="cmp-sub">{html.escape(c.get("sub") or "")}</span>'
+            f'<span class="cmp-until">{html.escape(c.get("until") or "")}<b class="cmp-left">{left_txt}</b></span>'
+            f'<span class="cmp-bar"><i style="width:{pct}%"></i></span>'
+            f'<span class="cmp-go">{html.escape(c["store"])}で見る ↗</span>{px}</span></a>')
+    return (f'<section class="cmp"><div class="cmp-head"><p class="cmp-title"><span class="cmp-eyebrow">SALE 会場</span>'
+            f'いま開催中のセール<span class="yr-ad">広告</span></p>'
+            f'<small>終わったセールは自動で外れます</small></div>'
+            f'<div class="cmp-grid">{"".join(cards)}</div></section>' + CAMPAIGN_JS)
 
 # 「ほかのを見る」。押したときに初めて棚(yorimichi.json)を読み、いま出ていない物から3つ選ぶ
 YORIMICHI_JS = """<script>
@@ -3179,7 +3211,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     alts_html, alts_aff = alternatives_section(s, p)
     gear_html, gear_aff = gear_section(s, p)
     yr_html, yr_aff = yorimichi_section(p)
-    cmp_html = campaign_block("article")
+    cmp_html = campaign_block(s, "article")
     has_aff = jp_aff or buy_aff or alts_aff or gear_aff or yr_aff or bool(cmp_html)
     modified = p.get("modified") or ""
     upd_meta = (f'<span class="dot"></span><span class="meta-updated">更新 {modified.replace("-", ".")}</span>'
@@ -4570,11 +4602,31 @@ h1,h2,h3{text-wrap:pretty}
   transition:border-color .15s,color .15s}
 .alt-cta:hover{border-color:var(--accent);color:var(--accent)}
 .alt-cta span{color:var(--accent)}
-/* 期間限定のセールのバナー(data/campaigns.json) */
-.cmp{max-width:var(--measure);margin:28px 0 0;text-align:center}
-.cmp-label{margin:0 0 8px;font:500 11px/1 var(--mono);letter-spacing:.08em;color:var(--ink-3)}
-.cmp-ad a{display:inline-block;line-height:0}.cmp-ad img{max-width:100%;height:auto}
-.cmp-note{margin:6px 0 0;font-size:11.5px;color:var(--ink-3)}
+/* SALE 会場(data/campaigns.json の開催中のセールを3つまで) */
+.cmp{max-width:var(--measure);margin:36px 0 0;padding:22px 0 0;border-top:1px solid var(--rule)}
+.cmp-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:0 0 14px}
+.cmp-head small{font-size:11.5px;color:var(--ink-3)}
+.cmp-title{margin:0;font:700 15px/1.4 var(--sans);color:var(--ink)}
+.cmp-eyebrow{display:block;margin-bottom:6px;font:500 11px/1 var(--mono);letter-spacing:.08em;color:var(--accent)}
+.cmp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.cmp-card{display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:6px;overflow:hidden;text-decoration:none;color:inherit;transition:border-color .15s}
+.cmp-card:hover{border-color:var(--accent)}
+.cmp-pic{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;aspect-ratio:6/5;text-align:center;padding:10px;box-sizing:border-box}
+.cmp-pic-img{padding:0;background:#fff}.cmp-pic-img img{width:100%;height:100%;object-fit:contain;display:block}
+.cmp-pic-store{font:500 11px/1 var(--mono);letter-spacing:.06em;opacity:.8}
+.cmp-pic-head{font:800 18px/1.25 var(--sans)}
+.cmp-pic-sub{font:600 12.5px/1.4 var(--sans)}
+.cmp-body{display:flex;flex-direction:column;flex:1;padding:10px 12px 12px;position:relative}
+.cmp-name{font:700 13.5px/1.45 var(--sans);color:var(--ink)}
+.cmp-sub{margin-top:2px;font-size:12px;color:var(--ink-2)}
+.cmp-until{display:flex;justify-content:space-between;gap:6px;margin:8px 0 6px;font-size:11.5px;line-height:1.4;color:var(--ink-3)}
+.cmp-left{font:600 11.5px/1.4 var(--mono);color:var(--accent);white-space:nowrap}
+.cmp-bar{display:block;height:3px;background:var(--rule);border-radius:2px;overflow:hidden}
+.cmp-bar i{display:block;height:100%;background:var(--accent)}
+.cmp-go{margin-top:auto;padding-top:10px;font:500 11.5px/1 var(--mono);color:var(--ink-2)}
+.cmp-card:hover .cmp-go{color:var(--accent)}
+.cmp-px{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+@media (max-width:620px){.cmp-grid{grid-template-columns:repeat(3,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.cmp-card{scroll-snap-align:start}.cmp-head small{display:none}}
 /* 寄り道(記事の終わりの偶然の出会い。2026-11-08 モックB) */
 .yr{max-width:var(--measure);margin:44px 0 0;padding:24px 0 0;border-top:1px solid var(--rule)}
 .yr-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:0 0 14px}

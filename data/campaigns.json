@@ -1,13 +1,73 @@
 [
  {
-  "name": "SwitchBot ブラックフライデー(最大58%オフ)",
-  "start": "2026-11-27",
-  "end": "2026-12-07",
+  "name": "楽天市場",
+  "store": "楽天市場",
+  "start": "2026-11-19",
+  "end": "2026-11-24",
+  "until": "11月25日 1:59まで",
+  "head": "ブラックフライデー",
+  "sub": "ポイント最大47.5倍",
+  "url": "https://event.rakuten.co.jp/campaign/point-up/blackfriday/",
+  "merchant": "rakuten",
+  "bg": "#f6efe6",
+  "fg": "#7a2e12",
   "where": [
    "article",
    "feature:work-health-gadgets"
   ],
-  "html": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BGFJE+FYJBJM+4W9U+61JSH\" rel=\"nofollow\"> <img border=\"0\" width=\"300\" height=\"250\" alt=\"\" src=\"https://www28.a8.net/svt/bgt?aid=261107114965&wid=001&eno=01&mid=s00000022845001015000&mc=1\"></a> <img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4BGFJE+FYJBJM+4W9U+61JSH\" alt=\"\">",
-  "note": "2026-11-23 本人「置いておきたい。終了後には掲載しないようにしたい」。A8 素材ID 005"
+  "note": "期間は楽天の会場ページの表記(2026-11-25T01:59:59 まで)"
+ },
+ {
+  "name": "Amazon",
+  "store": "Amazon",
+  "start": "2026-11-27",
+  "end": "2026-12-07",
+  "until": "12月7日まで",
+  "head": "ブラックフライデー",
+  "sub": "先行セールは11/29まで",
+  "url": "https://www.amazon.co.jp/blackfriday",
+  "merchant": "amazon",
+  "bg": "#eef1f4",
+  "fg": "#1f2a36",
+  "where": [
+   "article",
+   "feature:work-health-gadgets"
+  ],
+  "note": "期間は 2026-11-19 の報道(先行 11/27〜29、本番 11/30〜12/7)",
+  "pic_sub": "400万点以上が対象"
+ },
+ {
+  "name": "SwitchBot 公式",
+  "store": "SwitchBot 公式",
+  "start": "2026-11-27",
+  "end": "2026-12-07",
+  "until": "12月7日まで",
+  "sub": "最大58%オフ",
+  "href": "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FYJBJM+4W9U+61JSH",
+  "img": "https://www28.a8.net/svt/bgt?aid=261107114965&wid=001&eno=01&mid=s00000022845001015000&mc=1",
+  "pixel": "https://www13.a8.net/0.gif?a8mat=4BGFJE+FYJBJM+4W9U+61JSH",
+  "where": [
+   "article",
+   "feature:work-health-gadgets"
+  ],
+  "note": "2026-11-23 本人「置いておきたい。終了後には掲載しない」。A8 素材ID 005(300x250)"
+ },
+ {
+  "name": "Minisforum 公式",
+  "store": "Minisforum 公式",
+  "start": "2026-11-23",
+  "end": "2026-12-07",
+  "until": "開催中・終了日は公式ストアで",
+  "head": "ブラックフライデー",
+  "sub": "ミニPC・NAS が年に一度の値下げ",
+  "href": "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FN831U+5O6K+5YRHE",
+  "pixel": "https://www18.a8.net/0.gif?a8mat=4BGFJE+FN831U+5O6K+5YRHE",
+  "bg": "#eaf0f7",
+  "fg": "#0c3a66",
+  "where": [
+   "article",
+   "feature:work-health-gadgets"
+  ],
+  "note": "A8 素材ID 002(テキスト)。公式の終了日が見当たらないので 12/7 で外す(12/11 までという非公式の記事あり)"
  }
 ]
