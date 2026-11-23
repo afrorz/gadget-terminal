@@ -2125,8 +2125,9 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
     items = "".join(h for h, _ in parts)
     grid = f'<div class="fp-list">{items}</div>' if items else ""
     # ステマ規制。記事と同じく、アフィリエイトリンクがある特集はページ上部で示す。
+    cmp_html = campaign_block("feature:" + str(f.get("slug") or ""))
     disclosure = ""
-    if any(a for _, a in parts):
+    if any(a for _, a in parts) or cmp_html:
         text = str((s.get("affiliate") or {}).get("disclosure") or "この記事にはアフィリエイト広告を含みます")
         disclosure = f'<p class="ad-notice">{html.escape(text)}</p>'
 
@@ -2176,6 +2177,7 @@ def render_feature(site: dict, f: dict, posts: list[dict]) -> str:
   {disclosure}
   <div class="prose feature-intro">{f['body']}</div>
   {grid}
+  {cmp_html}
   {excluded}
   {ad_unit(s, "article_end")}
   {related}
@@ -2926,6 +2928,29 @@ def yorimichi_section(p: dict) -> tuple[str, bool]:
             f'<div class="yr-grid">{"".join(card(x) for x in picks)}</div></section>'), True
 
 
+# 期間限定のセールのバナー(2026-11-23 本人「置いておきたい。終了後には掲載しないようにしたい」)。
+# 固定のバナーは置かない決まりの例外で、data/campaigns.json に書いた期間だけ、寄り道欄の下と指定の特集に出す。
+# 期間外のビルドでは出さない。最後の日の夜〜次のビルドまでのすき間は、ページ側の小さな JS が消す。
+CAMPAIGN_FILE = ROOT / "data" / "campaigns.json"
+CAMPAIGNS = json.loads(CAMPAIGN_FILE.read_text(encoding="utf-8")) if CAMPAIGN_FILE.exists() else []
+CAMPAIGN_JS = ("<script>(()=>{const d=new Date(Date.now()+324e5).toISOString().slice(0,10);"
+               "document.querySelectorAll('.cmp').forEach(e=>{if(d<e.dataset.start||d>e.dataset.end)e.remove()})})()</script>")
+
+
+def campaign_block(where: str) -> str:
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    out = []
+    for c in CAMPAIGNS:
+        if where not in (c.get("where") or []) or not (c["start"] <= today <= c["end"]):
+            continue
+        _, sm, sd = c["start"].split("-"); _, em, ed = c["end"].split("-")
+        out.append(f'<aside class="cmp" data-start="{c["start"]}" data-end="{c["end"]}">'
+                   f'<p class="cmp-label">期間限定のセール<span class="yr-ad">広告</span></p>'
+                   f'<div class="cmp-ad">{c["html"]}</div>'
+                   f'<p class="cmp-note">{html.escape(c["name"])}・{int(sm)}月{int(sd)}日〜{int(em)}月{int(ed)}日</p></aside>')
+    return "".join(out) + (CAMPAIGN_JS if out else "")
+
+
 # 「ほかのを見る」。押したときに初めて棚(yorimichi.json)を読み、いま出ていない物から3つ選ぶ
 YORIMICHI_JS = """<script>
 (()=>{const s=document.querySelector('.yr');if(!s)return;const b=s.querySelector('.yr-shuffle'),g=s.querySelector('.yr-grid');
@@ -3154,7 +3179,8 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     alts_html, alts_aff = alternatives_section(s, p)
     gear_html, gear_aff = gear_section(s, p)
     yr_html, yr_aff = yorimichi_section(p)
-    has_aff = jp_aff or buy_aff or alts_aff or gear_aff or yr_aff
+    cmp_html = campaign_block("article")
+    has_aff = jp_aff or buy_aff or alts_aff or gear_aff or yr_aff or bool(cmp_html)
     modified = p.get("modified") or ""
     upd_meta = (f'<span class="dot"></span><span class="meta-updated">更新 {modified.replace("-", ".")}</span>'
                 if modified and modified > p["date"] else "")
@@ -3208,6 +3234,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
     {topic_links(p)}
   {faq_html}
   {yr_html}
+  {cmp_html}
   {weekly_form(s)}
   {sources}
   </article>
@@ -4543,6 +4570,11 @@ h1,h2,h3{text-wrap:pretty}
   transition:border-color .15s,color .15s}
 .alt-cta:hover{border-color:var(--accent);color:var(--accent)}
 .alt-cta span{color:var(--accent)}
+/* 期間限定のセールのバナー(data/campaigns.json) */
+.cmp{max-width:var(--measure);margin:28px 0 0;text-align:center}
+.cmp-label{margin:0 0 8px;font:500 11px/1 var(--mono);letter-spacing:.08em;color:var(--ink-3)}
+.cmp-ad a{display:inline-block;line-height:0}.cmp-ad img{max-width:100%;height:auto}
+.cmp-note{margin:6px 0 0;font-size:11.5px;color:var(--ink-3)}
 /* 寄り道(記事の終わりの偶然の出会い。2026-11-08 モックB) */
 .yr{max-width:var(--measure);margin:44px 0 0;padding:24px 0 0;border-top:1px solid var(--rule)}
 .yr-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:0 0 14px}
