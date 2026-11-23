@@ -1,0 +1,725 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:31:17.074126+09:00",
+  "stats": {
+    "fetched": 724,
+    "unique": 685,
+    "new": 432,
+    "clusters": 407,
+    "selected": 30
+  },
+  "items": [
+    {
+      "id": "67092bd63ee4dcad",
+      "title": "Samsung launches the world’s first 1,100Hz gaming monitor in the US for $899",
+      "url": "https://www.gizmochina.com/2026/11/23/samsung-odyssey-g6-g60h-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/samsung-odyssey-g6-g60h-launched-specs-price",
+      "summary": "Samsung has officially announced the US launch of the Odyssey G6 (G60H), a 27-inch gaming monitor that pushes display speed to new technical limits. Originally showcased at Gamescom 2026, the G6 is the first gaming monitor to support a 1,100Hz refresh rate. It will be available at US retailers in December 2026 for $899.99. Samsung [&#8230;] The post Samsung launches the world&#8217;s first 1,100Hz",
+      "published": "2026-11-23T14:27:54+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 23,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "SamMobile",
+        "TechPowerUp"
+      ],
+      "related_urls": [
+        "https://www.techpowerup.com/355109/samsung-launches-the-odyssey-g6-the-worlds-first-1-100hz-gaming-monitor",
+        "https://www.sammobile.com/news/samsung-launches-worlds-first-1100hz-gaming-monitor/"
+      ]
+    },
+    {
+      "id": "d12f21740084da23",
+      "title": "3D printer that promises simultaneous printing from all four heads gets $500,000 in crowdfunding",
+      "url": "https://www.tomshardware.com/3d-printing/3d-printer-that-promises-simultaneous-printing-from-all-four-heads-gets-usd500-000-in-crowdfunding-four-printhead-co-print-quadro-msrp-set-at-just-usd899-promises-reduced-waste-and-faster-printing",
+      "canonical": "https://www.tomshardware.com/3d-printing/3d-printer-that-promises-simultaneous-printing-from-all-four-heads-gets-usd500-000-in-crowdfunding-four-printhead-co-print-quadro-msrp-set-at-just-usd899-promises-reduced-waste-and-faster-printing",
+      "summary": "The $899 Co Print Quadro IQEX 3D printer raised over $500,000 on Kickstarter, exceeding its $50,000 goal.",
+      "published": "2026-11-23T16:30:59+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+6 crowdfunding",
+        "+6 kickstarter",
+        "+3 3d printer",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d8858265f5cd2d2b",
+      "title": "Here's when the vivo S70 series will become official",
+      "url": "https://www.gsmarena.com/heres_when_the_vivo_s70_series_will_become_official-news-75599.php",
+      "canonical": "https://www.gsmarena.com/heres_when_the_vivo_s70_series_will_become_official-news-75599.php",
+      "summary": "vivo launched the S60 back in late May, and its successor is already just around the corner. Today, the company opened pre-orders for the vivo S70 series on its online store in China, confirming that the lineup will become official in December. An exact date hasn't been announced yet. According to vivo's store, the series includes two models, the vivo S70 and the S70 Flagship Edition, and the latt",
+      "published": "2026-11-23T18:39:03+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 19,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+3 official",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "7495ee71d3d61e60",
+      "title": "Kodak Slide Tag is a tiny color e-ink photo frame that doubles as a tracker",
+      "url": "https://www.gizmochina.com/2026/11/23/kodak-slide-tag-color-e-ink-photo-frame/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/kodak-slide-tag-color-e-ink-photo-frame",
+      "summary": "Digital photo frames usually sit on a desk or shelf, but Kodak has made one small enough to carry around. The new Kodak Slide Tag is a miniature photo frame with a color e-ink display, built-in tracking support, and a design inspired by traditional photographic slides. Kodak is selling the Slide Tag in blind boxes, [&#8230;] The post Kodak Slide Tag is a tiny color e-ink photo frame that doubles a",
+      "published": "2026-11-23T06:48:21+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google",
+        "9to5Mac",
+        "Yanko Design"
+      ],
+      "related_urls": [
+        "https://9to5mac.com/2026/11/23/kodak-slidetag-e-ink-iphone-tracker-airtag/",
+        "https://www.yankodesign.com/2026/11/23/kodak-slidetag-tracker-doubles-as-tiny-e-ink-display-for-your-cherished-photo-collection/?utm_source=rss&utm_medium=rss&utm_campaign=kodak-slidetag-tracker-doubles-as-tiny-e-ink-display-for-your-cherished-photo-collection",
+        "https://9to5google.com/2026/11/23/kodak-slidetag-android-iphone-e-ink-tracker/"
+      ]
+    },
+    {
+      "id": "8106d10e91243bbd",
+      "title": "Xiaomi’s new smart blind motor turns regular roller blinds into automated ones",
+      "url": "https://www.gizmochina.com/2026/11/23/xiaomis-new-smart-blind-motor-turns-regular-roller-blinds-into-automated-ones/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/xiaomis-new-smart-blind-motor-turns-regular-roller-blinds-into-automated-ones",
+      "summary": "Xiaomi has announced its new smart blinds, the Xiaomi Home Curtain Companion Roller Blind Edition, via crowdfunding on the Xiaomi Youpin platform in China. Crowdfunding begins November 30, where you can back it for 259 yuan (~ $39). Meanwhile, shipping begins on December 7, after which the retail price will increase to 349 yuan (~$52). [&#8230;] The post Xiaomi’s new smart blind motor turns regula",
+      "published": "2026-11-23T07:41:54+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 announced",
+        "+3 price",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "fba1f99dd56ebff8",
+      "title": "Weird finger-wearable gaming mouse raises $43,000 on Kickstarter, a staggering 8x its crowdfunding goal",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/weird-finger-wearable-gaming-mouse-kickstarter-breaks-8x-its-crowdfunding-goal-but-it-potentially-has-major-design-flaws-and-is-kind-of-sketchy",
+      "canonical": "https://www.tomshardware.com/peripherals/gaming-mice/weird-finger-wearable-gaming-mouse-kickstarter-breaks-8x-its-crowdfunding-goal-but-it-potentially-has-major-design-flaws-and-is-kind-of-sketchy",
+      "summary": "The Borslon finger-worn gaming mouse is the first of its kind, reaching $43,000 in its Kickstarter campaign and shattering its $5,000 goal. However, it may have some major design flaws.",
+      "published": "2026-11-23T11:30:00+00:00",
+      "source_id": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "pc",
+      "tier": 2,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+6 crowdfunding",
+        "+6 kickstarter",
+        "+2 campaign",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9e9fbd5c3c3849fb",
+      "title": "Jensen Huang Reinstated as CEO of NVIDIA",
+      "url": "https://www.techpowerup.com/355111/jensen-huang-reinstated-as-ceo-of-nvidia",
+      "canonical": "https://www.techpowerup.com/355111/jensen-huang-reinstated-as-ceo-of-nvidia",
+      "summary": "The NVIDIA Board just announced that it has decided to reinstate Jensen Huang as Chief Executive Officer and President of NVIDIA Corporation. Earlier today, the Board of Directors convened to unanimously approve the reinstatement of Huang following a series of discussions and meetings with him. The board expressed satisfaction with Huang's candor and his ability to lead NVIDIA. Interestingly, the ",
+      "published": "2026-11-23T14:17:17+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 18,
+      "reasons": [
+        "+3 announced",
+        "-3 ceo",
+        "+3 tier1",
+        "+3 fresh",
+        "+12 4媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Mac",
+        "Android Authority",
+        "Tom's Hardware"
+      ],
+      "related_urls": [
+        "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-returns-to-applause-from-employees-at-nvidia-hq-some-employees-reportedly-disgruntled-by-return-saying-this-is-the-worst-outcome",
+        "https://www.androidauthority.com/jensen-huang-nvidia-reinstated-3738357/",
+        "https://9to5mac.com/2026/11/23/jensen-huang-reinstated-as-ceo-of-nvidia-despite-companys-previous-statement/"
+      ]
+    },
+    {
+      "id": "8ecc510df592460e",
+      "title": "A modular smartphone with a de-Googled OS, a $25 E Ink Dev Kit, and a Cyberdeck that runs on power tool batteries: Liliputing News Roundup",
+      "url": "https://liliputing.com/a-modular-smartphone-with-a-de-googled-os-a-25-e-ink-dev-kit-and-a-cyberdeck-that-runs-on-power-tool-batteries-liliputing-news-roundup/",
+      "canonical": "https://liliputing.com/a-modular-smartphone-with-a-de-googled-os-a-25-e-ink-dev-kit-and-a-cyberdeck-that-runs-on-power-tool-batteries-liliputing-news-roundup",
+      "summary": "The new AYN Odin3 Portal is a 1 pound (450 gram) Android gaming handheld with a Qualcomm Dragonwing Q8 processor, 9,000 mAh battery, active cooling, hall-effect joysticks • The Arduino VENTUNO Q launched for a $299 promo price in August, but it's getting a price hike to $399 for its retail price • This custom cyberdeck takes the guts of a mini PC and stuffs them into a 3D printed case with a custo",
+      "published": "2026-10-20T19:26:05+00:00",
+      "source_id": "liliputing",
+      "source": "Liliputing",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 16,
+      "reasons": [
+        "+3 launch",
+        "+3 price",
+        "+4 mini pc",
+        "+4 handheld",
+        "+4 e ink",
+        "+3 tier1",
+        "-5 stale"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "e68203c6ee252486",
+      "title": "Upcoming launches this week: Honor 700 series, Mate X8, and more",
+      "url": "https://www.gizmochina.com/2026/11/23/upcoming-phone-launches-this-week-november-23-29/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/upcoming-phone-launches-this-week-november-23-29",
+      "summary": "A slew of new phones are set to launch this week in different markets. Starting today, China will see the arrival of the Honor 700 series at 2:30 PM (local time), and then there&#8217;s the Huawei Mate X8 foldable set to go official in its home market on November 24. There are a few other [&#8230;] The post Upcoming launches this week: Honor 700 series, Mate X8, and more appeared first on Gizmochi",
+      "published": "2026-11-23T03:42:42+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 15,
+      "reasons": [
+        "+3 launch",
+        "+3 official",
+        "+3 foldable",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "137b9ce2b3d616e3",
+      "title": "Galaxy Watch hardware pauses in 2027, Samsung cites MX losses, software and Fit to cover gap",
+      "url": "https://www.gizmochina.com/2026/11/23/galaxy-watch-hardware-pauses-in-2027-samsung-cites-mx-losses-software-and-fit-to-cover-gap/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/galaxy-watch-hardware-pauses-in-2027-samsung-cites-mx-losses-software-and-fit-to-cover-gap",
+      "summary": "Samsung unveiled the Galaxy Watch 9 and Galaxy Watch Ultra 2 at Galaxy Unpacked in July, with pre-orders opening the same day and sales starting August 7. A report from Korea&#8217;s ETNews now says the company will go through 2027 without a new Galaxy Watch and will space future models two years apart. Samsung plans [&#8230;] The post Galaxy Watch hardware pauses in 2027, Samsung cites MX losses,",
+      "published": "2026-11-23T02:36:08+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+4 pre-order",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "d4751f6a176efc03",
+      "title": "‘Galaxy Watch 10’ won’t launch in 2027 as Samsung tries to slow RAMageddon losses",
+      "url": "https://9to5google.com/2026/11/23/samsung-galaxy-watch-10-new-schedule-report/",
+      "canonical": "https://9to5google.com/2026/11/23/samsung-galaxy-watch-10-new-schedule-report",
+      "summary": "According to a new report, Samsung’s next “Galaxy Watch 10” won’t be releasing in 2027 with the company moving to a bi-yearly release schedule for its smartwatches. more…",
+      "published": "2026-11-23T13:35:00+00:00",
+      "source_id": "9to5google",
+      "source": "9to5Google",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Android Police"
+      ],
+      "related_urls": [
+        "https://www.androidpolice.com/no-more-annual-samsung-galaxy-watch-releases-rumors/"
+      ]
+    },
+    {
+      "id": "473577a565bf3f13",
+      "title": "Xiaomi 19 series tipped with wider 50MP ultrawide camera with 114-degree field of view",
+      "url": "https://www.gizmochina.com/2026/11/23/xiaomi-19-series-tipped-with-wider-50mp-ultrawide-camera-with-114-degree-field-of-view/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/xiaomi-19-series-tipped-with-wider-50mp-ultrawide-camera-with-114-degree-field-of-view",
+      "summary": "Xiaomi&#8216;s flagship phones could finally get a wider ultrawide camera. The company is reportedly testing a new 50MP sensor for the Xiaomi 19 series, paired with a 14mm lens and a 114-degree field of view. Tipster Digital Chat Station (DCS) spotted the combination in procurement documents and expects it to arrive in 2027. If true, [&#8230;] The post Xiaomi 19 series tipped with wider 50MP ultra",
+      "published": "2026-11-23T15:14:25+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+3 tier1",
+        "+3 fresh",
+        "+8 3媒体が報道"
+      ],
+      "also_covered_by": [
+        "GSMArena",
+        "Notebookcheck (Smartphone)"
+      ],
+      "related_urls": [
+        "https://www.notebookcheck.net/Xiaomi-19-series-meaningful-ultrawide-camera-upgrade-tipped.1458021.0.html",
+        "https://www.gsmarena.com/xiaomi_19_series_rumored_to_get_a_much_wider_ultrawide_camera-news-75593.php"
+      ]
+    },
+    {
+      "id": "5a302b8227e75e00",
+      "title": "Nothing unveils Ear (note) earbuds with surprising charging case days ahead of launch",
+      "url": "https://www.notebookcheck.net/Nothing-unveils-Ear-note-earbuds-with-surprising-charging-case-days-ahead-of-launch.1458011.0.html",
+      "canonical": "https://www.notebookcheck.net/Nothing-unveils-Ear-note-earbuds-with-surprising-charging-case-days-ahead-of-launch.1458011.0.html",
+      "summary": "Nothing is launching its most unusual earbuds yet in a few days. The company is already showing off the Nothing Ear (note)’s particularly versatile charging case ahead of launch and explaining how a programmable button and a microphone are meant to make it more useful.",
+      "published": "2026-11-23T18:31:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 14,
+      "reasons": [
+        "+4 unveil",
+        "+3 launch",
+        "+3 earbuds",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "19c637e1ce80e183",
+      "title": "Piccola CNC – An open-source hardware desktop milling machine with PCB auto-leveling and integrated CAM (Crowdfunding)",
+      "url": "https://www.cnx-software.com/2026/11/23/piccola-cnc-open-source-desktop-milling-machine-with-pcb-auto-leveling-and-integrated-cam/",
+      "canonical": "https://www.cnx-software.com/2026/11/23/piccola-cnc-open-source-desktop-milling-machine-with-pcb-auto-leveling-and-integrated-cam",
+      "summary": "InMachines Ingrassia GmbH has launched the Piccola CNC, an open-source hardware desktop CNC milling machine designed for PCB prototyping and machining wood, plastics, and soft metals such as aluminum, brass, and copper. Built in Germany, the machine features a 150 × 150 × 70 mm work area, belt-driven ball screws on all three axes, ER11 collets, and a choice of 100W or 200W spindles. The machine co",
+      "published": "2026-11-23T08:00:43+00:00",
+      "source_id": "cnx_software",
+      "source": "CNX Software",
+      "category": "weird",
+      "tier": 2,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+6 crowdfunding",
+        "+3 launch",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "2426a62157b977d9",
+      "title": "(PR) COLORFUL Launches iGame B850I MINI W OC Motherboard for Compact PC Enthusiasts",
+      "url": "https://www.techpowerup.com/355103/colorful-launches-igame-b850i-mini-w-oc-motherboard-for-compact-pc-enthusiasts",
+      "canonical": "https://www.techpowerup.com/355103/colorful-launches-igame-b850i-mini-w-oc-motherboard-for-compact-pc-enthusiasts",
+      "summary": "Colorful Technology Company Limited, a leading brand in gaming PC components, gaming laptops, and Hi-fi audio products, announces the launch of the iGame B850I MINI W OC, a white edition of its previously released iGame B850I MINI OC motherboard. Designed for enthusiasts building high-performance small form factor (SFF) systems, the new white model retains the same powerful hardware, overclocking ",
+      "published": "2026-11-23T10:41:07+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+3 tier1",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "Wccftech"
+      ],
+      "related_urls": [
+        "https://wccftech.com/colorful-launches-igame-b850i-mini-w-oc-motherboard/"
+      ]
+    },
+    {
+      "id": "0614469048fb20f3",
+      "title": "Grand Theft Auto VI Sales Have Reached 45 Million Units at the End of the Launch Weekend, Claims Alinea, with 40-Plus Million Users Active on Sunday",
+      "url": "https://wccftech.com/grand-theft-auto-vi-sales-45-million-units-launch-weekend/",
+      "canonical": "https://wccftech.com/grand-theft-auto-vi-sales-45-million-units-launch-weekend",
+      "summary": "Last Friday, Take-Two Interactive and Rockstar Games announced the staggering initial Grand Theft Auto VI sales figures: 32.5 million units of pre-orders and $3.79 billion in revenue generated through November 19 (the launch day). However, those numbers certainly did not stop there. The fresh Alinea Analytics report that just went up on Substack provides estimates on how they have progressed, clai",
+      "published": "2026-11-23T13:30:00+00:00",
+      "source_id": "wccftech",
+      "source": "Wccftech",
+      "category": "pc",
+      "tier": 3,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 announced",
+        "+3 launch",
+        "+4 pre-order",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "34c69809381ff035",
+      "title": "Shuttle Launches NW10U Ultra-Compact Mini PC with Intel \"Wildcat Lake\" Processors",
+      "url": "https://www.techpowerup.com/355118/shuttle-launches-nw10u-ultra-compact-mini-pc-with-intel-wildcat-lake-processors",
+      "canonical": "https://www.techpowerup.com/355118/shuttle-launches-nw10u-ultra-compact-mini-pc-with-intel-wildcat-lake-processors",
+      "summary": "Shuttle has introduced the NW10U ultra-compact Mini PC based on Intel's Wildcat Lake platform. It supports Core 3, Core 5, and Core 7 processors with a 15 W TDP and up to 64 GB of DDR5-6400. The system measures 103 x 97 x 36.5 mm and has a volume of just 0.4 liters. Shuttle also equips the NW10U with an active heat-pipe cooling system and Smart Fan technology. The system is rated for continuous 24",
+      "published": "2026-11-23T18:05:12+00:00",
+      "source_id": "techpowerup",
+      "source": "TechPowerUp",
+      "category": "pc",
+      "tier": 1,
+      "kind": "news",
+      "score": 13,
+      "reasons": [
+        "+3 launch",
+        "+4 mini pc",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "bf0d66e0fc183f8a",
+      "title": "戴在手指上的鼠标众筹成功，但设计疑点不少",
+      "url": "https://www.ithome.com/1/031/184.htm",
+      "canonical": "https://www.ithome.com/1/031/184.htm",
+      "summary": "IT之家 11 月 23 日消息，据 Tom's Hardware 报道，Borslon 推出了一款颇为另类的可穿戴游戏鼠标：它不再要求玩家用手掌握住鼠标，而是直接将设备戴在手指上，让手指成为瞄准工具。这款产品在 Kickstarter 上已经获得超过 430 名支持者，筹集金额突破 4.3 万美元 （IT之家注：现汇率约合 28.7 万元人民币） ，远超 5,000 美元 （现汇率约合 33,407 元人民币） 的众筹目标。不过，它究竟是一项真正的创新，还是只是一个噱头？ Borslon 鼠标采用有线连接方式，品牌将其称为“指戴式游戏鼠标”。从参数来看，其具备一款优秀游戏鼠标应有的配置：搭载 PAW3395 传感器，轮询率达到 8000 Hz，响应时间为 0.125 毫秒，支持按键编程，重量仅为 36 克。 但硬件参数往往只是衡量性能的基础，实际使用体验可能完全是另一回事。 以《反恐精英",
+      "published": "2026-11-23T11:44:03+00:00",
+      "source_id": "ithome_cn",
+      "source": "IT之家（中国）",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+6 kickstarter",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "250effc853f2d278",
+      "title": "Honor 700 and 700S arrive with rear screens, 200MP cameras and 9,000mAh batteries",
+      "url": "https://www.gsmarena.com/honor_700_and_700s_arrive_with_rear_screens_200mp_cameras_and_9000mah_batteries_-news-75590.php",
+      "canonical": "https://www.gsmarena.com/honor_700_and_700s_arrive_with_rear_screens_200mp_cameras_and_9000mah_batteries_-news-75590.php",
+      "summary": "The Honor 700 series is now official in China with three members, and we’ll be taking a closer look at the Honor 700 and 700S in the following lines. The standout feature for this year is the rear screen, which is present on all three phones. Honor 700 (left) and Honor 700S (right) It’s a square 1.59-inch touch panel which looks like it was taken from a smartwatch. Outside of showing the time and ",
+      "published": "2026-11-23T11:47:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 official",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "5d8e93743859aec6",
+      "title": "Honor Magic9 Lite+ tipped to pack a 9,530mAh battery in Europe, more specs surface",
+      "url": "https://www.gsmarena.com/honor_magic9_lite_tipped_to_pack_a_9530mah_battery_in_europe_more_specs_surface-news-75595.php",
+      "canonical": "https://www.gsmarena.com/honor_magic9_lite_tipped_to_pack_a_9530mah_battery_in_europe_more_specs_surface-news-75595.php",
+      "summary": "The Honor Magic9 Lite+ surfaced on the Google Play Console in October, hinting at a global launch. Now, a new leak reveals its design and key specs, with the phone expected to be a rebranded Honor X9e Pro with slightly different specs. According to the leak, the Honor Magic9 Lite+ that’s headed to European markets will sport a 9,530mAh battery with 80W wired charging. The leak also claims that the",
+      "published": "2026-11-23T16:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 specs",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "b9711c8145f4e01b",
+      "title": "RedMagic is the official gaming phone sponsor of the 2026 PUBG Mobile Global Championship",
+      "url": "https://www.gsmarena.com/redmagic_is_the_official_gaming_phone_sponsor_of_the_2026_pubg_mobile_global_championship-news-75597.php",
+      "canonical": "https://www.gsmarena.com/redmagic_is_the_official_gaming_phone_sponsor_of_the_2026_pubg_mobile_global_championship-news-75597.php",
+      "summary": "RedMagic has been sponsoring esports in China for a while now, and it's finally taking that to the global stage. Today, the company announced that it's the Official Gaming Phone Sponsor of the 2026 PUBG Mobile Global Championship (PMGC), which is organized by Krafton and Level Infinite. This year's championship brought together 39 teams from around the world, and the Grand Finals take place in Ist",
+      "published": "2026-11-23T17:08:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 announced",
+        "+3 official",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "0062e1fb5e502827",
+      "title": "Honor Earbuds Clip debut with open-ear design, LHDC 5.0, and 40-hour battery",
+      "url": "https://www.gizmochina.com/2026/11/23/honor-earbuds-clip-debut-with-open-ear-design-lhdc-5-0-and-40-hour-battery/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/honor-earbuds-clip-debut-with-open-ear-design-lhdc-5-0-and-40-hour-battery",
+      "summary": "Open-ear earbuds are becoming a popular alternative to traditional in-ear models for people who don&#8217;t like having silicone tips inside their ear canals. Honor’s new Honor Earbuds Clip is exactly that, and it launched alongside the Honor 700 series today. The Earbuds Clip uses a C-shaped bridge that wraps around the ear rather than going [&#8230;] The post Honor Earbuds Clip debut with open-e",
+      "published": "2026-11-23T17:36:30+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 earbuds",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "a2cbd10c758ceeec",
+      "title": "Casio launches affordable W221HD-1AV retro watch with 10-year battery life & classic 90s design",
+      "url": "https://www.gizmochina.com/2026/11/23/casio-w221hd-1av-watch-launched-specs-price/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/casio-w221hd-1av-watch-launched-specs-price",
+      "summary": "Casio has just released a new digital watch in the US, and it’s leaning heavily into the 1990s aesthetic. The newly launched W221HD-1AV is now available directly from Casio&#8217;s US website for $59.95. If you are tired of charging a smartwatch every night and just want a reliable device that tells the time and looks [&#8230;] The post Casio launches affordable W221HD-1AV retro watch with 10-year",
+      "published": "2026-11-23T18:03:06+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 12,
+      "reasons": [
+        "+3 launch",
+        "+3 smartwatch",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4dfada40c9a1172f",
+      "title": "Honor 700 Pro debuts with a Snapdragon 8 Gen 5 SoC and a 9,000mAh battery",
+      "url": "https://www.gsmarena.com/honor_700_pro_debuts_with_a_snapdragon_8_gen_5_soc_and_a_9000mah_battery-news-75589.php",
+      "canonical": "https://www.gsmarena.com/honor_700_pro_debuts_with_a_snapdragon_8_gen_5_soc_and_a_9000mah_battery-news-75589.php",
+      "summary": "Honor's latest number series has officially debuted in China, comprising the Honor 700, 700 Pro, and 700S. All three phones feature a rear screen and a 6.57-inch main display, while the Pro model gets a few additional upgrades. The Honor 700 Pro is powered by the Snapdragon 8 Gen 5 chipset, paired with the Adreno 829 GPU, up to 16GB of RAM, and up to 512GB of storage. At the front, the phone featu",
+      "published": "2026-11-23T11:01:02+00:00",
+      "source_id": "gsmarena",
+      "source": "GSMArena",
+      "category": "smartphone",
+      "tier": 1,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 official",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "9b70e53a0c83cf26",
+      "title": "iQOO 16 Amazon and iQOO 16R Geekbench listings spotted, launch fast approaching",
+      "url": "https://www.gizmochina.com/2026/11/23/iqoo-16-amazon-and-iqoo-16r-geekbench-listings-spotted-launch-fast-approaching/",
+      "canonical": "https://www.gizmochina.com/2026/11/23/iqoo-16-amazon-and-iqoo-16r-geekbench-listings-spotted-launch-fast-approaching",
+      "summary": "The iQOO 16 is a step closer to India after a dedicated Amazon India page briefly went live, marking the flagship as coming soon and showing OriginOS 7. iQOO has confirmed a local launch but has not named a date. A device identified as the iQOO 16R has also appeared on Geekbench, with a Snapdragon [&#8230;] The post iQOO 16 Amazon and iQOO 16R Geekbench listings spotted, launch fast approaching ap",
+      "published": "2026-11-23T13:28:35+00:00",
+      "source_id": "gizmochina",
+      "source": "Gizmochina",
+      "category": "weird",
+      "tier": 1,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 launch",
+        "+2 snapdragon",
+        "+3 tier1",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "13d46a1b7a8ab7e5",
+      "title": "Motorola Moto Tag 3 leaks with UWB, 16 months of battery life and IP68",
+      "url": "https://www.notebookcheck.net/Motorola-Moto-Tag-3-leaks-with-UWB-16-months-of-battery-life-and-IP68.1457948.0.html",
+      "canonical": "https://www.notebookcheck.net/Motorola-Moto-Tag-3-leaks-with-UWB-16-months-of-battery-life-and-IP68.1457948.0.html",
+      "summary": "The Apple AirTag could soon have a new competitor, as Motorola has already started selling the Moto Tag 3 ahead of its official unveiling. With a battery life of over 500 days, an ultra-wideband chip, and a waterproof housing, the tracker offers an interesting set of features.",
+      "published": "2026-11-23T13:51:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 official",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "4c651238ea0f25f7",
+      "title": "TCL CSOT unveils 115-inch 16K display with 8K 3D mode",
+      "url": "https://www.notebookcheck.net/TCL-CSOT-unveils-115-inch-16K-display-with-8K-3D-mode.1457957.0.html",
+      "canonical": "https://www.notebookcheck.net/TCL-CSOT-unveils-115-inch-16K-display-with-8K-3D-mode.1457957.0.html",
+      "summary": "At its DTC 2026 conference in Wuhan, display manufacturer TCL CSOT showcased a 115-inch LCD prototype with native 16K resolution. Thanks to a proprietary light-field optical architecture, the panel delivers glasses-free 3D visuals at up to 8K resolution.",
+      "published": "2026-11-23T14:01:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 prototype",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "f1dbfc8781403294",
+      "title": "Galaxy Z Flip 9, Fold 9, Fold 9 Ultra camera details leak",
+      "url": "https://www.sammobile.com/news/galaxy-z-flip-9-fold-9-fold-9-ultra-camera-details-leak/",
+      "canonical": "https://www.sammobile.com/news/galaxy-z-flip-9-fold-9-fold-9-ultra-camera-details-leak",
+      "summary": "Samsung’s next-generation foldable smartphone lineup is expected to offer three devices: the Galaxy Z Flip 9, Galaxy Z Fold 9, and Galaxy Z Fold 9 Ultra. A previous leak about the two book-style foldable phones had revealed details about their camera hardware. Now, a new leak about the series has reconfirmed those details while also [ ]",
+      "published": "2026-11-23T15:26:32+00:00",
+      "source_id": "sammobile",
+      "source": "SamMobile",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 foldable",
+        "+1 tier2",
+        "+3 fresh",
+        "+4 2媒体が報道"
+      ],
+      "also_covered_by": [
+        "9to5Google"
+      ],
+      "related_urls": [
+        "https://9to5google.com/2026/11/23/samsung-folding-phone-guide/"
+      ]
+    },
+    {
+      "id": "4d93c6ed58f82569",
+      "title": "Next-gen OLED display with 10,000 nits peak brightness breaks cover at DTC 2026",
+      "url": "https://www.notebookcheck.net/Next-gen-OLED-display-with-10-000-nits-peak-brightness-breaks-cover-at-DTC-2026.1457973.0.html",
+      "canonical": "https://www.notebookcheck.net/Next-gen-OLED-display-with-10-000-nits-peak-brightness-breaks-cover-at-DTC-2026.1457973.0.html",
+      "summary": "TCL CSOT has showcased a couple of groundbreaking smartphone screen prototypes at DTC 2026. One particular demo unveiled the \"world's first\" HDR OLED display for 6.85-inch phones with a peak brightness of 10,000 nits at 10% APL.",
+      "published": "2026-11-23T16:14:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+4 unveil",
+        "+3 prototype",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    },
+    {
+      "id": "ddf52c9280a0d95e",
+      "title": "Intel Arc G3 Play reportedly pairs eight E-cores with four Xe3 cores",
+      "url": "https://www.notebookcheck.net/Intel-Arc-G3-Play-reportedly-pairs-eight-E-cores-with-four-Xe3-cores.1457888.0.html",
+      "canonical": "https://www.notebookcheck.net/Intel-Arc-G3-Play-reportedly-pairs-eight-E-cores-with-four-Xe3-cores.1457888.0.html",
+      "summary": "Intel is reportedly preparing an entry-level Panther Lake chip for gaming handhelds. It should be called Arc G3 Play, and it could trade graphics horsepower for lower prices, although Intel has yet to confirm it. It should be affordable, but strong enough to make your gaming experience smooth.",
+      "published": "2026-11-23T18:27:00+00:00",
+      "source_id": "notebookcheck_smart",
+      "source": "Notebookcheck (Smartphone)",
+      "category": "smartphone",
+      "tier": 2,
+      "kind": "news",
+      "score": 11,
+      "reasons": [
+        "+3 price",
+        "+4 handheld",
+        "+1 tier2",
+        "+3 fresh"
+      ],
+      "also_covered_by": [],
+      "related_urls": []
+    }
+  ],
+  "japan_launch": []
+}
