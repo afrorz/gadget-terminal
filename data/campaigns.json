@@ -57,9 +57,9 @@
   "store": "Minisforum 公式",
   "start": "2026-11-23",
   "end": "2026-12-07",
-  "until": "開催中・終了日は公式ストアで",
+  "until": "終了日は公式ストアで",
   "head": "ブラックフライデー",
-  "sub": "ミニPC・NAS が年に一度の値下げ",
+  "sub": "ミニPC・NASが値下げ",
   "href": "https://px.a8.net/svt/ejp?a8mat=4BGFJE+FN831U+5O6K+5YRHE",
   "pixel": "https://www18.a8.net/0.gif?a8mat=4BGFJE+FN831U+5O6K+5YRHE",
   "bg": "#eaf0f7",
@@ -68,6 +68,8 @@
    "article",
    "feature:work-health-gadgets"
   ],
-  "note": "A8 素材ID 002(テキスト)。公式の終了日が見当たらないので 12/7 で外す(12/11 までという非公式の記事あり)"
+  "note": "A8 素材ID 002(テキスト)。公式の終了日が見当たらないので 12/7 で外す(12/11 までという非公式の記事あり)",
+  "pic_sub": "ミニPC・NASが年に一度の値下げ",
+  "open_end": true
  }
 ]

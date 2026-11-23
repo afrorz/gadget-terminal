@@ -2975,8 +2975,10 @@ def campaign_block(s: dict, where: str) -> str:
             f'data-start="{c["start"]}" data-end="{c["end"]}">{pic}'
             f'<span class="cmp-body"><span class="cmp-name">{html.escape(c["name"])}</span>'
             f'<span class="cmp-sub">{html.escape(c.get("sub") or "")}</span>'
-            f'<span class="cmp-until">{html.escape(c.get("until") or "")}<b class="cmp-left">{left_txt}</b></span>'
-            f'<span class="cmp-bar"><i style="width:{pct}%"></i></span>'
+            f'<span class="cmp-until">{html.escape(c.get("until") or "")}'
+            # 終了日が公式に出ていないセール(open_end)は、残り日数と進み具合を出さない(こちらで外す日を見せると誤解になる)
+            + ("" if c.get("open_end") else f'<b class="cmp-left">{left_txt}</b>') + '</span>'
+            + ("" if c.get("open_end") else f'<span class="cmp-bar"><i style="width:{pct}%"></i></span>') +
             f'<span class="cmp-go">{html.escape(c["store"])}で見る ↗</span>{px}</span></a>')
     return (f'<section class="cmp"><div class="cmp-head"><p class="cmp-title"><span class="cmp-eyebrow">SALE 会場</span>'
             f'いま開催中のセール<span class="yr-ad">広告</span></p>'
@@ -4574,7 +4576,7 @@ h1,h2,h3{text-wrap:pretty}
 
 /* 記事末の広告。本文の外に置き、罫線とラベルで「ここから先は広告」と
    分かるようにする。中身の高さは Google が決めるので min-height は持たせない。 */
-.ad-slot{max-width:var(--measure);margin:44px 0 0;padding-top:14px;border-top:1px solid var(--rule)}
+.ad-slot{max-width:var(--measure);margin:44px auto 0;padding-top:14px;border-top:1px solid var(--rule)}
 .ad-slot-label{margin:0 0 10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
   text-transform:uppercase;color:var(--ink-3)}
 /* 広告在庫が無かったとき、AdSense は ins に data-ad-status="unfilled" を付ける。
@@ -4609,6 +4611,11 @@ h1,h2,h3{text-wrap:pretty}
 .cmp-title{margin:0;font:700 15px/1.4 var(--sans);color:var(--ink)}
 .cmp-eyebrow{display:block;margin-bottom:6px;font:500 11px/1 var(--mono);letter-spacing:.08em;color:var(--accent)}
 .cmp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+/* 開催中が2つ・1つのときは、カードを広げて横幅いっぱいに使う(2026-11-23 本人)。絵は横長にして高さをそろえる */
+.cmp-grid:has(>.cmp-card:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+.cmp-grid:has(>.cmp-card:nth-child(2):last-child) .cmp-pic{aspect-ratio:2/1}
+.cmp-grid:has(>.cmp-card:only-child){grid-template-columns:minmax(0,1fr)}
+.cmp-grid:has(>.cmp-card:only-child) .cmp-pic{aspect-ratio:3/1}
 .cmp-card{display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:6px;overflow:hidden;text-decoration:none;color:inherit;transition:border-color .15s}
 .cmp-card:hover{border-color:var(--accent)}
 .cmp-pic{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;aspect-ratio:6/5;text-align:center;padding:10px;box-sizing:border-box}
@@ -4626,7 +4633,7 @@ h1,h2,h3{text-wrap:pretty}
 .cmp-go{margin-top:auto;padding-top:10px;font:500 11.5px/1 var(--mono);color:var(--ink-2)}
 .cmp-card:hover .cmp-go{color:var(--accent)}
 .cmp-px{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
-@media (max-width:620px){.cmp-grid{grid-template-columns:repeat(3,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.cmp-card{scroll-snap-align:start}.cmp-head small{display:none}}
+@media (max-width:620px){.cmp-grid,.cmp-grid:has(>.cmp-card:nth-child(2):last-child){grid-template-columns:repeat(3,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.cmp-card{scroll-snap-align:start}.cmp-head small{display:none}}
 /* 寄り道(記事の終わりの偶然の出会い。2026-11-08 モックB) */
 .yr{max-width:var(--measure);margin:44px 0 0;padding:24px 0 0;border-top:1px solid var(--rule)}
 .yr-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:0 0 14px}
