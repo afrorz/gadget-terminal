@@ -4574,7 +4574,7 @@ h1,h2,h3{text-wrap:pretty}
 
 /* 記事末の広告。本文の外に置き、罫線とラベルで「ここから先は広告」と
    分かるようにする。中身の高さは Google が決めるので min-height は持たせない。 */
-.ad-slot{margin:44px 0 0;padding-top:14px;border-top:1px solid var(--rule)}
+.ad-slot{max-width:var(--measure);margin:44px 0 0;padding-top:14px;border-top:1px solid var(--rule)}
 .ad-slot-label{margin:0 0 10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;
   text-transform:uppercase;color:var(--ink-3)}
 /* 広告在庫が無かったとき、AdSense は ins に data-ad-status="unfilled" を付ける。
