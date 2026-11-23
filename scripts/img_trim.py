@@ -11,7 +11,7 @@
 img_crop.json の値が null の写真は「測った・切らない」。自動で測った範囲が製品を欠いてしまう写真は、
 手で null にしておくと次から切られない(2026-11-23 に2枚そうした)。
 
-値は [左, 上, 右, 下, 幅, 高さ](元画像のピクセル)。URL ごとに持つので、見出しの写真・本文の写真・
+値は [左, 上, 右, 下, 幅, 高さ, 背景色](位置は元画像のピクセル、背景色は四隅の色。細長い製品の左右を埋める色)。URL ごとに持つので、見出しの写真・本文の写真・
 一覧表の小さな写真のどこに出しても同じように切られる。余白が3%未満なら「切る必要なし」と出す。
 """
 from __future__ import annotations
@@ -90,7 +90,7 @@ def heroes() -> int:
             continue
         # 横長の写真(高さが幅の 0.68 以下)は、もともと記事の幅いっぱいに出て左右に余白が出ないので切らない。
         # 切ると宣伝画像の文字が半分欠ける(2026-11-23 に53枚見て決めた)
-        c = res[0] if res else None
+        c = res[0] + ["#%02x%02x%02x" % tuple(res[1][:3])] if res else None
         data[u] = c if c and c[5] / c[4] > 0.68 else None
         n += 1
     OUT.write_text(json.dumps(dict(sorted(data.items())), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -112,7 +112,7 @@ def main() -> int:
         print(url)
         print(f"    crop: [{', '.join(map(str, c))}]   # 背景色 {corner}、"
               f"幅 {100 * (c[2] - c[0]) / c[4]:.0f}%・高さ {100 * (c[3] - c[1]) / c[5]:.0f}% を残す")
-        data[url] = c
+        data[url] = c + ["#%02x%02x%02x" % tuple(corner[:3])]
     if save:
         OUT.write_text(json.dumps(dict(sorted(data.items())), ensure_ascii=False, indent=1) + "\n",
                        encoding="utf-8")

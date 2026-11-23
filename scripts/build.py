@@ -2618,8 +2618,18 @@ def crop_wrap(src: str, img: str, hero: bool = False, scene: bool = False) -> st
     c = CROP.get(src)
     if not c:
         return img
-    l, t, r, b, w, h = c
+    l, t, r, b, w, h = c[:6]
+    bg = c[6] if len(c) > 6 else "#fff"
     cw, ch = r - l, b - t
+    if hero and cw / ch < 0.75 and not scene:
+        # 細長い製品(余白を切っても幅が高さの 3/4 未満): 正方形に切ると画面の一部しか残らないので、
+        # 本体を丸ごと正方形の枠に収め、左右は写真の背景の色で埋める(2026-11-23 本人「これでいこう」)
+        pw = 100 * cw / ch                # 本体の幅(箱の幅に対する%)。箱は正方形
+        st = (f"left:{(100 - pw) / 2 - pw * l / cw:.3f}%;top:{-100 * t / ch:.3f}%;"
+              f"width:{pw * w / cw:.3f}%;height:{100 * h / ch:.3f}%")
+        img = img.replace("<img ", f'<img style="{st}" ', 1)
+        return (f'<span class="crop crop-hero" style="aspect-ratio:1;background:{html.escape(bg)}">'
+                f'{img}</span>')
     if hero:
         # 記事の最初の写真: 本文の幅いっぱい。余白を切ると製品が枠いっぱいになるので正方形までは許し、
         # それより縦長なら上下を切る(2026-11-23 本人の方針)。景色ごとの写真(hero_fit: scene)は 3:2 まで
