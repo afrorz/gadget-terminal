@@ -73,14 +73,29 @@ def first_image(text: str) -> str:
     return str(first or "").strip()
 
 
+def all_images(text: str) -> list[str]:
+    """記事の写真すべて(images の全部と、本文に1行で書いた ![説明](URL))。2026-11-23 から本文の写真も同じ決まりで出すため。"""
+    import re
+    import yaml
+    try:
+        fm = yaml.safe_load(text.split("---")[1]) or {}
+    except Exception:  # noqa: BLE001
+        return []
+    out = [first_image(text)]
+    for it in (fm.get("images") or [])[1:]:
+        out.append(str((it.get("url") if isinstance(it, dict) else it) or "").strip())
+    out += re.findall(r"^!\[[^\]]*\]\((\S+)", text.split("---", 2)[-1], re.M)
+    return [u for u in out if u]
+
+
 def heroes() -> int:
     data = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
     posts = Path(__file__).resolve().parent.parent / "content" / "posts"
     todo = []
     for f in sorted(posts.glob("*.md")):
-        u = first_image(f.read_text(encoding="utf-8"))
-        if u.startswith("http") and u not in data:
-            todo.append(u)
+        for u in all_images(f.read_text(encoding="utf-8")):
+            if u.startswith("http") and u not in data and u not in todo:
+                todo.append(u)
     n = 0
     for u in todo:
         try:

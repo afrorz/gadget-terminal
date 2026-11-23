@@ -2607,6 +2607,9 @@ def card_image(p: dict) -> tuple[str, bool]:
 
 CROP_FILE = ROOT / "data" / "img_crop.json"
 CROP = json.loads(CROP_FILE.read_text(encoding="utf-8")) if CROP_FILE.exists() else {}
+# 景色ごと写った写真の印(URL → "scene")。正方形だと大きすぎるので 3:2 までに抑える。2026-11-23 に本文の写真19枚を目で見て付けた
+FIT_FILE = ROOT / "data" / "img_fit.json"
+FIT = json.loads(FIT_FILE.read_text(encoding="utf-8")) if FIT_FILE.exists() else {}
 CROP_MAX_H = 520  # .inline-shot img / .article-hero img の max-height と同じ
 
 
@@ -2700,7 +2703,11 @@ def inline_photo(im: dict, title: str) -> str:
     if credit:
         parts.append(f'<span class="inline-credit">出典: {html.escape(credit)}</span>')
     figcap = f'<figcaption>{" ".join(parts)}</figcaption>' if parts else ""
-    return (f'<figure class="inline-shot">{crop_wrap(im["url"], ext_img(im["url"], cap or title))}'
+    # 記事の最初の写真と同じ決まり(2026-11-23 本人「本文の途中の写真にも同じ決まりを」): 枠の幅いっぱい、高さは正方形まで、
+    # 景色の写真は 3:2 まで、無地の余白は切る、細長い物は丸ごと正方形に収めて左右を背景色で埋める
+    scene = FIT.get(im["url"]) == "scene"
+    return (f'<figure class="inline-shot{" is-scene" if scene else ""}">'
+            f'{crop_wrap(im["url"], ext_img(im["url"], cap or title), hero=True, scene=scene)}'
             f'{figcap}</figure>')
 
 
@@ -3027,7 +3034,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         credit = p.get("thumbnail_credit")
         cap = (f'<figcaption class="hero-credit">出典: {html.escape(str(credit))}</figcaption>'
                if credit else "")
-        scene = str(p.get("hero_fit") or "") == "scene"
+        scene = str(p.get("hero_fit") or "") == "scene" or FIT.get(th) == "scene"
         hero_block = (f'<figure class="article-hero article-hero-real{" hero-scene" if scene else ""}">'
                       + crop_wrap(th, ext_img(th, p["title"], lazy=False, fallback=fallback),
                                   hero=True, scene=scene)
@@ -4309,15 +4316,13 @@ img{max-width:100%}
 .inline-media{margin:28px 0}
 .inline-media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
 .inline-media .embed{margin:0}
-/* 写真の枠は写真の幅まで縮めて中央に置く。正方形・縦長の写真の左右に白が残らないように(2026-11-22 本人) */
-.inline-shot{margin:0 auto;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden;
-  display:flex;flex-direction:column;align-items:center;width:fit-content;max-width:100%;
-  min-width:min(100%,320px)}
-.inline-shot img{display:block;width:auto;max-width:100%;height:auto;max-height:520px;object-fit:contain;background:#fff}
-.inline-shot figcaption{padding:9px 12px 10px;font-size:12.5px;line-height:1.7;color:var(--ink-3);
-  width:0;min-width:100%;box-sizing:border-box}
-.inline-shot.inline-clip{display:block;width:auto}
-.inline-media-grid .inline-shot{width:auto;align-items:center}
+/* 本文の写真(2026-11-23 本人の方針。記事の最初の写真と同じ): 枠の幅いっぱい。高さは正方形(=枠の幅)まで、
+   景色の写真(data/img_fit.json)は 3:2 まで、はみ出す上下は切る。余白切り・細長い物は crop_wrap の箱で出す */
+.inline-shot{margin:0;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden;
+  container-type:inline-size;width:100%;box-sizing:border-box}
+.inline-shot>img{display:block;width:100%;height:auto;max-height:100cqw;object-fit:cover;object-position:center;background:#fff}
+.inline-shot.is-scene>img{max-height:66.67cqw}
+.inline-shot figcaption{padding:9px 12px 10px;font-size:12.5px;line-height:1.7;color:var(--ink-3)}
 /* 元画像に入っている余白を切る箱(crop_wrap) */
 .crop{display:block;position:relative;overflow:hidden;max-width:100%;background:#fff;margin:0 auto}
 .crop>img{position:absolute;max-width:none!important;max-height:none!important}
