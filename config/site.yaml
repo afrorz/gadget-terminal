@@ -54,7 +54,7 @@ site:
     article_end: "9052355243"
   # Multiplex 広告の並べ方。値は「スマホ,パソコン」。ここに無い枠は普通のディスプレイ広告として出す
   adsense_multiplex:
-    article_end: {ui: "image_stacked,image_stacked", rows: "1,1", cols: "2,3"}
+    article_end: {ui: "image_sidebyside,image_sidebyside", rows: "2,2", cols: "1,2"}  # 11/23 縦に長いので写真を左・文字を右に
   # アフィリエイト（もしもアフィリエイト経由）。
   # enabled: false のあいだは代替品セクションは出るがリンクは素のURLのままで、
   # 広告表示も出さない。提携が通ってからテンプレートを貼って true にする。
