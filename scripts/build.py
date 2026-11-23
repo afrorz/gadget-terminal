@@ -2610,7 +2610,7 @@ CROP = json.loads(CROP_FILE.read_text(encoding="utf-8")) if CROP_FILE.exists() e
 CROP_MAX_H = 520  # .inline-shot img / .article-hero img の max-height と同じ
 
 
-def crop_wrap(src: str, img: str) -> str:
+def crop_wrap(src: str, img: str, hero: bool = False) -> str:
     """元の画像に入っている白い余白を、表示のときに切る(値は scripts/img_trim.py が data/img_crop.json に書く)。
 
     画像は権利者のサーバーのまま。見せたい範囲の縦横比の箱を作り、画像を大きめに置いてはみ出しを隠す。
@@ -2620,6 +2620,14 @@ def crop_wrap(src: str, img: str) -> str:
         return img
     l, t, r, b, w, h = c
     cw, ch = r - l, b - t
+    if hero:
+        # 記事の最初の写真: 本文の幅いっぱい。切った範囲が縦長すぎるとき(幅:高さ 1.25 未満)だけ上下を切る
+        A = max(cw / ch, 1.25)
+        disp = 100 * A * ch / cw          # 切った範囲の高さ(箱の高さに対する%)
+        st = (f"left:{-100 * l / cw:.3f}%;top:{-(t / ch) * disp - (disp - 100) / 2:.3f}%;"
+              f"width:{100 * w / cw:.3f}%;height:{disp * h / ch:.3f}%")
+        img = img.replace("<img ", f'<img style="{st}" ', 1)
+        return f'<span class="crop crop-hero" style="aspect-ratio:{A:.4f}">{img}</span>'
     box_w = min(cw, CROP_MAX_H * cw / ch)
     st = (f"left:{-100 * l / cw:.3f}%;top:{-100 * t / ch:.3f}%;"
           f"width:{100 * w / cw:.3f}%;height:{100 * h / ch:.3f}%")
@@ -3009,7 +3017,7 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
         cap = (f'<figcaption class="hero-credit">出典: {html.escape(str(credit))}</figcaption>'
                if credit else "")
         hero_block = (f'<figure class="article-hero article-hero-real">'
-                      + crop_wrap(th, ext_img(th, p["title"], lazy=False, fallback=fallback))
+                      + crop_wrap(th, ext_img(th, p["title"], lazy=False, fallback=fallback), hero=True)
                       + f'{cap}</figure>')
     else:
         hero_block = (f'<figure class="article-hero">'
@@ -4300,6 +4308,7 @@ img{max-width:100%}
 /* 元画像に入っている余白を切る箱(crop_wrap) */
 .crop{display:block;position:relative;overflow:hidden;max-width:100%;background:#fff;margin:0 auto}
 .crop>img{position:absolute;max-width:none!important;max-height:none!important}
+.crop-hero{width:100%}
 /* 表の中の小さな写真(本文の ![機種名](URL)) */
 .prose td img{display:block;width:72px;height:72px;object-fit:contain;background:#fff;border-radius:4px;
   border:1px solid var(--rule);margin:0 0 6px}
@@ -4392,6 +4401,9 @@ img{max-width:100%}
 /* 縦長の写真を 100% 幅＋contain で出すと、左右に白い帯が出ていた(2026-11-07 本人)。
    写真そのものの大きさで出し、帯を作らない。透過 PNG のために白地は写真の範囲だけに残す */
 .article-hero img{display:block;width:auto;max-width:100%;height:auto;max-height:520px;margin:0 auto;background:#fff}
+/* 記事の最初の写真は本文の幅いっぱいに出し、縦長・正方形は上下を切って高さを抑える(2026-11-23 本人
+   「横幅を揃えて、そのかわり縦幅を縮めて」)。横長の写真は切られずそのまま。余白切り(.crop)の写真は対象外 */
+.article-hero-real>img{width:100%;max-height:440px;object-fit:cover;object-position:center}
 .prose{font-size:15.5px;line-height:1.9;color:var(--ink)}
 .prose h2{font-family:var(--disp);font-size:19px;line-height:1.5;margin:38px 0 14px;font-weight:700;
   letter-spacing:-.01em;padding-top:8px;position:relative}
