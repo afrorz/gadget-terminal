@@ -3,6 +3,7 @@ title: "Valveの単体駆動型VRヘッドセット「Steam Frame」が予約受
 seo_title: Steam Frameは国内発売済み、199,980円から
 slug: valve-steam-frame-pre-order
 keyword: Steam Frame
+noindex: true
 category: pc
 date: 2026-09-15
 kicker: Valveが開発してきた単体駆動型VRヘッドセット「Steam Frame」の価格が判明し、予約(抽選制)の受付が始まった。256GB版が1,059ドル、1TB版が1,299ドルから。

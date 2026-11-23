@@ -3,6 +3,7 @@ title: "GloriousのGMMK Eternal、テンキー付き96%配列のホットスワ�
 seo_title: GMMK Eternalは99.99ドル、テンキー付96%
 slug: glorious-gmmk-eternal-keyboard
 keyword: GMMK Eternal
+noindex: true
 category: pc
 date: 2026-09-13
 kicker: PC周辺機器ブランドGloriousが、テンキーを残した96%(1800レイアウト)の有線メカニカルキーボード「GMMK Eternal」を発売した。価格は米国・欧州で99.99ドル/99.99ユーロ、アジア太平洋地域では119.99ドル。3層構造の吸音材とホットスワップ対応スイッチを備える。

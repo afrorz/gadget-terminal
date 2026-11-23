@@ -3,6 +3,7 @@ title: "Xiaomiの磁気吸着Bluetoothスピーカーが中国でクラウドフ
 seo_title: "Xiaomiの磁気吸着スピーカーは132元、日本で買える？"
 slug: xiaomi-magnetic-bluetooth-speaker
 keyword: 磁吸スピーカー
+noindex: true
 category: weird
 date: 2026-08-19
 kicker: Xiaomiが小米有品（Xiaomi Youpin）で、磁石でスマートフォン背面に貼り付くBluetoothスピーカー「Xiaomi Bluetooth Speaker 磁吸版」のクラウドファンディングを開始した。価格はクラウドファンディング価格132元、正式価格199元、本体重量は約95g。

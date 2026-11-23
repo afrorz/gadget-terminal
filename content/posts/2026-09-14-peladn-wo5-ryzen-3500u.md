@@ -3,6 +3,7 @@ title: "中国PeladnのミニPC「WO5」に旧世代Ryzen 5 3500U搭載の廉価
 seo_title: Peladn WO5に3500U追加、1549元から
 slug: peladn-wo5-ryzen-3500u
 keyword: Peladn WO5
+noindex: true
 category: pc
 date: 2026-09-14
 kicker: 中国のミニPCブランドPeladnが、「WO5」にAMD Ryzen 5 3500U(Picasso-U、Zen+世代)を搭載した廉価構成を追加した。中国では1,549元で販売され、掲載時点ではJD.com限定。海外メディアはこれを約230ドル相当と紹介している。

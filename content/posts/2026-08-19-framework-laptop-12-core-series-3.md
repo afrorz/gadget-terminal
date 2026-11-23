@@ -2,6 +2,7 @@
 title: "Framework Laptop 12がIntel Core Series 3とThunderbolt 4に対応、DIY版549ドルから"
 slug: framework-laptop-12-core-series-3
 keyword: Laptop 12
+noindex: true
 category: pc
 date: 2026-08-19
 kicker: Framework Computerが小型の修理可能ノートPC「Framework Laptop 12」を刷新し、新型CPU「Intel Core Series 3（開発コード名Wildcat Lake）」とThunderbolt 4対応の拡張ポートを追加した。DIY版は549ドルから、出荷は2026年10月開始予定。

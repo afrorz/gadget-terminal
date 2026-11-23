@@ -999,7 +999,8 @@ def ad_unit(s: dict, slot_key: str) -> str:
 
 
 def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
-         image: str = "ogp/default.png", og_type: str = "website") -> str:
+         image: str = "ogp/default.png", og_type: str = "website",
+         noindex: bool = False) -> str:
     s = site["site"]
     # image が外部URL（公式サイトの製品画像）ならそのまま使う。
     # 自社生成のアイキャッチだけがサイト相対パスで渡ってくる。
@@ -1028,7 +1029,7 @@ def head(site: dict, title: str, desc: str, url_path: str, extra: str = "",
 <script>(function(){{try{{if(localStorage.getItem("gt-theme")==="dark"){{document.documentElement.setAttribute("data-theme","dark");document.querySelector('meta[name=theme-color]').content="#0a0d16";}}}}catch(e){{}}}})();</script>
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">{sc_meta}
-<meta name="robots" content="max-image-preview:large">
+<meta name="robots" content="{'noindex, follow' if noindex else 'max-image-preview:large'}">
 <link rel="canonical" href="{html.escape(full_url)}">
 <meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="{html.escape(s['title'])}">
@@ -3151,6 +3152,9 @@ def render_post(site: dict, p: dict, others: list[dict]) -> str:
              # thumbnail は外部URLのまま、生成アイキャッチはサイト相対で渡す
              image=(str(p["thumbnail"]) if p.get("thumbnail")
                     else f"ogp/{p['slug']}.png"),
+             # front matter の noindex: true は検索の対象から外す(記事と URL は残す)。
+             # 2026-11-23 本人了承。検索に3か月出ない記事のうち、大手ニュース・中国だけの物。
+             noindex=bool(p.get("noindex")),
              og_type="article")
         + header(site)
         + f"""
@@ -3927,7 +3931,7 @@ def render_sitemap(site: dict, posts: list[dict], features: list[dict] | None = 
     total_pages = len(split_pages(posts, int(site["site"].get("posts_per_page") or 23)))
     urls += [f"{base}/{page_path(n)}" for n in range(2, total_pages + 1)]
     urls += [f"{base}/category/{c['slug']}.html" for c in site["categories"].values()]
-    urls += [f"{base}/{p['path']}" for p in posts]
+    urls += [f"{base}/{p['path']}" for p in posts if not p.get("noindex")]
     # lastmod があるとクローラーが再訪問すべきURLを判断できる。
     # 記事は自身の日付、一覧系は最新記事の日付を使う。
     latest = max((p["date"] for p in posts), default="")

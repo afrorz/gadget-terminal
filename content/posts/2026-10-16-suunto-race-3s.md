@@ -8,6 +8,7 @@ x_hook: |
   ・GPSは最大45時間
   ・画面の輝度は2,000ニト
 keyword: Race 3S
+noindex: true
 category: smartphone
 date: 2026-10-16
 kicker: フィンランドのSuuntoがスポーツウォッチ「Suunto Race 3S」を発表した。価格は599ドル／499ユーロで、先代Race Sの349ドルから上がった。チタンベゼル、サファイアガラス、2,000ニトのディスプレイ、64GBのストレージを備え、重さは56g。

@@ -3,6 +3,7 @@ title: 米国の低価格スマホが前年比64%減 — メモリ高騰が「�
 seo_title: 低価格スマホが米国で64%減、メモリ高騰が原因
 slug: budget-phones-memory-crunch
 keyword: 安いスマホが消える
+noindex: true
 category: smartphone
 date: 2026-08-16
 priority: 10

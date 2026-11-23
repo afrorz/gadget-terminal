@@ -3,6 +3,7 @@ title: "中国OBE(大眼橙)、Z字型一体ジンバルと2.1ch・25Wサブウ�
 seo_title: OBE R3 Ultra Maxは3,999元、中国限定
 slug: obe-r3-ultra-max-projector
 keyword: R3 Ultra Max
+noindex: true
 category: weird
 date: 2026-09-14
 kicker: 中国のプロジェクターブランドOBE(大眼橙)が、本体一体型のZ字型ジンバルと25Wサブウーファー入り2.1chスピーカーを備えたホームプロジェクター「R3 Ultra Max」を発売した。中国のJD.comで3,999元(掲載時点)。

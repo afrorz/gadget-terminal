@@ -3,6 +3,7 @@ title: 福井の老舗メガネ企業、液晶画面も見やすい瞬間調光�
 seo_title: 瞬間調光オーバーグラスが8月19日Makuake開始
 slug: tryangle-instant-tint-overglasses
 keyword: 瞬間調光オーバーグラス
+noindex: true
 category: weird
 date: 2026-08-17
 kicker: 眼鏡の上から装着できる瞬間調光サングラスの最新モデルが8月19日11時にMakuakeで応援購入を開始する。今回の目玉は、従来の偏光レンズでは見えにくかったカーナビなどの液晶画面への対応だ。

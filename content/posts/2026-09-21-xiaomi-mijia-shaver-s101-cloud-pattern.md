@@ -3,6 +3,7 @@ title: Xiaomiの電動シェーバー「Mijia S101 雲紋刀頭版」が小米�
 seo_title: Xiaomi S101雲紋刀頭版、105元から衆籌
 slug: xiaomi-mijia-shaver-s101-cloud-pattern
 keyword: S101雲紋刀頭版
+noindex: true
 category: weird
 date: 2026-09-21
 kicker: Xiaomiは電動シェーバー「Mijia Electric Shaver S101 Cloud Pattern Blade Edition(雲紋刀頭版)」を、中国のクラウドファンディングプラットフォーム「小米有品(Xiaomi Youpin)」で9月21日から衆籌(クラウドファンディング)を開始した。衆籌価格は105元(約15ドル)、正規価格は149元(約22ドル、いずれも掲載時点)。

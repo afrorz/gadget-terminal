@@ -3,6 +3,7 @@ title: Huawei「Mate XT 2」は折り畳み方向を反転させ内側折りに�
 seo_title: Huawei Mate XT2、内側折りで9月7日発表
 slug: huawei-mate-xt2-preorder
 keyword: Mate XT 2
+noindex: true
 category: smartphone
 date: 2026-09-01
 kicker: Huaweiが、3つ折りスマートフォン「Mate XT 2」の予約を中国で開始した。初代Mate XTの外側に露出する「Z字」折りから一転、画面を内側に収める折り畳み方式に変えたのが最大の変更点。RAMは全構成共通で16GB、ストレージは512GBから最大2TBまで用意される。正式発表は9月7日で、価格は掲載時点で未公表。

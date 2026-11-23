@@ -2,6 +2,7 @@
 title: Razer Huntsman V3 Pro Mini 8KHzが60%サイズで8,000Hzポーリングに対応、米国179.99ドル・日本公式は30,880円から
 slug: razer-huntsman-v3-pro-mini-8khz
 keyword: Huntsman V3 Pro Mini 8KHz
+noindex: true
 category: pc
 date: 2026-10-02
 kicker: Razerが60%サイズのアナログ光学式キーボードに8,000Hzポーリングを載せた「Huntsman V3 Pro Mini 8KHz」を発表した。米国では179.99ドルから、日本の公式サイトにも製品ページがある。

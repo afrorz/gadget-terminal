@@ -3,6 +3,7 @@ title: Xiaomiの新型レンジフードは羽根を高速回転させて自分�
 seo_title: Xiaomiの自動洗浄レンジフードは1,499元、中国のみ
 slug: xiaomi-mijia-range-hood-3
 keyword: レンジフード3
+noindex: true
 category: weird
 date: 2026-08-17
 kicker: Mijia Smart Range Hood 3（欧州スタイル）が中国で発売。手を振って操作でき、洗剤も水も使わずファンの遠心力だけで油汚れを飛ばす。
