@@ -59,6 +59,10 @@
   "id": "xCN9xC8sJbU",
   "title": "COMAN T1 MINI｜ロックを外すと、脚が自分の重さで伸びる三脚"
  },
+ "coprint-quadro-4-toolhead-3d-printer": {
+  "id": "D1VpLL7AGIY",
+  "title": "Co Print Quadro｜色を替えるたび、ヘッドが丸ごと交代する3Dプリンター"
+ },
  "da1-camera-thermal-print-no-screen": {
   "id": "tWhTDGvhWwU",
   "title": "DA1 Camera｜撮った写真が、その場でレシートになって出てくる"
@@ -115,6 +119,10 @@
   "id": "Tbe86FFDCJQ",
   "title": "Intricuit Magic Screen｜貼るだけでMacBookが指でさわれる、磁石で付くガラス板"
  },
+ "kodak-slidetag-eink-tracker": {
+  "id": "k2v1Z_UvTlM",
+  "title": "Kodak SlideTag｜鍵に付けた落とし物タグに、思い出の写真が映る"
+ },
  "lofree-flow-lite-2-low-profile-keyboard": {
   "id": "pEkx8pM0BmA",
   "title": "Lofree Flow Lite 2｜薄型キーボードなのに、キーをわざと重くした"
@@ -146,6 +154,10 @@
  "open-benchtable-10y-anniversary-edition": {
   "id": "f7Sb42c8QJU",
   "title": "Open Benchtable 10周年モデル｜10年ずっと同じ重さだったPCの台が、610g軽くなった"
+ },
+ "piccola-cnc-open-source-desktop-mill": {
+  "id": "Cs_pr3xHGLo",
+  "title": "Piccola CNC｜机の上で、アルミの塊から部品を削り出すフライス盤"
  },
  "pulsar-x2-crazylight-2-wireless-mouse": {
   "id": "sXMBcexsTSg",
