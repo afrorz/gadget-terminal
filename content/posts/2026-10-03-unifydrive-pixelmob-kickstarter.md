@@ -22,10 +22,10 @@ giteki:
   note: 事業者名UnifyDriveで該当0件
 alternatives:
 - name: UGREEN NASync DH2300（2ベイNAS）
-  why: HDDを2台入れて常用するファイルサーバー用途の2ベイNASキットで、Joshin webの楽天店で国内販売されている。据え置き型で、携帯はできない。
-  url: https://item.rakuten.co.jp/jism/4595555318107-44-26682-n/
-  merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0037/4595555318107.jpg"
+  why: HDDを2台入れて常用するファイルサーバー用途の2ベイNASキットで、UGREENの日本法人がAmazon.co.jpで販売している。据え置き型で、携帯はできない。
+  url: https://www.amazon.co.jp/dp/B0FNWYD2LC
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/13868535/14253878/imgrc0156789071.jpg"
 faq:
 - q: PixelMobはいくらですか
   a: 掲載時点で確認できたKickstarterの価格は、標準版499ドル、Pro版899ドル、Proスターターコンボ1,099ドルです（9月1日付のGizmoCrowdの記事による）。単品の価格にはSSDが含まれず、別売りです。

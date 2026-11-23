@@ -28,10 +28,10 @@ images:
     caption: 組み立てて実際に肉や野菜を焼いている状態。グリル面とプレート面の2ゾーンが確認できる
 credit: Septem Studio 公式サイト
 alternatives:
-  - name: ピコグリル498(Picogrill 498)
-    why: ステンレス製の折りたたみ焚き火台で、本体は490g。2〜6人向けの大きいサイズで、正規販売店がAmazon.co.jpで販売している。GrilTi Everのような連結拡張はできないが、軽量な携行グリルとして日本で今日から入手できる。
-    image: "https://www.picogrill.ch/images/product_images/info_images/210223-Def-picogrill-grill-outdoor-model-498-front-view-1667x1667.jpg"
-    url: https://www.amazon.co.jp/dp/B095RRQK13
+  - name: ピコグリル680(Picogrill 680)
+    why: ステンレス製の折りたたみ焚き火台で、ワンアクションで広げられ、たたむと厚さ7mmの板状になる。ピコグリルの正規販売店がAmazon.co.jpで販売している。GrilTi Everのような連結拡張はできないが、携行できるグリルとして日本で今日から入手できる。
+    image: "https://www.picogrill.ch/images/product_images/info_images/Picogrill-680/250226_STC_Picogrill_680_Front_QZ4A0151_Grillgut_Fleisch_RGB_2860x2860.jpg"
+    url: https://www.amazon.co.jp/dp/B0F2QKSCJ3
     merchant: amazon
 faq:
   - q: 日本から支援できますか

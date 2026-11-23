@@ -49,8 +49,8 @@ products:
       購入はNothing公式の日本ストア(jp.nothing.tech)から直接でき、価格はセールで9,800円、通常12,800円(掲載時点)。ホワイトのほかイエロー・ブラックの展開があります。
     url: https://jp.nothing.tech/products/ear-a
     rakuten:
-      url: https://item.rakuten.co.jp/nothingagent/nothing_ear_a/
-      shop: Nothing Japan公式
+      url: https://item.rakuten.co.jp/ikebe/781601/
+      shop: イケベ楽器楽天ショップ
     source: https://support.nothing.tech/hc/ja
     availability: verified
   - name: ScreenBar Pro Silver

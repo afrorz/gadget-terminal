@@ -40,11 +40,11 @@ sources:
   url: https://motorolanews.com/the-new-moto-buds-2-ultra-moto-buds-ultra-27-take-audio-up-a-notch-with-sound-by-bose-technology-and-bring-ai-live-translation-to-consumers/
   publisher: Motorola
 alternatives:
-  - name: Polar Street X（日本正規品）
-    why: Moto Watch 2 Fit の健康機能の元になったPolarの本家の新しいランニングウォッチ。日本正規品で国内保証があり、Polarの公式楽天市場店で買える。
-    url: https://item.rakuten.co.jp/polarjapan/street_x/
+  - name: Polar Street X
+    why: Moto Watch 2 Fit の健康機能の元になったPolarの本家の新しいランニングウォッチ。楽天市場の販売店で今日から買える。
+    url: https://item.rakuten.co.jp/asr/900116713/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/polarjapan/cabinet/12913196/main_2_streetx.jpg?_ex=400x400"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/asr/cabinet/1121/folder2/900116713.jpg"
     picked: 2026-11-15
   - name: Bose QuietComfort Earbuds
     why: Bose自身のノイズキャンセリング完全ワイヤレス。Moto Buds 2 Ultraと同じBoseの音づくりを、国内正規品で今日から使える。

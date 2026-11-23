@@ -36,10 +36,10 @@ sources:
   publisher: Walker Industries（公式）
 alternatives:
   - name: Meta Quest 3 512GB（スタンドアロン型VRヘッドセット）
-    why: 国内の公式ストアで買える、今日から使えるスタンドアロンVR。技適の取得も気にしなくてよい。
-    url: https://item.rakuten.co.jp/meta/9089224147192/
-    merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg"
+    why: Amazon.co.jpが販売する国内正規品で、今日から使えるスタンドアロンVR。技適の取得も気にしなくてよい。
+    url: https://www.amazon.co.jp/dp/B0CF1DLZPY
+    merchant: amazon
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/9012/00000012102261_a01.jpg"
 faq:
 - q: Vector Gearとは何ですか
   a: Walker IndustriesがKickstarterで募集しているスタンドアロンのVR/MRヘッドセットです。片目2160×2160の液晶、視線と表情の追跡、Steam Frame風のコントローラーを備え、ソフトとハードを順に公開していくと説明しています。
@@ -98,4 +98,4 @@ Kickstarterの支援額は米ドル建てで、次のとおり。
 
 日本上陸を待つうえで、まだ分かっていないのは、無線の型式と技適、日本向けの送料と関税、基板の検証結果の3つだ。届くのは約半年後で、基板が完成するかどうかもこれからだ。
 
-VRを今日から使いたいなら、国内の公式ストアで買えるMeta Quest 3がある。Vector Gearは、技適の見通しと基板の検証結果が出てから考えればよい。続報が出たら追記する。
+VRを今日から使いたいなら、Amazon.co.jpで買えるMeta Quest 3がある。Vector Gearは、技適の見通しと基板の検証結果が出てから考えればよい。続報が出たら追記する。

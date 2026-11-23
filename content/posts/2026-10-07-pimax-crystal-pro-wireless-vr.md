@@ -28,10 +28,10 @@ japan:
     url: https://jp.pimax.com/products/crystal-pro
 alternatives:
 - name: "Meta Quest 3 512GB"
-  why: "ケーブル無しで遊べるVRヘッドセット。Meta公式ストアで販売される国内正規品"
-  url: https://item.rakuten.co.jp/meta/9089224147192/
-  merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/meta/cabinet/12062899/imgrc0095963311.jpg"
+  why: "ケーブル無しで遊べるVRヘッドセット。Amazon.co.jpが販売する国内正規品"
+  url: https://www.amazon.co.jp/dp/B0CF1DLZPY
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/9012/00000012102261_a01.jpg"
 gear:
 - name: "バッファロー Wi-Fi 6E ルーター WSR-5400XE6"
   why: "本体にはWi-Fi 6Eの専用アダプターが付き、60G AirLinkなしでもWi-Fiで使える。6GHz帯に対応したルーターがあれば、その経路でケーブル無しのPC VRを組める"

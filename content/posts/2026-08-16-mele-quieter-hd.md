@@ -27,10 +27,10 @@ alternatives:
   merchant: rakuten
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/shoptsukumo/cabinet/pc22/4529327899082_1.jpg"
 - name: UGREEN NASync DH2300（2ベイNAS）
-  why: 常時稼働のファイルサーバー用途なら、HDDを2台入れる2ベイNASキットという選択肢もある。Joshin webの楽天店で国内販売されている。
-  url: https://item.rakuten.co.jp/jism/4595555318107-44-26682-n/
-  merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0037/4595555318107.jpg"
+  why: 常時稼働のファイルサーバー用途なら、HDDを2台入れる2ベイNASキットという選択肢もある。UGREENの日本法人がAmazon.co.jpで販売している。
+  url: https://www.amazon.co.jp/dp/B0FNWYD2LC
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/13868535/14253878/imgrc0156789071.jpg"
 faq:
 - q: いくらですか
   a: 8GB/128GBが450ドル、8GB/256GBが500ドル、16GB/512GBが650ドルです。MeLEの直販（store.mele.cn）で販売中とされています。

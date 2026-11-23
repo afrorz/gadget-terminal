@@ -46,10 +46,10 @@ sources:
   publisher: Notebookcheck
 alternatives:
   - name: HiByMusic R4（ポータブルデジタルオーディオプレーヤー）
-    why: 同じHiByの国内正規品で、4.4mmバランス接続に対応する。国内の販売店で5年保証が付き、今日から買える。
-    url: https://item.rakuten.co.jp/e-earphone/6971331261849/
+    why: 同じHiByの国内正規品で、4.4mmバランス接続に対応する。Joshin webの楽天店で今日から買える。
+    url: https://item.rakuten.co.jp/jism/6971331261849-35-51370-n/
     merchant: rakuten
-    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/e-earphone/cabinet/hiby_music/imgrc0101064447.jpg"
+    image: "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0375/6971331261849.jpg"
 faq:
 - q: HiBy RS2 IIはいくらですか
   a: 海外のHiBy公式ストアで、アルミ筐体のグリーンが439ドル、限定の真鍮筐体ゴールドが549ドルです（2026年10月25日時点）。ゴールドは500台限定と報じられています。

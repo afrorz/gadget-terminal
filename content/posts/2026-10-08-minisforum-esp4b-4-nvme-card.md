@@ -33,9 +33,9 @@ gear:
   image: "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/11103/00000013587022_a01.jpg"
 - name: "Seagate IronWolf 4TB ST4000VN006"
   why: "OCuLinkポートの専用ケーブルで、SATA 3.0のHDDを最大4台つなげられる。容量を優先する増設に向く3.5インチのNAS向けHDD"
-  url: https://item.rakuten.co.jp/shoptsukumo/1543701010/
-  merchant: rakuten
-  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/shoptsukumo/cabinet/pc6/0763649090985_1.jpg"
+  url: https://www.amazon.co.jp/dp/B0D8KTQBYS
+  merchant: amazon
+  image: "https://thumbnail.image.rakuten.co.jp/@0_mall/etre/cabinet/itemimage19/1241515.jpg"
 - name: "サンワサプライ シリアルATA電源分岐ケーブル 4分岐・上L型・40cm TK-PWSATA12"
   why: "SATA HDDの電源ケーブルは別途用意する必要がある、と公式仕様にある。1本の電源から最大4台のHDDに給電できる"
   url: https://item.rakuten.co.jp/biccamera/4969887899045/
