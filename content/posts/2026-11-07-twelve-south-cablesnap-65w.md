@@ -8,6 +8,7 @@ x_hook: |
   ・USB-C、USB-Aの追加ポート付き
   ・3台まで同時充電
 keyword: Cablesnap 65W
+hero_fit: scene  # 最初の写真は景色ごと。高さを抑える(build.py の hero_fit)
 category: pc
 date: 2026-11-07
 modified: 2026-11-07

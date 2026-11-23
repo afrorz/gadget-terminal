@@ -8,6 +8,7 @@ x_hook: |
   ・MagSafe対応のiPhoneに磁石で付く
   ・Makuakeで10,999円から
 keyword: Polly
+hero_fit: scene  # 最初の写真は景色ごと。高さを抑える(build.py の hero_fit)
 category: weird
 date: 2026-11-22
 kicker: Beamboxのデジタルペット「Polly」は、直径61mm・厚さ11.5mmの丸い本体にタッチ画面を載せ、スマホの背面に磁石で付けて持ち歩ける。Makuakeでは11月20日10時に始まり、初日に目標の10万円を達成した。

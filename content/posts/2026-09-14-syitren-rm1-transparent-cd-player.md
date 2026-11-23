@@ -3,6 +3,7 @@ title: "中国SyitrenのCDプレーヤー「RM1」、透明アクリルフレー
 seo_title: 透明CDプレーヤーRM1、Makuakeの国内受付は終了
 slug: syitren-rm1-transparent-cd-player
 keyword: Syitren RM1
+hero_fit: scene  # 最初の写真は景色ごと。高さを抑える(build.py の hero_fit)
 category: weird
 date: 2026-09-14
 kicker: 中国瀋陽のSyitrenが、透明なアクリルフレームの中でCDと基板がそのまま見える壁掛け式CDプレーヤー「RM1」をKickstarterで展開している。目標3,000ドルに対し掲載時点で540,000ドルを超え、価格は109ドル(掲載時点)。

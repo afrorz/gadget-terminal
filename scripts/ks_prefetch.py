@@ -206,7 +206,7 @@ def git_publish() -> None:
     if em.strip() != EMAIL:
         log(f"中止: リポジトリのgit user.email が想定と違う({em.strip()!r})。commit/push しない")
         return
-    paths = ["data/kscache"] + [f"data/{n}" for n in ("popular.json", "youtube.json") if (ROOT / "data" / n).exists()]
+    paths = ["data/kscache"] + [f"data/{n}" for n in ("popular.json", "youtube.json", "img_crop.json") if (ROOT / "data" / n).exists()]
     git("add", "-A", *paths)
     rc, _ = git("diff", "--cached", "--quiet", "--", *paths)
     if rc == 0:
@@ -335,6 +335,13 @@ def main() -> int:
             log("youtube.json を更新")
         except Exception as e:  # noqa: BLE001
             log(f"youtube.json の更新に失敗: {e}")
+        # 新しい記事の最初の写真の余白を測る(2026-11-23〜、img_trim.py --heroes)。測った写真は二度測らない
+        try:
+            import img_trim
+            img_trim.heroes()
+            log("img_crop.json を更新")
+        except Exception as e:  # noqa: BLE001
+            log(f"img_crop.json の更新に失敗: {e}")
 
         if not a.no_git:
             git_publish()
