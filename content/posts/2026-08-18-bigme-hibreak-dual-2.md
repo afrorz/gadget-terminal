@@ -5,7 +5,6 @@ slug: bigme-hibreak-dual-2
 keyword: HiBreak Dual 2
 category: smartphone
 date: 2026-08-18
-modified: 2026-11-23
 kicker: 表がカラーE Ink、裏がLCDという両面ディスプレイのAndroidスマートフォンがKickstarterで支援受付中。前モデルHiBreak Dualの実績を持つBigmeによる後継機。
 tags: [E Ink, デュアルスクリーン, Kickstarter, Bigme, Android]
 giteki:
@@ -46,6 +45,14 @@ sources:
   - title: "Pre-orders begin for BigMe's HiBreak Dual 3 with a detachable LCD and 85fps support"
     url: https://www.androidcentral.com/phones/pre-orders-begin-for-bigmes-hibreak-dual-3-with-a-detachable-lcd
     publisher: Android Central
+modified: 2026-11-24
+videos_after:
+  - id: Jhu7PCxPtlg
+    title: "Bigme E Ink + LCD Dual Screen Smartphone HiBreak Dual 2  Real Hands On Experience！"
+    channel: "Bigme E Ink Tablet"
+    published: 2026-09-23
+    added: 2026-11-24
+    note: "HiBreak Dual 2 の実機を触る動画（英語）"
 ---
 
 **Bigme HiBreak Dual 2** がKickstarterで支援受付を開始した。前面が6.13インチのE Inkディスプレイ、背面が5インチのLCDディスプレイという両面構成のAndroidスマートフォンで、E Inkの低消費電力とLCDの動画・カラー表示を1台で両立させる狙いの製品だ。まだクラウドファンディング段階であり、製品として確定した完成品ではない。
