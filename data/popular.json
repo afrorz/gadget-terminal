@@ -1,35 +1,40 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "days": 7,
  "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 85,
-   "views": 167
-  },
-  {
-   "path": "/posts/lucy-ai-studio-agent-workstation.html",
-   "visits": 20,
-   "views": 21
+   "visits": 88,
+   "views": 165
   },
   {
    "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
-   "visits": 17,
-   "views": 20
+   "visits": 19,
+   "views": 22
+  },
+  {
+   "path": "/posts/hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat.html",
+   "visits": 18,
+   "views": 17
+  },
+  {
+   "path": "/posts/lucy-ai-studio-agent-workstation.html",
+   "visits": 16,
+   "views": 18
   },
   {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
    "visits": 15,
-   "views": 15
+   "views": 16
   },
   {
    "path": "/posts/xiaomi-watch-s5-41mm-global.html",
-   "visits": 11,
-   "views": 11
+   "visits": 13,
+   "views": 13
   },
   {
-   "path": "/posts/fotorgear-campix-waist-level-camera.html",
+   "path": "/posts/insta360-toast-color-epaper-photo-frame.html",
    "visits": 10,
    "views": 10
   },
@@ -39,29 +44,29 @@
    "views": 9
   },
   {
-   "path": "/posts/radxa-linkr-ip-kvm.html",
-   "visits": 10,
-   "views": 9
+   "path": "/posts/color-eink-devices-roundup.html",
+   "visits": 9,
+   "views": 29
   },
   {
-   "path": "/posts/home-small-robots-roundup.html",
+   "path": "/posts/flipper-one-pocket-linux-kickstarter.html",
    "visits": 9,
    "views": 9
   },
   {
-   "path": "/posts/flipper-one-pocket-linux-kickstarter.html",
-   "visits": 8,
-   "views": 8
+   "path": "/posts/teenage-engineering-ep-bc-1-cd-player.html",
+   "visits": 9,
+   "views": 9
   },
   {
-   "path": "/posts/hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat.html",
+   "path": "/posts/open-benchtable-10y-anniversary-edition.html",
    "visits": 8,
-   "views": 8
+   "views": 10
   },
   {
-   "path": "/posts/color-eink-devices-roundup.html",
-   "visits": 7,
-   "views": 27
+   "path": "/posts/radxa-linkr-ip-kvm.html",
+   "visits": 8,
+   "views": 7
   },
   {
    "path": "/posts/enough-phone-small-5g-removable-battery.html",
@@ -74,7 +79,17 @@
    "views": 7
   },
   {
-   "path": "/posts/fiio-snowsky-mage-gaming-dac.html",
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/fotorgear-campix-waist-level-camera.html",
+   "visits": 6,
+   "views": 6
+  },
+  {
+   "path": "/posts/home-small-robots-roundup.html",
    "visits": 6,
    "views": 6
   },
@@ -84,23 +99,8 @@
    "views": 6
   },
   {
-   "path": "/posts/timekettle-livetalk-open-ear-translation-earbuds.html",
-   "visits": 5,
-   "views": 15
-  },
-  {
-   "path": "/posts/open-benchtable-10y-anniversary-edition.html",
-   "visits": 5,
-   "views": 6
-  },
-  {
    "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
-   "visits": 5,
-   "views": 5
-  },
-  {
-   "path": "/posts/redmagic-12-pro-global.html",
-   "visits": 5,
+   "visits": 6,
    "views": 5
   }
  ]
