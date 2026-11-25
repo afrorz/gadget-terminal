@@ -18,14 +18,15 @@
   "note": "期間は楽天の会場ページの表記(2026-11-25T01:59:59 まで)"
  },
  {
-  "name": "Amazon",
-  "store": "Amazon",
+  "name": "CIO ブラックフライデー",
+  "store": "Amazon の CIO ストア",
   "start": "2026-11-27",
   "end": "2026-12-07",
   "until": "12月7日まで",
   "head": "ブラックフライデー",
-  "sub": "先行セールは11/29まで",
-  "url": "https://www.amazon.co.jp/blackfriday",
+  "sub": "充電器・電源タップが最大50%オフ",
+  "pic_sub": "NovaPort Ⅱ・Polaris が値下げ",
+  "url": "https://www.amazon.co.jp/stores/%EF%BC%A3%EF%BC%A9%EF%BC%AF/page/F6313E8D-EBBD-4B75-9033-4D89951F1D23",
   "merchant": "amazon",
   "bg": "#eef1f4",
   "fg": "#1f2a36",
@@ -33,8 +34,7 @@
    "article",
    "feature:work-health-gadgets"
   ],
-  "note": "期間は 2026-11-19 の報道(先行 11/27〜29、本番 11/30〜12/7)",
-  "pic_sub": "400万点以上が対象"
+  "note": "2026-11-25 本人 OK で Amazon 全体のカードと差し替え。期間は CIO の 11/24 発表(先行 11/27〜29、本番 11/30〜12/7)。最大50%は全体、充電器は最大41%"
  },
  {
   "name": "SwitchBot 公式",
