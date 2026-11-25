@@ -1,12 +1,17 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "days": 7,
  "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 88,
-   "views": 165
+   "visits": 89,
+   "views": 148
+  },
+  {
+   "path": "/posts/hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat.html",
+   "visits": 23,
+   "views": 22
   },
   {
    "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
@@ -14,19 +19,19 @@
    "views": 22
   },
   {
-   "path": "/posts/hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat.html",
-   "visits": 18,
-   "views": 17
-  },
-  {
-   "path": "/posts/lucy-ai-studio-agent-workstation.html",
-   "visits": 16,
+   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
+   "visits": 17,
    "views": 18
   },
   {
-   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
+   "path": "/posts/lucy-ai-studio-agent-workstation.html",
    "visits": 15,
-   "views": 16
+   "views": 17
+  },
+  {
+   "path": "/posts/teenage-engineering-ep-bc-1-cd-player.html",
+   "visits": 15,
+   "views": 14
   },
   {
    "path": "/posts/xiaomi-watch-s5-41mm-global.html",
@@ -34,19 +39,14 @@
    "views": 13
   },
   {
+   "path": "/posts/color-eink-devices-roundup.html",
+   "visits": 12,
+   "views": 32
+  },
+  {
    "path": "/posts/insta360-toast-color-epaper-photo-frame.html",
    "visits": 10,
    "views": 10
-  },
-  {
-   "path": "/posts/framework-wireless-touchpad-keyboard.html",
-   "visits": 10,
-   "views": 9
-  },
-  {
-   "path": "/posts/color-eink-devices-roundup.html",
-   "visits": 9,
-   "views": 29
   },
   {
    "path": "/posts/flipper-one-pocket-linux-kickstarter.html",
@@ -54,9 +54,9 @@
    "views": 9
   },
   {
-   "path": "/posts/teenage-engineering-ep-bc-1-cd-player.html",
+   "path": "/posts/m5stack-paperdiy-eink-kit.html",
    "visits": 9,
-   "views": 9
+   "views": 8
   },
   {
    "path": "/posts/open-benchtable-10y-anniversary-edition.html",
@@ -64,13 +64,23 @@
    "views": 10
   },
   {
-   "path": "/posts/radxa-linkr-ip-kvm.html",
-   "visits": 8,
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "visits": 7,
    "views": 7
   },
   {
-   "path": "/posts/enough-phone-small-5g-removable-battery.html",
+   "path": "/posts/framework-wireless-touchpad-keyboard.html",
    "visits": 7,
+   "views": 7
+  },
+  {
+   "path": "/posts/kodak-slidetag-eink-tracker.html",
+   "visits": 7,
+   "views": 7
+  },
+  {
+   "path": "/posts/coprint-quadro-4-toolhead-3d-printer.html",
+   "visits": 6,
    "views": 7
   },
   {
@@ -79,27 +89,17 @@
    "views": 7
   },
   {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
-   "visits": 6,
-   "views": 6
-  },
-  {
-   "path": "/posts/fotorgear-campix-waist-level-camera.html",
-   "visits": 6,
-   "views": 6
-  },
-  {
    "path": "/posts/home-small-robots-roundup.html",
    "visits": 6,
    "views": 6
   },
   {
-   "path": "/posts/shure-mv360-spatial-audio-microphone.html",
+   "path": "/posts/fiio-snowsky-mage-gaming-dac.html",
    "visits": 6,
-   "views": 6
+   "views": 5
   },
   {
-   "path": "/posts/coman-t1-mini-one-click-travel-tripod.html",
+   "path": "/posts/radxa-linkr-ip-kvm.html",
    "visits": 6,
    "views": 5
   }

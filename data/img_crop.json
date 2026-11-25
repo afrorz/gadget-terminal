@@ -652,6 +652,18 @@
   1600,
   1600
  ],
+ "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/mate-x8/img/hero/highlights-2.png": null,
+ "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/mate-x8/img/hero/kv.jpg": null,
+ "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/wearables/watch-air/images/hero/huawei-watch-air-highlight-01.png": null,
+ "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/wearables/watch-air/list/black.png": [
+  49,
+  10,
+  331,
+  480,
+  378,
+  480,
+  "#ffffff"
+ ],
  "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/headphones/freeclip2/assets/imgs/pc/huawei-freeclip-2.jpg": [
   135,
   85,
@@ -1255,6 +1267,24 @@
   638,
   800,
   800
+ ],
+ "https://impgaming.uk/wp-content/uploads/2026/09/mini_arcade_elite_2.png": [
+  0,
+  167,
+  800,
+  587,
+  800,
+  800,
+  "#ffffff"
+ ],
+ "https://impgaming.uk/wp-content/uploads/2026/09/mini_arcade_elite_3.png": [
+  0,
+  197,
+  796,
+  604,
+  800,
+  800,
+  "#ffffff"
  ],
  "https://inkanva.com/cdn/shop/t/2/assets/inkanva-home-hero-desktop-v3.webp?v=37142424076376306531785474322": null,
  "https://inkanva.com/cdn/shop/t/2/assets/inkanva-overview-frames-v3.webp?v=16775694904709": [
