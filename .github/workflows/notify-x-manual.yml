@@ -9,6 +9,10 @@ on:
       base:
         description: 記事を足す前のコミット(この次から今までに足された記事を送る)
         required: true
+      head:
+        description: どこまでを送るか(省略で今の main)
+        required: false
+        default: main
 
 jobs:
   notify:
@@ -17,6 +21,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          ref: ${{ inputs.head }}
       - name: 通知
         env:
           GADGET_INGEST_TOKEN: ${{ secrets.GADGET_INGEST_TOKEN }}
