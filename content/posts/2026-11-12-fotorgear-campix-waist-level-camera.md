@@ -54,6 +54,20 @@ faq:
   a: 掲載時点で、日本の販売元や国内発売の告知は確認できていません。Kickstarterのリターンは「世界中に発送」とされています。
 - q: 技適は取得していますか
   a: 掲載時点で型番が公表されておらず、技適は確認できていません。CampixはWi-Fiを搭載します。
+modified: 2026-11-26
+videos_after:
+  - id: 4htbg3k1xNg
+    title: "FotorGear Campix Review - A Screen-Free Digital Camera With A Difference"
+    channel: "Craig Vinnie Whitehead"
+    published: 2026-10-29
+    added: 2026-11-26
+    note: "個人の YouTuber による実機のレビュー（英語）"
+  - id: a5bdFQs-DuE
+    title: "【FotorGear Campix】フィルムのエッセンスをデジタルに落とし込んだ、クラファンで話題の最新カメラ。"
+    channel: "Kamitaba Log"
+    published: 2026-11-20
+    added: 2026-11-26
+    note: "日本語の動画。実機のハンズオンを含む紹介（題名と説明から）"
 ---
 
 Fotorgearが、腰の高さで構えて上から覗くウエストレベル式ファインダーのデジタルカメラ「Campix」をKickstarterで募集している。2026年11月12日時点の調達額は2,127,278香港ドル、支援者は1,075人。目標の39,200香港ドルの約54倍で、募集は12月12日（日本時間23時56分）まで。
