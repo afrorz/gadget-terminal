@@ -1,0 +1,27 @@
+# 手で公開した記事を、X 投稿アプリ(x-poster)の GT タブへあとから送る(2026-11-26〜)。
+# daily-article.yml の外で push した記事は通知が走らないため。base に「記事を足す前のコミット」を渡すと、
+# そこから今の HEAD までに足された記事を送る。
+name: X 投稿アプリへ手動で通知
+
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: 記事を足す前のコミット(この次から今までに足された記事を送る)
+        required: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: 通知
+        env:
+          GADGET_INGEST_TOKEN: ${{ secrets.GADGET_INGEST_TOKEN }}
+        run: |
+          pip install -r requirements.txt --break-system-packages -q
+          python scripts/notify_x.py "${{ inputs.base }}" \
+            "https://tamakostock.web.app/api/ingest-gadget" \
+            "$GADGET_INGEST_TOKEN"
