@@ -32,6 +32,15 @@ images:
 - url: "https://pbs.twimg.com/amplify_video_thumb/2125571782652366848/img/oF5VwwPjNZE7zCzM.jpg"
   caption: 予告映像の1コマ。角ばったアルミのケースに「NOTHING」の刻印がある
 credit: Nothing 公式 X(@nothing)
+clips:
+- file: nothing-ear-note-ai-recorder/rec.mp4
+  caption: "赤いボタンで対面の会話を録る（RECORDボタン）"
+  credit: "Nothing 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=lpEWy4Ipy44"
+- file: nothing-ear-note-ai-recorder/bud.mp4
+  caption: "電話や会議はイヤホン側で録る（音楽はハイレゾ対応）"
+  credit: "Nothing 公式 YouTube"
+  source: "https://www.youtube.com/watch?v=lpEWy4Ipy44"
 sources:
 - title: Ear (note) の予告(Nothing 公式 X)
   url: https://x.com/nothing/status/2125590327189021093
