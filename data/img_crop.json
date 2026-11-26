@@ -892,6 +892,16 @@
   1280,
   961
  ],
+ "https://hellbender.com/wp-content/uploads/2026/04/tendryl-feature-diagram-2.png": null,
+ "https://hellbender.com/wp-content/uploads/2026/04/tendryl-render-square.png": [
+  389,
+  413,
+  1571,
+  1699,
+  2000,
+  2000,
+  "#ffffff"
+ ],
  "https://i.kickstarter.com/assets/054/567/926/6617702f916cdad2e25eba5e553951e2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785159726&width=3072&sig=qQVShXIWvdMbyl3lXa237n2s%2B%2F6CmbK99t7heUnGHX8%3D": null,
  "https://i.kickstarter.com/assets/054/569/497/55b254071d5bd729c46ce8bb8fe1fb00_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785169470&width=680&sig=AGY4CGisIqr%2F9A8I9kJI%2B7zraRFF4vQDrLWk6vVpcz4%3D": null,
  "https://i.kickstarter.com/assets/054/570/869/408539d6921c545a92920d3dccb50fd3_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785177470&width=680&sig=l6h%2F9eOyQrtzYXBTCB%2B7Ym6Udgu2W8PUZKOn2zkx5so%3D": null,
@@ -1131,6 +1141,18 @@
  "https://i.kickstarter.com/assets/055/900/568/5d29b6e6a9d2178aa791a37722dde329_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794761313&width=1360&sig=q5yG3GyGe96A8ok0%2B1Nib3RAf7OPi0sEl%2Bg67swsPhk%3D": null,
  "https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D": null,
  "https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D": null,
+ "https://i.kickstarter.com/assets/055/939/703/674a29a46b1cf0385592ad33aac4e91c_original.png?fit=scale-down&origin=ugc&q=100&v=1795019193&width=700&sig=8cXQPqMLBHs0dTsZ7w0YmeNW8sCp6pdYD8bqRJpxAUs%3D": null,
+ "https://i.kickstarter.com/assets/055/939/710/d8a4bedb7ac4533b9d178a30d8e9367e_original.png?fit=scale-down&origin=ugc&q=100&v=1795019238&width=700&sig=G%2FR3taPODFBX3epiBbG0JBqdvseUwFQwbq9kNrRgU5w%3D": null,
+ "https://i.kickstarter.com/assets/055/939/713/807fead5c45ffed425d519c71872d91c_original.png?fit=scale-down&origin=ugc&q=100&v=1795019280&width=700&sig=S%2FJ7ck%2BOBgY%2FFqyKWWwXJw6ACa1qYT5t3uuRB8J3d9E%3D": [
+  0,
+  2,
+  627,
+  624,
+  700,
+  637,
+  "#ffffff"
+ ],
+ "https://i.kickstarter.com/assets/055/939/725/4326fd5539ed202e9e57ef2ef9f61e27_original.png?fit=scale-down&origin=ugc&q=100&v=1795019346&width=700&sig=hUFjaq%2BquXG%2BtrzIFybJ4MX2ix4%2FMWzCcT1mf71XEGU%3D": null,
  "https://i.ytimg.com/vi/9ku21poiSdM/maxresdefault.jpg": null,
  "https://i02.appmifile.com/mi-com-product/fly-birds/poco-x8/pc/bg-screen01-2.jpg": null,
  "https://i02.appmifile.com/mi-com-product/fly-birds/poco-x8/pc/bg-screen07-2.jpg": null,
@@ -1514,6 +1536,33 @@
   3500,
   2800
  ],
+ "https://pbs.twimg.com/amplify_video_thumb/2125571782652366848/img/oF5VwwPjNZE7zCzM.jpg": [
+  136,
+  0,
+  1200,
+  1007,
+  1200,
+  1200,
+  "#020202"
+ ],
+ "https://pbs.twimg.com/media/HX-MY_SWAAAVhuB?format=jpg&name=large": [
+  0,
+  313,
+  1200,
+  1200,
+  1200,
+  1200,
+  "#010101"
+ ],
+ "https://pbs.twimg.com/media/HX-MY_UWcAAQ4b1?format=jpg&name=large": [
+  0,
+  259,
+  1200,
+  1200,
+  1200,
+  1200,
+  "#010101"
+ ],
  "https://pixelmob.ai/cdn/shop/t/7/assets/pm-preview-goc-home--edition-pro.webp": [
   370,
   71,
@@ -1583,6 +1632,7 @@
  "https://resource-cdn.obsbothk.com/img/obsbot-tail-air-2/n_261103_tail_air_2_qie_tu/pc_duan/pic_highlight_03_e1247645cb7a.jpg": null,
  "https://retrogames.biz/images/the800xl/solo-top-01.webp": null,
  "https://retrogames.biz/images/the800xl/the800xl-og-1200.jpg": null,
+ "https://retroline.au/img/graphics/index/RetroLine_web_hero.webp": null,
  "https://satechi.com/cdn/shop/files/FindAllMagneticWalletStandblack7.webp?v=1794785146&width=800": null,
  "https://satechi.com/cdn/shop/files/FindallWalletStandBlack1.webp?v=1795055852&width=800": [
   46,
