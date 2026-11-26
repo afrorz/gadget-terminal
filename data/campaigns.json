@@ -56,7 +56,7 @@
   "name": "Minisforum 公式",
   "store": "Minisforum 公式",
   "start": "2026-11-23",
-  "end": "2026-12-07",
+  "end": "2026-11-26",
   "until": "終了日は公式ストアで",
   "head": "ブラックフライデー",
   "sub": "ミニPC・NASが値下げ",
@@ -68,8 +68,27 @@
    "article",
    "feature:work-health-gadgets"
   ],
-  "note": "A8 素材ID 002(テキスト)。公式の終了日が見当たらないので 12/7 で外す(12/11 までという非公式の記事あり)",
+  "note": "A8 素材ID 002(テキスト)。公式の終了日が見当たらないので 12/7 で外す(12/11 までという非公式の記事あり)。2026-11-26 本人の判断で、11/27 から Nothing と入れ替えるため 11/26 で外す",
   "pic_sub": "ミニPC・NASが年に一度の値下げ",
   "open_end": true
+ },
+ {
+  "name": "Nothing ブラックフライデー",
+  "store": "Amazon(Nothing)",
+  "start": "2026-11-27",
+  "end": "2026-12-07",
+  "until": "12月7日まで",
+  "head": "ブラックフライデー",
+  "sub": "イヤホン・ヘッドホンが最大40%オフ",
+  "pic_sub": "Ear が40%オフ",
+  "url": "https://www.amazon.co.jp/stores/NOTHING/page/76F79338-578F-4876-8C6D-25779DEB7DB1",
+  "merchant": "amazon",
+  "bg": "#f1f1ef",
+  "fg": "#111111",
+  "where": [
+   "article",
+   "feature:work-health-gadgets"
+  ],
+  "note": "2026-11-26 本人「Minisforum と入れ替える」。期間と割引は Nothing Technology Japan の PR TIMES(11/26)。Amazon は対象のオーディオとスマートウォッチだけ"
  }
 ]
