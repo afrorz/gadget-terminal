@@ -5,6 +5,7 @@ slug: ayaneo-konkr-pocket-advance
 keyword: Pocket Advance
 category: weird
 date: 2026-08-31
+modified: 2026-11-26
 kicker: AYANEOがゲームボーイアドバンス風の筐体を持つレトロハンドヘルド「KONKR Pocket Advance」の予約受付を開始した。早期価格は3GB+32GB構成が89ドル、4GB+64GB構成が109ドル(通常価格はそれぞれ109ドル/129ドル)。8月末までの出荷を予定している。
 tags:
 - AYANEO
@@ -20,8 +21,8 @@ giteki:
 x_hook: ゲームボーイアドバンス風の筐体を持つAndroidハンドヘルド「AYANEO KONKR Pocket Advance」の国内正規版を、天空が取り扱う。3GB+32GBのネイビーブルーは10月24日発売で、価格は2万4,300円(税込・市場想定売価)。ほかのモデルは11月14日から。
 japan:
   status: 発売済み
-  checked: 2026-11-04
-  summary: 国内販売元の株式会社天空が10月20日に国内正規版の取り扱いを発表した。3GB+32GBのネイビーブルーは10月24日に発売済みで、ほかの色・構成は11月14日発売。市場想定売価(税込)は3GB+32GBが24,300円(クリアブラックのみ25,800円)、4GB+64GBが28,800円(クリアブラックのみ29,800円)。国内の販売窓口は天空のオンラインストア「ハイビーム」とAmazon.co.jp。技適は総務省データベースで「AYANEO」「天空」を引いたが該当が出ず、番号は確認できていない。国内正規品であることまでは確認できている。
+  checked: 2026-11-26
+  summary: 国内販売元の株式会社天空が10月20日に国内正規版の取り扱いを発表した。3GB+32GBのネイビーブルーは10月24日に、ほかの色・構成は11月14日に発売され、11月26日時点でハイビームでは6種類すべてが購入できる表示。市場想定売価(税込)は3GB+32GBが24,300円(クリアブラックのみ25,800円)、4GB+64GBが28,800円(クリアブラックのみ29,800円)。国内の販売窓口は天空のオンラインストア「ハイビーム」とAmazon.co.jp。技適は総務省データベースで「AYANEO」「天空」を引いたが該当が出ず、番号は確認できていない。国内正規品であることまでは確認できている。
   buy:
   - name: ハイビーム(株式会社天空)
     url: https://high-beam-online.com/products/konkr-pocket-advance
@@ -30,8 +31,8 @@ japan:
   source:
     title: 天空、AYANEO「KONKR Pocket Advance」国内正規版の取り扱いを開始(2026-10-20)
     url: https://www.gdm.or.jp/pressrelease/2026/1020/657055
-status: SCHEDULED
-status_note: 8月末までに順次出荷予定
+status: LANDED
+status_note: 国内正規版が発売中
 embeds:
 - type: youtube
   id: G1k7Tc7-AcU
@@ -52,7 +53,7 @@ faq:
 - q: いくらですか
   a: 国内版の市場想定売価(税込)は3GB+32GBが24,300円(クリアブラックのみ25,800円)、4GB+64GBが28,800円(クリアブラックのみ29,800円)です(掲載時点)。海外の早期予約価格は3GB+32GB構成が89ドル、4GB+64GB構成が109ドルです。早期予約枠の終了後は、それぞれ109ドル・129ドルに上がります(いずれも掲載時点の価格で、先着順のため終了時期は明示されていません)。
 - q: いつ届きますか
-  a: AYANEOは8月末までの出荷を予定しているとしていますが、予約であり確定した納期ではありません。
+  a: 発売済みです。国内正規版は2026年11月14日までに全モデルが発売され、11月26日時点でハイビームで購入できる表示です。海外のAYANEO公式ストアでも販売中です。
 alternatives:
 - name: ANBERNIC RG35XX H(Amazon.co.jp)
   why: 同じくレトロゲームエミュレーション向けのAndroid/Linuxハンドヘルドで、日本語表示に対応した状態でAmazon.co.jpから今日発送・購入できる。KONKR Pocket Advanceのようなゲームボーイアドバンス風の縦長ボディではないが、国内発送で技適の心配がない点が違いになる。
@@ -72,11 +73,24 @@ sources:
 - title: Konkr Pocket Advance - Ayaneo reveals display and dimensions of its new handheld
   url: https://www.notebookcheck.net/Konkr-Pocket-Advance-Ayaneo-reveals-display-and-dimensions-of-its-new-handheld.1357200.0.html
   publisher: Notebookcheck
+- title: "KONKR Pocket ADVANCE"
+  url: https://shop.ayaneo.com/products/konkr-pocket-advance
+  publisher: AYANEO公式ストア
+- title: "KONKR POCKET ADVANCE(Helio G90T)Androidゲーム機"
+  url: https://high-beam-online.com/products/konkr-pocket-advance
+  publisher: ハイビーム(株式会社天空)
 ---
 
 AYANEOが、ゲームボーイアドバンスによく似た縦長筐体のレトロハンドヘルド「KONKR Pocket Advance」の予約受付を開始した。8月5日に価格と仕様が公開され、早期予約枠なら3GB+32GB構成が89ドル、4GB+64GB構成が109ドルで手に入る。早期枠の終了後は、それぞれ109ドル・129ドルに上がる想定だ。出荷は8月末までを予定している。
 
 7月末の発表時点では、AYANEOはプロセッサやRAM、価格、発売時期を明らかにしていなかった。今回の予約開始で、ようやくこれらの詳細が確定した。
+
+## 11月26日の追記：国内正規版が発売中
+
+- **日本で普通に買える。** 株式会社天空が国内正規版を扱い、10月24日に3GB+32GBのネイビーブルー、11月14日にほかの色・構成を発売した。11月26日時点で、天空のオンラインストア「ハイビーム」では6種類すべてが購入できる表示で、価格は3GB+32GBが24,300円、4GB+64GBが28,800円、クリアブラックの4GB+64GBが29,800円(いずれも税込、掲載時点)
+- **海外の公式ストアでも販売中。** AYANEO公式ストアでは、3GB+32GBが109ドル、4GB+64GBが129ドルの表示で、Navy・Coral・Greyの3色を選べる(掲載時点)
+
+公開時の「8月末までに出荷予定」の予約段階は終わり、国内外で買える製品になった。技適の番号は、総務省のデータベースで確認できていない。
 
 ## スペック
 
@@ -96,7 +110,7 @@ AYANEOが、ゲームボーイアドバンスによく似た縦長筐体のレ�
 
 ## 日本で買える？使える？
 
-**まだ正式な国内発売は無い。** 掲載時点でAYANEO公式ストアからの海外発送が前提で、国内正規代理店の取り扱いは確認できていない。AYANEOの他製品(ハンドヘルドゲーミングPCシリーズなど)は国内でも並行輸入や代理店経由で見かけることがあるため、Pocket Advanceについても今後同様のルートに乗る可能性はあるが確約はない。
+**国内正規版が発売された(11月26日追記)。** 公開時点ではAYANEO公式ストアからの海外発送が前提だったが、その後、株式会社天空が国内正規版を扱い、ハイビームとAmazon.co.jpで買えるようになった。
 
 **技適とWi-Fi/Bluetooth。** Wi-Fi 5とBluetooth 5.0を積む以上、国内で無線機能を使うには技適の取得が前提になるが、掲載時点で確認できていない。価格はドル建てで、円換算額は為替により変動する。
 

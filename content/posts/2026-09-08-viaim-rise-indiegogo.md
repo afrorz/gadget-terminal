@@ -1,6 +1,6 @@
 ---
 title: "viaim RiseはChatGPT/Claude/Geminiと繋がるAIエージェント型イヤホン、本日IndiegogoでIFA 2026受賞後に登場"
-seo_title: viaim Rise、早期259ドルでIndiegogo開始
+seo_title: viaim Rise、Indiegogo終了後は399ドル
 slug: viaim-rise-indiegogo
 keyword: viaim Rise
 category: smartphone
@@ -19,8 +19,8 @@ giteki:
   checked: 2026-09-08
   radio: "Bluetooth 6.1"
 x_hook: 会話を録りながら、耳につけたままChatGPTやClaudeにタスクを投げられるイヤホンが本日始動する。78言語・145アクセントの音声認識に対応し、早期価格は259ドル、正式価格は399ドル。
-status: SCHEDULED
-status_note: 9/8 22:00(JST)開始予定
+status: GATE CLOSED
+status_note: 募集終了、後から支援できる受付は継続
 embeds:
 - type: youtube
   id: zfAFJOf7pNk
@@ -37,9 +37,9 @@ faq:
 - q: 技適は取得していますか
   a: 掲載時点で技適取得の情報は確認できていません。Bluetoothを使う製品のため、国内で使うには技適の取得が前提になります。
 - q: いくらですか
-  a: Indiegogoの早期バッカー価格が259ドル、正式価格(MSRP)が399ドルです(いずれも掲載時点の案内)。
+  a: 募集期間の早期バッカー価格は259ドルでした。募集の終了後、Indiegogoのページで後から支援する場合は399ドルの表示です(2026年11月26日時点)。正式価格(MSRP)も399ドルです。
 - q: いつ発売されますか
-  a: Indiegogoでのクラウドファンディングは2026年9月8日22:00(日本時間)に開始予定です。出荷時期は掲載時点で確認できていません。
+  a: Indiegogoの募集は終わりました。ページ上のリワードの届く予定は2026年11月です。出荷を終えたという報告は、11月26日時点で確認できていません。
 alternatives:
 - name: PLAUD NotePin(Amazon.co.jp)
   why: ChatGPT連携の文字起こし・要約に対応したウェアラブルAIボイスレコーダーで、Plaud公式ストアからAmazon.co.jpで今日購入できる。イヤホン一体型ではなくクリップ型だが、「話した内容をAIが要約する」という用途は同じ。
@@ -56,7 +56,7 @@ sources:
 - title: "viaim Rise: AI Agent Earbuds for ChatGPT, Claude & Gemini"
   url: https://www.indiegogo.com/projects/viaim/viaim-rise
   publisher: Indiegogo(viaim)
-modified: 2026-11-20
+modified: 2026-11-26
 videos_after:
   - id: g1DKY7xG1FY
     title: "viaim Rise: The AI Earbuds That Actually Take Action"
@@ -69,6 +69,10 @@ videos_after:
 完全ワイヤレスイヤホン「viaim Rise」が、2026年9月8日22:00(日本時間、米東部時間9月8日午前9時)にIndiegogoでクラウドファンディングを開始する。IFA 2026では「Best in Audio」部門の受賞と「Best in Design」部門のノミネートを獲得済み。価格は早期バッカー向けが259ドル、正式価格(MSRP)は399ドルで、支援者には全員viaim Proサブスクリプションが3か月分付く。
 
 **この記事の情報源は実質1件である点に注意したい。** 元記事のNotebookcheckは記事末尾に「本記事は広告主(viaim)から提供された内容による有料掲載」と明記しており、他に確認できたGeeky Gadgetsの記事も同じプレスリリースを基にしている。第三者による実機レビューはまだ無い。
+
+## 11月26日の追記：Indiegogoの募集は終了、後から支援できる受付に
+
+Indiegogoの募集は終わり、ページは後から支援できる受付(pledge manager)に切り替わっている。11月26日時点で、128人から34,781ドルを集めた表示だ。後から支援する場合の価格は399ドルで、リワードの届く予定は2026年11月とされている(いずれも掲載時点)。支援は購入ではなく、届く時期は動く可能性がある。
 
 ## スペック(メーカー発表値)
 
@@ -93,7 +97,7 @@ PC接続については、11月にOTAで追加予定の機能が2つ案内され
 
 ## 日本で買える？使える？
 
-**まだ製品ではなく、日本向けの案内も出ていない。日本で使えるようになるかは、技適と国内代理店しだいだ。** Indiegogoでの支援は購入の確約ではなく、出荷時期や最終仕様が変わる一般的なクラウドファンディングのリスクを伴う。キャンペーンは開始直後で、達成率や支援者数はまだ参照できない。
+**まだ製品ではなく、日本向けの案内も出ていない。日本で使えるようになるかは、技適と国内代理店しだいだ。** Indiegogoでの支援は購入の確約ではなく、出荷時期や最終仕様が変わる一般的なクラウドファンディングのリスクを伴う。募集は終わり、11月26日時点で128人から34,781ドルを集めた表示になっている。
 
 Bluetooth 6.1を使う製品なので、国内で電波を発して使うには技適が前提になる。海外メーカーが日本発売に合わせて技適を取るのはよくあることだ。
 

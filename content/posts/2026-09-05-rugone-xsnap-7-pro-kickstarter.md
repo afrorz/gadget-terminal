@@ -1,13 +1,14 @@
 ---
 title: RugOne Xsnap 7 Proは着脱式アクションカメラ搭載、Kickstarterを9月7日に開始
-seo_title: RugOne Xsnap 7 Proが799ユーロ、9/7開始
+seo_title: RugOne Xsnap 7 Pro、着脱カメラのタフスマホ
 slug: rugone-xsnap-7-pro-kickstarter
 keyword: Xsnap 7 Pro
 category: smartphone
 date: 2026-09-05
+modified: 2026-11-26
 origin: SZX 深圳
-status: SCHEDULED
-status_note: Kickstarter開始は9月7日予定
+status: GATE CLOSED
+status_note: Kickstarter終了
 kicker: Ulefone傘下のRugOneが、背面に着脱式のアクションカメラを内蔵したタフネススマホ「Xsnap 7 Pro」を発表した。IFA 2026のイノベーションアワードを受賞し、Kickstarterを9月7日に開始する。早期価格は799ユーロ、クラウドファンディング終了後の一般販売は999ドルから。
 tags:
 - RugOne
@@ -32,13 +33,13 @@ images:
 credit: RugOne公式サイト(rugone.net)
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でKickstarterを通じた海外発送が前提です。国内正規代理店の取り扱いは確認できていません。
+  a: Kickstarterの募集は終わっており、2026年11月26日時点ではRugOne公式ストアでも購入できない表示です。国内正規代理店の取り扱いは確認できていません。
 - q: 技適は取得していますか
   a: 掲載時点で技適取得の情報は確認できていません。Wi-Fi・Bluetoothを国内で使うには技適の取得が前提になります。
 - q: いくらですか
   a: Kickstarterの早期支援価格は799ユーロ(9月7日開始予定)。クラウドファンディング終了後の一般販売は999ドル(欧州は1,099.99ユーロ)を予定しています(いずれも掲載時点の価格)。
 - q: いつ発売されますか
-  a: Kickstarterは2026年9月7日に開始予定です。一般販売はクラウドファンディング終了後の翌月からとされています。
+  a: Kickstarterの募集は終わりました。リワードの届く予定は2026年10月とされていました。RugOne公式ストアには商品ページがありますが、11月26日時点では購入できない表示です。
 sources:
 - title: The RugOne Xsnap 7 Pro smartphone features a detachable camera
   url: https://www.gsmarena.com/the_rugone_xsnap_7_pro_smartphone_features_a_detachable_camera-news-74478.php
@@ -52,9 +53,19 @@ sources:
 - title: RugOne Xsnap 7 Pro Wins the IFA Innovation Award 2026
   url: https://rugone.net/blogs/newsroom/rugone-xsnap-7-pro-wins-the-ifa-innovation-award-2026
   publisher: RugOne公式サイト
+- title: "RugOne Xsnap 7 Pro: Rugged Phone + Detachable Action Camera"
+  url: https://www.kickstarter.com/projects/rugone/rugone-xsnap-7-pro-rugged-phone-detachable-action-camera
+  publisher: Kickstarter
+- title: "Xsnap 7 Pro"
+  url: https://rugone.net/products/xsnap-7-pro
+  publisher: RugOne公式ストア
 ---
 
 Ulefone傘下のタフネススマホブランドRugOneが、IFA 2026で新機種「Xsnap 7 Pro」を発表した。最大の特徴は本体背面に格納された着脱式のアクションカメラで、外して単体のアクションカメラとして使える。RugOneは「世界初のモジュール式アクションカム・タフネススマホ」とうたい、IFA 2026のイノベーションアワードを受賞した。Kickstarterは9月7日に開始予定で、早期支援価格は799ユーロ。クラウドファンディング終了後の一般販売は999ドル(欧州は1,099.99ユーロ)からになる見込みだ。
+
+## 11月26日の追記：Kickstarterは終了、公式ストアはまだ買えない
+
+Kickstarterの募集は終わり、79人から472,735香港ドルを集めた(目標は5,000香港ドル)。リワードの届く予定は2026年10月とされていた。RugOne公式ストアにはXsnap 7 Proの商品ページがあり、949.99ドルの表示だが、11月26日時点では購入できない状態だ(いずれも掲載時点)。日本向けの販売と技適は、引き続き確認できていない。
 
 ## スペック
 
@@ -75,7 +86,7 @@ Ulefone傘下のタフネススマホブランドRugOneが、IFA 2026で新機�
 
 ## 日本で買える？使える？
 
-**まだ製品ではなく、日本で使えるかは技適の確認待ちだ。** Kickstarterは9月7日に始まる予定で、掲載時点ではまだ支援すらできない。クラウドファンディングである以上、出荷時期の遅延や仕様変更は一般的なリスクとして織り込む必要がある。
+**まだ製品ではなく、日本で使えるかは技適の確認待ちだ。** Kickstarterの募集は終わり、11月26日時点では公式ストアでも買えない。クラウドファンディングである以上、出荷時期の遅延や仕様変更は一般的なリスクとして織り込む必要がある。
 
 Wi-FiとBluetoothを搭載するため、国内で電波を発する状態のまま使うには技適の取得が前提になる。海外メーカーが日本向けに技適を取るのはよくあることだが、掲載時点で確認できていない。Kickstarter経由の海外発送が基本ルートになる見込みで、国内正規代理店の取り扱いも今のところ案内がない。
 

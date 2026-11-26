@@ -1,10 +1,11 @@
 ---
 title: 深圳AurzenのポケットプロジェクターZIP Proは三つ折りでフルHD対応、IFA 2026でイノベーション賞を獲得し579.99ドルで予約開始
-seo_title: Aurzen ZIP Proは579.99ドルで予約開始
+seo_title: Aurzen ZIP Proは発売済み、日本への発送は？
 slug: aurzen-zip-pro-projector
 keyword: Aurzen ZIP Pro
 category: weird
 date: 2026-09-26
+modified: 2026-11-26
 kicker: 深圳の映像機器メーカーAurzenが、三つ折り構造でネイティブ1920×1080のフルHD投影に対応した携帯プロジェクター「ZIP Pro」をIFA 2026で発表した。折りたたみ時115×97×44mm・586gの本体に38Whバッテリーを内蔵し、価格は予約時579.99ドル(通常629.99ドル)、出荷は2026年10月30日を予定する。
 tags:
   - Aurzen
@@ -18,8 +19,8 @@ giteki:
   radio: Google Cast / Bluetooth
 x_hook: 名刺入れほどのサイズに折りたためる箱が、ネイティブ1920×1080で最大115インチまで映す。ただし予約受付は米国・英国・EUのみで、日本への発送は掲載時点で確認できていない
 origin: SZX 深圳
-status: SCHEDULED
-status_note: 出荷は2026年10月30日予定、早期価格は10/15まで
+status: LOCAL ONLY
+status_note: 米国・英国・EUで発売中、日本への発送は未確認
 images:
   - url: "https://aurzen.com/cdn/shop/files/Aurzen_ZIP_Pro_Tri-Fold_Full_HD_Portable_Projector.webp?v=1788339427&width=1600"
     caption: 三つ折り構造を開いた状態のZIP Pro。上段のレンズ部を斜めに起こし、下段の土台部分で角度を保つ仕組みが確認できる
@@ -38,9 +39,9 @@ faq:
   - q: 技適は取得していますか
     a: Google CastやBluetooth音声出力を備えますが、技適に関する記載は公式サイトに見当たらず、掲載時点で未確認です。
   - q: いくらですか
-    a: 予約価格579.99ドル(2026年10月15日までの期間限定)、通常予定価格629.99ドルです(いずれも掲載時点、米ドル)。
+    a: 公式サイトの通常価格は629.99ドルで、2026年11月26日時点では579.99ドルの値引き価格が表示されています(いずれも掲載時点、米ドル)。予約時の価格も579.99ドルでした。
   - q: いつ発売されますか
-    a: 公式サイトによれば出荷予定日は2026年10月30日です。
+    a: 発売済みです。2026年11月26日時点の公式サイトは、予約品を除き注文から1〜3日で発送するとしています。
 sources:
   - title: "Aurzen Zip Pro folding pocket projector levels up to Full HD"
     url: https://newatlas.com/home-entertainment/aurzen-zip-pro-pocket-projector-full-hd
@@ -51,6 +52,10 @@ sources:
 ---
 
 深圳の映像機器メーカーAurzen(運営:Shenzhen Neutop Optoelectronics)が、三つ折り構造の携帯プロジェクター「ZIP Pro」をIFA 2026で発表した。折りたたみ時115×97×44mm・586gという名刺入れ程度のサイズに、ネイティブ1920×1080のフルHD投影を詰め込んだのが特徴で、公式サイトによれば「IFA Innovation Award」と、Yanko Designの「Best of IFA 2026」を獲得したという。予約価格は579.99ドル(通常629.99ドル)、出荷予定は2026年10月30日。
+
+## 11月26日の追記：米国・英国・EUで発売中
+
+11月26日時点で、Aurzen公式サイトではZIP Proを普通に注文できる。予約品を除き注文から1〜3日で発送するとしており、届くまでの目安は米国・英国が3〜7営業日、EUが5〜15営業日。購入時に選べる発送先は米国・EU・英国の3つで、日本は選べない。価格は通常629.99ドルに対して579.99ドルの値引き表示だ(いずれも掲載時点)。日本への発送と技適は、引き続き確認できていない。
 
 ## 三つ折りでフルHDの光学エンジンを収める
 

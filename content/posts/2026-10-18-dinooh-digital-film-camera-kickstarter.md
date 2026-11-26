@@ -9,6 +9,7 @@ x_hook: |
 keyword: Dinooh
 category: weird
 date: 2026-10-18
+modified: 2026-11-26
 kicker: 米国カリフォルニアの新興Dinoohが、巻き上げレバーとゲームボーイ風の小さな画面を持つ「デジタルフィルム」カメラを、Kickstarterで準備している。フィルム調の写りは4種で、撮った写真は本体で見返さず、USB-Cで取り出す。
 tags:
 - Dinooh
@@ -18,7 +19,7 @@ tags:
 - フィルム風
 origin: SFO サンフランシスコ
 status: SCHEDULED
-status_note: Kickstarter公開待ち
+status_note: Kickstarter公開待ち(11/26時点も開始前)
 giteki:
   status: 対象外
   number: []
@@ -75,6 +76,10 @@ faq:
 米国カリフォルニアの新興Dinooh（ディヌー）が、「A Playful Digital Film Camera」と名乗る小型のデジタルカメラを、Kickstarterで準備している。撮るたびに本物のフィルムカメラのような巻き上げレバーを引き、フィルム調の写りを4種から選ぶ。一方で、撮った写真を本体で見返す機能はない。
 
 **まだ製品ではなく、募集も始まっていない。** Kickstarterのプロジェクトページは、掲載時点（2026年10月18日）で審査中の状態にある。価格、目標額、支援プラン、開始日は発表されていない。出資は購入ではなく、仕様の変更や納期の遅れが起こりうる。
+
+## 11月26日の追記：Kickstarterはまだ始まっていない
+
+11月26日時点で、Kickstarterのプロジェクトページは「ローンチ間近」の表示のままで、開始の通知を待つフォロワーは553人。公式サイトも「Coming soon for pre-order」とだけ書き、価格と開始日はまだ出ていない。
 
 ## 巻き上げて撮る、見返さないデジタルカメラ
 

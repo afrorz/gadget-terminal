@@ -5,6 +5,7 @@ slug: ayaneo-konkr-pocket-block
 keyword: Pocket Block
 category: weird
 date: 2026-09-29
+modified: 2026-11-26
 kicker: "AYANEOの廉価ブランドKONKRが、3.33インチ・4:3画面の縦型Androidハンドヘルド「Pocket Block」の予約を公式サイトで始めた。価格は2GB版が89ドル(早期価格79ドル)からで、海外向けの出荷は10月末の予定。"
 tags:
   - AYANEO
@@ -18,8 +19,8 @@ giteki:
   checked: 2026-09-29
   radio: Wi-Fi / Bluetooth
 origin: SZX 深圳
-status: SCHEDULED
-status_note: 海外向けは10月末出荷予定
+status: LOCAL ONLY
+status_note: 公式ストアで販売中、日本展開は未定
 x_hook: 幅77mm・165gのゲームボーイのような縦型の本体に、960×720の4:3液晶とHelio G85を詰めた。AYANEOの廉価ブランドKONKRの「Pocket Block」は、2GB版が89ドル、早期価格なら79ドルで予約を受け付けている
 embeds:
   - type: youtube
@@ -49,7 +50,7 @@ faq:
   - q: いくらですか
     a: 2GB版が通常89ドル、早期価格79ドルです。3GB版(Atoms White)は通常109ドル、早期価格99ドルです(いずれも掲載時点)。
   - q: いつ届きますか
-    a: 中国向けは10月15日から、海外向けは10月末に出荷される予定です。予約段階の予定であり、確定した納期ではありません。
+    a: 公開時は、中国向けが10月15日から、海外向けが10月末に出荷される予定でした。2026年11月26日時点では、AYANEO公式ストアで予約の表記なしに注文を受け付けています。
 sources:
   - title: AYANEO Reveals KONKR Pocket Block Specs & Pricing - Now Available To Buy
     url: https://retrododo.com/ayaneo-reveals-konkr-pocket-block-specifications-pricing-now-available-to-buy/
@@ -65,7 +66,11 @@ sources:
     publisher: テクノエッジ
 ---
 
-AYANEOの廉価ブランドKONKRが、縦型Androidハンドヘルド「Pocket Block」の予約受付をAYANEO公式ストアで始めた。2GB RAM版が89ドル、3GB RAM版(Atoms White)が109ドルで、いずれも$10引きの早期価格(79ドル/99ドル)が設定されている(掲載時点)。中国向けの出荷は10月15日から、海外向けは10月末の予定だ。**予約の段階であり、届くまでは製品として確定していない。**
+AYANEOの廉価ブランドKONKRが、縦型Androidハンドヘルド「Pocket Block」の予約受付をAYANEO公式ストアで始めた。2GB RAM版が89ドル、3GB RAM版(Atoms White)が109ドルで、いずれも$10引きの早期価格(79ドル/99ドル)が設定されている(掲載時点)。中国向けの出荷は10月15日から、海外向けは10月末の予定だ。**(11月26日追記)公式ストアでは予約の表記が無くなり、注文を受け付けている。**
+
+## 11月26日の追記：公式ストアで販売中、価格は79ドルから
+
+11月26日時点で、AYANEO公式ストアのPocket Blockは予約の表記なしに注文できる。2GB+32GBのOriginal Greyが79ドル(通常89ドル)、3GB+64GBがOriginal Grey・Atoms White・Cube Purpleの3色で99ドル(通常109ドル)の表示だ(いずれも掲載時点)。日本での発売や代理店の案内、技適は確認できていない。
 
 ## スペック
 

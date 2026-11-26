@@ -4,6 +4,7 @@ slug: abxylute-m5-m6-magnetic-controllers
 keyword: abxylute M5/M6
 category: smartphone
 date: 2026-10-02
+modified: 2026-11-26
 kicker: abxyluteがスマホ背面に磁石で付くスライド式コントローラー「M5」「M6」を10月6日にKickstarterで公開する。早期価格はM5が59ドル、M6が65ドル。
 seo_title: abxylute M6は65ドル、M5との違いは？
 x_hook: ポケットに入れるときは薄い板、遊ぶときはスライドして開く。abxylute「M5」「M6」は磁石でスマホに付けるコントローラーで、M6にはホール効果トリガーと6軸ジャイロを載せた。10月6日にKickstarterで始まり、早期価格は59ドルと65ドル
@@ -20,15 +21,15 @@ giteki:
   radio: Bluetooth 5.3(M6のみ)
   note: M5は有線で対象外、M6は取得未確認
 origin: PVG 上海
-status: SCHEDULED
-status_note: 10月6日に募集開始
+status: GATE CLOSED
+status_note: Kickstarter終了、遅延プレッジと公式の予約は受付中
 faq:
 - q: abxylute M5とM6はいくらですか
   a: 公式の告知画像では、Kickstarterの早期価格がM5は59ドル、M6は65ドルです。通常価格として表示されているのはM5が84.99ドル、M6が89.99ドルです。
 - q: M5とM6の違いは何ですか
   a: 公式の比較表では、M5は有線接続でバッテリー無し、M6はBluetooth 5.3で500mAhのバッテリーを持ちます。M6にはホール効果トリガー、静電容量式ジョイスティック、6軸ジャイロ、イルミネーションも付きます。
 - q: 日本で買えますか
-  a: M5・M6の国内販売は掲載時点で確認できていません。同じメーカーの別製品「M4」は、Amazon.co.jpで日本語説明書付きの正規品が売られています。
+  a: 国内販売は確認できていません(2026年11月26日時点)。Kickstarterは終了しましたが遅延プレッジを受け付けており、abxylute公式ストアでも予約できます。Kickstarterのリワードの発送先は「世界各地」とされています。同じメーカーの別製品「M4」は、Amazon.co.jpで日本語説明書付きの正規品が売られています。
 - q: 技適は必要ですか
   a: M5は有線接続で電波を出さない仕様です。M6はBluetooth 5.3を使うため技適が関わりますが、取得の有無は確認できていません。
 images:
@@ -53,11 +54,20 @@ sources:
 - title: Abxylute's M5 + M6 mobile controllers are taking a direct shot at MCON
   url: https://wavelengths.online/posts/abxylutes-m5-plus-m6-mobile-controllers-are-taking-a-direct-shot-at-mcon
   publisher: Wavelengths
+- title: "abxylute M6/M5: Rethinking Mobile Gaming Controllers"
+  url: https://www.kickstarter.com/projects/abxylute/abxylute-m6-m5-rethinking-mobile-gaming-controllers
+  publisher: Kickstarter
 ---
 
 abxylute（アブサイルート）が、スマホの背面に磁石で付けるスライド式コントローラー「M5」「M6」を10月6日にKickstarterで公開する。公式の告知画像によると、早期価格はM5が59ドル、M6が65ドル。通常価格はM5が84.99ドル、M6が89.99ドルと表示されている。
 
-**これはクラウドファンディングの予告であり、まだ製品ではない。** 公開前のため、調達額や支援者数、発送予定時期は確認できていない。支援は購入ではなく、納期の遅れや仕様変更が起きる可能性がある。価格はいずれも告知時点のものだ。
+**これはクラウドファンディングの案件で、まだ製品ではない。** 支援は購入ではなく、納期の遅れや仕様変更が起きる可能性がある。上の価格はいずれも告知時点のものだ。
+
+## 11月26日の追記：Kickstarterは成立、公式ストアでも予約できる
+
+- **Kickstarterの結果。** 募集は11月16日に成立し、2,714人から2,074,274香港ドルを集めた(目標は10,000香港ドル)。終了後も、プロジェクトページで遅延プレッジを受け付けている(11月26日時点)
+- **公式ストアでも予約できる。** abxylute公式ストアでは、グリップ付きでM5が84.99ドル、M6が89.99ドルの予約価格の表示だ。発送の目安はM6が12月下旬、M5が1月下旬としている(いずれも掲載時点)
+- **日本向けの販売は確認できない。** Kickstarterのリワードの発送先は「世界各地」とされているが、国内の販売店の告知は見つからない
 
 ## M5とM6の違い
 
@@ -83,4 +93,4 @@ abxylute（アブサイルート）が、スマホの背面に磁石で付ける
 
 **技適はモデルで分かれる。** M5は有線接続で、電波を出さない仕様のため技適の対象外になる。M6はBluetooth 5.3を使うので技適が関わる。総務省のデータベースで「abxylute」を引いたが該当は0件で、取得の有無は確認できていない。Kickstarterで海外から直接受け取ると、国内正規品の保証や日本語サポートも受けられない。
 
-**取れる行動。** M5・M6の磁石式に興味があるなら、10月6日の募集開始後にKickstarterの発送対象国（日本が入るか）と、技適に関する記述を見てから判断する。今すぐ必要なら、同社のM4か、国内で買える別メーカーのモバイルコントローラーを使う。
+**取れる行動。** M5・M6の磁石式に興味があるなら、Kickstarterの遅延プレッジか公式ストアの予約で手に入る。無線のM6は、技適の記述を見てから判断する。今すぐ必要なら、同社のM4か、国内で買える別メーカーのモバイルコントローラーを使う。

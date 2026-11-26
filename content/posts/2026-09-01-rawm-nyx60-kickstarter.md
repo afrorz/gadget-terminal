@@ -5,9 +5,10 @@ slug: rawm-nyx60-kickstarter
 keyword: Nyx60
 category: pc
 date: 2026-09-01
+modified: 2026-11-26
 origin: SZX 深圳
-status: SCHEDULED
-status_note: 9月3日Kickstarter開始予定
+status: GATE CLOSED
+status_note: Kickstarter終了、届く予定は11月
 kicker: 深圳のeスポーツブランドRAWMが、光学式スイッチを使った60%ゲーミングキーボード「Nyx60」を発表した。磁気(ホールエフェクト)スイッチが主流のこの価格帯であえて光学方式を選び、8000Hzポーリングと0.125msの入力遅延をうたう。9月3日にKickstarterで先行予約を開始する。
 tags:
 - RAWM
@@ -38,13 +39,13 @@ images:
 credit: RAWM GAMING公式サイト(rawmshop.com) Nyx60予告ページ
 faq:
 - q: 日本で買えますか
-  a: 掲載時点でKickstarterでの先行予約は世界向けに開始される見込みですが、日本語対応や国内代理店の案内は確認できていません。
+  a: Kickstarterの募集はすでに終わっています(2026年11月26日時点)。日本語対応や国内代理店の案内は確認できていません。
 - q: 技適は必要ですか
   a: Nyx60はUSB Type-C接続の有線キーボードで、無線機能を積むという記載は確認できていません。無線を使わない有線周辺機器は技適の対象外です。
 - q: いくらですか
   a: MSRPは199ドル。Kickstarterでは1ドルのデポジットで登録した支援者向けに99ドルの早期割引価格が用意され、この価格は2026年6月18日から9月2日まで有効とされています。Kickstarterで「Notify Me」に登録するとさらに119ドルの「Super Early Bird」価格が開始24時間だけ用意されるとRAWMは案内しています。
 - q: いつ発売されますか
-  a: Kickstarterでの先行予約開始は2026年9月3日を予定しています。実際の量産出荷時期は掲載時点で確認できていません。
+  a: Kickstarterの募集は終わり、リワードの届く予定は2026年11月とされています。11月17日の報告では、量産用の試作が完成し、次は量産・検品・梱包の段階としています。出荷を終えたという報告は、11月26日時点で確認できていません。
 alternatives:
 - name: Wooting 60HE v2
   why: 同じ60%サイズ・8000Hzポーリングの競技用キーボードで、磁気(ホールエフェクト)方式ながら国内正規代理店から今日発送される。Nyx60が採用する光学方式とは検知の仕組みが異なるが、ラピッドトリガーを使った超高速入力という体験は今すぐ試せる。
@@ -58,9 +59,16 @@ sources:
 - title: NYX60 Pre-Launch
   url: https://www.rawmshop.com/pages/nyx60-pre-launch-%f0%9f%9a%80
   publisher: RAWM GAMING公式サイト
+- title: "NYX60, World's First Light-Guided RT Optical Keyboard"
+  url: https://www.kickstarter.com/projects/rawm/nyx60-worlds-first-adjustable-pre-travel-optical-keyboard
+  publisher: Kickstarter
 ---
 
-深圳のeスポーツ周辺機器ブランドRAWMが、光学式スイッチを採用した60%ゲーミングキーボード「Nyx60」を発表した。この価格帯のハイエンド競技用キーボードは、WootingやRazerが採用する磁気(ホールエフェクト)方式が主流だが、RAWMはあえて光でスイッチの押し込みを検知する方式を選び、「フルアルミボディで光学スイッチを採用するのは世界初」とうたう。Kickstarterでの先行予約開始は9月3日を予定している。
+深圳のeスポーツ周辺機器ブランドRAWMが、光学式スイッチを採用した60%ゲーミングキーボード「Nyx60」を発表した。この価格帯のハイエンド競技用キーボードは、WootingやRazerが採用する磁気(ホールエフェクト)方式が主流だが、RAWMはあえて光でスイッチの押し込みを検知する方式を選び、「フルアルミボディで光学スイッチを採用するのは世界初」とうたう。Kickstarterでの先行予約は、11月26日時点ですでに終わっている。
+
+## 11月26日の追記：Kickstarterは終了、量産の段階へ
+
+Kickstarterの募集は終わり、66人から79,646香港ドルを集めた(目標は30,000香港ドル)。RAWMが11月17日に更新した進み具合では、量産用の試作が完成し、次は量産・検品・梱包の段階で、時期は11月としている。リワードの届く予定も2026年11月だ。11月26日時点で、出荷を終えたという報告は確認できていない。まだ製品ではなく、支援は購入ではない。
 
 ## スペックと価格
 
