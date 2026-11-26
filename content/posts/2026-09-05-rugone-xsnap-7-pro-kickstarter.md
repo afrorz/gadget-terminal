@@ -5,7 +5,6 @@ slug: rugone-xsnap-7-pro-kickstarter
 keyword: Xsnap 7 Pro
 category: smartphone
 date: 2026-09-05
-modified: 2026-11-26
 origin: SZX 深圳
 status: GATE CLOSED
 status_note: Kickstarter終了
@@ -59,6 +58,14 @@ sources:
 - title: "Xsnap 7 Pro"
   url: https://rugone.net/products/xsnap-7-pro
   publisher: RugOne公式ストア
+modified: 2026-11-27
+videos_after:
+  - id: kW-HPj7aBQI
+    title: "【世界初】着脱式カメラ搭載！ RugOne Xsnap 7 Pro レビュー 楽しさ危なさ無限大ｗ。性能も8gen3級でゲームも楽しめるハイエンドタフネス"
+    channel: "ToviWorks スマホ研究所 / SmartPhone TechLAB"
+    published: 2026-11-08
+    added: 2026-11-27
+    note: "日本の YouTuber による Xsnap 7 Pro の実機レビュー（日本語）"
 ---
 
 Ulefone傘下のタフネススマホブランドRugOneが、IFA 2026で新機種「Xsnap 7 Pro」を発表した。最大の特徴は本体背面に格納された着脱式のアクションカメラで、外して単体のアクションカメラとして使える。RugOneは「世界初のモジュール式アクションカム・タフネススマホ」とうたい、IFA 2026のイノベーションアワードを受賞した。Kickstarterは9月7日に開始予定で、早期支援価格は799ユーロ。クラウドファンディング終了後の一般販売は999ドル(欧州は1,099.99ユーロ)からになる見込みだ。

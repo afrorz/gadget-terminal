@@ -5,7 +5,6 @@ slug: rawm-nyx60-kickstarter
 keyword: Nyx60
 category: pc
 date: 2026-09-01
-modified: 2026-11-26
 origin: SZX 深圳
 status: GATE CLOSED
 status_note: Kickstarter終了、届く予定は11月
@@ -62,6 +61,14 @@ sources:
 - title: "NYX60, World's First Light-Guided RT Optical Keyboard"
   url: https://www.kickstarter.com/projects/rawm/nyx60-worlds-first-adjustable-pre-travel-optical-keyboard
   publisher: Kickstarter
+modified: 2026-11-27
+videos_after:
+  - id: EG_Waz-jv90
+    title: "¿Mejor que Hall Effect? RAWM NYX60 Review"
+    channel: "IMartz"
+    published: 2026-10-01
+    added: 2026-11-27
+    note: "RAWM NYX60 のレビュー動画（スペイン語）"
 ---
 
 深圳のeスポーツ周辺機器ブランドRAWMが、光学式スイッチを採用した60%ゲーミングキーボード「Nyx60」を発表した。この価格帯のハイエンド競技用キーボードは、WootingやRazerが採用する磁気(ホールエフェクト)方式が主流だが、RAWMはあえて光でスイッチの押し込みを検知する方式を選び、「フルアルミボディで光学スイッチを採用するのは世界初」とうたう。Kickstarterでの先行予約は、11月26日時点ですでに終わっている。

@@ -4,7 +4,6 @@ slug: abxylute-m5-m6-magnetic-controllers
 keyword: abxylute M5/M6
 category: smartphone
 date: 2026-10-02
-modified: 2026-11-26
 kicker: abxyluteがスマホ背面に磁石で付くスライド式コントローラー「M5」「M6」を10月6日にKickstarterで公開する。早期価格はM5が59ドル、M6が65ドル。
 seo_title: abxylute M6は65ドル、M5との違いは？
 x_hook: ポケットに入れるときは薄い板、遊ぶときはスライドして開く。abxylute「M5」「M6」は磁石でスマホに付けるコントローラーで、M6にはホール効果トリガーと6軸ジャイロを載せた。10月6日にKickstarterで始まり、早期価格は59ドルと65ドル
@@ -57,6 +56,20 @@ sources:
 - title: "abxylute M6/M5: Rethinking Mobile Gaming Controllers"
   url: https://www.kickstarter.com/projects/abxylute/abxylute-m6-m5-rethinking-mobile-gaming-controllers
   publisher: Kickstarter
+modified: 2026-11-27
+videos_after:
+  - id: cB4nkr1BRsQ
+    title: "Abxylute made a cheaper MCON with more features (Abxylute M6 Review)"
+    channel: "GameXData"
+    published: 2026-11-01
+    added: 2026-11-27
+    note: "個人の YouTuber による abxylute M6 のレビュー（英語）"
+  - id: uU4JJzIwYBg
+    title: "Abxylute M6 Review | A great new phone controller"
+    channel: "Ryan Retro"
+    published: 2026-10-10
+    added: 2026-11-27
+    note: "abxylute M6 のレビュー動画（英語）"
 ---
 
 abxylute（アブサイルート）が、スマホの背面に磁石で付けるスライド式コントローラー「M5」「M6」を10月6日にKickstarterで公開する。公式の告知画像によると、早期価格はM5が59ドル、M6が65ドル。通常価格はM5が84.99ドル、M6が89.99ドルと表示されている。
