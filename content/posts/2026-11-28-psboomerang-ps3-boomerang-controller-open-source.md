@@ -21,6 +21,11 @@ images:
   - url: "https://raw.githubusercontent.com/thepolymatt/psboomerang/main/docs/images/hero_pcb.png"
     caption: 本体と同じ曲線の基板（v0.4）の設計画面。ボタン用の接点とマイコンの位置が見える
 credit: polymatt GitHubリポジトリ（thepolymatt/psboomerang）
+clips:
+- file: psboomerang-ps3-boomerang-controller-open-source/hero.mp4
+  caption: "Sonyの幻のコントローラー（PSBoomerang）"
+  credit: "polymatt 公式 YouTube"
+  source: "https://youtu.be/1w722lkhs_E"
 sources:
   - title: Sony's Abandoned PS3 Boomerang controller finally reincarnates as a working gamepad 20 years later
     url: https://www.yankodesign.com/2026/11/27/sonys-abandoned-ps3-boomerang-controller-finally-reincarnates-as-a-working-gamepad-20-years-later/
