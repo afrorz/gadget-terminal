@@ -31,6 +31,10 @@
   "id": "40XbQBQ-pbk",
   "title": "Bambu Lab H3C｜色を変えるたびに、ノズルごと持ち替える3Dプリンター"
  },
+ "banana-pi-bpi-m2c-unisoc-5g-sbc": {
+  "id": "ftfT4ZGCvGs",
+  "title": "Banana Pi BPI-M2C｜SIMを差せば単体で5Gにつながる、スマホ用チップのシングルボード"
+ },
  "beelink-me-pro-modular-nas": {
   "id": "vejnIlo_9dQ",
   "title": "Beelink ME Pro｜基板を引き出して差し替える、育てられるNAS"
@@ -191,6 +195,10 @@
   "id": "cYnRP4KBprw",
   "title": "Pliavo｜84鍵のピアノが、本のように畳んでリュックに入る"
  },
+ "psboomerang-ps3-boomerang-controller-open-source": {
+  "id": "ZyN2KKuU8ns",
+  "title": "PSBoomerang｜Sonyが出さなかったPS3のブーメラン型コントローラーを、個人が実機に"
+ },
  "pulsar-x2-crazylight-2-wireless-mouse": {
   "id": "sXMBcexsTSg",
   "title": "Pulsar X2 CrazyLight 2｜40gのまま、ホイールまで赤外線で読むマウスに"
@@ -274,6 +282,10 @@
  "twelve-south-cablesnap-65w": {
   "id": "9lVMWTLPRxI",
   "title": "Twelve South Cablesnap 65W｜ケーブルが本体から生えてくる充電器"
+ },
+ "unihertz-titan-2-elite-white": {
+  "id": "x9P1aqLN9CQ",
+  "title": "Unihertz Titan 2 Elite｜キーをなぞるとスクロールする、キーボード付き5Gスマホ"
  },
  "xiaomi-watch-s5-41mm-global": {
   "id": "NoXwUVwN0Xc",
