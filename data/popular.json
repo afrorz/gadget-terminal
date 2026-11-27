@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "days": 7,
  "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 104,
-   "views": 161
+   "visits": 115,
+   "views": 169
   },
   {
    "path": "/posts/hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat.html",
@@ -14,49 +14,44 @@
    "views": 29
   },
   {
-   "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
-   "visits": 18,
-   "views": 21
-  },
-  {
    "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 18,
-   "views": 19
+   "visits": 20,
+   "views": 20
   },
   {
-   "path": "/posts/teenage-engineering-ep-bc-1-cd-player.html",
-   "visits": 16,
-   "views": 15
-  },
-  {
-   "path": "/posts/lucy-ai-studio-agent-workstation.html",
-   "visits": 15,
+   "path": "/posts/kodak-slidetag-eink-tracker.html",
+   "visits": 20,
    "views": 18
   },
   {
-   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "path": "/posts/teenage-engineering-ep-bc-1-cd-player.html",
+   "visits": 19,
+   "views": 18
+  },
+  {
+   "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
+   "visits": 17,
+   "views": 19
+  },
+  {
+   "path": "/posts/lucy-ai-studio-agent-workstation.html",
+   "visits": 14,
+   "views": 17
+  },
+  {
+   "path": "/posts/color-eink-devices-roundup.html",
+   "visits": 13,
+   "views": 33
+  },
+  {
+   "path": "/posts/coprint-quadro-4-toolhead-3d-printer.html",
    "visits": 13,
    "views": 13
   },
   {
-   "path": "/posts/kodak-slidetag-eink-tracker.html",
-   "visits": 13,
-   "views": 12
-  },
-  {
-   "path": "/posts/color-eink-devices-roundup.html",
-   "visits": 12,
-   "views": 32
-  },
-  {
-   "path": "/posts/coprint-quadro-4-toolhead-3d-printer.html",
-   "visits": 11,
-   "views": 11
-  },
-  {
    "path": "/posts/insta360-toast-color-epaper-photo-frame.html",
-   "visits": 11,
-   "views": 11
+   "visits": 13,
+   "views": 13
   },
   {
    "path": "/posts/m5stack-paperdiy-eink-kit.html",
@@ -69,39 +64,44 @@
    "views": 10
   },
   {
+   "path": "/posts/glinet-mango-2.html",
+   "visits": 8,
+   "views": 9
+  },
+  {
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "visits": 8,
+   "views": 8
+  },
+  {
+   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "visits": 8,
+   "views": 8
+  },
+  {
+   "path": "/posts/huawei-mate-x8.html",
+   "visits": 8,
+   "views": 7
+  },
+  {
+   "path": "/posts/nothing-ear-note-ai-recorder.html",
+   "visits": 7,
+   "views": 8
+  },
+  {
    "path": "/posts/dinooh-digital-film-camera-kickstarter.html",
    "visits": 7,
    "views": 7
   },
   {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
-   "visits": 7,
-   "views": 7
-  },
-  {
-   "path": "/posts/glinet-mango-2.html",
+   "path": "/posts/beambox-polly-digital-pet-makuake.html",
    "visits": 6,
-   "views": 7
+   "views": 8
   },
   {
-   "path": "/posts/nothing-ear-note-ai-recorder.html",
-   "visits": 6,
-   "views": 7
-  },
-  {
-   "path": "/posts/flipper-one-pocket-linux-kickstarter.html",
+   "path": "/posts/amoeba-one-keychain-phone-kickstarter.html",
    "visits": 6,
    "views": 6
-  },
-  {
-   "path": "/posts/imp-mini-arcade-elite-switch-2.html",
-   "visits": 6,
-   "views": 6
-  },
-  {
-   "path": "/posts/huawei-mate-x8.html",
-   "visits": 6,
-   "views": 5
   }
  ]
 }

@@ -1473,6 +1473,25 @@
  ],
  "https://media.motorolanews.fiestic.com/2026/11/04192341/New_CMFs_together-scaled.png": null,
  "https://media.motorolanews.fiestic.com/2026/11/04194353/New_Design-CMFs-SKU1-scaled.png": null,
+ "https://media.motorolanewsco.fiestic.com/2026/09/21172406/motorola-signature-27-1.webp": null,
+ "https://media.motorolanewsco.fiestic.com/2026/09/23130011/motorola-signature-27-Capulet-Olive-4.png": [
+  87,
+  22,
+  213,
+  275,
+  300,
+  300,
+  "#ffffff"
+ ],
+ "https://media.motorolanewsco.fiestic.com/2026/09/23130012/motorola-signature-27-Coal-Smoke-1.png": [
+  72,
+  13,
+  268,
+  256,
+  300,
+  300,
+  "#ffffff"
+ ],
  "https://media.nacongaming.com/media/catalog/product/p/s/ps5rev5u_w01.webp?width=1082&height=926&store=nacon_us&image-type=image": [
   106,
   0,
@@ -1773,6 +1792,7 @@
  "https://smartlet.io/cdn/shop/files/smartlet-one-titanium-1774142.jpg?v=1778163328&width=1024": null,
  "https://smartlet.io/cdn/shop/files/smartlet-one-titanium-2869088.jpg?v=1778163327&width=1080": null,
  "https://sony.scene7.com/is/image/sonyglobalsolutions/y_MDR-3R_003?$jpLargeStaticMainImage$": null,
+ "https://static-product.tp-link.com/tapo-c825_v1/m/01-hero-banner.png": null,
  "https://static.gl-inet.com/blog/images/2026/09/press_mg1300.jpg": null,
  "https://static.makuake.com/upload/project/53051/main_53051.jpg?version=1785971420&width=690&height=388": null,
  "https://static.makuake.com/upload/project/53073/detail_53073_17835759249871.jpg?width=800&height=450&fit=crop": null,
@@ -2070,6 +2090,15 @@
  "https://ucarecdn.com/9348f6d3-2a94-49f7-9b11-b6f84fe53f03/-/format/auto/-/preview/3000x3000/-/quality/lighter/13-X20Pro-%E8%90%BD%E5%9C%B0%E9%A1%B5-PC-%E5%AE%9A-2026_15.webp": null,
  "https://ucarecdn.com/9410e0b9-dfb7-4d0d-9872-2bffcbe6324e/-/format/auto/-/preview/3000x3000/-/quality/lighter/9-%E4%BA%A4%E4%BA%92%E5%B1%8F.webp": null,
  "https://ucarecdn.com/ef29ea8d-74c1-40cc-bb7a-43366dc84f19/-/format/auto/-/preview/3000x3000/-/quality/lighter/1-KV.webp": null,
+ "https://us.store.tapo.com/cdn/shop/files/tapo-c825-2pack-white-main.png?v=1793781079&width=800": [
+  55,
+  102,
+  750,
+  696,
+  800,
+  800,
+  "#fefefe"
+ ],
  "https://us.xgimi.com/cdn/shop/files/HORIZON30Pro.png?v=1790755418&width=2000": [
   318,
   424,
@@ -2355,6 +2384,24 @@
  ],
  "https://www.goretroid.com/cdn/shop/files/4_aa862f27-f191-4cbf-9e26-053570248f43_1200x1200.jpg": null,
  "https://www.ifixit.com/_next/image?url=https%3A%2F%2Fifixit-strapi-uploads.s3.us-east-1.amazonaws.com%2FOEM_Steam_Deck_be405f1a42.jpeg&w=3840&q=75": null,
+ "https://www.innioasis.com/cdn/shop/files/Y2_Black_1380x1380.jpg?v=1795229624": [
+  134,
+  65,
+  659,
+  764,
+  800,
+  800,
+  "#ffffff"
+ ],
+ "https://www.innioasis.com/cdn/shop/files/Y2_Main_KV02_1_1380x1380.png?v=1795229626": [
+  0,
+  46,
+  1380,
+  1380,
+  1380,
+  1380,
+  "#050306"
+ ],
  "https://www.intricuit.com/assets/images/intricuit-magic-screen-hero.webp": null,
  "https://www.intricuit.com/assets/images/macbook-magic-screen-side.webp": [
   54,
