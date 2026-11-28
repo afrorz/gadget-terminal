@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28",
+ "updated": "2026-11-29",
  "days": 7,
  "source": "GA4",
  "paths": [
   {
    "path": "/posts/figurobot-fr-nia.html",
-   "visits": 115,
-   "views": 169
+   "visits": 121,
+   "views": 177
   },
   {
    "path": "/posts/hackergadgets-rtl-sdr-lora-gps-rtc-pi-hat.html",
@@ -14,14 +14,14 @@
    "views": 29
   },
   {
-   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
-   "visits": 20,
+   "path": "/posts/kodak-slidetag-eink-tracker.html",
+   "visits": 23,
    "views": 20
   },
   {
-   "path": "/posts/kodak-slidetag-eink-tracker.html",
-   "visits": 20,
-   "views": 18
+   "path": "/posts/lofree-flow-lite-2-low-profile-keyboard.html",
+   "visits": 21,
+   "views": 21
   },
   {
    "path": "/posts/teenage-engineering-ep-bc-1-cd-player.html",
@@ -30,13 +30,23 @@
   },
   {
    "path": "/posts/aawireless-nexus-nano-wireless-android-auto.html",
-   "visits": 17,
-   "views": 19
+   "visits": 15,
+   "views": 18
   },
   {
    "path": "/posts/lucy-ai-studio-agent-workstation.html",
+   "visits": 15,
+   "views": 18
+  },
+  {
+   "path": "/posts/huawei-watch-air.html",
+   "visits": 15,
+   "views": 14
+  },
+  {
+   "path": "/posts/coprint-quadro-4-toolhead-3d-printer.html",
    "visits": 14,
-   "views": 17
+   "views": 15
   },
   {
    "path": "/posts/color-eink-devices-roundup.html",
@@ -44,37 +54,37 @@
    "views": 33
   },
   {
-   "path": "/posts/coprint-quadro-4-toolhead-3d-printer.html",
-   "visits": 13,
-   "views": 13
-  },
-  {
-   "path": "/posts/insta360-toast-color-epaper-photo-frame.html",
-   "visits": 13,
-   "views": 13
-  },
-  {
    "path": "/posts/m5stack-paperdiy-eink-kit.html",
-   "visits": 10,
-   "views": 9
+   "visits": 13,
+   "views": 12
   },
   {
-   "path": "/posts/open-benchtable-10y-anniversary-edition.html",
-   "visits": 8,
-   "views": 10
+   "path": "/posts/pliavo-folding-piano-kickstarter.html",
+   "visits": 12,
+   "views": 12
   },
   {
    "path": "/posts/glinet-mango-2.html",
+   "visits": 10,
+   "views": 12
+  },
+  {
+   "path": "/posts/insta360-toast-color-epaper-photo-frame.html",
+   "visits": 10,
+   "views": 11
+  },
+  {
+   "path": "/posts/nothing-ear-note-ai-recorder.html",
    "visits": 8,
    "views": 9
   },
   {
-   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
+   "path": "/posts/amoeba-one-keychain-phone-kickstarter.html",
    "visits": 8,
    "views": 8
   },
   {
-   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "path": "/posts/fosi-audio-dap-neo-ipod-style-player.html",
    "visits": 8,
    "views": 8
   },
@@ -84,24 +94,14 @@
    "views": 7
   },
   {
-   "path": "/posts/nothing-ear-note-ai-recorder.html",
-   "visits": 7,
-   "views": 8
-  },
-  {
    "path": "/posts/dinooh-digital-film-camera-kickstarter.html",
    "visits": 7,
    "views": 7
   },
   {
-   "path": "/posts/beambox-polly-digital-pet-makuake.html",
-   "visits": 6,
-   "views": 8
-  },
-  {
-   "path": "/posts/amoeba-one-keychain-phone-kickstarter.html",
-   "visits": 6,
-   "views": 6
+   "path": "/posts/xiaomi-watch-s5-41mm-global.html",
+   "visits": 7,
+   "views": 7
   }
  ]
 }

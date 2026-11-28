@@ -370,6 +370,33 @@
   1600,
   "#ffffff"
  ],
+ "https://cdn.shopify.com/s/files/1/0520/5337/7214/files/T2US-E1-US-01.jpg?v=1794818558": [
+  262,
+  139,
+  739,
+  862,
+  1000,
+  1000,
+  "#f3f3f3"
+ ],
+ "https://cdn.shopify.com/s/files/1/0520/5337/7214/files/T2US-E1-US-03.jpg?v=1787045275": [
+  165,
+  139,
+  835,
+  862,
+  1000,
+  1000,
+  "#f3f3f3"
+ ],
+ "https://cdn.shopify.com/s/files/1/0520/5337/7214/files/T2US-E8-US-01.jpg?v=1794911200": [
+  261,
+  139,
+  739,
+  862,
+  1000,
+  1000,
+  "#f3f3f3"
+ ],
  "https://cdn.shopify.com/s/files/1/0526/3917/0738/files/33-3HDMI_DP-_-02.jpg": [
   50,
   27,
@@ -752,6 +779,15 @@
   2078,
   2400,
   2400
+ ],
+ "https://docs.banana-pi.org/bpi-m2c/m2c_interface_en_261126.jpg": [
+  30,
+  55,
+  795,
+  918,
+  800,
+  966,
+  "#ffffff"
  ],
  "https://duva.com/assets/duva/home/acoustic-head-desktop.webp": null,
  "https://duva.com/assets/duva/home/forest-scene-desktop.webp": [
@@ -1189,6 +1225,15 @@
   2000,
   "#ffffff"
  ],
+ "https://images-oss.2cshop.com/upload/customer_15823/upload/20261123/f68602c82ae87f0b9bdadbf06cf00d17.jpg": [
+  133,
+  219,
+  668,
+  582,
+  800,
+  800,
+  "#ffffff"
+ ],
  "https://images.blackmagicdesign.com/images/products/blackmagicambisonic/product-grid/blackmagic-ambisonic-microphone-kit@2x.jpg": [
   84,
   17,
@@ -1618,6 +1663,8 @@
  "https://raven.computer/og-image.jpg": null,
  "https://raw.githubusercontent.com/google/mozc-devices/main/mozc-conveyorbelt/images/conveyorbelt.webp": null,
  "https://raw.githubusercontent.com/google/mozc-devices/main/mozc-conveyorbelt/images/diy.webp": null,
+ "https://raw.githubusercontent.com/thepolymatt/psboomerang/main/docs/images/hero_pcb.png": null,
+ "https://raw.githubusercontent.com/thepolymatt/psboomerang/main/docs/images/hero_render.png": null,
  "https://repebble.com/assets/pebble-round-2-starts-shipping-0-round_2_email_banner-social.jpg": null,
  "https://repebble.com/assets/pebble-round-2-starts-shipping-1-cleanshot_2026-09-29_at_16.20.242x.png": null,
  "https://res.cloudinary.com/elgato-pwa/image/upload/f_auto/q_auto/v1791882874/Products/10MAP9901%20(Wave%20Go)/Explorer/Clip-On_vs_Handheld_Mic.png": null,
